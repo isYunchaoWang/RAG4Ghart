@@ -1,0 +1,71 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {50} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {no clear linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Blood pressure in the scatter plot?",
+            "A": "The maximum observed value in the Blood pressure dimension is {180.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Blood pressure in the scatter plot?",
+            "A": "The minimum observed value in the Blood pressure dimension is {80.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Treatment cost in the scatter plot?",
+            "A": "The maximum observed value in the Treatment cost dimension is {50000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Treatment cost in the scatter plot?",
+            "A": "The minimum observed value in the Treatment cost dimension is {100.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Blood pressure for all points?",
+            "A": "The average value of Blood pressure for all points is {130.00}."
+        },
+        {
+            "Q": "What is the average value of the Treatment cost for all points?",
+            "A": "The average value of Treatment cost for all points is {29845.01}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Treatment cost values corresponding to the top 3 Blood pressure values in the scatter plot?",
+            "A": "{5104.76, 100.00, 2379.64}."
+        },
+        {
+            "Q": "What are the Treatment cost values corresponding to the bottom 3 Blood pressure values in the scatter plot?",
+            "A": "{6401.89, 4850.44, 4923.53}."
+        },
+        {
+            "Q": "What are the Blood pressure values corresponding to the top 3 Treatment cost values in the scatter plot?",
+            "A": "{122.86, 137.14, 126.94}."
+        },
+        {
+            "Q": "What are the Blood pressure values corresponding to the bottom 3 Treatment cost values in the scatter plot?",
+            "A": "{177.96, 180.00, 86.12}."
+        }
+    ],
+    "NC": [],
+    "MSR": [],
+    "VA": []
+}

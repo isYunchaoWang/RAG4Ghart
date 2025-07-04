@@ -1,0 +1,193 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Misty Meadow Acres's Crop Yield levels?",
+            "A": "Misty Meadow Acres's Crop Yield levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Golden Harvest Cooperative's Crop Yield levels?",
+            "A": "Golden Harvest Cooperative's Crop Yield levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Starfall Organics's Crop Yield levels?",
+            "A": "Starfall Organics's Crop Yield levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Sunstone Farms's Crop Yield levels?",
+            "A": "Sunstone Farms's Crop Yield levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Whispering Willows Estate's Crop Yield levels?",
+            "A": "Whispering Willows Estate's Crop Yield levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Crop Yield levels?",
+            "A": "{Misty Meadow Acres}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Crop Yield levels?",
+            "A": "{Golden Harvest Cooperative}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Crop Yield levels?",
+            "A": "{Starfall Organics}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Crop Yield levels?",
+            "A": "{Sunstone Farms}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Crop Yield level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {179385.35} tons/hectare in 2006."
+        },
+        {
+            "Q": "What is the lowest Crop Yield level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {100465.69} tons/hectare in 2000."
+        },
+        {
+            "Q": "What is the highest Crop Yield level recorded for Misty Meadow Acres?",
+            "A": "Misty Meadow Acres reached approximately {121653.19} tons/hectare in 2006."
+        },
+        {
+            "Q": "What is the lowest Crop Yield level recorded for Misty Meadow Acres?",
+            "A": "Misty Meadow Acres's lowest recorded level is approximately {79281.25} tons/hectare in 2004."
+        },
+        {
+            "Q": "What is the highest Crop Yield level recorded for Starfall Organics?",
+            "A": "Starfall Organics reached approximately {37682.39} tons/hectare in 2005."
+        },
+        {
+            "Q": "What is the lowest Crop Yield level recorded for Starfall Organics?",
+            "A": "Starfall Organics's lowest recorded level is approximately {9854.15} tons/hectare in 2003."
+        },
+        {
+            "Q": "What is the highest Crop Yield level recorded for Sunstone Farms?",
+            "A": "Sunstone Farms reached approximately {105525.87} tons/hectare in 2000."
+        },
+        {
+            "Q": "What is the lowest Crop Yield level recorded for Sunstone Farms?",
+            "A": "Sunstone Farms's lowest recorded level is approximately {55432.88} tons/hectare in 2006."
+        },
+        {
+            "Q": "What is the highest Crop Yield level recorded for Whispering Willows Estate?",
+            "A": "Whispering Willows Estate reached approximately {102499.73} tons/hectare in 2001."
+        },
+        {
+            "Q": "What is the lowest Crop Yield level recorded for Whispering Willows Estate?",
+            "A": "Whispering Willows Estate's lowest recorded level is approximately {59439.41} tons/hectare in 2005."
+        },
+        {
+            "Q": "What is Whispering Willows Estate's Crop Yield in 1970?",
+            "A": "Whispering Willows Estate's crop yield in 1970 is {59439.41} tons/hectare."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Crop Yield in 1970?",
+            "A": "Golden Harvest Cooperative's crop yield in 1970 is {163996.25} tons/hectare."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Crop Yield in 1970?",
+            "A": "Golden Harvest Cooperative's crop yield in 1970 is {152333.53} tons/hectare."
+        },
+        {
+            "Q": "What are the crop yield of Misty Meadow Acres, Golden Harvest Cooperative, and Starfall Organics in 1970?",
+            "A": "{Misty Meadow Acres}'s crop yield is {102119.63} tons/hectare, {Golden Harvest Cooperative}'s crop yield is {100465.69} tons/hectare, {Starfall Organics}'s crop yield is {33545.46} tons/hectare."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Crop Yield in the line chart?",
+            "A": "The global minimum crop yield is {9854.15} tons/hectare."
+        },
+        {
+            "Q": "What is the global maximum Crop Yield in the line chart?",
+            "A": "The global maximum crop yield is {179385.35} tons/hectare."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Golden Harvest Cooperative's Crop Yield?",
+            "A": "The average value of Golden Harvest Cooperative's Crop Yield is {137484.55} tons/hectare."
+        },
+        {
+            "Q": "What is the average value of Misty Meadow Acres's Crop Yield?",
+            "A": "The average value of Misty Meadow Acres's Crop Yield is {103306.43} tons/hectare."
+        },
+        {
+            "Q": "What is the average value of Starfall Organics's Crop Yield?",
+            "A": "The average value of Starfall Organics's Crop Yield is {26105.26} tons/hectare."
+        },
+        {
+            "Q": "What is the average value of Sunstone Farms's Crop Yield?",
+            "A": "The average value of Sunstone Farms's Crop Yield is {76285.78} tons/hectare."
+        },
+        {
+            "Q": "What is the average value of Whispering Willows Estate's Crop Yield?",
+            "A": "The average value of Whispering Willows Estate's Crop Yield is {77842.94} tons/hectare."
+        },
+        {
+            "Q": "What is the rate of change in Golden Harvest Cooperative's Crop Yield from the starting year to the final year?",
+            "A": "The rate of change in Golden Harvest Cooperative's Crop Yield is {78.55}%."
+        },
+        {
+            "Q": "What is the rate of change in Misty Meadow Acres's Crop Yield from the starting year to the final year?",
+            "A": "The rate of change in Misty Meadow Acres's Crop Yield is {19.13}%."
+        },
+        {
+            "Q": "What is the rate of change in Starfall Organics's Crop Yield from the starting year to the final year?",
+            "A": "The rate of change in Starfall Organics's Crop Yield is {-15.90}%."
+        },
+        {
+            "Q": "What is the rate of change in Sunstone Farms's Crop Yield from the starting year to the final year?",
+            "A": "The rate of change in Sunstone Farms's Crop Yield is {-47.47}%."
+        },
+        {
+            "Q": "What is the rate of change in Whispering Willows Estate's Crop Yield from the starting year to the final year?",
+            "A": "The rate of change in Whispering Willows Estate's Crop Yield is {-36.66}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Whispering Willows Estate's Crop Yield exceed 84066 tons/hectare? Please list the years and corresponding values.",
+            "A": "97452.15 tons/hectare in {2000.0} year, 102499.73 tons/hectare in {2001.0} year."
+        },
+        {
+            "Q": "Which years did Whispering Willows Estate's Crop Yield below 65782 tons/hectare? Please list the years and corresponding values.",
+            "A": "59439.41 tons/hectare in {2005.0} year, 61730.79 tons/hectare in {2006.0} year."
+        },
+        {
+            "Q": "Which years did Whispering Willows Estate's Crop Yield between 67432 and 82417 tons/hectare? Please list the years and corresponding values.",
+            "A": "80719.54 tons/hectare in {2002.0} year, 76263.82 tons/hectare in {2003.0} year."
+        },
+        {
+            "Q": "In the year 2002, which line had Crop Yield exceed 107035 tons/hectare? Please list the lines and corresponding values.",
+            "A": "{Misty Meadow Acres} had 112736 tons/hectare, {Golden Harvest Cooperative} had 119383 tons/hectare."
+        },
+        {
+            "Q": "In the year 2002, which lines had Crop Yield below 81422 tons/hectare? Please list the lines and corresponding values.",
+            "A": "{Starfall Organics} had 17094 tons/hectare, {Whispering Willows Estate} had 80720 tons/hectare."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Crop Yield, Golden Harvest Cooperative or Starfall Organics?",
+            "A": "In 1970, {Golden Harvest Cooperative} had a higher crop yield."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

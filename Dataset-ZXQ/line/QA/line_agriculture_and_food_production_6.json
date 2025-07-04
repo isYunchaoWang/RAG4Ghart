@@ -1,0 +1,237 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Sunstone Farms's Organic Farming Area levels?",
+            "A": "Sunstone Farms's Organic Farming Area levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Ranch's Organic Farming Area levels?",
+            "A": "Ironwood Ranch's Organic Farming Area levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Misty Meadow Acres's Organic Farming Area levels?",
+            "A": "Misty Meadow Acres's Organic Farming Area levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Whispering Willows Estate's Organic Farming Area levels?",
+            "A": "Whispering Willows Estate's Organic Farming Area levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Riverbend Plantation's Organic Farming Area levels?",
+            "A": "Riverbend Plantation's Organic Farming Area levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Golden Harvest Cooperative's Organic Farming Area levels?",
+            "A": "Golden Harvest Cooperative's Organic Farming Area levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Starfall Organics's Organic Farming Area levels?",
+            "A": "Starfall Organics's Organic Farming Area levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Organic Farming Area levels?",
+            "A": "{Sunstone Farms}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Organic Farming Area levels?",
+            "A": "{Ironwood Ranch}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Organic Farming Area levels?",
+            "A": "{Riverbend Plantation}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Organic Farming Area levels?",
+            "A": "{Golden Harvest Cooperative}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Organic Farming Area levels?",
+            "A": "{Starfall Organics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {1910.26} hectares in 2006."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {860.95} hectares in 2020."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch reached approximately {1120.66} hectares in 1995."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch's lowest recorded level is approximately {281.34} hectares in 2008."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Misty Meadow Acres?",
+            "A": "Misty Meadow Acres reached approximately {1193.43} hectares in 2020."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Misty Meadow Acres?",
+            "A": "Misty Meadow Acres's lowest recorded level is approximately {141.80} hectares in 2008."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Riverbend Plantation?",
+            "A": "Riverbend Plantation reached approximately {1326.53} hectares in 2000."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Riverbend Plantation?",
+            "A": "Riverbend Plantation's lowest recorded level is approximately {634.01} hectares in 2008."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Starfall Organics?",
+            "A": "Starfall Organics reached approximately {1289.36} hectares in 1994."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Starfall Organics?",
+            "A": "Starfall Organics's lowest recorded level is approximately {10.00} hectares in 2006."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Sunstone Farms?",
+            "A": "Sunstone Farms reached approximately {2342.98} hectares in 2019."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Sunstone Farms?",
+            "A": "Sunstone Farms's lowest recorded level is approximately {881.17} hectares in 1994."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Whispering Willows Estate?",
+            "A": "Whispering Willows Estate reached approximately {2491.78} hectares in 2019."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Whispering Willows Estate?",
+            "A": "Whispering Willows Estate's lowest recorded level is approximately {894.71} hectares in 1995."
+        },
+        {
+            "Q": "What is Riverbend Plantation's Organic Farming Area in 1970?",
+            "A": "Riverbend Plantation's organic farming area in 1970 is {1180.32} hectares."
+        },
+        {
+            "Q": "What is Misty Meadow Acres's Organic Farming Area in 1970?",
+            "A": "Misty Meadow Acres's organic farming area in 1970 is {170.34} hectares."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Organic Farming Area in 1970?",
+            "A": "Golden Harvest Cooperative's organic farming area in 1970 is {1082.60} hectares."
+        },
+        {
+            "Q": "What are the organic farming area of Sunstone Farms, Ironwood Ranch, and Misty Meadow Acres in 1970?",
+            "A": "{Sunstone Farms}'s organic farming area is {881.17} hectares, {Ironwood Ranch}'s organic farming area is {994.66} hectares, {Misty Meadow Acres}'s organic farming area is {846.70} hectares."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Organic Farming Area in the line chart?",
+            "A": "The global minimum organic farming area is {10.00} hectares."
+        },
+        {
+            "Q": "What is the global maximum Organic Farming Area in the line chart?",
+            "A": "The global maximum organic farming area is {2491.78} hectares."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Golden Harvest Cooperative's Organic Farming Area?",
+            "A": "The average value of Golden Harvest Cooperative's Organic Farming Area is {1349.50} hectares."
+        },
+        {
+            "Q": "What is the average value of Ironwood Ranch's Organic Farming Area?",
+            "A": "The average value of Ironwood Ranch's Organic Farming Area is {676.91} hectares."
+        },
+        {
+            "Q": "What is the average value of Misty Meadow Acres's Organic Farming Area?",
+            "A": "The average value of Misty Meadow Acres's Organic Farming Area is {675.59} hectares."
+        },
+        {
+            "Q": "What is the average value of Riverbend Plantation's Organic Farming Area?",
+            "A": "The average value of Riverbend Plantation's Organic Farming Area is {996.74} hectares."
+        },
+        {
+            "Q": "What is the average value of Starfall Organics's Organic Farming Area?",
+            "A": "The average value of Starfall Organics's Organic Farming Area is {306.54} hectares."
+        },
+        {
+            "Q": "What is the average value of Sunstone Farms's Organic Farming Area?",
+            "A": "The average value of Sunstone Farms's Organic Farming Area is {1624.26} hectares."
+        },
+        {
+            "Q": "What is the average value of Whispering Willows Estate's Organic Farming Area?",
+            "A": "The average value of Whispering Willows Estate's Organic Farming Area is {1638.73} hectares."
+        },
+        {
+            "Q": "What is the rate of change in Golden Harvest Cooperative's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Golden Harvest Cooperative's Organic Farming Area is {-17.07}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Ranch's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Ironwood Ranch's Organic Farming Area is {-11.76}%."
+        },
+        {
+            "Q": "What is the rate of change in Misty Meadow Acres's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Misty Meadow Acres's Organic Farming Area is {40.95}%."
+        },
+        {
+            "Q": "What is the rate of change in Riverbend Plantation's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Riverbend Plantation's Organic Farming Area is {2.67}%."
+        },
+        {
+            "Q": "What is the rate of change in Starfall Organics's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Starfall Organics's Organic Farming Area is {-99.22}%."
+        },
+        {
+            "Q": "What is the rate of change in Sunstone Farms's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Sunstone Farms's Organic Farming Area is {164.05}%."
+        },
+        {
+            "Q": "What is the rate of change in Whispering Willows Estate's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of change in Whispering Willows Estate's Organic Farming Area is {114.12}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Golden Harvest Cooperative's Organic Farming Area exceed 1533 hectares? Please list the years and corresponding values.",
+            "A": "1723.45 hectares in {2002.0} year, 1550.01 hectares in {2003.0} year, 1698.81 hectares in {2005.0} year."
+        },
+        {
+            "Q": "Which years did Golden Harvest Cooperative's Organic Farming Area below 1122 hectares? Please list the years and corresponding values.",
+            "A": "1038.15 hectares in {1994.0} year, 891.47 hectares in {1995.0} year, 1020.03 hectares in {1998.0} year."
+        },
+        {
+            "Q": "Which years did Golden Harvest Cooperative's Organic Farming Area between 1195 and 1460 hectares? Please list the years and corresponding values.",
+            "A": "1280.28 hectares in {1997.0} year, 1273.42 hectares in {2000.0} year, 1357.76 hectares in {2001.0} year."
+        },
+        {
+            "Q": "In the year 2006, which line had Organic Farming Area exceed 1523 hectares? Please list the lines and corresponding values.",
+            "A": "{Sunstone Farms} had 1540 hectares, {Golden Harvest Cooperative} had 1910 hectares."
+        },
+        {
+            "Q": "In the year 2006, which lines had Organic Farming Area below 377 hectares? Please list the lines and corresponding values.",
+            "A": "{Ironwood Ranch} had 294 hectares, {Starfall Organics} had 10 hectares."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Organic Farming Area, Golden Harvest Cooperative or Starfall Organics?",
+            "A": "In 1970, {Starfall Organics} had a higher organic farming area."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

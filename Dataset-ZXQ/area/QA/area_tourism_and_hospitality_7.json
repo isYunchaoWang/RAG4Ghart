@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total loyalty program members?",
+            "A": "The series with the largest contribution is {Family Vacationers}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total loyalty program members?",
+            "A": "The series with the smallest contribution is {Global Travelers Club}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Foodie Passport's Loyalty Program Members in 1980?",
+            "A": "Foodie Passport's loyalty program members in 1980 is {1097388.26} members."
+        },
+        {
+            "Q": "What is Frequent Flyers's Loyalty Program Members in 1972?",
+            "A": "Frequent Flyers's loyalty program members in 1972 is {1215387.91} members."
+        },
+        {
+            "Q": "What is Foodie Passport's Loyalty Program Members in 1990?",
+            "A": "Foodie Passport's loyalty program members in 1990 is {1026589.11} members."
+        },
+        {
+            "Q": "What are the loyalty program members of Frequent Flyers, Global Travelers Club, and Adventure Seekers in 1991?",
+            "A": "Frequent Flyers's loyalty program members is {1204717.34} members, Global Travelers Club's loyalty program members is {10000} members, Adventure Seekers's loyalty program members is {10000} members."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Loyalty Program Members in the stacked area chart?",
+            "A": "The global minimum total loyalty program members is {3952603.11} members."
+        },
+        {
+            "Q": "What is the global maximum total Loyalty Program Members in the stacked area chart?",
+            "A": "The global maximum total loyalty program members is {6777834.69} members."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Global Travelers Club's Loyalty Program Members area?",
+            "A": "The average height of Global Travelers Club's loyalty program members area is {420441.14} members."
+        },
+        {
+            "Q": "What is the average height of Adventure Seekers's Loyalty Program Members area?",
+            "A": "The average height of Adventure Seekers's loyalty program members area is {425649.25} members."
+        },
+        {
+            "Q": "What is the average height of Frequent Flyers's Loyalty Program Members area?",
+            "A": "The average height of Frequent Flyers's loyalty program members area is {1011649.51} members."
+        },
+        {
+            "Q": "What is the average height of Foodie Passport's Loyalty Program Members area?",
+            "A": "The average height of Foodie Passport's loyalty program members area is {1000891.92} members."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Loyalty Program Members exceed 5296235 members? Please list the years and corresponding total values.",
+            "A": "total value was {6148240.31} members in {1977}, total value was {5449678.75} members in {1973}, total value was {6132514.17} members in {1975}."
+        },
+        {
+            "Q": "Which years did the total Loyalty Program Members fall between 4853887 and 5364822 members? Please list the years and corresponding total values.",
+            "A": "total value was {5016613.16} members in {1987}, total value was {5217817.54} members in {1991}, total value was {5194242.22} members in {1990}."
+        },
+        {
+            "Q": "Which years did the total Loyalty Program Members go below 4922475 members? Please list the years and corresponding total values.",
+            "A": "total value was {4319511.49} members in {1989}, total value was {3952603.11} members in {1984}, total value was {4266876.55} members in {1983}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Loyalty Program Members in 1974 higher or lower than in 1976?",
+            "A": "The total loyalty program members in {1974} was {higher} than in {1976}."
+        },
+        {
+            "Q": "Between 1975 and 1979, did the total Loyalty Program Members experience a larger or smaller change than between 1972 and 1980?",
+            "A": "The change in total loyalty program members between {1975} and {1979} was {smaller} than between {1972} and {1980}."
+        },
+        {
+            "Q": "Was the total Loyalty Program Members in 1970 higher or lower than in 1985?",
+            "A": "The total loyalty program members in {1970} was {higher} than in {1985}."
+        },
+        {
+            "Q": "Between 1971 and 1991, did the total Loyalty Program Members experience a larger or smaller change than between 1971 and 1981?",
+            "A": "The change in total loyalty program members between {1971} and {1991} was {smaller} than between {1971} and {1981}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

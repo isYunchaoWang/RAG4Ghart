@@ -1,0 +1,125 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Meridian Gas & Electric's Carbon Emissions levels?",
+            "A": "Meridian Gas & Electric's carbon emissions levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of AquaFlow Utilities's Carbon Emissions levels?",
+            "A": "AquaFlow Utilities's carbon emissions levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Zephyr Waste Solutions's Carbon Emissions levels?",
+            "A": "Zephyr Waste Solutions's carbon emissions levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Stellar Grid Solutions's Carbon Emissions levels?",
+            "A": "Stellar Grid Solutions's carbon emissions levels show a {volatile falling} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Stellar Grid Solutions's Carbon Emissions in 1966?",
+            "A": "Stellar Grid Solutions's carbon emissions in 1966 is {800000.00} tons."
+        },
+        {
+            "Q": "What is Meridian Gas & Electric's Carbon Emissions in 1963?",
+            "A": "Meridian Gas & Electric's carbon emissions in 1963 is {6188820.65} tons."
+        },
+        {
+            "Q": "What is Borealis Renewables's Carbon Emissions in 1958?",
+            "A": "Borealis Renewables's carbon emissions in 1958 is {3087750.33} tons."
+        },
+        {
+            "Q": "What are the carbon emissions of Zephyr Waste Solutions, Borealis Renewables, and AquaFlow Utilities in 1955?",
+            "A": "Zephyr Waste Solutions's carbon emissions is {6655000.00} tons, Borealis Renewables's carbon emissions is {4075545.33} tons, AquaFlow Utilities's carbon emissions is {9183252.34} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Carbon Emissions in the line chart?",
+            "A": "The global minimum carbon emissions is {50000.00} tons."
+        },
+        {
+            "Q": "What is the global maximum Carbon Emissions in the line chart?",
+            "A": "The global maximum carbon emissions is {25272351.42} tons."
+        },
+        {
+            "Q": "What is the highest Carbon Emissions level recorded for AquaFlow Utilities?",
+            "A": "AquaFlow Utilities reached approximately {9997548.86} tons in {1960}."
+        },
+        {
+            "Q": "What is the lowest Carbon Emissions level recorded for AquaFlow Utilities?",
+            "A": "AquaFlow Utilities's lowest recorded level is approximately {7850736.84} tons in {1952}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Meridian Gas & Electric's Carbon Emissions?",
+            "A": "The average value of Meridian Gas & Electric's carbon emissions is {5106864.01} tons."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Gas & Electric's Carbon Emissions from the starting year to the final year?",
+            "A": "The rate of change in Meridian Gas & Electric's carbon emissions is {14.69}%."
+        },
+        {
+            "Q": "What is the average value of TerraGen Power's Carbon Emissions?",
+            "A": "The average value of TerraGen Power's carbon emissions is {7420964.55} tons."
+        },
+        {
+            "Q": "What is the rate of change in TerraGen Power's Carbon Emissions from the starting year to the final year?",
+            "A": "The rate of change in TerraGen Power's carbon emissions is {-4.97}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1962, which lines had Carbon Emissions below 2139150 tons? Please list the lines and corresponding values.",
+            "A": "{Stellar Grid Solutions} had {2000000} tons, {Solara Energy Corp} had {1538314} tons."
+        },
+        {
+            "Q": "In the year 1966, which line had Carbon Emissions exceed 7296907 tons? Please list the lines and corresponding values.",
+            "A": "{Zephyr Waste Solutions} had {18987492} tons, {AquaFlow Utilities} had {9183252} tons."
+        },
+        {
+            "Q": "In the year 1954, which line had Carbon Emissions exceed 6205064 tons? Please list the lines and corresponding values.",
+            "A": "{TerraGen Power} had {6825321} tons, {AquaFlow Utilities} had {8795142} tons."
+        },
+        {
+            "Q": "Which years did Stellar Grid Solutions's Carbon Emissions exceed 3470000 tons? Please list the years and corresponding values.",
+            "A": "{4400000} tons in {1954} year, {4100000} tons in {1955} year, {4700000} tons in {1953} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Borealis Renewables's Carbon Emissions in 1954 higher or lower than in 1955?",
+            "A": "The carbon emissions in 1954 was higher than in 1955."
+        },
+        {
+            "Q": "Was TerraGen Power's Carbon Emissions in 1952 higher or lower than in 1962?",
+            "A": "The carbon emissions in 1952 was lower than in 1962."
+        },
+        {
+            "Q": "Between 1956 and 1958, which line had the highest average Carbon Emissions, Stellar Grid Solutions, TerraGen Power, or Borealis Renewables?",
+            "A": "{TerraGen Power} had the highest average carbon emissions."
+        },
+        {
+            "Q": "In 1952, which line had a higher Carbon Emissions, Solara Energy Corp or Zephyr Waste Solutions?",
+            "A": "In 1952, {Zephyr Waste Solutions} had a higher carbon emissions."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

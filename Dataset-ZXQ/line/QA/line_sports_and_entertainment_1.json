@@ -1,0 +1,217 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Ironwood Classic's Stadium Attendance levels?",
+            "A": "Ironwood Classic's Stadium Attendance levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Echo Bowl's Stadium Attendance levels?",
+            "A": "Echo Bowl's Stadium Attendance levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Aether Cup Finals's Stadium Attendance levels?",
+            "A": "Aether Cup Finals's Stadium Attendance levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Nova Games's Stadium Attendance levels?",
+            "A": "Nova Games's Stadium Attendance levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Silverleaf Open's Stadium Attendance levels?",
+            "A": "Silverleaf Open's Stadium Attendance levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Clash's Stadium Attendance levels?",
+            "A": "Crimson Clash's Stadium Attendance levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Stadium Attendance levels?",
+            "A": "{Ironwood Classic}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Stadium Attendance levels?",
+            "A": "{Echo Bowl}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Stadium Attendance levels?",
+            "A": "{Aether Cup Finals}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Stadium Attendance levels?",
+            "A": "{Silverleaf Open}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Aether Cup Finals?",
+            "A": "Aether Cup Finals reached approximately {719795.78} tickets/session in 2001."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Aether Cup Finals?",
+            "A": "Aether Cup Finals's lowest recorded level is approximately {53021.94} tickets/session in 1973."
+        },
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Crimson Clash?",
+            "A": "Crimson Clash reached approximately {730646.15} tickets/session in 2001."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Crimson Clash?",
+            "A": "Crimson Clash's lowest recorded level is approximately {45803.99} tickets/session in 1973."
+        },
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Echo Bowl?",
+            "A": "Echo Bowl reached approximately {56995.66} tickets/session in 1986."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Echo Bowl?",
+            "A": "Echo Bowl's lowest recorded level is approximately {46162.75} tickets/session in 1992."
+        },
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Ironwood Classic?",
+            "A": "Ironwood Classic reached approximately {93578.65} tickets/session in 1994."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Ironwood Classic?",
+            "A": "Ironwood Classic's lowest recorded level is approximately {61007.26} tickets/session in 2000."
+        },
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Nova Games?",
+            "A": "Nova Games reached approximately {55783.45} tickets/session in 1998."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Nova Games?",
+            "A": "Nova Games's lowest recorded level is approximately {43705.86} tickets/session in 1992."
+        },
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Silverleaf Open?",
+            "A": "Silverleaf Open reached approximately {163983.96} tickets/session in 1999."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Silverleaf Open?",
+            "A": "Silverleaf Open's lowest recorded level is approximately {42607.99} tickets/session in 1973."
+        },
+        {
+            "Q": "What is Silverleaf Open's Stadium Attendance in 1970?",
+            "A": "Silverleaf Open's stadium attendance in 1970 is {134739.00} tickets/session."
+        },
+        {
+            "Q": "What is Crimson Clash's Stadium Attendance in 1970?",
+            "A": "Crimson Clash's stadium attendance in 1970 is {70065.44} tickets/session."
+        },
+        {
+            "Q": "What is Crimson Clash's Stadium Attendance in 1970?",
+            "A": "Crimson Clash's stadium attendance in 1970 is {598490.79} tickets/session."
+        },
+        {
+            "Q": "What are the stadium attendance of Ironwood Classic, Echo Bowl, and Aether Cup Finals in 1970?",
+            "A": "{Ironwood Classic}'s stadium attendance is {67492.65} tickets/session, {Echo Bowl}'s stadium attendance is {50105.08} tickets/session, {Aether Cup Finals}'s stadium attendance is {53021.94} tickets/session."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Stadium Attendance in the line chart?",
+            "A": "The global minimum stadium attendance is {42607.99} tickets/session."
+        },
+        {
+            "Q": "What is the global maximum Stadium Attendance in the line chart?",
+            "A": "The global maximum stadium attendance is {730646.15} tickets/session."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aether Cup Finals's Stadium Attendance?",
+            "A": "The average value of Aether Cup Finals's Stadium Attendance is {255394.70} tickets/session."
+        },
+        {
+            "Q": "What is the average value of Crimson Clash's Stadium Attendance?",
+            "A": "The average value of Crimson Clash's Stadium Attendance is {256754.51} tickets/session."
+        },
+        {
+            "Q": "What is the average value of Echo Bowl's Stadium Attendance?",
+            "A": "The average value of Echo Bowl's Stadium Attendance is {50399.70} tickets/session."
+        },
+        {
+            "Q": "What is the average value of Ironwood Classic's Stadium Attendance?",
+            "A": "The average value of Ironwood Classic's Stadium Attendance is {81035.41} tickets/session."
+        },
+        {
+            "Q": "What is the average value of Nova Games's Stadium Attendance?",
+            "A": "The average value of Nova Games's Stadium Attendance is {49776.32} tickets/session."
+        },
+        {
+            "Q": "What is the average value of Silverleaf Open's Stadium Attendance?",
+            "A": "The average value of Silverleaf Open's Stadium Attendance is {105637.83} tickets/session."
+        },
+        {
+            "Q": "What is the rate of change in Aether Cup Finals's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of change in Aether Cup Finals's Stadium Attendance is {1257.54}%."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Clash's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of change in Crimson Clash's Stadium Attendance is {1495.16}%."
+        },
+        {
+            "Q": "What is the rate of change in Echo Bowl's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of change in Echo Bowl's Stadium Attendance is {-2.88}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Classic's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of change in Ironwood Classic's Stadium Attendance is {2.03}%."
+        },
+        {
+            "Q": "What is the rate of change in Nova Games's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of change in Nova Games's Stadium Attendance is {2.31}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverleaf Open's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of change in Silverleaf Open's Stadium Attendance is {256.03}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Ironwood Classic's Stadium Attendance exceed 86681 tickets/session? Please list the years and corresponding values.",
+            "A": "87697.31 tickets/session in {1978.0} year, 87660.05 tickets/session in {1980.0} year, 91549.06 tickets/session in {1982.0} year."
+        },
+        {
+            "Q": "Which years did Ironwood Classic's Stadium Attendance below 78062 tickets/session? Please list the years and corresponding values.",
+            "A": "67492.65 tickets/session in {1973.0} year, 65965.23 tickets/session in {1974.0} year, 77962.32 tickets/session in {1977.0} year."
+        },
+        {
+            "Q": "Which years did Ironwood Classic's Stadium Attendance between 74134 and 90608 tickets/session? Please list the years and corresponding values.",
+            "A": "78210.48 tickets/session in {1975.0} year, 80465.62 tickets/session in {1976.0} year, 77962.32 tickets/session in {1977.0} year."
+        },
+        {
+            "Q": "In the year 1988, which line had Stadium Attendance exceed 155409 tickets/session? Please list the lines and corresponding values.",
+            "A": "{Aether Cup Finals} had 206497 tickets/session, {Crimson Clash} had 211940 tickets/session."
+        },
+        {
+            "Q": "In the year 1988, which lines had Stadium Attendance below 61358 tickets/session? Please list the lines and corresponding values.",
+            "A": "{Echo Bowl} had 47443 tickets/session, {Nova Games} had 44997 tickets/session."
+        },
+        {
+            "Q": "In the year 1988, which lines had Stadium Attendance between 97545 and 119222 tickets/session? Please list the lines and corresponding values.",
+            "A": "{Silverleaf Open} had 104322 tickets/session."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Stadium Attendance, Echo Bowl or Aether Cup Finals?",
+            "A": "In 1970, {Aether Cup Finals} had a higher stadium attendance."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

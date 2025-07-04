@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total electricity demand?",
+            "A": "The series with the largest contribution is {Azure Energy Distribution}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total electricity demand?",
+            "A": "The series with the smallest contribution is {Stellar Grid Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Zenith Utility Services's Electricity Demand in 2010?",
+            "A": "Zenith Utility Services's electricity demand in 2010 is {771918787.43} MWh."
+        },
+        {
+            "Q": "What is Borealis Electric Cooperative's Electricity Demand in 2015?",
+            "A": "Borealis Electric Cooperative's electricity demand in 2015 is {2971694434.71} MWh."
+        },
+        {
+            "Q": "What is Zenith Utility Services's Electricity Demand in 2000?",
+            "A": "Zenith Utility Services's electricity demand in 2000 is {740797744.83} MWh."
+        },
+        {
+            "Q": "What are the electricity demand of Stellar Grid Solutions, Meridian Energy Network, and Azure Energy Distribution in 2016?",
+            "A": "Stellar Grid Solutions's electricity demand is {10000000} MWh, Meridian Energy Network's electricity demand is {1691227430.77} MWh, Azure Energy Distribution's electricity demand is {10809892299.59} MWh."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Electricity Demand in the stacked area chart?",
+            "A": "The global minimum total electricity demand is {5842148245.55} MWh."
+        },
+        {
+            "Q": "What is the global maximum total Electricity Demand in the stacked area chart?",
+            "A": "The global maximum total electricity demand is {23601637469.41} MWh."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Zenith Utility Services's Electricity Demand area?",
+            "A": "The average height of Zenith Utility Services's electricity demand area is {996400891.04} MWh."
+        },
+        {
+            "Q": "What is the average height of Azure Energy Distribution's Electricity Demand area?",
+            "A": "The average height of Azure Energy Distribution's electricity demand area is {5487202599.31} MWh."
+        },
+        {
+            "Q": "What is the average height of Borealis Electric Cooperative's Electricity Demand area?",
+            "A": "The average height of Borealis Electric Cooperative's electricity demand area is {2156449387.42} MWh."
+        },
+        {
+            "Q": "What is the average height of Stellar Grid Solutions's Electricity Demand area?",
+            "A": "The average height of Stellar Grid Solutions's electricity demand area is {311639157.22} MWh."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Electricity Demand exceed 14020656725 MWh? Please list the years and corresponding total values.",
+            "A": "total value was {14526198040.14} MWh in {2012}, total value was {23601637469.41} MWh in {2020}, total value was {15900402446.72} MWh in {2014}."
+        },
+        {
+            "Q": "Which years did the total Electricity Demand go below 7782674672 MWh? Please list the years and corresponding total values.",
+            "A": "total value was {6569985442.64} MWh in {1992}, total value was {7644211460.45} MWh in {1999}, total value was {7064047146.39} MWh in {1996}."
+        },
+        {
+            "Q": "Which years did the total Electricity Demand fall between 10356582413 and 11446748983 MWh? Please list the years and corresponding total values.",
+            "A": "total value was {11140760499.99} MWh in {2007}, total value was {10520834448.67} MWh in {2006}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Electricity Demand in 1997 higher or lower than in 2004?",
+            "A": "The total electricity demand in {1997} was {lower} than in {2004}."
+        },
+        {
+            "Q": "Between 1994 and 2018, was the average total Electricity Demand higher or lower than between 2014 and 2017?",
+            "A": "The average total electricity demand between {1994} and {2018} was {lower} than between {2014} and {2017}."
+        },
+        {
+            "Q": "Between 2009 and 2019, did the total Electricity Demand experience a larger or smaller change than between 1994 and 1996?",
+            "A": "The change in total electricity demand between {2009} and {2019} was {larger} than between {1994} and {1996}."
+        },
+        {
+            "Q": "Was the total Electricity Demand in 2014 higher or lower than in 2015?",
+            "A": "The total electricity demand in {2014} was {lower} than in {2015}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

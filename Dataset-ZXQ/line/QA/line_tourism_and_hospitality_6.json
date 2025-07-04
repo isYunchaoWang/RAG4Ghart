@@ -1,0 +1,197 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Ferry Services's Luggage Loss Rate levels?",
+            "A": "Ferry Services's Luggage Loss Rate levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of High-Speed Trains's Luggage Loss Rate levels?",
+            "A": "High-Speed Trains's Luggage Loss Rate levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Shared Ride's Luggage Loss Rate levels?",
+            "A": "Shared Ride's Luggage Loss Rate levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Car Rentals's Luggage Loss Rate levels?",
+            "A": "Car Rentals's Luggage Loss Rate levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of International Terminals's Luggage Loss Rate levels?",
+            "A": "International Terminals's Luggage Loss Rate levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Luggage Loss Rate levels?",
+            "A": "{Ferry Services}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Luggage Loss Rate levels?",
+            "A": "{High-Speed Trains}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Luggage Loss Rate levels?",
+            "A": "{Shared Ride}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Luggage Loss Rate levels?",
+            "A": "{Car Rentals}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Luggage Loss Rate levels?",
+            "A": "{International Terminals}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Luggage Loss Rate level recorded for Car Rentals?",
+            "A": "Car Rentals reached approximately {1.92} % in 1998."
+        },
+        {
+            "Q": "What is the lowest Luggage Loss Rate level recorded for Car Rentals?",
+            "A": "Car Rentals's lowest recorded level is approximately {1.09} % in 2001."
+        },
+        {
+            "Q": "What is the highest Luggage Loss Rate level recorded for Ferry Services?",
+            "A": "Ferry Services reached approximately {2.58} % in 2001."
+        },
+        {
+            "Q": "What is the lowest Luggage Loss Rate level recorded for Ferry Services?",
+            "A": "Ferry Services's lowest recorded level is approximately {2.03} % in 2006."
+        },
+        {
+            "Q": "What is the highest Luggage Loss Rate level recorded for High-Speed Trains?",
+            "A": "High-Speed Trains reached approximately {1.60} % in 1997."
+        },
+        {
+            "Q": "What is the lowest Luggage Loss Rate level recorded for High-Speed Trains?",
+            "A": "High-Speed Trains's lowest recorded level is approximately {0.66} % in 2005."
+        },
+        {
+            "Q": "What is the highest Luggage Loss Rate level recorded for International Terminals?",
+            "A": "International Terminals reached approximately {2.31} % in 2006."
+        },
+        {
+            "Q": "What is the lowest Luggage Loss Rate level recorded for International Terminals?",
+            "A": "International Terminals's lowest recorded level is approximately {1.25} % in 1998."
+        },
+        {
+            "Q": "What is the highest Luggage Loss Rate level recorded for Shared Ride?",
+            "A": "Shared Ride reached approximately {0.85} % in 2006."
+        },
+        {
+            "Q": "What is the lowest Luggage Loss Rate level recorded for Shared Ride?",
+            "A": "Shared Ride's lowest recorded level is approximately {0.29} % in 2000."
+        },
+        {
+            "Q": "What is High-Speed Trains's Luggage Loss Rate in 1970?",
+            "A": "High-Speed Trains's luggage loss rate in 1970 is {1.08} %."
+        },
+        {
+            "Q": "What is International Terminals's Luggage Loss Rate in 1970?",
+            "A": "International Terminals's luggage loss rate in 1970 is {2.26} %."
+        },
+        {
+            "Q": "What is High-Speed Trains's Luggage Loss Rate in 1970?",
+            "A": "High-Speed Trains's luggage loss rate in 1970 is {0.69} %."
+        },
+        {
+            "Q": "What are the luggage loss rate of Ferry Services, High-Speed Trains, and Shared Ride in 1970?",
+            "A": "{Ferry Services}'s luggage loss rate is {2.38} %, {High-Speed Trains}'s luggage loss rate is {1.60} %, {Shared Ride}'s luggage loss rate is {0.66} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Luggage Loss Rate in the line chart?",
+            "A": "The global minimum luggage loss rate is {0.29} %."
+        },
+        {
+            "Q": "What is the global maximum Luggage Loss Rate in the line chart?",
+            "A": "The global maximum luggage loss rate is {2.58} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Car Rentals's Luggage Loss Rate?",
+            "A": "The average value of Car Rentals's Luggage Loss Rate is {1.51} %."
+        },
+        {
+            "Q": "What is the average value of Ferry Services's Luggage Loss Rate?",
+            "A": "The average value of Ferry Services's Luggage Loss Rate is {2.40} %."
+        },
+        {
+            "Q": "What is the average value of High-Speed Trains's Luggage Loss Rate?",
+            "A": "The average value of High-Speed Trains's Luggage Loss Rate is {1.07} %."
+        },
+        {
+            "Q": "What is the average value of International Terminals's Luggage Loss Rate?",
+            "A": "The average value of International Terminals's Luggage Loss Rate is {1.84} %."
+        },
+        {
+            "Q": "What is the average value of Shared Ride's Luggage Loss Rate?",
+            "A": "The average value of Shared Ride's Luggage Loss Rate is {0.59} %."
+        },
+        {
+            "Q": "What is the rate of change in Car Rentals's Luggage Loss Rate from the starting year to the final year?",
+            "A": "The rate of change in Car Rentals's Luggage Loss Rate is {-33.73}%."
+        },
+        {
+            "Q": "What is the rate of change in Ferry Services's Luggage Loss Rate from the starting year to the final year?",
+            "A": "The rate of change in Ferry Services's Luggage Loss Rate is {-14.71}%."
+        },
+        {
+            "Q": "What is the rate of change in High-Speed Trains's Luggage Loss Rate from the starting year to the final year?",
+            "A": "The rate of change in High-Speed Trains's Luggage Loss Rate is {-56.88}%."
+        },
+        {
+            "Q": "What is the rate of change in International Terminals's Luggage Loss Rate from the starting year to the final year?",
+            "A": "The rate of change in International Terminals's Luggage Loss Rate is {55.03}%."
+        },
+        {
+            "Q": "What is the rate of change in Shared Ride's Luggage Loss Rate from the starting year to the final year?",
+            "A": "The rate of change in Shared Ride's Luggage Loss Rate is {28.79}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Shared Ride's Luggage Loss Rate exceed 1 %? Please list the years and corresponding values.",
+            "A": "0.72 % in {2002.0} year, 0.79 % in {2005.0} year, 0.85 % in {2006.0} year."
+        },
+        {
+            "Q": "Which years did Shared Ride's Luggage Loss Rate below 1 %? Please list the years and corresponding values.",
+            "A": "0.29 % in {2000.0} year, 0.45 % in {2001.0} year, 0.43 % in {2004.0} year."
+        },
+        {
+            "Q": "Which years did Shared Ride's Luggage Loss Rate between 1 and 1 %? Please list the years and corresponding values.",
+            "A": "0.61 % in {1998.0} year, 0.56 % in {1999.0} year, 0.54 % in {2003.0} year."
+        },
+        {
+            "Q": "In the year 1998, which line had Luggage Loss Rate exceed 2 %? Please list the lines and corresponding values.",
+            "A": "{Ferry Services} had 2 %, {Car Rentals} had 2 %."
+        },
+        {
+            "Q": "In the year 1998, which lines had Luggage Loss Rate below 1 %? Please list the lines and corresponding values.",
+            "A": "{Shared Ride} had 1 %, {International Terminals} had 1 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Luggage Loss Rate, High-Speed Trains, Ferry Services, or Car Rentals?",
+            "A": "In 1970, {Ferry Services} had the highest luggage loss rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

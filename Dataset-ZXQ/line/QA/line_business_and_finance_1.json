@@ -1,0 +1,197 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Vanguard Dynamics's Revenue Growth levels?",
+            "A": "Vanguard Dynamics's Revenue Growth levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Horizon Enterprises's Revenue Growth levels?",
+            "A": "Horizon Enterprises's Revenue Growth levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Starlight Innovations's Revenue Growth levels?",
+            "A": "Starlight Innovations's Revenue Growth levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of NovaTech Solutions's Revenue Growth levels?",
+            "A": "NovaTech Solutions's Revenue Growth levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Ironclad Ventures's Revenue Growth levels?",
+            "A": "Ironclad Ventures's Revenue Growth levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Revenue Growth levels?",
+            "A": "{Vanguard Dynamics}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Revenue Growth levels?",
+            "A": "{Horizon Enterprises}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Revenue Growth levels?",
+            "A": "{Starlight Innovations}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Revenue Growth levels?",
+            "A": "{NovaTech Solutions}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Revenue Growth levels?",
+            "A": "{Ironclad Ventures}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Revenue Growth level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises reached approximately {9280698.25} $ in 1967."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises's lowest recorded level is approximately {331161.03} $ in 1982."
+        },
+        {
+            "Q": "What is the highest Revenue Growth level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures reached approximately {9713374.02} $ in 1966."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures's lowest recorded level is approximately {100000.00} $ in 1982."
+        },
+        {
+            "Q": "What is the highest Revenue Growth level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions reached approximately {20467561.35} $ in 1973."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions's lowest recorded level is approximately {13458789.30} $ in 1966."
+        },
+        {
+            "Q": "What is the highest Revenue Growth level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations reached approximately {9207693.80} $ in 1967."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations's lowest recorded level is approximately {1051761.94} $ in 1975."
+        },
+        {
+            "Q": "What is the highest Revenue Growth level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics reached approximately {19186599.83} $ in 1974."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics's lowest recorded level is approximately {10005108.06} $ in 1985."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Revenue Growth in 1970?",
+            "A": "Horizon Enterprises's revenue growth in 1970 is {6763429.02} $."
+        },
+        {
+            "Q": "What is NovaTech Solutions's Revenue Growth in 1970?",
+            "A": "NovaTech Solutions's revenue growth in 1970 is {20120130.16} $."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Revenue Growth in 1970?",
+            "A": "Horizon Enterprises's revenue growth in 1970 is {1078657.37} $."
+        },
+        {
+            "Q": "What are the revenue growth of Vanguard Dynamics, Horizon Enterprises, and Starlight Innovations in 1970?",
+            "A": "{Vanguard Dynamics}'s revenue growth is {11946412.31} $, {Horizon Enterprises}'s revenue growth is {8504695.54} $, {Starlight Innovations}'s revenue growth is {8962741.89} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Revenue Growth in the line chart?",
+            "A": "The global minimum revenue growth is {100000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Revenue Growth in the line chart?",
+            "A": "The global maximum revenue growth is {20467561.35} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Horizon Enterprises's Revenue Growth?",
+            "A": "The average value of Horizon Enterprises's Revenue Growth is {4207463.66} $."
+        },
+        {
+            "Q": "What is the average value of Ironclad Ventures's Revenue Growth?",
+            "A": "The average value of Ironclad Ventures's Revenue Growth is {4587567.24} $."
+        },
+        {
+            "Q": "What is the average value of NovaTech Solutions's Revenue Growth?",
+            "A": "The average value of NovaTech Solutions's Revenue Growth is {17897490.44} $."
+        },
+        {
+            "Q": "What is the average value of Starlight Innovations's Revenue Growth?",
+            "A": "The average value of Starlight Innovations's Revenue Growth is {5497454.56} $."
+        },
+        {
+            "Q": "What is the average value of Vanguard Dynamics's Revenue Growth?",
+            "A": "The average value of Vanguard Dynamics's Revenue Growth is {14902386.27} $."
+        },
+        {
+            "Q": "What is the rate of change in Horizon Enterprises's Revenue Growth from the starting year to the final year?",
+            "A": "The rate of change in Horizon Enterprises's Revenue Growth is {-87.32}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironclad Ventures's Revenue Growth from the starting year to the final year?",
+            "A": "The rate of change in Ironclad Ventures's Revenue Growth is {-98.97}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaTech Solutions's Revenue Growth from the starting year to the final year?",
+            "A": "The rate of change in NovaTech Solutions's Revenue Growth is {0.17}%."
+        },
+        {
+            "Q": "What is the rate of change in Starlight Innovations's Revenue Growth from the starting year to the final year?",
+            "A": "The rate of change in Starlight Innovations's Revenue Growth is {-10.11}%."
+        },
+        {
+            "Q": "What is the rate of change in Vanguard Dynamics's Revenue Growth from the starting year to the final year?",
+            "A": "The rate of change in Vanguard Dynamics's Revenue Growth is {-16.25}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Vanguard Dynamics's Revenue Growth exceed 16391763 $? Please list the years and corresponding values.",
+            "A": "17318150.41 $ in {1973.0} year, 19186599.83 $ in {1974.0} year, 17996939.10 $ in {1975.0} year."
+        },
+        {
+            "Q": "Which years did Vanguard Dynamics's Revenue Growth below 13205061 $? Please list the years and corresponding values.",
+            "A": "11946412.31 $ in {1966.0} year, 12991125.67 $ in {1967.0} year, 13202325.20 $ in {1969.0} year."
+        },
+        {
+            "Q": "Which years did Vanguard Dynamics's Revenue Growth between 13318571 and 16278253 $? Please list the years and corresponding values.",
+            "A": "14212114.37 $ in {1968.0} year, 15059389.23 $ in {1970.0} year, 16077970.54 $ in {1971.0} year."
+        },
+        {
+            "Q": "In the year 1980, which line had Revenue Growth exceed 13557082 $? Please list the lines and corresponding values.",
+            "A": "{Vanguard Dynamics} had 15957765 $, {NovaTech Solutions} had 17497551 $."
+        },
+        {
+            "Q": "In the year 1980, which lines had Revenue Growth below 3283474 $? Please list the lines and corresponding values.",
+            "A": "{Horizon Enterprises} had 2938115 $, {Ironclad Ventures} had 3115755 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Revenue Growth, Horizon Enterprises or Ironclad Ventures?",
+            "A": "In 1970, {Ironclad Ventures} had a higher revenue growth."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,149 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Sapphire Loans's Mortgage Rate levels?",
+            "A": "Sapphire Loans's Mortgage Rate levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Apex Credit's Mortgage Rate levels?",
+            "A": "Apex Credit's Mortgage Rate levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Aura Finance's Mortgage Rate levels?",
+            "A": "Aura Finance's Mortgage Rate levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Mortgage Rate levels?",
+            "A": "{Sapphire Loans}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Mortgage Rate levels?",
+            "A": "{Apex Credit}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Mortgage Rate level recorded for Apex Credit?",
+            "A": "Apex Credit reached approximately {6.99} % in 2009."
+        },
+        {
+            "Q": "What is the lowest Mortgage Rate level recorded for Apex Credit?",
+            "A": "Apex Credit's lowest recorded level is approximately {6.15} % in 2013."
+        },
+        {
+            "Q": "What is the highest Mortgage Rate level recorded for Aura Finance?",
+            "A": "Aura Finance reached approximately {5.45} % in 2013."
+        },
+        {
+            "Q": "What is the lowest Mortgage Rate level recorded for Aura Finance?",
+            "A": "Aura Finance's lowest recorded level is approximately {4.04} % in 2006."
+        },
+        {
+            "Q": "What is the highest Mortgage Rate level recorded for Sapphire Loans?",
+            "A": "Sapphire Loans reached approximately {5.41} % in 2013."
+        },
+        {
+            "Q": "What is the lowest Mortgage Rate level recorded for Sapphire Loans?",
+            "A": "Sapphire Loans's lowest recorded level is approximately {4.28} % in 2006."
+        },
+        {
+            "Q": "What is Aura Finance's Mortgage Rate in 1970?",
+            "A": "Aura Finance's mortgage rate in 1970 is {4.61} %."
+        },
+        {
+            "Q": "What is Sapphire Loans's Mortgage Rate in 1970?",
+            "A": "Sapphire Loans's mortgage rate in 1970 is {4.28} %."
+        },
+        {
+            "Q": "What is Aura Finance's Mortgage Rate in 1970?",
+            "A": "Aura Finance's mortgage rate in 1970 is {4.04} %."
+        },
+        {
+            "Q": "What are the mortgage rate of Sapphire Loans, Apex Credit, and Aura Finance in 1970?",
+            "A": "{Sapphire Loans}'s mortgage rate is {4.28} %, {Apex Credit}'s mortgage rate is {6.66} %, {Aura Finance}'s mortgage rate is {4.04} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Mortgage Rate in the line chart?",
+            "A": "The global minimum mortgage rate is {4.04} %."
+        },
+        {
+            "Q": "What is the global maximum Mortgage Rate in the line chart?",
+            "A": "The global maximum mortgage rate is {6.99} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Apex Credit's Mortgage Rate?",
+            "A": "The average value of Apex Credit's Mortgage Rate is {6.73} %."
+        },
+        {
+            "Q": "What is the average value of Aura Finance's Mortgage Rate?",
+            "A": "The average value of Aura Finance's Mortgage Rate is {4.65} %."
+        },
+        {
+            "Q": "What is the average value of Sapphire Loans's Mortgage Rate?",
+            "A": "The average value of Sapphire Loans's Mortgage Rate is {4.83} %."
+        },
+        {
+            "Q": "What is the rate of change in Apex Credit's Mortgage Rate from the starting year to the final year?",
+            "A": "The rate of change in Apex Credit's Mortgage Rate is {-7.66}%."
+        },
+        {
+            "Q": "What is the rate of change in Aura Finance's Mortgage Rate from the starting year to the final year?",
+            "A": "The rate of change in Aura Finance's Mortgage Rate is {34.90}%."
+        },
+        {
+            "Q": "What is the rate of change in Sapphire Loans's Mortgage Rate from the starting year to the final year?",
+            "A": "The rate of change in Sapphire Loans's Mortgage Rate is {26.40}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Apex Credit's Mortgage Rate exceed 7 %? Please list the years and corresponding values.",
+            "A": "6.99 % in {2009.0} year, 6.97 % in {2010.0} year, 6.88 % in {2012.0} year."
+        },
+        {
+            "Q": "Which years did Apex Credit's Mortgage Rate below 7 %? Please list the years and corresponding values.",
+            "A": "6.66 % in {2006.0} year, 6.62 % in {2011.0} year, 6.15 % in {2013.0} year."
+        },
+        {
+            "Q": "Which years did Apex Credit's Mortgage Rate between 6 and 7 %? Please list the years and corresponding values.",
+            "A": "6.66 % in {2006.0} year, 6.80 % in {2007.0} year, 6.75 % in {2008.0} year."
+        },
+        {
+            "Q": "In the year 2008, which line had Mortgage Rate exceed 5 %? Please list the lines and corresponding values.",
+            "A": "{Apex Credit} had 7 %."
+        },
+        {
+            "Q": "In the year 2008, which lines had Mortgage Rate below 4 %? Please list the lines and corresponding values.",
+            "A": "{Aura Finance} had 4 %."
+        },
+        {
+            "Q": "In the year 2008, which lines had Mortgage Rate between 4 and 5 %? Please list the lines and corresponding values.",
+            "A": "{Sapphire Loans} had 4 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Mortgage Rate, Aura Finance, Sapphire Loans, or Apex Credit?",
+            "A": "In 1970, {Apex Credit} had the highest mortgage rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

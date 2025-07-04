@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total cultural event funding?",
+            "A": "The series with the largest contribution is {Meridian Heritage Fund}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total cultural event funding?",
+            "A": "The series with the smallest contribution is {Borealis Artistic Grants}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Meridian Heritage Fund's Cultural Event Funding in 2001?",
+            "A": "Meridian Heritage Fund's cultural event funding in 2001 is {65528102.62} $."
+        },
+        {
+            "Q": "What is Azure Creative Trust's Cultural Event Funding in 1985?",
+            "A": "Azure Creative Trust's cultural event funding in 1985 is {61068262.73} $."
+        },
+        {
+            "Q": "What is Borealis Artistic Grants's Cultural Event Funding in 1989?",
+            "A": "Borealis Artistic Grants's cultural event funding in 1989 is {32901542.46} $."
+        },
+        {
+            "Q": "What are the cultural event funding of Borealis Artistic Grants, Meridian Heritage Fund, and Azure Creative Trust in 2000?",
+            "A": "Borealis Artistic Grants's cultural event funding is {500000} $, Meridian Heritage Fund's cultural event funding is {82267414.31} $, Azure Creative Trust's cultural event funding is {57009990.78} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Cultural Event Funding in the stacked area chart?",
+            "A": "The global minimum total cultural event funding is {100226132.66} $."
+        },
+        {
+            "Q": "What is the global maximum total Cultural Event Funding in the stacked area chart?",
+            "A": "The global maximum total cultural event funding is {172460126.33} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Azure Creative Trust's Cultural Event Funding area?",
+            "A": "The average height of Azure Creative Trust's cultural event funding area is {50187088.66} $."
+        },
+        {
+            "Q": "What is the average height of Meridian Heritage Fund's Cultural Event Funding area?",
+            "A": "The average height of Meridian Heritage Fund's cultural event funding area is {64334135.37} $."
+        },
+        {
+            "Q": "What is the average height of Borealis Artistic Grants's Cultural Event Funding area?",
+            "A": "The average height of Borealis Artistic Grants's cultural event funding area is {22805976.36} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Cultural Event Funding fall between 131485973 and 145326602 $? Please list the years and corresponding total values.",
+            "A": "total value was {144541343} $ in {1991}, total value was {138792206.32} $ in {1994}, total value was {135343679.99} $ in {1983}."
+        },
+        {
+            "Q": "Which years did the total Cultural Event Funding exceed 146033340 $? Please list the years and corresponding total values.",
+            "A": "total value was {162980109.61} $ in {1984}, total value was {146050110.17} $ in {1993}, total value was {148766501.35} $ in {1999}."
+        },
+        {
+            "Q": "Which years did the total Cultural Event Funding go below 130779234 $? Please list the years and corresponding total values.",
+            "A": "total value was {111216077.73} $ in {2001}, total value was {120083436.62} $ in {1998}, total value was {100226132.66} $ in {1996}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1994 and 2001, was the average total Cultural Event Funding higher or lower than between 1992 and 1994?",
+            "A": "The average total cultural event funding between {1994} and {2001} was {higher} than between {1992} and {1994}."
+        },
+        {
+            "Q": "Between 1997 and 1998, did the total Cultural Event Funding experience a larger or smaller change than between 1998 and 2000?",
+            "A": "The change in total cultural event funding between {1997} and {1998} was {smaller} than between {1998} and {2000}."
+        },
+        {
+            "Q": "Between 1984 and 1990, was the average total Cultural Event Funding higher or lower than between 1985 and 1989?",
+            "A": "The average total cultural event funding between {1984} and {1990} was {lower} than between {1985} and {1989}."
+        },
+        {
+            "Q": "Between 1988 and 1993, was the average total Cultural Event Funding higher or lower than between 1999 and 2002?",
+            "A": "The average total cultural event funding between {1988} and {1993} was {higher} than between {1999} and {2002}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

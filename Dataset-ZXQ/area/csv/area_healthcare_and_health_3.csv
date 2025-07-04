@@ -1,0 +1,9 @@
+Healthcare and Health,Hospital Bed Occupancy,%
+Year,Silverhaven Community Hospital,Borealis Medical Center,Zenith Care Hospital,Stellar Memorial Hospital,Azure Coast Hospital,Meridian Teaching Hospital
+trend,exponential_rising,stable_falling,periodic_stable,stable_falling,exponential_rising,exponential_rising
+1979,78.71,82.71,82.35,88.98,70.75,77.04
+1980,86.67,88.48,96.59,78.83,88.73,87.69
+1981,100,82.71,95.31,89.69,92.18,100
+1982,100,91.38,67.15,90.09,100,100
+1983,100,92.09,57.01,86.21,100,100
+1984,100,89.64,81.74,90.43,100,100

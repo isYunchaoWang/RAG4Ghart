@@ -1,0 +1,121 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of AquaFlow Utilities's Carbon Emissions levels?",
+            "A": "AquaFlow Utilities's Carbon Emissions levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Solara Energy Corp's Carbon Emissions levels?",
+            "A": "Solara Energy Corp's Carbon Emissions levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Carbon Emissions levels?",
+            "A": "{AquaFlow Utilities}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Carbon Emissions levels?",
+            "A": "{Solara Energy Corp}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Carbon Emissions level recorded for AquaFlow Utilities?",
+            "A": "AquaFlow Utilities reached approximately {6262619.01} tons in 1970."
+        },
+        {
+            "Q": "What is the lowest Carbon Emissions level recorded for AquaFlow Utilities?",
+            "A": "AquaFlow Utilities's lowest recorded level is approximately {3643866.26} tons in 1978."
+        },
+        {
+            "Q": "What is the highest Carbon Emissions level recorded for Solara Energy Corp?",
+            "A": "Solara Energy Corp reached approximately {10368758.43} tons in 1981."
+        },
+        {
+            "Q": "What is the lowest Carbon Emissions level recorded for Solara Energy Corp?",
+            "A": "Solara Energy Corp's lowest recorded level is approximately {6061137.61} tons in 1971."
+        },
+        {
+            "Q": "What is AquaFlow Utilities's Carbon Emissions in 1970?",
+            "A": "AquaFlow Utilities's carbon emissions in 1970 is {4266002.48} tons."
+        },
+        {
+            "Q": "What is Solara Energy Corp's Carbon Emissions in 1970?",
+            "A": "Solara Energy Corp's carbon emissions in 1970 is {6701646.37} tons."
+        },
+        {
+            "Q": "What is AquaFlow Utilities's Carbon Emissions in 1970?",
+            "A": "AquaFlow Utilities's carbon emissions in 1970 is {4076780.40} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Carbon Emissions in the line chart?",
+            "A": "The global minimum carbon emissions is {3643866.26} tons."
+        },
+        {
+            "Q": "What is the global maximum Carbon Emissions in the line chart?",
+            "A": "The global maximum carbon emissions is {10368758.43} tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AquaFlow Utilities's Carbon Emissions?",
+            "A": "The average value of AquaFlow Utilities's Carbon Emissions is {5097095.20} tons."
+        },
+        {
+            "Q": "What is the average value of Solara Energy Corp's Carbon Emissions?",
+            "A": "The average value of Solara Energy Corp's Carbon Emissions is {7460063.47} tons."
+        },
+        {
+            "Q": "What is the rate of change in AquaFlow Utilities's Carbon Emissions from the starting year to the final year?",
+            "A": "The rate of change in AquaFlow Utilities's Carbon Emissions is {17.73}%."
+        },
+        {
+            "Q": "What is the rate of change in Solara Energy Corp's Carbon Emissions from the starting year to the final year?",
+            "A": "The rate of change in Solara Energy Corp's Carbon Emissions is {70.59}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did AquaFlow Utilities's Carbon Emissions exceed 5799321 tons? Please list the years and corresponding values.",
+            "A": "6262619.01 tons in {1970.0} year, 5982522.27 tons in {1975.0} year, 5963892.29 tons in {1976.0} year."
+        },
+        {
+            "Q": "Which years did AquaFlow Utilities's Carbon Emissions below 4606047 tons? Please list the years and corresponding values.",
+            "A": "4266002.48 tons in {1972.0} year, 4019131.35 tons in {1973.0} year, 4076780.40 tons in {1977.0} year."
+        },
+        {
+            "Q": "Which years did AquaFlow Utilities's Carbon Emissions between 4682415 and 5722952 tons? Please list the years and corresponding values.",
+            "A": "4832742.56 tons in {1969.0} year, 5637725.05 tons in {1971.0} year, 4888570.06 tons in {1974.0} year."
+        },
+        {
+            "Q": "In the year 1976, which line had Carbon Emissions exceed 7087437 tons? Please list the lines and corresponding values.",
+            "A": "{Solara Energy Corp} had 7568956 tons."
+        },
+        {
+            "Q": "In the year 1976, which lines had Carbon Emissions below 6445411 tons? Please list the lines and corresponding values.",
+            "A": "{AquaFlow Utilities} had 5963892 tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Carbon Emissions, AquaFlow Utilities or Solara Energy Corp?",
+            "A": "In 1970, {Solara Energy Corp} had a higher carbon emissions."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

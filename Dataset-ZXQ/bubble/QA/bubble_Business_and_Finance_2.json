@@ -1,0 +1,88 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bubble chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this bubble chart?",
+            "A": "There are {10} bubbles."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Where is the highest concentration of bubbles located in terms of Company revenue and Profit margin?",
+            "A": "The highest concentration of bubbles corresponds to approximately {855571796.51} $ and {1.43} %."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the Total number of employees of the largest bubble?",
+            "A": "The Total number of employees of the largest bubble is {10000.00} count."
+        },
+        {
+            "Q": "What is the Total number of employees of the smallest bubble?",
+            "A": "The Total number of employees of the smallest bubble is {10.00} count."
+        },
+        {
+            "Q": "What are the Total number of employees and Profit margin values of the largest bubble?",
+            "A": "The Total number of employees of the largest bubble is {10000.00} count, and the Profit margin value is {0.20} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Total number of employees in the bubble chart?",
+            "A": "The global maximum Total number of employees is {10000.00} count."
+        },
+        {
+            "Q": "What is the global minimum Total number of employees in the bubble chart?",
+            "A": "The global minimum Total number of employees is {10.00} count."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Company revenue in the bubble chart?",
+            "A": "The maximum observed value in the Company revenue dimension is {1012421320.34} $."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Company revenue in the bubble chart?",
+            "A": "The minimum observed value in the Company revenue dimension is {294175310.50} $."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Profit margin in the bubble chart?",
+            "A": "The maximum observed value in the Profit margin dimension is {49.27} %."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Profit margin in the bubble chart?",
+            "A": "The minimum observed value in the Profit margin dimension is {0.20} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Total number of employees for all bubbles?",
+            "A": "The average value of the Total number of employees for all bubbles is {4407.89} count."
+        },
+        {
+            "Q": "What is the average value of the Company revenue for all bubbles?",
+            "A": "The average value of Company revenue for all bubbles is {669433690.19} $."
+        },
+        {
+            "Q": "What is the average value of the Profit margin for all bubbles?",
+            "A": "The average value of Profit margin for all bubbles is {27.40} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 Total number of employees values in the bubble chart?",
+            "A": "{10000.00, 8020.27, 6459.35} count."
+        },
+        {
+            "Q": "What are the bottom 3 Total number of employees values in the bubble chart?",
+            "A": "{10.00, 1190.21, 1672.79} count."
+        }
+    ],
+    "NC": [],
+    "MSR": [],
+    "VA": []
+}

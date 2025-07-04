@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total absenteeism rate?",
+            "A": "The series with the largest contribution is {Human Resources}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total absenteeism rate?",
+            "A": "The series with the smallest contribution is {Management Team}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Human Resources's Absenteeism Rate in 1984?",
+            "A": "Human Resources's absenteeism rate in 1984 is {8.91} %."
+        },
+        {
+            "Q": "What is Human Resources's Absenteeism Rate in 1969?",
+            "A": "Human Resources's absenteeism rate in 1969 is {5.83} %."
+        },
+        {
+            "Q": "What is Management Team's Absenteeism Rate in 1979?",
+            "A": "Management Team's absenteeism rate in 1979 is {3.04} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Absenteeism Rate in the stacked area chart?",
+            "A": "The global minimum total absenteeism rate is {7.92} %."
+        },
+        {
+            "Q": "What is the global maximum total Absenteeism Rate in the stacked area chart?",
+            "A": "The global maximum total absenteeism rate is {14.14} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Management Team's Absenteeism Rate area?",
+            "A": "The average height of Management Team's absenteeism rate area is {4.02} %."
+        },
+        {
+            "Q": "What is the average height of Human Resources's Absenteeism Rate area?",
+            "A": "The average height of Human Resources's absenteeism rate area is {6.79} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Absenteeism Rate exceed 12 %? Please list the years and corresponding total values.",
+            "A": "total value was {13.20} % in {1981}, total value was {14.14} % in {1986}, total value was {13.87} % in {1987}."
+        },
+        {
+            "Q": "Which years did the total Absenteeism Rate go below 10 %? Please list the years and corresponding total values.",
+            "A": "total value was {9.12} % in {1965}, total value was {7.92} % in {1964}, total value was {8.78} % in {1969}."
+        },
+        {
+            "Q": "Which years did the total Absenteeism Rate fall between 10 and 11 %? Please list the years and corresponding total values.",
+            "A": "total value was {11.05} % in {1978}, total value was {11.04} % in {1972}, total value was {10.94} % in {1971}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1960 and 1986, was the average total Absenteeism Rate higher or lower than between 1981 and 1986?",
+            "A": "The average total absenteeism rate between {1960} and {1986} was {lower} than between {1981} and {1986}."
+        },
+        {
+            "Q": "Was the total Absenteeism Rate in 1964 higher or lower than in 1985?",
+            "A": "The total absenteeism rate in {1964} was {lower} than in {1985}."
+        },
+        {
+            "Q": "Between 1960 and 1985, did the total Absenteeism Rate experience a larger or smaller change than between 1971 and 1983?",
+            "A": "The change in total absenteeism rate between {1960} and {1985} was {larger} than between {1971} and {1983}."
+        },
+        {
+            "Q": "Between 1967 and 1973, did the total Absenteeism Rate experience a larger or smaller change than between 1963 and 1986?",
+            "A": "The change in total absenteeism rate between {1967} and {1973} was {smaller} than between {1963} and {1986}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

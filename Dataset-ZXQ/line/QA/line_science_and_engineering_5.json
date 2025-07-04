@@ -1,0 +1,237 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Nova Institute's Engineering Graduates levels?",
+            "A": "Nova Institute's Engineering Graduates levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Starburst College's Engineering Graduates levels?",
+            "A": "Starburst College's Engineering Graduates levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Aether University's Engineering Graduates levels?",
+            "A": "Aether University's Engineering Graduates levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Oracle Labs's Engineering Graduates levels?",
+            "A": "Oracle Labs's Engineering Graduates levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Echo Research's Engineering Graduates levels?",
+            "A": "Echo Research's Engineering Graduates levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Foundation's Engineering Graduates levels?",
+            "A": "Crimson Foundation's Engineering Graduates levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Luminara Academy's Engineering Graduates levels?",
+            "A": "Luminara Academy's Engineering Graduates levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Engineering Graduates levels?",
+            "A": "{Nova Institute}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Engineering Graduates levels?",
+            "A": "{Starburst College}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Engineering Graduates levels?",
+            "A": "{Aether University}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Engineering Graduates levels?",
+            "A": "{Oracle Labs}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Engineering Graduates levels?",
+            "A": "{Echo Research}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Aether University?",
+            "A": "Aether University reached approximately {129.10} students in 1991."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Aether University?",
+            "A": "Aether University's lowest recorded level is approximately {10.00} students in 1992."
+        },
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Crimson Foundation?",
+            "A": "Crimson Foundation reached approximately {69.58} students in 1991."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Crimson Foundation?",
+            "A": "Crimson Foundation's lowest recorded level is approximately {10.00} students in 1992."
+        },
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Echo Research?",
+            "A": "Echo Research reached approximately {1305.87} students in 2000."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Echo Research?",
+            "A": "Echo Research's lowest recorded level is approximately {937.01} students in 1992."
+        },
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Luminara Academy?",
+            "A": "Luminara Academy reached approximately {2416.13} students in 2000."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Luminara Academy?",
+            "A": "Luminara Academy's lowest recorded level is approximately {964.52} students in 1991."
+        },
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Nova Institute?",
+            "A": "Nova Institute reached approximately {1837.76} students in 2000."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Nova Institute?",
+            "A": "Nova Institute's lowest recorded level is approximately {865.16} students in 1991."
+        },
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Oracle Labs?",
+            "A": "Oracle Labs reached approximately {2409.56} students in 2000."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Oracle Labs?",
+            "A": "Oracle Labs's lowest recorded level is approximately {986.47} students in 1992."
+        },
+        {
+            "Q": "What is the highest Engineering Graduates level recorded for Starburst College?",
+            "A": "Starburst College reached approximately {1011.25} students in 1991."
+        },
+        {
+            "Q": "What is the lowest Engineering Graduates level recorded for Starburst College?",
+            "A": "Starburst College's lowest recorded level is approximately {358.45} students in 1999."
+        },
+        {
+            "Q": "What is Luminara Academy's Engineering Graduates in 1970?",
+            "A": "Luminara Academy's engineering graduates in 1970 is {1523.02} students."
+        },
+        {
+            "Q": "What is Starburst College's Engineering Graduates in 1970?",
+            "A": "Starburst College's engineering graduates in 1970 is {1011.25} students."
+        },
+        {
+            "Q": "What is Nova Institute's Engineering Graduates in 1970?",
+            "A": "Nova Institute's engineering graduates in 1970 is {1217.43} students."
+        },
+        {
+            "Q": "What are the engineering graduates of Nova Institute, Starburst College, and Aether University in 1970?",
+            "A": "{Nova Institute}'s engineering graduates is {865.16} students, {Starburst College}'s engineering graduates is {1011.25} students, {Aether University}'s engineering graduates is {129.10} students."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Engineering Graduates in the line chart?",
+            "A": "The global minimum engineering graduates is {10.00} students."
+        },
+        {
+            "Q": "What is the global maximum Engineering Graduates in the line chart?",
+            "A": "The global maximum engineering graduates is {2416.13} students."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aether University's Engineering Graduates?",
+            "A": "The average value of Aether University's Engineering Graduates is {28.67} students."
+        },
+        {
+            "Q": "What is the average value of Crimson Foundation's Engineering Graduates?",
+            "A": "The average value of Crimson Foundation's Engineering Graduates is {15.96} students."
+        },
+        {
+            "Q": "What is the average value of Echo Research's Engineering Graduates?",
+            "A": "The average value of Echo Research's Engineering Graduates is {1140.25} students."
+        },
+        {
+            "Q": "What is the average value of Luminara Academy's Engineering Graduates?",
+            "A": "The average value of Luminara Academy's Engineering Graduates is {1587.02} students."
+        },
+        {
+            "Q": "What is the average value of Nova Institute's Engineering Graduates?",
+            "A": "The average value of Nova Institute's Engineering Graduates is {1285.34} students."
+        },
+        {
+            "Q": "What is the average value of Oracle Labs's Engineering Graduates?",
+            "A": "The average value of Oracle Labs's Engineering Graduates is {1573.51} students."
+        },
+        {
+            "Q": "What is the average value of Starburst College's Engineering Graduates?",
+            "A": "The average value of Starburst College's Engineering Graduates is {668.45} students."
+        },
+        {
+            "Q": "What is the rate of change in Aether University's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Aether University's Engineering Graduates is {-39.86}%."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Foundation's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Crimson Foundation's Engineering Graduates is {-85.63}%."
+        },
+        {
+            "Q": "What is the rate of change in Echo Research's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Echo Research's Engineering Graduates is {31.45}%."
+        },
+        {
+            "Q": "What is the rate of change in Luminara Academy's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Luminara Academy's Engineering Graduates is {150.50}%."
+        },
+        {
+            "Q": "What is the rate of change in Nova Institute's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Nova Institute's Engineering Graduates is {112.42}%."
+        },
+        {
+            "Q": "What is the rate of change in Oracle Labs's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Oracle Labs's Engineering Graduates is {130.27}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst College's Engineering Graduates from the starting year to the final year?",
+            "A": "The rate of change in Starburst College's Engineering Graduates is {-58.83}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Echo Research's Engineering Graduates exceed 1213 students? Please list the years and corresponding values.",
+            "A": "1219.12 students in {1996.0} year, 1222.67 students in {1998.0} year, 1305.87 students in {2000.0} year."
+        },
+        {
+            "Q": "Which years did Echo Research's Engineering Graduates below 1089 students? Please list the years and corresponding values.",
+            "A": "993.41 students in {1991.0} year, 937.01 students in {1992.0} year, 1030.36 students in {1994.0} year."
+        },
+        {
+            "Q": "Which years did Echo Research's Engineering Graduates between 1036 and 1266 students? Please list the years and corresponding values.",
+            "A": "1113.70 students in {1993.0} year, 1209.80 students in {1995.0} year, 1219.12 students in {1996.0} year."
+        },
+        {
+            "Q": "In the year 1997, which line had Engineering Graduates exceed 1452 students? Please list the lines and corresponding values.",
+            "A": "{Oracle Labs} had 1685 students, {Luminara Academy} had 1796 students."
+        },
+        {
+            "Q": "In the year 1997, which lines had Engineering Graduates below 388 students? Please list the lines and corresponding values.",
+            "A": "{Aether University} had 10 students, {Crimson Foundation} had 10 students."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Engineering Graduates, Echo Research, Starburst College, or Aether University?",
+            "A": "In 1970, {Starburst College} had the highest engineering graduates."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,128 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {11} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {Corn}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {Soybean}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Corn relative to the bar Rice in terms of vetical (above/below) direction??",
+            "A": "Bar Corn is  {below} the bar Rice."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Corn}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Tea}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Potato?",
+            "A": "The value of Potato is {6263} metric tons."
+        },
+        {
+            "Q": "What is the value of bar Soybean?",
+            "A": "The value of Soybean is {16165} metric tons."
+        },
+        {
+            "Q": "What is the value of bar Barley?",
+            "A": "The value of Barley is {12001} metric tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum metric tons in the bar chart?",
+            "A": "The maximum metric tons is {20000} metric tons."
+        },
+        {
+            "Q": "What is the minimum metric tons in the bar chart?",
+            "A": "The minimum metric tons is {2313} metric tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Sugarcane and Rice?",
+            "A": "The total value of Sugarcane and Rice is {21552} metric tons."
+        },
+        {
+            "Q": "What is the average value of Barley and Grape?",
+            "A": "The average value of Barley and Grape is {10106.0} metric tons."
+        },
+        {
+            "Q": "What is the difference between Vegetable and Potato?",
+            "A": "The difference between Vegetable and Potato is {5087} metric tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have metric tons values exceed 18082.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Corn} has {20000} metric tons."
+        },
+        {
+            "Q": "Which bars have {metric tons} values below 6799.00 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Tea} has {2313} metric tons, {Potato} has {6263} metric tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Grape or Vegetable ",
+            "A": "The value of the {Vegetable} is larger?"
+        },
+        {
+            "Q": "Which is larger, Vegetable, Sugarcane or Potato ",
+            "A": "The value of the {Sugarcane} is larger?"
+        },
+        {
+            "Q": "Which is larger, Rice, Vegetable, Soybean or Sugarcane ",
+            "A": "The value of the {Soybean} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {5} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Corn} and {Sorghum}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Corn}, {Soybean}, and {Sugarcane}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by metric tons values in descending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value descending: {Corn}, {Soybean}, {Sugarcane}, {Barley}, {Vegetable}, {Banana}, {Grape}, {Rice}, {Sorghum}, {Potato}, and {Tea}."
+        },
+        {
+            "Q": "Sort the bars by metric tons values in ascending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value ascending: {Tea}, {Potato}, {Sorghum}, {Rice}, {Grape}, {Banana}, {Vegetable}, {Barley}, {Sugarcane}, {Soybean}, and {Corn}."
+        }
+    ]
+}

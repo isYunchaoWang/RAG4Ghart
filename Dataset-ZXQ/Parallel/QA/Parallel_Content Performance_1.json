@@ -1,0 +1,81 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {View count (millions)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Creator diversity index (1-10) and dimension Content freshness (days)",
+            "A": "There is {Clustering} between Creator diversity index (1-10) and Content freshness (days)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Peters, Drake and Anderson on the Completion rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Peters, Drake and Anderson on the Completion rate (%) dimension is {15.01}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Thomas-Allen across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Thomas-Allen across all dimensions is {248.21}"
+        },
+        {
+            "Q": "What is the minimum value of label Peters, Drake and Anderson across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Peters, Drake and Anderson across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Completion rate (%)?",
+            "A": "The average value of Completion rate (%) is {51.89}"
+        },
+        {
+            "Q": "What is the difference in coding Completion rate (%) between label Tucker LLC and label Peters, Drake and Anderson",
+            "A": "The difference in coding Completion rate (%) between Tucker LLC and Peters, Drake and Anderson is {39.79}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Creator diversity index (1-10) dimension in the parallel coordinates?",
+            "A": "{[10.0, 8.47, 2.88]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Creator diversity index (1-10) dimension in the parallel coordinates?",
+            "A": "{[1.0, 2.61, 2.88]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Recommendation effectiveness (%), which label has a higher score: Carter Inc or Tucker LLC?",
+            "A": "{Carter Inc} has a higher score on Recommendation effectiveness (%)."
+        },
+        {
+            "Q": "On View count (millions), which label has a higher score: Peters, Rose and Perez or Carter Inc?",
+            "A": "{Carter Inc} has a higher score on View count (millions)."
+        },
+        {
+            "Q": "On Personalization accuracy (%), which label has a higher score: Peters, Rose and Perez or Tucker LLC?",
+            "A": "{Peters, Rose and Perez} has a higher score on Personalization accuracy (%)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

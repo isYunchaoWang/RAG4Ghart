@@ -1,0 +1,237 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Fine Dining's Restaurant Reservations levels?",
+            "A": "Fine Dining's Restaurant Reservations levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Family Restaurants's Restaurant Reservations levels?",
+            "A": "Family Restaurants's Restaurant Reservations levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Vegan Cafes's Restaurant Reservations levels?",
+            "A": "Vegan Cafes's Restaurant Reservations levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Casual Eateries's Restaurant Reservations levels?",
+            "A": "Casual Eateries's Restaurant Reservations levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Fusion Kitchens's Restaurant Reservations levels?",
+            "A": "Fusion Kitchens's Restaurant Reservations levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Street Food Hubs's Restaurant Reservations levels?",
+            "A": "Street Food Hubs's Restaurant Reservations levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Rooftop Bars's Restaurant Reservations levels?",
+            "A": "Rooftop Bars's Restaurant Reservations levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Restaurant Reservations levels?",
+            "A": "{Fine Dining}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Restaurant Reservations levels?",
+            "A": "{Family Restaurants}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Restaurant Reservations levels?",
+            "A": "{Casual Eateries}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Restaurant Reservations levels?",
+            "A": "{Fusion Kitchens}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Casual Eateries?",
+            "A": "Casual Eateries reached approximately {1507.21} reservations/week in 1976."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Casual Eateries?",
+            "A": "Casual Eateries's lowest recorded level is approximately {10.00} reservations/week in 1979."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Family Restaurants?",
+            "A": "Family Restaurants reached approximately {2292.57} reservations/week in 1993."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Family Restaurants?",
+            "A": "Family Restaurants's lowest recorded level is approximately {663.62} reservations/week in 1975."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Fine Dining?",
+            "A": "Fine Dining reached approximately {1727.44} reservations/week in 1988."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Fine Dining?",
+            "A": "Fine Dining's lowest recorded level is approximately {1022.31} reservations/week in 1975."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Fusion Kitchens?",
+            "A": "Fusion Kitchens reached approximately {694.65} reservations/week in 1975."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Fusion Kitchens?",
+            "A": "Fusion Kitchens's lowest recorded level is approximately {10.00} reservations/week in 1981."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Rooftop Bars?",
+            "A": "Rooftop Bars reached approximately {2014.20} reservations/week in 1995."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Rooftop Bars?",
+            "A": "Rooftop Bars's lowest recorded level is approximately {629.87} reservations/week in 1978."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Street Food Hubs?",
+            "A": "Street Food Hubs reached approximately {1957.22} reservations/week in 1995."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Street Food Hubs?",
+            "A": "Street Food Hubs's lowest recorded level is approximately {764.97} reservations/week in 1980."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Vegan Cafes?",
+            "A": "Vegan Cafes reached approximately {2333.28} reservations/week in 1992."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Vegan Cafes?",
+            "A": "Vegan Cafes's lowest recorded level is approximately {705.82} reservations/week in 1977."
+        },
+        {
+            "Q": "What is Rooftop Bars's Restaurant Reservations in 1970?",
+            "A": "Rooftop Bars's restaurant reservations in 1970 is {1345.97} reservations/week."
+        },
+        {
+            "Q": "What is Street Food Hubs's Restaurant Reservations in 1970?",
+            "A": "Street Food Hubs's restaurant reservations in 1970 is {764.97} reservations/week."
+        },
+        {
+            "Q": "What is Rooftop Bars's Restaurant Reservations in 1970?",
+            "A": "Rooftop Bars's restaurant reservations in 1970 is {1417.76} reservations/week."
+        },
+        {
+            "Q": "What are the restaurant reservations of Fine Dining, Family Restaurants, and Vegan Cafes in 1970?",
+            "A": "{Fine Dining}'s restaurant reservations is {1022.31} reservations/week, {Family Restaurants}'s restaurant reservations is {663.62} reservations/week, {Vegan Cafes}'s restaurant reservations is {987.11} reservations/week."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Restaurant Reservations in the line chart?",
+            "A": "The global minimum restaurant reservations is {10.00} reservations/week."
+        },
+        {
+            "Q": "What is the global maximum Restaurant Reservations in the line chart?",
+            "A": "The global maximum restaurant reservations is {2333.28} reservations/week."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Casual Eateries's Restaurant Reservations?",
+            "A": "The average value of Casual Eateries's Restaurant Reservations is {385.10} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Family Restaurants's Restaurant Reservations?",
+            "A": "The average value of Family Restaurants's Restaurant Reservations is {1451.54} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Fine Dining's Restaurant Reservations?",
+            "A": "The average value of Fine Dining's Restaurant Reservations is {1338.41} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Fusion Kitchens's Restaurant Reservations?",
+            "A": "The average value of Fusion Kitchens's Restaurant Reservations is {292.23} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Rooftop Bars's Restaurant Reservations?",
+            "A": "The average value of Rooftop Bars's Restaurant Reservations is {1390.49} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Street Food Hubs's Restaurant Reservations?",
+            "A": "The average value of Street Food Hubs's Restaurant Reservations is {1267.42} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Vegan Cafes's Restaurant Reservations?",
+            "A": "The average value of Vegan Cafes's Restaurant Reservations is {1560.66} reservations/week."
+        },
+        {
+            "Q": "What is the rate of change in Casual Eateries's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Casual Eateries's Restaurant Reservations is {-99.15}%."
+        },
+        {
+            "Q": "What is the rate of change in Family Restaurants's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Family Restaurants's Restaurant Reservations is {238.11}%."
+        },
+        {
+            "Q": "What is the rate of change in Fine Dining's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Fine Dining's Restaurant Reservations is {54.88}%."
+        },
+        {
+            "Q": "What is the rate of change in Fusion Kitchens's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Fusion Kitchens's Restaurant Reservations is {-59.07}%."
+        },
+        {
+            "Q": "What is the rate of change in Rooftop Bars's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Rooftop Bars's Restaurant Reservations is {-8.88}%."
+        },
+        {
+            "Q": "What is the rate of change in Street Food Hubs's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Street Food Hubs's Restaurant Reservations is {121.27}%."
+        },
+        {
+            "Q": "What is the rate of change in Vegan Cafes's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of change in Vegan Cafes's Restaurant Reservations is {62.98}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Vegan Cafes's Restaurant Reservations exceed 1845 reservations/week? Please list the years and corresponding values.",
+            "A": "2008.97 reservations/week in {1985.0} year, 1864.99 reservations/week in {1988.0} year, 2207.24 reservations/week in {1989.0} year."
+        },
+        {
+            "Q": "Which years did Vegan Cafes's Restaurant Reservations below 1284 reservations/week? Please list the years and corresponding values.",
+            "A": "987.11 reservations/week in {1975.0} year, 1109.54 reservations/week in {1976.0} year, 705.82 reservations/week in {1977.0} year."
+        },
+        {
+            "Q": "Which years did Vegan Cafes's Restaurant Reservations between 1408 and 1721 reservations/week? Please list the years and corresponding values.",
+            "A": "1451.49 reservations/week in {1980.0} year, 1608.84 reservations/week in {1996.0} year."
+        },
+        {
+            "Q": "In the year 1983, which line had Restaurant Reservations exceed 1229 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Street Food Hubs} had 1643 reservations/week, {Rooftop Bars} had 1745 reservations/week."
+        },
+        {
+            "Q": "In the year 1983, which lines had Restaurant Reservations below 725 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Casual Eateries} had 627 reservations/week, {Fusion Kitchens} had 292 reservations/week."
+        },
+        {
+            "Q": "In the year 1983, which lines had Restaurant Reservations between 879 and 1075 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Vegan Cafes} had 978 reservations/week."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Restaurant Reservations, Fusion Kitchens, Family Restaurants, or Fine Dining?",
+            "A": "In 1970, {Fine Dining} had the highest restaurant reservations."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

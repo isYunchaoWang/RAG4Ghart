@@ -1,0 +1,59 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {5} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Elective Procedures show?",
+            "A": "The ridgeline representing Elective Procedures shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Elective Procedures reach its peaks?",
+            "A": "At {1131.13}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Elective Procedures} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =2005.5?",
+            "A": "At X =2005.5,the label with the highest density is {Elective Procedures}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 3925? Please list the countries and corresponding peak values.",
+            "A": "{Chronic Disease Management}'s peak at {7668},{Pediatric Care}'s peak at {4484},{Surgical Treatments}'s peak at {5085}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 5140? Please list the countries and corresponding peak values.",
+            "A": "{Elective Procedures}'s peak at {1131},{Pediatric Care}'s peak at {4484},{Mental Health}'s peak at {1652},{Surgical Treatments}'s peak at {5085}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Chronic Disease Management or Pediatric Care?",
+            "A": "{Chronic Disease Management} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Elective Procedures or Mental Health?",
+            "A": "{Mental Health} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

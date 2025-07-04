@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total luggage loss rate?",
+            "A": "The series with the largest contribution is {Ferry Services}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total luggage loss rate?",
+            "A": "The series with the smallest contribution is {Bus Stations}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Bus Stations's Luggage Loss Rate in 2022?",
+            "A": "Bus Stations's luggage loss rate in 2022 is {1.13} %."
+        },
+        {
+            "Q": "What is Regional Airports's Luggage Loss Rate in 2019?",
+            "A": "Regional Airports's luggage loss rate in 2019 is {1.79} %."
+        },
+        {
+            "Q": "What is Shared Ride's Luggage Loss Rate in 2020?",
+            "A": "Shared Ride's luggage loss rate in 2020 is {1.67} %."
+        },
+        {
+            "Q": "What are the luggage loss rate of Ferry Services, Shared Ride, and Bus Stations in 2020?",
+            "A": "Ferry Services's luggage loss rate is {1.68} %, Shared Ride's luggage loss rate is {1.67} %, Bus Stations's luggage loss rate is {1.10} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Luggage Loss Rate in the stacked area chart?",
+            "A": "The global minimum total luggage loss rate is {7.70} %."
+        },
+        {
+            "Q": "What is the global maximum total Luggage Loss Rate in the stacked area chart?",
+            "A": "The global maximum total luggage loss rate is {9.38} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Bus Stations's Luggage Loss Rate area?",
+            "A": "The average height of Bus Stations's luggage loss rate area is {1.24} %."
+        },
+        {
+            "Q": "What is the average height of Car Rentals's Luggage Loss Rate area?",
+            "A": "The average height of Car Rentals's luggage loss rate area is {1.80} %."
+        },
+        {
+            "Q": "What is the average height of Ferry Services's Luggage Loss Rate area?",
+            "A": "The average height of Ferry Services's luggage loss rate area is {1.90} %."
+        },
+        {
+            "Q": "What is the average height of Regional Airports's Luggage Loss Rate area?",
+            "A": "The average height of Regional Airports's luggage loss rate area is {1.82} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Luggage Loss Rate fall between 8 and 9 %? Please list the years and corresponding total values.",
+            "A": "total value was {7.84} % in {2020}, total value was {8.20} % in {2019}."
+        },
+        {
+            "Q": "Which years did the total Luggage Loss Rate go below 8 %? Please list the years and corresponding total values.",
+            "A": "total value was {7.70} % in {2018}, total value was {7.84} % in {2020}."
+        },
+        {
+            "Q": "Which years did the total Luggage Loss Rate exceed 9 %? Please list the years and corresponding total values.",
+            "A": "total value was {8.67} % in {2021}, total value was {9.38} % in {2022}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 2020 and 2021, was the average total Luggage Loss Rate higher or lower than between 2018 and 2019?",
+            "A": "The average total luggage loss rate between {2020} and {2021} was {higher} than between {2018} and {2019}."
+        },
+        {
+            "Q": "Between 2018 and 2020, did the total Luggage Loss Rate experience a larger or smaller change than between 2018 and 2019?",
+            "A": "The change in total luggage loss rate between {2018} and {2020} was {smaller} than between {2018} and {2019}."
+        },
+        {
+            "Q": "Between 2019 and 2021, was the average total Luggage Loss Rate higher or lower than between 2018 and 2020?",
+            "A": "The average total luggage loss rate between {2019} and {2021} was {higher} than between {2018} and {2020}."
+        },
+        {
+            "Q": "Between 2019 and 2022, was the average total Luggage Loss Rate higher or lower than between 2018 and 2021?",
+            "A": "The average total luggage loss rate between {2019} and {2022} was {higher} than between {2018} and {2021}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total student enrollment?",
+            "A": "The series with the largest contribution is {Borealis Graduate School}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total student enrollment?",
+            "A": "The series with the smallest contribution is {Silverhaven Polytechnic}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Celestial College's Student Enrollment in 2005?",
+            "A": "Celestial College's student enrollment in 2005 is {38083.75} students."
+        },
+        {
+            "Q": "What is Borealis Graduate School's Student Enrollment in 2006?",
+            "A": "Borealis Graduate School's student enrollment in 2006 is {42052.54} students."
+        },
+        {
+            "Q": "What is Celestial College's Student Enrollment in 1997?",
+            "A": "Celestial College's student enrollment in 1997 is {16618.73} students."
+        },
+        {
+            "Q": "What are the student enrollment of Silverhaven Polytechnic, Borealis Graduate School, and Zenith Institute of Technology in 2003?",
+            "A": "Silverhaven Polytechnic's student enrollment is {13436.07} students, Borealis Graduate School's student enrollment is {31809.29} students, Zenith Institute of Technology's student enrollment is {19669.34} students."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Student Enrollment in the stacked area chart?",
+            "A": "The global minimum total student enrollment is {38877.08} students."
+        },
+        {
+            "Q": "What is the global maximum total Student Enrollment in the stacked area chart?",
+            "A": "The global maximum total student enrollment is {192343.82} students."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Celestial College's Student Enrollment area?",
+            "A": "The average height of Celestial College's student enrollment area is {32132.83} students."
+        },
+        {
+            "Q": "What is the average height of Borealis Graduate School's Student Enrollment area?",
+            "A": "The average height of Borealis Graduate School's student enrollment area is {32598.77} students."
+        },
+        {
+            "Q": "What is the average height of Silverhaven Polytechnic's Student Enrollment area?",
+            "A": "The average height of Silverhaven Polytechnic's student enrollment area is {13032.77} students."
+        },
+        {
+            "Q": "What is the average height of Zenith Institute of Technology's Student Enrollment area?",
+            "A": "The average height of Zenith Institute of Technology's student enrollment area is {18292.87} students."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Student Enrollment go below 62045 students? Please list the years and corresponding total values.",
+            "A": "total value was {58148.69} students in {1996}, total value was {55403.31} students in {1995}, total value was {38877.08} students in {1991}."
+        },
+        {
+            "Q": "Which years did the total Student Enrollment exceed 118138 students? Please list the years and corresponding total values.",
+            "A": "total value was {161763.41} students in {2010}, total value was {148487.18} students in {2009}, total value was {192343.82} students in {2012}."
+        },
+        {
+            "Q": "Which years did the total Student Enrollment fall between 85587 and 94596 students? Please list the years and corresponding total values.",
+            "A": "total value was {87573.42} students in {2002}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1996 and 2003, was the average total Student Enrollment higher or lower than between 1992 and 2009?",
+            "A": "The average total student enrollment between {1996} and {2003} was {lower} than between {1992} and {2009}."
+        },
+        {
+            "Q": "Between 1995 and 2003, did the total Student Enrollment experience a larger or smaller change than between 1993 and 1997?",
+            "A": "The change in total student enrollment between {1995} and {2003} was {larger} than between {1993} and {1997}."
+        },
+        {
+            "Q": "Between 2005 and 2009, did the total Student Enrollment experience a larger or smaller change than between 1998 and 1999?",
+            "A": "The change in total student enrollment between {2005} and {2009} was {larger} than between {1998} and {1999}."
+        },
+        {
+            "Q": "Was the total Student Enrollment in 1999 higher or lower than in 2005?",
+            "A": "The total student enrollment in {1999} was {lower} than in {2005}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total cross-border delays?",
+            "A": "The series with the largest contribution is {Documentation Errors}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total cross-border delays?",
+            "A": "The series with the smallest contribution is {Political Disruptions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Documentation Errors's Cross-Border Delays in 1978?",
+            "A": "Documentation Errors's cross-border delays in 1978 is {11.95} hours."
+        },
+        {
+            "Q": "What is Documentation Errors's Cross-Border Delays in 1980?",
+            "A": "Documentation Errors's cross-border delays in 1980 is {12.50} hours."
+        },
+        {
+            "Q": "What is Political Disruptions's Cross-Border Delays in 1972?",
+            "A": "Political Disruptions's cross-border delays in 1972 is {11.21} hours."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Cross-Border Delays in the stacked area chart?",
+            "A": "The global minimum total cross-border delays is {13.72} hours."
+        },
+        {
+            "Q": "What is the global maximum total Cross-Border Delays in the stacked area chart?",
+            "A": "The global maximum total cross-border delays is {26.26} hours."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Documentation Errors's Cross-Border Delays area?",
+            "A": "The average height of Documentation Errors's cross-border delays area is {12.36} hours."
+        },
+        {
+            "Q": "What is the average height of Political Disruptions's Cross-Border Delays area?",
+            "A": "The average height of Political Disruptions's cross-border delays area is {6.70} hours."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Cross-Border Delays fall between 18 and 20 hours? Please list the years and corresponding total values.",
+            "A": "total value was {18.30} hours in {1975}."
+        },
+        {
+            "Q": "Which years did the total Cross-Border Delays exceed 21 hours? Please list the years and corresponding total values.",
+            "A": "total value was {26.26} hours in {1973}, total value was {24.95} hours in {1974}, total value was {22.81} hours in {1984}."
+        },
+        {
+            "Q": "Which years did the total Cross-Border Delays go below 16 hours? Please list the years and corresponding total values.",
+            "A": "total value was {14.13} hours in {1982}, total value was {14.98} hours in {1980}, total value was {13.72} hours in {1981}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1982 and 1983, was the average total Cross-Border Delays higher or lower than between 1975 and 1976?",
+            "A": "The average total cross-border delays between {1982} and {1983} was {lower} than between {1975} and {1976}."
+        },
+        {
+            "Q": "Between 1979 and 1984, was the average total Cross-Border Delays higher or lower than between 1979 and 1983?",
+            "A": "The average total cross-border delays between {1979} and {1984} was {higher} than between {1979} and {1983}."
+        },
+        {
+            "Q": "Between 1981 and 1983, was the average total Cross-Border Delays higher or lower than between 1973 and 1978?",
+            "A": "The average total cross-border delays between {1981} and {1983} was {lower} than between {1973} and {1978}."
+        },
+        {
+            "Q": "Between 1978 and 1983, was the average total Cross-Border Delays higher or lower than between 1980 and 1982?",
+            "A": "The average total cross-border delays between {1978} and {1983} was {higher} than between {1980} and {1982}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

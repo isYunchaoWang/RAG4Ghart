@@ -1,0 +1,193 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Verdant Ward's Vaccination Rate levels?",
+            "A": "Verdant Ward's Vaccination Rate levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of District Alpha's Vaccination Rate levels?",
+            "A": "District Alpha's Vaccination Rate levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Sector Beta's Vaccination Rate levels?",
+            "A": "Sector Beta's Vaccination Rate levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Enclave's Vaccination Rate levels?",
+            "A": "Azure Enclave's Vaccination Rate levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Quarter's Vaccination Rate levels?",
+            "A": "Crimson Quarter's Vaccination Rate levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Vaccination Rate levels?",
+            "A": "{Verdant Ward}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Vaccination Rate levels?",
+            "A": "{District Alpha}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Vaccination Rate levels?",
+            "A": "{Sector Beta}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Vaccination Rate levels?",
+            "A": "{Azure Enclave}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Vaccination Rate levels?",
+            "A": "{Crimson Quarter}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Vaccination Rate level recorded for Azure Enclave?",
+            "A": "Azure Enclave reached approximately {94.15} % in 1972."
+        },
+        {
+            "Q": "What is the lowest Vaccination Rate level recorded for Azure Enclave?",
+            "A": "Azure Enclave's lowest recorded level is approximately {55.43} % in 1975."
+        },
+        {
+            "Q": "What is the highest Vaccination Rate level recorded for Crimson Quarter?",
+            "A": "Crimson Quarter reached approximately {100.00} % in 1961."
+        },
+        {
+            "Q": "What is the lowest Vaccination Rate level recorded for Crimson Quarter?",
+            "A": "Crimson Quarter's lowest recorded level is approximately {72.41} % in 1956."
+        },
+        {
+            "Q": "What is the highest Vaccination Rate level recorded for District Alpha?",
+            "A": "District Alpha reached approximately {100.00} % in 1959."
+        },
+        {
+            "Q": "What is the lowest Vaccination Rate level recorded for District Alpha?",
+            "A": "District Alpha's lowest recorded level is approximately {78.70} % in 1975."
+        },
+        {
+            "Q": "What is the highest Vaccination Rate level recorded for Sector Beta?",
+            "A": "Sector Beta reached approximately {100.00} % in 1968."
+        },
+        {
+            "Q": "What is the lowest Vaccination Rate level recorded for Sector Beta?",
+            "A": "Sector Beta's lowest recorded level is approximately {76.79} % in 1956."
+        },
+        {
+            "Q": "What is the highest Vaccination Rate level recorded for Verdant Ward?",
+            "A": "Verdant Ward reached approximately {100.00} % in 1963."
+        },
+        {
+            "Q": "What is the lowest Vaccination Rate level recorded for Verdant Ward?",
+            "A": "Verdant Ward's lowest recorded level is approximately {75.85} % in 1956."
+        },
+        {
+            "Q": "What is Azure Enclave's Vaccination Rate in 1970?",
+            "A": "Azure Enclave's vaccination rate in 1970 is {87.48} %."
+        },
+        {
+            "Q": "What is Sector Beta's Vaccination Rate in 1970?",
+            "A": "Sector Beta's vaccination rate in 1970 is {80.56} %."
+        },
+        {
+            "Q": "What is Verdant Ward's Vaccination Rate in 1970?",
+            "A": "Verdant Ward's vaccination rate in 1970 is {78.57} %."
+        },
+        {
+            "Q": "What are the vaccination rate of Verdant Ward, District Alpha, and Sector Beta in 1970?",
+            "A": "{Verdant Ward}'s vaccination rate is {75.85} %, {District Alpha}'s vaccination rate is {84.84} %, {Sector Beta}'s vaccination rate is {76.79} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Vaccination Rate in the line chart?",
+            "A": "The global minimum vaccination rate is {55.43} %."
+        },
+        {
+            "Q": "What is the global maximum Vaccination Rate in the line chart?",
+            "A": "The global maximum vaccination rate is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Enclave's Vaccination Rate?",
+            "A": "The average value of Azure Enclave's Vaccination Rate is {75.28} %."
+        },
+        {
+            "Q": "What is the average value of Crimson Quarter's Vaccination Rate?",
+            "A": "The average value of Crimson Quarter's Vaccination Rate is {96.98} %."
+        },
+        {
+            "Q": "What is the average value of District Alpha's Vaccination Rate?",
+            "A": "The average value of District Alpha's Vaccination Rate is {95.72} %."
+        },
+        {
+            "Q": "What is the average value of Sector Beta's Vaccination Rate?",
+            "A": "The average value of Sector Beta's Vaccination Rate is {92.55} %."
+        },
+        {
+            "Q": "What is the average value of Verdant Ward's Vaccination Rate?",
+            "A": "The average value of Verdant Ward's Vaccination Rate is {94.65} %."
+        },
+        {
+            "Q": "What is the rate of change in Azure Enclave's Vaccination Rate from the starting year to the final year?",
+            "A": "The rate of change in Azure Enclave's Vaccination Rate is {-26.37}%."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Quarter's Vaccination Rate from the starting year to the final year?",
+            "A": "The rate of change in Crimson Quarter's Vaccination Rate is {38.10}%."
+        },
+        {
+            "Q": "What is the rate of change in District Alpha's Vaccination Rate from the starting year to the final year?",
+            "A": "The rate of change in District Alpha's Vaccination Rate is {-7.24}%."
+        },
+        {
+            "Q": "What is the rate of change in Sector Beta's Vaccination Rate from the starting year to the final year?",
+            "A": "The rate of change in Sector Beta's Vaccination Rate is {30.23}%."
+        },
+        {
+            "Q": "What is the rate of change in Verdant Ward's Vaccination Rate from the starting year to the final year?",
+            "A": "The rate of change in Verdant Ward's Vaccination Rate is {31.84}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Crimson Quarter's Vaccination Rate below 100 %? Please list the years and corresponding values.",
+            "A": "72.41 % in {1956.0} year, 81.11 % in {1957.0} year, 90.14 % in {1958.0} year."
+        },
+        {
+            "Q": "Which years did Crimson Quarter's Vaccination Rate between 90 and 110 %? Please list the years and corresponding values.",
+            "A": "90.14 % in {1958.0} year, 97.98 % in {1959.0} year, 97.93 % in {1960.0} year."
+        },
+        {
+            "Q": "In the year 1975, which lines had Vaccination Rate below 83 %? Please list the lines and corresponding values.",
+            "A": "{District Alpha} had 79 %, {Azure Enclave} had 55 %."
+        },
+        {
+            "Q": "In the year 1975, which lines had Vaccination Rate between 82 and 101 %? Please list the lines and corresponding values.",
+            "A": "{Verdant Ward} had 100 %, {Sector Beta} had 100 %, {Crimson Quarter} had 100 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Vaccination Rate, Verdant Ward, Sector Beta, District Alpha, or Crimson Quarter?",
+            "A": "In 1970, {District Alpha} had the highest vaccination rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

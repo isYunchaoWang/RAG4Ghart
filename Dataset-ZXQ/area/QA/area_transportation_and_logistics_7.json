@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total driver satisfaction?",
+            "A": "The series with the largest contribution is {Long-Haul Operators}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total driver satisfaction?",
+            "A": "The series with the smallest contribution is {International Routes}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Freight Train's Driver Satisfaction in 1983?",
+            "A": "Freight Train's driver satisfaction in 1983 is {89.03} index."
+        },
+        {
+            "Q": "What is International Routes's Driver Satisfaction in 1985?",
+            "A": "International Routes's driver satisfaction in 1985 is {83.02} index."
+        },
+        {
+            "Q": "What is Hazardous Material's Driver Satisfaction in 1987?",
+            "A": "Hazardous Material's driver satisfaction in 1987 is {64.76} index."
+        },
+        {
+            "Q": "What are the driver satisfaction of Long-Haul Operators, Drone Pilots, and Last-Mile Couriers in 1985?",
+            "A": "Long-Haul Operators's driver satisfaction is {99.01} index, Drone Pilots's driver satisfaction is {74.77} index, Last-Mile Couriers's driver satisfaction is {96.95} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Driver Satisfaction in the stacked area chart?",
+            "A": "The global minimum total driver satisfaction is {529.65} index."
+        },
+        {
+            "Q": "What is the global maximum total Driver Satisfaction in the stacked area chart?",
+            "A": "The global maximum total driver satisfaction is {641.15} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Night Shift's Driver Satisfaction area?",
+            "A": "The average height of Night Shift's driver satisfaction area is {86.62} index."
+        },
+        {
+            "Q": "What is the average height of Hazardous Material's Driver Satisfaction area?",
+            "A": "The average height of Hazardous Material's driver satisfaction area is {79.20} index."
+        },
+        {
+            "Q": "What is the average height of Freight Train's Driver Satisfaction area?",
+            "A": "The average height of Freight Train's driver satisfaction area is {87.46} index."
+        },
+        {
+            "Q": "What is the average height of Last-Mile Couriers's Driver Satisfaction area?",
+            "A": "The average height of Last-Mile Couriers's driver satisfaction area is {93.79} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Driver Satisfaction fall between 579 and 640 index? Please list the years and corresponding total values.",
+            "A": "total value was {612.53} index in {1986}, total value was {620.41} index in {1985}, total value was {626.18} index in {1984}."
+        },
+        {
+            "Q": "Which years did the total Driver Satisfaction go below 596 index? Please list the years and corresponding total values.",
+            "A": "total value was {578.83} index in {1987}, total value was {529.65} index in {1983}."
+        },
+        {
+            "Q": "Which years did the total Driver Satisfaction exceed 623 index? Please list the years and corresponding total values.",
+            "A": "total value was {641.15} index in {1988}, total value was {626.18} index in {1984}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1983 and 1985, did the total Driver Satisfaction experience a larger or smaller change than between 1985 and 1987?",
+            "A": "The change in total driver satisfaction between {1983} and {1985} was {larger} than between {1985} and {1987}."
+        },
+        {
+            "Q": "Was the total Driver Satisfaction in 1985 higher or lower than in 1987?",
+            "A": "The total driver satisfaction in {1985} was {higher} than in {1987}."
+        },
+        {
+            "Q": "Between 1984 and 1986, did the total Driver Satisfaction experience a larger or smaller change than between 1983 and 1985?",
+            "A": "The change in total driver satisfaction between {1984} and {1986} was {smaller} than between {1983} and {1985}."
+        },
+        {
+            "Q": "Between 1984 and 1986, did the total Driver Satisfaction experience a larger or smaller change than between 1983 and 1987?",
+            "A": "The change in total driver satisfaction between {1984} and {1986} was {smaller} than between {1983} and {1987}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

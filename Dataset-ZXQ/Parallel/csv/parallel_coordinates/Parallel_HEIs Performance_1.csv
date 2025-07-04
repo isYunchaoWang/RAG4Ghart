@@ -1,0 +1,7 @@
+﻿Education and Academics,HEIs Performance
+labels,Facility utilization (%),Test scores (percentile),Student-teacher ratio (ratio),College acceptance rate (%),Graduation rate (%),Alumni donation rate (%),Research funding (USD millions)
+Pattern,Strong Correlation,Weak Correlation,Clustering,Clustering,Strong Correlation,Strong Correlation
+Cummings-Henderson  School,100.0,99.0,30.0,30.77,50.0,1.0,0.1
+Cooper-West  School,70.68,29.12,5.0,100.0,64.34,50.0,500.0
+"Clark, Rose and Jones  School",30.0,1.0,24.67,10.0,80.71,10.79,95.61
+"Morris, Daniels and Everett  University",53.28,44.46,25.77,20.1,100.0,43.56,212.8

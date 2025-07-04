@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {1} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total return rate?",
+            "A": "The series with the largest contribution is {Direct-to-Consumer}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total return rate?",
+            "A": "The series with the smallest contribution is {Direct-to-Consumer}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Direct-to-Consumer's Return Rate in 1996?",
+            "A": "Direct-to-Consumer's return rate in 1996 is {22.08} %."
+        },
+        {
+            "Q": "What is Direct-to-Consumer's Return Rate in 1997?",
+            "A": "Direct-to-Consumer's return rate in 1997 is {27.96} %."
+        },
+        {
+            "Q": "What is Direct-to-Consumer's Return Rate in 1992?",
+            "A": "Direct-to-Consumer's return rate in 1992 is {20.18} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Return Rate in the stacked area chart?",
+            "A": "The global minimum total return rate is {10.62} %."
+        },
+        {
+            "Q": "What is the global maximum total Return Rate in the stacked area chart?",
+            "A": "The global maximum total return rate is {27.96} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Direct-to-Consumer's Return Rate area?",
+            "A": "The average height of Direct-to-Consumer's return rate area is {17.83} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Return Rate go below 14 %? Please list the years and corresponding total values.",
+            "A": "total value was {13.33} % in {1978}, total value was {13.40} % in {1984}, total value was {11.10} % in {1977}."
+        },
+        {
+            "Q": "Which years did the total Return Rate fall between 16 and 18 %? Please list the years and corresponding total values.",
+            "A": "total value was {17.21} % in {1986}, total value was {16.31} % in {1985}."
+        },
+        {
+            "Q": "Which years did the total Return Rate exceed 20 %? Please list the years and corresponding total values.",
+            "A": "total value was {25.09} % in {1995}, total value was {25.08} % in {1989}, total value was {22.08} % in {1996}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1977 and 1996, did the total Return Rate experience a larger or smaller change than between 1978 and 1988?",
+            "A": "The change in total return rate between {1977} and {1996} was {larger} than between {1978} and {1988}."
+        },
+        {
+            "Q": "Was the total Return Rate in 1979 higher or lower than in 1980?",
+            "A": "The total return rate in {1979} was {higher} than in {1980}."
+        },
+        {
+            "Q": "Was the total Return Rate in 1993 higher or lower than in 1995?",
+            "A": "The total return rate in {1993} was {lower} than in {1995}."
+        },
+        {
+            "Q": "Between 1996 and 1997, did the total Return Rate experience a larger or smaller change than between 1980 and 1984?",
+            "A": "The change in total return rate between {1996} and {1997} was {larger} than between {1980} and {1984}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

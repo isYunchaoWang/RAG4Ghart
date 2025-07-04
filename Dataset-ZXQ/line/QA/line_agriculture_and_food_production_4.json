@@ -1,0 +1,221 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Port of Aethelgard's Agricultural Exports levels?",
+            "A": "Port of Aethelgard's Agricultural Exports levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Logistics's Agricultural Exports levels?",
+            "A": "Zenith Logistics's Agricultural Exports levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Stellar Commodities Group's Agricultural Exports levels?",
+            "A": "Stellar Commodities Group's Agricultural Exports levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Borealis Shipping Co.'s Agricultural Exports levels?",
+            "A": "Borealis Shipping Co.'s Agricultural Exports levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Port of Silverhaven's Agricultural Exports levels?",
+            "A": "Port of Silverhaven's Agricultural Exports levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Port Authority's Agricultural Exports levels?",
+            "A": "Azure Port Authority's Agricultural Exports levels show a {single valley} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Agricultural Exports levels?",
+            "A": "{Port of Aethelgard}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Agricultural Exports levels?",
+            "A": "{Stellar Commodities Group}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Agricultural Exports levels?",
+            "A": "{Borealis Shipping Co.}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Agricultural Exports levels?",
+            "A": "{Port of Silverhaven}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Agricultural Exports levels?",
+            "A": "{Azure Port Authority}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Azure Port Authority?",
+            "A": "Azure Port Authority reached approximately {5493295.32} $ in 1968."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Azure Port Authority?",
+            "A": "Azure Port Authority's lowest recorded level is approximately {1786973.68} $ in 1964."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Borealis Shipping Co.?",
+            "A": "Borealis Shipping Co. reached approximately {10150611.49} $ in 1959."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Borealis Shipping Co.?",
+            "A": "Borealis Shipping Co.'s lowest recorded level is approximately {3590750.27} $ in 1966."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Port of Aethelgard?",
+            "A": "Port of Aethelgard reached approximately {17540233.98} $ in 1964."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Port of Aethelgard?",
+            "A": "Port of Aethelgard's lowest recorded level is approximately {7119327.30} $ in 1960."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Port of Silverhaven?",
+            "A": "Port of Silverhaven reached approximately {10597782.25} $ in 1959."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Port of Silverhaven?",
+            "A": "Port of Silverhaven's lowest recorded level is approximately {4233598.14} $ in 1967."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Stellar Commodities Group?",
+            "A": "Stellar Commodities Group reached approximately {14636003.29} $ in 1967."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Stellar Commodities Group?",
+            "A": "Stellar Commodities Group's lowest recorded level is approximately {9204532.48} $ in 1959."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Zenith Logistics?",
+            "A": "Zenith Logistics reached approximately {17820645.75} $ in 1968."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Zenith Logistics?",
+            "A": "Zenith Logistics's lowest recorded level is approximately {7438476.43} $ in 1959."
+        },
+        {
+            "Q": "What is Zenith Logistics's Agricultural Exports in 1970?",
+            "A": "Zenith Logistics's agricultural exports in 1970 is {7438476.43} $."
+        },
+        {
+            "Q": "What is Borealis Shipping Co.'s Agricultural Exports in 1970?",
+            "A": "Borealis Shipping Co.'s agricultural exports in 1970 is {3860853.37} $."
+        },
+        {
+            "Q": "What is Stellar Commodities Group's Agricultural Exports in 1970?",
+            "A": "Stellar Commodities Group's agricultural exports in 1970 is {12868349.80} $."
+        },
+        {
+            "Q": "What are the agricultural exports of Port of Aethelgard, Zenith Logistics, and Stellar Commodities Group in 1970?",
+            "A": "{Port of Aethelgard}'s agricultural exports is {11560638.15} $, {Zenith Logistics}'s agricultural exports is {7438476.43} $, {Stellar Commodities Group}'s agricultural exports is {9204532.48} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Agricultural Exports in the line chart?",
+            "A": "The global minimum agricultural exports is {1786973.68} $."
+        },
+        {
+            "Q": "What is the global maximum Agricultural Exports in the line chart?",
+            "A": "The global maximum agricultural exports is {17820645.75} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Port Authority's Agricultural Exports?",
+            "A": "The average value of Azure Port Authority's Agricultural Exports is {3329705.70} $."
+        },
+        {
+            "Q": "What is the average value of Borealis Shipping Co.'s Agricultural Exports?",
+            "A": "The average value of Borealis Shipping Co.'s Agricultural Exports is {6669522.21} $."
+        },
+        {
+            "Q": "What is the average value of Port of Aethelgard's Agricultural Exports?",
+            "A": "The average value of Port of Aethelgard's Agricultural Exports is {12900274.47} $."
+        },
+        {
+            "Q": "What is the average value of Port of Silverhaven's Agricultural Exports?",
+            "A": "The average value of Port of Silverhaven's Agricultural Exports is {7519630.56} $."
+        },
+        {
+            "Q": "What is the average value of Stellar Commodities Group's Agricultural Exports?",
+            "A": "The average value of Stellar Commodities Group's Agricultural Exports is {12036166.30} $."
+        },
+        {
+            "Q": "What is the average value of Zenith Logistics's Agricultural Exports?",
+            "A": "The average value of Zenith Logistics's Agricultural Exports is {13427534.97} $."
+        },
+        {
+            "Q": "What is the rate of change in Azure Port Authority's Agricultural Exports from the starting year to the final year?",
+            "A": "The rate of change in Azure Port Authority's Agricultural Exports is {29.92}%."
+        },
+        {
+            "Q": "What is the rate of change in Borealis Shipping Co.'s Agricultural Exports from the starting year to the final year?",
+            "A": "The rate of change in Borealis Shipping Co.'s Agricultural Exports is {-59.48}%."
+        },
+        {
+            "Q": "What is the rate of change in Port of Aethelgard's Agricultural Exports from the starting year to the final year?",
+            "A": "The rate of change in Port of Aethelgard's Agricultural Exports is {28.93}%."
+        },
+        {
+            "Q": "What is the rate of change in Port of Silverhaven's Agricultural Exports from the starting year to the final year?",
+            "A": "The rate of change in Port of Silverhaven's Agricultural Exports is {-56.18}%."
+        },
+        {
+            "Q": "What is the rate of change in Stellar Commodities Group's Agricultural Exports from the starting year to the final year?",
+            "A": "The rate of change in Stellar Commodities Group's Agricultural Exports is {39.80}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Logistics's Agricultural Exports from the starting year to the final year?",
+            "A": "The rate of change in Zenith Logistics's Agricultural Exports is {139.57}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Borealis Shipping Co.'s Agricultural Exports exceed 7814535 $? Please list the years and corresponding values.",
+            "A": "10150611.49 $ in {1959.0} year, 9251904.14 $ in {1960.0} year, 8203502.49 $ in {1961.0} year."
+        },
+        {
+            "Q": "Which years did Borealis Shipping Co.'s Agricultural Exports below 5054998 $? Please list the years and corresponding values.",
+            "A": "3590750.27 $ in {1966.0} year, 3860853.37 $ in {1967.0} year, 4113512.88 $ in {1968.0} year."
+        },
+        {
+            "Q": "Which years did Borealis Shipping Co.'s Agricultural Exports between 5791290 and 7078243 $? Please list the years and corresponding values.",
+            "A": "7022758.11 $ in {1963.0} year."
+        },
+        {
+            "Q": "In the year 1962, which line had Agricultural Exports exceed 11533731 $? Please list the lines and corresponding values.",
+            "A": "{Port of Aethelgard} had 11784254 $, {Zenith Logistics} had 11955266 $."
+        },
+        {
+            "Q": "In the year 1962, which lines had Agricultural Exports below 8380013 $? Please list the lines and corresponding values.",
+            "A": "{Borealis Shipping Co.} had 7647835 $, {Azure Port Authority} had 2638656 $."
+        },
+        {
+            "Q": "In the year 1962, which lines had Agricultural Exports between 8961185 and 10952559 $? Please list the lines and corresponding values.",
+            "A": "{Port of Silverhaven} had 9112191 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Agricultural Exports, Port of Aethelgard, Azure Port Authority, or Port of Silverhaven?",
+            "A": "In 1970, {Port of Aethelgard} had the highest agricultural exports."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

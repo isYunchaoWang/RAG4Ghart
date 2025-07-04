@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {fill bubble chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this fill bubble chart?",
+            "A": "There are {4} bubbles."
+        },
+        {
+            "Q": "How many bubbles are in layer 2 of this fill bubble chart?",
+            "A": "There are {3} bubbles in layer 2."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the maximum depth in this fill bubble chart?",
+            "A": "The maximum depth is {2}."
+        },
+        {
+            "Q": "Which bubble contains bubble Destinations in the fill bubble chart?",
+            "A": "Bubble Destinations is contained by bubble {Tourism and Hospitality}."
+        },
+        {
+            "Q": "Which bubbles are contained within bubble Tourism and Hospitality in the fill bubble chart?",
+            "A": "Bubble Tourism and Hospitality contains bubbles {Accommodation, Destinations, Tourism Types}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the size value of bubble Tourism Types?",
+            "A": "The size value of bubble {Tourism Types} is {15.05}."
+        },
+        {
+            "Q": "What is the size value of bubble Destinations?",
+            "A": "The size value of bubble {Destinations} is {21.88}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum size value in the fill bubble chart?",
+            "A": "The global maximum size value is {54.74}."
+        },
+        {
+            "Q": "What is the global minimum size value in the fill bubble chart?",
+            "A": "The global minimum size value is {15.05}."
+        },
+        {
+            "Q": "What is the maximum value under category Tourism and Hospitality?",
+            "A": "The maximum value under category {Tourism and Hospitality} is {22.91}."
+        },
+        {
+            "Q": "What is the maximum value under category General?",
+            "A": "The maximum value under category {General} is {100.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of layer 2 of bubbles?",
+            "A": "The total value of layer 2 of bubbles is {59.84}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 size values in the fill bubble chart?",
+            "A": "{54.74, 22.91, 21.88}."
+        },
+        {
+            "Q": "What are the bottom 3 size values in the fill bubble chart?",
+            "A": "{15.05, 21.88, 22.91}."
+        },
+        {
+            "Q": "Which bubbles have size values exceed 44.83? Please list the bubbles and corresponding values.",
+            "A": "Tourism and Hospitality has {54.74}."
+        },
+        {
+            "Q": "Which bubbles have size values between 19.03 and 39.41? Please list the bubbles and corresponding values.",
+            "A": "Accommodation has {22.91}, and Destinations has {21.88}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the size value of Tourism Types or Destinations in the fill bubble chart?",
+            "A": "The {size value} of {Destinations} is larger."
+        },
+        {
+            "Q": "Which is larger, the size value of Tourism and Hospitality or Accommodation in the fill bubble chart?",
+            "A": "The {size value} of {Tourism and Hospitality} is larger."
+        },
+        {
+            "Q": "Which is larger, the size value of Accommodation or Destinations in the fill bubble chart?",
+            "A": "The {size value} of {Accommodation} is larger."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

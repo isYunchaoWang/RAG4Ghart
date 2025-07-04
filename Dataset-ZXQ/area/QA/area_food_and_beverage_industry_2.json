@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {1} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total food safety index?",
+            "A": "The series with the largest contribution is {The Golden Spoon}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total food safety index?",
+            "A": "The series with the smallest contribution is {The Golden Spoon}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is The Golden Spoon's Food Safety Index in 2018?",
+            "A": "The Golden Spoon's food safety index in 2018 is {121.91} index."
+        },
+        {
+            "Q": "What is The Golden Spoon's Food Safety Index in 2016?",
+            "A": "The Golden Spoon's food safety index in 2016 is {107.17} index."
+        },
+        {
+            "Q": "What is The Golden Spoon's Food Safety Index in 2015?",
+            "A": "The Golden Spoon's food safety index in 2015 is {95.64} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Food Safety Index in the stacked area chart?",
+            "A": "The global minimum total food safety index is {95.64} index."
+        },
+        {
+            "Q": "What is the global maximum total Food Safety Index in the stacked area chart?",
+            "A": "The global maximum total food safety index is {146.44} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of The Golden Spoon's Food Safety Index area?",
+            "A": "The average height of The Golden Spoon's food safety index area is {119.62} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Food Safety Index go below 110 index? Please list the years and corresponding total values.",
+            "A": "total value was {95.64} index in {2015}, total value was {107.17} index in {2016}."
+        },
+        {
+            "Q": "Which years did the total Food Safety Index fall between 113 and 125 index? Please list the years and corresponding total values.",
+            "A": "total value was {121.91} index in {2018}, total value was {113.29} index in {2017}."
+        },
+        {
+            "Q": "Which years did the total Food Safety Index exceed 128 index? Please list the years and corresponding total values.",
+            "A": "total value was {133.28} index in {2019}, total value was {146.44} index in {2020}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Food Safety Index in 2015 higher or lower than in 2017?",
+            "A": "The total food safety index in {2015} was {lower} than in {2017}."
+        },
+        {
+            "Q": "Between 2015 and 2019, was the average total Food Safety Index higher or lower than between 2017 and 2018?",
+            "A": "The average total food safety index between {2015} and {2019} was {lower} than between {2017} and {2018}."
+        },
+        {
+            "Q": "Between 2015 and 2016, did the total Food Safety Index experience a larger or smaller change than between 2017 and 2020?",
+            "A": "The change in total food safety index between {2015} and {2016} was {smaller} than between {2017} and {2020}."
+        },
+        {
+            "Q": "Between 2018 and 2019, was the average total Food Safety Index higher or lower than between 2015 and 2020?",
+            "A": "The average total food safety index between {2018} and {2019} was {higher} than between {2015} and {2020}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Primary Healthcare Institutions Ratio} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of United Arab Emirates?",
+            "A": "The strongest aspect is {Primary Healthcare Institutions Ratio}, while the weakest aspect is{ Health Insurance Coverage Rate}."
+        },
+        {
+            "Q": "On dimension Vaccination Rate, which label scores the highest?",
+            "A": "On Vaccination Rate, label {United Arab Emirates} scores the highest."
+        },
+        {
+            "Q": "On dimension Disease Incidence Rate, which label scores the highest?",
+            "A": "On Disease Incidence Rate, label {Austria} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Austria on the Electronic Medical Record Adoption Rate in the radar chart?",
+            "A": "The value of Austria on the Safety dimension is {80}."
+        },
+        {
+            "Q": "What is the value of Grenada on the Primary Healthcare Institutions Ratio in the radar chart?",
+            "A": "The value of Grenada on the Safety dimension is {55}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Austria across all dimensions in the radar chart?",
+            "A": "The maximum value of Austria across all dimensions is {80}."
+        },
+        {
+            "Q": "What is the minimum value of label Grenada across all dimensions in the radar chart?",
+            "A": "The minimum value of Grenada across all dimensions is {55}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Disease Incidence Rate}",
+            "A": "The average value of {Disease Incidence Rate} is {52.0}."
+        },
+        {
+            "Q": "What is the average value of {Grenada}",
+            "A": "The average value of {Grenada} is {66.29}."
+        },
+        {
+            "Q": "What is the difference in Health Insurance Coverage Rate between Grenada and United Arab Emirates?",
+            "A": "The difference in {Health Insurance Coverage Rate} between Grenada and United Arab Emirates is {23}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For United Arab Emirates in the radar chart, which dimensions have scores between 38 and 66? Please list the dimensions and corresponding scores.",
+            "A": "{Electronic Medical Record Adoption Rate} is {64}, {Chronic Disease Management Compliance Rate} is {60}, {Disease Incidence Rate} is {64}, {Vaccination Rate} is {47}, {Hospital Bed Utilization Rate} is {65}"
+        },
+        {
+            "Q": "Which labels have scores above 57 for the Disease Incidence Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{United Arab Emirates} is {64}, {Grenada} is {65}"
+        },
+        {
+            "Q": "Which labels have scores below 65 for the Hospital Bed Utilization Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{United Arab Emirates} is {65}, {Grenada} is {61}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Grenada, which dimension has a higher score: Vaccination Rate or Hospital Bed Utilization Rate?",
+            "A": "{Hospital Bed Utilization Rate} has a higher score than Vaccination Rate for Grenada."
+        },
+        {
+            "Q": "On Hospital Bed Utilization Rate, which label has a higher score: Grenada or the United Arab Emirates?",
+            "A": "{United Arab Emirates} has a higher score on Hospital Bed Utilization Rate compared to Grenada."
+        },
+        {
+            "Q": "On Primary Healthcare Institutions Ratio, which label has a higher score: Grenada or the Austria?",
+            "A": "{Austria} has a higher score on Primary Healthcare Institutions Ratio compared to Grenada."
+        },
+        {
+            "Q": "For Grenada, which dimension has a higher score: Primary Healthcare Institutions Ratio or Disease Incidence Rate or Chronic Disease Management Compliance Rate?",
+            "A": "{Chronic Disease Management Compliance Rate} has a higher score for Grenada."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

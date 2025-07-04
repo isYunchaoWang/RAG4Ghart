@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total natural gas prices?",
+            "A": "The series with the largest contribution is {TerraFuel Exchange}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total natural gas prices?",
+            "A": "The series with the smallest contribution is {SkyFlow Water Index}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is SkyFlow Water Index's Natural Gas Prices in 1966?",
+            "A": "SkyFlow Water Index's natural gas prices in 1966 is {0.71} $/cubic meter."
+        },
+        {
+            "Q": "What is Zephyr Gas Index's Natural Gas Prices in 1957?",
+            "A": "Zephyr Gas Index's natural gas prices in 1957 is {2.28} $/cubic meter."
+        },
+        {
+            "Q": "What is Zephyr Gas Index's Natural Gas Prices in 1956?",
+            "A": "Zephyr Gas Index's natural gas prices in 1956 is {2.20} $/cubic meter."
+        },
+        {
+            "Q": "What are the natural gas prices of TerraFuel Exchange, Lumina Energy Market, and SkyFlow Water Index in 1954?",
+            "A": "TerraFuel Exchange's natural gas prices is {2.33} $/cubic meter, Lumina Energy Market's natural gas prices is {2.19} $/cubic meter, SkyFlow Water Index's natural gas prices is {1.65} $/cubic meter."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Natural Gas Prices in the stacked area chart?",
+            "A": "The global minimum total natural gas prices is {8.05} $/cubic meter."
+        },
+        {
+            "Q": "What is the global maximum total Natural Gas Prices in the stacked area chart?",
+            "A": "The global maximum total natural gas prices is {10.57} $/cubic meter."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Lumina Energy Market's Natural Gas Prices area?",
+            "A": "The average height of Lumina Energy Market's natural gas prices area is {2.72} $/cubic meter."
+        },
+        {
+            "Q": "What is the average height of TerraFuel Exchange's Natural Gas Prices area?",
+            "A": "The average height of TerraFuel Exchange's natural gas prices area is {2.80} $/cubic meter."
+        },
+        {
+            "Q": "What is the average height of SkyFlow Water Index's Natural Gas Prices area?",
+            "A": "The average height of SkyFlow Water Index's natural gas prices area is {1.05} $/cubic meter."
+        },
+        {
+            "Q": "What is the average height of Zephyr Gas Index's Natural Gas Prices area?",
+            "A": "The average height of Zephyr Gas Index's natural gas prices area is {2.45} $/cubic meter."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Natural Gas Prices fall between 8 and 9 $/cubic meter? Please list the years and corresponding total values.",
+            "A": "total value was {9.31} $/cubic meter in {1965}, total value was {8.68} $/cubic meter in {1959}, total value was {8.66} $/cubic meter in {1958}."
+        },
+        {
+            "Q": "Which years did the total Natural Gas Prices go below 8 $/cubic meter? Please list the years and corresponding total values.",
+            "A": "total value was {8.12} $/cubic meter in {1953}, total value was {8.34} $/cubic meter in {1956}, total value was {8.05} $/cubic meter in {1952}."
+        },
+        {
+            "Q": "Which years did the total Natural Gas Prices exceed 9 $/cubic meter? Please list the years and corresponding total values.",
+            "A": "total value was {9.40} $/cubic meter in {1964}, total value was {9.72} $/cubic meter in {1962}, total value was {10.57} $/cubic meter in {1966}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Natural Gas Prices in 1960 higher or lower than in 1962?",
+            "A": "The total natural gas prices in {1960} was {lower} than in {1962}."
+        },
+        {
+            "Q": "Was the total Natural Gas Prices in 1957 higher or lower than in 1967?",
+            "A": "The total natural gas prices in {1957} was {lower} than in {1967}."
+        },
+        {
+            "Q": "Between 1953 and 1957, did the total Natural Gas Prices experience a larger or smaller change than between 1953 and 1960?",
+            "A": "The change in total natural gas prices between {1953} and {1957} was {smaller} than between {1953} and {1960}."
+        },
+        {
+            "Q": "Between 1962 and 1965, was the average total Natural Gas Prices higher or lower than between 1953 and 1957?",
+            "A": "The average total natural gas prices between {1962} and {1965} was {higher} than between {1953} and {1957}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

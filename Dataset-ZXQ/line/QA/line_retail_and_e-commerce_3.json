@@ -1,0 +1,88 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Apparel Retailers's Customer Satisfaction Score levels?",
+            "A": "Apparel Retailers's Customer Satisfaction Score levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Customer Satisfaction Score levels?",
+            "A": "{Apparel Retailers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Customer Satisfaction Score level recorded for Apparel Retailers?",
+            "A": "Apparel Retailers reached approximately {107.38} index in 1982."
+        },
+        {
+            "Q": "What is the lowest Customer Satisfaction Score level recorded for Apparel Retailers?",
+            "A": "Apparel Retailers's lowest recorded level is approximately {61.58} index in 1995."
+        },
+        {
+            "Q": "What is Apparel Retailers's Customer Satisfaction Score in 1970?",
+            "A": "Apparel Retailers's customer satisfaction score in 1970 is {93.97} index."
+        },
+        {
+            "Q": "What is Apparel Retailers's Customer Satisfaction Score in 1970?",
+            "A": "Apparel Retailers's customer satisfaction score in 1970 is {70.23} index."
+        },
+        {
+            "Q": "What is Apparel Retailers's Customer Satisfaction Score in 1970?",
+            "A": "Apparel Retailers's customer satisfaction score in 1970 is {92.28} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Customer Satisfaction Score in the line chart?",
+            "A": "The global minimum customer satisfaction score is {61.58} index."
+        },
+        {
+            "Q": "What is the global maximum Customer Satisfaction Score in the line chart?",
+            "A": "The global maximum customer satisfaction score is {107.38} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Apparel Retailers's Customer Satisfaction Score?",
+            "A": "The average value of Apparel Retailers's Customer Satisfaction Score is {85.55} index."
+        },
+        {
+            "Q": "What is the rate of change in Apparel Retailers's Customer Satisfaction Score from the starting year to the final year?",
+            "A": "The rate of change in Apparel Retailers's Customer Satisfaction Score is {7.01}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Apparel Retailers's Customer Satisfaction Score exceed 95 index? Please list the years and corresponding values.",
+            "A": "107.38 index in {1982.0} year, 95.60 index in {1986.0} year, 105.28 index in {1987.0} year."
+        },
+        {
+            "Q": "Which years did Apparel Retailers's Customer Satisfaction Score below 74 index? Please list the years and corresponding values.",
+            "A": "67.38 index in {1984.0} year, 65.52 index in {1985.0} year, 70.23 index in {1989.0} year."
+        },
+        {
+            "Q": "Which years did Apparel Retailers's Customer Satisfaction Score between 76 and 93 index? Please list the years and corresponding values.",
+            "A": "90.10 index in {1981.0} year, 92.28 index in {1983.0} year, 85.17 index in {1991.0} year."
+        },
+        {
+            "Q": "In the year 1995, which lines had Customer Satisfaction Score between 55 and 68 index? Please list the lines and corresponding values.",
+            "A": "{Apparel Retailers} had 62 index."
+        }
+    ],
+    "NC": [],
+    "MSR": [],
+    "VA": []
+}

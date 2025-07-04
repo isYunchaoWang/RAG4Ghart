@@ -1,0 +1,7 @@
+Transportation and Logistics,On-Time Delivery Rate,%
+Year,Automotive Parts,Same-Day Couriers,Emergency Shipments,Pharmaceuticals,Oversized Loads
+trend,stable_falling,volatile_falling,stable_falling,volatile_falling,bimodal_peak
+2004,88.08,86.64,88.41,82.12,100
+2005,88.49,75.59,72.37,70.89,100
+2006,93.17,75.33,100,100,100
+2007,100,62.88,100,74.57,100

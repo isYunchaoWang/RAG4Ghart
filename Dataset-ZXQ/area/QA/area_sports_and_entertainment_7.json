@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total social media followers?",
+            "A": "The series with the largest contribution is {@ApexAthletics}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total social media followers?",
+            "A": "The series with the smallest contribution is {@StarburstTV}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is @StarburstTV's Social Media Followers in 1977?",
+            "A": "@StarburstTV's social media followers in 1977 is {100000} followers."
+        },
+        {
+            "Q": "What is @IronwoodInvincibles's Social Media Followers in 1961?",
+            "A": "@IronwoodInvincibles's social media followers in 1961 is {18920578.89} followers."
+        },
+        {
+            "Q": "What is @LuminaraPlay's Social Media Followers in 1968?",
+            "A": "@LuminaraPlay's social media followers in 1968 is {13944990.74} followers."
+        },
+        {
+            "Q": "What are the social media followers of @ApexAthletics, @LuminaraPlay, and @IronwoodInvincibles in 1957?",
+            "A": "@ApexAthletics's social media followers is {15719577.76} followers, @LuminaraPlay's social media followers is {9144010.30} followers, @IronwoodInvincibles's social media followers is {14012748.49} followers."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Social Media Followers in the stacked area chart?",
+            "A": "The global minimum total social media followers is {55553185.26} followers."
+        },
+        {
+            "Q": "What is the global maximum total Social Media Followers in the stacked area chart?",
+            "A": "The global maximum total social media followers is {214055985.04} followers."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of @NovaGamesLive's Social Media Followers area?",
+            "A": "The average height of @NovaGamesLive's social media followers area is {9940878.59} followers."
+        },
+        {
+            "Q": "What is the average height of @IronwoodInvincibles's Social Media Followers area?",
+            "A": "The average height of @IronwoodInvincibles's social media followers area is {36689715.19} followers."
+        },
+        {
+            "Q": "What is the average height of @AetherNetSports's Social Media Followers area?",
+            "A": "The average height of @AetherNetSports's social media followers area is {10115197.36} followers."
+        },
+        {
+            "Q": "What is the average height of @LuminaraPlay's Social Media Followers area?",
+            "A": "The average height of @LuminaraPlay's social media followers area is {13919899.96} followers."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Social Media Followers fall between 102919014 and 113752595 followers? Please list the years and corresponding total values.",
+            "A": "total value was {107402086.74} followers in {1966}, total value was {104839970.36} followers in {1968}."
+        },
+        {
+            "Q": "Which years did the total Social Media Followers go below 80452231 followers? Please list the years and corresponding total values.",
+            "A": "total value was {55553185.26} followers in {1954}, total value was {60663793.08} followers in {1957}, total value was {62189355.93} followers in {1959}."
+        },
+        {
+            "Q": "Which years did the total Social Media Followers exceed 136219377 followers? Please list the years and corresponding total values.",
+            "A": "total value was {139721501.97} followers in {1972}, total value was {214055985.04} followers in {1977}, total value was {145225100.94} followers in {1971}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1960 and 1976, was the average total Social Media Followers higher or lower than between 1959 and 1971?",
+            "A": "The average total social media followers between {1960} and {1976} was {higher} than between {1959} and {1971}."
+        },
+        {
+            "Q": "Between 1954 and 1974, did the total Social Media Followers experience a larger or smaller change than between 1957 and 1975?",
+            "A": "The change in total social media followers between {1954} and {1974} was {smaller} than between {1957} and {1975}."
+        },
+        {
+            "Q": "Was the total Social Media Followers in 1968 higher or lower than in 1972?",
+            "A": "The total social media followers in {1968} was {lower} than in {1972}."
+        },
+        {
+            "Q": "Between 1955 and 1972, did the total Social Media Followers experience a larger or smaller change than between 1976 and 1977?",
+            "A": "The change in total social media followers between {1955} and {1972} was {larger} than between {1976} and {1977}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

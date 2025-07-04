@@ -1,0 +1,245 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Air Express's Cargo Shipments levels?",
+            "A": "Air Express's Cargo Shipments levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Rail Networks's Cargo Shipments levels?",
+            "A": "Rail Networks's Cargo Shipments levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Continental Freight's Cargo Shipments levels?",
+            "A": "Continental Freight's Cargo Shipments levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Cross-Border Trucks's Cargo Shipments levels?",
+            "A": "Cross-Border Trucks's Cargo Shipments levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of QuickShip Logistics's Cargo Shipments levels?",
+            "A": "QuickShip Logistics's Cargo Shipments levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Parcel Services's Cargo Shipments levels?",
+            "A": "Parcel Services's Cargo Shipments levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Oceanic Carriers's Cargo Shipments levels?",
+            "A": "Oceanic Carriers's Cargo Shipments levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Cargo Shipments levels?",
+            "A": "{Air Express}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Cargo Shipments levels?",
+            "A": "{Rail Networks}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Cargo Shipments levels?",
+            "A": "{Cross-Border Trucks}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Cargo Shipments levels?",
+            "A": "{QuickShip Logistics}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Cargo Shipments levels?",
+            "A": "{Parcel Services}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Cargo Shipments levels?",
+            "A": "{Oceanic Carriers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for Air Express?",
+            "A": "Air Express reached approximately {502320.86} tons/month in 1974."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for Air Express?",
+            "A": "Air Express's lowest recorded level is approximately {75154.26} tons/month in 1958."
+        },
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for Continental Freight?",
+            "A": "Continental Freight reached approximately {464407.18} tons/month in 1974."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for Continental Freight?",
+            "A": "Continental Freight's lowest recorded level is approximately {80369.38} tons/month in 1958."
+        },
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for Cross-Border Trucks?",
+            "A": "Cross-Border Trucks reached approximately {215420.71} tons/month in 1962."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for Cross-Border Trucks?",
+            "A": "Cross-Border Trucks's lowest recorded level is approximately {127025.86} tons/month in 1958."
+        },
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for Oceanic Carriers?",
+            "A": "Oceanic Carriers reached approximately {224548.79} tons/month in 1974."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for Oceanic Carriers?",
+            "A": "Oceanic Carriers's lowest recorded level is approximately {89289.41} tons/month in 1959."
+        },
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for Parcel Services?",
+            "A": "Parcel Services reached approximately {202890.10} tons/month in 1973."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for Parcel Services?",
+            "A": "Parcel Services's lowest recorded level is approximately {67974.95} tons/month in 1958."
+        },
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for QuickShip Logistics?",
+            "A": "QuickShip Logistics reached approximately {62922.68} tons/month in 1957."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for QuickShip Logistics?",
+            "A": "QuickShip Logistics's lowest recorded level is approximately {1000.00} tons/month in 1958."
+        },
+        {
+            "Q": "What is the highest Cargo Shipments level recorded for Rail Networks?",
+            "A": "Rail Networks reached approximately {144266.60} tons/month in 1957."
+        },
+        {
+            "Q": "What is the lowest Cargo Shipments level recorded for Rail Networks?",
+            "A": "Rail Networks's lowest recorded level is approximately {1000.00} tons/month in 1970."
+        },
+        {
+            "Q": "What is Rail Networks's Cargo Shipments in 1970?",
+            "A": "Rail Networks's cargo shipments in 1970 is {36097.36} tons/month."
+        },
+        {
+            "Q": "What is Continental Freight's Cargo Shipments in 1970?",
+            "A": "Continental Freight's cargo shipments in 1970 is {362515.99} tons/month."
+        },
+        {
+            "Q": "What is Cross-Border Trucks's Cargo Shipments in 1970?",
+            "A": "Cross-Border Trucks's cargo shipments in 1970 is {214668.01} tons/month."
+        },
+        {
+            "Q": "What are the cargo shipments of Air Express, Rail Networks, and Continental Freight in 1970?",
+            "A": "{Air Express}'s cargo shipments is {126800.56} tons/month, {Rail Networks}'s cargo shipments is {144266.60} tons/month, {Continental Freight}'s cargo shipments is {85839.51} tons/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Cargo Shipments in the line chart?",
+            "A": "The global minimum cargo shipments is {1000.00} tons/month."
+        },
+        {
+            "Q": "What is the global maximum Cargo Shipments in the line chart?",
+            "A": "The global maximum cargo shipments is {502320.86} tons/month."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Air Express's Cargo Shipments?",
+            "A": "The average value of Air Express's Cargo Shipments is {252169.53} tons/month."
+        },
+        {
+            "Q": "What is the average value of Continental Freight's Cargo Shipments?",
+            "A": "The average value of Continental Freight's Cargo Shipments is {251478.07} tons/month."
+        },
+        {
+            "Q": "What is the average value of Cross-Border Trucks's Cargo Shipments?",
+            "A": "The average value of Cross-Border Trucks's Cargo Shipments is {184108.42} tons/month."
+        },
+        {
+            "Q": "What is the average value of Oceanic Carriers's Cargo Shipments?",
+            "A": "The average value of Oceanic Carriers's Cargo Shipments is {153641.32} tons/month."
+        },
+        {
+            "Q": "What is the average value of Parcel Services's Cargo Shipments?",
+            "A": "The average value of Parcel Services's Cargo Shipments is {135859.54} tons/month."
+        },
+        {
+            "Q": "What is the average value of QuickShip Logistics's Cargo Shipments?",
+            "A": "The average value of QuickShip Logistics's Cargo Shipments is {17732.62} tons/month."
+        },
+        {
+            "Q": "What is the average value of Rail Networks's Cargo Shipments?",
+            "A": "The average value of Rail Networks's Cargo Shipments is {57511.61} tons/month."
+        },
+        {
+            "Q": "What is the rate of change in Air Express's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in Air Express's Cargo Shipments is {296.15}%."
+        },
+        {
+            "Q": "What is the rate of change in Continental Freight's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in Continental Freight's Cargo Shipments is {441.02}%."
+        },
+        {
+            "Q": "What is the rate of change in Cross-Border Trucks's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in Cross-Border Trucks's Cargo Shipments is {-20.14}%."
+        },
+        {
+            "Q": "What is the rate of change in Oceanic Carriers's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in Oceanic Carriers's Cargo Shipments is {87.38}%."
+        },
+        {
+            "Q": "What is the rate of change in Parcel Services's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in Parcel Services's Cargo Shipments is {33.47}%."
+        },
+        {
+            "Q": "What is the rate of change in QuickShip Logistics's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in QuickShip Logistics's Cargo Shipments is {-39.94}%."
+        },
+        {
+            "Q": "What is the rate of change in Rail Networks's Cargo Shipments from the starting year to the final year?",
+            "A": "The rate of change in Rail Networks's Cargo Shipments is {-99.31}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Rail Networks's Cargo Shipments exceed 71831 tons/month? Please list the years and corresponding values.",
+            "A": "144266.60 tons/month in {1957.0} year, 99796.30 tons/month in {1958.0} year, 98697.33 tons/month in {1959.0} year."
+        },
+        {
+            "Q": "Which years did Rail Networks's Cargo Shipments below 32857 tons/month? Please list the years and corresponding values.",
+            "A": "11336.15 tons/month in {1963.0} year, 22403.22 tons/month in {1966.0} year, 32497.22 tons/month in {1967.0} year."
+        },
+        {
+            "Q": "Which years did Rail Networks's Cargo Shipments between 47110 and 57579 tons/month? Please list the years and corresponding values.",
+            "A": "53923.42 tons/month in {1964.0} year."
+        },
+        {
+            "Q": "In the year 1972, which line had Cargo Shipments exceed 227200 tons/month? Please list the lines and corresponding values.",
+            "A": "{Air Express} had 425310 tons/month, {Continental Freight} had 395512 tons/month."
+        },
+        {
+            "Q": "In the year 1972, which lines had Cargo Shipments below 109861 tons/month? Please list the lines and corresponding values.",
+            "A": "{Rail Networks} had 28404 tons/month, {QuickShip Logistics} had 55377 tons/month."
+        },
+        {
+            "Q": "In the year 1972, which lines had Cargo Shipments between 151677 and 185383 tons/month? Please list the lines and corresponding values.",
+            "A": "{Cross-Border Trucks} had 185122 tons/month, {Oceanic Carriers} had 168442 tons/month."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Cargo Shipments, Cross-Border Trucks, Parcel Services, or Rail Networks?",
+            "A": "In 1970, {Cross-Border Trucks} had the highest cargo shipments."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,91 @@
+Food and Beverage Industry,the Analysis of Food and Beverage Industry,10x9,vertical_gradient
+Bakery,Distribution,0.29
+Beverages,Distribution,0.32
+Confectionery,Distribution,0.33
+Dairy,Distribution,0.28
+Frozen,Distribution,0.29
+Meat,Distribution,0.3
+Processed Foods,Distribution,0.28
+Produce,Distribution,0.25
+Seafood,Distribution,0.29
+Snacks,Distribution,0.32
+Bakery,Imports,0.31
+Beverages,Imports,0.3
+Confectionery,Imports,0.32
+Dairy,Imports,0.32
+Frozen,Imports,0.35
+Meat,Imports,0.27
+Processed Foods,Imports,0.32
+Produce,Imports,0.3
+Seafood,Imports,0.29
+Snacks,Imports,0.31
+Bakery,Innovation,0.31
+Beverages,Innovation,0.32
+Confectionery,Innovation,0.35
+Dairy,Innovation,0.34
+Frozen,Innovation,0.33
+Meat,Innovation,0.32
+Processed Foods,Innovation,0.29
+Produce,Innovation,0.3
+Seafood,Innovation,0.29
+Snacks,Innovation,0.34
+Bakery,Marketing,0.35
+Beverages,Marketing,0.36
+Confectionery,Marketing,0.38
+Dairy,Marketing,0.34
+Frozen,Marketing,0.36
+Meat,Marketing,0.38
+Processed Foods,Marketing,0.36
+Produce,Marketing,0.37
+Seafood,Marketing,0.38
+Snacks,Marketing,0.38
+Bakery,Prices,0.39
+Beverages,Prices,0.4
+Confectionery,Prices,0.39
+Dairy,Prices,0.42
+Frozen,Prices,0.42
+Meat,Prices,0.41
+Processed Foods,Prices,0.41
+Produce,Prices,0.4
+Seafood,Prices,0.43
+Snacks,Prices,0.37
+Bakery,Production,0.52
+Beverages,Production,0.49
+Confectionery,Production,0.47
+Dairy,Production,0.49
+Frozen,Production,0.43
+Meat,Production,0.45
+Processed Foods,Production,0.5
+Produce,Production,0.5
+Seafood,Production,0.48
+Snacks,Production,0.47
+Bakery,Regulations,0.56
+Beverages,Regulations,0.55
+Confectionery,Regulations,0.52
+Dairy,Regulations,0.58
+Frozen,Regulations,0.56
+Meat,Regulations,0.53
+Processed Foods,Regulations,0.54
+Produce,Regulations,0.51
+Seafood,Regulations,0.55
+Snacks,Regulations,0.53
+Bakery,Safety,0.67
+Beverages,Safety,0.63
+Confectionery,Safety,0.63
+Dairy,Safety,0.67
+Frozen,Safety,0.66
+Meat,Safety,0.67
+Processed Foods,Safety,0.62
+Produce,Safety,0.64
+Seafood,Safety,0.64
+Snacks,Safety,0.65
+Bakery,Sustainability,0.75
+Beverages,Sustainability,0.77
+Confectionery,Sustainability,0.78
+Dairy,Sustainability,0.76
+Frozen,Sustainability,0.77
+Meat,Sustainability,0.8
+Processed Foods,Sustainability,0.76
+Produce,Sustainability,0.73
+Seafood,Sustainability,0.8
+Snacks,Sustainability,0.74

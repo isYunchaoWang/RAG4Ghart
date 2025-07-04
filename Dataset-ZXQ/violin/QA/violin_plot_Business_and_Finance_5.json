@@ -1,0 +1,102 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {5} violins."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the largest median in this violin plot?",
+            "A": "The category with the largest median is {TechNova}."
+        },
+        {
+            "Q": "Which category has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The category with the highest Q3 is {MarketZen}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing {SmartHub}?",
+            "A": "The density distribution pattern of the {SmartHub} shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of {MarketZen} in the violin plot?",
+            "A": "The median of {MarketZen} is {5886196.50} USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of {MarketZen} in the violin plot?",
+            "A": "The lower quartile (Q1) of {MarketZen} is {4527809.00} USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of {SmartHub} in the violin plot?",
+            "A": "The upper whisker limit of {SmartHub} is {12906723.00} USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in {SmartHub} in the violin plot?",
+            "A": "The largest upper outlier value in {SmartHub} is {17048929.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum USD value in the violin plot?",
+            "A": "The global maximum USD value in the violin plot is {23253216.00} USD."
+        },
+        {
+            "Q": "What is the global minimum USD value in the violin plot?",
+            "A": "The global minimum USD value in the violin plot is {2178035.00} USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the {Median} difference between violin {MarketZen} and {BrightEdge}?",
+            "A": "The {Median} difference between violin {MarketZen} and {BrightEdge} is {63546.50} USD."
+        },
+        {
+            "Q": "What is the toal {Median} value of violin {SwiftLink} and {BrightEdge}?",
+            "A": "The total {Median} value of violin {SwiftLink} and {BrightEdge} is {11525485.00} USD."
+        },
+        {
+            "Q": "What is the average {Median} value of violin {SmartHub} and {TechNova}?",
+            "A": "The average {Median} value of violin {SmartHub} and {TechNova} is {6068570.50} USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed {6068570.50} USD? Please list the violins and corresponding values.",
+            "A": "TechNova has {6238458.00} USD "
+        },
+        {
+            "Q": "Which violins have median values below {5762742.50} USD? Please list the violins and corresponding values.",
+            "A": "SwiftLink has {5702835.00} USD "
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak exceed {5412703.99} USD?",
+            "A": "CategoryTechNova has {5764402.14} USD have their highest density peak exceed {5412703.99} USD."
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak below {5053075.33} USD?",
+            "A": "CategoryBrightEdge has {4787780.01} USD ,SwiftLink has {5045144.83} USD ,SmartHub has {5032749.50} USD have their highest density peak below {5053075.33} USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of TechNova or MarketZen ",
+            "A": "The median value of the {TechNova} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of BrightEdge, SmartHub or MarketZen ",
+            "A": "The median value of the {SmartHub} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of BrightEdge, SwiftLink, MarketZen or TechNova ",
+            "A": "The median value of the {TechNova} is larger."
+        }
+    ]
+}

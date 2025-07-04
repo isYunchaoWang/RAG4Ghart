@@ -1,0 +1,85 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Yield Growth Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Walker-Carlson Farm?",
+            "A": "The strongest aspect is {Yield Growth Rate}, while the weakest aspect is{ High-value Crop Cultivation Ratio}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Walker-Carlson Farm on the Smart Equipment Coverage Rate in the radar chart?",
+            "A": "The value of Walker-Carlson Farm on the Safety dimension is {62}."
+        },
+        {
+            "Q": "What is the value of Walker-Carlson Farm on the Profit MarginSustainable Farming Adoption Rate in the radar chart?",
+            "A": "The value of Walker-Carlson Farm on the Safety dimension is {75}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Walker-Carlson Farm across all dimensions in the radar chart?",
+            "A": "The maximum value of Walker-Carlson Farm across all dimensions is {57}."
+        },
+        {
+            "Q": "What is the minimum value of label Walker-Carlson Farm across all dimensions in the radar chart?",
+            "A": "The minimum value of Walker-Carlson Farm across all dimensions is {57}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Yield Growth Rate}",
+            "A": "The average value of {Yield Growth Rate} is {92.0}."
+        },
+        {
+            "Q": "What is the average value of {Walker-Carlson Farm}",
+            "A": "The average value of {Walker-Carlson Farm} is {64.71}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 75 for the Profit MarginSustainable Farming Adoption Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Walker-Carlson Farm} is {75}"
+        },
+        {
+            "Q": "For Walker-Carlson Farm in the radar chart, which dimensions have scores above 78? Please list the dimensions and corresponding scores.",
+            "A": "{Yield Growth Rate} is {92}, {Irrigation Water Use Efficiency} is {85}"
+        },
+        {
+            "Q": "Which labels have scores above 62 for the Smart Equipment Coverage Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Walker-Carlson Farm} is {62}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Walker-Carlson Farm, which dimension has a higher score: Smart Equipment Coverage Rate or Yield Growth Rate?",
+            "A": "{Yield Growth Rate} has a higher score than Smart Equipment Coverage Rate for Walker-Carlson Farm."
+        },
+        {
+            "Q": "For Walker-Carlson Farm, which dimension has a higher score: High-value Crop Cultivation Ratio or Yield Growth Rate or Smart Equipment Coverage Rate?",
+            "A": "{Yield Growth Rate} has a higher score for Walker-Carlson Farm."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,217 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of AetherNet's Content Uploads levels?",
+            "A": "AetherNet's Content Uploads levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of OracleFeed's Content Uploads levels?",
+            "A": "OracleFeed's Content Uploads levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of NovaStream's Content Uploads levels?",
+            "A": "NovaStream's Content Uploads levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Starburst Online's Content Uploads levels?",
+            "A": "Starburst Online's Content Uploads levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Luminara's Content Uploads levels?",
+            "A": "Luminara's Content Uploads levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of EchoWave's Content Uploads levels?",
+            "A": "EchoWave's Content Uploads levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Content Uploads levels?",
+            "A": "{AetherNet}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Content Uploads levels?",
+            "A": "{OracleFeed}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Content Uploads levels?",
+            "A": "{NovaStream}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Content Uploads levels?",
+            "A": "{Starburst Online}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Content Uploads levels?",
+            "A": "{Luminara}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Content Uploads levels?",
+            "A": "{EchoWave}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Content Uploads level recorded for AetherNet?",
+            "A": "AetherNet reached approximately {12282177.19} uploads/day in 1990."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for AetherNet?",
+            "A": "AetherNet's lowest recorded level is approximately {100000.00} uploads/day in 2000."
+        },
+        {
+            "Q": "What is the highest Content Uploads level recorded for EchoWave?",
+            "A": "EchoWave reached approximately {46059582.64} uploads/day in 2005."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for EchoWave?",
+            "A": "EchoWave's lowest recorded level is approximately {11097340.22} uploads/day in 1989."
+        },
+        {
+            "Q": "What is the highest Content Uploads level recorded for Luminara?",
+            "A": "Luminara reached approximately {5139532.27} uploads/day in 1991."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for Luminara?",
+            "A": "Luminara's lowest recorded level is approximately {100000.00} uploads/day in 1995."
+        },
+        {
+            "Q": "What is the highest Content Uploads level recorded for NovaStream?",
+            "A": "NovaStream reached approximately {15217322.33} uploads/day in 2005."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for NovaStream?",
+            "A": "NovaStream's lowest recorded level is approximately {8112161.86} uploads/day in 1989."
+        },
+        {
+            "Q": "What is the highest Content Uploads level recorded for OracleFeed?",
+            "A": "OracleFeed reached approximately {18423636.72} uploads/day in 1995."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for OracleFeed?",
+            "A": "OracleFeed's lowest recorded level is approximately {9396154.25} uploads/day in 2004."
+        },
+        {
+            "Q": "What is the highest Content Uploads level recorded for Starburst Online?",
+            "A": "Starburst Online reached approximately {12055388.05} uploads/day in 1990."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for Starburst Online?",
+            "A": "Starburst Online's lowest recorded level is approximately {6655163.98} uploads/day in 2003."
+        },
+        {
+            "Q": "What is OracleFeed's Content Uploads in 1970?",
+            "A": "OracleFeed's content uploads in 1970 is {17556177.87} uploads/day."
+        },
+        {
+            "Q": "What is OracleFeed's Content Uploads in 1970?",
+            "A": "OracleFeed's content uploads in 1970 is {16352893.80} uploads/day."
+        },
+        {
+            "Q": "What is Luminara's Content Uploads in 1970?",
+            "A": "Luminara's content uploads in 1970 is {1188157.57} uploads/day."
+        },
+        {
+            "Q": "What are the content uploads of AetherNet, OracleFeed, and NovaStream in 1970?",
+            "A": "{AetherNet}'s content uploads is {9260665.69} uploads/day, {OracleFeed}'s content uploads is {14331444.96} uploads/day, {NovaStream}'s content uploads is {8112161.86} uploads/day."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Content Uploads in the line chart?",
+            "A": "The global minimum content uploads is {100000.00} uploads/day."
+        },
+        {
+            "Q": "What is the global maximum Content Uploads in the line chart?",
+            "A": "The global maximum content uploads is {46059582.64} uploads/day."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AetherNet's Content Uploads?",
+            "A": "The average value of AetherNet's Content Uploads is {5430157.79} uploads/day."
+        },
+        {
+            "Q": "What is the average value of EchoWave's Content Uploads?",
+            "A": "The average value of EchoWave's Content Uploads is {24075742.63} uploads/day."
+        },
+        {
+            "Q": "What is the average value of Luminara's Content Uploads?",
+            "A": "The average value of Luminara's Content Uploads is {2108560.86} uploads/day."
+        },
+        {
+            "Q": "What is the average value of NovaStream's Content Uploads?",
+            "A": "The average value of NovaStream's Content Uploads is {12223222.78} uploads/day."
+        },
+        {
+            "Q": "What is the average value of OracleFeed's Content Uploads?",
+            "A": "The average value of OracleFeed's Content Uploads is {14723430.32} uploads/day."
+        },
+        {
+            "Q": "What is the average value of Starburst Online's Content Uploads?",
+            "A": "The average value of Starburst Online's Content Uploads is {9612734.28} uploads/day."
+        },
+        {
+            "Q": "What is the rate of change in AetherNet's Content Uploads from the starting year to the final year?",
+            "A": "The rate of change in AetherNet's Content Uploads is {-68.81}%."
+        },
+        {
+            "Q": "What is the rate of change in EchoWave's Content Uploads from the starting year to the final year?",
+            "A": "The rate of change in EchoWave's Content Uploads is {315.05}%."
+        },
+        {
+            "Q": "What is the rate of change in Luminara's Content Uploads from the starting year to the final year?",
+            "A": "The rate of change in Luminara's Content Uploads is {-16.41}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaStream's Content Uploads from the starting year to the final year?",
+            "A": "The rate of change in NovaStream's Content Uploads is {87.59}%."
+        },
+        {
+            "Q": "What is the rate of change in OracleFeed's Content Uploads from the starting year to the final year?",
+            "A": "The rate of change in OracleFeed's Content Uploads is {-18.60}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst Online's Content Uploads from the starting year to the final year?",
+            "A": "The rate of change in Starburst Online's Content Uploads is {25.79}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Luminara's Content Uploads exceed 3361620 uploads/day? Please list the years and corresponding values.",
+            "A": "4524036.11 uploads/day in {1989.0} year, 5139532.27 uploads/day in {1991.0} year, 4686785.12 uploads/day in {2003.0} year."
+        },
+        {
+            "Q": "Which years did Luminara's Content Uploads below 212285 uploads/day? Please list the years and corresponding values.",
+            "A": "100000 uploads/day in {1995.0} year, 100000 uploads/day in {1996.0} year, 100000 uploads/day in {1999.0} year."
+        },
+        {
+            "Q": "In the year 2000, which line had Content Uploads exceed 13873566 uploads/day? Please list the lines and corresponding values.",
+            "A": "{OracleFeed} had 15711922 uploads/day, {EchoWave} had 27021864 uploads/day."
+        },
+        {
+            "Q": "In the year 2000, which lines had Content Uploads below 5815055 uploads/day? Please list the lines and corresponding values.",
+            "A": "{AetherNet} had 100000 uploads/day, {Luminara} had 100000 uploads/day."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Content Uploads, Starburst Online, Luminara, or NovaStream?",
+            "A": "In 1970, {Starburst Online} had the highest content uploads."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

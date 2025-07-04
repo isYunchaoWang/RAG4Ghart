@@ -1,0 +1,213 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Luminara's Ad Revenue levels?",
+            "A": "Luminara's Ad Revenue levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of AetherNet's Ad Revenue levels?",
+            "A": "AetherNet's Ad Revenue levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of EchoWave's Ad Revenue levels?",
+            "A": "EchoWave's Ad Revenue levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of OracleFeed's Ad Revenue levels?",
+            "A": "OracleFeed's Ad Revenue levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of CrimsonLink's Ad Revenue levels?",
+            "A": "CrimsonLink's Ad Revenue levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of NovaStream's Ad Revenue levels?",
+            "A": "NovaStream's Ad Revenue levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Ad Revenue levels?",
+            "A": "{Luminara}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Ad Revenue levels?",
+            "A": "{EchoWave}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Ad Revenue levels?",
+            "A": "{OracleFeed}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Ad Revenue levels?",
+            "A": "{CrimsonLink}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Ad Revenue level recorded for AetherNet?",
+            "A": "AetherNet reached approximately {1751366277.08} $ in 1996."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for AetherNet?",
+            "A": "AetherNet's lowest recorded level is approximately {567967249.04} $ in 1983."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink reached approximately {729992672.45} $ in 1983."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink's lowest recorded level is approximately {5000000.00} $ in 1995."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for EchoWave?",
+            "A": "EchoWave reached approximately {709306460.03} $ in 1989."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for EchoWave?",
+            "A": "EchoWave's lowest recorded level is approximately {281773072.53} $ in 1996."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for Luminara?",
+            "A": "Luminara reached approximately {1791773322.19} $ in 1996."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for Luminara?",
+            "A": "Luminara's lowest recorded level is approximately {402713708.62} $ in 1986."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for NovaStream?",
+            "A": "NovaStream reached approximately {1627678434.75} $ in 1996."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for NovaStream?",
+            "A": "NovaStream's lowest recorded level is approximately {344441766.55} $ in 1983."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for OracleFeed?",
+            "A": "OracleFeed reached approximately {1161481312.38} $ in 1990."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for OracleFeed?",
+            "A": "OracleFeed's lowest recorded level is approximately {739432942.20} $ in 1995."
+        },
+        {
+            "Q": "What is AetherNet's Ad Revenue in 1970?",
+            "A": "AetherNet's ad revenue in 1970 is {592006888.48} $."
+        },
+        {
+            "Q": "What is NovaStream's Ad Revenue in 1970?",
+            "A": "NovaStream's ad revenue in 1970 is {654350523.66} $."
+        },
+        {
+            "Q": "What is Luminara's Ad Revenue in 1970?",
+            "A": "Luminara's ad revenue in 1970 is {1234295137.97} $."
+        },
+        {
+            "Q": "What are the ad revenue of Luminara, AetherNet, and EchoWave in 1970?",
+            "A": "{Luminara}'s ad revenue is {616194224.83} $, {AetherNet}'s ad revenue is {567967249.04} $, {EchoWave}'s ad revenue is {513347186.13} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Ad Revenue in the line chart?",
+            "A": "The global minimum ad revenue is {5000000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Ad Revenue in the line chart?",
+            "A": "The global maximum ad revenue is {1791773322.19} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AetherNet's Ad Revenue?",
+            "A": "The average value of AetherNet's Ad Revenue is {1023234838.54} $."
+        },
+        {
+            "Q": "What is the average value of CrimsonLink's Ad Revenue?",
+            "A": "The average value of CrimsonLink's Ad Revenue is {254077256.74} $."
+        },
+        {
+            "Q": "What is the average value of EchoWave's Ad Revenue?",
+            "A": "The average value of EchoWave's Ad Revenue is {515863620.26} $."
+        },
+        {
+            "Q": "What is the average value of Luminara's Ad Revenue?",
+            "A": "The average value of Luminara's Ad Revenue is {1030124177.47} $."
+        },
+        {
+            "Q": "What is the average value of NovaStream's Ad Revenue?",
+            "A": "The average value of NovaStream's Ad Revenue is {1022903389.96} $."
+        },
+        {
+            "Q": "What is the average value of OracleFeed's Ad Revenue?",
+            "A": "The average value of OracleFeed's Ad Revenue is {935196465.60} $."
+        },
+        {
+            "Q": "What is the rate of change in AetherNet's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of change in AetherNet's Ad Revenue is {208.36}%."
+        },
+        {
+            "Q": "What is the rate of change in CrimsonLink's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of change in CrimsonLink's Ad Revenue is {-96.00}%."
+        },
+        {
+            "Q": "What is the rate of change in EchoWave's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of change in EchoWave's Ad Revenue is {-45.11}%."
+        },
+        {
+            "Q": "What is the rate of change in Luminara's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of change in Luminara's Ad Revenue is {190.78}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaStream's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of change in NovaStream's Ad Revenue is {372.56}%."
+        },
+        {
+            "Q": "What is the rate of change in OracleFeed's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of change in OracleFeed's Ad Revenue is {15.83}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did NovaStream's Ad Revenue exceed 1279686177 $? Please list the years and corresponding values.",
+            "A": "1293333990.29 $ in {1993.0} year, 1605824956.85 $ in {1994.0} year, 1510371420.56 $ in {1995.0} year."
+        },
+        {
+            "Q": "Which years did NovaStream's Ad Revenue below 835259720 $? Please list the years and corresponding values.",
+            "A": "344441766.55 $ in {1983.0} year, 654350523.66 $ in {1986.0} year, 497638227.55 $ in {1987.0} year."
+        },
+        {
+            "Q": "In the year 1992, which line had Ad Revenue exceed 1236888630 $? Please list the lines and corresponding values.",
+            "A": "{AetherNet} had 1249708786 $, {NovaStream} had 1239482123 $."
+        },
+        {
+            "Q": "In the year 1992, which lines had Ad Revenue below 647817952 $? Please list the lines and corresponding values.",
+            "A": "{EchoWave} had 358693156 $, {CrimsonLink} had 186270767 $."
+        },
+        {
+            "Q": "In the year 1992, which lines had Ad Revenue between 848117962 and 1036588620 $? Please list the lines and corresponding values.",
+            "A": "{OracleFeed} had 936942747 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Ad Revenue, CrimsonLink, AetherNet, Luminara, or EchoWave?",
+            "A": "In 1970, {CrimsonLink} had the highest ad revenue."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

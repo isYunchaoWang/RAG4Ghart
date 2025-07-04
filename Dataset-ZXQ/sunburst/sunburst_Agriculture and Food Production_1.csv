@@ -1,0 +1,20 @@
+Agriculture and Food Production,Agriculture Production Distribution by Category (2024),%
+parent,child,value
+Root,Agricultural Inputs,37.44
+Agricultural Inputs,Seeds,9.72
+Agricultural Inputs,Fertilizers,27.73
+Fertilizers,Nitrogen,11.13
+Nitrogen,Urea,6.09
+Nitrogen,Ammonium Nitrate,5.04
+Fertilizers,Organic,16.6
+Organic,Compost,9.49
+Organic,Manure,7.11
+Root,Crop Production,26.57
+Crop Production,Oilseeds,11.89
+Oilseeds,Soybean,6.5
+Soybean,Conventional,6.5
+Oilseeds,Canola,5.39
+Crop Production,Grains,14.68
+Grains,Rice,14.68
+Root,Livestock,35.98
+Livestock,Poultry,35.98

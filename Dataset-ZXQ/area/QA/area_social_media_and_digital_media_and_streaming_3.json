@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total subscription revenue?",
+            "A": "The series with the largest contribution is {CrimsonLink}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total subscription revenue?",
+            "A": "The series with the smallest contribution is {Starburst Online}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is EchoWave's Subscription Revenue in 2004?",
+            "A": "EchoWave's subscription revenue in 2004 is {158015893.38} $."
+        },
+        {
+            "Q": "What is EchoWave's Subscription Revenue in 2017?",
+            "A": "EchoWave's subscription revenue in 2017 is {125845577.14} $."
+        },
+        {
+            "Q": "What is NovaStream's Subscription Revenue in 2018?",
+            "A": "NovaStream's subscription revenue in 2018 is {260467952.78} $."
+        },
+        {
+            "Q": "What are the subscription revenue of Luminara, CrimsonLink, and EchoWave in 2015?",
+            "A": "Luminara's subscription revenue is {545633643.41} $, CrimsonLink's subscription revenue is {609291530.55} $, EchoWave's subscription revenue is {83980443.33} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Subscription Revenue in the stacked area chart?",
+            "A": "The global minimum total subscription revenue is {967683777.79} $."
+        },
+        {
+            "Q": "What is the global maximum total Subscription Revenue in the stacked area chart?",
+            "A": "The global maximum total subscription revenue is {2087114337.14} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Starburst Online's Subscription Revenue area?",
+            "A": "The average height of Starburst Online's subscription revenue area is {93658822.96} $."
+        },
+        {
+            "Q": "What is the average height of Luminara's Subscription Revenue area?",
+            "A": "The average height of Luminara's subscription revenue area is {469516085.76} $."
+        },
+        {
+            "Q": "What is the average height of CrimsonLink's Subscription Revenue area?",
+            "A": "The average height of CrimsonLink's subscription revenue area is {482748891.62} $."
+        },
+        {
+            "Q": "What is the average height of NovaStream's Subscription Revenue area?",
+            "A": "The average height of NovaStream's subscription revenue area is {248168410.73} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Subscription Revenue fall between 1315568555 and 1454049456 $? Please list the years and corresponding total values.",
+            "A": "total value was {1324831654.63} $ in {2013}, total value was {1340907642.30} $ in {2012}, total value was {1434847404.97} $ in {2011}."
+        },
+        {
+            "Q": "Which years did the total Subscription Revenue exceed 1604607214 $? Please list the years and corresponding total values.",
+            "A": "total value was {1659000005.68} $ in {2016}, total value was {1958547869.82} $ in {2018}, total value was {1728050764.63} $ in {2017}."
+        },
+        {
+            "Q": "Which years did the total Subscription Revenue go below 1165010798 $? Please list the years and corresponding total values.",
+            "A": "total value was {969832285.46} $ in {2007}, total value was {1127913524.59} $ in {2005}, total value was {1093502059.07} $ in {2009}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Subscription Revenue in 2012 higher or lower than in 2013?",
+            "A": "The total subscription revenue in {2012} was {higher} than in {2013}."
+        },
+        {
+            "Q": "Between 2006 and 2019, did the total Subscription Revenue experience a larger or smaller change than between 2013 and 2019?",
+            "A": "The change in total subscription revenue between {2006} and {2019} was {larger} than between {2013} and {2019}."
+        },
+        {
+            "Q": "Between 2013 and 2017, was the average total Subscription Revenue higher or lower than between 2005 and 2020?",
+            "A": "The average total subscription revenue between {2013} and {2017} was {higher} than between {2005} and {2020}."
+        },
+        {
+            "Q": "Between 2014 and 2017, was the average total Subscription Revenue higher or lower than between 2012 and 2020?",
+            "A": "The average total subscription revenue between {2014} and {2017} was {lower} than between {2012} and {2020}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

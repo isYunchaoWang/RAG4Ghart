@@ -1,0 +1,8 @@
+Education and Academics,the Hierarchy of Education and Academics,6
+size,father,depth,label
+70.11,0,1,Education and Academics
+30.12,1,2,Engineering
+5.48,2,3,Mechanical Engineering
+11.4,2,3,Electrical Engineering
+13.79,2,3,Civil Engineering
+5.39,2,3,Aerospace Engineering

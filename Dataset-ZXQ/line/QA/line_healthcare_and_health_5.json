@@ -1,0 +1,189 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Chronic Condition Patients's Patient Satisfaction levels?",
+            "A": "Chronic Condition Patients's Patient Satisfaction levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Wellness Program Participants's Patient Satisfaction levels?",
+            "A": "Wellness Program Participants's Patient Satisfaction levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Emergency Room Patients's Patient Satisfaction levels?",
+            "A": "Emergency Room Patients's Patient Satisfaction levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Senior Care Group's Patient Satisfaction levels?",
+            "A": "Senior Care Group's Patient Satisfaction levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Outpatient Visitors's Patient Satisfaction levels?",
+            "A": "Outpatient Visitors's Patient Satisfaction levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Patient Satisfaction levels?",
+            "A": "{Chronic Condition Patients}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Patient Satisfaction levels?",
+            "A": "{Wellness Program Participants}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Patient Satisfaction levels?",
+            "A": "{Emergency Room Patients}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Patient Satisfaction levels?",
+            "A": "{Senior Care Group}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Patient Satisfaction level recorded for Chronic Condition Patients?",
+            "A": "Chronic Condition Patients reached approximately {31.05} % in 1997."
+        },
+        {
+            "Q": "What is the lowest Patient Satisfaction level recorded for Chronic Condition Patients?",
+            "A": "Chronic Condition Patients's lowest recorded level is approximately {18.35} % in 1995."
+        },
+        {
+            "Q": "What is the highest Patient Satisfaction level recorded for Emergency Room Patients?",
+            "A": "Emergency Room Patients reached approximately {100.00} % in 1997."
+        },
+        {
+            "Q": "What is the lowest Patient Satisfaction level recorded for Emergency Room Patients?",
+            "A": "Emergency Room Patients's lowest recorded level is approximately {91.16} % in 1995."
+        },
+        {
+            "Q": "What is the highest Patient Satisfaction level recorded for Outpatient Visitors?",
+            "A": "Outpatient Visitors reached approximately {0.90} % in 1994."
+        },
+        {
+            "Q": "What is the lowest Patient Satisfaction level recorded for Outpatient Visitors?",
+            "A": "Outpatient Visitors's lowest recorded level is approximately {0.90} % in 1994."
+        },
+        {
+            "Q": "What is the highest Patient Satisfaction level recorded for Senior Care Group?",
+            "A": "Senior Care Group reached approximately {100.00} % in 1995."
+        },
+        {
+            "Q": "What is the lowest Patient Satisfaction level recorded for Senior Care Group?",
+            "A": "Senior Care Group's lowest recorded level is approximately {76.78} % in 1997."
+        },
+        {
+            "Q": "What is the highest Patient Satisfaction level recorded for Wellness Program Participants?",
+            "A": "Wellness Program Participants reached approximately {0.90} % in 1994."
+        },
+        {
+            "Q": "What is the lowest Patient Satisfaction level recorded for Wellness Program Participants?",
+            "A": "Wellness Program Participants's lowest recorded level is approximately {0.90} % in 1994."
+        },
+        {
+            "Q": "What is Outpatient Visitors's Patient Satisfaction in 1970?",
+            "A": "Outpatient Visitors's patient satisfaction in 1970 is {0.90} %."
+        },
+        {
+            "Q": "What is Emergency Room Patients's Patient Satisfaction in 1970?",
+            "A": "Emergency Room Patients's patient satisfaction in 1970 is {91.16} %."
+        },
+        {
+            "Q": "What is Chronic Condition Patients's Patient Satisfaction in 1970?",
+            "A": "Chronic Condition Patients's patient satisfaction in 1970 is {19.44} %."
+        },
+        {
+            "Q": "What are the patient satisfaction of Chronic Condition Patients, Wellness Program Participants, and Emergency Room Patients in 1970?",
+            "A": "{Chronic Condition Patients}'s patient satisfaction is {19.44} %, {Wellness Program Participants}'s patient satisfaction is {0.90} %, {Emergency Room Patients}'s patient satisfaction is {94.81} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Patient Satisfaction in the line chart?",
+            "A": "The global minimum patient satisfaction is {0.90} %."
+        },
+        {
+            "Q": "What is the global maximum Patient Satisfaction in the line chart?",
+            "A": "The global maximum patient satisfaction is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Chronic Condition Patients's Patient Satisfaction?",
+            "A": "The average value of Chronic Condition Patients's Patient Satisfaction is {23.54} %."
+        },
+        {
+            "Q": "What is the average value of Emergency Room Patients's Patient Satisfaction?",
+            "A": "The average value of Emergency Room Patients's Patient Satisfaction is {95.32} %."
+        },
+        {
+            "Q": "What is the average value of Outpatient Visitors's Patient Satisfaction?",
+            "A": "The average value of Outpatient Visitors's Patient Satisfaction is {0.90} %."
+        },
+        {
+            "Q": "What is the average value of Senior Care Group's Patient Satisfaction?",
+            "A": "The average value of Senior Care Group's Patient Satisfaction is {90.91} %."
+        },
+        {
+            "Q": "What is the average value of Wellness Program Participants's Patient Satisfaction?",
+            "A": "The average value of Wellness Program Participants's Patient Satisfaction is {0.90} %."
+        },
+        {
+            "Q": "What is the rate of change in Chronic Condition Patients's Patient Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Chronic Condition Patients's Patient Satisfaction is {59.72}%."
+        },
+        {
+            "Q": "What is the rate of change in Emergency Room Patients's Patient Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Emergency Room Patients's Patient Satisfaction is {5.47}%."
+        },
+        {
+            "Q": "What is the rate of change in Outpatient Visitors's Patient Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Outpatient Visitors's Patient Satisfaction is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Senior Care Group's Patient Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Senior Care Group's Patient Satisfaction is {-11.59}%."
+        },
+        {
+            "Q": "What is the rate of change in Wellness Program Participants's Patient Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Wellness Program Participants's Patient Satisfaction is {0.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Chronic Condition Patients's Patient Satisfaction exceed 26 %? Please list the years and corresponding values.",
+            "A": "31.05 % in {1997.0} year."
+        },
+        {
+            "Q": "Which years did Chronic Condition Patients's Patient Satisfaction below 19 %? Please list the years and corresponding values.",
+            "A": "18.35 % in {1995.0} year."
+        },
+        {
+            "Q": "In the year 1995, which line had Patient Satisfaction exceed 77 %? Please list the lines and corresponding values.",
+            "A": "{Emergency Room Patients} had 91 %, {Senior Care Group} had 100 %."
+        },
+        {
+            "Q": "In the year 1995, which lines had Patient Satisfaction below 4 %? Please list the lines and corresponding values.",
+            "A": "{Wellness Program Participants} had 1 %, {Outpatient Visitors} had 1 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Patient Satisfaction, Outpatient Visitors or Senior Care Group?",
+            "A": "In 1970, {Senior Care Group} had a higher patient satisfaction."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

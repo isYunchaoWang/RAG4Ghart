@@ -1,0 +1,9 @@
+﻿Food and Beverage Industry,Product Quality of Different Company
+labels,Freshness score (1-10),Taste rating (1-10),Allergen-free options (%),Packaging efficiency (%)
+Pattern,Clustering,Weak Correlation,Weak Correlation
+Nelson-Velazquez  Diner,5.01,9.2,50.0,100.0
+Salazar-Khan  Café,10.0,5.0,29.17,89.18
+Rodriguez-Palmer  Diner,5.0,10.0,23.25,96.1
+"Robinson, Rodriguez and Donaldson  Diner",8.15,8.61,24.4,88.38
+Montgomery PLC  Steakhouse,8.33,8.31,19.57,97.75
+"Pacheco, Meyers and Bennett  Brasserie",9.88,9.05,0.0,50.0

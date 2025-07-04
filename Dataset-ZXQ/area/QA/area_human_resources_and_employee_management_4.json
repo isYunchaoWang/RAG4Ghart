@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total employee satisfaction?",
+            "A": "The series with the largest contribution is {Human Resources}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total employee satisfaction?",
+            "A": "The series with the smallest contribution is {Operations Staff}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Operations Staff's Employee Satisfaction in 1980?",
+            "A": "Operations Staff's employee satisfaction in 1980 is {88.28} %."
+        },
+        {
+            "Q": "What is Operations Staff's Employee Satisfaction in 1975?",
+            "A": "Operations Staff's employee satisfaction in 1975 is {86.12} %."
+        },
+        {
+            "Q": "What is Human Resources's Employee Satisfaction in 1970?",
+            "A": "Human Resources's employee satisfaction in 1970 is {81.27} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Employee Satisfaction in the stacked area chart?",
+            "A": "The global minimum total employee satisfaction is {129.74} %."
+        },
+        {
+            "Q": "What is the global maximum total Employee Satisfaction in the stacked area chart?",
+            "A": "The global maximum total employee satisfaction is {188.28} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Human Resources's Employee Satisfaction area?",
+            "A": "The average height of Human Resources's employee satisfaction area is {85.95} %."
+        },
+        {
+            "Q": "What is the average height of Operations Staff's Employee Satisfaction area?",
+            "A": "The average height of Operations Staff's employee satisfaction area is {71.99} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Employee Satisfaction go below 147 %? Please list the years and corresponding total values.",
+            "A": "total value was {146.38} % in {1972}, total value was {139.37} % in {1973}, total value was {134.29} % in {1967}."
+        },
+        {
+            "Q": "Which years did the total Employee Satisfaction exceed 170 %? Please list the years and corresponding total values.",
+            "A": "total value was {177.81} % in {1975}, total value was {176.97} % in {1976}, total value was {170.97} % in {1970}."
+        },
+        {
+            "Q": "Which years did the total Employee Satisfaction fall between 151 and 167 %? Please list the years and corresponding total values.",
+            "A": "total value was {159.59} % in {1965}, total value was {153.60} % in {1966}, total value was {156.32} % in {1974}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1976 and 1981, was the average total Employee Satisfaction higher or lower than between 1966 and 1968?",
+            "A": "The average total employee satisfaction between {1976} and {1981} was {higher} than between {1966} and {1968}."
+        },
+        {
+            "Q": "Between 1968 and 1970, was the average total Employee Satisfaction higher or lower than between 1971 and 1980?",
+            "A": "The average total employee satisfaction between {1968} and {1970} was {lower} than between {1971} and {1980}."
+        },
+        {
+            "Q": "Between 1971 and 1976, did the total Employee Satisfaction experience a larger or smaller change than between 1973 and 1978?",
+            "A": "The change in total employee satisfaction between {1971} and {1976} was {smaller} than between {1973} and {1978}."
+        },
+        {
+            "Q": "Between 1978 and 1981, was the average total Employee Satisfaction higher or lower than between 1965 and 1980?",
+            "A": "The average total employee satisfaction between {1978} and {1981} was {higher} than between {1965} and {1980}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

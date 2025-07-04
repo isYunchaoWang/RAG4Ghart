@@ -1,0 +1,58 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {9} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {16} links."
+        },
+        {
+            "Q": "How many nodes link with node Blueberry Hill Estate?",
+            "A": "There are {4} nodes link with node {Blueberry Hill Estate}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes has the strongest connection in this node-link chart?",
+            "A": "The pair of nodes with the strongest connection is {Sunnydale Organic Farm} and {Golden Fields Farm}."
+        },
+        {
+            "Q": "Which pair of nodes has the weakest connection in this node-link chart?",
+            "A": "The pair of nodes with the weakest connection is {Sunnydale Organic Farm} and {Golden Fields Farm}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Sunnydale Organic Farm and node Golden Fields Farm in this node-link chart?",
+            "A": "The relationship between node Sunnydale Organic Farm and node Golden Fields Farm is {market_linkage}."
+        },
+        {
+            "Q": "What is the relationship between node Green Acre Orchards and node Golden Fields Farm in this node-link chart?",
+            "A": "The relationship between node Green Acre Orchards and node Golden Fields Farm is {market_linkage}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How many links have the relation type crop_rotation?",
+            "A": "There are {3} links with the relation type {crop_rotation}."
+        },
+        {
+            "Q": "How many links have the relation type agro_supply_chain?",
+            "A": "There are {4} links with the relation type {agro_supply_chain}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Sunnydale Organic Farm, how many links are of type crop_rotation?",
+            "A": "Node {Sunnydale Organic Farm} has {1} links of type {crop_rotation}."
+        }
+    ]
+}

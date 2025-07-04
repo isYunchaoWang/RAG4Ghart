@@ -1,0 +1,67 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {4} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Startups show?",
+            "A": "The ridgeline representing Startups shows a {Periodic fluctuation}."
+        },
+        {
+            "Q": "At what value do  Real Estate reach its peaks?",
+            "A": "At {8.58}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Blue-chip Stocks} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =4.6?",
+            "A": "At X =4.6,the label with the highest density is {Startups}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 8? Please list the countries and corresponding peak values.",
+            "A": "{Tech Stocks}'s peak at {8},{Real Estate}'s peak at {9}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 5? Please list the countries and corresponding peak values.",
+            "A": "{Blue-chip Stocks}'s peak at {1}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Real Estate or Startups?",
+            "A": "{Real Estate} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Tech Stocks or Startups?",
+            "A": "{Tech Stocks} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Tech Stocks or Startups?",
+            "A": "{Tech Stocks} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Tech Stocks or Startups?",
+            "A": "{Tech Stocks} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

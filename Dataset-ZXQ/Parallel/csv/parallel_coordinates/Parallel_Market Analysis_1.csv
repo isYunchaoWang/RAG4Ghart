@@ -1,0 +1,10 @@
+﻿Business and Finance,Market Analysis
+labels,Customer lifetime value (USD),Price elasticity (unitless),Product differentiation score (1-10),Competitor count (number)
+Pattern,Clustering,No Correlation,Clustering
+Avery and Sons,5836.27,1.14,10.0,20.0
+"Wood, Green and Berry",839.99,0.85,3.64,8.53
+Davenport Group,8977.69,1.15,2.1,7.01
+Mcdonald PLC,10000.0,0.5,3.27,15.02
+Becker and Sons,4032.97,3.0,1.0,1.0
+"Hudson, Moore and Davila",100.0,1.89,6.26,9.17
+Mcneil Ltd,645.16,2.46,8.95,12.58

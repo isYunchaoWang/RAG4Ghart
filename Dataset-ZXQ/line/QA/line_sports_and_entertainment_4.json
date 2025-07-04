@@ -1,0 +1,241 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Shadowfen Spectres's Sponsorship Revenue levels?",
+            "A": "Shadowfen Spectres's Sponsorship Revenue levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Armada's Sponsorship Revenue levels?",
+            "A": "Azure Armada's Sponsorship Revenue levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Silverleaf Sentinels's Sponsorship Revenue levels?",
+            "A": "Silverleaf Sentinels's Sponsorship Revenue levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Invincibles's Sponsorship Revenue levels?",
+            "A": "Ironwood Invincibles's Sponsorship Revenue levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Veridian Vipers's Sponsorship Revenue levels?",
+            "A": "Veridian Vipers's Sponsorship Revenue levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Golden Griffins's Sponsorship Revenue levels?",
+            "A": "Golden Griffins's Sponsorship Revenue levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Comets's Sponsorship Revenue levels?",
+            "A": "Crimson Comets's Sponsorship Revenue levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Sponsorship Revenue levels?",
+            "A": "{Shadowfen Spectres}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Sponsorship Revenue levels?",
+            "A": "{Azure Armada}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Sponsorship Revenue levels?",
+            "A": "{Silverleaf Sentinels}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Sponsorship Revenue levels?",
+            "A": "{Ironwood Invincibles}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Sponsorship Revenue levels?",
+            "A": "{Veridian Vipers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Azure Armada?",
+            "A": "Azure Armada reached approximately {908713.13} $ in 2010."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Azure Armada?",
+            "A": "Azure Armada's lowest recorded level is approximately {399739.99} $ in 1991."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Crimson Comets?",
+            "A": "Crimson Comets reached approximately {946738.98} $ in 2006."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Crimson Comets?",
+            "A": "Crimson Comets's lowest recorded level is approximately {459273.75} $ in 1995."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Golden Griffins?",
+            "A": "Golden Griffins reached approximately {4884315.39} $ in 2012."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Golden Griffins?",
+            "A": "Golden Griffins's lowest recorded level is approximately {437950.69} $ in 1989."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Ironwood Invincibles?",
+            "A": "Ironwood Invincibles reached approximately {1093121.03} $ in 2011."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Ironwood Invincibles?",
+            "A": "Ironwood Invincibles's lowest recorded level is approximately {489343.03} $ in 1992."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Shadowfen Spectres?",
+            "A": "Shadowfen Spectres reached approximately {5072321.34} $ in 2012."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Shadowfen Spectres?",
+            "A": "Shadowfen Spectres's lowest recorded level is approximately {449967.13} $ in 1989."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Silverleaf Sentinels?",
+            "A": "Silverleaf Sentinels reached approximately {477910.18} $ in 1992."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Silverleaf Sentinels?",
+            "A": "Silverleaf Sentinels's lowest recorded level is approximately {5000.00} $ in 2002."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Veridian Vipers?",
+            "A": "Veridian Vipers reached approximately {525504.03} $ in 1989."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Veridian Vipers?",
+            "A": "Veridian Vipers's lowest recorded level is approximately {5000.00} $ in 2002."
+        },
+        {
+            "Q": "What is Veridian Vipers's Sponsorship Revenue in 1970?",
+            "A": "Veridian Vipers's sponsorship revenue in 1970 is {451146.37} $."
+        },
+        {
+            "Q": "What is Veridian Vipers's Sponsorship Revenue in 1970?",
+            "A": "Veridian Vipers's sponsorship revenue in 1970 is {180985.62} $."
+        },
+        {
+            "Q": "What is Crimson Comets's Sponsorship Revenue in 1970?",
+            "A": "Crimson Comets's sponsorship revenue in 1970 is {567031.02} $."
+        },
+        {
+            "Q": "What are the sponsorship revenue of Shadowfen Spectres, Azure Armada, and Silverleaf Sentinels in 1970?",
+            "A": "{Shadowfen Spectres}'s sponsorship revenue is {564759.63} $, {Azure Armada}'s sponsorship revenue is {521044.42} $, {Silverleaf Sentinels}'s sponsorship revenue is {463699.08} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Sponsorship Revenue in the line chart?",
+            "A": "The global minimum sponsorship revenue is {5000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Sponsorship Revenue in the line chart?",
+            "A": "The global maximum sponsorship revenue is {5072321.34} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Armada's Sponsorship Revenue?",
+            "A": "The average value of Azure Armada's Sponsorship Revenue is {686034.95} $."
+        },
+        {
+            "Q": "What is the average value of Crimson Comets's Sponsorship Revenue?",
+            "A": "The average value of Crimson Comets's Sponsorship Revenue is {704799.07} $."
+        },
+        {
+            "Q": "What is the average value of Golden Griffins's Sponsorship Revenue?",
+            "A": "The average value of Golden Griffins's Sponsorship Revenue is {1988104.41} $."
+        },
+        {
+            "Q": "What is the average value of Ironwood Invincibles's Sponsorship Revenue?",
+            "A": "The average value of Ironwood Invincibles's Sponsorship Revenue is {794026.01} $."
+        },
+        {
+            "Q": "What is the average value of Shadowfen Spectres's Sponsorship Revenue?",
+            "A": "The average value of Shadowfen Spectres's Sponsorship Revenue is {1958401.01} $."
+        },
+        {
+            "Q": "What is the average value of Silverleaf Sentinels's Sponsorship Revenue?",
+            "A": "The average value of Silverleaf Sentinels's Sponsorship Revenue is {186547.31} $."
+        },
+        {
+            "Q": "What is the average value of Veridian Vipers's Sponsorship Revenue?",
+            "A": "The average value of Veridian Vipers's Sponsorship Revenue is {217431.36} $."
+        },
+        {
+            "Q": "What is the rate of change in Azure Armada's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Azure Armada's Sponsorship Revenue is {47.97}%."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Comets's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Crimson Comets's Sponsorship Revenue is {48.90}%."
+        },
+        {
+            "Q": "What is the rate of change in Golden Griffins's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Golden Griffins's Sponsorship Revenue is {764.22}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Invincibles's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Ironwood Invincibles's Sponsorship Revenue is {68.52}%."
+        },
+        {
+            "Q": "What is the rate of change in Shadowfen Spectres's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Shadowfen Spectres's Sponsorship Revenue is {798.14}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverleaf Sentinels's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Silverleaf Sentinels's Sponsorship Revenue is {-96.76}%."
+        },
+        {
+            "Q": "What is the rate of change in Veridian Vipers's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of change in Veridian Vipers's Sponsorship Revenue is {-99.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Azure Armada's Sponsorship Revenue exceed 774558 $? Please list the years and corresponding values.",
+            "A": "801000.87 $ in {2003.0} year, 788718.34 $ in {2005.0} year, 775453.11 $ in {2006.0} year."
+        },
+        {
+            "Q": "Which years did Azure Armada's Sponsorship Revenue below 649630 $? Please list the years and corresponding values.",
+            "A": "521044.42 $ in {1988.0} year, 464969.08 $ in {1989.0} year, 446247.96 $ in {1990.0} year."
+        },
+        {
+            "Q": "Which years did Azure Armada's Sponsorship Revenue between 640885 and 783304 $? Please list the years and corresponding values.",
+            "A": "661078.88 $ in {1992.0} year, 667057.03 $ in {1995.0} year, 690689.45 $ in {1996.0} year."
+        },
+        {
+            "Q": "In the year 1995, which line had Sponsorship Revenue exceed 907797 $? Please list the lines and corresponding values.",
+            "A": "{Shadowfen Spectres} had 1057773 $, {Golden Griffins} had 1196558 $."
+        },
+        {
+            "Q": "In the year 1995, which lines had Sponsorship Revenue below 426516 $? Please list the lines and corresponding values.",
+            "A": "{Silverleaf Sentinels} had 295485 $, {Veridian Vipers} had 274207 $."
+        },
+        {
+            "Q": "In the year 1995, which lines had Sponsorship Revenue between 600441 and 733872 $? Please list the lines and corresponding values.",
+            "A": "{Azure Armada} had 667057 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Sponsorship Revenue, Golden Griffins, Silverleaf Sentinels, or Ironwood Invincibles?",
+            "A": "In 1970, {Ironwood Invincibles} had the highest sponsorship revenue."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

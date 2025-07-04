@@ -1,0 +1,169 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Zenith Utility Services's Electricity Demand levels?",
+            "A": "Zenith Utility Services's Electricity Demand levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Energy Distribution's Electricity Demand levels?",
+            "A": "Azure Energy Distribution's Electricity Demand levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Borealis Electric Cooperative's Electricity Demand levels?",
+            "A": "Borealis Electric Cooperative's Electricity Demand levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Hydro Authority's Electricity Demand levels?",
+            "A": "Silverhaven Hydro Authority's Electricity Demand levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Electricity Demand levels?",
+            "A": "{Zenith Utility Services}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Electricity Demand levels?",
+            "A": "{Azure Energy Distribution}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Electricity Demand levels?",
+            "A": "{Borealis Electric Cooperative}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Electricity Demand level recorded for Azure Energy Distribution?",
+            "A": "Azure Energy Distribution reached approximately {1865353204.41} MWh in 1973."
+        },
+        {
+            "Q": "What is the lowest Electricity Demand level recorded for Azure Energy Distribution?",
+            "A": "Azure Energy Distribution's lowest recorded level is approximately {1039613504.84} MWh in 1966."
+        },
+        {
+            "Q": "What is the highest Electricity Demand level recorded for Borealis Electric Cooperative?",
+            "A": "Borealis Electric Cooperative reached approximately {1013248956.48} MWh in 1966."
+        },
+        {
+            "Q": "What is the lowest Electricity Demand level recorded for Borealis Electric Cooperative?",
+            "A": "Borealis Electric Cooperative's lowest recorded level is approximately {440588338.76} MWh in 1973."
+        },
+        {
+            "Q": "What is the highest Electricity Demand level recorded for Silverhaven Hydro Authority?",
+            "A": "Silverhaven Hydro Authority reached approximately {2045947649.80} MWh in 1973."
+        },
+        {
+            "Q": "What is the lowest Electricity Demand level recorded for Silverhaven Hydro Authority?",
+            "A": "Silverhaven Hydro Authority's lowest recorded level is approximately {986611501.35} MWh in 1966."
+        },
+        {
+            "Q": "What is the highest Electricity Demand level recorded for Zenith Utility Services?",
+            "A": "Zenith Utility Services reached approximately {1271373239.50} MWh in 1972."
+        },
+        {
+            "Q": "What is the lowest Electricity Demand level recorded for Zenith Utility Services?",
+            "A": "Zenith Utility Services's lowest recorded level is approximately {936678849.22} MWh in 1966."
+        },
+        {
+            "Q": "What is Silverhaven Hydro Authority's Electricity Demand in 1970?",
+            "A": "Silverhaven Hydro Authority's electricity demand in 1970 is {1778334882.20} MWh."
+        },
+        {
+            "Q": "What is Silverhaven Hydro Authority's Electricity Demand in 1970?",
+            "A": "Silverhaven Hydro Authority's electricity demand in 1970 is {1094919223.20} MWh."
+        },
+        {
+            "Q": "What is Silverhaven Hydro Authority's Electricity Demand in 1970?",
+            "A": "Silverhaven Hydro Authority's electricity demand in 1970 is {2045947649.80} MWh."
+        },
+        {
+            "Q": "What are the electricity demand of Zenith Utility Services, Azure Energy Distribution, and Borealis Electric Cooperative in 1970?",
+            "A": "{Zenith Utility Services}'s electricity demand is {936678849.22} MWh, {Azure Energy Distribution}'s electricity demand is {1039613504.84} MWh, {Borealis Electric Cooperative}'s electricity demand is {1013248956.48} MWh."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Electricity Demand in the line chart?",
+            "A": "The global minimum electricity demand is {440588338.76} MWh."
+        },
+        {
+            "Q": "What is the global maximum Electricity Demand in the line chart?",
+            "A": "The global maximum electricity demand is {2045947649.80} MWh."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Energy Distribution's Electricity Demand?",
+            "A": "The average value of Azure Energy Distribution's Electricity Demand is {1426340308.67} MWh."
+        },
+        {
+            "Q": "What is the average value of Borealis Electric Cooperative's Electricity Demand?",
+            "A": "The average value of Borealis Electric Cooperative's Electricity Demand is {699998430.59} MWh."
+        },
+        {
+            "Q": "What is the average value of Silverhaven Hydro Authority's Electricity Demand?",
+            "A": "The average value of Silverhaven Hydro Authority's Electricity Demand is {1427447420.39} MWh."
+        },
+        {
+            "Q": "What is the average value of Zenith Utility Services's Electricity Demand?",
+            "A": "The average value of Zenith Utility Services's Electricity Demand is {1138887719.18} MWh."
+        },
+        {
+            "Q": "What is the rate of change in Azure Energy Distribution's Electricity Demand from the starting year to the final year?",
+            "A": "The rate of change in Azure Energy Distribution's Electricity Demand is {79.43}%."
+        },
+        {
+            "Q": "What is the rate of change in Borealis Electric Cooperative's Electricity Demand from the starting year to the final year?",
+            "A": "The rate of change in Borealis Electric Cooperative's Electricity Demand is {-56.52}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Hydro Authority's Electricity Demand from the starting year to the final year?",
+            "A": "The rate of change in Silverhaven Hydro Authority's Electricity Demand is {107.37}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Utility Services's Electricity Demand from the starting year to the final year?",
+            "A": "The rate of change in Zenith Utility Services's Electricity Demand is {34.81}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Zenith Utility Services's Electricity Demand exceed 1177169677 MWh? Please list the years and corresponding values.",
+            "A": "1178453730.16 MWh in {1970.0} year, 1271373239.50 MWh in {1972.0} year, 1262696601.81 MWh in {1973.0} year."
+        },
+        {
+            "Q": "Which years did Zenith Utility Services's Electricity Demand below 1107883268 MWh? Please list the years and corresponding values.",
+            "A": "936678849.22 MWh in {1966.0} year, 1038799343.86 MWh in {1967.0} year, 1102668236.24 MWh in {1968.0} year."
+        },
+        {
+            "Q": "Which years did Zenith Utility Services's Electricity Demand between 1028273825 and 1256779120 MWh? Please list the years and corresponding values.",
+            "A": "1038799343.86 MWh in {1967.0} year, 1102668236.24 MWh in {1968.0} year, 1165613198.93 MWh in {1969.0} year."
+        },
+        {
+            "Q": "In the year 1973, which line had Electricity Demand exceed 1883412649 MWh? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Hydro Authority} had 2045947650 MWh."
+        },
+        {
+            "Q": "In the year 1973, which lines had Electricity Demand below 1180485776 MWh? Please list the lines and corresponding values.",
+            "A": "{Borealis Electric Cooperative} had 440588339 MWh."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Electricity Demand, Azure Energy Distribution, Zenith Utility Services, Borealis Electric Cooperative, or Silverhaven Hydro Authority?",
+            "A": "In 1970, {Azure Energy Distribution} had the highest electricity demand."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Influencer Collaboration ROI Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Galvan Inc Media?",
+            "A": "The strongest aspect is {Influencer Collaboration ROI Rate}, while the weakest aspect is{ Ad Click-Through Rate (CTR)}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Galvan Inc Media on the Ad Click-Through Rate (CTR) in the radar chart?",
+            "A": "The value of Galvan Inc Media on the Safety dimension is {51}."
+        },
+        {
+            "Q": "What is the value of Galvan Inc Media on the Live Stream Viewer Retention Rate in the radar chart?",
+            "A": "The value of Galvan Inc Media on the Safety dimension is {91}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Galvan Inc Media across all dimensions in the radar chart?",
+            "A": "The maximum value of Galvan Inc Media across all dimensions is {51}."
+        },
+        {
+            "Q": "What is the minimum value of label Galvan Inc Media across all dimensions in the radar chart?",
+            "A": "The minimum value of Galvan Inc Media across all dimensions is {51}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Follower Growth Rate}",
+            "A": "The average value of {Follower Growth Rate} is {70.0}."
+        },
+        {
+            "Q": "What is the average value of {Galvan Inc Media}",
+            "A": "The average value of {Galvan Inc Media} is {72.33}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Galvan Inc Media in the radar chart, which dimensions have scores below 59? Please list the dimensions and corresponding scores.",
+            "A": "{Ad Click-Through Rate (CTR)} is {51}"
+        },
+        {
+            "Q": "For Galvan Inc Media in the radar chart, which dimensions have scores between 59 and 84? Please list the dimensions and corresponding scores.",
+            "A": "{Content Sharing Rate} is {64}, {Video Completion Rate} is {66}, {Follower Growth Rate} is {70}"
+        },
+        {
+            "Q": "Which labels have scores below 64 for the Content Sharing Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Galvan Inc Media} is {64}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Galvan Inc Media, which dimension has a higher score: Follower Growth Rate or Ad Click-Through Rate (CTR)?",
+            "A": "{Follower Growth Rate} has a higher score than Ad Click-Through Rate (CTR) for Galvan Inc Media."
+        },
+        {
+            "Q": "For Galvan Inc Media, which dimension has a higher score: Content Sharing Rate or Video Completion Rate or Ad Click-Through Rate (CTR)?",
+            "A": "{Video Completion Rate} has a higher score for Galvan Inc Media."
+        },
+        {
+            "Q": "For Galvan Inc Media, which dimension has a higher score: Video Completion Rate or Follower Growth Rate or Ad Click-Through Rate (CTR)?",
+            "A": "{Follower Growth Rate} has a higher score for Galvan Inc Media."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

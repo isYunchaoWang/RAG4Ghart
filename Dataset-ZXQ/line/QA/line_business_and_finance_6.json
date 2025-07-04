@@ -1,0 +1,245 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Apex Systems's Market Share levels?",
+            "A": "Apex Systems's Market Share levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Horizon Enterprises's Market Share levels?",
+            "A": "Horizon Enterprises's Market Share levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Starlight Innovations's Market Share levels?",
+            "A": "Starlight Innovations's Market Share levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Vanguard Dynamics's Market Share levels?",
+            "A": "Vanguard Dynamics's Market Share levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Ironclad Ventures's Market Share levels?",
+            "A": "Ironclad Ventures's Market Share levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Aegis Corp's Market Share levels?",
+            "A": "Aegis Corp's Market Share levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of NovaTech Solutions's Market Share levels?",
+            "A": "NovaTech Solutions's Market Share levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Market Share levels?",
+            "A": "{Apex Systems}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Market Share levels?",
+            "A": "{Horizon Enterprises}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Market Share levels?",
+            "A": "{Starlight Innovations}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Market Share levels?",
+            "A": "{Vanguard Dynamics}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Market Share levels?",
+            "A": "{Ironclad Ventures}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Market Share levels?",
+            "A": "{Aegis Corp}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Market Share levels?",
+            "A": "{NovaTech Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Market Share level recorded for Aegis Corp?",
+            "A": "Aegis Corp reached approximately {100.00} % in 1983."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for Aegis Corp?",
+            "A": "Aegis Corp's lowest recorded level is approximately {19.95} % in 1966."
+        },
+        {
+            "Q": "What is the highest Market Share level recorded for Apex Systems?",
+            "A": "Apex Systems reached approximately {19.91} % in 1966."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for Apex Systems?",
+            "A": "Apex Systems's lowest recorded level is approximately {0.20} % in 1990."
+        },
+        {
+            "Q": "What is the highest Market Share level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises reached approximately {36.49} % in 1977."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises's lowest recorded level is approximately {19.58} % in 1989."
+        },
+        {
+            "Q": "What is the highest Market Share level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures reached approximately {21.89} % in 1990."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures's lowest recorded level is approximately {4.61} % in 1977."
+        },
+        {
+            "Q": "What is the highest Market Share level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions reached approximately {44.99} % in 1991."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions's lowest recorded level is approximately {20.31} % in 1966."
+        },
+        {
+            "Q": "What is the highest Market Share level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations reached approximately {60.91} % in 1991."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations's lowest recorded level is approximately {19.41} % in 1966."
+        },
+        {
+            "Q": "What is the highest Market Share level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics reached approximately {17.86} % in 1966."
+        },
+        {
+            "Q": "What is the lowest Market Share level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics's lowest recorded level is approximately {0.20} % in 1985."
+        },
+        {
+            "Q": "What is Starlight Innovations's Market Share in 1970?",
+            "A": "Starlight Innovations's market share in 1970 is {40.62} %."
+        },
+        {
+            "Q": "What is Ironclad Ventures's Market Share in 1970?",
+            "A": "Ironclad Ventures's market share in 1970 is {5.85} %."
+        },
+        {
+            "Q": "What is Starlight Innovations's Market Share in 1970?",
+            "A": "Starlight Innovations's market share in 1970 is {27.60} %."
+        },
+        {
+            "Q": "What are the market share of Apex Systems, Horizon Enterprises, and Starlight Innovations in 1970?",
+            "A": "{Apex Systems}'s market share is {19.91} %, {Horizon Enterprises}'s market share is {21.93} %, {Starlight Innovations}'s market share is {19.41} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Market Share in the line chart?",
+            "A": "The global minimum market share is {0.20} %."
+        },
+        {
+            "Q": "What is the global maximum Market Share in the line chart?",
+            "A": "The global maximum market share is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aegis Corp's Market Share?",
+            "A": "The average value of Aegis Corp's Market Share is {65.82} %."
+        },
+        {
+            "Q": "What is the average value of Apex Systems's Market Share?",
+            "A": "The average value of Apex Systems's Market Share is {7.03} %."
+        },
+        {
+            "Q": "What is the average value of Horizon Enterprises's Market Share?",
+            "A": "The average value of Horizon Enterprises's Market Share is {27.25} %."
+        },
+        {
+            "Q": "What is the average value of Ironclad Ventures's Market Share?",
+            "A": "The average value of Ironclad Ventures's Market Share is {12.90} %."
+        },
+        {
+            "Q": "What is the average value of NovaTech Solutions's Market Share?",
+            "A": "The average value of NovaTech Solutions's Market Share is {32.40} %."
+        },
+        {
+            "Q": "What is the average value of Starlight Innovations's Market Share?",
+            "A": "The average value of Starlight Innovations's Market Share is {39.83} %."
+        },
+        {
+            "Q": "What is the average value of Vanguard Dynamics's Market Share?",
+            "A": "The average value of Vanguard Dynamics's Market Share is {6.99} %."
+        },
+        {
+            "Q": "What is the rate of change in Aegis Corp's Market Share from the starting year to the final year?",
+            "A": "The rate of change in Aegis Corp's Market Share is {401.25}%."
+        },
+        {
+            "Q": "What is the rate of change in Apex Systems's Market Share from the starting year to the final year?",
+            "A": "The rate of change in Apex Systems's Market Share is {-99.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Horizon Enterprises's Market Share from the starting year to the final year?",
+            "A": "The rate of change in Horizon Enterprises's Market Share is {-3.19}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironclad Ventures's Market Share from the starting year to the final year?",
+            "A": "The rate of change in Ironclad Ventures's Market Share is {13.21}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaTech Solutions's Market Share from the starting year to the final year?",
+            "A": "The rate of change in NovaTech Solutions's Market Share is {121.52}%."
+        },
+        {
+            "Q": "What is the rate of change in Starlight Innovations's Market Share from the starting year to the final year?",
+            "A": "The rate of change in Starlight Innovations's Market Share is {213.81}%."
+        },
+        {
+            "Q": "What is the rate of change in Vanguard Dynamics's Market Share from the starting year to the final year?",
+            "A": "The rate of change in Vanguard Dynamics's Market Share is {-98.88}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Apex Systems's Market Share exceed 9 %? Please list the years and corresponding values.",
+            "A": "19.91 % in {1966.0} year, 15.19 % in {1967.0} year, 12.60 % in {1968.0} year."
+        },
+        {
+            "Q": "Which years did Apex Systems's Market Share below 3 %? Please list the years and corresponding values.",
+            "A": "3.07 % in {1983.0} year, 0.80 % in {1984.0} year, 2.64 % in {1985.0} year."
+        },
+        {
+            "Q": "Which years did Apex Systems's Market Share between 5 and 6 %? Please list the years and corresponding values.",
+            "A": "6.46 % in {1975.0} year, 5.58 % in {1978.0} year, 5.47 % in {1979.0} year."
+        },
+        {
+            "Q": "In the year 1974, which line had Market Share exceed 31 %? Please list the lines and corresponding values.",
+            "A": "{Starlight Innovations} had 31 %, {Aegis Corp} had 44 %."
+        },
+        {
+            "Q": "In the year 1974, which lines had Market Share below 12 %? Please list the lines and corresponding values.",
+            "A": "{Apex Systems} had 9 %, {Ironclad Ventures} had 9 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Market Share, Horizon Enterprises, Vanguard Dynamics, or Apex Systems?",
+            "A": "In 1970, {Horizon Enterprises} had the highest market share."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

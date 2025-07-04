@@ -1,0 +1,201 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Silver Screen Sanctuary's Cinema Attendance levels?",
+            "A": "Silver Screen Sanctuary's Cinema Attendance levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Picture House's Cinema Attendance levels?",
+            "A": "Meridian Picture House's Cinema Attendance levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Vista Cinema's Cinema Attendance levels?",
+            "A": "Azure Vista Cinema's Cinema Attendance levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Multiplex's Cinema Attendance levels?",
+            "A": "Zenith Multiplex's Cinema Attendance levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of The Grand Celestial's Cinema Attendance levels?",
+            "A": "The Grand Celestial's Cinema Attendance levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Cinema Attendance levels?",
+            "A": "{Silver Screen Sanctuary}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Cinema Attendance levels?",
+            "A": "{Meridian Picture House}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Cinema Attendance levels?",
+            "A": "{Azure Vista Cinema}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Cinema Attendance levels?",
+            "A": "{Zenith Multiplex}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Cinema Attendance levels?",
+            "A": "{The Grand Celestial}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Cinema Attendance level recorded for Azure Vista Cinema?",
+            "A": "Azure Vista Cinema reached approximately {2398073.24} tickets in 1971."
+        },
+        {
+            "Q": "What is the lowest Cinema Attendance level recorded for Azure Vista Cinema?",
+            "A": "Azure Vista Cinema's lowest recorded level is approximately {1817959.92} tickets in 1967."
+        },
+        {
+            "Q": "What is the highest Cinema Attendance level recorded for Meridian Picture House?",
+            "A": "Meridian Picture House reached approximately {970912.79} tickets in 1973."
+        },
+        {
+            "Q": "What is the lowest Cinema Attendance level recorded for Meridian Picture House?",
+            "A": "Meridian Picture House's lowest recorded level is approximately {352512.67} tickets in 1971."
+        },
+        {
+            "Q": "What is the highest Cinema Attendance level recorded for Silver Screen Sanctuary?",
+            "A": "Silver Screen Sanctuary reached approximately {1867582.41} tickets in 1967."
+        },
+        {
+            "Q": "What is the lowest Cinema Attendance level recorded for Silver Screen Sanctuary?",
+            "A": "Silver Screen Sanctuary's lowest recorded level is approximately {951356.60} tickets in 1973."
+        },
+        {
+            "Q": "What is the highest Cinema Attendance level recorded for The Grand Celestial?",
+            "A": "The Grand Celestial reached approximately {4700111.25} tickets in 1970."
+        },
+        {
+            "Q": "What is the lowest Cinema Attendance level recorded for The Grand Celestial?",
+            "A": "The Grand Celestial's lowest recorded level is approximately {4189782.98} tickets in 1967."
+        },
+        {
+            "Q": "What is the highest Cinema Attendance level recorded for Zenith Multiplex?",
+            "A": "Zenith Multiplex reached approximately {2259014.60} tickets in 1967."
+        },
+        {
+            "Q": "What is the lowest Cinema Attendance level recorded for Zenith Multiplex?",
+            "A": "Zenith Multiplex's lowest recorded level is approximately {1110775.86} tickets in 1973."
+        },
+        {
+            "Q": "What is Azure Vista Cinema's Cinema Attendance in 1970?",
+            "A": "Azure Vista Cinema's cinema attendance in 1970 is {2027829.63} tickets."
+        },
+        {
+            "Q": "What is Silver Screen Sanctuary's Cinema Attendance in 1970?",
+            "A": "Silver Screen Sanctuary's cinema attendance in 1970 is {1722507.44} tickets."
+        },
+        {
+            "Q": "What is The Grand Celestial's Cinema Attendance in 1970?",
+            "A": "The Grand Celestial's cinema attendance in 1970 is {4700111.25} tickets."
+        },
+        {
+            "Q": "What are the cinema attendance of Silver Screen Sanctuary, Meridian Picture House, and Azure Vista Cinema in 1970?",
+            "A": "{Silver Screen Sanctuary}'s cinema attendance is {1867582.41} tickets, {Meridian Picture House}'s cinema attendance is {707011.10} tickets, {Azure Vista Cinema}'s cinema attendance is {1817959.92} tickets."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Cinema Attendance in the line chart?",
+            "A": "The global minimum cinema attendance is {352512.67} tickets."
+        },
+        {
+            "Q": "What is the global maximum Cinema Attendance in the line chart?",
+            "A": "The global maximum cinema attendance is {4700111.25} tickets."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Vista Cinema's Cinema Attendance?",
+            "A": "The average value of Azure Vista Cinema's Cinema Attendance is {2153048.87} tickets."
+        },
+        {
+            "Q": "What is the average value of Meridian Picture House's Cinema Attendance?",
+            "A": "The average value of Meridian Picture House's Cinema Attendance is {632843.31} tickets."
+        },
+        {
+            "Q": "What is the average value of Silver Screen Sanctuary's Cinema Attendance?",
+            "A": "The average value of Silver Screen Sanctuary's Cinema Attendance is {1628874.03} tickets."
+        },
+        {
+            "Q": "What is the average value of The Grand Celestial's Cinema Attendance?",
+            "A": "The average value of The Grand Celestial's Cinema Attendance is {4472429.75} tickets."
+        },
+        {
+            "Q": "What is the average value of Zenith Multiplex's Cinema Attendance?",
+            "A": "The average value of Zenith Multiplex's Cinema Attendance is {1536638.44} tickets."
+        },
+        {
+            "Q": "What is the rate of change in Azure Vista Cinema's Cinema Attendance from the starting year to the final year?",
+            "A": "The rate of change in Azure Vista Cinema's Cinema Attendance is {30.20}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Picture House's Cinema Attendance from the starting year to the final year?",
+            "A": "The rate of change in Meridian Picture House's Cinema Attendance is {37.33}%."
+        },
+        {
+            "Q": "What is the rate of change in Silver Screen Sanctuary's Cinema Attendance from the starting year to the final year?",
+            "A": "The rate of change in Silver Screen Sanctuary's Cinema Attendance is {-49.06}%."
+        },
+        {
+            "Q": "What is the rate of change in The Grand Celestial's Cinema Attendance from the starting year to the final year?",
+            "A": "The rate of change in The Grand Celestial's Cinema Attendance is {0.77}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Multiplex's Cinema Attendance from the starting year to the final year?",
+            "A": "The rate of change in Zenith Multiplex's Cinema Attendance is {-50.83}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Meridian Picture House's Cinema Attendance exceed 690289 tickets? Please list the years and corresponding values.",
+            "A": "707011.10 tickets in {1967.0} year, 970912.79 tickets in {1973.0} year."
+        },
+        {
+            "Q": "Which years did Meridian Picture House's Cinema Attendance below 576750 tickets? Please list the years and corresponding values.",
+            "A": "352512.67 tickets in {1971.0} year, 531137.24 tickets in {1972.0} year."
+        },
+        {
+            "Q": "Which years did Meridian Picture House's Cinema Attendance between 570168 and 696872 tickets? Please list the years and corresponding values.",
+            "A": "686109.01 tickets in {1968.0} year, 588152.87 tickets in {1969.0} year, 594067.47 tickets in {1970.0} year."
+        },
+        {
+            "Q": "In the year 1970, which line had Cinema Attendance exceed 2117332 tickets? Please list the lines and corresponding values.",
+            "A": "{Azure Vista Cinema} had 2218893 tickets, {The Grand Celestial} had 4700111 tickets."
+        },
+        {
+            "Q": "In the year 1970, which lines had Cinema Attendance below 1489075 tickets? Please list the lines and corresponding values.",
+            "A": "{Meridian Picture House} had 594067 tickets, {Zenith Multiplex} had 1433572 tickets."
+        },
+        {
+            "Q": "In the year 1970, which lines had Cinema Attendance between 1622883 and 1983524 tickets? Please list the lines and corresponding values.",
+            "A": "{Silver Screen Sanctuary} had 1711087 tickets."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Cinema Attendance, The Grand Celestial, Meridian Picture House, or Zenith Multiplex?",
+            "A": "In 1970, {The Grand Celestial} had the highest cinema attendance."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

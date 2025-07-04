@@ -1,0 +1,197 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Stellar Bistro's Food Safety Index levels?",
+            "A": "Stellar Bistro's Food Safety Index levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Sky High Cafe's Food Safety Index levels?",
+            "A": "Sky High Cafe's Food Safety Index levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Plate's Food Safety Index levels?",
+            "A": "Crimson Plate's Food Safety Index levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Emerald Diner's Food Safety Index levels?",
+            "A": "Emerald Diner's Food Safety Index levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of The Golden Spoon's Food Safety Index levels?",
+            "A": "The Golden Spoon's Food Safety Index levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Food Safety Index levels?",
+            "A": "{Stellar Bistro}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Food Safety Index levels?",
+            "A": "{Sky High Cafe}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Food Safety Index levels?",
+            "A": "{Crimson Plate}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Food Safety Index levels?",
+            "A": "{Emerald Diner}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Food Safety Index level recorded for Crimson Plate?",
+            "A": "Crimson Plate reached approximately {97.87} index in 1974."
+        },
+        {
+            "Q": "What is the lowest Food Safety Index level recorded for Crimson Plate?",
+            "A": "Crimson Plate's lowest recorded level is approximately {4.25} index in 2000."
+        },
+        {
+            "Q": "What is the highest Food Safety Index level recorded for Emerald Diner?",
+            "A": "Emerald Diner reached approximately {115.41} index in 1975."
+        },
+        {
+            "Q": "What is the lowest Food Safety Index level recorded for Emerald Diner?",
+            "A": "Emerald Diner's lowest recorded level is approximately {68.14} index in 1993."
+        },
+        {
+            "Q": "What is the highest Food Safety Index level recorded for Sky High Cafe?",
+            "A": "Sky High Cafe reached approximately {287.50} index in 2001."
+        },
+        {
+            "Q": "What is the lowest Food Safety Index level recorded for Sky High Cafe?",
+            "A": "Sky High Cafe's lowest recorded level is approximately {88.83} index in 1974."
+        },
+        {
+            "Q": "What is the highest Food Safety Index level recorded for Stellar Bistro?",
+            "A": "Stellar Bistro reached approximately {162.95} index in 1987."
+        },
+        {
+            "Q": "What is the lowest Food Safety Index level recorded for Stellar Bistro?",
+            "A": "Stellar Bistro's lowest recorded level is approximately {90.95} index in 1975."
+        },
+        {
+            "Q": "What is the highest Food Safety Index level recorded for The Golden Spoon?",
+            "A": "The Golden Spoon reached approximately {116.23} index in 1985."
+        },
+        {
+            "Q": "What is the lowest Food Safety Index level recorded for The Golden Spoon?",
+            "A": "The Golden Spoon's lowest recorded level is approximately {68.72} index in 1993."
+        },
+        {
+            "Q": "What is Stellar Bistro's Food Safety Index in 1970?",
+            "A": "Stellar Bistro's food safety index in 1970 is {143.21} index."
+        },
+        {
+            "Q": "What is Sky High Cafe's Food Safety Index in 1970?",
+            "A": "Sky High Cafe's food safety index in 1970 is {130.40} index."
+        },
+        {
+            "Q": "What is Stellar Bistro's Food Safety Index in 1970?",
+            "A": "Stellar Bistro's food safety index in 1970 is {90.95} index."
+        },
+        {
+            "Q": "What are the food safety index of Stellar Bistro, Sky High Cafe, and Crimson Plate in 1970?",
+            "A": "{Stellar Bistro}'s food safety index is {97.10} index, {Sky High Cafe}'s food safety index is {88.83} index, {Crimson Plate}'s food safety index is {97.87} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Food Safety Index in the line chart?",
+            "A": "The global minimum food safety index is {4.25} index."
+        },
+        {
+            "Q": "What is the global maximum Food Safety Index in the line chart?",
+            "A": "The global maximum food safety index is {287.50} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Crimson Plate's Food Safety Index?",
+            "A": "The average value of Crimson Plate's Food Safety Index is {30.99} index."
+        },
+        {
+            "Q": "What is the average value of Emerald Diner's Food Safety Index?",
+            "A": "The average value of Emerald Diner's Food Safety Index is {93.34} index."
+        },
+        {
+            "Q": "What is the average value of Sky High Cafe's Food Safety Index?",
+            "A": "The average value of Sky High Cafe's Food Safety Index is {191.75} index."
+        },
+        {
+            "Q": "What is the average value of Stellar Bistro's Food Safety Index?",
+            "A": "The average value of Stellar Bistro's Food Safety Index is {122.97} index."
+        },
+        {
+            "Q": "What is the average value of The Golden Spoon's Food Safety Index?",
+            "A": "The average value of The Golden Spoon's Food Safety Index is {93.07} index."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Plate's Food Safety Index from the starting year to the final year?",
+            "A": "The rate of change in Crimson Plate's Food Safety Index is {-93.97}%."
+        },
+        {
+            "Q": "What is the rate of change in Emerald Diner's Food Safety Index from the starting year to the final year?",
+            "A": "The rate of change in Emerald Diner's Food Safety Index is {11.01}%."
+        },
+        {
+            "Q": "What is the rate of change in Sky High Cafe's Food Safety Index from the starting year to the final year?",
+            "A": "The rate of change in Sky High Cafe's Food Safety Index is {223.65}%."
+        },
+        {
+            "Q": "What is the rate of change in Stellar Bistro's Food Safety Index from the starting year to the final year?",
+            "A": "The rate of change in Stellar Bistro's Food Safety Index is {-2.12}%."
+        },
+        {
+            "Q": "What is the rate of change in The Golden Spoon's Food Safety Index from the starting year to the final year?",
+            "A": "The rate of change in The Golden Spoon's Food Safety Index is {13.09}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Emerald Diner's Food Safety Index exceed 105 index? Please list the years and corresponding values.",
+            "A": "115.41 index in {1975.0} year, 105.38 index in {1976.0} year, 114.70 index in {1980.0} year."
+        },
+        {
+            "Q": "Which years did Emerald Diner's Food Safety Index below 79 index? Please list the years and corresponding values.",
+            "A": "70.89 index in {1978.0} year, 78.79 index in {1982.0} year, 69.18 index in {1983.0} year."
+        },
+        {
+            "Q": "Which years did Emerald Diner's Food Safety Index between 83 and 101 index? Please list the years and corresponding values.",
+            "A": "93.48 index in {1974.0} year, 91.99 index in {1979.0} year, 92.86 index in {1984.0} year."
+        },
+        {
+            "Q": "In the year 1974, which line had Food Safety Index exceed 96 index? Please list the lines and corresponding values.",
+            "A": "{Stellar Bistro} had 97 index, {Crimson Plate} had 98 index."
+        },
+        {
+            "Q": "In the year 1974, which lines had Food Safety Index below 93 index? Please list the lines and corresponding values.",
+            "A": "{Sky High Cafe} had 89 index, {The Golden Spoon} had 92 index."
+        },
+        {
+            "Q": "In the year 1974, which lines had Food Safety Index between 85 and 104 index? Please list the lines and corresponding values.",
+            "A": "{Stellar Bistro} had 97 index, {Sky High Cafe} had 89 index, {Crimson Plate} had 98 index."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Food Safety Index, Emerald Diner, Sky High Cafe, Stellar Bistro, or The Golden Spoon?",
+            "A": "In 1970, {Stellar Bistro} had the highest food safety index."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

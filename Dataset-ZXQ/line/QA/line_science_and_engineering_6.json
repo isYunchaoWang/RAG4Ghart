@@ -1,0 +1,145 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Luminara Academy's Research Grants Awarded levels?",
+            "A": "Luminara Academy's Research Grants Awarded levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Starburst College's Research Grants Awarded levels?",
+            "A": "Starburst College's Research Grants Awarded levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Nova Institute's Research Grants Awarded levels?",
+            "A": "Nova Institute's Research Grants Awarded levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Research Grants Awarded levels?",
+            "A": "{Luminara Academy}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Research Grants Awarded levels?",
+            "A": "{Nova Institute}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Research Grants Awarded level recorded for Luminara Academy?",
+            "A": "Luminara Academy reached approximately {2693067.84} $ in 1972."
+        },
+        {
+            "Q": "What is the lowest Research Grants Awarded level recorded for Luminara Academy?",
+            "A": "Luminara Academy's lowest recorded level is approximately {319808.86} $ in 1987."
+        },
+        {
+            "Q": "What is the highest Research Grants Awarded level recorded for Nova Institute?",
+            "A": "Nova Institute reached approximately {1058481.13} $ in 1973."
+        },
+        {
+            "Q": "What is the lowest Research Grants Awarded level recorded for Nova Institute?",
+            "A": "Nova Institute's lowest recorded level is approximately {20000.00} $ in 1974."
+        },
+        {
+            "Q": "What is the highest Research Grants Awarded level recorded for Starburst College?",
+            "A": "Starburst College reached approximately {2551033.54} $ in 1972."
+        },
+        {
+            "Q": "What is the lowest Research Grants Awarded level recorded for Starburst College?",
+            "A": "Starburst College's lowest recorded level is approximately {110430.56} $ in 1985."
+        },
+        {
+            "Q": "What is Nova Institute's Research Grants Awarded in 1970?",
+            "A": "Nova Institute's research grants awarded in 1970 is {882889.97} $."
+        },
+        {
+            "Q": "What is Luminara Academy's Research Grants Awarded in 1970?",
+            "A": "Luminara Academy's research grants awarded in 1970 is {743606.71} $."
+        },
+        {
+            "Q": "What is Nova Institute's Research Grants Awarded in 1970?",
+            "A": "Nova Institute's research grants awarded in 1970 is {593472.64} $."
+        },
+        {
+            "Q": "What are the research grants awarded of Luminara Academy, Starburst College, and Nova Institute in 1970?",
+            "A": "{Luminara Academy}'s research grants awarded is {2693067.84} $, {Starburst College}'s research grants awarded is {2551033.54} $, {Nova Institute}'s research grants awarded is {593472.64} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Research Grants Awarded in the line chart?",
+            "A": "The global minimum research grants awarded is {20000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Research Grants Awarded in the line chart?",
+            "A": "The global maximum research grants awarded is {2693067.84} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Luminara Academy's Research Grants Awarded?",
+            "A": "The average value of Luminara Academy's Research Grants Awarded is {1137256.60} $."
+        },
+        {
+            "Q": "What is the average value of Nova Institute's Research Grants Awarded?",
+            "A": "The average value of Nova Institute's Research Grants Awarded is {344336.11} $."
+        },
+        {
+            "Q": "What is the average value of Starburst College's Research Grants Awarded?",
+            "A": "The average value of Starburst College's Research Grants Awarded is {926105.63} $."
+        },
+        {
+            "Q": "What is the rate of change in Luminara Academy's Research Grants Awarded from the starting year to the final year?",
+            "A": "The rate of change in Luminara Academy's Research Grants Awarded is {-65.50}%."
+        },
+        {
+            "Q": "What is the rate of change in Nova Institute's Research Grants Awarded from the starting year to the final year?",
+            "A": "The rate of change in Nova Institute's Research Grants Awarded is {28.44}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst College's Research Grants Awarded from the starting year to the final year?",
+            "A": "The rate of change in Starburst College's Research Grants Awarded is {-92.51}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Luminara Academy's Research Grants Awarded exceed 1224921 $? Please list the years and corresponding values.",
+            "A": "2693067.84 $ in {1972.0} year, 1812031.24 $ in {1973.0} year, 1764938.30 $ in {1974.0} year."
+        },
+        {
+            "Q": "Which years did Luminara Academy's Research Grants Awarded below 829409 $? Please list the years and corresponding values.",
+            "A": "743606.71 $ in {1982.0} year, 806029.67 $ in {1983.0} year, 535235.97 $ in {1984.0} year."
+        },
+        {
+            "Q": "Which years did Luminara Academy's Research Grants Awarded between 924448 and 1129881 $? Please list the years and corresponding values.",
+            "A": "1032616.41 $ in {1978.0} year, 973688.04 $ in {1980.0} year, 929074.65 $ in {1988.0} year."
+        },
+        {
+            "Q": "In the year 1983, which line had Research Grants Awarded exceed 796958 $? Please list the lines and corresponding values.",
+            "A": "{Luminara Academy} had 806030 $."
+        },
+        {
+            "Q": "In the year 1983, which lines had Research Grants Awarded below 633758 $? Please list the lines and corresponding values.",
+            "A": "{Starburst College} had 398030 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Research Grants Awarded, Luminara Academy, Nova Institute, or Starburst College?",
+            "A": "In 1970, {Luminara Academy} had the highest research grants awarded."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

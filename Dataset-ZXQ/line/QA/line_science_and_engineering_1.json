@@ -1,0 +1,177 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Aether Corp's R&D Investment levels?",
+            "A": "Aether Corp's R&D Investment levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Starburst Enterprises's R&D Investment levels?",
+            "A": "Starburst Enterprises's R&D Investment levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Nova Industries's R&D Investment levels?",
+            "A": "Nova Industries's R&D Investment levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Luminara Solutions's R&D Investment levels?",
+            "A": "Luminara Solutions's R&D Investment levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in R&D Investment levels?",
+            "A": "{Aether Corp}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in R&D Investment levels?",
+            "A": "{Starburst Enterprises}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in R&D Investment levels?",
+            "A": "{Nova Industries}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in R&D Investment levels?",
+            "A": "{Luminara Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest R&D Investment level recorded for Aether Corp?",
+            "A": "Aether Corp reached approximately {21301364.18} $ in 1966."
+        },
+        {
+            "Q": "What is the lowest R&D Investment level recorded for Aether Corp?",
+            "A": "Aether Corp's lowest recorded level is approximately {12088530.36} $ in 1986."
+        },
+        {
+            "Q": "What is the highest R&D Investment level recorded for Luminara Solutions?",
+            "A": "Luminara Solutions reached approximately {23100111.29} $ in 1984."
+        },
+        {
+            "Q": "What is the lowest R&D Investment level recorded for Luminara Solutions?",
+            "A": "Luminara Solutions's lowest recorded level is approximately {8606972.26} $ in 1961."
+        },
+        {
+            "Q": "What is the highest R&D Investment level recorded for Nova Industries?",
+            "A": "Nova Industries reached approximately {18791823.48} $ in 1986."
+        },
+        {
+            "Q": "What is the lowest R&D Investment level recorded for Nova Industries?",
+            "A": "Nova Industries's lowest recorded level is approximately {8450322.29} $ in 1964."
+        },
+        {
+            "Q": "What is the highest R&D Investment level recorded for Starburst Enterprises?",
+            "A": "Starburst Enterprises reached approximately {31849176.94} $ in 1986."
+        },
+        {
+            "Q": "What is the lowest R&D Investment level recorded for Starburst Enterprises?",
+            "A": "Starburst Enterprises's lowest recorded level is approximately {9166950.18} $ in 1960."
+        },
+        {
+            "Q": "What is Nova Industries's R&D Investment in 1970?",
+            "A": "Nova Industries's r&d investment in 1970 is {16616237.12} $."
+        },
+        {
+            "Q": "What is Nova Industries's R&D Investment in 1970?",
+            "A": "Nova Industries's r&d investment in 1970 is {9596627.61} $."
+        },
+        {
+            "Q": "What is Aether Corp's R&D Investment in 1970?",
+            "A": "Aether Corp's r&d investment in 1970 is {18892171.35} $."
+        },
+        {
+            "Q": "What are the r&d investment of Aether Corp, Starburst Enterprises, and Nova Industries in 1970?",
+            "A": "{Aether Corp}'s r&d investment is {14078504.61} $, {Starburst Enterprises}'s r&d investment is {9166950.18} $, {Nova Industries}'s r&d investment is {9809352.71} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum R&D Investment in the line chart?",
+            "A": "The global minimum r&d investment is {8450322.29} $."
+        },
+        {
+            "Q": "What is the global maximum R&D Investment in the line chart?",
+            "A": "The global maximum r&d investment is {31849176.94} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aether Corp's R&D Investment?",
+            "A": "The average value of Aether Corp's R&D Investment is {16525512.91} $."
+        },
+        {
+            "Q": "What is the average value of Luminara Solutions's R&D Investment?",
+            "A": "The average value of Luminara Solutions's R&D Investment is {16435488.88} $."
+        },
+        {
+            "Q": "What is the average value of Nova Industries's R&D Investment?",
+            "A": "The average value of Nova Industries's R&D Investment is {13788592.76} $."
+        },
+        {
+            "Q": "What is the average value of Starburst Enterprises's R&D Investment?",
+            "A": "The average value of Starburst Enterprises's R&D Investment is {20162045.41} $."
+        },
+        {
+            "Q": "What is the rate of change in Aether Corp's R&D Investment from the starting year to the final year?",
+            "A": "The rate of change in Aether Corp's R&D Investment is {-14.13}%."
+        },
+        {
+            "Q": "What is the rate of change in Luminara Solutions's R&D Investment from the starting year to the final year?",
+            "A": "The rate of change in Luminara Solutions's R&D Investment is {114.36}%."
+        },
+        {
+            "Q": "What is the rate of change in Nova Industries's R&D Investment from the starting year to the final year?",
+            "A": "The rate of change in Nova Industries's R&D Investment is {91.57}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst Enterprises's R&D Investment from the starting year to the final year?",
+            "A": "The rate of change in Starburst Enterprises's R&D Investment is {247.43}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Starburst Enterprises's R&D Investment exceed 23357463 $? Please list the years and corresponding values.",
+            "A": "24637843.75 $ in {1976.0} year, 25492179.25 $ in {1978.0} year, 27109691.50 $ in {1981.0} year."
+        },
+        {
+            "Q": "Which years did Starburst Enterprises's R&D Investment below 16066506 $? Please list the years and corresponding values.",
+            "A": "9166950.18 $ in {1960.0} year, 12900341.79 $ in {1961.0} year, 11066905.61 $ in {1962.0} year."
+        },
+        {
+            "Q": "Which years did Starburst Enterprises's R&D Investment between 17740786 and 21683183 $? Please list the years and corresponding values.",
+            "A": "20053179.96 $ in {1970.0} year, 18317618.30 $ in {1971.0} year, 18857740.97 $ in {1973.0} year."
+        },
+        {
+            "Q": "In the year 1963, which line had R&D Investment exceed 12355823 $? Please list the lines and corresponding values.",
+            "A": "{Aether Corp} had 16402222 $."
+        },
+        {
+            "Q": "In the year 1963, which lines had R&D Investment below 11600502 $? Please list the lines and corresponding values.",
+            "A": "{Starburst Enterprises} had 11318772 $."
+        },
+        {
+            "Q": "In the year 1963, which lines had R&D Investment between 10780346 and 13175979 $? Please list the lines and corresponding values.",
+            "A": "{Starburst Enterprises} had 11318772 $, {Nova Industries} had 11631806 $, {Luminara Solutions} had 11906223 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest R&D Investment, Nova Industries, Luminara Solutions, Aether Corp, or Starburst Enterprises?",
+            "A": "In 1970, {Aether Corp} had the highest r&d investment."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

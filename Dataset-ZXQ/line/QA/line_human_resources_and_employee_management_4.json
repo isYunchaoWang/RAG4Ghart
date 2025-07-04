@@ -1,0 +1,201 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Management Team's Employee Satisfaction levels?",
+            "A": "Management Team's Employee Satisfaction levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Human Resources's Employee Satisfaction levels?",
+            "A": "Human Resources's Employee Satisfaction levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Sales Team's Employee Satisfaction levels?",
+            "A": "Sales Team's Employee Satisfaction levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Engineering Department's Employee Satisfaction levels?",
+            "A": "Engineering Department's Employee Satisfaction levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Operations Staff's Employee Satisfaction levels?",
+            "A": "Operations Staff's Employee Satisfaction levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Employee Satisfaction levels?",
+            "A": "{Management Team}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Employee Satisfaction levels?",
+            "A": "{Human Resources}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Employee Satisfaction levels?",
+            "A": "{Sales Team}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Employee Satisfaction levels?",
+            "A": "{Engineering Department}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Employee Satisfaction levels?",
+            "A": "{Operations Staff}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Employee Satisfaction level recorded for Engineering Department?",
+            "A": "Engineering Department reached approximately {85.20} % in 2016."
+        },
+        {
+            "Q": "What is the lowest Employee Satisfaction level recorded for Engineering Department?",
+            "A": "Engineering Department's lowest recorded level is approximately {69.12} % in 2013."
+        },
+        {
+            "Q": "What is the highest Employee Satisfaction level recorded for Human Resources?",
+            "A": "Human Resources reached approximately {80.12} % in 2014."
+        },
+        {
+            "Q": "What is the lowest Employee Satisfaction level recorded for Human Resources?",
+            "A": "Human Resources's lowest recorded level is approximately {69.63} % in 2013."
+        },
+        {
+            "Q": "What is the highest Employee Satisfaction level recorded for Management Team?",
+            "A": "Management Team reached approximately {0.70} % in 2013."
+        },
+        {
+            "Q": "What is the lowest Employee Satisfaction level recorded for Management Team?",
+            "A": "Management Team's lowest recorded level is approximately {0.70} % in 2013."
+        },
+        {
+            "Q": "What is the highest Employee Satisfaction level recorded for Operations Staff?",
+            "A": "Operations Staff reached approximately {100.00} % in 2013."
+        },
+        {
+            "Q": "What is the lowest Employee Satisfaction level recorded for Operations Staff?",
+            "A": "Operations Staff's lowest recorded level is approximately {100.00} % in 2013."
+        },
+        {
+            "Q": "What is the highest Employee Satisfaction level recorded for Sales Team?",
+            "A": "Sales Team reached approximately {87.23} % in 2014."
+        },
+        {
+            "Q": "What is the lowest Employee Satisfaction level recorded for Sales Team?",
+            "A": "Sales Team's lowest recorded level is approximately {55.92} % in 2016."
+        },
+        {
+            "Q": "What is Management Team's Employee Satisfaction in 1970?",
+            "A": "Management Team's employee satisfaction in 1970 is {0.70} %."
+        },
+        {
+            "Q": "What is Sales Team's Employee Satisfaction in 1970?",
+            "A": "Sales Team's employee satisfaction in 1970 is {55.92} %."
+        },
+        {
+            "Q": "What is Engineering Department's Employee Satisfaction in 1970?",
+            "A": "Engineering Department's employee satisfaction in 1970 is {85.20} %."
+        },
+        {
+            "Q": "What are the employee satisfaction of Management Team, Human Resources, and Sales Team in 1970?",
+            "A": "{Management Team}'s employee satisfaction is {0.70} %, {Human Resources}'s employee satisfaction is {69.63} %, {Sales Team}'s employee satisfaction is {69.46} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Employee Satisfaction in the line chart?",
+            "A": "The global minimum employee satisfaction is {0.70} %."
+        },
+        {
+            "Q": "What is the global maximum Employee Satisfaction in the line chart?",
+            "A": "The global maximum employee satisfaction is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Engineering Department's Employee Satisfaction?",
+            "A": "The average value of Engineering Department's Employee Satisfaction is {78.30} %."
+        },
+        {
+            "Q": "What is the average value of Human Resources's Employee Satisfaction?",
+            "A": "The average value of Human Resources's Employee Satisfaction is {76.12} %."
+        },
+        {
+            "Q": "What is the average value of Management Team's Employee Satisfaction?",
+            "A": "The average value of Management Team's Employee Satisfaction is {0.70} %."
+        },
+        {
+            "Q": "What is the average value of Operations Staff's Employee Satisfaction?",
+            "A": "The average value of Operations Staff's Employee Satisfaction is {100.00} %."
+        },
+        {
+            "Q": "What is the average value of Sales Team's Employee Satisfaction?",
+            "A": "The average value of Sales Team's Employee Satisfaction is {73.72} %."
+        },
+        {
+            "Q": "What is the rate of change in Engineering Department's Employee Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Engineering Department's Employee Satisfaction is {23.26}%."
+        },
+        {
+            "Q": "What is the rate of change in Human Resources's Employee Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Human Resources's Employee Satisfaction is {10.28}%."
+        },
+        {
+            "Q": "What is the rate of change in Management Team's Employee Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Management Team's Employee Satisfaction is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Operations Staff's Employee Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Operations Staff's Employee Satisfaction is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Sales Team's Employee Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Sales Team's Employee Satisfaction is {-19.49}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Human Resources's Employee Satisfaction exceed 78 %? Please list the years and corresponding values.",
+            "A": "80.12 % in {2014.0} year."
+        },
+        {
+            "Q": "Which years did Human Resources's Employee Satisfaction below 76 %? Please list the years and corresponding values.",
+            "A": "69.63 % in {2013.0} year."
+        },
+        {
+            "Q": "Which years did Human Resources's Employee Satisfaction between 69 and 85 %? Please list the years and corresponding values.",
+            "A": "69.63 % in {2013.0} year, 80.12 % in {2014.0} year, 77.96 % in {2015.0} year."
+        },
+        {
+            "Q": "In the year 2016, which line had Employee Satisfaction exceed 84 %? Please list the lines and corresponding values.",
+            "A": "{Engineering Department} had 85 %, {Operations Staff} had 100 %."
+        },
+        {
+            "Q": "In the year 2016, which lines had Employee Satisfaction below 60 %? Please list the lines and corresponding values.",
+            "A": "{Management Team} had 1 %, {Sales Team} had 56 %."
+        },
+        {
+            "Q": "In the year 2016, which lines had Employee Satisfaction between 65 and 79 %? Please list the lines and corresponding values.",
+            "A": "{Human Resources} had 77 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Employee Satisfaction, Sales Team or Engineering Department?",
+            "A": "In 1970, {Sales Team} had a higher employee satisfaction."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

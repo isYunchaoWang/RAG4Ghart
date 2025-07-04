@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Attraction Capacity Utilization Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of South Nicolemouth?",
+            "A": "The strongest aspect is {Attraction Capacity Utilization Rate}, while the weakest aspect is{ Tourist Satisfaction Rate }."
+        },
+        {
+            "Q": "On dimension Attraction Capacity Utilization Rate, which label scores the highest?",
+            "A": "On Attraction Capacity Utilization Rate, label {Robertshire} scores the highest."
+        },
+        {
+            "Q": "On dimension Revisit Rate , which label scores the highest?",
+            "A": "On Revisit Rate , label {Santiagotown} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Santiagotown on the Revisit Rate  in the radar chart?",
+            "A": "The value of Santiagotown on the Safety dimension is {50}."
+        },
+        {
+            "Q": "What is the value of South Nicolemouth on the Hotel Occupancy Rate in the radar chart?",
+            "A": "The value of South Nicolemouth on the Safety dimension is {42}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label South Nicolemouth across all dimensions in the radar chart?",
+            "A": "The maximum value of South Nicolemouth across all dimensions is {33}."
+        },
+        {
+            "Q": "What is the minimum value of label Robertshire across all dimensions in the radar chart?",
+            "A": "The minimum value of Robertshire across all dimensions is {61}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Hotel Occupancy Rate}",
+            "A": "The average value of {Hotel Occupancy Rate} is {71.0}."
+        },
+        {
+            "Q": "What is the average value of {Santiagotown}",
+            "A": "The average value of {Santiagotown} is {62.8}."
+        },
+        {
+            "Q": "What is the difference in Attraction Capacity Utilization Rate between Santiagotown and South Nicolemouth?",
+            "A": "The difference in {Attraction Capacity Utilization Rate} between Santiagotown and South Nicolemouth is {4}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Robertshire in the radar chart, which dimensions have scores between 39 and 77? Please list the dimensions and corresponding scores.",
+            "A": "{Attraction Capacity Utilization Rate} is {45}, {Revisit Rate } is {55}"
+        },
+        {
+            "Q": "Which labels have scores above 77 for the Tourist Satisfaction Rate  dimension? Please list the labels and corresponding scores.",
+            "A": "{Santiagotown} is {88}, {Robertshire} is {84}"
+        },
+        {
+            "Q": "For Santiagotown in the radar chart, which dimensions have scores below 39? Please list the dimensions and corresponding scores.",
+            "A": "{Tourist Satisfaction Rate } is {33}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Santiagotown, which dimension has a higher score: Hotel Occupancy Rate or Tourist Conversion Rate?",
+            "A": "{Hotel Occupancy Rate} has a higher score than Tourist Conversion Rate for Santiagotown."
+        },
+        {
+            "Q": "On Tourist Conversion Rate, which label has a higher score: Santiagotown or the Robertshire?",
+            "A": "{Robertshire} has a higher score on Tourist Conversion Rate compared to Santiagotown."
+        },
+        {
+            "Q": "On Hotel Occupancy Rate, which label has a higher score: Robertshire or the Santiagotown?",
+            "A": "{Robertshire} has a higher score on Hotel Occupancy Rate compared to Santiagotown."
+        },
+        {
+            "Q": "For Santiagotown, which dimension has a higher score: Tourist Conversion Rate or Revisit Rate  or Attraction Capacity Utilization Rate?",
+            "A": "{Attraction Capacity Utilization Rate} has a higher score for Santiagotown."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

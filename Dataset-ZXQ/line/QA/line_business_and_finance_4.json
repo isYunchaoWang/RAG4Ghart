@@ -1,0 +1,169 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Ironclad Ventures's Net Profit Margin levels?",
+            "A": "Ironclad Ventures's Net Profit Margin levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Starlight Innovations's Net Profit Margin levels?",
+            "A": "Starlight Innovations's Net Profit Margin levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Apex Systems's Net Profit Margin levels?",
+            "A": "Apex Systems's Net Profit Margin levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of NovaTech Solutions's Net Profit Margin levels?",
+            "A": "NovaTech Solutions's Net Profit Margin levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Net Profit Margin levels?",
+            "A": "{Ironclad Ventures}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Net Profit Margin levels?",
+            "A": "{Starlight Innovations}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Net Profit Margin levels?",
+            "A": "{Apex Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Net Profit Margin level recorded for Apex Systems?",
+            "A": "Apex Systems reached approximately {34.44} % in 1978."
+        },
+        {
+            "Q": "What is the lowest Net Profit Margin level recorded for Apex Systems?",
+            "A": "Apex Systems's lowest recorded level is approximately {26.37} % in 1983."
+        },
+        {
+            "Q": "What is the highest Net Profit Margin level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures reached approximately {9.61} % in 1971."
+        },
+        {
+            "Q": "What is the lowest Net Profit Margin level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures's lowest recorded level is approximately {4.19} % in 1976."
+        },
+        {
+            "Q": "What is the highest Net Profit Margin level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions reached approximately {4.36} % in 1971."
+        },
+        {
+            "Q": "What is the lowest Net Profit Margin level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions's lowest recorded level is approximately {0.15} % in 1974."
+        },
+        {
+            "Q": "What is the highest Net Profit Margin level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations reached approximately {5.13} % in 1971."
+        },
+        {
+            "Q": "What is the lowest Net Profit Margin level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations's lowest recorded level is approximately {0.15} % in 1974."
+        },
+        {
+            "Q": "What is Ironclad Ventures's Net Profit Margin in 1970?",
+            "A": "Ironclad Ventures's net profit margin in 1970 is {4.22} %."
+        },
+        {
+            "Q": "What is Starlight Innovations's Net Profit Margin in 1970?",
+            "A": "Starlight Innovations's net profit margin in 1970 is {0.15} %."
+        },
+        {
+            "Q": "What is Apex Systems's Net Profit Margin in 1970?",
+            "A": "Apex Systems's net profit margin in 1970 is {32.99} %."
+        },
+        {
+            "Q": "What are the net profit margin of Ironclad Ventures, Starlight Innovations, and Apex Systems in 1970?",
+            "A": "{Ironclad Ventures}'s net profit margin is {9.61} %, {Starlight Innovations}'s net profit margin is {5.13} %, {Apex Systems}'s net profit margin is {28.43} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Net Profit Margin in the line chart?",
+            "A": "The global minimum net profit margin is {0.15} %."
+        },
+        {
+            "Q": "What is the global maximum Net Profit Margin in the line chart?",
+            "A": "The global maximum net profit margin is {34.44} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Apex Systems's Net Profit Margin?",
+            "A": "The average value of Apex Systems's Net Profit Margin is {31.06} %."
+        },
+        {
+            "Q": "What is the average value of Ironclad Ventures's Net Profit Margin?",
+            "A": "The average value of Ironclad Ventures's Net Profit Margin is {6.74} %."
+        },
+        {
+            "Q": "What is the average value of NovaTech Solutions's Net Profit Margin?",
+            "A": "The average value of NovaTech Solutions's Net Profit Margin is {0.95} %."
+        },
+        {
+            "Q": "What is the average value of Starlight Innovations's Net Profit Margin?",
+            "A": "The average value of Starlight Innovations's Net Profit Margin is {1.16} %."
+        },
+        {
+            "Q": "What is the rate of change in Apex Systems's Net Profit Margin from the starting year to the final year?",
+            "A": "The rate of change in Apex Systems's Net Profit Margin is {-7.25}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironclad Ventures's Net Profit Margin from the starting year to the final year?",
+            "A": "The rate of change in Ironclad Ventures's Net Profit Margin is {-7.18}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaTech Solutions's Net Profit Margin from the starting year to the final year?",
+            "A": "The rate of change in NovaTech Solutions's Net Profit Margin is {-72.25}%."
+        },
+        {
+            "Q": "What is the rate of change in Starlight Innovations's Net Profit Margin from the starting year to the final year?",
+            "A": "The rate of change in Starlight Innovations's Net Profit Margin is {-4.48}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Apex Systems's Net Profit Margin exceed 33 %? Please list the years and corresponding values.",
+            "A": "34.37 % in {1975.0} year, 33.32 % in {1977.0} year, 34.44 % in {1978.0} year."
+        },
+        {
+            "Q": "Which years did Apex Systems's Net Profit Margin below 30 %? Please list the years and corresponding values.",
+            "A": "28.43 % in {1971.0} year, 27.28 % in {1972.0} year, 29.75 % in {1973.0} year."
+        },
+        {
+            "Q": "Which years did Apex Systems's Net Profit Margin between 28 and 35 %? Please list the years and corresponding values.",
+            "A": "28.43 % in {1971.0} year, 29.75 % in {1973.0} year, 32.58 % in {1974.0} year."
+        },
+        {
+            "Q": "In the year 1981, which line had Net Profit Margin exceed 9 %? Please list the lines and corresponding values.",
+            "A": "{Apex Systems} had 31 %."
+        },
+        {
+            "Q": "In the year 1981, which lines had Net Profit Margin below 0 %? Please list the lines and corresponding values.",
+            "A": "{Starlight Innovations} had 0 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Net Profit Margin, Apex Systems, Starlight Innovations, or Ironclad Ventures?",
+            "A": "In 1970, {Apex Systems} had the highest net profit margin."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

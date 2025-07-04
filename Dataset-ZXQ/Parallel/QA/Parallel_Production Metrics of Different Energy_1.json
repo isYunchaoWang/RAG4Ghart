@@ -1,0 +1,81 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Output (MWh)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Downtime (%) and dimension Renewable percentage (%)",
+            "A": "There is {Strong Correlation} between Downtime (%) and Renewable percentage (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Berry, Neal and Copeland  Generation Station on the Output (MWh) dimension in the parallel-coordinates chart?",
+            "A": "The value of Berry, Neal and Copeland  Generation Station on the Output (MWh) dimension is {10000.0}"
+        },
+        {
+            "Q": "What is the value of Wheeler, Tate and Howe  Power Plant on the Downtime (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Wheeler, Tate and Howe  Power Plant on the Downtime (%) dimension is {9.64}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Olson, Spencer and Smith  Power Plant across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Olson, Spencer and Smith  Power Plant across all dimensions is {934.83}"
+        },
+        {
+            "Q": "What is the minimum value of label Vasquez, Smith and Harris  Power Plant across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Vasquez, Smith and Harris  Power Plant across all dimensions is {0.1}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Downtime (%)?",
+            "A": "The average value of Downtime (%) is {9.41}"
+        },
+        {
+            "Q": "What is the difference in coding Capacity factor (%) between label Wheeler, Tate and Howe  Power Plant and label Berry, Neal and Copeland  Generation Station",
+            "A": "The difference in coding Capacity factor (%) between Wheeler, Tate and Howe  Power Plant and Berry, Neal and Copeland  Generation Station is {74.4}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Maintenance cost (USD/MWh) dimension in the parallel coordinates?",
+            "A": "{[100.0, 78.92, 56.62]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Renewable percentage (%) dimension in the parallel coordinates?",
+            "A": "{[0.0, 30.86, 54.01]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Downtime (%), which label has a higher score: Vasquez, Smith and Harris  Power Plant or Olson, Spencer and Smith  Power Plant?",
+            "A": "{Olson, Spencer and Smith  Power Plant} has a higher score on Downtime (%)."
+        },
+        {
+            "Q": "On Capacity factor (%), which label has a higher score: Vasquez, Smith and Harris  Power Plant or Long-Anderson  Energy Facility?",
+            "A": "{Long-Anderson  Energy Facility} has a higher score on Capacity factor (%)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

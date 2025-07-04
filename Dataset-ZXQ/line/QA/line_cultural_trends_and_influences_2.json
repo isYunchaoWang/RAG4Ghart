@@ -1,0 +1,88 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Aura Literary Press's Book Sales levels?",
+            "A": "Aura Literary Press's Book Sales levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Book Sales levels?",
+            "A": "{Aura Literary Press}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Book Sales level recorded for Aura Literary Press?",
+            "A": "Aura Literary Press reached approximately {330566.36} copies in 1995."
+        },
+        {
+            "Q": "What is the lowest Book Sales level recorded for Aura Literary Press?",
+            "A": "Aura Literary Press's lowest recorded level is approximately {5000.00} copies in 1980."
+        },
+        {
+            "Q": "What is Aura Literary Press's Book Sales in 1970?",
+            "A": "Aura Literary Press's book sales in 1970 is {201452.94} copies."
+        },
+        {
+            "Q": "What is Aura Literary Press's Book Sales in 1970?",
+            "A": "Aura Literary Press's book sales in 1970 is {314474.07} copies."
+        },
+        {
+            "Q": "What is Aura Literary Press's Book Sales in 1970?",
+            "A": "Aura Literary Press's book sales in 1970 is {94791.44} copies."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Book Sales in the line chart?",
+            "A": "The global minimum book sales is {5000.00} copies."
+        },
+        {
+            "Q": "What is the global maximum Book Sales in the line chart?",
+            "A": "The global maximum book sales is {330566.36} copies."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aura Literary Press's Book Sales?",
+            "A": "The average value of Aura Literary Press's Book Sales is {165219.59} copies."
+        },
+        {
+            "Q": "What is the rate of change in Aura Literary Press's Book Sales from the starting year to the final year?",
+            "A": "The rate of change in Aura Literary Press's Book Sales is {0.11}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Aura Literary Press's Book Sales exceed 205951 copies? Please list the years and corresponding values.",
+            "A": "330197 copies in {1972.0} year, 314474.07 copies in {1973.0} year, 301441.71 copies in {1974.0} year."
+        },
+        {
+            "Q": "Which years did Aura Literary Press's Book Sales below 105129 copies? Please list the years and corresponding values.",
+            "A": "83578.38 copies in {1977.0} year, 63948.17 copies in {1978.0} year, 5000 copies in {1980.0} year."
+        },
+        {
+            "Q": "Which years did Aura Literary Press's Book Sales between 139986 and 171094 copies? Please list the years and corresponding values.",
+            "A": "156405.83 copies in {1976.0} year, 156300.42 copies in {1979.0} year, 147693.20 copies in {1983.0} year."
+        },
+        {
+            "Q": "In the year 1995, which lines had Book Sales between 297510 and 363623 copies? Please list the lines and corresponding values.",
+            "A": "{Aura Literary Press} had 330566 copies."
+        }
+    ],
+    "NC": [],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,7 @@
+Human Resources and Employee Management,Employee Satisfaction,%
+Year,Management Team,Human Resources,Sales Team,Engineering Department,Operations Staff
+trend,bimodal_valley,stable_falling,periodic_stable,volatile_rising,bimodal_peak
+2013,0.7,69.63,69.46,69.12,100
+2014,0.7,80.12,87.23,80.8,100
+2015,0.7,77.96,82.25,78.09,100
+2016,0.7,76.79,55.92,85.2,100

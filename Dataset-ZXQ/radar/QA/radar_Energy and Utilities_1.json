@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Power Transmission and Distribution Loss Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Bowers, Leon and Hayes?",
+            "A": "The strongest aspect is {Power Transmission and Distribution Loss Rate}, while the weakest aspect is{ Revenue Growth Rate}."
+        },
+        {
+            "Q": "On dimension Energy Conversion Efficiency, which label scores the highest?",
+            "A": "On Energy Conversion Efficiency, label {Short-Bell} scores the highest."
+        },
+        {
+            "Q": "On dimension Revenue Growth Rate, which label scores the highest?",
+            "A": "On Revenue Growth Rate, label {Bowers, Leon and Hayes} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Bowers, Leon and Hayes on the Energy Conversion Efficiency in the radar chart?",
+            "A": "The value of Bowers, Leon and Hayes on the Safety dimension is {45}."
+        },
+        {
+            "Q": "What is the value of Thompson-Graham on the Renewable Energy Investment Ratio in the radar chart?",
+            "A": "The value of Thompson-Graham on the Safety dimension is {72}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Thompson-Graham across all dimensions in the radar chart?",
+            "A": "The maximum value of Thompson-Graham across all dimensions is {91}."
+        },
+        {
+            "Q": "What is the minimum value of label Thompson-Graham across all dimensions in the radar chart?",
+            "A": "The minimum value of Thompson-Graham across all dimensions is {72}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Power Transmission and Distribution Loss Rate}",
+            "A": "The average value of {Power Transmission and Distribution Loss Rate} is {85.67}."
+        },
+        {
+            "Q": "What is the average value of {Thompson-Graham}",
+            "A": "The average value of {Thompson-Graham} is {59.83}."
+        },
+        {
+            "Q": "What is the difference in Market Share between Thompson-Graham and Bowers, Leon and Hayes?",
+            "A": "The difference in {Market Share} between Thompson-Graham and Bowers, Leon and Hayes is {17}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Short-Bell in the radar chart, which dimensions have scores between 38 and 65? Please list the dimensions and corresponding scores.",
+            "A": "None is between 38 and 65"
+        },
+        {
+            "Q": "Which labels have scores above 91 for the Power Transmission and Distribution Loss Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Short-Bell} is {96}, {Bowers, Leon and Hayes} is {91}"
+        },
+        {
+            "Q": "Which labels have scores below 53 for the Renewable Energy Investment Ratio dimension? Please list the labels and corresponding scores.",
+            "A": "{Bowers, Leon and Hayes} is {46}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Short-Bell, which dimension has a higher score: Power Transmission and Distribution Loss Rate or Energy Conversion Efficiency?",
+            "A": "{Power Transmission and Distribution Loss Rate} has a higher score than Energy Conversion Efficiency for Short-Bell."
+        },
+        {
+            "Q": "For Short-Bell, which dimension has a higher score: Patent Growth Rate or Market Share?",
+            "A": "{Market Share} has a higher score than Patent Growth Rate for Short-Bell."
+        },
+        {
+            "Q": "On Renewable Energy Investment Ratio, which label has a higher score: Thompson-Graham or the Short-Bell?",
+            "A": "{Short-Bell} has a higher score on Renewable Energy Investment Ratio compared to Thompson-Graham."
+        },
+        {
+            "Q": "For Thompson-Graham, which dimension has a higher score: Power Transmission and Distribution Loss Rate or Renewable Energy Investment Ratio or Market Share?",
+            "A": "{Market Share} has a higher score for Thompson-Graham."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

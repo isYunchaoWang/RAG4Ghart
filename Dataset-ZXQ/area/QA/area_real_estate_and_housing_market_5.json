@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total housing affordability index?",
+            "A": "The series with the largest contribution is {Silverwood Forest}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total housing affordability index?",
+            "A": "The series with the smallest contribution is {Crimson Peaks}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Azure Coast's Housing Affordability Index in 2011?",
+            "A": "Azure Coast's housing affordability index in 2011 is {126.07} index."
+        },
+        {
+            "Q": "What is Sunstone Desert's Housing Affordability Index in 1997?",
+            "A": "Sunstone Desert's housing affordability index in 1997 is {112.38} index."
+        },
+        {
+            "Q": "What is Silverwood Forest's Housing Affordability Index in 2017?",
+            "A": "Silverwood Forest's housing affordability index in 2017 is {273.72} index."
+        },
+        {
+            "Q": "What are the housing affordability index of Sunstone Desert, Azure Coast, and Crimson Peaks in 2002?",
+            "A": "Sunstone Desert's housing affordability index is {114.03} index, Azure Coast's housing affordability index is {113.59} index, Crimson Peaks's housing affordability index is {58.82} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Housing Affordability Index in the stacked area chart?",
+            "A": "The global minimum total housing affordability index is {609.74} index."
+        },
+        {
+            "Q": "What is the global maximum total Housing Affordability Index in the stacked area chart?",
+            "A": "The global maximum total housing affordability index is {928.77} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Sunstone Desert's Housing Affordability Index area?",
+            "A": "The average height of Sunstone Desert's housing affordability index area is {101.61} index."
+        },
+        {
+            "Q": "What is the average height of Shadowfen's Housing Affordability Index area?",
+            "A": "The average height of Shadowfen's housing affordability index area is {154.71} index."
+        },
+        {
+            "Q": "What is the average height of Silverwood Forest's Housing Affordability Index area?",
+            "A": "The average height of Silverwood Forest's housing affordability index area is {189.40} index."
+        },
+        {
+            "Q": "What is the average height of Veridian Plains's Housing Affordability Index area?",
+            "A": "The average height of Veridian Plains's housing affordability index area is {155.19} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Housing Affordability Index exceed 786 index? Please list the years and corresponding total values.",
+            "A": "total value was {909.66} index in {2016}, total value was {928.77} index in {2017}, total value was {845.23} index in {2011}."
+        },
+        {
+            "Q": "Which years did the total Housing Affordability Index go below 680 index? Please list the years and corresponding total values.",
+            "A": "total value was {648.31} index in {2000}, total value was {617.26} index in {1995}, total value was {675.91} index in {2004}."
+        },
+        {
+            "Q": "Which years did the total Housing Affordability Index fall between 696 and 770 index? Please list the years and corresponding total values.",
+            "A": "total value was {719.45} index in {2009}, total value was {754.03} index in {2005}, total value was {711.36} index in {2001}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Housing Affordability Index in 1996 higher or lower than in 2006?",
+            "A": "The total housing affordability index in {1996} was {lower} than in {2006}."
+        },
+        {
+            "Q": "Was the total Housing Affordability Index in 2010 higher or lower than in 2017?",
+            "A": "The total housing affordability index in {2010} was {lower} than in {2017}."
+        },
+        {
+            "Q": "Between 1999 and 2001, was the average total Housing Affordability Index higher or lower than between 2009 and 2010?",
+            "A": "The average total housing affordability index between {1999} and {2001} was {lower} than between {2009} and {2010}."
+        },
+        {
+            "Q": "Was the total Housing Affordability Index in 2002 higher or lower than in 2015?",
+            "A": "The total housing affordability index in {2002} was {lower} than in {2015}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

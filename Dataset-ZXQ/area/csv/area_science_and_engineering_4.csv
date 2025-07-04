@@ -1,0 +1,13 @@
+Science and Engineering,Technology Adoption Rate,%
+Year,Working Professionals,Elderly Population,Young Adults,Urban Dwellers,Families,Rural Communities
+trend,stable_rising,exponential_falling,stable_rising,stable_rising,exponential_rising,volatile_rising
+1996,21.08,20.4,18.99,19.79,19.67,19.24
+1997,19.93,17.95,20.95,21.43,22.2,20.9
+1998,22.01,16.78,20.63,21.99,25.2,25.78
+1999,25.84,15.03,24.0,24.82,26.4,27.84
+2000,23.0,13.48,25.99,21.78,27.74,25.67
+2001,26.65,14.93,27.95,23.98,31.27,23.93
+2002,26.23,9.77,26.74,25.92,37.29,29.35
+2003,29.1,9.32,25.45,25.69,39.45,30.43
+2004,30.66,8.84,30.97,26.0,43.64,37.15
+2005,28.72,4.17,26.27,29.62,49.48,34.85

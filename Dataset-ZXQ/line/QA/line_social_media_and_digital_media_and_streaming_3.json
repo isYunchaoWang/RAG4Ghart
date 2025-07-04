@@ -1,0 +1,241 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of NovaStream's Subscription Revenue levels?",
+            "A": "NovaStream's Subscription Revenue levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of OracleFeed's Subscription Revenue levels?",
+            "A": "OracleFeed's Subscription Revenue levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of AetherNet's Subscription Revenue levels?",
+            "A": "AetherNet's Subscription Revenue levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Luminara's Subscription Revenue levels?",
+            "A": "Luminara's Subscription Revenue levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Starburst Online's Subscription Revenue levels?",
+            "A": "Starburst Online's Subscription Revenue levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of EchoWave's Subscription Revenue levels?",
+            "A": "EchoWave's Subscription Revenue levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of CrimsonLink's Subscription Revenue levels?",
+            "A": "CrimsonLink's Subscription Revenue levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Subscription Revenue levels?",
+            "A": "{NovaStream}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Subscription Revenue levels?",
+            "A": "{OracleFeed}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Subscription Revenue levels?",
+            "A": "{AetherNet}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Subscription Revenue levels?",
+            "A": "{Luminara}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Subscription Revenue levels?",
+            "A": "{EchoWave}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for AetherNet?",
+            "A": "AetherNet reached approximately {331055879.06} $ in 1977."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for AetherNet?",
+            "A": "AetherNet's lowest recorded level is approximately {142286653.06} $ in 1971."
+        },
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink reached approximately {462020341.19} $ in 1978."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink's lowest recorded level is approximately {269030363.54} $ in 1971."
+        },
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for EchoWave?",
+            "A": "EchoWave reached approximately {217148658.64} $ in 1973."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for EchoWave?",
+            "A": "EchoWave's lowest recorded level is approximately {7557923.28} $ in 1986."
+        },
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for Luminara?",
+            "A": "Luminara reached approximately {183491681.07} $ in 1987."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for Luminara?",
+            "A": "Luminara's lowest recorded level is approximately {25739485.71} $ in 1977."
+        },
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for NovaStream?",
+            "A": "NovaStream reached approximately {442530317.70} $ in 1977."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for NovaStream?",
+            "A": "NovaStream's lowest recorded level is approximately {233230025.11} $ in 1984."
+        },
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for OracleFeed?",
+            "A": "OracleFeed reached approximately {447580069.80} $ in 1982."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for OracleFeed?",
+            "A": "OracleFeed's lowest recorded level is approximately {264710626.23} $ in 1972."
+        },
+        {
+            "Q": "What is the highest Subscription Revenue level recorded for Starburst Online?",
+            "A": "Starburst Online reached approximately {191840841.27} $ in 1973."
+        },
+        {
+            "Q": "What is the lowest Subscription Revenue level recorded for Starburst Online?",
+            "A": "Starburst Online's lowest recorded level is approximately {2000000.00} $ in 1978."
+        },
+        {
+            "Q": "What is Luminara's Subscription Revenue in 1970?",
+            "A": "Luminara's subscription revenue in 1970 is {55833915.98} $."
+        },
+        {
+            "Q": "What is NovaStream's Subscription Revenue in 1970?",
+            "A": "NovaStream's subscription revenue in 1970 is {354817683.32} $."
+        },
+        {
+            "Q": "What is Starburst Online's Subscription Revenue in 1970?",
+            "A": "Starburst Online's subscription revenue in 1970 is {133291714.00} $."
+        },
+        {
+            "Q": "What are the subscription revenue of NovaStream, OracleFeed, and AetherNet in 1970?",
+            "A": "{NovaStream}'s subscription revenue is {270735183.92} $, {OracleFeed}'s subscription revenue is {357320049.80} $, {AetherNet}'s subscription revenue is {142286653.06} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Subscription Revenue in the line chart?",
+            "A": "The global minimum subscription revenue is {2000000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Subscription Revenue in the line chart?",
+            "A": "The global maximum subscription revenue is {462020341.19} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AetherNet's Subscription Revenue?",
+            "A": "The average value of AetherNet's Subscription Revenue is {239709819.11} $."
+        },
+        {
+            "Q": "What is the average value of CrimsonLink's Subscription Revenue?",
+            "A": "The average value of CrimsonLink's Subscription Revenue is {369591180.44} $."
+        },
+        {
+            "Q": "What is the average value of EchoWave's Subscription Revenue?",
+            "A": "The average value of EchoWave's Subscription Revenue is {106734784.10} $."
+        },
+        {
+            "Q": "What is the average value of Luminara's Subscription Revenue?",
+            "A": "The average value of Luminara's Subscription Revenue is {92230919.56} $."
+        },
+        {
+            "Q": "What is the average value of NovaStream's Subscription Revenue?",
+            "A": "The average value of NovaStream's Subscription Revenue is {314345200.36} $."
+        },
+        {
+            "Q": "What is the average value of OracleFeed's Subscription Revenue?",
+            "A": "The average value of OracleFeed's Subscription Revenue is {373242867.83} $."
+        },
+        {
+            "Q": "What is the average value of Starburst Online's Subscription Revenue?",
+            "A": "The average value of Starburst Online's Subscription Revenue is {112345696.35} $."
+        },
+        {
+            "Q": "What is the rate of change in AetherNet's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in AetherNet's Subscription Revenue is {111.11}%."
+        },
+        {
+            "Q": "What is the rate of change in CrimsonLink's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in CrimsonLink's Subscription Revenue is {18.66}%."
+        },
+        {
+            "Q": "What is the rate of change in EchoWave's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in EchoWave's Subscription Revenue is {-92.51}%."
+        },
+        {
+            "Q": "What is the rate of change in Luminara's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in Luminara's Subscription Revenue is {8.24}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaStream's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in NovaStream's Subscription Revenue is {-2.34}%."
+        },
+        {
+            "Q": "What is the rate of change in OracleFeed's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in OracleFeed's Subscription Revenue is {-10.08}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst Online's Subscription Revenue from the starting year to the final year?",
+            "A": "The rate of change in Starburst Online's Subscription Revenue is {-19.84}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did NovaStream's Subscription Revenue exceed 353624856 $? Please list the years and corresponding values.",
+            "A": "442530317.70 $ in {1977.0} year, 364246483.78 $ in {1979.0} year, 375270709.42 $ in {1981.0} year."
+        },
+        {
+            "Q": "Which years did NovaStream's Subscription Revenue below 277834804 $? Please list the years and corresponding values.",
+            "A": "270735183.92 $ in {1971.0} year, 233230025.11 $ in {1984.0} year, 271736458.16 $ in {1985.0} year."
+        },
+        {
+            "Q": "Which years did NovaStream's Subscription Revenue between 284156847 and 347302813 $? Please list the years and corresponding values.",
+            "A": "342011031.78 $ in {1973.0} year, 315677820.26 $ in {1978.0} year, 317686053.07 $ in {1980.0} year."
+        },
+        {
+            "Q": "In the year 1984, which line had Subscription Revenue exceed 326632047 $? Please list the lines and corresponding values.",
+            "A": "{OracleFeed} had 359614632 $, {CrimsonLink} had 427007368 $."
+        },
+        {
+            "Q": "In the year 1984, which lines had Subscription Revenue below 149316258 $? Please list the lines and corresponding values.",
+            "A": "{Luminara} had 83324083 $, {EchoWave} had 88296566 $."
+        },
+        {
+            "Q": "In the year 1984, which lines had Subscription Revenue between 214176737 and 261771568 $? Please list the lines and corresponding values.",
+            "A": "{NovaStream} had 233230025 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Subscription Revenue, Luminara, CrimsonLink, or AetherNet?",
+            "A": "In 1970, {CrimsonLink} had the highest subscription revenue."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,77 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Total transit time (hours)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Idling time (minutes) and dimension Max speed (km/h)",
+            "A": "There is {Weak Correlation} between Idling time (minutes) and Max speed (km/h)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of way train on the Route deviation rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of way train on the Route deviation rate (%) dimension is {16.64}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label way train across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of way train across all dimensions is {120.0}"
+        },
+        {
+            "Q": "What is the minimum value of label middle Ferry across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of middle Ferry across all dimensions is {20.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Idling time (minutes)?",
+            "A": "The average value of Idling time (minutes) is {37.39}"
+        },
+        {
+            "Q": "What is the difference in coding Idling time (minutes) between label way train and label paper Cargo ship",
+            "A": "The difference in coding Idling time (minutes) between way train and paper Cargo ship is {15.64}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Idling time (minutes) dimension in the parallel coordinates?",
+            "A": "{[60.0, 52.72, 48.44]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Idling time (minutes) dimension in the parallel coordinates?",
+            "A": "{[5.0, 13.83, 44.36]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Max speed (km/h), which label has a higher score: paper Cargo ship or way train?",
+            "A": "{way train} has a higher score on Max speed (km/h)."
+        },
+        {
+            "Q": "On Route deviation rate (%), which label has a higher score: low Cargo ship or heavy ship?",
+            "A": "{low Cargo ship} has a higher score on Route deviation rate (%)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

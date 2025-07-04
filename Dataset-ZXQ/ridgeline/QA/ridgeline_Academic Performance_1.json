@@ -1,0 +1,67 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {5} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Arts show?",
+            "A": "The ridgeline representing Arts shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Physical Education reach its peaks?",
+            "A": "At {48.28}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Arts} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =0.2?",
+            "A": "At X =0.2,the label with the highest density is {Arts}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 34? Please list the countries and corresponding peak values.",
+            "A": "{STEM Subjects}'s peak at {82},{Language Courses}'s peak at {77},{Physical Education}'s peak at {48}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 41? Please list the countries and corresponding peak values.",
+            "A": "{Arts}'s peak at {12},{Humanities}'s peak at {13}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Language Courses or STEM Subjects?",
+            "A": "{STEM Subjects} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Humanities or Language Courses?",
+            "A": "{Language Courses} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Humanities or STEM Subjects?",
+            "A": "{STEM Subjects} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Physical Education or STEM Subjects?",
+            "A": "{STEM Subjects} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

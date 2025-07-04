@@ -1,0 +1,85 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {3} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Recovery time (hours)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Performance rating (1-10) and dimension Recovery time (hours)",
+            "A": "There is {No Correlation} between Performance rating (1-10) and Recovery time (hours)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Jennifer May on the Performance rating (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of Jennifer May on the Performance rating (1-10) dimension is {10.0}"
+        },
+        {
+            "Q": "What is the value of Kayla Marshall on the Performance rating (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of Kayla Marshall on the Performance rating (1-10) dimension is {6.72}"
+        },
+        {
+            "Q": "What is the value of Yvette Hawkins on the Performance rating (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of Yvette Hawkins on the Performance rating (1-10) dimension is {4.85}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Lori White across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Lori White across all dimensions is {72.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Jennifer May across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Jennifer May across all dimensions is {10.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Recovery time (hours)?",
+            "A": "The average value of Recovery time (hours) is {46.97}"
+        },
+        {
+            "Q": "What is the difference in coding Accuracy (%) between label Lori White and label Jennifer May",
+            "A": "The difference in coding Accuracy (%) between Lori White and Jennifer May is {4.79}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Performance rating (1-10) dimension in the parallel coordinates?",
+            "A": "{[10.0, 7.37, 6.72]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Recovery time (hours) dimension in the parallel coordinates?",
+            "A": "{[12.0, 25.89, 41.79]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Accuracy (%), which label has a higher score: Yvette Hawkins or Kayla Marshall?",
+            "A": "{Kayla Marshall} has a higher score on Accuracy (%)."
+        },
+        {
+            "Q": "On Performance rating (1-10), which label has a higher score: Kyle Ho or Yvette Hawkins?",
+            "A": "{Kyle Ho} has a higher score on Performance rating (1-10)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

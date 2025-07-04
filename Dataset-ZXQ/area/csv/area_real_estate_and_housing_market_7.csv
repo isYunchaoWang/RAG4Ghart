@@ -1,0 +1,12 @@
+Real Estate and Housing Market,Vacancy Rate,%
+Year,Willow Creek Estates,Ironpeak Residences,Oceanview Condos,Crystal Cove Villas,Green Valley Homes
+trend,volatile_rising,exponential_falling,stable_falling,periodic_stable,periodic_stable
+2010,5.0,5.14,5.11,4.96,4.91
+2011,5.45,4.46,4.92,6.21,6.24
+2012,6.48,4.16,5.21,5.9,5.73
+2013,6.12,3.66,5.46,4.1,4.42
+2014,6.26,3.18,5.49,3.89,3.93
+2015,6.89,2.65,5.8,5.02,4.94
+2016,7.27,2.87,5.64,6.12,6.06
+2017,7.98,2.41,6.15,5.71,5.79
+2018,7.98,2.3,6.34,4.25,4.23

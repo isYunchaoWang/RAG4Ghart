@@ -1,0 +1,189 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Beachfront Villas's Average Room Price levels?",
+            "A": "Beachfront Villas's Average Room Price levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Treehouse Retreats's Average Room Price levels?",
+            "A": "Treehouse Retreats's Average Room Price levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of City Center Hotels's Average Room Price levels?",
+            "A": "City Center Hotels's Average Room Price levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Glamping Sites's Average Room Price levels?",
+            "A": "Glamping Sites's Average Room Price levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Ski Lodges's Average Room Price levels?",
+            "A": "Ski Lodges's Average Room Price levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Average Room Price levels?",
+            "A": "{Beachfront Villas}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Average Room Price levels?",
+            "A": "{Treehouse Retreats}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Average Room Price levels?",
+            "A": "{City Center Hotels}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Average Room Price levels?",
+            "A": "{Ski Lodges}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Average Room Price level recorded for Beachfront Villas?",
+            "A": "Beachfront Villas reached approximately {332.76} $ in 2019."
+        },
+        {
+            "Q": "What is the lowest Average Room Price level recorded for Beachfront Villas?",
+            "A": "Beachfront Villas's lowest recorded level is approximately {188.83} $ in 2009."
+        },
+        {
+            "Q": "What is the highest Average Room Price level recorded for City Center Hotels?",
+            "A": "City Center Hotels reached approximately {204.20} $ in 2011."
+        },
+        {
+            "Q": "What is the lowest Average Room Price level recorded for City Center Hotels?",
+            "A": "City Center Hotels's lowest recorded level is approximately {11.98} $ in 2020."
+        },
+        {
+            "Q": "What is the highest Average Room Price level recorded for Glamping Sites?",
+            "A": "Glamping Sites reached approximately {241.77} $ in 2009."
+        },
+        {
+            "Q": "What is the lowest Average Room Price level recorded for Glamping Sites?",
+            "A": "Glamping Sites's lowest recorded level is approximately {41.11} $ in 2020."
+        },
+        {
+            "Q": "What is the highest Average Room Price level recorded for Ski Lodges?",
+            "A": "Ski Lodges reached approximately {368.22} $ in 2012."
+        },
+        {
+            "Q": "What is the lowest Average Room Price level recorded for Ski Lodges?",
+            "A": "Ski Lodges's lowest recorded level is approximately {275.57} $ in 2008."
+        },
+        {
+            "Q": "What is the highest Average Room Price level recorded for Treehouse Retreats?",
+            "A": "Treehouse Retreats reached approximately {439.37} $ in 2020."
+        },
+        {
+            "Q": "What is the lowest Average Room Price level recorded for Treehouse Retreats?",
+            "A": "Treehouse Retreats's lowest recorded level is approximately {177.71} $ in 2010."
+        },
+        {
+            "Q": "What is Glamping Sites's Average Room Price in 1970?",
+            "A": "Glamping Sites's average room price in 1970 is {127.18} $."
+        },
+        {
+            "Q": "What is Glamping Sites's Average Room Price in 1970?",
+            "A": "Glamping Sites's average room price in 1970 is {41.11} $."
+        },
+        {
+            "Q": "What is Treehouse Retreats's Average Room Price in 1970?",
+            "A": "Treehouse Retreats's average room price in 1970 is {439.37} $."
+        },
+        {
+            "Q": "What are the average room price of Beachfront Villas, Treehouse Retreats, and City Center Hotels in 1970?",
+            "A": "{Beachfront Villas}'s average room price is {206.14} $, {Treehouse Retreats}'s average room price is {180.91} $, {City Center Hotels}'s average room price is {203.25} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Average Room Price in the line chart?",
+            "A": "The global minimum average room price is {11.98} $."
+        },
+        {
+            "Q": "What is the global maximum Average Room Price in the line chart?",
+            "A": "The global maximum average room price is {439.37} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Beachfront Villas's Average Room Price?",
+            "A": "The average value of Beachfront Villas's Average Room Price is {260.34} $."
+        },
+        {
+            "Q": "What is the average value of City Center Hotels's Average Room Price?",
+            "A": "The average value of City Center Hotels's Average Room Price is {118.10} $."
+        },
+        {
+            "Q": "What is the average value of Glamping Sites's Average Room Price?",
+            "A": "The average value of Glamping Sites's Average Room Price is {137.69} $."
+        },
+        {
+            "Q": "What is the average value of Ski Lodges's Average Room Price?",
+            "A": "The average value of Ski Lodges's Average Room Price is {321.94} $."
+        },
+        {
+            "Q": "What is the average value of Treehouse Retreats's Average Room Price?",
+            "A": "The average value of Treehouse Retreats's Average Room Price is {308.93} $."
+        },
+        {
+            "Q": "What is the rate of change in Beachfront Villas's Average Room Price from the starting year to the final year?",
+            "A": "The rate of change in Beachfront Villas's Average Room Price is {60.46}%."
+        },
+        {
+            "Q": "What is the rate of change in City Center Hotels's Average Room Price from the starting year to the final year?",
+            "A": "The rate of change in City Center Hotels's Average Room Price is {-94.11}%."
+        },
+        {
+            "Q": "What is the rate of change in Glamping Sites's Average Room Price from the starting year to the final year?",
+            "A": "The rate of change in Glamping Sites's Average Room Price is {-77.33}%."
+        },
+        {
+            "Q": "What is the rate of change in Ski Lodges's Average Room Price from the starting year to the final year?",
+            "A": "The rate of change in Ski Lodges's Average Room Price is {2.07}%."
+        },
+        {
+            "Q": "What is the rate of change in Treehouse Retreats's Average Room Price from the starting year to the final year?",
+            "A": "The rate of change in Treehouse Retreats's Average Room Price is {142.87}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did City Center Hotels's Average Room Price exceed 155 $? Please list the years and corresponding values.",
+            "A": "203.25 $ in {2008.0} year, 162.23 $ in {2009.0} year, 160.08 $ in {2010.0} year."
+        },
+        {
+            "Q": "Which years did City Center Hotels's Average Room Price below 69 $? Please list the years and corresponding values.",
+            "A": "61.32 $ in {2016.0} year, 36.33 $ in {2017.0} year, 64.60 $ in {2018.0} year."
+        },
+        {
+            "Q": "In the year 2019, which line had Average Room Price exceed 329 $? Please list the lines and corresponding values.",
+            "A": "{Beachfront Villas} had 333 $, {Treehouse Retreats} had 373 $."
+        },
+        {
+            "Q": "In the year 2019, which lines had Average Room Price below 162 $? Please list the lines and corresponding values.",
+            "A": "{City Center Hotels} had 72 $, {Glamping Sites} had 124 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Average Room Price, Ski Lodges or Treehouse Retreats?",
+            "A": "In 1970, {Ski Lodges} had a higher average room price."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

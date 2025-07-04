@@ -1,0 +1,145 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Verdant Ventures's Turnover Rate levels?",
+            "A": "Verdant Ventures's Turnover Rate levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Lumina Solutions's Turnover Rate levels?",
+            "A": "Lumina Solutions's Turnover Rate levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Skyward Systems's Turnover Rate levels?",
+            "A": "Skyward Systems's Turnover Rate levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Turnover Rate levels?",
+            "A": "{Verdant Ventures}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Turnover Rate levels?",
+            "A": "{Lumina Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Turnover Rate level recorded for Lumina Solutions?",
+            "A": "Lumina Solutions reached approximately {21.66} % in 2016."
+        },
+        {
+            "Q": "What is the lowest Turnover Rate level recorded for Lumina Solutions?",
+            "A": "Lumina Solutions's lowest recorded level is approximately {14.10} % in 2008."
+        },
+        {
+            "Q": "What is the highest Turnover Rate level recorded for Skyward Systems?",
+            "A": "Skyward Systems reached approximately {15.63} % in 2009."
+        },
+        {
+            "Q": "What is the lowest Turnover Rate level recorded for Skyward Systems?",
+            "A": "Skyward Systems's lowest recorded level is approximately {5.74} % in 2015."
+        },
+        {
+            "Q": "What is the highest Turnover Rate level recorded for Verdant Ventures?",
+            "A": "Verdant Ventures reached approximately {14.97} % in 2008."
+        },
+        {
+            "Q": "What is the lowest Turnover Rate level recorded for Verdant Ventures?",
+            "A": "Verdant Ventures's lowest recorded level is approximately {6.35} % in 2016."
+        },
+        {
+            "Q": "What is Lumina Solutions's Turnover Rate in 1970?",
+            "A": "Lumina Solutions's turnover rate in 1970 is {15.36} %."
+        },
+        {
+            "Q": "What is Verdant Ventures's Turnover Rate in 1970?",
+            "A": "Verdant Ventures's turnover rate in 1970 is {10.45} %."
+        },
+        {
+            "Q": "What is Verdant Ventures's Turnover Rate in 1970?",
+            "A": "Verdant Ventures's turnover rate in 1970 is {9.81} %."
+        },
+        {
+            "Q": "What are the turnover rate of Verdant Ventures, Lumina Solutions, and Skyward Systems in 1970?",
+            "A": "{Verdant Ventures}'s turnover rate is {14.97} %, {Lumina Solutions}'s turnover rate is {14.10} %, {Skyward Systems}'s turnover rate is {14.35} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Turnover Rate in the line chart?",
+            "A": "The global minimum turnover rate is {5.74} %."
+        },
+        {
+            "Q": "What is the global maximum Turnover Rate in the line chart?",
+            "A": "The global maximum turnover rate is {21.66} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Lumina Solutions's Turnover Rate?",
+            "A": "The average value of Lumina Solutions's Turnover Rate is {16.93} %."
+        },
+        {
+            "Q": "What is the average value of Skyward Systems's Turnover Rate?",
+            "A": "The average value of Skyward Systems's Turnover Rate is {10.55} %."
+        },
+        {
+            "Q": "What is the average value of Verdant Ventures's Turnover Rate?",
+            "A": "The average value of Verdant Ventures's Turnover Rate is {10.21} %."
+        },
+        {
+            "Q": "What is the rate of change in Lumina Solutions's Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in Lumina Solutions's Turnover Rate is {53.62}%."
+        },
+        {
+            "Q": "What is the rate of change in Skyward Systems's Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in Skyward Systems's Turnover Rate is {-36.24}%."
+        },
+        {
+            "Q": "What is the rate of change in Verdant Ventures's Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in Verdant Ventures's Turnover Rate is {-57.58}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Lumina Solutions's Turnover Rate exceed 18 %? Please list the years and corresponding values.",
+            "A": "18.12 % in {2013.0} year, 19.06 % in {2014.0} year, 21.66 % in {2016.0} year."
+        },
+        {
+            "Q": "Which years did Lumina Solutions's Turnover Rate below 16 %? Please list the years and corresponding values.",
+            "A": "14.10 % in {2008.0} year, 15.36 % in {2009.0} year, 14.34 % in {2011.0} year."
+        },
+        {
+            "Q": "Which years did Lumina Solutions's Turnover Rate between 15 and 18 %? Please list the years and corresponding values.",
+            "A": "15.36 % in {2009.0} year, 17.48 % in {2010.0} year, 16.31 % in {2012.0} year."
+        },
+        {
+            "Q": "In the year 2015, which line had Turnover Rate exceed 11 %? Please list the lines and corresponding values.",
+            "A": "{Lumina Solutions} had 16 %."
+        },
+        {
+            "Q": "In the year 2015, which lines had Turnover Rate below 7 %? Please list the lines and corresponding values.",
+            "A": "{Skyward Systems} had 6 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Turnover Rate, Verdant Ventures, Lumina Solutions, or Skyward Systems?",
+            "A": "In 1970, {Verdant Ventures} had the highest turnover rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,201 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Regional Carriers's Flight Bookings levels?",
+            "A": "Regional Carriers's Flight Bookings levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Last-Minute Deals's Flight Bookings levels?",
+            "A": "Last-Minute Deals's Flight Bookings levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of EcoFly's Flight Bookings levels?",
+            "A": "EcoFly's Flight Bookings levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Charter Flights's Flight Bookings levels?",
+            "A": "Charter Flights's Flight Bookings levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Global Wings's Flight Bookings levels?",
+            "A": "Global Wings's Flight Bookings levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Flight Bookings levels?",
+            "A": "{Regional Carriers}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Flight Bookings levels?",
+            "A": "{Last-Minute Deals}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Flight Bookings levels?",
+            "A": "{EcoFly}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Flight Bookings levels?",
+            "A": "{Charter Flights}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Flight Bookings levels?",
+            "A": "{Global Wings}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Flight Bookings level recorded for Charter Flights?",
+            "A": "Charter Flights reached approximately {231628.35} bookings/month in 1974."
+        },
+        {
+            "Q": "What is the lowest Flight Bookings level recorded for Charter Flights?",
+            "A": "Charter Flights's lowest recorded level is approximately {95638.70} bookings/month in 1969."
+        },
+        {
+            "Q": "What is the highest Flight Bookings level recorded for EcoFly?",
+            "A": "EcoFly reached approximately {301872.85} bookings/month in 1970."
+        },
+        {
+            "Q": "What is the lowest Flight Bookings level recorded for EcoFly?",
+            "A": "EcoFly's lowest recorded level is approximately {41303.82} bookings/month in 1966."
+        },
+        {
+            "Q": "What is the highest Flight Bookings level recorded for Global Wings?",
+            "A": "Global Wings reached approximately {167820.68} bookings/month in 1969."
+        },
+        {
+            "Q": "What is the lowest Flight Bookings level recorded for Global Wings?",
+            "A": "Global Wings's lowest recorded level is approximately {1500.00} bookings/month in 1975."
+        },
+        {
+            "Q": "What is the highest Flight Bookings level recorded for Last-Minute Deals?",
+            "A": "Last-Minute Deals reached approximately {212049.33} bookings/month in 1967."
+        },
+        {
+            "Q": "What is the lowest Flight Bookings level recorded for Last-Minute Deals?",
+            "A": "Last-Minute Deals's lowest recorded level is approximately {117498.96} bookings/month in 1975."
+        },
+        {
+            "Q": "What is the highest Flight Bookings level recorded for Regional Carriers?",
+            "A": "Regional Carriers reached approximately {217941.18} bookings/month in 1968."
+        },
+        {
+            "Q": "What is the lowest Flight Bookings level recorded for Regional Carriers?",
+            "A": "Regional Carriers's lowest recorded level is approximately {35628.97} bookings/month in 1975."
+        },
+        {
+            "Q": "What is EcoFly's Flight Bookings in 1970?",
+            "A": "EcoFly's flight bookings in 1970 is {236708.10} bookings/month."
+        },
+        {
+            "Q": "What is Last-Minute Deals's Flight Bookings in 1970?",
+            "A": "Last-Minute Deals's flight bookings in 1970 is {178854.00} bookings/month."
+        },
+        {
+            "Q": "What is Regional Carriers's Flight Bookings in 1970?",
+            "A": "Regional Carriers's flight bookings in 1970 is {146461.17} bookings/month."
+        },
+        {
+            "Q": "What are the flight bookings of Regional Carriers, Last-Minute Deals, and EcoFly in 1970?",
+            "A": "{Regional Carriers}'s flight bookings is {146461.17} bookings/month, {Last-Minute Deals}'s flight bookings is {130059.55} bookings/month, {EcoFly}'s flight bookings is {41303.82} bookings/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Flight Bookings in the line chart?",
+            "A": "The global minimum flight bookings is {1500.00} bookings/month."
+        },
+        {
+            "Q": "What is the global maximum Flight Bookings in the line chart?",
+            "A": "The global maximum flight bookings is {301872.85} bookings/month."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Charter Flights's Flight Bookings?",
+            "A": "The average value of Charter Flights's Flight Bookings is {172108.42} bookings/month."
+        },
+        {
+            "Q": "What is the average value of EcoFly's Flight Bookings?",
+            "A": "The average value of EcoFly's Flight Bookings is {213397.85} bookings/month."
+        },
+        {
+            "Q": "What is the average value of Global Wings's Flight Bookings?",
+            "A": "The average value of Global Wings's Flight Bookings is {94823.80} bookings/month."
+        },
+        {
+            "Q": "What is the average value of Last-Minute Deals's Flight Bookings?",
+            "A": "The average value of Last-Minute Deals's Flight Bookings is {154991.41} bookings/month."
+        },
+        {
+            "Q": "What is the average value of Regional Carriers's Flight Bookings?",
+            "A": "The average value of Regional Carriers's Flight Bookings is {109022.33} bookings/month."
+        },
+        {
+            "Q": "What is the rate of change in Charter Flights's Flight Bookings from the starting year to the final year?",
+            "A": "The rate of change in Charter Flights's Flight Bookings is {3.27}%."
+        },
+        {
+            "Q": "What is the rate of change in EcoFly's Flight Bookings from the starting year to the final year?",
+            "A": "The rate of change in EcoFly's Flight Bookings is {473.64}%."
+        },
+        {
+            "Q": "What is the rate of change in Global Wings's Flight Bookings from the starting year to the final year?",
+            "A": "The rate of change in Global Wings's Flight Bookings is {-98.99}%."
+        },
+        {
+            "Q": "What is the rate of change in Last-Minute Deals's Flight Bookings from the starting year to the final year?",
+            "A": "The rate of change in Last-Minute Deals's Flight Bookings is {-9.66}%."
+        },
+        {
+            "Q": "What is the rate of change in Regional Carriers's Flight Bookings from the starting year to the final year?",
+            "A": "The rate of change in Regional Carriers's Flight Bookings is {-75.67}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Regional Carriers's Flight Bookings exceed 145942 bookings/month? Please list the years and corresponding values.",
+            "A": "146461.17 bookings/month in {1966.0} year, 217941.18 bookings/month in {1968.0} year, 157740.54 bookings/month in {1969.0} year."
+        },
+        {
+            "Q": "Which years did Regional Carriers's Flight Bookings below 65742 bookings/month? Please list the years and corresponding values.",
+            "A": "49339.98 bookings/month in {1971.0} year, 63824.51 bookings/month in {1973.0} year, 35628.97 bookings/month in {1975.0} year."
+        },
+        {
+            "Q": "Which years did Regional Carriers's Flight Bookings between 95258 and 116426 bookings/month? Please list the years and corresponding values.",
+            "A": "97605.49 bookings/month in {1970.0} year, 109397.58 bookings/month in {1972.0} year."
+        },
+        {
+            "Q": "In the year 1969, which line had Flight Bookings exceed 165805 bookings/month? Please list the lines and corresponding values.",
+            "A": "{EcoFly} had 210919 bookings/month, {Global Wings} had 167821 bookings/month."
+        },
+        {
+            "Q": "In the year 1969, which lines had Flight Bookings below 135013 bookings/month? Please list the lines and corresponding values.",
+            "A": "{Last-Minute Deals} had 129331 bookings/month, {Charter Flights} had 95639 bookings/month."
+        },
+        {
+            "Q": "In the year 1969, which lines had Flight Bookings between 135368 and 165450 bookings/month? Please list the lines and corresponding values.",
+            "A": "{Regional Carriers} had 157741 bookings/month."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Flight Bookings, Charter Flights, Regional Carriers, or EcoFly?",
+            "A": "In 1970, {Charter Flights} had the highest flight bookings."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

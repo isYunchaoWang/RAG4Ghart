@@ -1,0 +1,14 @@
+Tourism and Hospitality,Hotel Occupancy Rate,%
+Year,Luxury Resorts,Business Hotels,Airbnb Hosts,Boutique Inns
+trend,volatile_rising,stable_rising,exponential_falling,exponential_falling
+1983,61.68,93.37,64.63,10.16
+1984,90.91,90.5,79.47,57.93
+1985,35.49,78.38,67.77,79.23
+1986,34.12,86.26,73.35,77.2
+1987,84.81,86.03,76.55,60.41
+1988,100,79.69,47.32,34.96
+1989,100,89.51,24.59,63.03
+1990,98.29,100,0.75,40.22
+1991,100,95.88,41.81,37.57
+1992,100,100,29.06,6.44
+1993,100,100,42.08,16.97

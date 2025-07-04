@@ -1,0 +1,125 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Solara Sugarbeet's Fertilizer Price levels?",
+            "A": "Solara Sugarbeet's fertilizer price levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Zephyr Cotton's Fertilizer Price levels?",
+            "A": "Zephyr Cotton's fertilizer price levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of AquaBeans's Fertilizer Price levels?",
+            "A": "AquaBeans's fertilizer price levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Fertilizer Price levels?",
+            "A": "{Solara Sugarbeet}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is AquaBeans's Fertilizer Price in 1989?",
+            "A": "AquaBeans's fertilizer price in 1989 is {657.01} $/ton."
+        },
+        {
+            "Q": "What is Zephyr Cotton's Fertilizer Price in 1995?",
+            "A": "Zephyr Cotton's fertilizer price in 1995 is {487.94} $/ton."
+        },
+        {
+            "Q": "What is Zephyr Cotton's Fertilizer Price in 1991?",
+            "A": "Zephyr Cotton's fertilizer price in 1991 is {520.54} $/ton."
+        },
+        {
+            "Q": "What are the fertilizer price of Zephyr Cotton, Solara Sugarbeet, and AquaBeans in 1990?",
+            "A": "Zephyr Cotton's fertilizer price is {507.70} $/ton, Solara Sugarbeet's fertilizer price is {3.00} $/ton, AquaBeans's fertilizer price is {688.38} $/ton."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Fertilizer Price in the line chart?",
+            "A": "The global minimum fertilizer price is {3.00} $/ton."
+        },
+        {
+            "Q": "What is the global maximum Fertilizer Price in the line chart?",
+            "A": "The global maximum fertilizer price is {715.40} $/ton."
+        },
+        {
+            "Q": "What is the highest Fertilizer Price level recorded for AquaBeans?",
+            "A": "AquaBeans reached approximately {715.40} $/ton in {1992}."
+        },
+        {
+            "Q": "What is the lowest Fertilizer Price level recorded for AquaBeans?",
+            "A": "AquaBeans's lowest recorded level is approximately {657.01} $/ton in {1989}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Solara Sugarbeet's Fertilizer Price?",
+            "A": "The average value of Solara Sugarbeet's fertilizer price is {3.00} $/ton."
+        },
+        {
+            "Q": "What is the rate of change in Solara Sugarbeet's Fertilizer Price from the starting year to the final year?",
+            "A": "The rate of change in Solara Sugarbeet's fertilizer price is {0.00}%."
+        },
+        {
+            "Q": "What is the average value of Zephyr Cotton's Fertilizer Price?",
+            "A": "The average value of Zephyr Cotton's fertilizer price is {508.19} $/ton."
+        },
+        {
+            "Q": "What is the rate of change in Zephyr Cotton's Fertilizer Price from the starting year to the final year?",
+            "A": "The rate of change in Zephyr Cotton's fertilizer price is {0.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1991, which line had Fertilizer Price exceed 596 $/ton? Please list the lines and corresponding values.",
+            "A": "{AquaBeans} had {708} $/ton."
+        },
+        {
+            "Q": "In the year 1995, which lines had Fertilizer Price below 294 $/ton? Please list the lines and corresponding values.",
+            "A": "{Solara Sugarbeet} had {3} $/ton."
+        },
+        {
+            "Q": "In the year 1995, which line had Fertilizer Price exceed 556 $/ton? Please list the lines and corresponding values.",
+            "A": "{AquaBeans} had {657} $/ton."
+        },
+        {
+            "Q": "In the year 1994, which line had Fertilizer Price exceed 580 $/ton? Please list the lines and corresponding values.",
+            "A": "{AquaBeans} had {688} $/ton."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1991 and 1992, which line experienced a larger change in Fertilizer Price, AquaBeans or Zephyr Cotton?",
+            "A": "{AquaBeans} experienced a larger change in fertilizer price."
+        },
+        {
+            "Q": "In 1989, which line had the highest Fertilizer Price, Zephyr Cotton, Solara Sugarbeet, or AquaBeans?",
+            "A": "In 1989, {AquaBeans} had the highest fertilizer price."
+        },
+        {
+            "Q": "In 1989, which line had the highest Fertilizer Price, Solara Sugarbeet, Zephyr Cotton, or AquaBeans?",
+            "A": "In 1989, {AquaBeans} had the highest fertilizer price."
+        },
+        {
+            "Q": "Was AquaBeans's Fertilizer Price in 1990 higher or lower than in 1993?",
+            "A": "The fertilizer price in 1990 was lower than in 1993."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

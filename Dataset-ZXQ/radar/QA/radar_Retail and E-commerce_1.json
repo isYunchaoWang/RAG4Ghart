@@ -1,0 +1,113 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Traffic Conversion Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Key PLC?",
+            "A": "The strongest aspect is {Traffic Conversion Rate}, while the weakest aspect is{ Return on Investment (ROI)}."
+        },
+        {
+            "Q": "On dimension Self-Service Resolution Rate, which label scores the highest?",
+            "A": "On Self-Service Resolution Rate, label {Mays, Spears and Estrada} scores the highest."
+        },
+        {
+            "Q": "On dimension Gross Margin, which label scores the highest?",
+            "A": "On Gross Margin, label {Mendez-Burke} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Key PLC on the Return on Investment (ROI) in the radar chart?",
+            "A": "The value of Key PLC on the Safety dimension is {37}."
+        },
+        {
+            "Q": "What is the value of Key PLC on the Self-Service Resolution Rate in the radar chart?",
+            "A": "The value of Key PLC on the Safety dimension is {62}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Mendez-Burke across all dimensions in the radar chart?",
+            "A": "The maximum value of Mendez-Burke across all dimensions is {37}."
+        },
+        {
+            "Q": "What is the minimum value of label Mays, Spears and Estrada across all dimensions in the radar chart?",
+            "A": "The minimum value of Mays, Spears and Estrada across all dimensions is {62}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Inventory Turnover Rate}",
+            "A": "The average value of {Inventory Turnover Rate} is {68.67}."
+        },
+        {
+            "Q": "What is the average value of {Mays, Spears and Estrada}",
+            "A": "The average value of {Mays, Spears and Estrada} is {49.17}."
+        },
+        {
+            "Q": "What is the difference in Return on Investment (ROI) between Key PLC and Mendez-Burke?",
+            "A": "The difference in {Return on Investment (ROI)} between Key PLC and Mendez-Burke is {36}."
+        },
+        {
+            "Q": "What is the difference in Inventory Turnover Rate between Mays, Spears and Estrada and Key PLC?",
+            "A": "The difference in {Inventory Turnover Rate} between Mays, Spears and Estrada and Key PLC is {3}."
+        },
+        {
+            "Q": "What is the difference in Conversion Rate between Key PLC and Mendez-Burke?",
+            "A": "The difference in {Conversion Rate} between Key PLC and Mendez-Burke is {31}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Mays, Spears and Estrada in the radar chart, which dimensions have scores above 72? Please list the dimensions and corresponding scores.",
+            "A": "{Traffic Conversion Rate} is {81}"
+        },
+        {
+            "Q": "For Key PLC in the radar chart, which dimensions have scores below 37? Please list the dimensions and corresponding scores.",
+            "A": "{Conversion Rate} is {36}, {Self-Service Resolution Rate} is {29}"
+        },
+        {
+            "Q": "Which labels have scores above 79 for the Traffic Conversion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Key PLC} is {81}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Mendez-Burke, which dimension has a higher score: Inventory Turnover Rate or Traffic Conversion Rate?",
+            "A": "{Inventory Turnover Rate} has a higher score than Traffic Conversion Rate for Mendez-Burke."
+        },
+        {
+            "Q": "For Mays, Spears and Estrada, which dimension has a higher score: Inventory Turnover Rate or Return on Investment (ROI)?",
+            "A": "{Inventory Turnover Rate} has a higher score than Return on Investment (ROI) for Mays, Spears and Estrada."
+        },
+        {
+            "Q": "On Return on Investment (ROI), which label has a higher score: Key PLC or the Mays, Spears and Estrada?",
+            "A": "{Mays, Spears and Estrada} has a higher score on Return on Investment (ROI) compared to Key PLC."
+        },
+        {
+            "Q": "On Gross Margin, which label has a higher score: Mendez-Burke or the Key PLC?",
+            "A": "{Key PLC} has a higher score on Gross Margin compared to Mendez-Burke."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

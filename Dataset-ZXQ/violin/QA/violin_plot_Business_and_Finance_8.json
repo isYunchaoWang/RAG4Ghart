@@ -1,0 +1,98 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the largest median in this violin plot?",
+            "A": "The category with the largest median is {NovaEdge}."
+        },
+        {
+            "Q": "Which category has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The category with the highest Q3 is {BrightEdge}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing {NovaEdge}?",
+            "A": "The density distribution pattern of the {NovaEdge} shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of {NovaEdge} in the violin plot?",
+            "A": "The median of {NovaEdge} is {5206430.00} USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of {NovaEdge} in the violin plot?",
+            "A": "The upper quartile (Q3) of {NovaEdge} is {6368719.00} USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of {BrightEdge} in the violin plot?",
+            "A": "The upper whisker limit of {BrightEdge} is {9609908.00} USD."
+        },
+        {
+            "Q": "What is the lowest lower outlier value in {NovaEdge} in the violin plot?",
+            "A": "The lowest upper outlier value in {NovaEdge} is {281488.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum USD value in the violin plot?",
+            "A": "The global maximum USD value in the violin plot is {11911556.00} USD."
+        },
+        {
+            "Q": "What is the global minimum USD value in the violin plot?",
+            "A": "The global minimum USD value in the violin plot is {31348.00} USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the {Q3} difference between violin {DataPulse} and {BrightEdge}?",
+            "A": "The {Q3} difference between violin {DataPulse} and {BrightEdge} is {302715.00} USD."
+        },
+        {
+            "Q": "What is the toal {Median} value of violin {NovaEdge} and {BrightEdge}?",
+            "A": "The total {Median} value of violin {NovaEdge} and {BrightEdge} is {10293135.00} USD."
+        },
+        {
+            "Q": "What is the average {Q1} value of violin {NovaEdge} and {BrightEdge}?",
+            "A": "The average {Q1} value of violin {NovaEdge} and {BrightEdge} is {4140973.00} USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed {5012250.00} USD? Please list the violins and corresponding values.",
+            "A": "BrightEdge has {5086705.00} USD , NovaEdge has {5206430.00} USD "
+        },
+        {
+            "Q": "Which violins have median values below {5146567.50} USD? Please list the violins and corresponding values.",
+            "A": "BrightEdge has {5086705.00} USD , DataPulse has {4937795.00} USD "
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak exceed {4792229.23} USD?",
+            "A": "CategoryBrightEdge has {5049814.24} USD ,NovaEdge has {4999547.05} USD have their highest density peak exceed {4792229.23} USD."
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak below {5024680.65} USD?",
+            "A": "CategoryDataPulse has {4584911.41} USD ,NovaEdge has {4999547.05} USD have their highest density peak below {5024680.65} USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of DataPulse or NovaEdge ",
+            "A": "The median value of the {NovaEdge} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of BrightEdge, NovaEdge or DataPulse ",
+            "A": "The median value of the {NovaEdge} is larger."
+        }
+    ]
+}

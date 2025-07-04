@@ -1,0 +1,7 @@
+Human Resources and Employee Management,Productivity Rate,units/hour
+Year,Management Team,Engineering Department,Operations Staff,Sales Team,Administrative Support,Human Resources,Research & Development
+trend,single_valley,volatile_rising,stable_falling,stable_rising,periodic_stable,exponential_rising,bimodal_peak
+1973,3.36,9.91,10.45,10.24,10.24,9.63,23.75
+1974,1.46,10.73,10.35,10.57,12.53,10.51,24.55
+1975,2.58,9.52,10.65,11.49,11.86,10.4,26.03
+1976,2.95,9.86,11.94,11.59,9.37,13.52,23.01

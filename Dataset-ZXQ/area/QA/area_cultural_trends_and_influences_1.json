@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total museum visitors?",
+            "A": "The series with the largest contribution is {The Chronos Museum}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total museum visitors?",
+            "A": "The series with the smallest contribution is {Museum of Stellar Artifice}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is The Chronos Museum's Museum Visitors in 1968?",
+            "A": "The Chronos Museum's museum visitors in 1968 is {5326404.33} visits/month."
+        },
+        {
+            "Q": "What is Museum of Stellar Artifice's Museum Visitors in 1972?",
+            "A": "Museum of Stellar Artifice's museum visitors in 1972 is {167932.02} visits/month."
+        },
+        {
+            "Q": "What is The Chronos Museum's Museum Visitors in 1953?",
+            "A": "The Chronos Museum's museum visitors in 1953 is {1331770.46} visits/month."
+        },
+        {
+            "Q": "What are the museum visitors of Museum of Stellar Artifice, Aethelgard Historical Archive, and Silverhaven Maritime Museum in 1954?",
+            "A": "Museum of Stellar Artifice's museum visitors is {745126.83} visits/month, Aethelgard Historical Archive's museum visitors is {1209852.58} visits/month, Silverhaven Maritime Museum's museum visitors is {1329154.55} visits/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Museum Visitors in the stacked area chart?",
+            "A": "The global minimum total museum visitors is {3801453.35} visits/month."
+        },
+        {
+            "Q": "What is the global maximum total Museum Visitors in the stacked area chart?",
+            "A": "The global maximum total museum visitors is {17267588.55} visits/month."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Aethelgard Historical Archive's Museum Visitors area?",
+            "A": "The average height of Aethelgard Historical Archive's museum visitors area is {1631915.42} visits/month."
+        },
+        {
+            "Q": "What is the average height of Silverhaven Maritime Museum's Museum Visitors area?",
+            "A": "The average height of Silverhaven Maritime Museum's museum visitors area is {2034039.47} visits/month."
+        },
+        {
+            "Q": "What is the average height of The Chronos Museum's Museum Visitors area?",
+            "A": "The average height of The Chronos Museum's museum visitors area is {4457320.60} visits/month."
+        },
+        {
+            "Q": "What is the average height of Museum of Stellar Artifice's Museum Visitors area?",
+            "A": "The average height of Museum of Stellar Artifice's museum visitors area is {374710.87} visits/month."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Museum Visitors exceed 9667148 visits/month? Please list the years and corresponding total values.",
+            "A": "total value was {13884192.80} visits/month in {1973}, total value was {10388811.87} visits/month in {1969}, total value was {15280838.71} visits/month in {1974}."
+        },
+        {
+            "Q": "Which years did the total Museum Visitors go below 5656670 visits/month? Please list the years and corresponding total values.",
+            "A": "total value was {4424341.18} visits/month in {1952}, total value was {4446785.57} visits/month in {1953}, total value was {3801453.35} visits/month in {1950}."
+        },
+        {
+            "Q": "Which years did the total Museum Visitors fall between 7278814 and 8045004 visits/month? Please list the years and corresponding total values.",
+            "A": "total value was {7864808.43} visits/month in {1963}, total value was {7976512.99} visits/month in {1964}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1970 and 1972, was the average total Museum Visitors higher or lower than between 1951 and 1976?",
+            "A": "The average total museum visitors between {1970} and {1972} was {higher} than between {1951} and {1976}."
+        },
+        {
+            "Q": "Was the total Museum Visitors in 1961 higher or lower than in 1966?",
+            "A": "The total museum visitors in {1961} was {lower} than in {1966}."
+        },
+        {
+            "Q": "Between 1958 and 1963, did the total Museum Visitors experience a larger or smaller change than between 1951 and 1963?",
+            "A": "The change in total museum visitors between {1958} and {1963} was {smaller} than between {1951} and {1963}."
+        },
+        {
+            "Q": "Between 1956 and 1967, was the average total Museum Visitors higher or lower than between 1961 and 1969?",
+            "A": "The average total museum visitors between {1956} and {1967} was {lower} than between {1961} and {1969}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

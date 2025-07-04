@@ -1,0 +1,201 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Azure Reservoir Management's Water Consumption levels?",
+            "A": "Azure Reservoir Management's Water Consumption levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Water Authority's Water Consumption levels?",
+            "A": "Meridian Water Authority's Water Consumption levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Water Board's Water Consumption levels?",
+            "A": "Silverhaven Water Board's Water Consumption levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Borealis Water Cooperative's Water Consumption levels?",
+            "A": "Borealis Water Cooperative's Water Consumption levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Public Works's Water Consumption levels?",
+            "A": "Zenith Public Works's Water Consumption levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Water Consumption levels?",
+            "A": "{Azure Reservoir Management}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Water Consumption levels?",
+            "A": "{Meridian Water Authority}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Water Consumption levels?",
+            "A": "{Silverhaven Water Board}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Water Consumption levels?",
+            "A": "{Borealis Water Cooperative}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Water Consumption levels?",
+            "A": "{Zenith Public Works}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Water Consumption level recorded for Azure Reservoir Management?",
+            "A": "Azure Reservoir Management reached approximately {64475210.67} cubic meters in 1973."
+        },
+        {
+            "Q": "What is the lowest Water Consumption level recorded for Azure Reservoir Management?",
+            "A": "Azure Reservoir Management's lowest recorded level is approximately {29704779.32} cubic meters in 1959."
+        },
+        {
+            "Q": "What is the highest Water Consumption level recorded for Borealis Water Cooperative?",
+            "A": "Borealis Water Cooperative reached approximately {51883026.22} cubic meters in 1973."
+        },
+        {
+            "Q": "What is the lowest Water Consumption level recorded for Borealis Water Cooperative?",
+            "A": "Borealis Water Cooperative's lowest recorded level is approximately {28792124.99} cubic meters in 1959."
+        },
+        {
+            "Q": "What is the highest Water Consumption level recorded for Meridian Water Authority?",
+            "A": "Meridian Water Authority reached approximately {64451678.01} cubic meters in 1965."
+        },
+        {
+            "Q": "What is the lowest Water Consumption level recorded for Meridian Water Authority?",
+            "A": "Meridian Water Authority's lowest recorded level is approximately {50420835.02} cubic meters in 1959."
+        },
+        {
+            "Q": "What is the highest Water Consumption level recorded for Silverhaven Water Board?",
+            "A": "Silverhaven Water Board reached approximately {113514517.63} cubic meters in 1973."
+        },
+        {
+            "Q": "What is the lowest Water Consumption level recorded for Silverhaven Water Board?",
+            "A": "Silverhaven Water Board's lowest recorded level is approximately {30324356.23} cubic meters in 1959."
+        },
+        {
+            "Q": "What is the highest Water Consumption level recorded for Zenith Public Works?",
+            "A": "Zenith Public Works reached approximately {42110247.58} cubic meters in 1972."
+        },
+        {
+            "Q": "What is the lowest Water Consumption level recorded for Zenith Public Works?",
+            "A": "Zenith Public Works's lowest recorded level is approximately {28556888.27} cubic meters in 1959."
+        },
+        {
+            "Q": "What is Meridian Water Authority's Water Consumption in 1970?",
+            "A": "Meridian Water Authority's water consumption in 1970 is {58770440.61} cubic meters."
+        },
+        {
+            "Q": "What is Azure Reservoir Management's Water Consumption in 1970?",
+            "A": "Azure Reservoir Management's water consumption in 1970 is {64475210.67} cubic meters."
+        },
+        {
+            "Q": "What is Zenith Public Works's Water Consumption in 1970?",
+            "A": "Zenith Public Works's water consumption in 1970 is {41487253.44} cubic meters."
+        },
+        {
+            "Q": "What are the water consumption of Azure Reservoir Management, Meridian Water Authority, and Silverhaven Water Board in 1970?",
+            "A": "{Azure Reservoir Management}'s water consumption is {29704779.32} cubic meters, {Meridian Water Authority}'s water consumption is {50420835.02} cubic meters, {Silverhaven Water Board}'s water consumption is {30324356.23} cubic meters."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Water Consumption in the line chart?",
+            "A": "The global minimum water consumption is {28556888.27} cubic meters."
+        },
+        {
+            "Q": "What is the global maximum Water Consumption in the line chart?",
+            "A": "The global maximum water consumption is {113514517.63} cubic meters."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Reservoir Management's Water Consumption?",
+            "A": "The average value of Azure Reservoir Management's Water Consumption is {46977456.75} cubic meters."
+        },
+        {
+            "Q": "What is the average value of Borealis Water Cooperative's Water Consumption?",
+            "A": "The average value of Borealis Water Cooperative's Water Consumption is {40836679.93} cubic meters."
+        },
+        {
+            "Q": "What is the average value of Meridian Water Authority's Water Consumption?",
+            "A": "The average value of Meridian Water Authority's Water Consumption is {57868545.14} cubic meters."
+        },
+        {
+            "Q": "What is the average value of Silverhaven Water Board's Water Consumption?",
+            "A": "The average value of Silverhaven Water Board's Water Consumption is {63589934.18} cubic meters."
+        },
+        {
+            "Q": "What is the average value of Zenith Public Works's Water Consumption?",
+            "A": "The average value of Zenith Public Works's Water Consumption is {36045605.93} cubic meters."
+        },
+        {
+            "Q": "What is the rate of change in Azure Reservoir Management's Water Consumption from the starting year to the final year?",
+            "A": "The rate of change in Azure Reservoir Management's Water Consumption is {117.05}%."
+        },
+        {
+            "Q": "What is the rate of change in Borealis Water Cooperative's Water Consumption from the starting year to the final year?",
+            "A": "The rate of change in Borealis Water Cooperative's Water Consumption is {80.20}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Water Authority's Water Consumption from the starting year to the final year?",
+            "A": "The rate of change in Meridian Water Authority's Water Consumption is {0.58}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Water Board's Water Consumption from the starting year to the final year?",
+            "A": "The rate of change in Silverhaven Water Board's Water Consumption is {274.33}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Public Works's Water Consumption from the starting year to the final year?",
+            "A": "The rate of change in Zenith Public Works's Water Consumption is {47.17}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Borealis Water Cooperative's Water Consumption exceed 45592769 cubic meters? Please list the years and corresponding values.",
+            "A": "46809775.19 cubic meters in {1969.0} year, 46325255.12 cubic meters in {1970.0} year, 48183389.59 cubic meters in {1971.0} year."
+        },
+        {
+            "Q": "Which years did Borealis Water Cooperative's Water Consumption below 36757990 cubic meters? Please list the years and corresponding values.",
+            "A": "28792124.99 cubic meters in {1959.0} year, 31430549.67 cubic meters in {1960.0} year, 33701806.07 cubic meters in {1961.0} year."
+        },
+        {
+            "Q": "Which years did Borealis Water Cooperative's Water Consumption between 37057842 and 45292918 cubic meters? Please list the years and corresponding values.",
+            "A": "38564621.33 cubic meters in {1964.0} year, 39783529.14 cubic meters in {1965.0} year, 39455665.73 cubic meters in {1966.0} year."
+        },
+        {
+            "Q": "In the year 1970, which line had Water Consumption exceed 61145939 cubic meters? Please list the lines and corresponding values.",
+            "A": "{Azure Reservoir Management} had 62019535 cubic meters, {Silverhaven Water Board} had 83745503 cubic meters."
+        },
+        {
+            "Q": "In the year 1970, which lines had Water Consumption below 48590515 cubic meters? Please list the lines and corresponding values.",
+            "A": "{Borealis Water Cooperative} had 46325255 cubic meters, {Zenith Public Works} had 39505476 cubic meters."
+        },
+        {
+            "Q": "In the year 1970, which lines had Water Consumption between 49381404 and 60355050 cubic meters? Please list the lines and corresponding values.",
+            "A": "{Meridian Water Authority} had 57651555 cubic meters."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Water Consumption, Zenith Public Works, Meridian Water Authority, or Azure Reservoir Management?",
+            "A": "In 1970, {Meridian Water Authority} had the highest water consumption."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

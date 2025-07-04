@@ -1,0 +1,6 @@
+Human Resources and Employee Management,Productivity Rate,units/hour
+Year,Management Team,Research & Development,Sales Team,Operations Staff,Engineering Department,Human Resources
+trend,exponential_falling,volatile_falling,stable_rising,stable_rising,stable_falling,volatile_falling
+2016,10.02,10.19,9.32,9.41,8.68,8.94
+2017,8.56,9.6,10.68,9.59,10.12,10.97
+2018,7.63,9.47,11.56,10.66,10.97,8.16

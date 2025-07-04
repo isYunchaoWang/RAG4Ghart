@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total organic farming area?",
+            "A": "The series with the largest contribution is {Sunstone Farms}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total organic farming area?",
+            "A": "The series with the smallest contribution is {Golden Harvest Cooperative}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Sunstone Farms's Organic Farming Area in 1979?",
+            "A": "Sunstone Farms's organic farming area in 1979 is {1059.06} hectares."
+        },
+        {
+            "Q": "What is Starfall Organics's Organic Farming Area in 1983?",
+            "A": "Starfall Organics's organic farming area in 1983 is {1138.49} hectares."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Organic Farming Area in 1978?",
+            "A": "Golden Harvest Cooperative's organic farming area in 1978 is {982.18} hectares."
+        },
+        {
+            "Q": "What are the organic farming area of Sunstone Farms, Golden Harvest Cooperative, and Starfall Organics in 1987?",
+            "A": "Sunstone Farms's organic farming area is {1833.44} hectares, Golden Harvest Cooperative's organic farming area is {186.37} hectares, Starfall Organics's organic farming area is {1217.66} hectares."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Organic Farming Area in the stacked area chart?",
+            "A": "The global minimum total organic farming area is {2428.80} hectares."
+        },
+        {
+            "Q": "What is the global maximum total Organic Farming Area in the stacked area chart?",
+            "A": "The global maximum total organic farming area is {3808.51} hectares."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Starfall Organics's Organic Farming Area area?",
+            "A": "The average height of Starfall Organics's organic farming area area is {1007.29} hectares."
+        },
+        {
+            "Q": "What is the average height of Sunstone Farms's Organic Farming Area area?",
+            "A": "The average height of Sunstone Farms's organic farming area area is {1561.21} hectares."
+        },
+        {
+            "Q": "What is the average height of Golden Harvest Cooperative's Organic Farming Area area?",
+            "A": "The average height of Golden Harvest Cooperative's organic farming area area is {544.15} hectares."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Organic Farming Area fall between 2982 and 3296 hectares? Please list the years and corresponding total values.",
+            "A": "total value was {3080.72} hectares in {1981}, total value was {3266.06} hectares in {1984}, total value was {3237.47} hectares in {1987}."
+        },
+        {
+            "Q": "Which years did the total Organic Farming Area exceed 3385 hectares? Please list the years and corresponding total values.",
+            "A": "total value was {3516.77} hectares in {1978}, total value was {3476.30} hectares in {1983}, total value was {3808.51} hectares in {1992}."
+        },
+        {
+            "Q": "Which years did the total Organic Farming Area go below 2892 hectares? Please list the years and corresponding total values.",
+            "A": "total value was {2428.80} hectares in {1986}, total value was {2702.17} hectares in {1989}, total value was {2468.98} hectares in {1979}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Organic Farming Area in 1977 higher or lower than in 1981?",
+            "A": "The total organic farming area in {1977} was {lower} than in {1981}."
+        },
+        {
+            "Q": "Between 1978 and 1984, did the total Organic Farming Area experience a larger or smaller change than between 1985 and 1992?",
+            "A": "The change in total organic farming area between {1978} and {1984} was {smaller} than between {1985} and {1992}."
+        },
+        {
+            "Q": "Between 1986 and 1990, did the total Organic Farming Area experience a larger or smaller change than between 1983 and 1988?",
+            "A": "The change in total organic farming area between {1986} and {1990} was {smaller} than between {1983} and {1988}."
+        },
+        {
+            "Q": "Between 1984 and 1988, was the average total Organic Farming Area higher or lower than between 1977 and 1978?",
+            "A": "The average total organic farming area between {1984} and {1988} was {lower} than between {1977} and {1978}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

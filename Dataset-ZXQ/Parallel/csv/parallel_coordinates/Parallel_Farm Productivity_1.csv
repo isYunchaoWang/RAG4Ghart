@@ -1,0 +1,10 @@
+﻿Agriculture and Food Production,Farm Productivity
+labels,Yield per acre (tons),Harvest frequency (per year),Soil health index (1-10),Labor efficiency (acres/worker),Water usage (liters/kg)
+Pattern,No Correlation,Weak Correlation,No Correlation,No Correlation
+place  Corn,0.5,2.76,7.16,485.1,477.4
+information  Corn,5.59,4.0,9.18,497.93,686.35
+choice  Apple,42.96,2.21,1.0,1000.0,249.63
+size  Oats,50.0,1.31,2.45,283.07,1000.0
+available  Oats,13.69,1.19,1.85,355.84,1.0
+heart  Apple,29.56,1.19,10.0,1.0,820.14
+though  Apple,9.57,1.0,6.26,120.55,137.81

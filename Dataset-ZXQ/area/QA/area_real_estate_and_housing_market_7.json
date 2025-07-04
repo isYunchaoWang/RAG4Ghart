@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total vacancy rate?",
+            "A": "The series with the largest contribution is {Willow Creek Estates}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total vacancy rate?",
+            "A": "The series with the smallest contribution is {Ironpeak Residences}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Green Valley Homes's Vacancy Rate in 2015?",
+            "A": "Green Valley Homes's vacancy rate in 2015 is {4.94} %."
+        },
+        {
+            "Q": "What is Crystal Cove Villas's Vacancy Rate in 2010?",
+            "A": "Crystal Cove Villas's vacancy rate in 2010 is {4.96} %."
+        },
+        {
+            "Q": "What is Willow Creek Estates's Vacancy Rate in 2013?",
+            "A": "Willow Creek Estates's vacancy rate in 2013 is {6.12} %."
+        },
+        {
+            "Q": "What are the vacancy rate of Green Valley Homes, Crystal Cove Villas, and Willow Creek Estates in 2013?",
+            "A": "Green Valley Homes's vacancy rate is {4.42} %, Crystal Cove Villas's vacancy rate is {4.10} %, Willow Creek Estates's vacancy rate is {6.12} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Vacancy Rate in the stacked area chart?",
+            "A": "The global minimum total vacancy rate is {22.75} %."
+        },
+        {
+            "Q": "What is the global maximum total Vacancy Rate in the stacked area chart?",
+            "A": "The global maximum total vacancy rate is {28.04} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Crystal Cove Villas's Vacancy Rate area?",
+            "A": "The average height of Crystal Cove Villas's vacancy rate area is {5.13} %."
+        },
+        {
+            "Q": "What is the average height of Green Valley Homes's Vacancy Rate area?",
+            "A": "The average height of Green Valley Homes's vacancy rate area is {5.14} %."
+        },
+        {
+            "Q": "What is the average height of Ironpeak Residences's Vacancy Rate area?",
+            "A": "The average height of Ironpeak Residences's vacancy rate area is {3.43} %."
+        },
+        {
+            "Q": "What is the average height of Oceanview Condos's Vacancy Rate area?",
+            "A": "The average height of Oceanview Condos's vacancy rate area is {5.57} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Vacancy Rate fall between 25 and 28 %? Please list the years and corresponding total values.",
+            "A": "total value was {25.30} % in {2015}, total value was {25.10} % in {2018}, total value was {27.28} % in {2011}."
+        },
+        {
+            "Q": "Which years did the total Vacancy Rate go below 25 %? Please list the years and corresponding total values.",
+            "A": "total value was {23.76} % in {2013}, total value was {22.75} % in {2014}, total value was {25.10} % in {2018}."
+        },
+        {
+            "Q": "Which years did the total Vacancy Rate exceed 27 %? Please list the years and corresponding total values.",
+            "A": "total value was {27.96} % in {2016}, total value was {28.04} % in {2017}, total value was {27.48} % in {2012}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 2015 and 2016, was the average total Vacancy Rate higher or lower than between 2010 and 2012?",
+            "A": "The average total vacancy rate between {2015} and {2016} was {higher} than between {2010} and {2012}."
+        },
+        {
+            "Q": "Was the total Vacancy Rate in 2012 higher or lower than in 2017?",
+            "A": "The total vacancy rate in {2012} was {lower} than in {2017}."
+        },
+        {
+            "Q": "Between 2013 and 2017, did the total Vacancy Rate experience a larger or smaller change than between 2014 and 2016?",
+            "A": "The change in total vacancy rate between {2013} and {2017} was {smaller} than between {2014} and {2016}."
+        },
+        {
+            "Q": "Was the total Vacancy Rate in 2013 higher or lower than in 2014?",
+            "A": "The total vacancy rate in {2013} was {higher} than in {2014}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,57 @@
+Real Estate and Housing Market,the Overview of Real Estate and Housing Market,7x8,central_cluster
+Appraisal,Age,0.22
+Construction,Age,0.28
+Land,Age,0.37
+Mortgages,Age,0.5
+Property Management,Age,0.6
+Rental,Age,0.73
+Residential,Age,0.84
+Appraisal,Condition,0.27
+Construction,Condition,0.28
+Land,Condition,0.37
+Mortgages,Condition,0.55
+Property Management,Condition,0.72
+Rental,Condition,0.82
+Residential,Condition,0.9
+Appraisal,Demand,0.27
+Construction,Demand,0.29
+Land,Demand,0.4
+Mortgages,Demand,0.57
+Property Management,Demand,0.75
+Rental,Demand,0.83
+Residential,Demand,0.94
+Appraisal,Interest Rates,0.19
+Construction,Interest Rates,0.28
+Land,Interest Rates,0.35
+Mortgages,Interest Rates,0.51
+Property Management,Interest Rates,0.65
+Rental,Interest Rates,0.81
+Residential,Interest Rates,0.84
+Appraisal,Location,0.2
+Construction,Location,0.31
+Land,Location,0.32
+Mortgages,Location,0.46
+Property Management,Location,0.58
+Rental,Location,0.72
+Residential,Location,0.77
+Appraisal,Market Trends,0.19
+Construction,Market Trends,0.21
+Land,Market Trends,0.26
+Mortgages,Market Trends,0.39
+Property Management,Market Trends,0.47
+Rental,Market Trends,0.53
+Residential,Market Trends,0.6
+Appraisal,Price,0.19
+Construction,Price,0.19
+Land,Price,0.24
+Mortgages,Price,0.3
+Property Management,Price,0.35
+Rental,Price,0.43
+Residential,Price,0.4
+Appraisal,Supply,0.13
+Construction,Supply,0.21
+Land,Supply,0.21
+Mortgages,Supply,0.23
+Property Management,Supply,0.25
+Rental,Supply,0.3
+Residential,Supply,0.33

@@ -1,0 +1,102 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {6} violins."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the largest median in this violin plot?",
+            "A": "The category with the largest median is {EcoCore}."
+        },
+        {
+            "Q": "Which category has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The category with the highest Q3 is {PeakPoint}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing {TrueNorth}?",
+            "A": "The density distribution pattern of the {TrueNorth} shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of {SkyBound} in the violin plot?",
+            "A": "The median of {SkyBound} is {5083744.00} USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of {TrueNorth} in the violin plot?",
+            "A": "The lower quartile (Q1) of {TrueNorth} is {3884547.50} USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of {EcoCore} in the violin plot?",
+            "A": "The upper whisker limit of {EcoCore} is {8400749.00} USD."
+        },
+        {
+            "Q": "What is the lowest lower outlier value in {EcoCore} in the violin plot?",
+            "A": "The lowest upper outlier value in {EcoCore} is {1260646.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum USD value in the violin plot?",
+            "A": "The global maximum USD value in the violin plot is {14883279.00} USD."
+        },
+        {
+            "Q": "What is the global minimum USD value in the violin plot?",
+            "A": "The global minimum USD value in the violin plot is {229013.00} USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the {Q1} difference between violin {EcoCore} and {SkyBound}?",
+            "A": "The {Q1} difference between violin {EcoCore} and {SkyBound} is {249059.25} USD."
+        },
+        {
+            "Q": "What is the toal {Median} value of violin {TrueNorth} and {DataPulse}?",
+            "A": "The total {Median} value of violin {TrueNorth} and {DataPulse} is {9973216.50} USD."
+        },
+        {
+            "Q": "What is the average {Q1} value of violin {SkyBound} and {PrimeVue}?",
+            "A": "The average {Q1} value of violin {SkyBound} and {PrimeVue} is {4123981.12} USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed {5081399.50} USD? Please list the violins and corresponding values.",
+            "A": "SkyBound has {5083744.00} USD , PrimeVue has {5141104.50} USD , EcoCore has {5177140.50} USD "
+        },
+        {
+            "Q": "Which violins have median values below {5081399.50} USD? Please list the violins and corresponding values.",
+            "A": "PeakPoint has {5023436.00} USD , TrueNorth has {4894161.50} USD , DataPulse has {5079055.00} USD "
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak exceed {5043284.87} USD?",
+            "A": "CategorySkyBound has {5090152.89} USD ,PrimeVue has {5278660.08} USD ,DataPulse has {5131757.79} USD have their highest density peak exceed {5043284.87} USD."
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak below {4909332.10} USD?",
+            "A": "CategoryTrueNorth has {4877184.32} USD have their highest density peak below {4909332.10} USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of TrueNorth or EcoCore ",
+            "A": "The median value of the {EcoCore} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of PrimeVue, TrueNorth or EcoCore ",
+            "A": "The median value of the {EcoCore} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of PrimeVue, TrueNorth, EcoCore or SkyBound ",
+            "A": "The median value of the {EcoCore} is larger."
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Cargo Ships's Fuel Consumption levels?",
+            "A": "Cargo Ships's Fuel Consumption levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Drone Swarms's Fuel Consumption levels?",
+            "A": "Drone Swarms's Fuel Consumption levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Cargo Planes's Fuel Consumption levels?",
+            "A": "Cargo Planes's Fuel Consumption levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Long-Haul Trucks's Fuel Consumption levels?",
+            "A": "Long-Haul Trucks's Fuel Consumption levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Freight Trains's Fuel Consumption levels?",
+            "A": "Freight Trains's Fuel Consumption levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Fuel Consumption levels?",
+            "A": "{Cargo Ships}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Fuel Consumption levels?",
+            "A": "{Drone Swarms}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Fuel Consumption levels?",
+            "A": "{Cargo Planes}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Fuel Consumption levels?",
+            "A": "{Freight Trains}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Fuel Consumption level recorded for Cargo Planes?",
+            "A": "Cargo Planes reached approximately {14.99} L/100km in 1965."
+        },
+        {
+            "Q": "What is the lowest Fuel Consumption level recorded for Cargo Planes?",
+            "A": "Cargo Planes's lowest recorded level is approximately {8.73} L/100km in 1976."
+        },
+        {
+            "Q": "What is the highest Fuel Consumption level recorded for Cargo Ships?",
+            "A": "Cargo Ships reached approximately {8.91} L/100km in 1953."
+        },
+        {
+            "Q": "What is the lowest Fuel Consumption level recorded for Cargo Ships?",
+            "A": "Cargo Ships's lowest recorded level is approximately {0.09} L/100km in 1972."
+        },
+        {
+            "Q": "What is the highest Fuel Consumption level recorded for Drone Swarms?",
+            "A": "Drone Swarms reached approximately {16.61} L/100km in 1958."
+        },
+        {
+            "Q": "What is the lowest Fuel Consumption level recorded for Drone Swarms?",
+            "A": "Drone Swarms's lowest recorded level is approximately {8.26} L/100km in 1953."
+        },
+        {
+            "Q": "What is the highest Fuel Consumption level recorded for Freight Trains?",
+            "A": "Freight Trains reached approximately {12.83} L/100km in 1953."
+        },
+        {
+            "Q": "What is the lowest Fuel Consumption level recorded for Freight Trains?",
+            "A": "Freight Trains's lowest recorded level is approximately {0.09} L/100km in 1962."
+        },
+        {
+            "Q": "What is the highest Fuel Consumption level recorded for Long-Haul Trucks?",
+            "A": "Long-Haul Trucks reached approximately {17.10} L/100km in 1969."
+        },
+        {
+            "Q": "What is the lowest Fuel Consumption level recorded for Long-Haul Trucks?",
+            "A": "Long-Haul Trucks's lowest recorded level is approximately {10.76} L/100km in 1951."
+        },
+        {
+            "Q": "What is Cargo Ships's Fuel Consumption in 1970?",
+            "A": "Cargo Ships's fuel consumption in 1970 is {0.09} L/100km."
+        },
+        {
+            "Q": "What is Drone Swarms's Fuel Consumption in 1970?",
+            "A": "Drone Swarms's fuel consumption in 1970 is {14.04} L/100km."
+        },
+        {
+            "Q": "What is Freight Trains's Fuel Consumption in 1970?",
+            "A": "Freight Trains's fuel consumption in 1970 is {0.09} L/100km."
+        },
+        {
+            "Q": "What are the fuel consumption of Cargo Ships, Drone Swarms, and Cargo Planes in 1970?",
+            "A": "{Cargo Ships}'s fuel consumption is {8.13} L/100km, {Drone Swarms}'s fuel consumption is {11.43} L/100km, {Cargo Planes}'s fuel consumption is {10.05} L/100km."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Fuel Consumption in the line chart?",
+            "A": "The global minimum fuel consumption is {0.09} L/100km."
+        },
+        {
+            "Q": "What is the global maximum Fuel Consumption in the line chart?",
+            "A": "The global maximum fuel consumption is {17.10} L/100km."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Cargo Planes's Fuel Consumption?",
+            "A": "The average value of Cargo Planes's Fuel Consumption is {11.84} L/100km."
+        },
+        {
+            "Q": "What is the average value of Cargo Ships's Fuel Consumption?",
+            "A": "The average value of Cargo Ships's Fuel Consumption is {3.29} L/100km."
+        },
+        {
+            "Q": "What is the average value of Drone Swarms's Fuel Consumption?",
+            "A": "The average value of Drone Swarms's Fuel Consumption is {13.28} L/100km."
+        },
+        {
+            "Q": "What is the average value of Freight Trains's Fuel Consumption?",
+            "A": "The average value of Freight Trains's Fuel Consumption is {3.28} L/100km."
+        },
+        {
+            "Q": "What is the average value of Long-Haul Trucks's Fuel Consumption?",
+            "A": "The average value of Long-Haul Trucks's Fuel Consumption is {14.25} L/100km."
+        },
+        {
+            "Q": "What is the rate of change in Cargo Planes's Fuel Consumption from the starting year to the final year?",
+            "A": "The rate of change in Cargo Planes's Fuel Consumption is {-1.39}%."
+        },
+        {
+            "Q": "What is the rate of change in Cargo Ships's Fuel Consumption from the starting year to the final year?",
+            "A": "The rate of change in Cargo Ships's Fuel Consumption is {-80.44}%."
+        },
+        {
+            "Q": "What is the rate of change in Drone Swarms's Fuel Consumption from the starting year to the final year?",
+            "A": "The rate of change in Drone Swarms's Fuel Consumption is {-15.14}%."
+        },
+        {
+            "Q": "What is the rate of change in Freight Trains's Fuel Consumption from the starting year to the final year?",
+            "A": "The rate of change in Freight Trains's Fuel Consumption is {-98.99}%."
+        },
+        {
+            "Q": "What is the rate of change in Long-Haul Trucks's Fuel Consumption from the starting year to the final year?",
+            "A": "The rate of change in Long-Haul Trucks's Fuel Consumption is {6.13}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Cargo Planes's Fuel Consumption exceed 13 L/100km? Please list the years and corresponding values.",
+            "A": "13.22 L/100km in {1959.0} year, 14.94 L/100km in {1961.0} year, 14.32 L/100km in {1963.0} year."
+        },
+        {
+            "Q": "Which years did Cargo Planes's Fuel Consumption below 11 L/100km? Please list the years and corresponding values.",
+            "A": "10.05 L/100km in {1951.0} year, 8.97 L/100km in {1952.0} year, 9.37 L/100km in {1954.0} year."
+        },
+        {
+            "Q": "Which years did Cargo Planes's Fuel Consumption between 11 and 13 L/100km? Please list the years and corresponding values.",
+            "A": "10.76 L/100km in {1953.0} year, 11.30 L/100km in {1955.0} year, 11.48 L/100km in {1957.0} year."
+        },
+        {
+            "Q": "In the year 1977, which line had Fuel Consumption exceed 10 L/100km? Please list the lines and corresponding values.",
+            "A": "{Cargo Planes} had 10 L/100km, {Long-Haul Trucks} had 11 L/100km."
+        },
+        {
+            "Q": "In the year 1977, which lines had Fuel Consumption below 3 L/100km? Please list the lines and corresponding values.",
+            "A": "{Cargo Ships} had 2 L/100km, {Freight Trains} had 0 L/100km."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Fuel Consumption, Drone Swarms, Cargo Planes, Long-Haul Trucks, or Freight Trains?",
+            "A": "In 1970, {Drone Swarms} had the highest fuel consumption."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

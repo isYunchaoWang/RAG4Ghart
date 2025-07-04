@@ -1,0 +1,249 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Management Team's Productivity Rate levels?",
+            "A": "Management Team's Productivity Rate levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Engineering Department's Productivity Rate levels?",
+            "A": "Engineering Department's Productivity Rate levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Operations Staff's Productivity Rate levels?",
+            "A": "Operations Staff's Productivity Rate levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Sales Team's Productivity Rate levels?",
+            "A": "Sales Team's Productivity Rate levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Administrative Support's Productivity Rate levels?",
+            "A": "Administrative Support's Productivity Rate levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Human Resources's Productivity Rate levels?",
+            "A": "Human Resources's Productivity Rate levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Research & Development's Productivity Rate levels?",
+            "A": "Research & Development's Productivity Rate levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Productivity Rate levels?",
+            "A": "{Management Team}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Productivity Rate levels?",
+            "A": "{Engineering Department}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Productivity Rate levels?",
+            "A": "{Operations Staff}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Productivity Rate levels?",
+            "A": "{Sales Team}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Productivity Rate levels?",
+            "A": "{Administrative Support}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Productivity Rate levels?",
+            "A": "{Human Resources}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Productivity Rate levels?",
+            "A": "{Research & Development}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Administrative Support?",
+            "A": "Administrative Support reached approximately {12.53} units/hour in 1974."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Administrative Support?",
+            "A": "Administrative Support's lowest recorded level is approximately {9.37} units/hour in 1976."
+        },
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Engineering Department?",
+            "A": "Engineering Department reached approximately {10.73} units/hour in 1974."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Engineering Department?",
+            "A": "Engineering Department's lowest recorded level is approximately {9.52} units/hour in 1975."
+        },
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Human Resources?",
+            "A": "Human Resources reached approximately {13.52} units/hour in 1976."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Human Resources?",
+            "A": "Human Resources's lowest recorded level is approximately {9.63} units/hour in 1973."
+        },
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Management Team?",
+            "A": "Management Team reached approximately {3.36} units/hour in 1973."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Management Team?",
+            "A": "Management Team's lowest recorded level is approximately {1.46} units/hour in 1974."
+        },
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Operations Staff?",
+            "A": "Operations Staff reached approximately {11.94} units/hour in 1976."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Operations Staff?",
+            "A": "Operations Staff's lowest recorded level is approximately {10.35} units/hour in 1974."
+        },
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Research & Development?",
+            "A": "Research & Development reached approximately {26.03} units/hour in 1975."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Research & Development?",
+            "A": "Research & Development's lowest recorded level is approximately {23.01} units/hour in 1976."
+        },
+        {
+            "Q": "What is the highest Productivity Rate level recorded for Sales Team?",
+            "A": "Sales Team reached approximately {11.59} units/hour in 1976."
+        },
+        {
+            "Q": "What is the lowest Productivity Rate level recorded for Sales Team?",
+            "A": "Sales Team's lowest recorded level is approximately {10.24} units/hour in 1973."
+        },
+        {
+            "Q": "What is Operations Staff's Productivity Rate in 1970?",
+            "A": "Operations Staff's productivity rate in 1970 is {10.65} units/hour."
+        },
+        {
+            "Q": "What is Administrative Support's Productivity Rate in 1970?",
+            "A": "Administrative Support's productivity rate in 1970 is {12.53} units/hour."
+        },
+        {
+            "Q": "What is Operations Staff's Productivity Rate in 1970?",
+            "A": "Operations Staff's productivity rate in 1970 is {10.35} units/hour."
+        },
+        {
+            "Q": "What are the productivity rate of Management Team, Engineering Department, and Operations Staff in 1970?",
+            "A": "{Management Team}'s productivity rate is {3.36} units/hour, {Engineering Department}'s productivity rate is {9.91} units/hour, {Operations Staff}'s productivity rate is {10.45} units/hour."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Productivity Rate in the line chart?",
+            "A": "The global minimum productivity rate is {1.46} units/hour."
+        },
+        {
+            "Q": "What is the global maximum Productivity Rate in the line chart?",
+            "A": "The global maximum productivity rate is {26.03} units/hour."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Administrative Support's Productivity Rate?",
+            "A": "The average value of Administrative Support's Productivity Rate is {11.00} units/hour."
+        },
+        {
+            "Q": "What is the average value of Engineering Department's Productivity Rate?",
+            "A": "The average value of Engineering Department's Productivity Rate is {10.00} units/hour."
+        },
+        {
+            "Q": "What is the average value of Human Resources's Productivity Rate?",
+            "A": "The average value of Human Resources's Productivity Rate is {11.02} units/hour."
+        },
+        {
+            "Q": "What is the average value of Management Team's Productivity Rate?",
+            "A": "The average value of Management Team's Productivity Rate is {2.59} units/hour."
+        },
+        {
+            "Q": "What is the average value of Operations Staff's Productivity Rate?",
+            "A": "The average value of Operations Staff's Productivity Rate is {10.85} units/hour."
+        },
+        {
+            "Q": "What is the average value of Research & Development's Productivity Rate?",
+            "A": "The average value of Research & Development's Productivity Rate is {24.34} units/hour."
+        },
+        {
+            "Q": "What is the average value of Sales Team's Productivity Rate?",
+            "A": "The average value of Sales Team's Productivity Rate is {10.97} units/hour."
+        },
+        {
+            "Q": "What is the rate of change in Administrative Support's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Administrative Support's Productivity Rate is {-8.50}%."
+        },
+        {
+            "Q": "What is the rate of change in Engineering Department's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Engineering Department's Productivity Rate is {-0.50}%."
+        },
+        {
+            "Q": "What is the rate of change in Human Resources's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Human Resources's Productivity Rate is {40.39}%."
+        },
+        {
+            "Q": "What is the rate of change in Management Team's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Management Team's Productivity Rate is {-12.20}%."
+        },
+        {
+            "Q": "What is the rate of change in Operations Staff's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Operations Staff's Productivity Rate is {14.26}%."
+        },
+        {
+            "Q": "What is the rate of change in Research & Development's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Research & Development's Productivity Rate is {-3.12}%."
+        },
+        {
+            "Q": "What is the rate of change in Sales Team's Productivity Rate from the starting year to the final year?",
+            "A": "The rate of change in Sales Team's Productivity Rate is {13.18}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Management Team's Productivity Rate exceed 3 units/hour? Please list the years and corresponding values.",
+            "A": "3.36 units/hour in {1973.0} year."
+        },
+        {
+            "Q": "Which years did Management Team's Productivity Rate below 2 units/hour? Please list the years and corresponding values.",
+            "A": "1.46 units/hour in {1974.0} year."
+        },
+        {
+            "Q": "Which years did Management Team's Productivity Rate between 2 and 3 units/hour? Please list the years and corresponding values.",
+            "A": "2.58 units/hour in {1975.0} year, 2.95 units/hour in {1976.0} year."
+        },
+        {
+            "Q": "In the year 1973, which line had Productivity Rate exceed 10 units/hour? Please list the lines and corresponding values.",
+            "A": "{Operations Staff} had 10 units/hour, {Research & Development} had 24 units/hour."
+        },
+        {
+            "Q": "In the year 1973, which lines had Productivity Rate below 10 units/hour? Please list the lines and corresponding values.",
+            "A": "{Management Team} had 3 units/hour, {Human Resources} had 10 units/hour."
+        },
+        {
+            "Q": "In the year 1973, which lines had Productivity Rate between 9 and 11 units/hour? Please list the lines and corresponding values.",
+            "A": "{Engineering Department} had 10 units/hour, {Operations Staff} had 10 units/hour, {Sales Team} had 10 units/hour."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Productivity Rate, Administrative Support or Research & Development?",
+            "A": "In 1970, {Research & Development} had a higher productivity rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

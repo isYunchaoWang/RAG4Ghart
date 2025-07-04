@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total carbon emissions?",
+            "A": "The series with the largest contribution is {Meridian Gas & Electric}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total carbon emissions?",
+            "A": "The series with the smallest contribution is {Borealis Renewables}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Meridian Gas & Electric's Carbon Emissions in 1993?",
+            "A": "Meridian Gas & Electric's carbon emissions in 1993 is {7729811.97} tons."
+        },
+        {
+            "Q": "What is AquaFlow Utilities's Carbon Emissions in 1993?",
+            "A": "AquaFlow Utilities's carbon emissions in 1993 is {6000086.20} tons."
+        },
+        {
+            "Q": "What is Solara Energy Corp's Carbon Emissions in 1993?",
+            "A": "Solara Energy Corp's carbon emissions in 1993 is {6697946.96} tons."
+        },
+        {
+            "Q": "What are the carbon emissions of Solara Energy Corp, Borealis Renewables, and Meridian Gas & Electric in 1993?",
+            "A": "Solara Energy Corp's carbon emissions is {6697946.96} tons, Borealis Renewables's carbon emissions is {3962867.96} tons, Meridian Gas & Electric's carbon emissions is {7729811.97} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Carbon Emissions in the stacked area chart?",
+            "A": "The global minimum total carbon emissions is {20363636.68} tons."
+        },
+        {
+            "Q": "What is the global maximum total Carbon Emissions in the stacked area chart?",
+            "A": "The global maximum total carbon emissions is {27102156.89} tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Solara Energy Corp's Carbon Emissions area?",
+            "A": "The average height of Solara Energy Corp's carbon emissions area is {5891804.38} tons."
+        },
+        {
+            "Q": "What is the average height of AquaFlow Utilities's Carbon Emissions area?",
+            "A": "The average height of AquaFlow Utilities's carbon emissions area is {6261882.52} tons."
+        },
+        {
+            "Q": "What is the average height of Meridian Gas & Electric's Carbon Emissions area?",
+            "A": "The average height of Meridian Gas & Electric's carbon emissions area is {6338627.21} tons."
+        },
+        {
+            "Q": "What is the average height of Borealis Renewables's Carbon Emissions area?",
+            "A": "The average height of Borealis Renewables's carbon emissions area is {5039654.62} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Carbon Emissions go below 22460975 tons? Please list the years and corresponding total values.",
+            "A": "total value was {20363636.68} tons in {1989}, total value was {21130799.20} tons in {1990}."
+        },
+        {
+            "Q": "Which years did the total Carbon Emissions fall between 22259929 and 24603080 tons? Please list the years and corresponding total values.",
+            "A": "total value was {24390713.09} tons in {1993}, total value was {23791150.48} tons in {1992}, total value was {24413356} tons in {1991}."
+        },
+        {
+            "Q": "Which years did the total Carbon Emissions exceed 24402035 tons? Please list the years and corresponding total values.",
+            "A": "total value was {27102156.89} tons in {1994}, total value was {24413356} tons in {1991}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1989 and 1990, was the average total Carbon Emissions higher or lower than between 1992 and 1994?",
+            "A": "The average total carbon emissions between {1989} and {1990} was {lower} than between {1992} and {1994}."
+        },
+        {
+            "Q": "Was the total Carbon Emissions in 1989 higher or lower than in 1990?",
+            "A": "The total carbon emissions in {1989} was {lower} than in {1990}."
+        },
+        {
+            "Q": "Between 1993 and 1994, was the average total Carbon Emissions higher or lower than between 1992 and 1993?",
+            "A": "The average total carbon emissions between {1993} and {1994} was {higher} than between {1992} and {1993}."
+        },
+        {
+            "Q": "Was the total Carbon Emissions in 1990 higher or lower than in 1994?",
+            "A": "The total carbon emissions in {1990} was {lower} than in {1994}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

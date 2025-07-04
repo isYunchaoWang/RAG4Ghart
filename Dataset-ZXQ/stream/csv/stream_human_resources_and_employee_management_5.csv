@@ -1,0 +1,16 @@
+Human Resources and Employee Management,Absenteeism Rate,%
+Year,Research & Development,Administrative Support,Operations Staff,Human Resources,Sales Team
+trend,stable_rising,stable_falling,volatile_falling,stable_falling,exponential_rising
+1996,3.84,4.15,3.55,3.9,4.09
+1997,4.18,4.12,4.0,4.1,4.4
+1998,4.34,4.2,3.72,4.12,4.96
+1999,4.81,4.2,2.88,4.39,5.57
+2000,4.99,4.56,3.12,4.45,5.86
+2001,4.87,4.51,3.23,4.81,6.41
+2002,5.22,4.89,2.16,4.63,6.79
+2003,5.36,4.86,2.71,4.78,7.77
+2004,5.56,5.14,2.46,4.93,8.78
+2005,5.79,5.01,1.89,5.2,9.56
+2006,6.22,5.24,1.67,5.19,10.24
+2007,6.28,5.3,1.87,5.25,11.48
+2008,6.53,5.23,1.23,5.45,12.35

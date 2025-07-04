@@ -1,0 +1,67 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {5} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Film Screenings show?",
+            "A": "The ridgeline representing Film Screenings shows a {Periodic fluctuation}."
+        },
+        {
+            "Q": "At what value do  Theater Performances reach its peaks?",
+            "A": "At {82.98}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Music Festivals} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =57.1?",
+            "A": "At X =57.1,the label with the highest density is {Food Festivals}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 42? Please list the countries and corresponding peak values.",
+            "A": "{Film Screenings}'s peak at {83},{Theater Performances}'s peak at {83},{Traditional Ceremonies}'s peak at {82}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 71? Please list the countries and corresponding peak values.",
+            "A": "{Music Festivals}'s peak at {10},{Food Festivals}'s peak at {25}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Music Festivals or Film Screenings?",
+            "A": "{Film Screenings} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Food Festivals or Music Festivals?",
+            "A": "{Food Festivals} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Traditional Ceremonies or Music Festivals?",
+            "A": "{Traditional Ceremonies} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Food Festivals or Theater Performances?",
+            "A": "{Theater Performances} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

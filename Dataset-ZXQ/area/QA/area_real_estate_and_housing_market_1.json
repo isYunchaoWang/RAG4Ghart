@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total home sales?",
+            "A": "The series with the largest contribution is {Aether Market}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total home sales?",
+            "A": "The series with the smallest contribution is {Crimson Bazaar}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Aether Market's Home Sales in 1989?",
+            "A": "Aether Market's home sales in 1989 is {1902.49} units/month."
+        },
+        {
+            "Q": "What is Silverleaf Emporium's Home Sales in 1988?",
+            "A": "Silverleaf Emporium's home sales in 1988 is {1539.59} units/month."
+        },
+        {
+            "Q": "What is Crimson Bazaar's Home Sales in 1987?",
+            "A": "Crimson Bazaar's home sales in 1987 is {293.52} units/month."
+        },
+        {
+            "Q": "What are the home sales of Silverleaf Emporium, Crimson Bazaar, and Aether Market in 1990?",
+            "A": "Silverleaf Emporium's home sales is {1720.70} units/month, Crimson Bazaar's home sales is {289.43} units/month, Aether Market's home sales is {2183.63} units/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Home Sales in the stacked area chart?",
+            "A": "The global minimum total home sales is {3845.36} units/month."
+        },
+        {
+            "Q": "What is the global maximum total Home Sales in the stacked area chart?",
+            "A": "The global maximum total home sales is {7373.33} units/month."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Echo Trade's Home Sales area?",
+            "A": "The average height of Echo Trade's home sales area is {1411.79} units/month."
+        },
+        {
+            "Q": "What is the average height of Silverleaf Emporium's Home Sales area?",
+            "A": "The average height of Silverleaf Emporium's home sales area is {1656.10} units/month."
+        },
+        {
+            "Q": "What is the average height of Crimson Bazaar's Home Sales area?",
+            "A": "The average height of Crimson Bazaar's home sales area is {336.80} units/month."
+        },
+        {
+            "Q": "What is the average height of Aether Market's Home Sales area?",
+            "A": "The average height of Aether Market's home sales area is {2059.14} units/month."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Home Sales fall between 5174 and 5719 units/month? Please list the years and corresponding total values.",
+            "A": "total value was {5543.97} units/month in {1992}, total value was {5387.10} units/month in {1991}, total value was {5569.08} units/month in {1990}."
+        },
+        {
+            "Q": "Which years did the total Home Sales go below 4594 units/month? Please list the years and corresponding total values.",
+            "A": "total value was {4529.43} units/month in {1982}, total value was {4094.22} units/month in {1977}, total value was {4199.62} units/month in {1983}."
+        },
+        {
+            "Q": "Which years did the total Home Sales exceed 6298 units/month? Please list the years and corresponding total values.",
+            "A": "total value was {6508.44} units/month in {1998}, total value was {6572.21} units/month in {2000}, total value was {6438.61} units/month in {1997}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1977 and 1994, did the total Home Sales experience a larger or smaller change than between 1977 and 1978?",
+            "A": "The change in total home sales between {1977} and {1994} was {larger} than between {1977} and {1978}."
+        },
+        {
+            "Q": "Between 2001 and 2003, was the average total Home Sales higher or lower than between 1978 and 1993?",
+            "A": "The average total home sales between {2001} and {2003} was {higher} than between {1978} and {1993}."
+        },
+        {
+            "Q": "Was the total Home Sales in 1989 higher or lower than in 1994?",
+            "A": "The total home sales in {1989} was {lower} than in {1994}."
+        },
+        {
+            "Q": "Between 1991 and 2003, did the total Home Sales experience a larger or smaller change than between 1980 and 1985?",
+            "A": "The change in total home sales between {1991} and {2003} was {larger} than between {1980} and {1985}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

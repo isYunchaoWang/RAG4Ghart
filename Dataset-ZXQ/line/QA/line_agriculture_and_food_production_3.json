@@ -1,0 +1,213 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Golden Harvest Cooperative's Livestock Production levels?",
+            "A": "Golden Harvest Cooperative's Livestock Production levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Starfall Organics's Livestock Production levels?",
+            "A": "Starfall Organics's Livestock Production levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Riverbend Plantation's Livestock Production levels?",
+            "A": "Riverbend Plantation's Livestock Production levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Ranch's Livestock Production levels?",
+            "A": "Ironwood Ranch's Livestock Production levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Misty Meadow Acres's Livestock Production levels?",
+            "A": "Misty Meadow Acres's Livestock Production levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Sunstone Farms's Livestock Production levels?",
+            "A": "Sunstone Farms's Livestock Production levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Livestock Production levels?",
+            "A": "{Golden Harvest Cooperative}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Livestock Production levels?",
+            "A": "{Starfall Organics}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Livestock Production levels?",
+            "A": "{Riverbend Plantation}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Livestock Production levels?",
+            "A": "{Sunstone Farms}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Livestock Production level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {50337.13} tons in 1971."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {500.00} tons in 1994."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch reached approximately {53408.63} tons in 1973."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch's lowest recorded level is approximately {9904.53} tons in 1986."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Misty Meadow Acres?",
+            "A": "Misty Meadow Acres reached approximately {47579.34} tons in 1972."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Misty Meadow Acres?",
+            "A": "Misty Meadow Acres's lowest recorded level is approximately {500.00} tons in 1996."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Riverbend Plantation?",
+            "A": "Riverbend Plantation reached approximately {89943.33} tons in 1991."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Riverbend Plantation?",
+            "A": "Riverbend Plantation's lowest recorded level is approximately {60752.90} tons in 1971."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Starfall Organics?",
+            "A": "Starfall Organics reached approximately {50659.36} tons in 1971."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Starfall Organics?",
+            "A": "Starfall Organics's lowest recorded level is approximately {10178.60} tons in 1986."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Sunstone Farms?",
+            "A": "Sunstone Farms reached approximately {63448.87} tons in 1977."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Sunstone Farms?",
+            "A": "Sunstone Farms's lowest recorded level is approximately {36578.22} tons in 1990."
+        },
+        {
+            "Q": "What is Sunstone Farms's Livestock Production in 1970?",
+            "A": "Sunstone Farms's livestock production in 1970 is {50856.94} tons."
+        },
+        {
+            "Q": "What is Ironwood Ranch's Livestock Production in 1970?",
+            "A": "Ironwood Ranch's livestock production in 1970 is {42063.19} tons."
+        },
+        {
+            "Q": "What is Starfall Organics's Livestock Production in 1970?",
+            "A": "Starfall Organics's livestock production in 1970 is {45117.15} tons."
+        },
+        {
+            "Q": "What are the livestock production of Golden Harvest Cooperative, Starfall Organics, and Riverbend Plantation in 1970?",
+            "A": "{Golden Harvest Cooperative}'s livestock production is {50337.13} tons, {Starfall Organics}'s livestock production is {50659.36} tons, {Riverbend Plantation}'s livestock production is {60752.90} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Livestock Production in the line chart?",
+            "A": "The global minimum livestock production is {500.00} tons."
+        },
+        {
+            "Q": "What is the global maximum Livestock Production in the line chart?",
+            "A": "The global maximum livestock production is {89943.33} tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Golden Harvest Cooperative's Livestock Production?",
+            "A": "The average value of Golden Harvest Cooperative's Livestock Production is {15532.10} tons."
+        },
+        {
+            "Q": "What is the average value of Ironwood Ranch's Livestock Production?",
+            "A": "The average value of Ironwood Ranch's Livestock Production is {33509.22} tons."
+        },
+        {
+            "Q": "What is the average value of Misty Meadow Acres's Livestock Production?",
+            "A": "The average value of Misty Meadow Acres's Livestock Production is {15842.27} tons."
+        },
+        {
+            "Q": "What is the average value of Riverbend Plantation's Livestock Production?",
+            "A": "The average value of Riverbend Plantation's Livestock Production is {80093.98} tons."
+        },
+        {
+            "Q": "What is the average value of Starfall Organics's Livestock Production?",
+            "A": "The average value of Starfall Organics's Livestock Production is {34622.31} tons."
+        },
+        {
+            "Q": "What is the average value of Sunstone Farms's Livestock Production?",
+            "A": "The average value of Sunstone Farms's Livestock Production is {50367.64} tons."
+        },
+        {
+            "Q": "What is the rate of change in Golden Harvest Cooperative's Livestock Production from the starting year to the final year?",
+            "A": "The rate of change in Golden Harvest Cooperative's Livestock Production is {-94.10}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Ranch's Livestock Production from the starting year to the final year?",
+            "A": "The rate of change in Ironwood Ranch's Livestock Production is {-3.89}%."
+        },
+        {
+            "Q": "What is the rate of change in Misty Meadow Acres's Livestock Production from the starting year to the final year?",
+            "A": "The rate of change in Misty Meadow Acres's Livestock Production is {-93.17}%."
+        },
+        {
+            "Q": "What is the rate of change in Riverbend Plantation's Livestock Production from the starting year to the final year?",
+            "A": "The rate of change in Riverbend Plantation's Livestock Production is {1.43}%."
+        },
+        {
+            "Q": "What is the rate of change in Starfall Organics's Livestock Production from the starting year to the final year?",
+            "A": "The rate of change in Starfall Organics's Livestock Production is {-5.86}%."
+        },
+        {
+            "Q": "What is the rate of change in Sunstone Farms's Livestock Production from the starting year to the final year?",
+            "A": "The rate of change in Sunstone Farms's Livestock Production is {-11.81}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Riverbend Plantation's Livestock Production exceed 85865 tons? Please list the years and corresponding values.",
+            "A": "87032.03 tons in {1978.0} year, 88409.17 tons in {1980.0} year, 89316.07 tons in {1981.0} year."
+        },
+        {
+            "Q": "Which years did Riverbend Plantation's Livestock Production below 77083 tons? Please list the years and corresponding values.",
+            "A": "60752.90 tons in {1971.0} year, 65206.43 tons in {1972.0} year, 73686.78 tons in {1973.0} year."
+        },
+        {
+            "Q": "Which years did Riverbend Plantation's Livestock Production between 73326 and 89621 tons? Please list the years and corresponding values.",
+            "A": "73686.78 tons in {1973.0} year, 78542.10 tons in {1974.0} year, 83731.17 tons in {1975.0} year."
+        },
+        {
+            "Q": "In the year 1985, which line had Livestock Production exceed 27367 tons? Please list the lines and corresponding values.",
+            "A": "{Riverbend Plantation} had 73808 tons, {Sunstone Farms} had 38661 tons."
+        },
+        {
+            "Q": "In the year 1985, which lines had Livestock Production below 10359 tons? Please list the lines and corresponding values.",
+            "A": "{Golden Harvest Cooperative} had 7540 tons, {Misty Meadow Acres} had 9894 tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Livestock Production, Golden Harvest Cooperative, Riverbend Plantation, Sunstone Farms, or Misty Meadow Acres?",
+            "A": "In 1970, {Riverbend Plantation} had the highest livestock production."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

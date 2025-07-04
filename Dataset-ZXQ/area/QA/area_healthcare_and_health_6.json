@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total healthcare expenditure?",
+            "A": "The series with the largest contribution is {Borealis Wellness Council}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total healthcare expenditure?",
+            "A": "The series with the smallest contribution is {Stellar Public Health}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Zenith Medical Foundation's Healthcare Expenditure in 1959?",
+            "A": "Zenith Medical Foundation's healthcare expenditure in 1959 is {1477348933.82} $."
+        },
+        {
+            "Q": "What is Aethelgard Medical Board's Healthcare Expenditure in 1960?",
+            "A": "Aethelgard Medical Board's healthcare expenditure in 1960 is {1379575843.70} $."
+        },
+        {
+            "Q": "What is Aethelgard Medical Board's Healthcare Expenditure in 1967?",
+            "A": "Aethelgard Medical Board's healthcare expenditure in 1967 is {1452138257.95} $."
+        },
+        {
+            "Q": "What are the healthcare expenditure of Meridian Healthcare Group (Public), Borealis Wellness Council, and Lumina Health Authority in 1958?",
+            "A": "Meridian Healthcare Group (Public)'s healthcare expenditure is {1300849904.21} $, Borealis Wellness Council's healthcare expenditure is {1924421289.42} $, Lumina Health Authority's healthcare expenditure is {1532603689.81} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Healthcare Expenditure in the stacked area chart?",
+            "A": "The global minimum total healthcare expenditure is {5778625984.79} $."
+        },
+        {
+            "Q": "What is the global maximum total Healthcare Expenditure in the stacked area chart?",
+            "A": "The global maximum total healthcare expenditure is {12267544560.00} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Stellar Public Health's Healthcare Expenditure area?",
+            "A": "The average height of Stellar Public Health's healthcare expenditure area is {485061304.02} $."
+        },
+        {
+            "Q": "What is the average height of Zenith Medical Foundation's Healthcare Expenditure area?",
+            "A": "The average height of Zenith Medical Foundation's healthcare expenditure area is {1440528799.48} $."
+        },
+        {
+            "Q": "What is the average height of Aethelgard Medical Board's Healthcare Expenditure area?",
+            "A": "The average height of Aethelgard Medical Board's healthcare expenditure area is {1255858454.34} $."
+        },
+        {
+            "Q": "What is the average height of Borealis Wellness Council's Healthcare Expenditure area?",
+            "A": "The average height of Borealis Wellness Council's healthcare expenditure area is {2384910608.91} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Healthcare Expenditure fall between 7940043775 and 8775837856 $? Please list the years and corresponding total values.",
+            "A": "total value was {8633079230.18} $ in {1959}."
+        },
+        {
+            "Q": "Which years did the total Healthcare Expenditure go below 7081597124 $? Please list the years and corresponding total values.",
+            "A": "total value was {6820370545.99} $ in {1955}, total value was {6096364276.59} $ in {1952}, total value was {6384780833.84} $ in {1954}."
+        },
+        {
+            "Q": "Which years did the total Healthcare Expenditure exceed 9634284507 $? Please list the years and corresponding total values.",
+            "A": "total value was {9995878892.72} $ in {1963}, total value was {11403671462.25} $ in {1966}, total value was {12267544560} $ in {1967}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1954 and 1959, did the total Healthcare Expenditure experience a larger or smaller change than between 1958 and 1962?",
+            "A": "The change in total healthcare expenditure between {1954} and {1959} was {larger} than between {1958} and {1962}."
+        },
+        {
+            "Q": "Between 1952 and 1960, was the average total Healthcare Expenditure higher or lower than between 1952 and 1967?",
+            "A": "The average total healthcare expenditure between {1952} and {1960} was {lower} than between {1952} and {1967}."
+        },
+        {
+            "Q": "Between 1952 and 1957, did the total Healthcare Expenditure experience a larger or smaller change than between 1951 and 1952?",
+            "A": "The change in total healthcare expenditure between {1952} and {1957} was {larger} than between {1951} and {1952}."
+        },
+        {
+            "Q": "Between 1966 and 1967, did the total Healthcare Expenditure experience a larger or smaller change than between 1960 and 1966?",
+            "A": "The change in total healthcare expenditure between {1966} and {1967} was {smaller} than between {1960} and {1966}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

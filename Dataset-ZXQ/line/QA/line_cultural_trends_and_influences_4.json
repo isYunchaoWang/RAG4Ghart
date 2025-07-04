@@ -1,0 +1,177 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Whispering Canvas's Art Gallery Visitors levels?",
+            "A": "Whispering Canvas's Art Gallery Visitors levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Stellar Exhibit Hall's Art Gallery Visitors levels?",
+            "A": "Stellar Exhibit Hall's Art Gallery Visitors levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Sculpture Garden's Art Gallery Visitors levels?",
+            "A": "Zenith Sculpture Garden's Art Gallery Visitors levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Art Collective's Art Gallery Visitors levels?",
+            "A": "Meridian Art Collective's Art Gallery Visitors levels show a {single valley} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Art Gallery Visitors levels?",
+            "A": "{Whispering Canvas}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Art Gallery Visitors levels?",
+            "A": "{Stellar Exhibit Hall}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Art Gallery Visitors levels?",
+            "A": "{Zenith Sculpture Garden}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Art Gallery Visitors levels?",
+            "A": "{Meridian Art Collective}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Art Gallery Visitors level recorded for Meridian Art Collective?",
+            "A": "Meridian Art Collective reached approximately {285438.02} visitors in 1976."
+        },
+        {
+            "Q": "What is the lowest Art Gallery Visitors level recorded for Meridian Art Collective?",
+            "A": "Meridian Art Collective's lowest recorded level is approximately {80608.69} visitors in 1985."
+        },
+        {
+            "Q": "What is the highest Art Gallery Visitors level recorded for Stellar Exhibit Hall?",
+            "A": "Stellar Exhibit Hall reached approximately {592112.93} visitors in 1986."
+        },
+        {
+            "Q": "What is the lowest Art Gallery Visitors level recorded for Stellar Exhibit Hall?",
+            "A": "Stellar Exhibit Hall's lowest recorded level is approximately {295261.30} visitors in 1976."
+        },
+        {
+            "Q": "What is the highest Art Gallery Visitors level recorded for Whispering Canvas?",
+            "A": "Whispering Canvas reached approximately {569043.87} visitors in 1993."
+        },
+        {
+            "Q": "What is the lowest Art Gallery Visitors level recorded for Whispering Canvas?",
+            "A": "Whispering Canvas's lowest recorded level is approximately {314639.29} visitors in 1976."
+        },
+        {
+            "Q": "What is the highest Art Gallery Visitors level recorded for Zenith Sculpture Garden?",
+            "A": "Zenith Sculpture Garden reached approximately {1965056.80} visitors in 1996."
+        },
+        {
+            "Q": "What is the lowest Art Gallery Visitors level recorded for Zenith Sculpture Garden?",
+            "A": "Zenith Sculpture Garden's lowest recorded level is approximately {277723.76} visitors in 1976."
+        },
+        {
+            "Q": "What is Zenith Sculpture Garden's Art Gallery Visitors in 1970?",
+            "A": "Zenith Sculpture Garden's art gallery visitors in 1970 is {669782.79} visitors."
+        },
+        {
+            "Q": "What is Stellar Exhibit Hall's Art Gallery Visitors in 1970?",
+            "A": "Stellar Exhibit Hall's art gallery visitors in 1970 is {314518.10} visitors."
+        },
+        {
+            "Q": "What is Whispering Canvas's Art Gallery Visitors in 1970?",
+            "A": "Whispering Canvas's art gallery visitors in 1970 is {384387.79} visitors."
+        },
+        {
+            "Q": "What are the art gallery visitors of Whispering Canvas, Stellar Exhibit Hall, and Zenith Sculpture Garden in 1970?",
+            "A": "{Whispering Canvas}'s art gallery visitors is {314639.29} visitors, {Stellar Exhibit Hall}'s art gallery visitors is {295261.30} visitors, {Zenith Sculpture Garden}'s art gallery visitors is {277723.76} visitors."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Art Gallery Visitors in the line chart?",
+            "A": "The global minimum art gallery visitors is {80608.69} visitors."
+        },
+        {
+            "Q": "What is the global maximum Art Gallery Visitors in the line chart?",
+            "A": "The global maximum art gallery visitors is {1965056.80} visitors."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Meridian Art Collective's Art Gallery Visitors?",
+            "A": "The average value of Meridian Art Collective's Art Gallery Visitors is {171443.47} visitors."
+        },
+        {
+            "Q": "What is the average value of Stellar Exhibit Hall's Art Gallery Visitors?",
+            "A": "The average value of Stellar Exhibit Hall's Art Gallery Visitors is {438528.43} visitors."
+        },
+        {
+            "Q": "What is the average value of Whispering Canvas's Art Gallery Visitors?",
+            "A": "The average value of Whispering Canvas's Art Gallery Visitors is {458605.80} visitors."
+        },
+        {
+            "Q": "What is the average value of Zenith Sculpture Garden's Art Gallery Visitors?",
+            "A": "The average value of Zenith Sculpture Garden's Art Gallery Visitors is {908644.46} visitors."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Art Collective's Art Gallery Visitors from the starting year to the final year?",
+            "A": "The rate of change in Meridian Art Collective's Art Gallery Visitors is {-25.67}%."
+        },
+        {
+            "Q": "What is the rate of change in Stellar Exhibit Hall's Art Gallery Visitors from the starting year to the final year?",
+            "A": "The rate of change in Stellar Exhibit Hall's Art Gallery Visitors is {6.52}%."
+        },
+        {
+            "Q": "What is the rate of change in Whispering Canvas's Art Gallery Visitors from the starting year to the final year?",
+            "A": "The rate of change in Whispering Canvas's Art Gallery Visitors is {77.71}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Sculpture Garden's Art Gallery Visitors from the starting year to the final year?",
+            "A": "The rate of change in Zenith Sculpture Garden's Art Gallery Visitors is {607.56}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Zenith Sculpture Garden's Art Gallery Visitors exceed 1156488 visitors? Please list the years and corresponding values.",
+            "A": "1239606.98 visitors in {1991.0} year, 1366755.39 visitors in {1992.0} year, 1541263.69 visitors in {1993.0} year."
+        },
+        {
+            "Q": "Which years did Zenith Sculpture Garden's Art Gallery Visitors below 509885 visitors? Please list the years and corresponding values.",
+            "A": "277723.76 visitors in {1976.0} year, 279387.78 visitors in {1977.0} year, 347340.89 visitors in {1978.0} year."
+        },
+        {
+            "Q": "Which years did Zenith Sculpture Garden's Art Gallery Visitors between 749868 and 916505 visitors? Please list the years and corresponding values.",
+            "A": "801231 visitors in {1986.0} year, 872494 visitors in {1987.0} year, 891177.43 visitors in {1988.0} year."
+        },
+        {
+            "Q": "In the year 1979, which line had Art Gallery Visitors exceed 390265 visitors? Please list the lines and corresponding values.",
+            "A": "{Zenith Sculpture Garden} had 434596 visitors."
+        },
+        {
+            "Q": "In the year 1979, which lines had Art Gallery Visitors below 336897 visitors? Please list the lines and corresponding values.",
+            "A": "{Meridian Art Collective} had 190764 visitors."
+        },
+        {
+            "Q": "In the year 1979, which lines had Art Gallery Visitors between 327223 and 399939 visitors? Please list the lines and corresponding values.",
+            "A": "{Whispering Canvas} had 385339 visitors, {Stellar Exhibit Hall} had 353134 visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Art Gallery Visitors, Zenith Sculpture Garden, Meridian Art Collective, Stellar Exhibit Hall, or Whispering Canvas?",
+            "A": "In 1970, {Whispering Canvas} had the highest art gallery visitors."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

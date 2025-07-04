@@ -1,0 +1,217 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Premium Users's Average Watch Time levels?",
+            "A": "Premium Users's Average Watch Time levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Heavy Users's Average Watch Time levels?",
+            "A": "Heavy Users's Average Watch Time levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Mobile Users's Average Watch Time levels?",
+            "A": "Mobile Users's Average Watch Time levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of New Users's Average Watch Time levels?",
+            "A": "New Users's Average Watch Time levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Casual Users's Average Watch Time levels?",
+            "A": "Casual Users's Average Watch Time levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Free Users's Average Watch Time levels?",
+            "A": "Free Users's Average Watch Time levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Average Watch Time levels?",
+            "A": "{Premium Users}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Average Watch Time levels?",
+            "A": "{Heavy Users}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Average Watch Time levels?",
+            "A": "{Mobile Users}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Average Watch Time levels?",
+            "A": "{New Users}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Average Watch Time levels?",
+            "A": "{Casual Users}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Average Watch Time level recorded for Casual Users?",
+            "A": "Casual Users reached approximately {80.19} minutes in 1974."
+        },
+        {
+            "Q": "What is the lowest Average Watch Time level recorded for Casual Users?",
+            "A": "Casual Users's lowest recorded level is approximately {32.86} minutes in 1956."
+        },
+        {
+            "Q": "What is the highest Average Watch Time level recorded for Free Users?",
+            "A": "Free Users reached approximately {60.17} minutes in 1973."
+        },
+        {
+            "Q": "What is the lowest Average Watch Time level recorded for Free Users?",
+            "A": "Free Users's lowest recorded level is approximately {29.59} minutes in 1959."
+        },
+        {
+            "Q": "What is the highest Average Watch Time level recorded for Heavy Users?",
+            "A": "Heavy Users reached approximately {56.78} minutes in 1974."
+        },
+        {
+            "Q": "What is the lowest Average Watch Time level recorded for Heavy Users?",
+            "A": "Heavy Users's lowest recorded level is approximately {27.97} minutes in 1957."
+        },
+        {
+            "Q": "What is the highest Average Watch Time level recorded for Mobile Users?",
+            "A": "Mobile Users reached approximately {36.00} minutes in 1956."
+        },
+        {
+            "Q": "What is the lowest Average Watch Time level recorded for Mobile Users?",
+            "A": "Mobile Users's lowest recorded level is approximately {0.30} minutes in 1969."
+        },
+        {
+            "Q": "What is the highest Average Watch Time level recorded for New Users?",
+            "A": "New Users reached approximately {34.44} minutes in 1956."
+        },
+        {
+            "Q": "What is the lowest Average Watch Time level recorded for New Users?",
+            "A": "New Users's lowest recorded level is approximately {3.10} minutes in 1973."
+        },
+        {
+            "Q": "What is the highest Average Watch Time level recorded for Premium Users?",
+            "A": "Premium Users reached approximately {25.10} minutes in 1974."
+        },
+        {
+            "Q": "What is the lowest Average Watch Time level recorded for Premium Users?",
+            "A": "Premium Users's lowest recorded level is approximately {5.99} minutes in 1965."
+        },
+        {
+            "Q": "What is Premium Users's Average Watch Time in 1970?",
+            "A": "Premium Users's average watch time in 1970 is {9.05} minutes."
+        },
+        {
+            "Q": "What is Premium Users's Average Watch Time in 1970?",
+            "A": "Premium Users's average watch time in 1970 is {22.27} minutes."
+        },
+        {
+            "Q": "What is Mobile Users's Average Watch Time in 1970?",
+            "A": "Mobile Users's average watch time in 1970 is {16.77} minutes."
+        },
+        {
+            "Q": "What are the average watch time of Premium Users, Heavy Users, and Mobile Users in 1970?",
+            "A": "{Premium Users}'s average watch time is {24.08} minutes, {Heavy Users}'s average watch time is {29.15} minutes, {Mobile Users}'s average watch time is {36.00} minutes."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Average Watch Time in the line chart?",
+            "A": "The global minimum average watch time is {0.30} minutes."
+        },
+        {
+            "Q": "What is the global maximum Average Watch Time in the line chart?",
+            "A": "The global maximum average watch time is {80.19} minutes."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Casual Users's Average Watch Time?",
+            "A": "The average value of Casual Users's Average Watch Time is {52.27} minutes."
+        },
+        {
+            "Q": "What is the average value of Free Users's Average Watch Time?",
+            "A": "The average value of Free Users's Average Watch Time is {43.43} minutes."
+        },
+        {
+            "Q": "What is the average value of Heavy Users's Average Watch Time?",
+            "A": "The average value of Heavy Users's Average Watch Time is {43.75} minutes."
+        },
+        {
+            "Q": "What is the average value of Mobile Users's Average Watch Time?",
+            "A": "The average value of Mobile Users's Average Watch Time is {14.33} minutes."
+        },
+        {
+            "Q": "What is the average value of New Users's Average Watch Time?",
+            "A": "The average value of New Users's Average Watch Time is {13.99} minutes."
+        },
+        {
+            "Q": "What is the average value of Premium Users's Average Watch Time?",
+            "A": "The average value of Premium Users's Average Watch Time is {15.38} minutes."
+        },
+        {
+            "Q": "What is the rate of change in Casual Users's Average Watch Time from the starting year to the final year?",
+            "A": "The rate of change in Casual Users's Average Watch Time is {144.04}%."
+        },
+        {
+            "Q": "What is the rate of change in Free Users's Average Watch Time from the starting year to the final year?",
+            "A": "The rate of change in Free Users's Average Watch Time is {89.26}%."
+        },
+        {
+            "Q": "What is the rate of change in Heavy Users's Average Watch Time from the starting year to the final year?",
+            "A": "The rate of change in Heavy Users's Average Watch Time is {94.79}%."
+        },
+        {
+            "Q": "What is the rate of change in Mobile Users's Average Watch Time from the starting year to the final year?",
+            "A": "The rate of change in Mobile Users's Average Watch Time is {-99.17}%."
+        },
+        {
+            "Q": "What is the rate of change in New Users's Average Watch Time from the starting year to the final year?",
+            "A": "The rate of change in New Users's Average Watch Time is {-70.93}%."
+        },
+        {
+            "Q": "What is the rate of change in Premium Users's Average Watch Time from the starting year to the final year?",
+            "A": "The rate of change in Premium Users's Average Watch Time is {4.24}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Mobile Users's Average Watch Time exceed 23 minutes? Please list the years and corresponding values.",
+            "A": "36 minutes in {1956.0} year, 34.45 minutes in {1957.0} year, 25.05 minutes in {1958.0} year."
+        },
+        {
+            "Q": "Which years did Mobile Users's Average Watch Time below 4 minutes? Please list the years and corresponding values.",
+            "A": "4.06 minutes in {1966.0} year, 0.30 minutes in {1969.0} year, 2.29 minutes in {1970.0} year."
+        },
+        {
+            "Q": "Which years did Mobile Users's Average Watch Time between 12 and 15 minutes? Please list the years and corresponding values.",
+            "A": "14.99 minutes in {1962.0} year."
+        },
+        {
+            "Q": "In the year 1969, which line had Average Watch Time exceed 55 minutes? Please list the lines and corresponding values.",
+            "A": "{Heavy Users} had 57 minutes, {Casual Users} had 61 minutes."
+        },
+        {
+            "Q": "In the year 1969, which lines had Average Watch Time below 10 minutes? Please list the lines and corresponding values.",
+            "A": "{Mobile Users} had 0 minutes, {New Users} had 8 minutes."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Average Watch Time, Premium Users, Casual Users, Mobile Users, or Heavy Users?",
+            "A": "In 1970, {Mobile Users} had the highest average watch time."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

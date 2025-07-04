@@ -1,0 +1,81 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {3} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Time spent (minutes/day)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Time spent (minutes/day) and dimension Follower growth rate (%)",
+            "A": "There is {No Correlation} between Time spent (minutes/day) and Follower growth rate (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of ViewTube on the Time spent (minutes/day) dimension in the parallel-coordinates chart?",
+            "A": "The value of ViewTube on the Time spent (minutes/day) dimension is {127.44}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Chirper across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Chirper across all dimensions is {150.06}"
+        },
+        {
+            "Q": "What is the minimum value of label ProfConnect across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of ProfConnect across all dimensions is {0.1}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Follower growth rate (%)?",
+            "A": "The average value of Follower growth rate (%) is {21.9}"
+        },
+        {
+            "Q": "What is the difference in coding Time spent (minutes/day) between label GhostPic and label ProfConnect",
+            "A": "The difference in coding Time spent (minutes/day) between GhostPic and ProfConnect is {114.52}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Virality coefficient (shares/view) dimension in the parallel coordinates?",
+            "A": "{[5.0, 4.08, 3.79]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Follower growth rate (%) dimension in the parallel coordinates?",
+            "A": "{[-5.0, 0.91, 14.04]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Follower growth rate (%), which label has a higher score: ProfConnect or GhostPic?",
+            "A": "{ProfConnect} has a higher score on Follower growth rate (%)."
+        },
+        {
+            "Q": "On Virality coefficient (shares/view), which label has a higher score: ProfConnect or GhostPic?",
+            "A": "{ProfConnect} has a higher score on Virality coefficient (shares/view)."
+        },
+        {
+            "Q": "On Follower growth rate (%), which label has a higher score: ViewTube or GhostPic?",
+            "A": "{GhostPic} has a higher score on Follower growth rate (%)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

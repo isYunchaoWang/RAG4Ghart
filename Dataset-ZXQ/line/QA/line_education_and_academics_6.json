@@ -1,0 +1,173 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Celestial College Archives's Library Visits levels?",
+            "A": "Celestial College Archives's Library Visits levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Tech Library's Library Visits levels?",
+            "A": "Zenith Tech Library's Library Visits levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Digital Repository's Library Visits levels?",
+            "A": "Silverhaven Digital Repository's Library Visits levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Academy Collection's Library Visits levels?",
+            "A": "Meridian Academy Collection's Library Visits levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Library Visits levels?",
+            "A": "{Celestial College Archives}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Library Visits levels?",
+            "A": "{Zenith Tech Library}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Library Visits levels?",
+            "A": "{Silverhaven Digital Repository}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Library Visits levels?",
+            "A": "{Meridian Academy Collection}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Library Visits level recorded for Celestial College Archives?",
+            "A": "Celestial College Archives reached approximately {187960.60} visits/year in 1958."
+        },
+        {
+            "Q": "What is the lowest Library Visits level recorded for Celestial College Archives?",
+            "A": "Celestial College Archives's lowest recorded level is approximately {95008.00} visits/year in 1951."
+        },
+        {
+            "Q": "What is the highest Library Visits level recorded for Meridian Academy Collection?",
+            "A": "Meridian Academy Collection reached approximately {128081.90} visits/year in 1954."
+        },
+        {
+            "Q": "What is the lowest Library Visits level recorded for Meridian Academy Collection?",
+            "A": "Meridian Academy Collection's lowest recorded level is approximately {99821.59} visits/year in 1953."
+        },
+        {
+            "Q": "What is the highest Library Visits level recorded for Silverhaven Digital Repository?",
+            "A": "Silverhaven Digital Repository reached approximately {159476.10} visits/year in 1958."
+        },
+        {
+            "Q": "What is the lowest Library Visits level recorded for Silverhaven Digital Repository?",
+            "A": "Silverhaven Digital Repository's lowest recorded level is approximately {98790.87} visits/year in 1952."
+        },
+        {
+            "Q": "What is the highest Library Visits level recorded for Zenith Tech Library?",
+            "A": "Zenith Tech Library reached approximately {120173.36} visits/year in 1957."
+        },
+        {
+            "Q": "What is the lowest Library Visits level recorded for Zenith Tech Library?",
+            "A": "Zenith Tech Library's lowest recorded level is approximately {79440.77} visits/year in 1955."
+        },
+        {
+            "Q": "What is Celestial College Archives's Library Visits in 1970?",
+            "A": "Celestial College Archives's library visits in 1970 is {122397.22} visits/year."
+        },
+        {
+            "Q": "What is Silverhaven Digital Repository's Library Visits in 1970?",
+            "A": "Silverhaven Digital Repository's library visits in 1970 is {134873.19} visits/year."
+        },
+        {
+            "Q": "What is Celestial College Archives's Library Visits in 1970?",
+            "A": "Celestial College Archives's library visits in 1970 is {147714.23} visits/year."
+        },
+        {
+            "Q": "What are the library visits of Celestial College Archives, Zenith Tech Library, and Silverhaven Digital Repository in 1970?",
+            "A": "{Celestial College Archives}'s library visits is {95008.00} visits/year, {Zenith Tech Library}'s library visits is {99167.12} visits/year, {Silverhaven Digital Repository}'s library visits is {101204.24} visits/year."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Library Visits in the line chart?",
+            "A": "The global minimum library visits is {79440.77} visits/year."
+        },
+        {
+            "Q": "What is the global maximum Library Visits in the line chart?",
+            "A": "The global maximum library visits is {187960.60} visits/year."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Celestial College Archives's Library Visits?",
+            "A": "The average value of Celestial College Archives's Library Visits is {137621.47} visits/year."
+        },
+        {
+            "Q": "What is the average value of Meridian Academy Collection's Library Visits?",
+            "A": "The average value of Meridian Academy Collection's Library Visits is {112925.48} visits/year."
+        },
+        {
+            "Q": "What is the average value of Silverhaven Digital Repository's Library Visits?",
+            "A": "The average value of Silverhaven Digital Repository's Library Visits is {133321.08} visits/year."
+        },
+        {
+            "Q": "What is the average value of Zenith Tech Library's Library Visits?",
+            "A": "The average value of Zenith Tech Library's Library Visits is {104314.69} visits/year."
+        },
+        {
+            "Q": "What is the rate of change in Celestial College Archives's Library Visits from the starting year to the final year?",
+            "A": "The rate of change in Celestial College Archives's Library Visits is {97.84}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Academy Collection's Library Visits from the starting year to the final year?",
+            "A": "The rate of change in Meridian Academy Collection's Library Visits is {10.72}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Digital Repository's Library Visits from the starting year to the final year?",
+            "A": "The rate of change in Silverhaven Digital Repository's Library Visits is {57.58}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Tech Library's Library Visits from the starting year to the final year?",
+            "A": "The rate of change in Zenith Tech Library's Library Visits is {17.95}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Silverhaven Digital Repository's Library Visits exceed 151738 visits/year? Please list the years and corresponding values.",
+            "A": "152375.99 visits/year in {1956.0} year, 156204.10 visits/year in {1957.0} year, 159476.10 visits/year in {1958.0} year."
+        },
+        {
+            "Q": "Which years did Silverhaven Digital Repository's Library Visits below 119371 visits/year? Please list the years and corresponding values.",
+            "A": "101204.24 visits/year in {1951.0} year, 98790.87 visits/year in {1952.0} year, 117648.29 visits/year in {1953.0} year."
+        },
+        {
+            "Q": "Which years did Silverhaven Digital Repository's Library Visits between 121999 and 149110 visits/year? Please list the years and corresponding values.",
+            "A": "145995.85 visits/year in {1954.0} year, 134873.19 visits/year in {1955.0} year."
+        },
+        {
+            "Q": "In the year 1958, which line had Library Visits exceed 162325 visits/year? Please list the lines and corresponding values.",
+            "A": "{Celestial College Archives} had 187961 visits/year."
+        },
+        {
+            "Q": "In the year 1958, which lines had Library Visits below 123314 visits/year? Please list the lines and corresponding values.",
+            "A": "{Zenith Tech Library} had 116967 visits/year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Library Visits, Zenith Tech Library or Silverhaven Digital Repository?",
+            "A": "In 1970, {Silverhaven Digital Repository} had a higher library visits."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

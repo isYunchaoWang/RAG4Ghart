@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {1} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total patent applications?",
+            "A": "The series with the largest contribution is {Starburst Enterprises}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total patent applications?",
+            "A": "The series with the smallest contribution is {Starburst Enterprises}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Starburst Enterprises's Patent Applications in 1974?",
+            "A": "Starburst Enterprises's patent applications in 1974 is {9140.22} applications."
+        },
+        {
+            "Q": "What is Starburst Enterprises's Patent Applications in 1965?",
+            "A": "Starburst Enterprises's patent applications in 1965 is {7205.59} applications."
+        },
+        {
+            "Q": "What is Starburst Enterprises's Patent Applications in 1958?",
+            "A": "Starburst Enterprises's patent applications in 1958 is {5879.10} applications."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Patent Applications in the stacked area chart?",
+            "A": "The global minimum total patent applications is {4817.90} applications."
+        },
+        {
+            "Q": "What is the global maximum total Patent Applications in the stacked area chart?",
+            "A": "The global maximum total patent applications is {10007.64} applications."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Starburst Enterprises's Patent Applications area?",
+            "A": "The average height of Starburst Enterprises's patent applications area is {7039.00} applications."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Patent Applications fall between 6800 and 7516 applications? Please list the years and corresponding total values.",
+            "A": "total value was {7205.59} applications in {1965}, total value was {7361.77} applications in {1975}."
+        },
+        {
+            "Q": "Which years did the total Patent Applications exceed 8185 applications? Please list the years and corresponding total values.",
+            "A": "total value was {8395.99} applications in {1971}, total value was {8614.63} applications in {1980}, total value was {8924.17} applications in {1981}."
+        },
+        {
+            "Q": "Which years did the total Patent Applications go below 6130 applications? Please list the years and corresponding total values.",
+            "A": "total value was {5130.50} applications in {1955}, total value was {5332.10} applications in {1953}, total value was {6007.17} applications in {1954}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1978 and 1982, did the total Patent Applications experience a larger or smaller change than between 1956 and 1972?",
+            "A": "The change in total patent applications between {1978} and {1982} was {smaller} than between {1956} and {1972}."
+        },
+        {
+            "Q": "Between 1955 and 1973, was the average total Patent Applications higher or lower than between 1963 and 1964?",
+            "A": "The average total patent applications between {1955} and {1973} was {higher} than between {1963} and {1964}."
+        },
+        {
+            "Q": "Was the total Patent Applications in 1965 higher or lower than in 1971?",
+            "A": "The total patent applications in {1965} was {lower} than in {1971}."
+        },
+        {
+            "Q": "Was the total Patent Applications in 1957 higher or lower than in 1961?",
+            "A": "The total patent applications in {1957} was {lower} than in {1961}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

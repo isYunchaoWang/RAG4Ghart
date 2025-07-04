@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Salary range (USD thousands) and dimension Remote work allowance (days/week)",
+            "A": "There is {Strong Correlation} between Salary range (USD thousands) and Remote work allowance (days/week)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Stone, Salas and Mitchell on the Bonus percentage (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Stone, Salas and Mitchell on the Bonus percentage (%) dimension is {50.0}"
+        },
+        {
+            "Q": "What is the value of Cortez, Lin and Ortiz on the Salary range (USD thousands) dimension in the parallel-coordinates chart?",
+            "A": "The value of Cortez, Lin and Ortiz on the Salary range (USD thousands) dimension is {389.41}"
+        },
+        {
+            "Q": "What is the value of Jackson PLC on the Remote work allowance (days/week) dimension in the parallel-coordinates chart?",
+            "A": "The value of Jackson PLC on the Remote work allowance (days/week) dimension is {0.11}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Stone, Salas and Mitchell across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Stone, Salas and Mitchell across all dimensions is {12395.27}"
+        },
+        {
+            "Q": "What is the minimum value of label Cortez, Lin and Ortiz across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Cortez, Lin and Ortiz across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Overtime hours/month(hours)?",
+            "A": "The average value of Overtime hours/month(hours) is {24.29}"
+        },
+        {
+            "Q": "What is the difference in coding Salary range (USD thousands) between label Galvan, Smith and Ortega and label Stone, Salas and Mitchell",
+            "A": "The difference in coding Salary range (USD thousands) between Galvan, Smith and Ortega and Stone, Salas and Mitchell is {480.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Benefits cost (USD/year) dimension in the parallel coordinates?",
+            "A": "{[20000.0, 13424.03, 12395.27]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Overtime hours/month(hours) dimension in the parallel coordinates?",
+            "A": "{[0.0, 23.08, 34.07]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Overtime hours/month(hours), which label has a higher score: Stone, Salas and Mitchell or Jackson PLC?",
+            "A": "{Jackson PLC} has a higher score on Overtime hours/month(hours)."
+        },
+        {
+            "Q": "On Salary range (USD thousands), which label has a higher score: Cortez, Lin and Ortiz or Stone, Salas and Mitchell?",
+            "A": "{Cortez, Lin and Ortiz} has a higher score on Salary range (USD thousands)."
+        },
+        {
+            "Q": "On Salary range (USD thousands), which label has a higher score: Galvan, Smith and Ortega or Stone, Salas and Mitchell?",
+            "A": "{Galvan, Smith and Ortega} has a higher score on Salary range (USD thousands)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

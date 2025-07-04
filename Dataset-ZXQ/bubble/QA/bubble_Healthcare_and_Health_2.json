@@ -1,0 +1,88 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bubble chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this bubble chart?",
+            "A": "There are {11} bubbles."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Where is the highest concentration of bubbles located in terms of Medical costs and Recovery rate?",
+            "A": "The highest concentration of bubbles corresponds to approximately {50277.34} $ and {78.69} %."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the Number of hospital stays of the largest bubble?",
+            "A": "The Number of hospital stays of the largest bubble is {30.00} days/year."
+        },
+        {
+            "Q": "What is the Number of hospital stays of the smallest bubble?",
+            "A": "The Number of hospital stays of the smallest bubble is {0.10} days/year."
+        },
+        {
+            "Q": "What are the Number of hospital stays and Recovery rate values of the largest bubble?",
+            "A": "The Number of hospital stays of the largest bubble is {30.00} days/year, and the Recovery rate value is {51.69} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Number of hospital stays in the bubble chart?",
+            "A": "The global maximum Number of hospital stays is {30.00} days/year."
+        },
+        {
+            "Q": "What is the global minimum Number of hospital stays in the bubble chart?",
+            "A": "The global minimum Number of hospital stays is {0.10} days/year."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Medical costs in the bubble chart?",
+            "A": "The maximum observed value in the Medical costs dimension is {94312.70} $."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Medical costs in the bubble chart?",
+            "A": "The minimum observed value in the Medical costs dimension is {100.00} $."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Recovery rate in the bubble chart?",
+            "A": "The maximum observed value in the Recovery rate dimension is {91.78} %."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Recovery rate in the bubble chart?",
+            "A": "The minimum observed value in the Recovery rate dimension is {51.05} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Number of hospital stays for all bubbles?",
+            "A": "The average value of the Number of hospital stays for all bubbles is {17.98} days/year."
+        },
+        {
+            "Q": "What is the average value of the Medical costs for all bubbles?",
+            "A": "The average value of Medical costs for all bubbles is {44045.38} $."
+        },
+        {
+            "Q": "What is the average value of the Recovery rate for all bubbles?",
+            "A": "The average value of Recovery rate for all bubbles is {66.26} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 Number of hospital stays values in the bubble chart?",
+            "A": "{30.00, 28.46, 23.70} days/year."
+        },
+        {
+            "Q": "What are the bottom 3 Number of hospital stays values in the bubble chart?",
+            "A": "{0.10, 8.90, 11.07} days/year."
+        }
+    ],
+    "NC": [],
+    "MSR": [],
+    "VA": []
+}

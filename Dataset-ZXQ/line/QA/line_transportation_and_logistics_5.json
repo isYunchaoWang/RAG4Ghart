@@ -1,0 +1,153 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Automated Hubs's Warehouse Utilization levels?",
+            "A": "Automated Hubs's Warehouse Utilization levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Perishable Goods's Warehouse Utilization levels?",
+            "A": "Perishable Goods's Warehouse Utilization levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Bonded Storage's Warehouse Utilization levels?",
+            "A": "Bonded Storage's Warehouse Utilization levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Seasonal Facilities's Warehouse Utilization levels?",
+            "A": "Seasonal Facilities's Warehouse Utilization levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Warehouse Utilization levels?",
+            "A": "{Automated Hubs}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Warehouse Utilization levels?",
+            "A": "{Perishable Goods}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Warehouse Utilization level recorded for Automated Hubs?",
+            "A": "Automated Hubs reached approximately {100.00} % in 1957."
+        },
+        {
+            "Q": "What is the lowest Warehouse Utilization level recorded for Automated Hubs?",
+            "A": "Automated Hubs's lowest recorded level is approximately {78.26} % in 1955."
+        },
+        {
+            "Q": "What is the highest Warehouse Utilization level recorded for Bonded Storage?",
+            "A": "Bonded Storage reached approximately {100.00} % in 1954."
+        },
+        {
+            "Q": "What is the lowest Warehouse Utilization level recorded for Bonded Storage?",
+            "A": "Bonded Storage's lowest recorded level is approximately {100.00} % in 1954."
+        },
+        {
+            "Q": "What is the highest Warehouse Utilization level recorded for Perishable Goods?",
+            "A": "Perishable Goods reached approximately {100.00} % in 1954."
+        },
+        {
+            "Q": "What is the lowest Warehouse Utilization level recorded for Perishable Goods?",
+            "A": "Perishable Goods's lowest recorded level is approximately {100.00} % in 1954."
+        },
+        {
+            "Q": "What is the highest Warehouse Utilization level recorded for Seasonal Facilities?",
+            "A": "Seasonal Facilities reached approximately {100.00} % in 1957."
+        },
+        {
+            "Q": "What is the lowest Warehouse Utilization level recorded for Seasonal Facilities?",
+            "A": "Seasonal Facilities's lowest recorded level is approximately {79.61} % in 1954."
+        },
+        {
+            "Q": "What is Seasonal Facilities's Warehouse Utilization in 1970?",
+            "A": "Seasonal Facilities's warehouse utilization in 1970 is {95.09} %."
+        },
+        {
+            "Q": "What is Perishable Goods's Warehouse Utilization in 1970?",
+            "A": "Perishable Goods's warehouse utilization in 1970 is {100.00} %."
+        },
+        {
+            "Q": "What is Seasonal Facilities's Warehouse Utilization in 1970?",
+            "A": "Seasonal Facilities's warehouse utilization in 1970 is {100.00} %."
+        },
+        {
+            "Q": "What are the warehouse utilization of Automated Hubs, Perishable Goods, and Bonded Storage in 1970?",
+            "A": "{Automated Hubs}'s warehouse utilization is {82.20} %, {Perishable Goods}'s warehouse utilization is {100.00} %, {Bonded Storage}'s warehouse utilization is {100.00} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Warehouse Utilization in the line chart?",
+            "A": "The global minimum warehouse utilization is {78.26} %."
+        },
+        {
+            "Q": "What is the global maximum Warehouse Utilization in the line chart?",
+            "A": "The global maximum warehouse utilization is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Automated Hubs's Warehouse Utilization?",
+            "A": "The average value of Automated Hubs's Warehouse Utilization is {94.15} %."
+        },
+        {
+            "Q": "What is the average value of Bonded Storage's Warehouse Utilization?",
+            "A": "The average value of Bonded Storage's Warehouse Utilization is {100.00} %."
+        },
+        {
+            "Q": "What is the average value of Perishable Goods's Warehouse Utilization?",
+            "A": "The average value of Perishable Goods's Warehouse Utilization is {100.00} %."
+        },
+        {
+            "Q": "What is the average value of Seasonal Facilities's Warehouse Utilization?",
+            "A": "The average value of Seasonal Facilities's Warehouse Utilization is {95.13} %."
+        },
+        {
+            "Q": "What is the rate of change in Automated Hubs's Warehouse Utilization from the starting year to the final year?",
+            "A": "The rate of change in Automated Hubs's Warehouse Utilization is {21.65}%."
+        },
+        {
+            "Q": "What is the rate of change in Bonded Storage's Warehouse Utilization from the starting year to the final year?",
+            "A": "The rate of change in Bonded Storage's Warehouse Utilization is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Perishable Goods's Warehouse Utilization from the starting year to the final year?",
+            "A": "The rate of change in Perishable Goods's Warehouse Utilization is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Seasonal Facilities's Warehouse Utilization from the starting year to the final year?",
+            "A": "The rate of change in Seasonal Facilities's Warehouse Utilization is {25.61}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Perishable Goods's Warehouse Utilization between 90 and 110 %? Please list the years and corresponding values.",
+            "A": "100 % in {1954.0} year, 100 % in {1955.0} year, 100 % in {1956.0} year."
+        },
+        {
+            "Q": "In the year 1958, which lines had Warehouse Utilization between 90 and 110 %? Please list the lines and corresponding values.",
+            "A": "{Automated Hubs} had 100 %, {Perishable Goods} had 100 %, {Bonded Storage} had 100 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Warehouse Utilization, Automated Hubs, Seasonal Facilities, or Bonded Storage?",
+            "A": "In 1970, {Bonded Storage} had the highest warehouse utilization."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

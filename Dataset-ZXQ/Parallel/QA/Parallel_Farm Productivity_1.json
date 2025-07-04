@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Water usage (liters/kg)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Labor efficiency (acres/worker) and dimension Water usage (liters/kg)",
+            "A": "There is {No Correlation} between Labor efficiency (acres/worker) and Water usage (liters/kg)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of though  Apple on the Labor efficiency (acres/worker) dimension in the parallel-coordinates chart?",
+            "A": "The value of though  Apple on the Labor efficiency (acres/worker) dimension is {120.55}"
+        },
+        {
+            "Q": "What is the value of place  Corn on the Water usage (liters/kg) dimension in the parallel-coordinates chart?",
+            "A": "The value of place  Corn on the Water usage (liters/kg) dimension is {477.4}"
+        },
+        {
+            "Q": "What is the value of though  Apple on the Harvest frequency (per year) dimension in the parallel-coordinates chart?",
+            "A": "The value of though  Apple on the Harvest frequency (per year) dimension is {1.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label place  Corn across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of place  Corn across all dimensions is {485.1}"
+        },
+        {
+            "Q": "What is the minimum value of label choice  Apple across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of choice  Apple across all dimensions is {1.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Soil health index (1-10)?",
+            "A": "The average value of Soil health index (1-10) is {5.41}"
+        },
+        {
+            "Q": "What is the difference in coding Soil health index (1-10) between label choice  Apple and label information  Corn",
+            "A": "The difference in coding Soil health index (1-10) between choice  Apple and information  Corn is {8.18}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Labor efficiency (acres/worker) dimension in the parallel coordinates?",
+            "A": "{[1000.0, 497.93, 485.1]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Harvest frequency (per year) dimension in the parallel coordinates?",
+            "A": "{[1.0, 1.19, 1.19]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Yield per acre (tons), which label has a higher score: place  Corn or though  Apple?",
+            "A": "{though  Apple} has a higher score on Yield per acre (tons)."
+        },
+        {
+            "Q": "On Harvest frequency (per year), which label has a higher score: information  Corn or place  Corn?",
+            "A": "{information  Corn} has a higher score on Harvest frequency (per year)."
+        },
+        {
+            "Q": "On Yield per acre (tons), which label has a higher score: heart  Apple or information  Corn?",
+            "A": "{heart  Apple} has a higher score on Yield per acre (tons)."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

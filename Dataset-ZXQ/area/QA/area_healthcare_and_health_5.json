@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total patient satisfaction?",
+            "A": "The series with the largest contribution is {Chronic Condition Patients}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total patient satisfaction?",
+            "A": "The series with the smallest contribution is {Senior Care Group}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Chronic Condition Patients's Patient Satisfaction in 1962?",
+            "A": "Chronic Condition Patients's patient satisfaction in 1962 is {89.39} %."
+        },
+        {
+            "Q": "What is Outpatient Visitors's Patient Satisfaction in 1965?",
+            "A": "Outpatient Visitors's patient satisfaction in 1965 is {67.56} %."
+        },
+        {
+            "Q": "What is Outpatient Visitors's Patient Satisfaction in 1963?",
+            "A": "Outpatient Visitors's patient satisfaction in 1963 is {100} %."
+        },
+        {
+            "Q": "What are the patient satisfaction of Senior Care Group, Outpatient Visitors, and Wellness Program Participants in 1968?",
+            "A": "Senior Care Group's patient satisfaction is {46.44} %, Outpatient Visitors's patient satisfaction is {100} %, Wellness Program Participants's patient satisfaction is {100} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Patient Satisfaction in the stacked area chart?",
+            "A": "The global minimum total patient satisfaction is {302.31} %."
+        },
+        {
+            "Q": "What is the global maximum total Patient Satisfaction in the stacked area chart?",
+            "A": "The global maximum total patient satisfaction is {367.07} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Chronic Condition Patients's Patient Satisfaction area?",
+            "A": "The average height of Chronic Condition Patients's patient satisfaction area is {97.21} %."
+        },
+        {
+            "Q": "What is the average height of Wellness Program Participants's Patient Satisfaction area?",
+            "A": "The average height of Wellness Program Participants's patient satisfaction area is {96.64} %."
+        },
+        {
+            "Q": "What is the average height of Outpatient Visitors's Patient Satisfaction area?",
+            "A": "The average height of Outpatient Visitors's patient satisfaction area is {86.44} %."
+        },
+        {
+            "Q": "What is the average height of Senior Care Group's Patient Satisfaction area?",
+            "A": "The average height of Senior Care Group's patient satisfaction area is {59.98} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Patient Satisfaction exceed 350 %? Please list the years and corresponding total values.",
+            "A": "total value was {367.07} % in {1963}, total value was {353.01} % in {1961}, total value was {365.65} % in {1962}."
+        },
+        {
+            "Q": "Which years did the total Patient Satisfaction fall between 324 and 358 %? Please list the years and corresponding total values.",
+            "A": "total value was {346.53} % in {1967}, total value was {349.26} % in {1966}, total value was {335.59} % in {1964}."
+        },
+        {
+            "Q": "Which years did the total Patient Satisfaction go below 332 %? Please list the years and corresponding total values.",
+            "A": "total value was {314.07} % in {1969}, total value was {322.79} % in {1965}, total value was {302.31} % in {1970}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1962 and 1968, did the total Patient Satisfaction experience a larger or smaller change than between 1966 and 1969?",
+            "A": "The change in total patient satisfaction between {1962} and {1968} was {smaller} than between {1966} and {1969}."
+        },
+        {
+            "Q": "Between 1962 and 1967, was the average total Patient Satisfaction higher or lower than between 1963 and 1965?",
+            "A": "The average total patient satisfaction between {1962} and {1967} was {higher} than between {1963} and {1965}."
+        },
+        {
+            "Q": "Between 1963 and 1964, was the average total Patient Satisfaction higher or lower than between 1961 and 1967?",
+            "A": "The average total patient satisfaction between {1963} and {1964} was {higher} than between {1961} and {1967}."
+        },
+        {
+            "Q": "Was the total Patient Satisfaction in 1961 higher or lower than in 1970?",
+            "A": "The total patient satisfaction in {1961} was {higher} than in {1970}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

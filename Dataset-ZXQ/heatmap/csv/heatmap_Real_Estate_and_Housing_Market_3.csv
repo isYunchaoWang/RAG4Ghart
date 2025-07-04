@@ -1,0 +1,82 @@
+Real Estate and Housing Market,the Comparison of Real Estate and Housing Market,9x9,horizontal_gradient
+Appraisal,Affordability,0.75
+Construction,Affordability,0.65
+Development,Affordability,0.54
+Industrial,Affordability,0.49
+Mortgages,Affordability,0.39
+Property Management,Affordability,0.31
+REITs,Affordability,0.29
+Rental,Affordability,0.27
+Residential,Affordability,0.28
+Appraisal,Age,0.81
+Construction,Age,0.67
+Development,Age,0.55
+Industrial,Age,0.46
+Mortgages,Age,0.36
+Property Management,Age,0.32
+REITs,Age,0.31
+Rental,Age,0.23
+Residential,Age,0.22
+Appraisal,Condition,0.78
+Construction,Condition,0.65
+Development,Condition,0.56
+Industrial,Condition,0.47
+Mortgages,Condition,0.43
+Property Management,Condition,0.34
+REITs,Condition,0.26
+Rental,Condition,0.28
+Residential,Condition,0.23
+Appraisal,Demand,0.77
+Construction,Demand,0.64
+Development,Demand,0.55
+Industrial,Demand,0.47
+Mortgages,Demand,0.38
+Property Management,Demand,0.33
+REITs,Demand,0.27
+Rental,Demand,0.27
+Residential,Demand,0.27
+Appraisal,Interest Rates,0.78
+Construction,Interest Rates,0.68
+Development,Interest Rates,0.53
+Industrial,Interest Rates,0.46
+Mortgages,Interest Rates,0.38
+Property Management,Interest Rates,0.34
+REITs,Interest Rates,0.28
+Rental,Interest Rates,0.24
+Residential,Interest Rates,0.26
+Appraisal,Market Trends,0.75
+Construction,Market Trends,0.65
+Development,Market Trends,0.55
+Industrial,Market Trends,0.47
+Mortgages,Market Trends,0.38
+Property Management,Market Trends,0.34
+REITs,Market Trends,0.28
+Rental,Market Trends,0.23
+Residential,Market Trends,0.27
+Appraisal,Price,0.8
+Construction,Price,0.64
+Development,Price,0.54
+Industrial,Price,0.47
+Mortgages,Price,0.4
+Property Management,Price,0.31
+REITs,Price,0.32
+Rental,Price,0.29
+Residential,Price,0.3
+Appraisal,Size,0.74
+Construction,Size,0.65
+Development,Size,0.56
+Industrial,Size,0.43
+Mortgages,Size,0.41
+Property Management,Size,0.34
+REITs,Size,0.32
+Rental,Size,0.31
+Residential,Size,0.28
+Appraisal,Supply,0.76
+Construction,Supply,0.67
+Development,Supply,0.53
+Industrial,Supply,0.42
+Mortgages,Supply,0.35
+Property Management,Supply,0.33
+REITs,Supply,0.3
+Rental,Supply,0.3
+Residential,Supply,0.26

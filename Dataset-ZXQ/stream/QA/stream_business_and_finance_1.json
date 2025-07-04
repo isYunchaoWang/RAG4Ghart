@@ -1,0 +1,141 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stream chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many streams are in this stream chart?",
+            "A": "There are {3} streams."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of NovaTech Solutions's Revenue Growth levels?",
+            "A": "NovaTech Solutions's Revenue Growth levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Apex Systems's Revenue Growth levels?",
+            "A": "Apex Systems's Revenue Growth levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Vanguard Dynamics's Revenue Growth levels?",
+            "A": "Vanguard Dynamics's Revenue Growth levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which Vanguard Dynamics's shows a exponential falling trend?",
+            "A": "{NovaTech Solutions}."
+        },
+        {
+            "Q": "Which Vanguard Dynamics's shows a stable rising trend?",
+            "A": "{Apex Systems}."
+        },
+        {
+            "Q": "Which Vanguard Dynamics's shows a stable falling trend?",
+            "A": "{Vanguard Dynamics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Revenue Growth level recorded for Apex Systems?",
+            "A": "Apex Systems reached approximately {19952033.45} $ in 1995."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for Apex Systems?",
+            "A": "Apex Systems's lowest recorded level is approximately {9964546.60} $ in 1979."
+        },
+        {
+            "Q": "What is the highest Revenue Growth level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions reached approximately {10408749.42} $ in 1979."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions's lowest recorded level is approximately {583394.90} $ in 1992."
+        },
+        {
+            "Q": "What is the highest Revenue Growth level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics reached approximately {17161970.10} $ in 1997."
+        },
+        {
+            "Q": "What is the lowest Revenue Growth level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics's lowest recorded level is approximately {9702811.29} $ in 1979."
+        },
+        {
+            "Q": "What is Vanguard Dynamics's Revenue Growth in 1970?",
+            "A": "Vanguard Dynamics's revenue growth in 1970 is {11159375.61} $."
+        },
+        {
+            "Q": "What is Apex Systems's Revenue Growth in 1970?",
+            "A": "Apex Systems's revenue growth in 1970 is {15553231.80} $."
+        },
+        {
+            "Q": "What is NovaTech Solutions's Revenue Growth in 1970?",
+            "A": "NovaTech Solutions's revenue growth in 1970 is {6744726.99} $."
+        },
+        {
+            "Q": "What are the revenue growth of NovaTech Solutions, Apex Systems, and Vanguard Dynamics in 1970?",
+            "A": "{NovaTech Solutions}'s revenue growth is {10408749.42} $, {Apex Systems}'s revenue growth is {9964546.60} $, {Vanguard Dynamics}'s revenue growth is {9702811.29} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Revenue Growth in the line chart?",
+            "A": "The global minimum revenue growth is {583394.90} $."
+        },
+        {
+            "Q": "What is the global maximum Revenue Growth in the line chart?",
+            "A": "The global maximum revenue growth is {19952033.45} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Apex Systems's Revenue Growth?",
+            "A": "The average height of Apex Systems's Revenue Growth is {14540338.00} $."
+        },
+        {
+            "Q": "What is the average height of NovaTech Solutions's Revenue Growth?",
+            "A": "The average height of NovaTech Solutions's Revenue Growth is {4583025.45} $."
+        },
+        {
+            "Q": "What is the average height of Vanguard Dynamics's Revenue Growth?",
+            "A": "The average height of Vanguard Dynamics's Revenue Growth is {12822445.52} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Apex Systems's Revenue Growth exceed 16078122 $? Please list the years and corresponding values.",
+            "A": "16167153.09 $ in {1989.0} year, 16427023.75 $ in {1991.0} year, 16210715.14 $ in {1992.0} year."
+        },
+        {
+            "Q": "Which years did Apex Systems's Revenue Growth below 12708990 $? Please list the years and corresponding values.",
+            "A": "9964546.60 $ in {1979.0} year, 11258045.42 $ in {1980.0} year, 10076835.37 $ in {1981.0} year."
+        },
+        {
+            "Q": "Which years did Apex Systems's Revenue Growth between 12954200 and 15832911 $? Please list the years and corresponding values.",
+            "A": "13009574.52 $ in {1986.0} year, 13053900.80 $ in {1987.0} year, 15524412.66 $ in {1988.0} year."
+        },
+        {
+            "Q": "In the year 1979, which line had Revenue Growth exceed 10142228 $? Please list the lines and corresponding values.",
+            "A": "{NovaTech Solutions} had 10408749 $."
+        },
+        {
+            "Q": "In the year 1979, which lines had Revenue Growth below 9859852 $? Please list the lines and corresponding values.",
+            "A": "{Vanguard Dynamics} had 9702811 $."
+        },
+        {
+            "Q": "In the year 1979, which lines had Revenue Growth between 9000936 and 11001144 $? Please list the lines and corresponding values.",
+            "A": "{NovaTech Solutions} had 10408749 $, {Apex Systems} had 9964547 $, {Vanguard Dynamics} had 9702811 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Revenue Growth, Apex Systems, NovaTech Solutions, or Vanguard Dynamics?",
+            "A": "In 1970, {NovaTech Solutions} had the highest revenue growth."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

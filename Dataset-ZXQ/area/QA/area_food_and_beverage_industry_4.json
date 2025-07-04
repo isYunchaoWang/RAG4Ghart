@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total average order value?",
+            "A": "The series with the largest contribution is {Breakfast Rush Order}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total average order value?",
+            "A": "The series with the smallest contribution is {Seasonal Special Order}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Seasonal Special Order's Average Order Value in 1981?",
+            "A": "Seasonal Special Order's average order value in 1981 is {36.35} $."
+        },
+        {
+            "Q": "What is Breakfast Rush Order's Average Order Value in 1992?",
+            "A": "Breakfast Rush Order's average order value in 1992 is {125.78} $."
+        },
+        {
+            "Q": "What is Seasonal Special Order's Average Order Value in 1983?",
+            "A": "Seasonal Special Order's average order value in 1983 is {38.59} $."
+        },
+        {
+            "Q": "What are the average order value of Breakfast Rush Order, Seasonal Special Order, and Premium Delivery in 2002?",
+            "A": "Breakfast Rush Order's average order value is {325.21} $, Seasonal Special Order's average order value is {67.33} $, Premium Delivery's average order value is {88.87} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Average Order Value in the stacked area chart?",
+            "A": "The global minimum total average order value is {87.16} $."
+        },
+        {
+            "Q": "What is the global maximum total Average Order Value in the stacked area chart?",
+            "A": "The global maximum total average order value is {562.63} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Seasonal Special Order's Average Order Value area?",
+            "A": "The average height of Seasonal Special Order's average order value area is {49.76} $."
+        },
+        {
+            "Q": "What is the average height of Premium Delivery's Average Order Value area?",
+            "A": "The average height of Premium Delivery's average order value area is {61.89} $."
+        },
+        {
+            "Q": "What is the average height of Breakfast Rush Order's Average Order Value area?",
+            "A": "The average height of Breakfast Rush Order's average order value area is {143.97} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Average Order Value go below 156 $? Please list the years and corresponding total values.",
+            "A": "total value was {119.04} $ in {1981}, total value was {145.89} $ in {1984}, total value was {135.17} $ in {1983}."
+        },
+        {
+            "Q": "Which years did the total Average Order Value fall between 222 and 246 $? Please list the years and corresponding total values.",
+            "A": "total value was {225.58} $ in {1991}."
+        },
+        {
+            "Q": "Which years did the total Average Order Value exceed 312 $? Please list the years and corresponding total values.",
+            "A": "total value was {481.41} $ in {2002}, total value was {562.63} $ in {2004}, total value was {313.99} $ in {1996}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1991 and 1997, was the average total Average Order Value higher or lower than between 1986 and 1994?",
+            "A": "The average total average order value between {1991} and {1997} was {higher} than between {1986} and {1994}."
+        },
+        {
+            "Q": "Between 1984 and 1997, did the total Average Order Value experience a larger or smaller change than between 1978 and 1980?",
+            "A": "The change in total average order value between {1984} and {1997} was {larger} than between {1978} and {1980}."
+        },
+        {
+            "Q": "Between 1983 and 2002, did the total Average Order Value experience a larger or smaller change than between 1980 and 1982?",
+            "A": "The change in total average order value between {1983} and {2002} was {larger} than between {1980} and {1982}."
+        },
+        {
+            "Q": "Between 1984 and 1993, was the average total Average Order Value higher or lower than between 1992 and 1997?",
+            "A": "The average total average order value between {1984} and {1993} was {lower} than between {1992} and {1997}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

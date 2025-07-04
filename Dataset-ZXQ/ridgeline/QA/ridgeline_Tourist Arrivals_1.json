@@ -1,0 +1,67 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {7} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Luxury Tourists show?",
+            "A": "The ridgeline representing Luxury Tourists shows a {Periodic fluctuation}."
+        },
+        {
+            "Q": "At what value do  Luxury Tourists reach its peaks?",
+            "A": "At {799799.8}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Business Travelers} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =425242.9?",
+            "A": "At X =425242.9,the label with the highest density is {Adventure Seekers}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 302752? Please list the countries and corresponding peak values.",
+            "A": "{Cultural Tourists}'s peak at {845846},{Adventure Seekers}'s peak at {823824},{Luxury Tourists}'s peak at {799800}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 332228? Please list the countries and corresponding peak values.",
+            "A": "{Eco-tourists}'s peak at {89089},{Backpackers}'s peak at {128128},{Business Travelers}'s peak at {105105},{Leisure Travelers}'s peak at {120120}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Cultural Tourists or Adventure Seekers?",
+            "A": "{Cultural Tourists} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Adventure Seekers or Cultural Tourists?",
+            "A": "{Cultural Tourists} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Backpackers or Leisure Travelers?",
+            "A": "{Backpackers} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Business Travelers or Luxury Tourists?",
+            "A": "{Luxury Tourists} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

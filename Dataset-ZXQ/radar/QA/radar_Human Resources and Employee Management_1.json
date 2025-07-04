@@ -1,0 +1,85 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Pay Equity Ratio} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Johnson, Harrell and Wilkins?",
+            "A": "The strongest aspect is {Pay Equity Ratio}, while the weakest aspect is{ Skill Proficiency Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Johnson, Harrell and Wilkins on the Skill Proficiency Rate in the radar chart?",
+            "A": "The value of Johnson, Harrell and Wilkins on the Safety dimension is {32}."
+        },
+        {
+            "Q": "What is the value of Johnson, Harrell and Wilkins on the Job Satisfaction in the radar chart?",
+            "A": "The value of Johnson, Harrell and Wilkins on the Safety dimension is {56}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Johnson, Harrell and Wilkins across all dimensions in the radar chart?",
+            "A": "The maximum value of Johnson, Harrell and Wilkins across all dimensions is {50}."
+        },
+        {
+            "Q": "What is the minimum value of label Johnson, Harrell and Wilkins across all dimensions in the radar chart?",
+            "A": "The minimum value of Johnson, Harrell and Wilkins across all dimensions is {50}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of {Pay Equity Ratio}",
+            "A": "The average value of {Pay Equity Ratio} is {92.0}."
+        },
+        {
+            "Q": "What is the average value of {Johnson, Harrell and Wilkins}",
+            "A": "The average value of {Johnson, Harrell and Wilkins} is {59.4}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Johnson, Harrell and Wilkins in the radar chart, which dimensions have scores between 44 and 80? Please list the dimensions and corresponding scores.",
+            "A": "{Retention Rate} is {50}, {Time-to-Fill Rate} is {67}, {Job Satisfaction} is {56}"
+        },
+        {
+            "Q": "Which labels have scores above 50 for the Retention Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Johnson, Harrell and Wilkins} is {50}"
+        },
+        {
+            "Q": "For Johnson, Harrell and Wilkins in the radar chart, which dimensions have scores below 44? Please list the dimensions and corresponding scores.",
+            "A": "{Skill Proficiency Rate} is {32}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Johnson, Harrell and Wilkins, which dimension has a higher score: Skill Proficiency Rate or Job Satisfaction?",
+            "A": "{Job Satisfaction} has a higher score than Skill Proficiency Rate for Johnson, Harrell and Wilkins."
+        },
+        {
+            "Q": "For Johnson, Harrell and Wilkins, which dimension has a higher score: Pay Equity Ratio or Retention Rate or Skill Proficiency Rate?",
+            "A": "{Pay Equity Ratio} has a higher score for Johnson, Harrell and Wilkins."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

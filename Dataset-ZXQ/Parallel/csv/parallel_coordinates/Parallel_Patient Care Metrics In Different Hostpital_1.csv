@@ -1,0 +1,7 @@
+﻿Healthcare and Health,Patient Care Metrics In Different Hostpital
+labels,Staff-to-patient ratio (per shift),Medication error rate (per 1000),Wait time (minutes),Preventive care rate (%)
+Pattern,Strong Correlation,Strong Correlation,No Correlation
+Strickland-Zuniga  Hospital,20.0,20.0,240.0,10.0
+"Johnson, Evans and Hines  Medical Center",1.0,11.14,164.13,90.0
+King-Shelton  Clinic,7.96,11.3,147.49,40.93
+White PLC  Clinic,2.09,0.0,5.0,14.34

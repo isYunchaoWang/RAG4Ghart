@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total employee count?",
+            "A": "The series with the largest contribution is {Lumina Solutions}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total employee count?",
+            "A": "The series with the smallest contribution is {Meridian Dynamics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Zenith Enterprises's Employee Count in 1969?",
+            "A": "Zenith Enterprises's employee count in 1969 is {1422.47} employees."
+        },
+        {
+            "Q": "What is Verdant Ventures's Employee Count in 1961?",
+            "A": "Verdant Ventures's employee count in 1961 is {515.45} employees."
+        },
+        {
+            "Q": "What is Lumina Solutions's Employee Count in 1974?",
+            "A": "Lumina Solutions's employee count in 1974 is {2345.56} employees."
+        },
+        {
+            "Q": "What are the employee count of Meridian Dynamics, Zenith Enterprises, and Ironclad Industries in 1970?",
+            "A": "Meridian Dynamics's employee count is {106.73} employees, Zenith Enterprises's employee count is {1597.34} employees, Ironclad Industries's employee count is {187.36} employees."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Employee Count in the stacked area chart?",
+            "A": "The global minimum total employee count is {3568.18} employees."
+        },
+        {
+            "Q": "What is the global maximum total Employee Count in the stacked area chart?",
+            "A": "The global maximum total employee count is {9625.05} employees."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Skyward Systems's Employee Count area?",
+            "A": "The average height of Skyward Systems's employee count area is {1267.34} employees."
+        },
+        {
+            "Q": "What is the average height of Meridian Dynamics's Employee Count area?",
+            "A": "The average height of Meridian Dynamics's employee count area is {237.59} employees."
+        },
+        {
+            "Q": "What is the average height of Verdant Ventures's Employee Count area?",
+            "A": "The average height of Verdant Ventures's employee count area is {624.39} employees."
+        },
+        {
+            "Q": "What is the average height of AstraCorp's Employee Count area?",
+            "A": "The average height of AstraCorp's employee count area is {838.32} employees."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Employee Count go below 4270 employees? Please list the years and corresponding total values.",
+            "A": "total value was {3568.18} employees in {1958}, total value was {4248.23} employees in {1963}, total value was {4094.04} employees in {1962}."
+        },
+        {
+            "Q": "Which years did the total Employee Count fall between 5168 and 5712 employees? Please list the years and corresponding total values.",
+            "A": "total value was {5513.98} employees in {1967}."
+        },
+        {
+            "Q": "Which years did the total Employee Count exceed 6609 employees? Please list the years and corresponding total values.",
+            "A": "total value was {7158.40} employees in {1971}, total value was {9625.05} employees in {1975}, total value was {6665.13} employees in {1970}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1958 and 1962, did the total Employee Count experience a larger or smaller change than between 1967 and 1969?",
+            "A": "The change in total employee count between {1958} and {1962} was {smaller} than between {1967} and {1969}."
+        },
+        {
+            "Q": "Between 1972 and 1973, did the total Employee Count experience a larger or smaller change than between 1961 and 1962?",
+            "A": "The change in total employee count between {1972} and {1973} was {larger} than between {1961} and {1962}."
+        },
+        {
+            "Q": "Between 1958 and 1975, did the total Employee Count experience a larger or smaller change than between 1963 and 1967?",
+            "A": "The change in total employee count between {1958} and {1975} was {larger} than between {1963} and {1967}."
+        },
+        {
+            "Q": "Between 1963 and 1964, was the average total Employee Count higher or lower than between 1962 and 1970?",
+            "A": "The average total employee count between {1963} and {1964} was {lower} than between {1962} and {1970}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,59 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {7} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Frozen Foods show?",
+            "A": "The ridgeline representing Frozen Foods shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Organic Produce reach its peaks?",
+            "A": "At {50.65}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Plant-based Alternatives} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =18.1?",
+            "A": "At X =18.1,the label with the highest density is {Processed Foods}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 40? Please list the countries and corresponding peak values.",
+            "A": "{Organic Produce}'s peak at {51},{Conventional Farming}'s peak at {60},{Gourmet Ingredients}'s peak at {63},{Imported Goods}'s peak at {82}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 49? Please list the countries and corresponding peak values.",
+            "A": "{Plant-based Alternatives}'s peak at {9},{Processed Foods}'s peak at {12},{Frozen Foods}'s peak at {10}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Processed Foods or Imported Goods?",
+            "A": "{Imported Goods} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Processed Foods or Gourmet Ingredients?",
+            "A": "{Gourmet Ingredients} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

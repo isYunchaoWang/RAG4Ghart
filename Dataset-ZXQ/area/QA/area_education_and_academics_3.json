@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total graduation rate?",
+            "A": "The series with the largest contribution is {Silverhaven Polytechnic}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total graduation rate?",
+            "A": "The series with the smallest contribution is {Meridian Academy}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Silverhaven Polytechnic's Graduation Rate in 1962?",
+            "A": "Silverhaven Polytechnic's graduation rate in 1962 is {100} %."
+        },
+        {
+            "Q": "What is Meridian Academy's Graduation Rate in 1958?",
+            "A": "Meridian Academy's graduation rate in 1958 is {39.43} %."
+        },
+        {
+            "Q": "What is Silverhaven Polytechnic's Graduation Rate in 1960?",
+            "A": "Silverhaven Polytechnic's graduation rate in 1960 is {92.28} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Graduation Rate in the stacked area chart?",
+            "A": "The global minimum total graduation rate is {80.30} %."
+        },
+        {
+            "Q": "What is the global maximum total Graduation Rate in the stacked area chart?",
+            "A": "The global maximum total graduation rate is {186.86} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Silverhaven Polytechnic's Graduation Rate area?",
+            "A": "The average height of Silverhaven Polytechnic's graduation rate area is {88.68} %."
+        },
+        {
+            "Q": "What is the average height of Meridian Academy's Graduation Rate area?",
+            "A": "The average height of Meridian Academy's graduation rate area is {36.17} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Graduation Rate fall between 116 and 128 %? Please list the years and corresponding total values.",
+            "A": "total value was {125.48} % in {1960}, total value was {125.67} % in {1961}, total value was {116.47} % in {1967}."
+        },
+        {
+            "Q": "Which years did the total Graduation Rate exceed 135 %? Please list the years and corresponding total values.",
+            "A": "total value was {186.86} % in {1951}, total value was {171.83} % in {1952}, total value was {139.39} % in {1953}."
+        },
+        {
+            "Q": "Which years did the total Graduation Rate go below 109 %? Please list the years and corresponding total values.",
+            "A": "total value was {105.07} % in {1959}, total value was {100.22} % in {1963}, total value was {89.45} % in {1968}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1954 and 1958, did the total Graduation Rate experience a larger or smaller change than between 1954 and 1959?",
+            "A": "The change in total graduation rate between {1954} and {1958} was {smaller} than between {1954} and {1959}."
+        },
+        {
+            "Q": "Between 1955 and 1962, did the total Graduation Rate experience a larger or smaller change than between 1967 and 1970?",
+            "A": "The change in total graduation rate between {1955} and {1962} was {larger} than between {1967} and {1970}."
+        },
+        {
+            "Q": "Between 1971 and 1972, did the total Graduation Rate experience a larger or smaller change than between 1953 and 1964?",
+            "A": "The change in total graduation rate between {1971} and {1972} was {smaller} than between {1953} and {1964}."
+        },
+        {
+            "Q": "Was the total Graduation Rate in 1950 higher or lower than in 1957?",
+            "A": "The total graduation rate in {1950} was {higher} than in {1957}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

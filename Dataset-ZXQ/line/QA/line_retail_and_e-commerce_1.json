@@ -1,0 +1,241 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Subscription Members's Online Sales Volume levels?",
+            "A": "Subscription Members's Online Sales Volume levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Budget Shoppers's Online Sales Volume levels?",
+            "A": "Budget Shoppers's Online Sales Volume levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Millennials's Online Sales Volume levels?",
+            "A": "Millennials's Online Sales Volume levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Rural Buyers's Online Sales Volume levels?",
+            "A": "Rural Buyers's Online Sales Volume levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of International Customers's Online Sales Volume levels?",
+            "A": "International Customers's Online Sales Volume levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Urban Shoppers's Online Sales Volume levels?",
+            "A": "Urban Shoppers's Online Sales Volume levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Luxury Consumers's Online Sales Volume levels?",
+            "A": "Luxury Consumers's Online Sales Volume levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Online Sales Volume levels?",
+            "A": "{Subscription Members}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Online Sales Volume levels?",
+            "A": "{Budget Shoppers}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Online Sales Volume levels?",
+            "A": "{Millennials}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Online Sales Volume levels?",
+            "A": "{Rural Buyers}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Online Sales Volume levels?",
+            "A": "{Luxury Consumers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for Budget Shoppers?",
+            "A": "Budget Shoppers reached approximately {6048521.68} $ in 2000."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for Budget Shoppers?",
+            "A": "Budget Shoppers's lowest recorded level is approximately {50000.00} $ in 2007."
+        },
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for International Customers?",
+            "A": "International Customers reached approximately {13660131.86} $ in 2019."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for International Customers?",
+            "A": "International Customers's lowest recorded level is approximately {1380912.47} $ in 2001."
+        },
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for Luxury Consumers?",
+            "A": "Luxury Consumers reached approximately {8051087.96} $ in 2000."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for Luxury Consumers?",
+            "A": "Luxury Consumers's lowest recorded level is approximately {50000.00} $ in 2012."
+        },
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for Millennials?",
+            "A": "Millennials reached approximately {5710125.65} $ in 2004."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for Millennials?",
+            "A": "Millennials's lowest recorded level is approximately {50000.00} $ in 2012."
+        },
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for Rural Buyers?",
+            "A": "Rural Buyers reached approximately {14053991.67} $ in 2019."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for Rural Buyers?",
+            "A": "Rural Buyers's lowest recorded level is approximately {3915317.41} $ in 2003."
+        },
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for Subscription Members?",
+            "A": "Subscription Members reached approximately {3942997.16} $ in 2003."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for Subscription Members?",
+            "A": "Subscription Members's lowest recorded level is approximately {50000.00} $ in 2010."
+        },
+        {
+            "Q": "What is the highest Online Sales Volume level recorded for Urban Shoppers?",
+            "A": "Urban Shoppers reached approximately {8256395.44} $ in 2000."
+        },
+        {
+            "Q": "What is the lowest Online Sales Volume level recorded for Urban Shoppers?",
+            "A": "Urban Shoppers's lowest recorded level is approximately {50000.00} $ in 2018."
+        },
+        {
+            "Q": "What is Luxury Consumers's Online Sales Volume in 1970?",
+            "A": "Luxury Consumers's online sales volume in 1970 is {6079921.76} $."
+        },
+        {
+            "Q": "What is Budget Shoppers's Online Sales Volume in 1970?",
+            "A": "Budget Shoppers's online sales volume in 1970 is {1606694.17} $."
+        },
+        {
+            "Q": "What is Subscription Members's Online Sales Volume in 1970?",
+            "A": "Subscription Members's online sales volume in 1970 is {50000.00} $."
+        },
+        {
+            "Q": "What are the online sales volume of Subscription Members, Budget Shoppers, and Millennials in 1970?",
+            "A": "{Subscription Members}'s online sales volume is {2438890.09} $, {Budget Shoppers}'s online sales volume is {6048521.68} $, {Millennials}'s online sales volume is {2815863.36} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Online Sales Volume in the line chart?",
+            "A": "The global minimum online sales volume is {50000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Online Sales Volume in the line chart?",
+            "A": "The global maximum online sales volume is {14053991.67} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Budget Shoppers's Online Sales Volume?",
+            "A": "The average value of Budget Shoppers's Online Sales Volume is {2340768.21} $."
+        },
+        {
+            "Q": "What is the average value of International Customers's Online Sales Volume?",
+            "A": "The average value of International Customers's Online Sales Volume is {8191965.79} $."
+        },
+        {
+            "Q": "What is the average value of Luxury Consumers's Online Sales Volume?",
+            "A": "The average value of Luxury Consumers's Online Sales Volume is {2684460.17} $."
+        },
+        {
+            "Q": "What is the average value of Millennials's Online Sales Volume?",
+            "A": "The average value of Millennials's Online Sales Volume is {2452261.66} $."
+        },
+        {
+            "Q": "What is the average value of Rural Buyers's Online Sales Volume?",
+            "A": "The average value of Rural Buyers's Online Sales Volume is {9265563.95} $."
+        },
+        {
+            "Q": "What is the average value of Subscription Members's Online Sales Volume?",
+            "A": "The average value of Subscription Members's Online Sales Volume is {1120381.45} $."
+        },
+        {
+            "Q": "What is the average value of Urban Shoppers's Online Sales Volume?",
+            "A": "The average value of Urban Shoppers's Online Sales Volume is {2648215.02} $."
+        },
+        {
+            "Q": "What is the rate of change in Budget Shoppers's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in Budget Shoppers's Online Sales Volume is {-35.89}%."
+        },
+        {
+            "Q": "What is the rate of change in International Customers's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in International Customers's Online Sales Volume is {120.50}%."
+        },
+        {
+            "Q": "What is the rate of change in Luxury Consumers's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in Luxury Consumers's Online Sales Volume is {-99.38}%."
+        },
+        {
+            "Q": "What is the rate of change in Millennials's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in Millennials's Online Sales Volume is {31.56}%."
+        },
+        {
+            "Q": "What is the rate of change in Rural Buyers's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in Rural Buyers's Online Sales Volume is {54.06}%."
+        },
+        {
+            "Q": "What is the rate of change in Subscription Members's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in Subscription Members's Online Sales Volume is {-35.87}%."
+        },
+        {
+            "Q": "What is the rate of change in Urban Shoppers's Online Sales Volume from the starting year to the final year?",
+            "A": "The rate of change in Urban Shoppers's Online Sales Volume is {-99.39}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did International Customers's Online Sales Volume exceed 9828229 $? Please list the years and corresponding values.",
+            "A": "10579075.58 $ in {2012.0} year, 10302762.86 $ in {2013.0} year, 12666513.24 $ in {2015.0} year."
+        },
+        {
+            "Q": "Which years did International Customers's Online Sales Volume below 6862500 $? Please list the years and corresponding values.",
+            "A": "6195170.72 $ in {2000.0} year, 1380912.47 $ in {2001.0} year, 4116408.31 $ in {2003.0} year."
+        },
+        {
+            "Q": "Which years did International Customers's Online Sales Volume between 7510828 and 9179901 $? Please list the years and corresponding values.",
+            "A": "9031158.79 $ in {2006.0} year, 8017759.51 $ in {2009.0} year, 8638495.99 $ in {2011.0} year."
+        },
+        {
+            "Q": "In the year 2006, which line had Online Sales Volume exceed 4132384 $? Please list the lines and corresponding values.",
+            "A": "{Rural Buyers} had 9347570 $, {International Customers} had 9031159 $."
+        },
+        {
+            "Q": "In the year 2006, which lines had Online Sales Volume below 2222418 $? Please list the lines and corresponding values.",
+            "A": "{Budget Shoppers} had 1551969 $, {Millennials} had 1216131 $."
+        },
+        {
+            "Q": "In the year 2006, which lines had Online Sales Volume between 2859661 and 3495141 $? Please list the lines and corresponding values.",
+            "A": "{Luxury Consumers} had 2907691 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Online Sales Volume, Budget Shoppers, Millennials, Luxury Consumers, or Subscription Members?",
+            "A": "In 1970, {Luxury Consumers} had the highest online sales volume."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

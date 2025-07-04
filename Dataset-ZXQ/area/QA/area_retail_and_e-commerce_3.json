@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total customer satisfaction score?",
+            "A": "The series with the largest contribution is {Grocery Chains}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total customer satisfaction score?",
+            "A": "The series with the smallest contribution is {Online Marketplaces}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Fast Fashion's Customer Satisfaction Score in 1972?",
+            "A": "Fast Fashion's customer satisfaction score in 1972 is {79.94} index."
+        },
+        {
+            "Q": "What is Online Marketplaces's Customer Satisfaction Score in 1980?",
+            "A": "Online Marketplaces's customer satisfaction score in 1980 is {28.30} index."
+        },
+        {
+            "Q": "What is Online Marketplaces's Customer Satisfaction Score in 1971?",
+            "A": "Online Marketplaces's customer satisfaction score in 1971 is {73.85} index."
+        },
+        {
+            "Q": "What are the customer satisfaction score of Apparel Retailers, Electronics Vendors, and Subscription Services in 1972?",
+            "A": "Apparel Retailers's customer satisfaction score is {46.75} index, Electronics Vendors's customer satisfaction score is {97.74} index, Subscription Services's customer satisfaction score is {92.12} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Customer Satisfaction Score in the stacked area chart?",
+            "A": "The global minimum total customer satisfaction score is {586.45} index."
+        },
+        {
+            "Q": "What is the global maximum total Customer Satisfaction Score in the stacked area chart?",
+            "A": "The global maximum total customer satisfaction score is {709.60} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Online Marketplaces's Customer Satisfaction Score area?",
+            "A": "The average height of Online Marketplaces's customer satisfaction score area is {51.10} index."
+        },
+        {
+            "Q": "What is the average height of Fast Fashion's Customer Satisfaction Score area?",
+            "A": "The average height of Fast Fashion's customer satisfaction score area is {52.53} index."
+        },
+        {
+            "Q": "What is the average height of Subscription Services's Customer Satisfaction Score area?",
+            "A": "The average height of Subscription Services's customer satisfaction score area is {115.73} index."
+        },
+        {
+            "Q": "What is the average height of Apparel Retailers's Customer Satisfaction Score area?",
+            "A": "The average height of Apparel Retailers's customer satisfaction score area is {59.14} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Customer Satisfaction Score exceed 678 index? Please list the years and corresponding total values.",
+            "A": "total value was {679.66} index in {1976}, total value was {702.55} index in {1979}, total value was {699.78} index in {1981}."
+        },
+        {
+            "Q": "Which years did the total Customer Satisfaction Score go below 647 index? Please list the years and corresponding total values.",
+            "A": "total value was {644.11} index in {1973}, total value was {610.30} index in {1972}, total value was {586.45} index in {1970}."
+        },
+        {
+            "Q": "Which years did the total Customer Satisfaction Score fall between 629 and 696 index? Please list the years and corresponding total values.",
+            "A": "total value was {664.90} index in {1977}, total value was {679.66} index in {1976}, total value was {634} index in {1969}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1973 and 1974, did the total Customer Satisfaction Score experience a larger or smaller change than between 1973 and 1980?",
+            "A": "The change in total customer satisfaction score between {1973} and {1974} was {smaller} than between {1973} and {1980}."
+        },
+        {
+            "Q": "Between 1977 and 1978, did the total Customer Satisfaction Score experience a larger or smaller change than between 1972 and 1973?",
+            "A": "The change in total customer satisfaction score between {1977} and {1978} was {smaller} than between {1972} and {1973}."
+        },
+        {
+            "Q": "Between 1971 and 1976, did the total Customer Satisfaction Score experience a larger or smaller change than between 1969 and 1979?",
+            "A": "The change in total customer satisfaction score between {1971} and {1976} was {larger} than between {1969} and {1979}."
+        },
+        {
+            "Q": "Between 1973 and 1979, did the total Customer Satisfaction Score experience a larger or smaller change than between 1973 and 1980?",
+            "A": "The change in total customer satisfaction score between {1973} and {1979} was {larger} than between {1973} and {1980}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

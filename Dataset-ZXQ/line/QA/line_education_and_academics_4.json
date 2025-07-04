@@ -1,0 +1,121 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Zenith Institute of Technology's Faculty Satisfaction levels?",
+            "A": "Zenith Institute of Technology's Faculty Satisfaction levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Polytechnic's Faculty Satisfaction levels?",
+            "A": "Silverhaven Polytechnic's Faculty Satisfaction levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Faculty Satisfaction levels?",
+            "A": "{Zenith Institute of Technology}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Faculty Satisfaction levels?",
+            "A": "{Silverhaven Polytechnic}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Faculty Satisfaction level recorded for Silverhaven Polytechnic?",
+            "A": "Silverhaven Polytechnic reached approximately {100.00} % in 2009."
+        },
+        {
+            "Q": "What is the lowest Faculty Satisfaction level recorded for Silverhaven Polytechnic?",
+            "A": "Silverhaven Polytechnic's lowest recorded level is approximately {77.61} % in 2004."
+        },
+        {
+            "Q": "What is the highest Faculty Satisfaction level recorded for Zenith Institute of Technology?",
+            "A": "Zenith Institute of Technology reached approximately {94.35} % in 2015."
+        },
+        {
+            "Q": "What is the lowest Faculty Satisfaction level recorded for Zenith Institute of Technology?",
+            "A": "Zenith Institute of Technology's lowest recorded level is approximately {57.59} % in 2013."
+        },
+        {
+            "Q": "What is Zenith Institute of Technology's Faculty Satisfaction in 1970?",
+            "A": "Zenith Institute of Technology's faculty satisfaction in 1970 is {92.11} %."
+        },
+        {
+            "Q": "What is Silverhaven Polytechnic's Faculty Satisfaction in 1970?",
+            "A": "Silverhaven Polytechnic's faculty satisfaction in 1970 is {77.61} %."
+        },
+        {
+            "Q": "What is Zenith Institute of Technology's Faculty Satisfaction in 1970?",
+            "A": "Zenith Institute of Technology's faculty satisfaction in 1970 is {57.59} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Faculty Satisfaction in the line chart?",
+            "A": "The global minimum faculty satisfaction is {57.59} %."
+        },
+        {
+            "Q": "What is the global maximum Faculty Satisfaction in the line chart?",
+            "A": "The global maximum faculty satisfaction is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Silverhaven Polytechnic's Faculty Satisfaction?",
+            "A": "The average value of Silverhaven Polytechnic's Faculty Satisfaction is {97.10} %."
+        },
+        {
+            "Q": "What is the average value of Zenith Institute of Technology's Faculty Satisfaction?",
+            "A": "The average value of Zenith Institute of Technology's Faculty Satisfaction is {76.35} %."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Polytechnic's Faculty Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Silverhaven Polytechnic's Faculty Satisfaction is {28.85}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Institute of Technology's Faculty Satisfaction from the starting year to the final year?",
+            "A": "The rate of change in Zenith Institute of Technology's Faculty Satisfaction is {-15.32}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Silverhaven Polytechnic's Faculty Satisfaction below 100 %? Please list the years and corresponding values.",
+            "A": "77.61 % in {2004.0} year, 84.19 % in {2005.0} year, 89.88 % in {2006.0} year."
+        },
+        {
+            "Q": "Which years did Silverhaven Polytechnic's Faculty Satisfaction between 90 and 110 %? Please list the years and corresponding values.",
+            "A": "99.03 % in {2007.0} year, 94.24 % in {2008.0} year, 100 % in {2009.0} year."
+        },
+        {
+            "Q": "In the year 2020, which line had Faculty Satisfaction exceed 98 %? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Polytechnic} had 100 %."
+        },
+        {
+            "Q": "In the year 2020, which lines had Faculty Satisfaction below 95 %? Please list the lines and corresponding values.",
+            "A": "{Zenith Institute of Technology} had 94 %."
+        },
+        {
+            "Q": "In the year 2020, which lines had Faculty Satisfaction between 87 and 106 %? Please list the lines and corresponding values.",
+            "A": "{Zenith Institute of Technology} had 94 %, {Silverhaven Polytechnic} had 100 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Faculty Satisfaction, Silverhaven Polytechnic or Zenith Institute of Technology?",
+            "A": "In 1970, {Silverhaven Polytechnic} had a higher faculty satisfaction."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

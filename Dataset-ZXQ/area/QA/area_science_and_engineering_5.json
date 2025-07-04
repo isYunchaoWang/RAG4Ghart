@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total engineering graduates?",
+            "A": "The series with the largest contribution is {Echo Research}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total engineering graduates?",
+            "A": "The series with the smallest contribution is {Crimson Foundation}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Echo Research's Engineering Graduates in 1959?",
+            "A": "Echo Research's engineering graduates in 1959 is {1953.24} students."
+        },
+        {
+            "Q": "What is Oracle Labs's Engineering Graduates in 1957?",
+            "A": "Oracle Labs's engineering graduates in 1957 is {1110.27} students."
+        },
+        {
+            "Q": "What is Aether University's Engineering Graduates in 1960?",
+            "A": "Aether University's engineering graduates in 1960 is {1613.93} students."
+        },
+        {
+            "Q": "What are the engineering graduates of Oracle Labs, Crimson Foundation, and Echo Research in 1956?",
+            "A": "Oracle Labs's engineering graduates is {1109.29} students, Crimson Foundation's engineering graduates is {780.55} students, Echo Research's engineering graduates is {1451.31} students."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Engineering Graduates in the stacked area chart?",
+            "A": "The global minimum total engineering graduates is {5131.34} students."
+        },
+        {
+            "Q": "What is the global maximum total Engineering Graduates in the stacked area chart?",
+            "A": "The global maximum total engineering graduates is {7062.77} students."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Crimson Foundation's Engineering Graduates area?",
+            "A": "The average height of Crimson Foundation's engineering graduates area is {1026.63} students."
+        },
+        {
+            "Q": "What is the average height of Echo Research's Engineering Graduates area?",
+            "A": "The average height of Echo Research's engineering graduates area is {1476.01} students."
+        },
+        {
+            "Q": "What is the average height of Oracle Labs's Engineering Graduates area?",
+            "A": "The average height of Oracle Labs's engineering graduates area is {1113.23} students."
+        },
+        {
+            "Q": "What is the average height of Aether University's Engineering Graduates area?",
+            "A": "The average height of Aether University's engineering graduates area is {1354.34} students."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Engineering Graduates go below 5509 students? Please list the years and corresponding total values.",
+            "A": "total value was {5447.38} students in {1953}, total value was {5238.39} students in {1955}, total value was {5131.34} students in {1952}."
+        },
+        {
+            "Q": "Which years did the total Engineering Graduates fall between 5664 and 6261 students? Please list the years and corresponding total values.",
+            "A": "total value was {6182.11} students in {1957}, total value was {5709.03} students in {1954}."
+        },
+        {
+            "Q": "Which years did the total Engineering Graduates exceed 6416 students? Please list the years and corresponding total values.",
+            "A": "total value was {6571.49} students in {1960}, total value was {7037.96} students in {1958}, total value was {7062.77} students in {1959}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Engineering Graduates in 1956 higher or lower than in 1960?",
+            "A": "The total engineering graduates in {1956} was {lower} than in {1960}."
+        },
+        {
+            "Q": "Between 1955 and 1956, was the average total Engineering Graduates higher or lower than between 1952 and 1959?",
+            "A": "The average total engineering graduates between {1955} and {1956} was {lower} than between {1952} and {1959}."
+        },
+        {
+            "Q": "Was the total Engineering Graduates in 1952 higher or lower than in 1957?",
+            "A": "The total engineering graduates in {1952} was {lower} than in {1957}."
+        },
+        {
+            "Q": "Between 1952 and 1953, was the average total Engineering Graduates higher or lower than between 1953 and 1958?",
+            "A": "The average total engineering graduates between {1952} and {1953} was {lower} than between {1953} and {1958}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

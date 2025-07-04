@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total daily active users?",
+            "A": "The series with the largest contribution is {Starburst Online}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total daily active users?",
+            "A": "The series with the smallest contribution is {AetherNet}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is CrimsonLink's Daily Active Users in 1988?",
+            "A": "CrimsonLink's daily active users in 1988 is {1000554826.98} users."
+        },
+        {
+            "Q": "What is Starburst Online's Daily Active Users in 1990?",
+            "A": "Starburst Online's daily active users in 1990 is {1560025895.42} users."
+        },
+        {
+            "Q": "What is AetherNet's Daily Active Users in 1992?",
+            "A": "AetherNet's daily active users in 1992 is {1248969988.33} users."
+        },
+        {
+            "Q": "What are the daily active users of CrimsonLink, Starburst Online, and EchoWave in 1992?",
+            "A": "CrimsonLink's daily active users is {1155253657.58} users, Starburst Online's daily active users is {1349359284.39} users, EchoWave's daily active users is {901777984.80} users."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Daily Active Users in the stacked area chart?",
+            "A": "The global minimum total daily active users is {6258965337.38} users."
+        },
+        {
+            "Q": "What is the global maximum total Daily Active Users in the stacked area chart?",
+            "A": "The global maximum total daily active users is {7759220096.12} users."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Luminara's Daily Active Users area?",
+            "A": "The average height of Luminara's daily active users area is {1333916055.01} users."
+        },
+        {
+            "Q": "What is the average height of Starburst Online's Daily Active Users area?",
+            "A": "The average height of Starburst Online's daily active users area is {1353731710.48} users."
+        },
+        {
+            "Q": "What is the average height of CrimsonLink's Daily Active Users area?",
+            "A": "The average height of CrimsonLink's daily active users area is {1153657824.64} users."
+        },
+        {
+            "Q": "What is the average height of NovaStream's Daily Active Users area?",
+            "A": "The average height of NovaStream's daily active users area is {1073282261.65} users."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Daily Active Users exceed 7135342263 users? Please list the years and corresponding total values.",
+            "A": "total value was {7759220096.12} users in {1990}, total value was {7140949259.53} users in {1992}."
+        },
+        {
+            "Q": "Which years did the total Daily Active Users go below 6925367769 users? Please list the years and corresponding total values.",
+            "A": "total value was {6258965337.38} users in {1988}, total value was {6801250021.85} users in {1987}."
+        },
+        {
+            "Q": "Which years did the total Daily Active Users fall between 6678837265 and 7381872767 users? Please list the years and corresponding total values.",
+            "A": "total value was {7140949259.53} users in {1992}, total value was {6801250021.85} users in {1987}, total value was {7049485515.65} users in {1991}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1988 and 1990, did the total Daily Active Users experience a larger or smaller change than between 1989 and 1990?",
+            "A": "The change in total daily active users between {1988} and {1990} was {larger} than between {1989} and {1990}."
+        },
+        {
+            "Q": "Between 1988 and 1992, was the average total Daily Active Users higher or lower than between 1988 and 1991?",
+            "A": "The average total daily active users between {1988} and {1992} was {higher} than between {1988} and {1991}."
+        },
+        {
+            "Q": "Between 1988 and 1990, did the total Daily Active Users experience a larger or smaller change than between 1987 and 1991?",
+            "A": "The change in total daily active users between {1988} and {1990} was {larger} than between {1987} and {1991}."
+        },
+        {
+            "Q": "Between 1988 and 1989, did the total Daily Active Users experience a larger or smaller change than between 1989 and 1990?",
+            "A": "The change in total daily active users between {1988} and {1989} was {larger} than between {1989} and {1990}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

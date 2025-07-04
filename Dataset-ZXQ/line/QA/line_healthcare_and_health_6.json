@@ -1,0 +1,241 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Meridian Healthcare Group (Public)'s Healthcare Expenditure levels?",
+            "A": "Meridian Healthcare Group (Public)'s Healthcare Expenditure levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Stellar Public Health's Healthcare Expenditure levels?",
+            "A": "Stellar Public Health's Healthcare Expenditure levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Lumina Health Authority's Healthcare Expenditure levels?",
+            "A": "Lumina Health Authority's Healthcare Expenditure levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Health Initiative's Healthcare Expenditure levels?",
+            "A": "Azure Health Initiative's Healthcare Expenditure levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Borealis Wellness Council's Healthcare Expenditure levels?",
+            "A": "Borealis Wellness Council's Healthcare Expenditure levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Medical Foundation's Healthcare Expenditure levels?",
+            "A": "Zenith Medical Foundation's Healthcare Expenditure levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Aethelgard Medical Board's Healthcare Expenditure levels?",
+            "A": "Aethelgard Medical Board's Healthcare Expenditure levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Healthcare Expenditure levels?",
+            "A": "{Meridian Healthcare Group (Public)}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Healthcare Expenditure levels?",
+            "A": "{Stellar Public Health}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Healthcare Expenditure levels?",
+            "A": "{Lumina Health Authority}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Healthcare Expenditure levels?",
+            "A": "{Borealis Wellness Council}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Healthcare Expenditure levels?",
+            "A": "{Zenith Medical Foundation}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Aethelgard Medical Board?",
+            "A": "Aethelgard Medical Board reached approximately {1134395199.25} $ in 2008."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Aethelgard Medical Board?",
+            "A": "Aethelgard Medical Board's lowest recorded level is approximately {1030441436.85} $ in 2009."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Azure Health Initiative?",
+            "A": "Azure Health Initiative reached approximately {1151882424.04} $ in 2008."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Azure Health Initiative?",
+            "A": "Azure Health Initiative's lowest recorded level is approximately {897354485.68} $ in 2009."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Borealis Wellness Council?",
+            "A": "Borealis Wellness Council reached approximately {1224093920.19} $ in 2010."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Borealis Wellness Council?",
+            "A": "Borealis Wellness Council's lowest recorded level is approximately {953115022.08} $ in 2008."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Lumina Health Authority?",
+            "A": "Lumina Health Authority reached approximately {1078995108.49} $ in 2010."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Lumina Health Authority?",
+            "A": "Lumina Health Authority's lowest recorded level is approximately {951755920.60} $ in 2008."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Meridian Healthcare Group (Public)?",
+            "A": "Meridian Healthcare Group (Public) reached approximately {1140481054.34} $ in 2009."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Meridian Healthcare Group (Public)?",
+            "A": "Meridian Healthcare Group (Public)'s lowest recorded level is approximately {969477786.01} $ in 2010."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Stellar Public Health?",
+            "A": "Stellar Public Health reached approximately {1123597646.50} $ in 2009."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Stellar Public Health?",
+            "A": "Stellar Public Health's lowest recorded level is approximately {982088506.32} $ in 2008."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Zenith Medical Foundation?",
+            "A": "Zenith Medical Foundation reached approximately {10000000.00} $ in 2008."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Zenith Medical Foundation?",
+            "A": "Zenith Medical Foundation's lowest recorded level is approximately {10000000.00} $ in 2008."
+        },
+        {
+            "Q": "What is Aethelgard Medical Board's Healthcare Expenditure in 1970?",
+            "A": "Aethelgard Medical Board's healthcare expenditure in 1970 is {1134395199.25} $."
+        },
+        {
+            "Q": "What is Aethelgard Medical Board's Healthcare Expenditure in 1970?",
+            "A": "Aethelgard Medical Board's healthcare expenditure in 1970 is {1060254875.95} $."
+        },
+        {
+            "Q": "What is Zenith Medical Foundation's Healthcare Expenditure in 1970?",
+            "A": "Zenith Medical Foundation's healthcare expenditure in 1970 is {10000000.00} $."
+        },
+        {
+            "Q": "What are the healthcare expenditure of Meridian Healthcare Group (Public), Stellar Public Health, and Lumina Health Authority in 1970?",
+            "A": "{Meridian Healthcare Group (Public)}'s healthcare expenditure is {1024516072.14} $, {Stellar Public Health}'s healthcare expenditure is {982088506.32} $, {Lumina Health Authority}'s healthcare expenditure is {951755920.60} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Healthcare Expenditure in the line chart?",
+            "A": "The global minimum healthcare expenditure is {10000000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Healthcare Expenditure in the line chart?",
+            "A": "The global maximum healthcare expenditure is {1224093920.19} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aethelgard Medical Board's Healthcare Expenditure?",
+            "A": "The average value of Aethelgard Medical Board's Healthcare Expenditure is {1075030504.02} $."
+        },
+        {
+            "Q": "What is the average value of Azure Health Initiative's Healthcare Expenditure?",
+            "A": "The average value of Azure Health Initiative's Healthcare Expenditure is {1046589605.74} $."
+        },
+        {
+            "Q": "What is the average value of Borealis Wellness Council's Healthcare Expenditure?",
+            "A": "The average value of Borealis Wellness Council's Healthcare Expenditure is {1086736801.63} $."
+        },
+        {
+            "Q": "What is the average value of Lumina Health Authority's Healthcare Expenditure?",
+            "A": "The average value of Lumina Health Authority's Healthcare Expenditure is {1026041668.33} $."
+        },
+        {
+            "Q": "What is the average value of Meridian Healthcare Group (Public)'s Healthcare Expenditure?",
+            "A": "The average value of Meridian Healthcare Group (Public)'s Healthcare Expenditure is {1044824970.83} $."
+        },
+        {
+            "Q": "What is the average value of Stellar Public Health's Healthcare Expenditure?",
+            "A": "The average value of Stellar Public Health's Healthcare Expenditure is {1046128918.01} $."
+        },
+        {
+            "Q": "What is the average value of Zenith Medical Foundation's Healthcare Expenditure?",
+            "A": "The average value of Zenith Medical Foundation's Healthcare Expenditure is {10000000.00} $."
+        },
+        {
+            "Q": "What is the rate of change in Aethelgard Medical Board's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Aethelgard Medical Board's Healthcare Expenditure is {-6.54}%."
+        },
+        {
+            "Q": "What is the rate of change in Azure Health Initiative's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Azure Health Initiative's Healthcare Expenditure is {-5.33}%."
+        },
+        {
+            "Q": "What is the rate of change in Borealis Wellness Council's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Borealis Wellness Council's Healthcare Expenditure is {28.43}%."
+        },
+        {
+            "Q": "What is the rate of change in Lumina Health Authority's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Lumina Health Authority's Healthcare Expenditure is {13.37}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Healthcare Group (Public)'s Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Meridian Healthcare Group (Public)'s Healthcare Expenditure is {-5.37}%."
+        },
+        {
+            "Q": "What is the rate of change in Stellar Public Health's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Stellar Public Health's Healthcare Expenditure is {5.15}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Medical Foundation's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of change in Zenith Medical Foundation's Healthcare Expenditure is {0.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Borealis Wellness Council's Healthcare Expenditure exceed 1139438446 $? Please list the years and corresponding values.",
+            "A": "1224093920.19 $ in {2010.0} year."
+        },
+        {
+            "Q": "Which years did Borealis Wellness Council's Healthcare Expenditure below 1031046886 $? Please list the years and corresponding values.",
+            "A": "953115022.08 $ in {2008.0} year."
+        },
+        {
+            "Q": "Which years did Borealis Wellness Council's Healthcare Expenditure between 976718399 and 1193766933 $? Please list the years and corresponding values.",
+            "A": "1083001462.62 $ in {2009.0} year."
+        },
+        {
+            "Q": "In the year 2008, which line had Healthcare Expenditure exceed 1046491898 $? Please list the lines and corresponding values.",
+            "A": "{Azure Health Initiative} had 1151882424 $, {Aethelgard Medical Board} had 1134395199 $."
+        },
+        {
+            "Q": "In the year 2008, which lines had Healthcare Expenditure below 952843202 $? Please list the lines and corresponding values.",
+            "A": "{Lumina Health Authority} had 951755921 $, {Zenith Medical Foundation} had 10000000 $."
+        },
+        {
+            "Q": "In the year 2008, which lines had Healthcare Expenditure between 899700795 and 1099634305 $? Please list the lines and corresponding values.",
+            "A": "{Meridian Healthcare Group (Public)} had 1024516072 $, {Stellar Public Health} had 982088506 $, {Lumina Health Authority} had 951755921 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Healthcare Expenditure, Borealis Wellness Council, Meridian Healthcare Group (Public), or Aethelgard Medical Board?",
+            "A": "In 1970, {Aethelgard Medical Board} had the highest healthcare expenditure."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,102 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {5} violins."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the largest median in this violin plot?",
+            "A": "The category with the largest median is {TechNova}."
+        },
+        {
+            "Q": "Which category has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The category with the highest Q3 is {TechNova}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing {TechNova}?",
+            "A": "The density distribution pattern of the {TechNova} shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of {NextGen} in the violin plot?",
+            "A": "The median of {NextGen} is {4934428.00} USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of {BluePeak} in the violin plot?",
+            "A": "The upper quartile (Q3) of {BluePeak} is {6048294.00} USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of {TechNova} in the violin plot?",
+            "A": "The upper whisker limit of {TechNova} is {9063566.00} USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in {SwiftLink} in the violin plot?",
+            "A": "The largest upper outlier value in {SwiftLink} is {12176570.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum USD value in the violin plot?",
+            "A": "The global maximum USD value in the violin plot is {12529717.00} USD."
+        },
+        {
+            "Q": "What is the global minimum USD value in the violin plot?",
+            "A": "The global minimum USD value in the violin plot is {12945.00} USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the {Q3} difference between violin {BluePeak} and {NextGen}?",
+            "A": "The {Q3} difference between violin {BluePeak} and {NextGen} is {129304.00} USD."
+        },
+        {
+            "Q": "What is the toal {Q1} value of violin {BluePeak} and {TechNova}?",
+            "A": "The total {Q1} value of violin {BluePeak} and {TechNova} is {8118462.00} USD."
+        },
+        {
+            "Q": "What is the average {Q3} value of violin {NextGen} and {BluePeak}?",
+            "A": "The average {Q3} value of violin {NextGen} and {BluePeak} is {6112946.00} USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed {5028257.00} USD? Please list the violins and corresponding values.",
+            "A": "TechNova has {5221906.00} USD , BluePeak has {5122086.00} USD "
+        },
+        {
+            "Q": "Which violins have median values below {4805654.00} USD? Please list the violins and corresponding values.",
+            "A": "SwiftLink has {4794755.00} USD "
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak exceed {4805015.59} USD?",
+            "A": "CategoryTechNova has {5089723.46} USD ,NextGen has {4973289.22} USD ,BluePeak has {5111515.07} USD have their highest density peak exceed {4805015.59} USD."
+        },
+        {
+            "Q": "Which categories in the violin plot have their highest density peak below {4452992.82} USD?",
+            "A": "CategorySkyBound has {4269243.67} USD have their highest density peak below {4452992.82} USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of BluePeak or SkyBound ",
+            "A": "The median value of the {BluePeak} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of SkyBound, SwiftLink or NextGen ",
+            "A": "The median value of the {NextGen} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of SkyBound, SwiftLink, TechNova or BluePeak ",
+            "A": "The median value of the {TechNova} is larger."
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of AetherNet's Daily Active Users levels?",
+            "A": "AetherNet's Daily Active Users levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of OracleFeed's Daily Active Users levels?",
+            "A": "OracleFeed's Daily Active Users levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of NovaStream's Daily Active Users levels?",
+            "A": "NovaStream's Daily Active Users levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of EchoWave's Daily Active Users levels?",
+            "A": "EchoWave's Daily Active Users levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Starburst Online's Daily Active Users levels?",
+            "A": "Starburst Online's Daily Active Users levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Daily Active Users levels?",
+            "A": "{AetherNet}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Daily Active Users levels?",
+            "A": "{OracleFeed}."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Daily Active Users levels?",
+            "A": "{NovaStream}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Daily Active Users levels?",
+            "A": "{EchoWave}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Daily Active Users levels?",
+            "A": "{Starburst Online}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Daily Active Users level recorded for AetherNet?",
+            "A": "AetherNet reached approximately {995668516.38} users in 1989."
+        },
+        {
+            "Q": "What is the lowest Daily Active Users level recorded for AetherNet?",
+            "A": "AetherNet's lowest recorded level is approximately {10000000.00} users in 1979."
+        },
+        {
+            "Q": "What is the highest Daily Active Users level recorded for EchoWave?",
+            "A": "EchoWave reached approximately {3069848642.41} users in 1989."
+        },
+        {
+            "Q": "What is the lowest Daily Active Users level recorded for EchoWave?",
+            "A": "EchoWave's lowest recorded level is approximately {1058993982.03} users in 1972."
+        },
+        {
+            "Q": "What is the highest Daily Active Users level recorded for NovaStream?",
+            "A": "NovaStream reached approximately {1133754221.65} users in 1973."
+        },
+        {
+            "Q": "What is the lowest Daily Active Users level recorded for NovaStream?",
+            "A": "NovaStream's lowest recorded level is approximately {10000000.00} users in 1986."
+        },
+        {
+            "Q": "What is the highest Daily Active Users level recorded for OracleFeed?",
+            "A": "OracleFeed reached approximately {2027783623.60} users in 1985."
+        },
+        {
+            "Q": "What is the lowest Daily Active Users level recorded for OracleFeed?",
+            "A": "OracleFeed's lowest recorded level is approximately {1371150541.76} users in 1977."
+        },
+        {
+            "Q": "What is the highest Daily Active Users level recorded for Starburst Online?",
+            "A": "Starburst Online reached approximately {1930240862.46} users in 1987."
+        },
+        {
+            "Q": "What is the lowest Daily Active Users level recorded for Starburst Online?",
+            "A": "Starburst Online's lowest recorded level is approximately {910104601.25} users in 1976."
+        },
+        {
+            "Q": "What is NovaStream's Daily Active Users in 1970?",
+            "A": "NovaStream's daily active users in 1970 is {155252122.19} users."
+        },
+        {
+            "Q": "What is EchoWave's Daily Active Users in 1970?",
+            "A": "EchoWave's daily active users in 1970 is {3069848642.41} users."
+        },
+        {
+            "Q": "What is AetherNet's Daily Active Users in 1970?",
+            "A": "AetherNet's daily active users in 1970 is {331788434.61} users."
+        },
+        {
+            "Q": "What are the daily active users of AetherNet, OracleFeed, and NovaStream in 1970?",
+            "A": "{AetherNet}'s daily active users is {923590264.99} users, {OracleFeed}'s daily active users is {1613923408.02} users, {NovaStream}'s daily active users is {626583659.25} users."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Daily Active Users in the line chart?",
+            "A": "The global minimum daily active users is {10000000.00} users."
+        },
+        {
+            "Q": "What is the global maximum Daily Active Users in the line chart?",
+            "A": "The global maximum daily active users is {3069848642.41} users."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AetherNet's Daily Active Users?",
+            "A": "The average value of AetherNet's Daily Active Users is {566735907.69} users."
+        },
+        {
+            "Q": "What is the average value of EchoWave's Daily Active Users?",
+            "A": "The average value of EchoWave's Daily Active Users is {1929375047.20} users."
+        },
+        {
+            "Q": "What is the average value of NovaStream's Daily Active Users?",
+            "A": "The average value of NovaStream's Daily Active Users is {426713430.62} users."
+        },
+        {
+            "Q": "What is the average value of OracleFeed's Daily Active Users?",
+            "A": "The average value of OracleFeed's Daily Active Users is {1718826915.04} users."
+        },
+        {
+            "Q": "What is the average value of Starburst Online's Daily Active Users?",
+            "A": "The average value of Starburst Online's Daily Active Users is {1356871140.76} users."
+        },
+        {
+            "Q": "What is the rate of change in AetherNet's Daily Active Users from the starting year to the final year?",
+            "A": "The rate of change in AetherNet's Daily Active Users is {-20.15}%."
+        },
+        {
+            "Q": "What is the rate of change in EchoWave's Daily Active Users from the starting year to the final year?",
+            "A": "The rate of change in EchoWave's Daily Active Users is {105.91}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaStream's Daily Active Users from the starting year to the final year?",
+            "A": "The rate of change in NovaStream's Daily Active Users is {-62.40}%."
+        },
+        {
+            "Q": "What is the rate of change in OracleFeed's Daily Active Users from the starting year to the final year?",
+            "A": "The rate of change in OracleFeed's Daily Active Users is {-5.19}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst Online's Daily Active Users from the starting year to the final year?",
+            "A": "The rate of change in Starburst Online's Daily Active Users is {23.58}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did EchoWave's Daily Active Users exceed 2229480906 users? Please list the years and corresponding values.",
+            "A": "2418167808.14 users in {1980.0} year, 2230919347.61 users in {1983.0} year, 2703838814.56 users in {1986.0} year."
+        },
+        {
+            "Q": "Which years did EchoWave's Daily Active Users below 1520366157 users? Please list the years and corresponding values.",
+            "A": "1263721957.50 users in {1969.0} year, 1481005038.87 users in {1970.0} year, 1065971848.97 users in {1971.0} year."
+        },
+        {
+            "Q": "Which years did EchoWave's Daily Active Users between 1687431178 and 2062415885 users? Please list the years and corresponding values.",
+            "A": "1732083714.58 users in {1974.0} year, 1923226799.45 users in {1975.0} year, 1876774394.46 users in {1979.0} year."
+        },
+        {
+            "Q": "In the year 1990, which line had Daily Active Users exceed 1635355551 users? Please list the lines and corresponding values.",
+            "A": "{EchoWave} had 2602084683 users, {Starburst Online} had 1661642869 users."
+        },
+        {
+            "Q": "In the year 1990, which lines had Daily Active Users below 896064367 users? Please list the lines and corresponding values.",
+            "A": "{AetherNet} had 737528889 users, {NovaStream} had 235581144 users."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Daily Active Users, AetherNet or EchoWave?",
+            "A": "In 1970, {EchoWave} had a higher daily active users."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

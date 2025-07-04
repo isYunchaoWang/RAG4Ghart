@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total in-store foot traffic?",
+            "A": "The series with the largest contribution is {Neighborhood Stores}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total in-store foot traffic?",
+            "A": "The series with the smallest contribution is {Tech Gadget Hubs}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Fashion Boutiques's In-Store Foot Traffic in 1965?",
+            "A": "Fashion Boutiques's in-store foot traffic in 1965 is {27125.20} visitors/day."
+        },
+        {
+            "Q": "What is Fashion Boutiques's In-Store Foot Traffic in 1963?",
+            "A": "Fashion Boutiques's in-store foot traffic in 1963 is {19681.85} visitors/day."
+        },
+        {
+            "Q": "What is Tech Gadget Hubs's In-Store Foot Traffic in 1967?",
+            "A": "Tech Gadget Hubs's in-store foot traffic in 1967 is {8387.94} visitors/day."
+        },
+        {
+            "Q": "What are the in-store foot traffic of Tech Gadget Hubs, Neighborhood Stores, and Fashion Boutiques in 1970?",
+            "A": "Tech Gadget Hubs's in-store foot traffic is {4584.27} visitors/day, Neighborhood Stores's in-store foot traffic is {65457.84} visitors/day, Fashion Boutiques's in-store foot traffic is {37514.86} visitors/day."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total In-Store Foot Traffic in the stacked area chart?",
+            "A": "The global minimum total in-store foot traffic is {87974.50} visitors/day."
+        },
+        {
+            "Q": "What is the global maximum total In-Store Foot Traffic in the stacked area chart?",
+            "A": "The global maximum total in-store foot traffic is {255888.31} visitors/day."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Fashion Boutiques's In-Store Foot Traffic area?",
+            "A": "The average height of Fashion Boutiques's in-store foot traffic area is {31085.55} visitors/day."
+        },
+        {
+            "Q": "What is the average height of Neighborhood Stores's In-Store Foot Traffic area?",
+            "A": "The average height of Neighborhood Stores's in-store foot traffic area is {63960.03} visitors/day."
+        },
+        {
+            "Q": "What is the average height of Outlet Centers's In-Store Foot Traffic area?",
+            "A": "The average height of Outlet Centers's in-store foot traffic area is {25807.58} visitors/day."
+        },
+        {
+            "Q": "What is the average height of Tech Gadget Hubs's In-Store Foot Traffic area?",
+            "A": "The average height of Tech Gadget Hubs's in-store foot traffic area is {8273.30} visitors/day."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total In-Store Foot Traffic go below 121265 visitors/day? Please list the years and corresponding total values.",
+            "A": "total value was {108870.62} visitors/day in {1959}, total value was {101568.10} visitors/day in {1961}, total value was {120512.26} visitors/day in {1962}."
+        },
+        {
+            "Q": "Which years did the total In-Store Foot Traffic exceed 181395 visitors/day? Please list the years and corresponding total values.",
+            "A": "total value was {245391.90} visitors/day in {1977}, total value was {186385.30} visitors/day in {1973}, total value was {187116.50} visitors/day in {1972}."
+        },
+        {
+            "Q": "Which years did the total In-Store Foot Traffic fall between 143764 and 158897 visitors/day? Please list the years and corresponding total values.",
+            "A": "total value was {149611.16} visitors/day in {1968}, total value was {158180.27} visitors/day in {1969}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1958 and 1966, was the average total In-Store Foot Traffic higher or lower than between 1970 and 1974?",
+            "A": "The average total in-store foot traffic between {1958} and {1966} was {lower} than between {1970} and {1974}."
+        },
+        {
+            "Q": "Between 1962 and 1967, did the total In-Store Foot Traffic experience a larger or smaller change than between 1970 and 1971?",
+            "A": "The change in total in-store foot traffic between {1962} and {1967} was {larger} than between {1970} and {1971}."
+        },
+        {
+            "Q": "Between 1961 and 1975, was the average total In-Store Foot Traffic higher or lower than between 1957 and 1968?",
+            "A": "The average total in-store foot traffic between {1961} and {1975} was {higher} than between {1957} and {1968}."
+        },
+        {
+            "Q": "Between 1957 and 1965, did the total In-Store Foot Traffic experience a larger or smaller change than between 1959 and 1965?",
+            "A": "The change in total in-store foot traffic between {1957} and {1965} was {larger} than between {1959} and {1965}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

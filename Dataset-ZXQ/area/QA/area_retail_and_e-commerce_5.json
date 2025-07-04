@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total inventory turnover?",
+            "A": "The series with the largest contribution is {Fashion Depots}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total inventory turnover?",
+            "A": "The series with the smallest contribution is {QuickDeliver Hubs}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Fashion Depots's Inventory Turnover in 2011?",
+            "A": "Fashion Depots's inventory turnover in 2011 is {13.46} times/year."
+        },
+        {
+            "Q": "What is PrimeCart Warehouse's Inventory Turnover in 2008?",
+            "A": "PrimeCart Warehouse's inventory turnover in 2008 is {6.57} times/year."
+        },
+        {
+            "Q": "What is PrimeCart Warehouse's Inventory Turnover in 2013?",
+            "A": "PrimeCart Warehouse's inventory turnover in 2013 is {4.47} times/year."
+        },
+        {
+            "Q": "What are the inventory turnover of PrimeCart Warehouse, QuickDeliver Hubs, and Fashion Depots in 2007?",
+            "A": "PrimeCart Warehouse's inventory turnover is {6.60} times/year, QuickDeliver Hubs's inventory turnover is {0.74} times/year, Fashion Depots's inventory turnover is {11.81} times/year."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Inventory Turnover in the stacked area chart?",
+            "A": "The global minimum total inventory turnover is {15.41} times/year."
+        },
+        {
+            "Q": "What is the global maximum total Inventory Turnover in the stacked area chart?",
+            "A": "The global maximum total inventory turnover is {24.55} times/year."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Fashion Depots's Inventory Turnover area?",
+            "A": "The average height of Fashion Depots's inventory turnover area is {10.10} times/year."
+        },
+        {
+            "Q": "What is the average height of QuickDeliver Hubs's Inventory Turnover area?",
+            "A": "The average height of QuickDeliver Hubs's inventory turnover area is {2.67} times/year."
+        },
+        {
+            "Q": "What is the average height of PrimeCart Warehouse's Inventory Turnover area?",
+            "A": "The average height of PrimeCart Warehouse's inventory turnover area is {6.20} times/year."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Inventory Turnover exceed 19 times/year? Please list the years and corresponding total values.",
+            "A": "total value was {22.91} times/year in {2008}, total value was {21.84} times/year in {2011}, total value was {21.89} times/year in {2013}."
+        },
+        {
+            "Q": "Which years did the total Inventory Turnover go below 18 times/year? Please list the years and corresponding total values.",
+            "A": "total value was {15.41} times/year in {1995}, total value was {17.09} times/year in {2006}, total value was {16.63} times/year in {2002}."
+        },
+        {
+            "Q": "Which years did the total Inventory Turnover fall between 18 and 19 times/year? Please list the years and corresponding total values.",
+            "A": "total value was {18.09} times/year in {1999}, total value was {18.43} times/year in {2001}, total value was {17.94} times/year in {2009}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 2009 and 2013, was the average total Inventory Turnover higher or lower than between 2000 and 2002?",
+            "A": "The average total inventory turnover between {2009} and {2013} was {higher} than between {2000} and {2002}."
+        },
+        {
+            "Q": "Between 2000 and 2009, did the total Inventory Turnover experience a larger or smaller change than between 2006 and 2009?",
+            "A": "The change in total inventory turnover between {2000} and {2009} was {larger} than between {2006} and {2009}."
+        },
+        {
+            "Q": "Between 2002 and 2008, did the total Inventory Turnover experience a larger or smaller change than between 2008 and 2012?",
+            "A": "The change in total inventory turnover between {2002} and {2008} was {larger} than between {2008} and {2012}."
+        },
+        {
+            "Q": "Was the total Inventory Turnover in 2000 higher or lower than in 2005?",
+            "A": "The total inventory turnover in {2000} was {higher} than in {2005}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

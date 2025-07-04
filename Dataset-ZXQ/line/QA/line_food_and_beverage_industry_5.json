@@ -1,0 +1,165 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Sky High Cafe's Table Turnover Rate levels?",
+            "A": "Sky High Cafe's Table Turnover Rate levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of The Rusty Kettle's Table Turnover Rate levels?",
+            "A": "The Rusty Kettle's Table Turnover Rate levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of The Golden Spoon's Table Turnover Rate levels?",
+            "A": "The Golden Spoon's Table Turnover Rate levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Plate's Table Turnover Rate levels?",
+            "A": "Crimson Plate's Table Turnover Rate levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Table Turnover Rate levels?",
+            "A": "{Sky High Cafe}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Table Turnover Rate levels?",
+            "A": "{The Rusty Kettle}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Table Turnover Rate levels?",
+            "A": "{The Golden Spoon}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Table Turnover Rate level recorded for Crimson Plate?",
+            "A": "Crimson Plate reached approximately {0.02} tables/hour in 1991."
+        },
+        {
+            "Q": "What is the lowest Table Turnover Rate level recorded for Crimson Plate?",
+            "A": "Crimson Plate's lowest recorded level is approximately {0.02} tables/hour in 1991."
+        },
+        {
+            "Q": "What is the highest Table Turnover Rate level recorded for Sky High Cafe?",
+            "A": "Sky High Cafe reached approximately {0.02} tables/hour in 1991."
+        },
+        {
+            "Q": "What is the lowest Table Turnover Rate level recorded for Sky High Cafe?",
+            "A": "Sky High Cafe's lowest recorded level is approximately {0.02} tables/hour in 1991."
+        },
+        {
+            "Q": "What is the highest Table Turnover Rate level recorded for The Golden Spoon?",
+            "A": "The Golden Spoon reached approximately {2.72} tables/hour in 1998."
+        },
+        {
+            "Q": "What is the lowest Table Turnover Rate level recorded for The Golden Spoon?",
+            "A": "The Golden Spoon's lowest recorded level is approximately {1.99} tables/hour in 1991."
+        },
+        {
+            "Q": "What is the highest Table Turnover Rate level recorded for The Rusty Kettle?",
+            "A": "The Rusty Kettle reached approximately {0.93} tables/hour in 1998."
+        },
+        {
+            "Q": "What is the lowest Table Turnover Rate level recorded for The Rusty Kettle?",
+            "A": "The Rusty Kettle's lowest recorded level is approximately {0.55} tables/hour in 1993."
+        },
+        {
+            "Q": "What is The Golden Spoon's Table Turnover Rate in 1970?",
+            "A": "The Golden Spoon's table turnover rate in 1970 is {2.24} tables/hour."
+        },
+        {
+            "Q": "What is The Golden Spoon's Table Turnover Rate in 1970?",
+            "A": "The Golden Spoon's table turnover rate in 1970 is {2.45} tables/hour."
+        },
+        {
+            "Q": "What is The Golden Spoon's Table Turnover Rate in 1970?",
+            "A": "The Golden Spoon's table turnover rate in 1970 is {2.72} tables/hour."
+        },
+        {
+            "Q": "What are the table turnover rate of Sky High Cafe, The Rusty Kettle, and The Golden Spoon in 1970?",
+            "A": "{Sky High Cafe}'s table turnover rate is {0.02} tables/hour, {The Rusty Kettle}'s table turnover rate is {0.75} tables/hour, {The Golden Spoon}'s table turnover rate is {1.99} tables/hour."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Table Turnover Rate in the line chart?",
+            "A": "The global minimum table turnover rate is {0.02} tables/hour."
+        },
+        {
+            "Q": "What is the global maximum Table Turnover Rate in the line chart?",
+            "A": "The global maximum table turnover rate is {2.72} tables/hour."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Crimson Plate's Table Turnover Rate?",
+            "A": "The average value of Crimson Plate's Table Turnover Rate is {0.02} tables/hour."
+        },
+        {
+            "Q": "What is the average value of Sky High Cafe's Table Turnover Rate?",
+            "A": "The average value of Sky High Cafe's Table Turnover Rate is {0.02} tables/hour."
+        },
+        {
+            "Q": "What is the average value of The Golden Spoon's Table Turnover Rate?",
+            "A": "The average value of The Golden Spoon's Table Turnover Rate is {2.35} tables/hour."
+        },
+        {
+            "Q": "What is the average value of The Rusty Kettle's Table Turnover Rate?",
+            "A": "The average value of The Rusty Kettle's Table Turnover Rate is {0.67} tables/hour."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Plate's Table Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in Crimson Plate's Table Turnover Rate is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in Sky High Cafe's Table Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in Sky High Cafe's Table Turnover Rate is {0.00}%."
+        },
+        {
+            "Q": "What is the rate of change in The Golden Spoon's Table Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in The Golden Spoon's Table Turnover Rate is {36.68}%."
+        },
+        {
+            "Q": "What is the rate of change in The Rusty Kettle's Table Turnover Rate from the starting year to the final year?",
+            "A": "The rate of change in The Rusty Kettle's Table Turnover Rate is {24.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did The Rusty Kettle's Table Turnover Rate exceed 1 tables/hour? Please list the years and corresponding values.",
+            "A": "0.75 tables/hour in {1991.0} year, 0.74 tables/hour in {1997.0} year, 0.93 tables/hour in {1998.0} year."
+        },
+        {
+            "Q": "Which years did The Rusty Kettle's Table Turnover Rate below 1 tables/hour? Please list the years and corresponding values.",
+            "A": "0.58 tables/hour in {1992.0} year, 0.55 tables/hour in {1993.0} year, 0.57 tables/hour in {1994.0} year."
+        },
+        {
+            "Q": "Which years did The Rusty Kettle's Table Turnover Rate between 1 and 1 tables/hour? Please list the years and corresponding values.",
+            "A": "0.62 tables/hour in {1995.0} year, 0.63 tables/hour in {1996.0} year."
+        },
+        {
+            "Q": "In the year 1997, which line had Table Turnover Rate exceed 1 tables/hour? Please list the lines and corresponding values.",
+            "A": "{The Golden Spoon} had 3 tables/hour."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Table Turnover Rate, Crimson Plate, Sky High Cafe, The Golden Spoon, or The Rusty Kettle?",
+            "A": "In 1970, {The Golden Spoon} had the highest table turnover rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

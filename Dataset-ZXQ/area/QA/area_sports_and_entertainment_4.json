@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {1} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total sponsorship revenue?",
+            "A": "The series with the largest contribution is {Ironwood Invincibles}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total sponsorship revenue?",
+            "A": "The series with the smallest contribution is {Ironwood Invincibles}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Ironwood Invincibles's Sponsorship Revenue in 1983?",
+            "A": "Ironwood Invincibles's sponsorship revenue in 1983 is {427003.87} $."
+        },
+        {
+            "Q": "What is Ironwood Invincibles's Sponsorship Revenue in 1989?",
+            "A": "Ironwood Invincibles's sponsorship revenue in 1989 is {264503.34} $."
+        },
+        {
+            "Q": "What is Ironwood Invincibles's Sponsorship Revenue in 1992?",
+            "A": "Ironwood Invincibles's sponsorship revenue in 1992 is {224588.64} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Sponsorship Revenue in the stacked area chart?",
+            "A": "The global minimum total sponsorship revenue is {5000.00} $."
+        },
+        {
+            "Q": "What is the global maximum total Sponsorship Revenue in the stacked area chart?",
+            "A": "The global maximum total sponsorship revenue is {509383.00} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Ironwood Invincibles's Sponsorship Revenue area?",
+            "A": "The average height of Ironwood Invincibles's sponsorship revenue area is {236894.32} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Sponsorship Revenue go below 153643 $? Please list the years and corresponding total values.",
+            "A": "total value was {52351.33} $ in {1996}, total value was {5000} $ in {1993}, total value was {80189.23} $ in {1997}."
+        },
+        {
+            "Q": "Which years did the total Sponsorship Revenue exceed 273675 $? Please list the years and corresponding total values.",
+            "A": "total value was {480968.88} $ in {1986}, total value was {509383} $ in {1984}, total value was {427003.87} $ in {1983}."
+        },
+        {
+            "Q": "Which years did the total Sponsorship Revenue fall between 202976 and 224342 $? Please list the years and corresponding total values.",
+            "A": "total value was {211326.27} $ in {1991}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1987 and 1992, did the total Sponsorship Revenue experience a larger or smaller change than between 1985 and 1996?",
+            "A": "The change in total sponsorship revenue between {1987} and {1992} was {smaller} than between {1985} and {1996}."
+        },
+        {
+            "Q": "Was the total Sponsorship Revenue in 1986 higher or lower than in 1993?",
+            "A": "The total sponsorship revenue in {1986} was {higher} than in {1993}."
+        },
+        {
+            "Q": "Between 1991 and 1996, was the average total Sponsorship Revenue higher or lower than between 1983 and 1997?",
+            "A": "The average total sponsorship revenue between {1991} and {1996} was {lower} than between {1983} and {1997}."
+        },
+        {
+            "Q": "Between 1989 and 1993, was the average total Sponsorship Revenue higher or lower than between 1990 and 1994?",
+            "A": "The average total sponsorship revenue between {1989} and {1993} was {higher} than between {1990} and {1994}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

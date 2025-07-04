@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total alumni giving rate?",
+            "A": "The series with the largest contribution is {Zenith Tech Foundation}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total alumni giving rate?",
+            "A": "The series with the smallest contribution is {Arcane University Alumni Association}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Borealis Alumni Network's Alumni Giving Rate in 1963?",
+            "A": "Borealis Alumni Network's alumni giving rate in 1963 is {8.59} %."
+        },
+        {
+            "Q": "What is Meridian Academy Patrons's Alumni Giving Rate in 1963?",
+            "A": "Meridian Academy Patrons's alumni giving rate in 1963 is {13.37} %."
+        },
+        {
+            "Q": "What is Silverhaven Polytechnic Fund's Alumni Giving Rate in 1963?",
+            "A": "Silverhaven Polytechnic Fund's alumni giving rate in 1963 is {11.73} %."
+        },
+        {
+            "Q": "What are the alumni giving rate of Arcane University Alumni Association, Celestial College Graduates, and Silverhaven Polytechnic Fund in 1958?",
+            "A": "Arcane University Alumni Association's alumni giving rate is {8.65} %, Celestial College Graduates's alumni giving rate is {11.73} %, Silverhaven Polytechnic Fund's alumni giving rate is {10.64} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Alumni Giving Rate in the stacked area chart?",
+            "A": "The global minimum total alumni giving rate is {71.42} %."
+        },
+        {
+            "Q": "What is the global maximum total Alumni Giving Rate in the stacked area chart?",
+            "A": "The global maximum total alumni giving rate is {90.71} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Celestial College Graduates's Alumni Giving Rate area?",
+            "A": "The average height of Celestial College Graduates's alumni giving rate area is {12.41} %."
+        },
+        {
+            "Q": "What is the average height of Arcane University Alumni Association's Alumni Giving Rate area?",
+            "A": "The average height of Arcane University Alumni Association's alumni giving rate area is {7.46} %."
+        },
+        {
+            "Q": "What is the average height of Borealis Alumni Network's Alumni Giving Rate area?",
+            "A": "The average height of Borealis Alumni Network's alumni giving rate area is {9.94} %."
+        },
+        {
+            "Q": "What is the average height of Aethelgard Arts Circle's Alumni Giving Rate area?",
+            "A": "The average height of Aethelgard Arts Circle's alumni giving rate area is {12.46} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Alumni Giving Rate go below 78 %? Please list the years and corresponding total values.",
+            "A": "total value was {77.39} % in {1958}, total value was {72.16} % in {1956}, total value was {71.42} % in {1955}."
+        },
+        {
+            "Q": "Which years did the total Alumni Giving Rate fall between 79 and 87 %? Please list the years and corresponding total values.",
+            "A": "total value was {83.48} % in {1960}."
+        },
+        {
+            "Q": "Which years did the total Alumni Giving Rate exceed 89 %? Please list the years and corresponding total values.",
+            "A": "total value was {89.62} % in {1961}, total value was {89.21} % in {1963}, total value was {90.71} % in {1964}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1959 and 1962, was the average total Alumni Giving Rate higher or lower than between 1959 and 1960?",
+            "A": "The average total alumni giving rate between {1959} and {1962} was {higher} than between {1959} and {1960}."
+        },
+        {
+            "Q": "Was the total Alumni Giving Rate in 1958 higher or lower than in 1963?",
+            "A": "The total alumni giving rate in {1958} was {lower} than in {1963}."
+        },
+        {
+            "Q": "Between 1962 and 1963, was the average total Alumni Giving Rate higher or lower than between 1956 and 1963?",
+            "A": "The average total alumni giving rate between {1962} and {1963} was {higher} than between {1956} and {1963}."
+        },
+        {
+            "Q": "Between 1956 and 1958, did the total Alumni Giving Rate experience a larger or smaller change than between 1959 and 1960?",
+            "A": "The change in total alumni giving rate between {1956} and {1958} was {larger} than between {1959} and {1960}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

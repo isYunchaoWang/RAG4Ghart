@@ -1,0 +1,169 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Meridian Academy Patrons's Alumni Giving Rate levels?",
+            "A": "Meridian Academy Patrons's Alumni Giving Rate levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Polytechnic Fund's Alumni Giving Rate levels?",
+            "A": "Silverhaven Polytechnic Fund's Alumni Giving Rate levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Tech Foundation's Alumni Giving Rate levels?",
+            "A": "Zenith Tech Foundation's Alumni Giving Rate levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Aethelgard Arts Circle's Alumni Giving Rate levels?",
+            "A": "Aethelgard Arts Circle's Alumni Giving Rate levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Alumni Giving Rate levels?",
+            "A": "{Meridian Academy Patrons}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Alumni Giving Rate levels?",
+            "A": "{Silverhaven Polytechnic Fund}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Alumni Giving Rate levels?",
+            "A": "{Zenith Tech Foundation}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Alumni Giving Rate level recorded for Aethelgard Arts Circle?",
+            "A": "Aethelgard Arts Circle reached approximately {23.13} % in 2004."
+        },
+        {
+            "Q": "What is the lowest Alumni Giving Rate level recorded for Aethelgard Arts Circle?",
+            "A": "Aethelgard Arts Circle's lowest recorded level is approximately {16.98} % in 1998."
+        },
+        {
+            "Q": "What is the highest Alumni Giving Rate level recorded for Meridian Academy Patrons?",
+            "A": "Meridian Academy Patrons reached approximately {10.08} % in 1998."
+        },
+        {
+            "Q": "What is the lowest Alumni Giving Rate level recorded for Meridian Academy Patrons?",
+            "A": "Meridian Academy Patrons's lowest recorded level is approximately {1.51} % in 2010."
+        },
+        {
+            "Q": "What is the highest Alumni Giving Rate level recorded for Silverhaven Polytechnic Fund?",
+            "A": "Silverhaven Polytechnic Fund reached approximately {18.78} % in 2004."
+        },
+        {
+            "Q": "What is the lowest Alumni Giving Rate level recorded for Silverhaven Polytechnic Fund?",
+            "A": "Silverhaven Polytechnic Fund's lowest recorded level is approximately {13.33} % in 2010."
+        },
+        {
+            "Q": "What is the highest Alumni Giving Rate level recorded for Zenith Tech Foundation?",
+            "A": "Zenith Tech Foundation reached approximately {22.70} % in 2003."
+        },
+        {
+            "Q": "What is the lowest Alumni Giving Rate level recorded for Zenith Tech Foundation?",
+            "A": "Zenith Tech Foundation's lowest recorded level is approximately {16.59} % in 2010."
+        },
+        {
+            "Q": "What is Zenith Tech Foundation's Alumni Giving Rate in 1970?",
+            "A": "Zenith Tech Foundation's alumni giving rate in 1970 is {22.41} %."
+        },
+        {
+            "Q": "What is Aethelgard Arts Circle's Alumni Giving Rate in 1970?",
+            "A": "Aethelgard Arts Circle's alumni giving rate in 1970 is {20.62} %."
+        },
+        {
+            "Q": "What is Aethelgard Arts Circle's Alumni Giving Rate in 1970?",
+            "A": "Aethelgard Arts Circle's alumni giving rate in 1970 is {22.06} %."
+        },
+        {
+            "Q": "What are the alumni giving rate of Meridian Academy Patrons, Silverhaven Polytechnic Fund, and Zenith Tech Foundation in 1970?",
+            "A": "{Meridian Academy Patrons}'s alumni giving rate is {10.08} %, {Silverhaven Polytechnic Fund}'s alumni giving rate is {14.41} %, {Zenith Tech Foundation}'s alumni giving rate is {17.74} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Alumni Giving Rate in the line chart?",
+            "A": "The global minimum alumni giving rate is {1.51} %."
+        },
+        {
+            "Q": "What is the global maximum Alumni Giving Rate in the line chart?",
+            "A": "The global maximum alumni giving rate is {23.13} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aethelgard Arts Circle's Alumni Giving Rate?",
+            "A": "The average value of Aethelgard Arts Circle's Alumni Giving Rate is {20.56} %."
+        },
+        {
+            "Q": "What is the average value of Meridian Academy Patrons's Alumni Giving Rate?",
+            "A": "The average value of Meridian Academy Patrons's Alumni Giving Rate is {5.51} %."
+        },
+        {
+            "Q": "What is the average value of Silverhaven Polytechnic Fund's Alumni Giving Rate?",
+            "A": "The average value of Silverhaven Polytechnic Fund's Alumni Giving Rate is {16.02} %."
+        },
+        {
+            "Q": "What is the average value of Zenith Tech Foundation's Alumni Giving Rate?",
+            "A": "The average value of Zenith Tech Foundation's Alumni Giving Rate is {20.69} %."
+        },
+        {
+            "Q": "What is the rate of change in Aethelgard Arts Circle's Alumni Giving Rate from the starting year to the final year?",
+            "A": "The rate of change in Aethelgard Arts Circle's Alumni Giving Rate is {10.07}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Academy Patrons's Alumni Giving Rate from the starting year to the final year?",
+            "A": "The rate of change in Meridian Academy Patrons's Alumni Giving Rate is {-85.02}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Polytechnic Fund's Alumni Giving Rate from the starting year to the final year?",
+            "A": "The rate of change in Silverhaven Polytechnic Fund's Alumni Giving Rate is {-7.49}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Tech Foundation's Alumni Giving Rate from the starting year to the final year?",
+            "A": "The rate of change in Zenith Tech Foundation's Alumni Giving Rate is {-6.48}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Meridian Academy Patrons's Alumni Giving Rate exceed 7 %? Please list the years and corresponding values.",
+            "A": "10.08 % in {1998.0} year, 9.72 % in {1999.0} year, 8.31 % in {2000.0} year."
+        },
+        {
+            "Q": "Which years did Meridian Academy Patrons's Alumni Giving Rate below 4 %? Please list the years and corresponding values.",
+            "A": "3.43 % in {2005.0} year, 2.23 % in {2008.0} year, 2.88 % in {2009.0} year."
+        },
+        {
+            "Q": "In the year 1998, which line had Alumni Giving Rate exceed 17 %? Please list the lines and corresponding values.",
+            "A": "{Zenith Tech Foundation} had 18 %."
+        },
+        {
+            "Q": "In the year 1998, which lines had Alumni Giving Rate below 14 %? Please list the lines and corresponding values.",
+            "A": "{Meridian Academy Patrons} had 10 %."
+        },
+        {
+            "Q": "In the year 1998, which lines had Alumni Giving Rate between 14 and 17 %? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Polytechnic Fund} had 14 %, {Aethelgard Arts Circle} had 17 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had the highest Alumni Giving Rate, Zenith Tech Foundation, Silverhaven Polytechnic Fund, Aethelgard Arts Circle, or Meridian Academy Patrons?",
+            "A": "In 1970, {Zenith Tech Foundation} had the highest alumni giving rate."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

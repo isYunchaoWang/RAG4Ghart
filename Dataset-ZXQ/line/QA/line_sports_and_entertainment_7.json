@@ -1,0 +1,121 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of @IronwoodInvincibles's Social Media Followers levels?",
+            "A": "@IronwoodInvincibles's Social Media Followers levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of @ApexAthletics's Social Media Followers levels?",
+            "A": "@ApexAthletics's Social Media Followers levels show a {single valley} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Social Media Followers levels?",
+            "A": "{@IronwoodInvincibles}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Social Media Followers levels?",
+            "A": "{@ApexAthletics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Social Media Followers level recorded for @ApexAthletics?",
+            "A": "@ApexAthletics reached approximately {10171404.14} followers in 1983."
+        },
+        {
+            "Q": "What is the lowest Social Media Followers level recorded for @ApexAthletics?",
+            "A": "@ApexAthletics's lowest recorded level is approximately {271371.81} followers in 1987."
+        },
+        {
+            "Q": "What is the highest Social Media Followers level recorded for @IronwoodInvincibles?",
+            "A": "@IronwoodInvincibles reached approximately {12560324.46} followers in 1987."
+        },
+        {
+            "Q": "What is the lowest Social Media Followers level recorded for @IronwoodInvincibles?",
+            "A": "@IronwoodInvincibles's lowest recorded level is approximately {6507718.86} followers in 1985."
+        },
+        {
+            "Q": "What is @ApexAthletics's Social Media Followers in 1970?",
+            "A": "@ApexAthletics's social media followers in 1970 is {9350215.94} followers."
+        },
+        {
+            "Q": "What is @ApexAthletics's Social Media Followers in 1970?",
+            "A": "@ApexAthletics's social media followers in 1970 is {8036577.59} followers."
+        },
+        {
+            "Q": "What is @IronwoodInvincibles's Social Media Followers in 1970?",
+            "A": "@IronwoodInvincibles's social media followers in 1970 is {11972321.92} followers."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Social Media Followers in the line chart?",
+            "A": "The global minimum social media followers is {271371.81} followers."
+        },
+        {
+            "Q": "What is the global maximum Social Media Followers in the line chart?",
+            "A": "The global maximum social media followers is {12560324.46} followers."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of @ApexAthletics's Social Media Followers?",
+            "A": "The average value of @ApexAthletics's Social Media Followers is {5377134.06} followers."
+        },
+        {
+            "Q": "What is the average value of @IronwoodInvincibles's Social Media Followers?",
+            "A": "The average value of @IronwoodInvincibles's Social Media Followers is {10283585.47} followers."
+        },
+        {
+            "Q": "What is the rate of change in @ApexAthletics's Social Media Followers from the starting year to the final year?",
+            "A": "The rate of change in @ApexAthletics's Social Media Followers is {14.20}%."
+        },
+        {
+            "Q": "What is the rate of change in @IronwoodInvincibles's Social Media Followers from the starting year to the final year?",
+            "A": "The rate of change in @IronwoodInvincibles's Social Media Followers is {17.31}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did @ApexAthletics's Social Media Followers exceed 7324365 followers? Please list the years and corresponding values.",
+            "A": "8187355.14 followers in {1981.0} year, 10171404.14 followers in {1983.0} year, 8759952.30 followers in {1985.0} year."
+        },
+        {
+            "Q": "Which years did @ApexAthletics's Social Media Followers below 3666566 followers? Please list the years and corresponding values.",
+            "A": "271371.81 followers in {1987.0} year, 2354171.50 followers in {1988.0} year, 1531576.17 followers in {1990.0} year."
+        },
+        {
+            "Q": "Which years did @ApexAthletics's Social Media Followers between 4945919 and 6045012 followers? Please list the years and corresponding values.",
+            "A": "5786821.24 followers in {1998.0} year."
+        },
+        {
+            "Q": "In the year 1981, which line had Social Media Followers exceed 9567685 followers? Please list the lines and corresponding values.",
+            "A": "{@IronwoodInvincibles} had 10159255 followers."
+        },
+        {
+            "Q": "In the year 1981, which lines had Social Media Followers below 8778925 followers? Please list the lines and corresponding values.",
+            "A": "{@ApexAthletics} had 8187355 followers."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Social Media Followers, @IronwoodInvincibles or @ApexAthletics?",
+            "A": "In 1970, {@IronwoodInvincibles} had a higher social media followers."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

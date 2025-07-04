@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total customer acquisition cost?",
+            "A": "The series with the largest contribution is {Vanguard Dynamics}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total customer acquisition cost?",
+            "A": "The series with the smallest contribution is {Horizon Enterprises}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Vanguard Dynamics's Customer Acquisition Cost in 1974?",
+            "A": "Vanguard Dynamics's customer acquisition cost in 1974 is {98.47} $."
+        },
+        {
+            "Q": "What is Apex Systems's Customer Acquisition Cost in 1976?",
+            "A": "Apex Systems's customer acquisition cost in 1976 is {108.77} $."
+        },
+        {
+            "Q": "What is Vanguard Dynamics's Customer Acquisition Cost in 1975?",
+            "A": "Vanguard Dynamics's customer acquisition cost in 1975 is {123.51} $."
+        },
+        {
+            "Q": "What are the customer acquisition cost of Vanguard Dynamics, Starlight Innovations, and Horizon Enterprises in 1974?",
+            "A": "Vanguard Dynamics's customer acquisition cost is {98.47} $, Starlight Innovations's customer acquisition cost is {89.46} $, Horizon Enterprises's customer acquisition cost is {91.91} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Customer Acquisition Cost in the stacked area chart?",
+            "A": "The global minimum total customer acquisition cost is {382.02} $."
+        },
+        {
+            "Q": "What is the global maximum total Customer Acquisition Cost in the stacked area chart?",
+            "A": "The global maximum total customer acquisition cost is {448.41} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Vanguard Dynamics's Customer Acquisition Cost area?",
+            "A": "The average height of Vanguard Dynamics's customer acquisition cost area is {106.23} $."
+        },
+        {
+            "Q": "What is the average height of Apex Systems's Customer Acquisition Cost area?",
+            "A": "The average height of Apex Systems's customer acquisition cost area is {103.53} $."
+        },
+        {
+            "Q": "What is the average height of Starlight Innovations's Customer Acquisition Cost area?",
+            "A": "The average height of Starlight Innovations's customer acquisition cost area is {105.71} $."
+        },
+        {
+            "Q": "What is the average height of Horizon Enterprises's Customer Acquisition Cost area?",
+            "A": "The average height of Horizon Enterprises's customer acquisition cost area is {99.48} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Customer Acquisition Cost go below 391 $? Please list the years and corresponding total values.",
+            "A": "total value was {382.02} $ in {1977}."
+        },
+        {
+            "Q": "Which years did the total Customer Acquisition Cost exceed 439 $? Please list the years and corresponding total values.",
+            "A": "total value was {448.41} $ in {1975}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1976 and 1977, was the average total Customer Acquisition Cost higher or lower than between 1975 and 1977?",
+            "A": "The average total customer acquisition cost between {1976} and {1977} was {lower} than between {1975} and {1977}."
+        },
+        {
+            "Q": "Between 1975 and 1976, was the average total Customer Acquisition Cost higher or lower than between 1974 and 1976?",
+            "A": "The average total customer acquisition cost between {1975} and {1976} was {higher} than between {1974} and {1976}."
+        },
+        {
+            "Q": "Between 1975 and 1976, did the total Customer Acquisition Cost experience a larger or smaller change than between 1974 and 1975?",
+            "A": "The change in total customer acquisition cost between {1975} and {1976} was {smaller} than between {1974} and {1975}."
+        },
+        {
+            "Q": "Was the total Customer Acquisition Cost in 1975 higher or lower than in 1977?",
+            "A": "The total customer acquisition cost in {1975} was {higher} than in {1977}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

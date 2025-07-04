@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {1} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total tv ratings?",
+            "A": "The series with the largest contribution is {Crimson Vision}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total tv ratings?",
+            "A": "The series with the smallest contribution is {Crimson Vision}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Crimson Vision's TV Ratings in 1957?",
+            "A": "Crimson Vision's tv ratings in 1957 is {4.90} million viewers."
+        },
+        {
+            "Q": "What is Crimson Vision's TV Ratings in 1964?",
+            "A": "Crimson Vision's tv ratings in 1964 is {5.70} million viewers."
+        },
+        {
+            "Q": "What is Crimson Vision's TV Ratings in 1960?",
+            "A": "Crimson Vision's tv ratings in 1960 is {5.27} million viewers."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total TV Ratings in the stacked area chart?",
+            "A": "The global minimum total tv ratings is {4.16} million viewers."
+        },
+        {
+            "Q": "What is the global maximum total TV Ratings in the stacked area chart?",
+            "A": "The global maximum total tv ratings is {7.25} million viewers."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Crimson Vision's TV Ratings area?",
+            "A": "The average height of Crimson Vision's tv ratings area is {5.67} million viewers."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total TV Ratings fall between 5 and 6 million viewers? Please list the years and corresponding total values.",
+            "A": "total value was {5.70} million viewers in {1964}, total value was {5.75} million viewers in {1961}."
+        },
+        {
+            "Q": "Which years did the total TV Ratings go below 5 million viewers? Please list the years and corresponding total values.",
+            "A": "total value was {5.20} million viewers in {1959}, total value was {4.90} million viewers in {1957}, total value was {4.96} million viewers in {1958}."
+        },
+        {
+            "Q": "Which years did the total TV Ratings exceed 6 million viewers? Please list the years and corresponding total values.",
+            "A": "total value was {7.25} million viewers in {1968}, total value was {6.28} million viewers in {1966}, total value was {6.65} million viewers in {1965}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1964 and 1967, did the total TV Ratings experience a larger or smaller change than between 1961 and 1962?",
+            "A": "The change in total tv ratings between {1964} and {1967} was {larger} than between {1961} and {1962}."
+        },
+        {
+            "Q": "Between 1956 and 1964, was the average total TV Ratings higher or lower than between 1964 and 1966?",
+            "A": "The average total tv ratings between {1956} and {1964} was {lower} than between {1964} and {1966}."
+        },
+        {
+            "Q": "Between 1956 and 1966, was the average total TV Ratings higher or lower than between 1958 and 1967?",
+            "A": "The average total tv ratings between {1956} and {1966} was {lower} than between {1958} and {1967}."
+        },
+        {
+            "Q": "Was the total TV Ratings in 1959 higher or lower than in 1968?",
+            "A": "The total tv ratings in {1959} was {lower} than in {1968}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

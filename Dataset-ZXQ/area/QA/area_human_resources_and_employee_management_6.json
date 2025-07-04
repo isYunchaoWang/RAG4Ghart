@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total productivity rate?",
+            "A": "The series with the largest contribution is {Sales Team}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total productivity rate?",
+            "A": "The series with the smallest contribution is {Management Team}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Management Team's Productivity Rate in 2018?",
+            "A": "Management Team's productivity rate in 2018 is {7.63} units/hour."
+        },
+        {
+            "Q": "What is Sales Team's Productivity Rate in 2017?",
+            "A": "Sales Team's productivity rate in 2017 is {10.68} units/hour."
+        },
+        {
+            "Q": "What is Human Resources's Productivity Rate in 2017?",
+            "A": "Human Resources's productivity rate in 2017 is {10.97} units/hour."
+        },
+        {
+            "Q": "What are the productivity rate of Operations Staff, Engineering Department, and Sales Team in 2018?",
+            "A": "Operations Staff's productivity rate is {10.66} units/hour, Engineering Department's productivity rate is {10.97} units/hour, Sales Team's productivity rate is {11.56} units/hour."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Productivity Rate in the stacked area chart?",
+            "A": "The global minimum total productivity rate is {56.56} units/hour."
+        },
+        {
+            "Q": "What is the global maximum total Productivity Rate in the stacked area chart?",
+            "A": "The global maximum total productivity rate is {59.52} units/hour."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Sales Team's Productivity Rate area?",
+            "A": "The average height of Sales Team's productivity rate area is {10.52} units/hour."
+        },
+        {
+            "Q": "What is the average height of Human Resources's Productivity Rate area?",
+            "A": "The average height of Human Resources's productivity rate area is {9.36} units/hour."
+        },
+        {
+            "Q": "What is the average height of Engineering Department's Productivity Rate area?",
+            "A": "The average height of Engineering Department's productivity rate area is {9.92} units/hour."
+        },
+        {
+            "Q": "What is the average height of Research & Development's Productivity Rate area?",
+            "A": "The average height of Research & Development's productivity rate area is {9.75} units/hour."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Productivity Rate exceed 59 units/hour? Please list the years and corresponding total values.",
+            "A": "total value was {59.52} units/hour in {2017}."
+        },
+        {
+            "Q": "Which years did the total Productivity Rate go below 58 units/hour? Please list the years and corresponding total values.",
+            "A": "total value was {56.56} units/hour in {2016}."
+        },
+        {
+            "Q": "Which years did the total Productivity Rate fall between 55 and 61 units/hour? Please list the years and corresponding total values.",
+            "A": "total value was {59.52} units/hour in {2017}, total value was {56.56} units/hour in {2016}, total value was {58.45} units/hour in {2018}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Productivity Rate in 2016 higher or lower than in 2018?",
+            "A": "The total productivity rate in {2016} was {lower} than in {2018}."
+        },
+        {
+            "Q": "Was the total Productivity Rate in 2017 higher or lower than in 2018?",
+            "A": "The total productivity rate in {2017} was {higher} than in {2018}."
+        },
+        {
+            "Q": "Was the total Productivity Rate in 2016 higher or lower than in 2017?",
+            "A": "The total productivity rate in {2016} was {lower} than in {2017}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

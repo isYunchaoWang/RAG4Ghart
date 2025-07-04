@@ -1,0 +1,65 @@
+Retail and E-commerce,the Performance of Retail and E-commerce,8x8,radial_gradient
+Apparel,Brick&Mortar,0.79
+Beauty,Brick&Mortar,0.82
+Books,Brick&Mortar,0.79
+Electronics,Brick&Mortar,0.76
+Furniture,Brick&Mortar,0.72
+Groceries,Brick&Mortar,0.53
+Pet Supplies,Brick&Mortar,0.32
+Toys,Brick&Mortar,0.21
+Apparel,Customer Service,0.8
+Beauty,Customer Service,0.82
+Books,Customer Service,0.82
+Electronics,Customer Service,0.79
+Furniture,Customer Service,0.66
+Groceries,Customer Service,0.56
+Pet Supplies,Customer Service,0.35
+Toys,Customer Service,0.2
+Apparel,DTC,0.78
+Beauty,DTC,0.79
+Books,DTC,0.77
+Electronics,DTC,0.74
+Furniture,DTC,0.61
+Groceries,DTC,0.46
+Pet Supplies,DTC,0.28
+Toys,DTC,0.17
+Apparel,Inventory,0.71
+Beauty,Inventory,0.69
+Books,Inventory,0.69
+Electronics,Inventory,0.61
+Furniture,Inventory,0.5
+Groceries,Inventory,0.37
+Pet Supplies,Inventory,0.23
+Toys,Inventory,0.14
+Apparel,Logistics,0.55
+Beauty,Logistics,0.54
+Books,Logistics,0.53
+Electronics,Logistics,0.46
+Furniture,Logistics,0.34
+Groceries,Logistics,0.24
+Pet Supplies,Logistics,0.17
+Toys,Logistics,0.15
+Apparel,Marketing,0.36
+Beauty,Marketing,0.34
+Books,Marketing,0.36
+Electronics,Marketing,0.31
+Furniture,Marketing,0.24
+Groceries,Marketing,0.16
+Pet Supplies,Marketing,0.12
+Toys,Marketing,0.08
+Apparel,Sales,0.24
+Beauty,Sales,0.22
+Books,Sales,0.18
+Electronics,Sales,0.17
+Furniture,Sales,0.16
+Groceries,Sales,0.11
+Pet Supplies,Sales,0.12
+Toys,Sales,0.09
+Apparel,Subscription,0.14
+Beauty,Subscription,0.13
+Books,Subscription,0.1
+Electronics,Subscription,0.12
+Furniture,Subscription,0.08
+Groceries,Subscription,0.11
+Pet Supplies,Subscription,0.09
+Toys,Subscription,0.09

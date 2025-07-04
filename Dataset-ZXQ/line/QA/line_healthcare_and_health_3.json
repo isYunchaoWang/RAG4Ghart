@@ -1,0 +1,189 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {5} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Stellar Memorial Hospital's Hospital Bed Occupancy levels?",
+            "A": "Stellar Memorial Hospital's Hospital Bed Occupancy levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Teaching Hospital's Hospital Bed Occupancy levels?",
+            "A": "Meridian Teaching Hospital's Hospital Bed Occupancy levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Community Hospital's Hospital Bed Occupancy levels?",
+            "A": "Silverhaven Community Hospital's Hospital Bed Occupancy levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Care Hospital's Hospital Bed Occupancy levels?",
+            "A": "Zenith Care Hospital's Hospital Bed Occupancy levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Coast Hospital's Hospital Bed Occupancy levels?",
+            "A": "Azure Coast Hospital's Hospital Bed Occupancy levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Hospital Bed Occupancy levels?",
+            "A": "{Stellar Memorial Hospital}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Hospital Bed Occupancy levels?",
+            "A": "{Meridian Teaching Hospital}."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Hospital Bed Occupancy levels?",
+            "A": "{Silverhaven Community Hospital}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Hospital Bed Occupancy levels?",
+            "A": "{Zenith Care Hospital}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Hospital Bed Occupancy level recorded for Azure Coast Hospital?",
+            "A": "Azure Coast Hospital reached approximately {100.00} % in 1964."
+        },
+        {
+            "Q": "What is the lowest Hospital Bed Occupancy level recorded for Azure Coast Hospital?",
+            "A": "Azure Coast Hospital's lowest recorded level is approximately {82.29} % in 1961."
+        },
+        {
+            "Q": "What is the highest Hospital Bed Occupancy level recorded for Meridian Teaching Hospital?",
+            "A": "Meridian Teaching Hospital reached approximately {74.92} % in 1964."
+        },
+        {
+            "Q": "What is the lowest Hospital Bed Occupancy level recorded for Meridian Teaching Hospital?",
+            "A": "Meridian Teaching Hospital's lowest recorded level is approximately {0.80} % in 1975."
+        },
+        {
+            "Q": "What is the highest Hospital Bed Occupancy level recorded for Silverhaven Community Hospital?",
+            "A": "Silverhaven Community Hospital reached approximately {24.65} % in 1961."
+        },
+        {
+            "Q": "What is the lowest Hospital Bed Occupancy level recorded for Silverhaven Community Hospital?",
+            "A": "Silverhaven Community Hospital's lowest recorded level is approximately {0.80} % in 1964."
+        },
+        {
+            "Q": "What is the highest Hospital Bed Occupancy level recorded for Stellar Memorial Hospital?",
+            "A": "Stellar Memorial Hospital reached approximately {100.00} % in 1963."
+        },
+        {
+            "Q": "What is the lowest Hospital Bed Occupancy level recorded for Stellar Memorial Hospital?",
+            "A": "Stellar Memorial Hospital's lowest recorded level is approximately {80.13} % in 1961."
+        },
+        {
+            "Q": "What is the highest Hospital Bed Occupancy level recorded for Zenith Care Hospital?",
+            "A": "Zenith Care Hospital reached approximately {100.00} % in 1969."
+        },
+        {
+            "Q": "What is the lowest Hospital Bed Occupancy level recorded for Zenith Care Hospital?",
+            "A": "Zenith Care Hospital's lowest recorded level is approximately {79.53} % in 1962."
+        },
+        {
+            "Q": "What is Zenith Care Hospital's Hospital Bed Occupancy in 1970?",
+            "A": "Zenith Care Hospital's hospital bed occupancy in 1970 is {100.00} %."
+        },
+        {
+            "Q": "What is Stellar Memorial Hospital's Hospital Bed Occupancy in 1970?",
+            "A": "Stellar Memorial Hospital's hospital bed occupancy in 1970 is {100.00} %."
+        },
+        {
+            "Q": "What is Silverhaven Community Hospital's Hospital Bed Occupancy in 1970?",
+            "A": "Silverhaven Community Hospital's hospital bed occupancy in 1970 is {0.80} %."
+        },
+        {
+            "Q": "What are the hospital bed occupancy of Stellar Memorial Hospital, Meridian Teaching Hospital, and Silverhaven Community Hospital in 1970?",
+            "A": "{Stellar Memorial Hospital}'s hospital bed occupancy is {80.13} %, {Meridian Teaching Hospital}'s hospital bed occupancy is {73.30} %, {Silverhaven Community Hospital}'s hospital bed occupancy is {24.65} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Hospital Bed Occupancy in the line chart?",
+            "A": "The global minimum hospital bed occupancy is {0.80} %."
+        },
+        {
+            "Q": "What is the global maximum Hospital Bed Occupancy in the line chart?",
+            "A": "The global maximum hospital bed occupancy is {100.00} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Azure Coast Hospital's Hospital Bed Occupancy?",
+            "A": "The average value of Azure Coast Hospital's Hospital Bed Occupancy is {97.46} %."
+        },
+        {
+            "Q": "What is the average value of Meridian Teaching Hospital's Hospital Bed Occupancy?",
+            "A": "The average value of Meridian Teaching Hospital's Hospital Bed Occupancy is {46.47} %."
+        },
+        {
+            "Q": "What is the average value of Silverhaven Community Hospital's Hospital Bed Occupancy?",
+            "A": "The average value of Silverhaven Community Hospital's Hospital Bed Occupancy is {6.85} %."
+        },
+        {
+            "Q": "What is the average value of Stellar Memorial Hospital's Hospital Bed Occupancy?",
+            "A": "The average value of Stellar Memorial Hospital's Hospital Bed Occupancy is {97.91} %."
+        },
+        {
+            "Q": "What is the average value of Zenith Care Hospital's Hospital Bed Occupancy?",
+            "A": "The average value of Zenith Care Hospital's Hospital Bed Occupancy is {93.16} %."
+        },
+        {
+            "Q": "What is the rate of change in Azure Coast Hospital's Hospital Bed Occupancy from the starting year to the final year?",
+            "A": "The rate of change in Azure Coast Hospital's Hospital Bed Occupancy is {21.52}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Teaching Hospital's Hospital Bed Occupancy from the starting year to the final year?",
+            "A": "The rate of change in Meridian Teaching Hospital's Hospital Bed Occupancy is {-98.91}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Community Hospital's Hospital Bed Occupancy from the starting year to the final year?",
+            "A": "The rate of change in Silverhaven Community Hospital's Hospital Bed Occupancy is {-22.35}%."
+        },
+        {
+            "Q": "What is the rate of change in Stellar Memorial Hospital's Hospital Bed Occupancy from the starting year to the final year?",
+            "A": "The rate of change in Stellar Memorial Hospital's Hospital Bed Occupancy is {24.80}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Care Hospital's Hospital Bed Occupancy from the starting year to the final year?",
+            "A": "The rate of change in Zenith Care Hospital's Hospital Bed Occupancy is {25.17}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Zenith Care Hospital's Hospital Bed Occupancy below 89 %? Please list the years and corresponding values.",
+            "A": "79.89 % in {1961.0} year, 79.53 % in {1962.0} year, 83.46 % in {1963.0} year."
+        },
+        {
+            "Q": "Which years did Zenith Care Hospital's Hospital Bed Occupancy between 85 and 104 %? Please list the years and corresponding values.",
+            "A": "90.10 % in {1965.0} year, 94.87 % in {1966.0} year, 88.83 % in {1967.0} year."
+        },
+        {
+            "Q": "In the year 1966, which line had Hospital Bed Occupancy exceed 99 %? Please list the lines and corresponding values.",
+            "A": "{Stellar Memorial Hospital} had 100 %, {Azure Coast Hospital} had 100 %."
+        },
+        {
+            "Q": "In the year 1966, which lines had Hospital Bed Occupancy below 69 %? Please list the lines and corresponding values.",
+            "A": "{Meridian Teaching Hospital} had 62 %, {Silverhaven Community Hospital} had 1 %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Hospital Bed Occupancy, Stellar Memorial Hospital or Zenith Care Hospital?",
+            "A": "In 1970, {Stellar Memorial Hospital} had a higher hospital bed occupancy."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

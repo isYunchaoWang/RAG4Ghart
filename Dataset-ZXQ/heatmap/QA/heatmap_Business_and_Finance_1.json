@@ -1,0 +1,84 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {64} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {8} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {uniform} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Insurance and Profit in the heatmap?",
+            "A": "The heat value is {0.52}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Real Estate and Liquidity in the heatmap?",
+            "A": "The heat value is {0.52}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Tax and Liquidity in the heatmap?",
+            "A": "The heat value is {0.51}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.54}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.49}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Investments on the x-axis?",
+            "A": "The maximum heat value of {Investments} on the x-axis is {0.53}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Risk on the y-axis?",
+            "A": "The maximum heat value for {Risk} on the y-axis is {0.54}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Investments on the x-axis?",
+            "A": "The average heat value for {Investments} on the x-axis is {0.52}."
+        },
+        {
+            "Q": "What is the average heat value for label Equity on the y-axis?",
+            "A": "The average heat value for {Equity} on the y-axis is {0.52}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Capital Markets and Profit or the cell corresponding to Banking and Risk?",
+            "A": "The cell corresponding to {Capital Markets} and {Profit} has a {higher} heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Insurance and Revenue or the cell corresponding to Risk Management and Risk?",
+            "A": "The cell corresponding to {Risk Management} and {Risk} has a {higher} heat value."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

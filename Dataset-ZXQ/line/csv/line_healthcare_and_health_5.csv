@@ -1,0 +1,7 @@
+Healthcare and Health,Patient Satisfaction,%
+Year,Chronic Condition Patients,Wellness Program Participants,Emergency Room Patients,Senior Care Group,Outpatient Visitors
+trend,single_valley,bimodal_valley,stable_falling,periodic_stable,bimodal_valley
+1994,19.44,0.9,94.81,86.85,0.9
+1995,18.35,0.9,91.16,100,0.9
+1996,25.32,0.9,95.31,100,0.9
+1997,31.05,0.9,100,76.78,0.9

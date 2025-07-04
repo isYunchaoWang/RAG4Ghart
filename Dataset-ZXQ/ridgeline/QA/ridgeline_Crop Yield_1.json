@@ -1,0 +1,59 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {5} slices in this chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Wheat show?",
+            "A": "The ridgeline representing Wheat shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Wheat reach its peaks?",
+            "A": "At {545.55}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Rice} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =4388.7?",
+            "A": "At X =4388.7,the label with the highest density is {Oats}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 3635? Please list the countries and corresponding peak values.",
+            "A": "{Oats}'s peak at {4289},{Corn}'s peak at {3754}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 3534? Please list the countries and corresponding peak values.",
+            "A": "{Rice}'s peak at {656},{Barley}'s peak at {445},{Wheat}'s peak at {546}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Wheat or Oats?",
+            "A": "{Oats} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Rice or Barley?",
+            "A": "{Rice} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

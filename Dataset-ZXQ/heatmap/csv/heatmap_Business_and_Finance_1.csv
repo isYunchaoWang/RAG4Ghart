@@ -1,0 +1,65 @@
+Business and Finance,the Patterns of Business and Finance,8x8,uniform
+Accounting,Assets,0.52
+Banking,Assets,0.52
+Capital Markets,Assets,0.51
+Insurance,Assets,0.52
+Investments,Assets,0.53
+Real Estate,Assets,0.51
+Risk Management,Assets,0.53
+Tax,Assets,0.49
+Accounting,Equity,0.52
+Banking,Equity,0.51
+Capital Markets,Equity,0.51
+Insurance,Equity,0.5
+Investments,Equity,0.53
+Real Estate,Equity,0.51
+Risk Management,Equity,0.54
+Tax,Equity,0.52
+Accounting,Growth,0.53
+Banking,Growth,0.54
+Capital Markets,Growth,0.51
+Insurance,Growth,0.52
+Investments,Growth,0.52
+Real Estate,Growth,0.51
+Risk Management,Growth,0.51
+Tax,Growth,0.52
+Accounting,Liquidity,0.51
+Banking,Liquidity,0.53
+Capital Markets,Liquidity,0.53
+Insurance,Liquidity,0.52
+Investments,Liquidity,0.53
+Real Estate,Liquidity,0.52
+Risk Management,Liquidity,0.52
+Tax,Liquidity,0.51
+Accounting,Market Share,0.51
+Banking,Market Share,0.53
+Capital Markets,Market Share,0.51
+Insurance,Market Share,0.49
+Investments,Market Share,0.51
+Real Estate,Market Share,0.53
+Risk Management,Market Share,0.5
+Tax,Market Share,0.51
+Accounting,Profit,0.53
+Banking,Profit,0.54
+Capital Markets,Profit,0.53
+Insurance,Profit,0.52
+Investments,Profit,0.51
+Real Estate,Profit,0.53
+Risk Management,Profit,0.53
+Tax,Profit,0.51
+Accounting,Revenue,0.51
+Banking,Revenue,0.53
+Capital Markets,Revenue,0.51
+Insurance,Revenue,0.5
+Investments,Revenue,0.52
+Real Estate,Revenue,0.52
+Risk Management,Revenue,0.53
+Tax,Revenue,0.51
+Accounting,Risk,0.5
+Banking,Risk,0.51
+Capital Markets,Risk,0.52
+Insurance,Risk,0.51
+Investments,Risk,0.53
+Real Estate,Risk,0.51
+Risk Management,Risk,0.54
+Tax,Risk,0.52

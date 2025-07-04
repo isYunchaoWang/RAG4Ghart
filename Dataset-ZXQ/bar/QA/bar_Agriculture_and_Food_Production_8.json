@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {4} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {Apple}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {Orange}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Sugarcane relative to the bar Apple in terms of vetical (above/below) direction??",
+            "A": "Bar Sugarcane is {above} the bar Apple."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Orange}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Apple}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Sugarcane?",
+            "A": "The value of Sugarcane is {13769} metric tons."
+        },
+        {
+            "Q": "What is the value of bar Apple?",
+            "A": "The value of Apple is {2964} metric tons."
+        },
+        {
+            "Q": "What is the value of bar Orange?",
+            "A": "The value of Orange is {19948} metric tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum metric tons in the bar chart?",
+            "A": "The maximum metric tons is {19948} metric tons."
+        },
+        {
+            "Q": "What is the minimum metric tons in the bar chart?",
+            "A": "The minimum metric tons is {2964} metric tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Sugarcane and Rapeseed?",
+            "A": "The total value of Sugarcane and Rapeseed is {21853} metric tons."
+        },
+        {
+            "Q": "What is the average value of Apple and Sugarcane?",
+            "A": "The average value of Apple and Sugarcane is {8366.5} metric tons."
+        },
+        {
+            "Q": "What is the difference between Orange and Rapeseed?",
+            "A": "The difference between Orange and Rapeseed is {11864} metric tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have metric tons values exceed 16858.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Orange} has {19948} metric tons."
+        },
+        {
+            "Q": "Which bars have {metric tons} values below 16858.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Apple} has {2964} metric tons, {Rapeseed} has {8084} metric tons, {Sugarcane} has {13769} metric tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Sugarcane or Rapeseed ",
+            "A": "The value of the {Sugarcane} is larger?"
+        },
+        {
+            "Q": "Which is larger, Rapeseed, Sugarcane or Orange ",
+            "A": "The value of the {Orange} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {2} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Sugarcane} and {Orange}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Orange}, {Sugarcane}, and {Rapeseed}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by metric tons values in descending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value descending: {Orange}, {Sugarcane}, {Rapeseed}, and {Apple}."
+        },
+        {
+            "Q": "Sort the bars by metric tons values in ascending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value ascending: {Apple}, {Rapeseed}, {Sugarcane}, and {Orange}."
+        }
+    ]
+}

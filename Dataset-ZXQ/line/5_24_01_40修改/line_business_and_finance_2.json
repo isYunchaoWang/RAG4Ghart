@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Meridian Capital Market's Interest Rate levels?",
+            "A": "Meridian Capital Market's interest rate levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Interest Rate levels?",
+            "A": "{Meridian Capital Market}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Meridian Capital Market's Interest Rate in 2004?",
+            "A": "Meridian Capital Market's interest rate in 2004 is {23.55} %."
+        },
+        {
+            "Q": "What is Meridian Capital Market's Interest Rate in 1989?",
+            "A": "Meridian Capital Market's interest rate in 1989 is {5.64} %."
+        },
+        {
+            "Q": "What is Meridian Capital Market's Interest Rate in 1998?",
+            "A": "Meridian Capital Market's interest rate in 1998 is {13.29} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Interest Rate in the line chart?",
+            "A": "The global minimum interest rate is {3.50} %."
+        },
+        {
+            "Q": "What is the global maximum Interest Rate in the line chart?",
+            "A": "The global maximum interest rate is {45.88} %."
+        },
+        {
+            "Q": "What is the highest Interest Rate level recorded for Meridian Capital Market?",
+            "A": "Meridian Capital Market reached approximately {45.88} % in {2011}."
+        },
+        {
+            "Q": "What is the lowest Interest Rate level recorded for Meridian Capital Market?",
+            "A": "Meridian Capital Market's lowest recorded level is approximately {3.50} % in {1984}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Meridian Capital Market's Interest Rate?",
+            "A": "The average value of Meridian Capital Market's interest rate is {16.78} %."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Capital Market's Interest Rate from the starting year to the final year?",
+            "A": "The rate of change in Meridian Capital Market's interest rate is {1210.86}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Meridian Capital Market's Interest Rate exceed 21 %? Please list the years and corresponding values.",
+            "A": "{45.88} % in {2011} year, {23.55} % in {2004} year, {34.47} % in {2008} year."
+        },
+        {
+            "Q": "Which years did Meridian Capital Market's Interest Rate between 14 and 15 %? Please list the years and corresponding values.",
+            "A": "{14.62} % in {1999} year."
+        },
+        {
+            "Q": "Which years did Meridian Capital Market's Interest Rate below 8 %? Please list the years and corresponding values.",
+            "A": "{4.24} % in {1986} year, {5.12} % in {1988} year, {6.20} % in {1990} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Meridian Capital Market's Interest Rate in 1989 higher or lower than in 2009?",
+            "A": "The interest rate in 1989 was lower than in 2009."
+        },
+        {
+            "Q": "Was Meridian Capital Market's Interest Rate in 1999 higher or lower than in 2004?",
+            "A": "The interest rate in 1999 was lower than in 2004."
+        },
+        {
+            "Q": "Was Meridian Capital Market's Interest Rate in 1995 higher or lower than in 2002?",
+            "A": "The interest rate in 1995 was lower than in 2002."
+        },
+        {
+            "Q": "Was Meridian Capital Market's Interest Rate in 2001 higher or lower than in 2008?",
+            "A": "The interest rate in 2001 was lower than in 2008."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

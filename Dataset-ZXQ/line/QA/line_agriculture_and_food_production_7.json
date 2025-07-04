@@ -1,0 +1,245 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of TerraTrade Network's Food Waste levels?",
+            "A": "TerraTrade Network's Food Waste levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of AgroChain Management's Food Waste levels?",
+            "A": "AgroChain Management's Food Waste levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of CropConnect Logistics's Food Waste levels?",
+            "A": "CropConnect Logistics's Food Waste levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of HarvestLink Systems's Food Waste levels?",
+            "A": "HarvestLink Systems's Food Waste levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of FarmGate Transit's Food Waste levels?",
+            "A": "FarmGate Transit's Food Waste levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of AgriFlow Solutions's Food Waste levels?",
+            "A": "AgriFlow Solutions's Food Waste levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Verdant Distribution's Food Waste levels?",
+            "A": "Verdant Distribution's Food Waste levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Food Waste levels?",
+            "A": "{TerraTrade Network}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Food Waste levels?",
+            "A": "{AgroChain Management}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Food Waste levels?",
+            "A": "{CropConnect Logistics}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Food Waste levels?",
+            "A": "{HarvestLink Systems}."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Food Waste levels?",
+            "A": "{FarmGate Transit}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Food Waste levels?",
+            "A": "{Verdant Distribution}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Food Waste level recorded for AgriFlow Solutions?",
+            "A": "AgriFlow Solutions reached approximately {12268.89} tons in 2011."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for AgriFlow Solutions?",
+            "A": "AgriFlow Solutions's lowest recorded level is approximately {7575.41} tons in 2019."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for AgroChain Management?",
+            "A": "AgroChain Management reached approximately {9749.25} tons in 2010."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for AgroChain Management?",
+            "A": "AgroChain Management's lowest recorded level is approximately {3329.81} tons in 2019."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for CropConnect Logistics?",
+            "A": "CropConnect Logistics reached approximately {12385.15} tons in 2016."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for CropConnect Logistics?",
+            "A": "CropConnect Logistics's lowest recorded level is approximately {7468.35} tons in 2019."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for FarmGate Transit?",
+            "A": "FarmGate Transit reached approximately {14755.46} tons in 2020."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for FarmGate Transit?",
+            "A": "FarmGate Transit's lowest recorded level is approximately {10349.37} tons in 2010."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for HarvestLink Systems?",
+            "A": "HarvestLink Systems reached approximately {13023.40} tons in 2019."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for HarvestLink Systems?",
+            "A": "HarvestLink Systems's lowest recorded level is approximately {9437.25} tons in 2010."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for TerraTrade Network?",
+            "A": "TerraTrade Network reached approximately {6003.01} tons in 2010."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for TerraTrade Network?",
+            "A": "TerraTrade Network's lowest recorded level is approximately {2048.32} tons in 2015."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for Verdant Distribution?",
+            "A": "Verdant Distribution reached approximately {17437.04} tons in 2019."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for Verdant Distribution?",
+            "A": "Verdant Distribution's lowest recorded level is approximately {10184.96} tons in 2010."
+        },
+        {
+            "Q": "What is FarmGate Transit's Food Waste in 1970?",
+            "A": "FarmGate Transit's food waste in 1970 is {10426.77} tons."
+        },
+        {
+            "Q": "What is AgriFlow Solutions's Food Waste in 1970?",
+            "A": "AgriFlow Solutions's food waste in 1970 is {11432.46} tons."
+        },
+        {
+            "Q": "What is HarvestLink Systems's Food Waste in 1970?",
+            "A": "HarvestLink Systems's food waste in 1970 is {9437.25} tons."
+        },
+        {
+            "Q": "What are the food waste of TerraTrade Network, AgroChain Management, and CropConnect Logistics in 1970?",
+            "A": "{TerraTrade Network}'s food waste is {6003.01} tons, {AgroChain Management}'s food waste is {9749.25} tons, {CropConnect Logistics}'s food waste is {10149.71} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Food Waste in the line chart?",
+            "A": "The global minimum food waste is {2048.32} tons."
+        },
+        {
+            "Q": "What is the global maximum Food Waste in the line chart?",
+            "A": "The global maximum food waste is {17437.04} tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AgriFlow Solutions's Food Waste?",
+            "A": "The average value of AgriFlow Solutions's Food Waste is {9924.35} tons."
+        },
+        {
+            "Q": "What is the average value of AgroChain Management's Food Waste?",
+            "A": "The average value of AgroChain Management's Food Waste is {6888.01} tons."
+        },
+        {
+            "Q": "What is the average value of CropConnect Logistics's Food Waste?",
+            "A": "The average value of CropConnect Logistics's Food Waste is {10013.69} tons."
+        },
+        {
+            "Q": "What is the average value of FarmGate Transit's Food Waste?",
+            "A": "The average value of FarmGate Transit's Food Waste is {12482.50} tons."
+        },
+        {
+            "Q": "What is the average value of HarvestLink Systems's Food Waste?",
+            "A": "The average value of HarvestLink Systems's Food Waste is {11605.55} tons."
+        },
+        {
+            "Q": "What is the average value of TerraTrade Network's Food Waste?",
+            "A": "The average value of TerraTrade Network's Food Waste is {3768.43} tons."
+        },
+        {
+            "Q": "What is the average value of Verdant Distribution's Food Waste?",
+            "A": "The average value of Verdant Distribution's Food Waste is {13880.34} tons."
+        },
+        {
+            "Q": "What is the rate of change in AgriFlow Solutions's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in AgriFlow Solutions's Food Waste is {-4.65}%."
+        },
+        {
+            "Q": "What is the rate of change in AgroChain Management's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in AgroChain Management's Food Waste is {-61.82}%."
+        },
+        {
+            "Q": "What is the rate of change in CropConnect Logistics's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in CropConnect Logistics's Food Waste is {-0.40}%."
+        },
+        {
+            "Q": "What is the rate of change in FarmGate Transit's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in FarmGate Transit's Food Waste is {42.57}%."
+        },
+        {
+            "Q": "What is the rate of change in HarvestLink Systems's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in HarvestLink Systems's Food Waste is {32.58}%."
+        },
+        {
+            "Q": "What is the rate of change in TerraTrade Network's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in TerraTrade Network's Food Waste is {-8.52}%."
+        },
+        {
+            "Q": "What is the rate of change in Verdant Distribution's Food Waste from the starting year to the final year?",
+            "A": "The rate of change in Verdant Distribution's Food Waste is {69.84}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did AgroChain Management's Food Waste exceed 7597 tons? Please list the years and corresponding values.",
+            "A": "9749.25 tons in {2010.0} year, 9312.68 tons in {2011.0} year, 9384.02 tons in {2012.0} year."
+        },
+        {
+            "Q": "Which years did AgroChain Management's Food Waste below 5797 tons? Please list the years and corresponding values.",
+            "A": "5466.55 tons in {2018.0} year, 3329.81 tons in {2019.0} year, 3722.17 tons in {2020.0} year."
+        },
+        {
+            "Q": "Which years did AgroChain Management's Food Waste between 6027 and 7367 tons? Please list the years and corresponding values.",
+            "A": "7059.68 tons in {2013.0} year, 6830.91 tons in {2015.0} year."
+        },
+        {
+            "Q": "In the year 2012, which line had Food Waste exceed 11084 tons? Please list the lines and corresponding values.",
+            "A": "{CropConnect Logistics} had 11586 tons, {AgriFlow Solutions} had 11432 tons."
+        },
+        {
+            "Q": "In the year 2012, which lines had Food Waste below 10424 tons? Please list the lines and corresponding values.",
+            "A": "{TerraTrade Network} had 2942 tons, {AgroChain Management} had 9384 tons."
+        },
+        {
+            "Q": "In the year 2012, which lines had Food Waste between 9679 and 11830 tons? Please list the lines and corresponding values.",
+            "A": "{CropConnect Logistics} had 11586 tons, {HarvestLink Systems} had 10684 tons, {FarmGate Transit} had 10997 tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Food Waste, HarvestLink Systems or CropConnect Logistics?",
+            "A": "In 1970, {CropConnect Logistics} had a higher food waste."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

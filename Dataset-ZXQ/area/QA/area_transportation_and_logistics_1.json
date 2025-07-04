@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total cargo shipments?",
+            "A": "The series with the largest contribution is {Cross-Border Trucks}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total cargo shipments?",
+            "A": "The series with the smallest contribution is {Parcel Services}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Air Express's Cargo Shipments in 2013?",
+            "A": "Air Express's cargo shipments in 2013 is {564627.19} tons/month."
+        },
+        {
+            "Q": "What is Continental Freight's Cargo Shipments in 1999?",
+            "A": "Continental Freight's cargo shipments in 1999 is {151149.25} tons/month."
+        },
+        {
+            "Q": "What is Parcel Services's Cargo Shipments in 2012?",
+            "A": "Parcel Services's cargo shipments in 2012 is {7949.28} tons/month."
+        },
+        {
+            "Q": "What are the cargo shipments of Rail Networks, Cross-Border Trucks, and Oceanic Carriers in 2007?",
+            "A": "Rail Networks's cargo shipments is {137132.61} tons/month, Cross-Border Trucks's cargo shipments is {358414.85} tons/month, Oceanic Carriers's cargo shipments is {148261.59} tons/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Cargo Shipments in the stacked area chart?",
+            "A": "The global minimum total cargo shipments is {698326.71} tons/month."
+        },
+        {
+            "Q": "What is the global maximum total Cargo Shipments in the stacked area chart?",
+            "A": "The global maximum total cargo shipments is {3123453.92} tons/month."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of QuickShip Logistics's Cargo Shipments area?",
+            "A": "The average height of QuickShip Logistics's cargo shipments area is {37391.08} tons/month."
+        },
+        {
+            "Q": "What is the average height of Air Express's Cargo Shipments area?",
+            "A": "The average height of Air Express's cargo shipments area is {447959.25} tons/month."
+        },
+        {
+            "Q": "What is the average height of Cross-Border Trucks's Cargo Shipments area?",
+            "A": "The average height of Cross-Border Trucks's cargo shipments area is {454563.36} tons/month."
+        },
+        {
+            "Q": "What is the average height of Rail Networks's Cargo Shipments area?",
+            "A": "The average height of Rail Networks's cargo shipments area is {139837.36} tons/month."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Cargo Shipments fall between 1288041 and 1423624 tons/month? Please list the years and corresponding total values.",
+            "A": "total value was {1302748.13} tons/month in {2008}, total value was {1296809.07} tons/month in {2007}."
+        },
+        {
+            "Q": "Which years did the total Cargo Shipments exceed 1772967 tons/month? Please list the years and corresponding total values.",
+            "A": "total value was {2291950.80} tons/month in {2016}, total value was {2869294.41} tons/month in {2019}, total value was {3123453.92} tons/month in {2020}."
+        },
+        {
+            "Q": "Which years did the total Cargo Shipments go below 938697 tons/month? Please list the years and corresponding total values.",
+            "A": "total value was {774051.16} tons/month in {1997}, total value was {698326.71} tons/month in {1995}, total value was {749168.07} tons/month in {1994}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1997 and 2008, was the average total Cargo Shipments higher or lower than between 2003 and 2020?",
+            "A": "The average total cargo shipments between {1997} and {2008} was {lower} than between {2003} and {2020}."
+        },
+        {
+            "Q": "Between 2001 and 2010, did the total Cargo Shipments experience a larger or smaller change than between 2002 and 2005?",
+            "A": "The change in total cargo shipments between {2001} and {2010} was {larger} than between {2002} and {2005}."
+        },
+        {
+            "Q": "Was the total Cargo Shipments in 2007 higher or lower than in 2014?",
+            "A": "The total cargo shipments in {2007} was {lower} than in {2014}."
+        },
+        {
+            "Q": "Was the total Cargo Shipments in 2011 higher or lower than in 2017?",
+            "A": "The total cargo shipments in {2011} was {lower} than in {2017}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

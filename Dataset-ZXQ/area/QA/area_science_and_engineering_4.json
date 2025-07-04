@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total technology adoption rate?",
+            "A": "The series with the largest contribution is {Families}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total technology adoption rate?",
+            "A": "The series with the smallest contribution is {Elderly Population}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Rural Communities's Technology Adoption Rate in 2005?",
+            "A": "Rural Communities's technology adoption rate in 2005 is {34.85} %."
+        },
+        {
+            "Q": "What is Elderly Population's Technology Adoption Rate in 2005?",
+            "A": "Elderly Population's technology adoption rate in 2005 is {4.17} %."
+        },
+        {
+            "Q": "What is Working Professionals's Technology Adoption Rate in 2003?",
+            "A": "Working Professionals's technology adoption rate in 2003 is {29.10} %."
+        },
+        {
+            "Q": "What are the technology adoption rate of Urban Dwellers, Families, and Young Adults in 2000?",
+            "A": "Urban Dwellers's technology adoption rate is {21.78} %, Families's technology adoption rate is {27.74} %, Young Adults's technology adoption rate is {25.99} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Technology Adoption Rate in the stacked area chart?",
+            "A": "The global minimum total technology adoption rate is {119.17} %."
+        },
+        {
+            "Q": "What is the global maximum total Technology Adoption Rate in the stacked area chart?",
+            "A": "The global maximum total technology adoption rate is {177.26} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Rural Communities's Technology Adoption Rate area?",
+            "A": "The average height of Rural Communities's technology adoption rate area is {27.51} %."
+        },
+        {
+            "Q": "What is the average height of Urban Dwellers's Technology Adoption Rate area?",
+            "A": "The average height of Urban Dwellers's technology adoption rate area is {24.10} %."
+        },
+        {
+            "Q": "What is the average height of Elderly Population's Technology Adoption Rate area?",
+            "A": "The average height of Elderly Population's technology adoption rate area is {13.07} %."
+        },
+        {
+            "Q": "What is the average height of Families's Technology Adoption Rate area?",
+            "A": "The average height of Families's technology adoption rate area is {32.23} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Technology Adoption Rate fall between 139 and 154 %? Please list the years and corresponding total values.",
+            "A": "total value was {148.71} % in {2001}, total value was {143.93} % in {1999}."
+        },
+        {
+            "Q": "Which years did the total Technology Adoption Rate exceed 157 %? Please list the years and corresponding total values.",
+            "A": "total value was {159.44} % in {2003}, total value was {173.11} % in {2005}, total value was {177.26} % in {2004}."
+        },
+        {
+            "Q": "Which years did the total Technology Adoption Rate go below 136 %? Please list the years and corresponding total values.",
+            "A": "total value was {119.17} % in {1996}, total value was {132.39} % in {1998}, total value was {123.36} % in {1997}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Technology Adoption Rate in 2001 higher or lower than in 2002?",
+            "A": "The total technology adoption rate in {2001} was {lower} than in {2002}."
+        },
+        {
+            "Q": "Between 2000 and 2003, was the average total Technology Adoption Rate higher or lower than between 1999 and 2004?",
+            "A": "The average total technology adoption rate between {2000} and {2003} was {lower} than between {1999} and {2004}."
+        },
+        {
+            "Q": "Between 1998 and 2004, was the average total Technology Adoption Rate higher or lower than between 1998 and 2001?",
+            "A": "The average total technology adoption rate between {1998} and {2004} was {higher} than between {1998} and {2001}."
+        },
+        {
+            "Q": "Between 2000 and 2002, was the average total Technology Adoption Rate higher or lower than between 1996 and 2005?",
+            "A": "The average total technology adoption rate between {2000} and {2002} was {higher} than between {1996} and {2005}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

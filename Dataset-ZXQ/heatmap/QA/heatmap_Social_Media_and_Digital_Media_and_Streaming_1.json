@@ -1,0 +1,84 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {72} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {9} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {central cluster} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to TikTok and Advertising in the heatmap?",
+            "A": "The heat value is {0.11}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Online News and Users in the heatmap?",
+            "A": "The heat value is {0.50}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.88}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.07}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Spotify on the x-axis?",
+            "A": "The maximum heat value of {Spotify} on the x-axis is {0.43}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Content on the y-axis?",
+            "A": "The maximum heat value for {Content} on the y-axis is {0.41}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Algorithms on the y-axis?",
+            "A": "The average heat value for {Algorithms} on the y-axis is {0.19}."
+        },
+        {
+            "Q": "What is the average heat value for label Engagement on the y-axis?",
+            "A": "The average heat value for {Engagement} on the y-axis is {0.43}."
+        },
+        {
+            "Q": "What is the average heat value for label Netflix on the x-axis?",
+            "A": "The average heat value for {Netflix} on the x-axis is {0.48}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Spotify and Creator Economy or the cell corresponding to TikTok and Monetization?",
+            "A": "The cell corresponding to {Spotify} and {Creator Economy} has a {higher} heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Netflix and Algorithms or the cell corresponding to Twitter and Content?",
+            "A": "The cell corresponding to {Netflix} and {Algorithms} has a {higher} heat value."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

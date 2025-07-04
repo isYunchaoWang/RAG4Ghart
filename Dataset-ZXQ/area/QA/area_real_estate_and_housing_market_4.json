@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total mortgage rate?",
+            "A": "The series with the largest contribution is {Horizon Funding}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total mortgage rate?",
+            "A": "The series with the smallest contribution is {Aura Finance}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Aura Finance's Mortgage Rate in 1985?",
+            "A": "Aura Finance's mortgage rate in 1985 is {3.55} %."
+        },
+        {
+            "Q": "What is Aura Finance's Mortgage Rate in 1984?",
+            "A": "Aura Finance's mortgage rate in 1984 is {3.87} %."
+        },
+        {
+            "Q": "What is Horizon Funding's Mortgage Rate in 1990?",
+            "A": "Horizon Funding's mortgage rate in 1990 is {5.98} %."
+        },
+        {
+            "Q": "What are the mortgage rate of Apex Credit, Aura Finance, and Sapphire Loans in 1995?",
+            "A": "Apex Credit's mortgage rate is {4.50} %, Aura Finance's mortgage rate is {1.11} %, Sapphire Loans's mortgage rate is {5.22} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Mortgage Rate in the stacked area chart?",
+            "A": "The global minimum total mortgage rate is {15.73} %."
+        },
+        {
+            "Q": "What is the global maximum total Mortgage Rate in the stacked area chart?",
+            "A": "The global maximum total mortgage rate is {20.20} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Horizon Funding's Mortgage Rate area?",
+            "A": "The average height of Horizon Funding's mortgage rate area is {6.86} %."
+        },
+        {
+            "Q": "What is the average height of Aura Finance's Mortgage Rate area?",
+            "A": "The average height of Aura Finance's mortgage rate area is {1.88} %."
+        },
+        {
+            "Q": "What is the average height of Apex Credit's Mortgage Rate area?",
+            "A": "The average height of Apex Credit's mortgage rate area is {4.07} %."
+        },
+        {
+            "Q": "What is the average height of Sapphire Loans's Mortgage Rate area?",
+            "A": "The average height of Sapphire Loans's mortgage rate area is {5.08} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Mortgage Rate go below 17 %? Please list the years and corresponding total values.",
+            "A": "total value was {17.04} % in {1985}, total value was {15.73} % in {1986}, total value was {16.78} % in {1992}."
+        },
+        {
+            "Q": "Which years did the total Mortgage Rate exceed 18 %? Please list the years and corresponding total values.",
+            "A": "total value was {20.20} % in {1999}, total value was {19.33} % in {1998}, total value was {19.54} % in {1994}."
+        },
+        {
+            "Q": "Which years did the total Mortgage Rate fall between 17 and 19 %? Please list the years and corresponding total values.",
+            "A": "total value was {17.38} % in {1984}, total value was {17.18} % in {1991}, total value was {18.18} % in {1989}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1985 and 1998, did the total Mortgage Rate experience a larger or smaller change than between 1991 and 2001?",
+            "A": "The change in total mortgage rate between {1985} and {1998} was {larger} than between {1991} and {2001}."
+        },
+        {
+            "Q": "Between 1989 and 1991, was the average total Mortgage Rate higher or lower than between 1993 and 1997?",
+            "A": "The average total mortgage rate between {1989} and {1991} was {lower} than between {1993} and {1997}."
+        },
+        {
+            "Q": "Between 1986 and 1997, did the total Mortgage Rate experience a larger or smaller change than between 1983 and 1985?",
+            "A": "The change in total mortgage rate between {1986} and {1997} was {larger} than between {1983} and {1985}."
+        },
+        {
+            "Q": "Was the total Mortgage Rate in 1998 higher or lower than in 2000?",
+            "A": "The total mortgage rate in {1998} was {lower} than in {2000}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

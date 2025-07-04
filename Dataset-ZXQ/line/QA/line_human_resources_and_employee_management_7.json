@@ -1,0 +1,241 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of AstraCorp's Cost per Hire levels?",
+            "A": "AstraCorp's Cost per Hire levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Ironclad Industries's Cost per Hire levels?",
+            "A": "Ironclad Industries's Cost per Hire levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Dynamics's Cost per Hire levels?",
+            "A": "Meridian Dynamics's Cost per Hire levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Enterprises's Cost per Hire levels?",
+            "A": "Zenith Enterprises's Cost per Hire levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Skyward Systems's Cost per Hire levels?",
+            "A": "Skyward Systems's Cost per Hire levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Lumina Solutions's Cost per Hire levels?",
+            "A": "Lumina Solutions's Cost per Hire levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Verdant Ventures's Cost per Hire levels?",
+            "A": "Verdant Ventures's Cost per Hire levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Cost per Hire levels?",
+            "A": "{AstraCorp}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Cost per Hire levels?",
+            "A": "{Ironclad Industries}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Cost per Hire levels?",
+            "A": "{Meridian Dynamics}."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Cost per Hire levels?",
+            "A": "{Skyward Systems}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Cost per Hire levels?",
+            "A": "{Lumina Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Cost per Hire level recorded for AstraCorp?",
+            "A": "AstraCorp reached approximately {9271.06} $ in 2019."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for AstraCorp?",
+            "A": "AstraCorp's lowest recorded level is approximately {7418.87} $ in 2023."
+        },
+        {
+            "Q": "What is the highest Cost per Hire level recorded for Ironclad Industries?",
+            "A": "Ironclad Industries reached approximately {8080.89} $ in 2023."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for Ironclad Industries?",
+            "A": "Ironclad Industries's lowest recorded level is approximately {4912.41} $ in 2015."
+        },
+        {
+            "Q": "What is the highest Cost per Hire level recorded for Lumina Solutions?",
+            "A": "Lumina Solutions reached approximately {6177.12} $ in 2021."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for Lumina Solutions?",
+            "A": "Lumina Solutions's lowest recorded level is approximately {3997.06} $ in 2019."
+        },
+        {
+            "Q": "What is the highest Cost per Hire level recorded for Meridian Dynamics?",
+            "A": "Meridian Dynamics reached approximately {2193.49} $ in 2023."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for Meridian Dynamics?",
+            "A": "Meridian Dynamics's lowest recorded level is approximately {1067.49} $ in 2018."
+        },
+        {
+            "Q": "What is the highest Cost per Hire level recorded for Skyward Systems?",
+            "A": "Skyward Systems reached approximately {4924.25} $ in 2015."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for Skyward Systems?",
+            "A": "Skyward Systems's lowest recorded level is approximately {2616.46} $ in 2022."
+        },
+        {
+            "Q": "What is the highest Cost per Hire level recorded for Verdant Ventures?",
+            "A": "Verdant Ventures reached approximately {8938.15} $ in 2019."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for Verdant Ventures?",
+            "A": "Verdant Ventures's lowest recorded level is approximately {7693.27} $ in 2022."
+        },
+        {
+            "Q": "What is the highest Cost per Hire level recorded for Zenith Enterprises?",
+            "A": "Zenith Enterprises reached approximately {7880.83} $ in 2022."
+        },
+        {
+            "Q": "What is the lowest Cost per Hire level recorded for Zenith Enterprises?",
+            "A": "Zenith Enterprises's lowest recorded level is approximately {5238.97} $ in 2015."
+        },
+        {
+            "Q": "What is AstraCorp's Cost per Hire in 1970?",
+            "A": "AstraCorp's cost per hire in 1970 is {8387.88} $."
+        },
+        {
+            "Q": "What is AstraCorp's Cost per Hire in 1970?",
+            "A": "AstraCorp's cost per hire in 1970 is {8144.54} $."
+        },
+        {
+            "Q": "What is Meridian Dynamics's Cost per Hire in 1970?",
+            "A": "Meridian Dynamics's cost per hire in 1970 is {1954.59} $."
+        },
+        {
+            "Q": "What are the cost per hire of AstraCorp, Ironclad Industries, and Meridian Dynamics in 1970?",
+            "A": "{AstraCorp}'s cost per hire is {7774.41} $, {Ironclad Industries}'s cost per hire is {4912.41} $, {Meridian Dynamics}'s cost per hire is {2084.30} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Cost per Hire in the line chart?",
+            "A": "The global minimum cost per hire is {1067.49} $."
+        },
+        {
+            "Q": "What is the global maximum Cost per Hire in the line chart?",
+            "A": "The global maximum cost per hire is {9271.06} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of AstraCorp's Cost per Hire?",
+            "A": "The average value of AstraCorp's Cost per Hire is {8311.01} $."
+        },
+        {
+            "Q": "What is the average value of Ironclad Industries's Cost per Hire?",
+            "A": "The average value of Ironclad Industries's Cost per Hire is {6449.22} $."
+        },
+        {
+            "Q": "What is the average value of Lumina Solutions's Cost per Hire?",
+            "A": "The average value of Lumina Solutions's Cost per Hire is {5177.73} $."
+        },
+        {
+            "Q": "What is the average value of Meridian Dynamics's Cost per Hire?",
+            "A": "The average value of Meridian Dynamics's Cost per Hire is {1727.98} $."
+        },
+        {
+            "Q": "What is the average value of Skyward Systems's Cost per Hire?",
+            "A": "The average value of Skyward Systems's Cost per Hire is {3895.97} $."
+        },
+        {
+            "Q": "What is the average value of Verdant Ventures's Cost per Hire?",
+            "A": "The average value of Verdant Ventures's Cost per Hire is {8295.00} $."
+        },
+        {
+            "Q": "What is the average value of Zenith Enterprises's Cost per Hire?",
+            "A": "The average value of Zenith Enterprises's Cost per Hire is {6513.04} $."
+        },
+        {
+            "Q": "What is the rate of change in AstraCorp's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in AstraCorp's Cost per Hire is {-4.57}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironclad Industries's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in Ironclad Industries's Cost per Hire is {64.50}%."
+        },
+        {
+            "Q": "What is the rate of change in Lumina Solutions's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in Lumina Solutions's Cost per Hire is {-13.17}%."
+        },
+        {
+            "Q": "What is the rate of change in Meridian Dynamics's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in Meridian Dynamics's Cost per Hire is {5.24}%."
+        },
+        {
+            "Q": "What is the rate of change in Skyward Systems's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in Skyward Systems's Cost per Hire is {-41.95}%."
+        },
+        {
+            "Q": "What is the rate of change in Verdant Ventures's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in Verdant Ventures's Cost per Hire is {2.68}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Enterprises's Cost per Hire from the starting year to the final year?",
+            "A": "The rate of change in Zenith Enterprises's Cost per Hire is {47.08}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did AstraCorp's Cost per Hire exceed 8579 $? Please list the years and corresponding values.",
+            "A": "8858.50 $ in {2017.0} year, 8706.62 $ in {2018.0} year, 9271.06 $ in {2019.0} year."
+        },
+        {
+            "Q": "Which years did AstraCorp's Cost per Hire below 8103 $? Please list the years and corresponding values.",
+            "A": "7774.41 $ in {2015.0} year, 8075.80 $ in {2016.0} year, 7418.87 $ in {2023.0} year."
+        },
+        {
+            "Q": "Which years did AstraCorp's Cost per Hire between 7507 and 9175 $? Please list the years and corresponding values.",
+            "A": "7774.41 $ in {2015.0} year, 8075.80 $ in {2016.0} year, 8858.50 $ in {2017.0} year."
+        },
+        {
+            "Q": "In the year 2016, which line had Cost per Hire exceed 6517 $? Please list the lines and corresponding values.",
+            "A": "{AstraCorp} had 8076 $, {Verdant Ventures} had 7910 $."
+        },
+        {
+            "Q": "In the year 2016, which lines had Cost per Hire below 5309 $? Please list the lines and corresponding values.",
+            "A": "{Meridian Dynamics} had 2041 $, {Skyward Systems} had 4476 $."
+        },
+        {
+            "Q": "In the year 2016, which lines had Cost per Hire between 5321 and 6504 $? Please list the lines and corresponding values.",
+            "A": "{Ironclad Industries} had 5517 $, {Zenith Enterprises} had 5696 $, {Lumina Solutions} had 6168 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Cost per Hire, AstraCorp or Verdant Ventures?",
+            "A": "In 1970, {Verdant Ventures} had a higher cost per hire."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

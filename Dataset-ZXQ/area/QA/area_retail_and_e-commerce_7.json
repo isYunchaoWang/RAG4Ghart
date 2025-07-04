@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total loyalty program growth?",
+            "A": "The series with the largest contribution is {SuperSaver Club}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total loyalty program growth?",
+            "A": "The series with the smallest contribution is {Flash Sale Subscribers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is SuperSaver Club's Loyalty Program Growth in 1973?",
+            "A": "SuperSaver Club's loyalty program growth in 1973 is {624301.65} users."
+        },
+        {
+            "Q": "What is Elite Members's Loyalty Program Growth in 1973?",
+            "A": "Elite Members's loyalty program growth in 1973 is {548435.39} users."
+        },
+        {
+            "Q": "What is Corporate Partnerships's Loyalty Program Growth in 1974?",
+            "A": "Corporate Partnerships's loyalty program growth in 1974 is {338307.40} users."
+        },
+        {
+            "Q": "What are the loyalty program growth of Gift Card Users, Elite Members, and Flash Sale Subscribers in 1975?",
+            "A": "Gift Card Users's loyalty program growth is {468498.55} users, Elite Members's loyalty program growth is {703410.85} users, Flash Sale Subscribers's loyalty program growth is {281365.55} users."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Loyalty Program Growth in the stacked area chart?",
+            "A": "The global minimum total loyalty program growth is {1892910.51} users."
+        },
+        {
+            "Q": "What is the global maximum total Loyalty Program Growth in the stacked area chart?",
+            "A": "The global maximum total loyalty program growth is {3080371.69} users."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Flash Sale Subscribers's Loyalty Program Growth area?",
+            "A": "The average height of Flash Sale Subscribers's loyalty program growth area is {362256.81} users."
+        },
+        {
+            "Q": "What is the average height of Gift Card Users's Loyalty Program Growth area?",
+            "A": "The average height of Gift Card Users's loyalty program growth area is {402634.49} users."
+        },
+        {
+            "Q": "What is the average height of Elite Members's Loyalty Program Growth area?",
+            "A": "The average height of Elite Members's loyalty program growth area is {531931.95} users."
+        },
+        {
+            "Q": "What is the average height of Corporate Partnerships's Loyalty Program Growth area?",
+            "A": "The average height of Corporate Partnerships's loyalty program growth area is {491786.97} users."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Loyalty Program Growth exceed 2530099 users? Please list the years and corresponding total values.",
+            "A": "total value was {3080371.69} users in {1971}, total value was {2560091.80} users in {1975}."
+        },
+        {
+            "Q": "Which years did the total Loyalty Program Growth go below 2123052 users? Please list the years and corresponding total values.",
+            "A": "total value was {2001834.42} users in {1972}, total value was {1892910.51} users in {1973}."
+        },
+        {
+            "Q": "Which years did the total Loyalty Program Growth fall between 2210247 and 2442904 users? Please list the years and corresponding total values.",
+            "A": "total value was {2244269.80} users in {1970}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1974 and 1975, did the total Loyalty Program Growth experience a larger or smaller change than between 1970 and 1975?",
+            "A": "The change in total loyalty program growth between {1974} and {1975} was {smaller} than between {1970} and {1975}."
+        },
+        {
+            "Q": "Was the total Loyalty Program Growth in 1974 higher or lower than in 1975?",
+            "A": "The total loyalty program growth in {1974} was {lower} than in {1975}."
+        },
+        {
+            "Q": "Between 1971 and 1974, did the total Loyalty Program Growth experience a larger or smaller change than between 1970 and 1973?",
+            "A": "The change in total loyalty program growth between {1971} and {1974} was {larger} than between {1970} and {1973}."
+        },
+        {
+            "Q": "Between 1970 and 1974, was the average total Loyalty Program Growth higher or lower than between 1970 and 1971?",
+            "A": "The average total loyalty program growth between {1970} and {1974} was {lower} than between {1970} and {1971}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

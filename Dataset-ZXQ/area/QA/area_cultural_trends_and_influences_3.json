@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total cinema attendance?",
+            "A": "The series with the largest contribution is {Zenith Multiplex}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total cinema attendance?",
+            "A": "The series with the smallest contribution is {The Grand Celestial}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is The Grand Celestial's Cinema Attendance in 1960?",
+            "A": "The Grand Celestial's cinema attendance in 1960 is {1449977.76} tickets."
+        },
+        {
+            "Q": "What is Starlight Studios's Cinema Attendance in 1958?",
+            "A": "Starlight Studios's cinema attendance in 1958 is {2272744.81} tickets."
+        },
+        {
+            "Q": "What is The Grand Celestial's Cinema Attendance in 1962?",
+            "A": "The Grand Celestial's cinema attendance in 1962 is {968605.97} tickets."
+        },
+        {
+            "Q": "What are the cinema attendance of Starlight Studios, Zenith Multiplex, and The Grand Celestial in 1962?",
+            "A": "Starlight Studios's cinema attendance is {2582295.84} tickets, Zenith Multiplex's cinema attendance is {3231824.02} tickets, The Grand Celestial's cinema attendance is {968605.97} tickets."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Cinema Attendance in the stacked area chart?",
+            "A": "The global minimum total cinema attendance is {9458098.93} tickets."
+        },
+        {
+            "Q": "What is the global maximum total Cinema Attendance in the stacked area chart?",
+            "A": "The global maximum total cinema attendance is {10516843.26} tickets."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of The Grand Celestial's Cinema Attendance area?",
+            "A": "The average height of The Grand Celestial's cinema attendance area is {1456629.90} tickets."
+        },
+        {
+            "Q": "What is the average height of Meridian Picture House's Cinema Attendance area?",
+            "A": "The average height of Meridian Picture House's cinema attendance area is {1482563.63} tickets."
+        },
+        {
+            "Q": "What is the average height of Azure Vista Cinema's Cinema Attendance area?",
+            "A": "The average height of Azure Vista Cinema's cinema attendance area is {2271584.13} tickets."
+        },
+        {
+            "Q": "What is the average height of Zenith Multiplex's Cinema Attendance area?",
+            "A": "The average height of Zenith Multiplex's cinema attendance area is {2649651.09} tickets."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Cinema Attendance go below 10115355 tickets? Please list the years and corresponding total values.",
+            "A": "total value was {9743638.28} tickets in {1961}, total value was {9458098.93} tickets in {1957}."
+        },
+        {
+            "Q": "Which years did the total Cinema Attendance exceed 10374722 tickets? Please list the years and corresponding total values.",
+            "A": "total value was {10413480.61} tickets in {1962}, total value was {10516843.26} tickets in {1960}."
+        },
+        {
+            "Q": "Which years did the total Cinema Attendance fall between 9732786 and 10757290 tickets? Please list the years and corresponding total values.",
+            "A": "total value was {10254031.53} tickets in {1959}, total value was {10365031.95} tickets in {1956}, total value was {10208283.98} tickets in {1958}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1958 and 1960, did the total Cinema Attendance experience a larger or smaller change than between 1956 and 1957?",
+            "A": "The change in total cinema attendance between {1958} and {1960} was {smaller} than between {1956} and {1957}."
+        },
+        {
+            "Q": "Was the total Cinema Attendance in 1961 higher or lower than in 1962?",
+            "A": "The total cinema attendance in {1961} was {lower} than in {1962}."
+        },
+        {
+            "Q": "Between 1957 and 1962, did the total Cinema Attendance experience a larger or smaller change than between 1959 and 1961?",
+            "A": "The change in total cinema attendance between {1957} and {1962} was {larger} than between {1959} and {1961}."
+        },
+        {
+            "Q": "Between 1956 and 1961, was the average total Cinema Attendance higher or lower than between 1959 and 1960?",
+            "A": "The average total cinema attendance between {1956} and {1961} was {lower} than between {1959} and {1960}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stacked area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total hotel occupancy rate?",
+            "A": "The series with the largest contribution is {Luxury Resorts}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total hotel occupancy rate?",
+            "A": "The series with the smallest contribution is {Budget Motels}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Eco Lodges's Hotel Occupancy Rate in 1967?",
+            "A": "Eco Lodges's hotel occupancy rate in 1967 is {95.32} %."
+        },
+        {
+            "Q": "What is Boutique Inns's Hotel Occupancy Rate in 1977?",
+            "A": "Boutique Inns's hotel occupancy rate in 1977 is {87.22} %."
+        },
+        {
+            "Q": "What is Eco Lodges's Hotel Occupancy Rate in 1963?",
+            "A": "Eco Lodges's hotel occupancy rate in 1963 is {73.87} %."
+        },
+        {
+            "Q": "What are the hotel occupancy rate of Luxury Resorts, Business Hotels, and Boutique Inns in 1974?",
+            "A": "Luxury Resorts's hotel occupancy rate is {100} %, Business Hotels's hotel occupancy rate is {100} %, Boutique Inns's hotel occupancy rate is {61.42} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum total Hotel Occupancy Rate in the stacked area chart?",
+            "A": "The global minimum total hotel occupancy rate is {368.32} %."
+        },
+        {
+            "Q": "What is the global maximum total Hotel Occupancy Rate in the stacked area chart?",
+            "A": "The global maximum total hotel occupancy rate is {486.44} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average height of Boutique Inns's Hotel Occupancy Rate area?",
+            "A": "The average height of Boutique Inns's hotel occupancy rate area is {76.76} %."
+        },
+        {
+            "Q": "What is the average height of Business Hotels's Hotel Occupancy Rate area?",
+            "A": "The average height of Business Hotels's hotel occupancy rate area is {94.01} %."
+        },
+        {
+            "Q": "What is the average height of Luxury Resorts's Hotel Occupancy Rate area?",
+            "A": "The average height of Luxury Resorts's hotel occupancy rate area is {96.21} %."
+        },
+        {
+            "Q": "What is the average height of Eco Lodges's Hotel Occupancy Rate area?",
+            "A": "The average height of Eco Lodges's hotel occupancy rate area is {93.17} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Hotel Occupancy Rate fall between 424 and 469 %? Please list the years and corresponding total values.",
+            "A": "total value was {426.55} % in {1963}, total value was {432.02} % in {1966}, total value was {431.93} % in {1976}."
+        },
+        {
+            "Q": "Which years did the total Hotel Occupancy Rate exceed 472 %? Please list the years and corresponding total values.",
+            "A": "total value was {479.14} % in {1973}, total value was {473.24} % in {1983}, total value was {480.33} % in {1972}."
+        },
+        {
+            "Q": "Which years did the total Hotel Occupancy Rate go below 421 %? Please list the years and corresponding total values.",
+            "A": "total value was {369.45} % in {1965}, total value was {411.32} % in {1980}, total value was {419.68} % in {1975}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1961 and 1969, did the total Hotel Occupancy Rate experience a larger or smaller change than between 1964 and 1979?",
+            "A": "The change in total hotel occupancy rate between {1961} and {1969} was {larger} than between {1964} and {1979}."
+        },
+        {
+            "Q": "Was the total Hotel Occupancy Rate in 1972 higher or lower than in 1978?",
+            "A": "The total hotel occupancy rate in {1972} was {lower} than in {1978}."
+        },
+        {
+            "Q": "Was the total Hotel Occupancy Rate in 1963 higher or lower than in 1975?",
+            "A": "The total hotel occupancy rate in {1963} was {higher} than in {1975}."
+        },
+        {
+            "Q": "Between 1970 and 1980, did the total Hotel Occupancy Rate experience a larger or smaller change than between 1961 and 1980?",
+            "A": "The change in total hotel occupancy rate between {1970} and {1980} was {smaller} than between {1961} and {1980}."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

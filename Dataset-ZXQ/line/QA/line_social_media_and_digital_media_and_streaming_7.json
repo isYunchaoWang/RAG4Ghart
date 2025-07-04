@@ -1,0 +1,121 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Starburst Online's Platform Traffic levels?",
+            "A": "Starburst Online's Platform Traffic levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of CrimsonLink's Platform Traffic levels?",
+            "A": "CrimsonLink's Platform Traffic levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Platform Traffic levels?",
+            "A": "{Starburst Online}."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Platform Traffic levels?",
+            "A": "{CrimsonLink}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Platform Traffic level recorded for CrimsonLink?",
+            "A": "CrimsonLink reached approximately {16201096029.00} visits/month in 1981."
+        },
+        {
+            "Q": "What is the lowest Platform Traffic level recorded for CrimsonLink?",
+            "A": "CrimsonLink's lowest recorded level is approximately {3477846813.55} visits/month in 1965."
+        },
+        {
+            "Q": "What is the highest Platform Traffic level recorded for Starburst Online?",
+            "A": "Starburst Online reached approximately {4788484022.72} visits/month in 1970."
+        },
+        {
+            "Q": "What is the lowest Platform Traffic level recorded for Starburst Online?",
+            "A": "Starburst Online's lowest recorded level is approximately {50000000.00} visits/month in 1964."
+        },
+        {
+            "Q": "What is CrimsonLink's Platform Traffic in 1970?",
+            "A": "CrimsonLink's platform traffic in 1970 is {10909739550.22} visits/month."
+        },
+        {
+            "Q": "What is Starburst Online's Platform Traffic in 1970?",
+            "A": "Starburst Online's platform traffic in 1970 is {909218825.81} visits/month."
+        },
+        {
+            "Q": "What is Starburst Online's Platform Traffic in 1970?",
+            "A": "Starburst Online's platform traffic in 1970 is {1022176783.84} visits/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Platform Traffic in the line chart?",
+            "A": "The global minimum platform traffic is {50000000.00} visits/month."
+        },
+        {
+            "Q": "What is the global maximum Platform Traffic in the line chart?",
+            "A": "The global maximum platform traffic is {16201096029.00} visits/month."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of CrimsonLink's Platform Traffic?",
+            "A": "The average value of CrimsonLink's Platform Traffic is {10466207521.40} visits/month."
+        },
+        {
+            "Q": "What is the average value of Starburst Online's Platform Traffic?",
+            "A": "The average value of Starburst Online's Platform Traffic is {2094710165.38} visits/month."
+        },
+        {
+            "Q": "What is the rate of change in CrimsonLink's Platform Traffic from the starting year to the final year?",
+            "A": "The rate of change in CrimsonLink's Platform Traffic is {134.94}%."
+        },
+        {
+            "Q": "What is the rate of change in Starburst Online's Platform Traffic from the starting year to the final year?",
+            "A": "The rate of change in Starburst Online's Platform Traffic is {-36.29}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did CrimsonLink's Platform Traffic exceed 12288317377 visits/month? Please list the years and corresponding values.",
+            "A": "13995691274.99 visits/month in {1971.0} year, 12326642376.13 visits/month in {1972.0} year, 12925983100.73 visits/month in {1975.0} year."
+        },
+        {
+            "Q": "Which years did CrimsonLink's Platform Traffic below 8933505616 visits/month? Please list the years and corresponding values.",
+            "A": "5976125807.12 visits/month in {1957.0} year, 7060693387.93 visits/month in {1958.0} year, 5089862809.07 visits/month in {1959.0} year."
+        },
+        {
+            "Q": "Which years did CrimsonLink's Platform Traffic between 9549820347 and 11672002647 visits/month? Please list the years and corresponding values.",
+            "A": "11620143350.02 visits/month in {1964.0} year, 10060786055.92 visits/month in {1966.0} year, 9949990299.98 visits/month in {1968.0} year."
+        },
+        {
+            "Q": "In the year 1977, which line had Platform Traffic exceed 8174285130 visits/month? Please list the lines and corresponding values.",
+            "A": "{CrimsonLink} had 10909739550 visits/month."
+        },
+        {
+            "Q": "In the year 1977, which lines had Platform Traffic below 4527012570 visits/month? Please list the lines and corresponding values.",
+            "A": "{Starburst Online} had 1791558150 visits/month."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Platform Traffic, Starburst Online or CrimsonLink?",
+            "A": "In 1970, {CrimsonLink} had a higher platform traffic."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

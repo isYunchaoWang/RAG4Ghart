@@ -1,0 +1,88 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Crystal Cove Villas's Rental Yield levels?",
+            "A": "Crystal Cove Villas's Rental Yield levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Rental Yield levels?",
+            "A": "{Crystal Cove Villas}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Rental Yield level recorded for Crystal Cove Villas?",
+            "A": "Crystal Cove Villas reached approximately {10.64} % in 2007."
+        },
+        {
+            "Q": "What is the lowest Rental Yield level recorded for Crystal Cove Villas?",
+            "A": "Crystal Cove Villas's lowest recorded level is approximately {6.97} % in 1998."
+        },
+        {
+            "Q": "What is Crystal Cove Villas's Rental Yield in 1970?",
+            "A": "Crystal Cove Villas's rental yield in 1970 is {10.52} %."
+        },
+        {
+            "Q": "What is Crystal Cove Villas's Rental Yield in 1970?",
+            "A": "Crystal Cove Villas's rental yield in 1970 is {6.97} %."
+        },
+        {
+            "Q": "What is Crystal Cove Villas's Rental Yield in 1970?",
+            "A": "Crystal Cove Villas's rental yield in 1970 is {9.65} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Rental Yield in the line chart?",
+            "A": "The global minimum rental yield is {6.97} %."
+        },
+        {
+            "Q": "What is the global maximum Rental Yield in the line chart?",
+            "A": "The global maximum rental yield is {10.64} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Crystal Cove Villas's Rental Yield?",
+            "A": "The average value of Crystal Cove Villas's Rental Yield is {9.03} %."
+        },
+        {
+            "Q": "What is the rate of change in Crystal Cove Villas's Rental Yield from the starting year to the final year?",
+            "A": "The rate of change in Crystal Cove Villas's Rental Yield is {8.03}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Crystal Cove Villas's Rental Yield exceed 10 %? Please list the years and corresponding values.",
+            "A": "10.15 % in {2004.0} year, 10.52 % in {2005.0} year, 10.24 % in {2006.0} year."
+        },
+        {
+            "Q": "Which years did Crystal Cove Villas's Rental Yield below 8 %? Please list the years and corresponding values.",
+            "A": "6.97 % in {1998.0} year, 7.56 % in {1999.0} year, 8.18 % in {2012.0} year."
+        },
+        {
+            "Q": "Which years did Crystal Cove Villas's Rental Yield between 8 and 10 %? Please list the years and corresponding values.",
+            "A": "8.31 % in {2000.0} year, 8.42 % in {2001.0} year, 9.47 % in {2002.0} year."
+        },
+        {
+            "Q": "In the year 2008, which lines had Rental Yield between 9 and 11 %? Please list the lines and corresponding values.",
+            "A": "{Crystal Cove Villas} had 10 %."
+        }
+    ],
+    "NC": [],
+    "MSR": [],
+    "VA": []
+}

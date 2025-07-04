@@ -1,0 +1,121 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Veridian Followers's Fan Engagement levels?",
+            "A": "Veridian Followers's Fan Engagement levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Silverleaf Supporters's Fan Engagement levels?",
+            "A": "Silverleaf Supporters's Fan Engagement levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Fan Engagement levels?",
+            "A": "{Veridian Followers}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Fan Engagement levels?",
+            "A": "{Silverleaf Supporters}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Fan Engagement level recorded for Silverleaf Supporters?",
+            "A": "Silverleaf Supporters reached approximately {90.44} index in 1983."
+        },
+        {
+            "Q": "What is the lowest Fan Engagement level recorded for Silverleaf Supporters?",
+            "A": "Silverleaf Supporters's lowest recorded level is approximately {48.90} index in 1986."
+        },
+        {
+            "Q": "What is the highest Fan Engagement level recorded for Veridian Followers?",
+            "A": "Veridian Followers reached approximately {197.23} index in 2004."
+        },
+        {
+            "Q": "What is the lowest Fan Engagement level recorded for Veridian Followers?",
+            "A": "Veridian Followers's lowest recorded level is approximately {51.84} index in 1983."
+        },
+        {
+            "Q": "What is Silverleaf Supporters's Fan Engagement in 1970?",
+            "A": "Silverleaf Supporters's fan engagement in 1970 is {80.49} index."
+        },
+        {
+            "Q": "What is Veridian Followers's Fan Engagement in 1970?",
+            "A": "Veridian Followers's fan engagement in 1970 is {126.58} index."
+        },
+        {
+            "Q": "What is Silverleaf Supporters's Fan Engagement in 1970?",
+            "A": "Silverleaf Supporters's fan engagement in 1970 is {78.70} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Fan Engagement in the line chart?",
+            "A": "The global minimum fan engagement is {48.90} index."
+        },
+        {
+            "Q": "What is the global maximum Fan Engagement in the line chart?",
+            "A": "The global maximum fan engagement is {197.23} index."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Silverleaf Supporters's Fan Engagement?",
+            "A": "The average value of Silverleaf Supporters's Fan Engagement is {71.57} index."
+        },
+        {
+            "Q": "What is the average value of Veridian Followers's Fan Engagement?",
+            "A": "The average value of Veridian Followers's Fan Engagement is {132.01} index."
+        },
+        {
+            "Q": "What is the rate of change in Silverleaf Supporters's Fan Engagement from the starting year to the final year?",
+            "A": "The rate of change in Silverleaf Supporters's Fan Engagement is {19.26}%."
+        },
+        {
+            "Q": "What is the rate of change in Veridian Followers's Fan Engagement from the starting year to the final year?",
+            "A": "The rate of change in Veridian Followers's Fan Engagement is {227.73}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Silverleaf Supporters's Fan Engagement exceed 80 index? Please list the years and corresponding values.",
+            "A": "90.44 index in {1983.0} year, 88.71 index in {1988.0} year, 86 index in {1993.0} year."
+        },
+        {
+            "Q": "Which years did Silverleaf Supporters's Fan Engagement below 64 index? Please list the years and corresponding values.",
+            "A": "60.57 index in {1985.0} year, 48.90 index in {1986.0} year, 54.45 index in {1990.0} year."
+        },
+        {
+            "Q": "Which years did Silverleaf Supporters's Fan Engagement between 65 and 80 index? Please list the years and corresponding values.",
+            "A": "69.15 index in {1982.0} year, 78.70 index in {1984.0} year, 75.52 index in {1987.0} year."
+        },
+        {
+            "Q": "In the year 2003, which line had Fan Engagement exceed 160 index? Please list the lines and corresponding values.",
+            "A": "{Veridian Followers} had 192 index."
+        },
+        {
+            "Q": "In the year 2003, which lines had Fan Engagement below 116 index? Please list the lines and corresponding values.",
+            "A": "{Silverleaf Supporters} had 83 index."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Fan Engagement, Veridian Followers or Silverleaf Supporters?",
+            "A": "In 1970, {Silverleaf Supporters} had a higher fan engagement."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

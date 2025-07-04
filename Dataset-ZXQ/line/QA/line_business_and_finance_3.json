@@ -1,0 +1,241 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Vanguard Dynamics's Operating Expenses levels?",
+            "A": "Vanguard Dynamics's Operating Expenses levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Aegis Corp's Operating Expenses levels?",
+            "A": "Aegis Corp's Operating Expenses levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Horizon Enterprises's Operating Expenses levels?",
+            "A": "Horizon Enterprises's Operating Expenses levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of NovaTech Solutions's Operating Expenses levels?",
+            "A": "NovaTech Solutions's Operating Expenses levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Ironclad Ventures's Operating Expenses levels?",
+            "A": "Ironclad Ventures's Operating Expenses levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Starlight Innovations's Operating Expenses levels?",
+            "A": "Starlight Innovations's Operating Expenses levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Apex Systems's Operating Expenses levels?",
+            "A": "Apex Systems's Operating Expenses levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Operating Expenses levels?",
+            "A": "{Vanguard Dynamics}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Operating Expenses levels?",
+            "A": "{Aegis Corp}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Operating Expenses levels?",
+            "A": "{Horizon Enterprises}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Operating Expenses levels?",
+            "A": "{NovaTech Solutions}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Operating Expenses levels?",
+            "A": "{Ironclad Ventures}."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Operating Expenses levels?",
+            "A": "{Starlight Innovations}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Aegis Corp?",
+            "A": "Aegis Corp reached approximately {65746881.95} $ in 2005."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Aegis Corp?",
+            "A": "Aegis Corp's lowest recorded level is approximately {5356052.61} $ in 1979."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Apex Systems?",
+            "A": "Apex Systems reached approximately {9384627.11} $ in 2004."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Apex Systems?",
+            "A": "Apex Systems's lowest recorded level is approximately {4839082.56} $ in 1980."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises reached approximately {9101648.78} $ in 2001."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises's lowest recorded level is approximately {5170386.33} $ in 1978."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures reached approximately {6345763.72} $ in 1979."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Ironclad Ventures?",
+            "A": "Ironclad Ventures's lowest recorded level is approximately {3607184.96} $ in 1992."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions reached approximately {9343960.94} $ in 1988."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions's lowest recorded level is approximately {6351739.22} $ in 1978."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations reached approximately {6111544.94} $ in 1978."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Starlight Innovations?",
+            "A": "Starlight Innovations's lowest recorded level is approximately {980778.41} $ in 1990."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics reached approximately {3769237.90} $ in 1979."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Vanguard Dynamics?",
+            "A": "Vanguard Dynamics's lowest recorded level is approximately {530984.16} $ in 1997."
+        },
+        {
+            "Q": "What is Apex Systems's Operating Expenses in 1970?",
+            "A": "Apex Systems's operating expenses in 1970 is {5801933.13} $."
+        },
+        {
+            "Q": "What is Vanguard Dynamics's Operating Expenses in 1970?",
+            "A": "Vanguard Dynamics's operating expenses in 1970 is {1788734.19} $."
+        },
+        {
+            "Q": "What is Vanguard Dynamics's Operating Expenses in 1970?",
+            "A": "Vanguard Dynamics's operating expenses in 1970 is {1863750.04} $."
+        },
+        {
+            "Q": "What are the operating expenses of Vanguard Dynamics, Aegis Corp, and Horizon Enterprises in 1970?",
+            "A": "{Vanguard Dynamics}'s operating expenses is {3657819.88} $, {Aegis Corp}'s operating expenses is {5430347.39} $, {Horizon Enterprises}'s operating expenses is {5170386.33} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Operating Expenses in the line chart?",
+            "A": "The global minimum operating expenses is {530984.16} $."
+        },
+        {
+            "Q": "What is the global maximum Operating Expenses in the line chart?",
+            "A": "The global maximum operating expenses is {65746881.95} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Aegis Corp's Operating Expenses?",
+            "A": "The average value of Aegis Corp's Operating Expenses is {24023774.91} $."
+        },
+        {
+            "Q": "What is the average value of Apex Systems's Operating Expenses?",
+            "A": "The average value of Apex Systems's Operating Expenses is {7121784.65} $."
+        },
+        {
+            "Q": "What is the average value of Horizon Enterprises's Operating Expenses?",
+            "A": "The average value of Horizon Enterprises's Operating Expenses is {7035670.90} $."
+        },
+        {
+            "Q": "What is the average value of Ironclad Ventures's Operating Expenses?",
+            "A": "The average value of Ironclad Ventures's Operating Expenses is {5080079.19} $."
+        },
+        {
+            "Q": "What is the average value of NovaTech Solutions's Operating Expenses?",
+            "A": "The average value of NovaTech Solutions's Operating Expenses is {8202397.07} $."
+        },
+        {
+            "Q": "What is the average value of Starlight Innovations's Operating Expenses?",
+            "A": "The average value of Starlight Innovations's Operating Expenses is {3300398.73} $."
+        },
+        {
+            "Q": "What is the average value of Vanguard Dynamics's Operating Expenses?",
+            "A": "The average value of Vanguard Dynamics's Operating Expenses is {1965752.96} $."
+        },
+        {
+            "Q": "What is the rate of change in Aegis Corp's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in Aegis Corp's Operating Expenses is {1110.73}%."
+        },
+        {
+            "Q": "What is the rate of change in Apex Systems's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in Apex Systems's Operating Expenses is {78.34}%."
+        },
+        {
+            "Q": "What is the rate of change in Horizon Enterprises's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in Horizon Enterprises's Operating Expenses is {71.60}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironclad Ventures's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in Ironclad Ventures's Operating Expenses is {22.73}%."
+        },
+        {
+            "Q": "What is the rate of change in NovaTech Solutions's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in NovaTech Solutions's Operating Expenses is {15.33}%."
+        },
+        {
+            "Q": "What is the rate of change in Starlight Innovations's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in Starlight Innovations's Operating Expenses is {-16.07}%."
+        },
+        {
+            "Q": "What is the rate of change in Vanguard Dynamics's Operating Expenses from the starting year to the final year?",
+            "A": "The rate of change in Vanguard Dynamics's Operating Expenses is {-19.33}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Horizon Enterprises's Operating Expenses exceed 7711424 $? Please list the years and corresponding values.",
+            "A": "8264165.47 $ in {1996.0} year, 7719230.69 $ in {1998.0} year, 8043995.55 $ in {1999.0} year."
+        },
+        {
+            "Q": "Which years did Horizon Enterprises's Operating Expenses below 6228960 $? Please list the years and corresponding values.",
+            "A": "5170386.33 $ in {1978.0} year, 5319824.67 $ in {1979.0} year, 5389284.62 $ in {1980.0} year."
+        },
+        {
+            "Q": "Which years did Horizon Enterprises's Operating Expenses between 6273173 and 7667211 $? Please list the years and corresponding values.",
+            "A": "6537468.14 $ in {1987.0} year, 6359818.45 $ in {1988.0} year, 7641166.94 $ in {1989.0} year."
+        },
+        {
+            "Q": "In the year 1986, which line had Operating Expenses exceed 6663235 $? Please list the lines and corresponding values.",
+            "A": "{Aegis Corp} had 11909663 $, {NovaTech Solutions} had 8833238 $."
+        },
+        {
+            "Q": "In the year 1986, which lines had Operating Expenses below 4122513 $? Please list the lines and corresponding values.",
+            "A": "{Vanguard Dynamics} had 676108 $, {Starlight Innovations} had 2375219 $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which country had a higher Operating Expenses, Apex Systems or Aegis Corp?",
+            "A": "In 1970, {Aegis Corp} had a higher operating expenses."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

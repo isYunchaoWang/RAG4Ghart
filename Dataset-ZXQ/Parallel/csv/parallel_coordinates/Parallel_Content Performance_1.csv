@@ -1,0 +1,8 @@
+﻿Social Media and Digital Media and Streaming,Content Performance
+labels,Recommendation effectiveness (%),View count (millions),Personalization accuracy (%),Completion rate (%),Creator diversity index (1-10),Content freshness (days),Buffer time (seconds)
+Pattern,Strong Correlation,Strong Correlation,Strong Correlation,Clustering,Clustering,Weak Correlation
+Thomas-Allen,12.12,248.21,50.0,10.0,1.0,145.47,5.24
+"Peters, Drake and Anderson",10.0,0.0,52.49,15.01,10.0,150.22,2.86
+Tucker LLC,16.49,2781.04,72.04,54.8,2.88,0.0,0.0
+Carter Inc,50.0,10000.0,91.13,79.63,2.61,365.0,10.0
+"Peters, Rose and Perez",33.43,6517.14,95.0,100.0,8.47,167.2,4.26

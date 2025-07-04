@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {5} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Vegetable}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Cotton}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Sorghum relative to the bar Vegetable in terms of horizontal (left/right) direction?",
+            "A": "Bar Sorghum is to the {right} of the bar Vegetable."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Cotton}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Vegetable}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Tea?",
+            "A": "The value of Tea is {7004} metric tons."
+        },
+        {
+            "Q": "What is the value of bar Vegetable?",
+            "A": "The value of Vegetable is {4185} metric tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum metric tons in the bar chart?",
+            "A": "The maximum metric tons is {8223} metric tons."
+        },
+        {
+            "Q": "What is the minimum metric tons in the bar chart?",
+            "A": "The minimum metric tons is {4185} metric tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Rice and Tea?",
+            "A": "The total value of Rice and Tea is {13993} metric tons."
+        },
+        {
+            "Q": "What is the average value of Cotton and Rice?",
+            "A": "The average value of Cotton and Rice is {7606.0} metric tons."
+        },
+        {
+            "Q": "What is the difference between Cotton and Tea?",
+            "A": "The difference between Cotton and Tea is {1219} metric tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have metric tons values exceed 7613.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Cotton} has {8223} metric tons."
+        },
+        {
+            "Q": "Which bars have {metric tons} values below 6996.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Vegetable} has {4185} metric tons, {Sorghum} has {6610} metric tons, {Rice} has {6989} metric tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Vegetable or Rice ",
+            "A": "The value of the {Rice} is larger?"
+        },
+        {
+            "Q": "Which is larger, Tea, Sorghum or Vegetable ",
+            "A": "The value of the {Tea} is larger?"
+        },
+        {
+            "Q": "Which is larger, Cotton, Vegetable, Sorghum or Rice ",
+            "A": "The value of the {Cotton} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {4} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Vegetable} and {Rice}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Cotton}, {Tea}, and {Rice}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by metric tons values in descending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value descending: {Cotton}, {Tea}, {Rice}, {Sorghum}, and {Vegetable}."
+        },
+        {
+            "Q": "Sort the bars by metric tons values in ascending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value ascending: {Vegetable}, {Sorghum}, {Rice}, {Tea}, and {Cotton}."
+        }
+    ]
+}
