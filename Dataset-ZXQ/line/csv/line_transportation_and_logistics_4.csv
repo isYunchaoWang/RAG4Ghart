@@ -1,6 +1,6 @@
 Transportation and Logistics,Vehicle Maintenance Cost,$/month
-Year,Diesel Fleets,Heavy Machinery,Electric Trucks,Cold Storage Vans,Aircraft Engines,Railway Cars
 trend,single_peak,exponential_rising,exponential_falling,exponential_falling,bimodal_peak,bimodal_valley
+Year,Diesel Fleets,Heavy Machinery,Electric Trucks,Cold Storage Vans,Aircraft Engines,Railway Cars
 1982,1489.95,1695.63,1506.1,1223.91,2066.53,1058.01
 1983,1540.09,1462.2,1147.13,1866.16,2071.6,773.05
 1984,2099.86,1953.08,1097.1,1319.44,2251.53,497.92

@@ -1,6 +1,6 @@
 Sports and Entertainment,Stadium Attendance,tickets/session
-Year,Ironwood Classic,Echo Bowl,Aether Cup Finals,Nova Games,Silverleaf Open,Crimson Clash
 trend,bimodal_peak,periodic_stable,exponential_rising,periodic_stable,volatile_rising,exponential_rising
+Year,Ironwood Classic,Echo Bowl,Aether Cup Finals,Nova Games,Silverleaf Open,Crimson Clash
 1973,67492.65,50105.08,53021.94,48346.24,42607.99,45803.99
 1974,65965.23,50999.69,58281.84,53317.32,60363.76,57058.2
 1975,78210.48,54789.82,57942.35,46188.79,64442.03,64422.7

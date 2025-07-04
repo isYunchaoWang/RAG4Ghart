@@ -1,6 +1,6 @@
 Food and Beverage Industry,Average Order Value,$
-Year,Breakfast Rush Order,Loyalty Member Order,Express Takeaway,Seasonal Special Order,Standard Dine-in
 trend,stable_rising,exponential_falling,periodic_stable,stable_rising,exponential_rising
+Year,Breakfast Rush Order,Loyalty Member Order,Express Takeaway,Seasonal Special Order,Standard Dine-in
 2003,31.81,29.31,30.51,28.51,26.43
 2004,33.32,24.78,36.86,31.74,30.21
 2005,34.52,21.02,34.35,35.66,38.93

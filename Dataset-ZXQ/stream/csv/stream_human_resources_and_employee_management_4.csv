@@ -1,6 +1,6 @@
 Human Resources and Employee Management,Employee Satisfaction,%
-Year,Sales Team,Engineering Department,Research & Development,Operations Staff,Management Team,Administrative Support,Human Resources
 trend,periodic_stable,stable_rising,exponential_falling,volatile_rising,stable_rising,stable_falling,volatile_rising
+Year,Sales Team,Engineering Department,Research & Development,Operations Staff,Management Team,Administrative Support,Human Resources
 1962,70.24,74.97,76.15,49.54,70.59,67.27,80.75
 1963,85.75,75.33,60.81,87.52,75.37,77.21,80.2
 1964,76.5,86.5,47.45,100,77.44,68.37,80.03

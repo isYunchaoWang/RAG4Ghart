@@ -1,6 +1,6 @@
 Energy and Utilities,Electricity Demand,MWh
-Year,Stellar Grid Solutions,Borealis Electric Cooperative,Silverhaven Hydro Authority,Azure Energy Distribution,Meridian Energy Network,Zenith Utility Services
 trend,volatile_falling,volatile_rising,stable_falling,exponential_rising,stable_falling,periodic_stable
+Year,Stellar Grid Solutions,Borealis Electric Cooperative,Silverhaven Hydro Authority,Azure Energy Distribution,Meridian Energy Network,Zenith Utility Services
 1991,894375299.53,1000804517.71,1015034393.72,969806651.39,937599643.94,1024527739.26
 1992,999248104.74,1205426457.15,1062988388.7,1071908397.47,975165762.03,1255248332.55
 1993,854502872.38,1182203600.61,1100704203.0,1224552269.47,1062313125.09,1158789722.65

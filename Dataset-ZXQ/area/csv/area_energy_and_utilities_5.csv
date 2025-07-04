@@ -1,6 +1,6 @@
 Energy and Utilities,Natural Gas Prices,$/cubic meter
-Year,SkyFlow Water Index,Zephyr Gas Index,Lumina Energy Market,TerraFuel Exchange
 trend,exponential_falling,stable_falling,stable_rising,stable_rising
+Year,SkyFlow Water Index,Zephyr Gas Index,Lumina Energy Market,TerraFuel Exchange
 1952,2.15,1.95,1.91,2.04
 1953,1.66,2.05,2.13,2.28
 1954,1.65,2.11,2.19,2.33

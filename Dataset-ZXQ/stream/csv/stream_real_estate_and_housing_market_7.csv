@@ -1,6 +1,6 @@
 Real Estate and Housing Market,Vacancy Rate,%
-Year,Oceanview Condos,Ironpeak Residences,Crystal Cove Villas,Sunstone Lofts,Green Valley Homes
 trend,exponential_rising,exponential_falling,volatile_rising,stable_falling,volatile_rising
+Year,Oceanview Condos,Ironpeak Residences,Crystal Cove Villas,Sunstone Lofts,Green Valley Homes
 1996,4.95,5.32,4.93,4.83,4.94
 1997,5.46,4.63,5.64,5.18,4.96
 1998,5.73,3.97,5.93,5.36,6.01

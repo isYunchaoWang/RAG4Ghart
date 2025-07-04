@@ -1,6 +1,6 @@
 Transportation and Logistics,Cargo Shipments,tons/month
-Year,Continental Freight,QuickShip Logistics,Rail Networks,Air Express
 trend,exponential_falling,stable_falling,periodic_stable,stable_falling
+Year,Continental Freight,QuickShip Logistics,Rail Networks,Air Express
 1997,118395.48,127209.03,105226.4,104973.03
 1998,100067.05,102527.43,107969.93,146321.01
 1999,100729.91,93343.14,107721.18,120247.87

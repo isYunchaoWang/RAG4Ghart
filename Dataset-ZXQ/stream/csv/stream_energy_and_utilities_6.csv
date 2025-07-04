@@ -1,6 +1,6 @@
 Energy and Utilities,Water Consumption,cubic meters
-Year,Aethelgard Aqueduct System,AquaFlow Utilities,Silverhaven Water Board,Zenith Public Works,Azure Reservoir Management,Borealis Water Cooperative,Meridian Water Authority
 trend,exponential_falling,exponential_rising,exponential_rising,volatile_falling,stable_falling,stable_falling,stable_rising
+Year,Aethelgard Aqueduct System,AquaFlow Utilities,Silverhaven Water Board,Zenith Public Works,Azure Reservoir Management,Borealis Water Cooperative,Meridian Water Authority
 1981,31589863.05,28811359.65,31484590.91,30003749.56,29700333.21,29942674.28,30332474.18
 1982,26103896.19,36053764.87,30534819.04,31973591.3,28957742.26,30918281.18,31943985.03
 1983,22344941.45,37523593.41,37470199.59,20958810.85,31889247.2,31635379.14,32916675.49

@@ -1,6 +1,6 @@
 Transportation and Logistics,On-Time Delivery Rate,%
-Year,Oversized Loads,Automotive Parts,Same-Day Couriers,Refrigerated Transport,Pharmaceuticals
 trend,periodic_stable,volatile_rising,stable_falling,periodic_stable,stable_falling
+Year,Oversized Loads,Automotive Parts,Same-Day Couriers,Refrigerated Transport,Pharmaceuticals
 1985,90.09,11.6,78.96,92.64,80.71
 1986,100,100,100,100,100
 1987,95.5,100,91.48,100,100

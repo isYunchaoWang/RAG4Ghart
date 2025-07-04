@@ -1,6 +1,6 @@
 Food and Beverage Industry,Table Turnover Rate,tables/hour
-Year,The Golden Spoon,Emerald Diner,The Cozy Nook,Sky High Cafe
 trend,exponential_falling,exponential_falling,periodic_stable,exponential_rising
+Year,The Golden Spoon,Emerald Diner,The Cozy Nook,Sky High Cafe
 1993,1.78,1.95,1.99,1.89
 1994,1.81,2.0,2.45,2.0
 1995,1.61,1.51,2.31,2.45

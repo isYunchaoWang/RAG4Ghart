@@ -1,6 +1,6 @@
 Tourism and Hospitality,Restaurant Reservations,reservations/week
-Year,Fine Dining,Family Restaurants,Vegan Cafes,Casual Eateries,Fusion Kitchens,Street Food Hubs,Rooftop Bars
 trend,stable_falling,stable_rising,stable_rising,volatile_falling,bimodal_valley,stable_falling,stable_falling
+Year,Fine Dining,Family Restaurants,Vegan Cafes,Casual Eateries,Fusion Kitchens,Street Food Hubs,Rooftop Bars
 1975,1022.31,663.62,987.11,1177.57,694.65,768.05,1477.98
 1976,1297.97,1134.74,1109.54,1507.21,394.12,935.72,1392.62
 1977,1268.4,1251.97,705.82,715.69,277.78,1620.36,922.98

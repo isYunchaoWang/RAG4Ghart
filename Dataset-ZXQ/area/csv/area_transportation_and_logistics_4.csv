@@ -1,6 +1,6 @@
 Transportation and Logistics,Vehicle Maintenance Cost,$/month
-Year,Cold Storage Vans,Heavy Machinery,Railway Cars,Aircraft Engines
 trend,stable_falling,periodic_stable,periodic_stable,stable_falling
+Year,Cold Storage Vans,Heavy Machinery,Railway Cars,Aircraft Engines
 1953,1626.18,1428.96,1510.08,1232.6
 1954,1478.54,1905.72,1888.03,1560.99
 1955,1420.86,1728.66,1638.33,1669.23

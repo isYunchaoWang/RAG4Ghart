@@ -1,6 +1,6 @@
 Sports and Entertainment,TV Ratings,million viewers
-Year,Oracle Stream,Crimson Vision,Starburst Cable,Nova Broadcast,AetherSports Channel
 trend,stable_falling,exponential_rising,volatile_falling,exponential_falling,volatile_rising
+Year,Oracle Stream,Crimson Vision,Starburst Cable,Nova Broadcast,AetherSports Channel
 1975,4.71,4.46,3.48,4.82,6.38
 1976,5.62,6.15,5.14,4.43,7.43
 1977,5.52,5.92,4.06,3.6,6.11

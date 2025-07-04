@@ -1,6 +1,6 @@
 Real Estate and Housing Market,Construction Starts,units/year
-Year,Shadowfen,Crimson Peaks,Silverwood Forest,Golden Delta,Veridian Plains,Azure Coast
 trend,exponential_rising,volatile_falling,single_peak,periodic_stable,volatile_rising,periodic_stable
+Year,Shadowfen,Crimson Peaks,Silverwood Forest,Golden Delta,Veridian Plains,Azure Coast
 1998,548.49,532.44,549.81,470.78,506.38,490.06
 1999,539.92,457.6,506.93,608.86,494.35,615.95
 2000,616.64,464.71,570.41,571.68,621.35,559.94

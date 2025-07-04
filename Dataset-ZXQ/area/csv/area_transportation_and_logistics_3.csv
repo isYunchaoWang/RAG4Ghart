@@ -1,6 +1,6 @@
 Transportation and Logistics,Fuel Consumption,L/100km
-Year,Cargo Ships,Drone Swarms,Cargo Planes,Delivery Vans,Long-Haul Trucks,Freight Trains
 trend,volatile_rising,volatile_rising,exponential_rising,volatile_rising,volatile_rising,exponential_falling
+Year,Cargo Ships,Drone Swarms,Cargo Planes,Delivery Vans,Long-Haul Trucks,Freight Trains
 1974,13.32,9.36,7.46,5.78,11.38,8.55
 1975,8.8,10.09,10.33,10.15,8.21,6.57
 1976,13.35,7.04,10.15,9.35,10.95,7.33

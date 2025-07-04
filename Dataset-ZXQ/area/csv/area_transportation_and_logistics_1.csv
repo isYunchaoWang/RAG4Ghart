@@ -1,6 +1,6 @@
 Transportation and Logistics,Cargo Shipments,tons/month
-Year,QuickShip Logistics,Continental Freight,Oceanic Carriers,Parcel Services,Rail Networks,Air Express,Cross-Border Trucks
 trend,volatile_falling,volatile_rising,stable_rising,exponential_falling,stable_falling,exponential_rising,exponential_rising
+Year,QuickShip Logistics,Continental Freight,Oceanic Carriers,Parcel Services,Rail Networks,Air Express,Cross-Border Trucks
 1994,142724.78,158408.85,45053.37,81637.51,93382.49,123217.09,104743.98
 1995,102823.64,80969.4,79618.7,118219.45,81967.37,111498.98,123229.17
 1996,94385.41,121317.54,119165.74,27507.46,79354.07,129416.25,135323.79

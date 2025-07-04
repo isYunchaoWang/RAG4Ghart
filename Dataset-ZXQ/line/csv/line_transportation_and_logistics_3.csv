@@ -1,6 +1,6 @@
 Transportation and Logistics,Fuel Consumption,L/100km
-Year,Cargo Ships,Drone Swarms,Cargo Planes,Long-Haul Trucks,Freight Trains
 trend,exponential_falling,bimodal_peak,single_peak,bimodal_peak,volatile_falling
+Year,Cargo Ships,Drone Swarms,Cargo Planes,Long-Haul Trucks,Freight Trains
 1951,8.13,11.43,10.05,10.76,8.95
 1952,6.34,12.07,8.97,12.46,7.56
 1953,8.91,8.26,10.76,12.16,12.83

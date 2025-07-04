@@ -1,6 +1,6 @@
 Human Resources and Employee Management,Productivity Rate,units/hour
-Year,Operations Staff,Administrative Support,Management Team,Research & Development,Sales Team
 trend,volatile_falling,exponential_falling,exponential_rising,stable_falling,exponential_rising
+Year,Operations Staff,Administrative Support,Management Team,Research & Development,Sales Team
 1996,9.04,10.41,7.54,11.06,9.92
 1997,10.64,8.5,10.44,10.39,10.33
 1998,7.92,8.23,12.65,11.99,8.33

@@ -1,6 +1,6 @@
 Energy and Utilities,Electricity Demand,MWh
-Year,Zenith Utility Services,Azure Energy Distribution,Borealis Electric Cooperative,Silverhaven Hydro Authority
 trend,stable_rising,exponential_rising,exponential_falling,exponential_rising
+Year,Zenith Utility Services,Azure Energy Distribution,Borealis Electric Cooperative,Silverhaven Hydro Authority
 1966,936678849.22,1039613504.84,1013248956.48,986611501.35
 1967,1038799343.86,1159244911.66,956950233.68,1094919223.2
 1968,1102668236.24,1115137525.26,747183321.05,1127727085.91

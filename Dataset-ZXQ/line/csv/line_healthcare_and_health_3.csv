@@ -1,6 +1,6 @@
 Healthcare and Health,Hospital Bed Occupancy,%
-Year,Stellar Memorial Hospital,Meridian Teaching Hospital,Silverhaven Community Hospital,Zenith Care Hospital,Azure Coast Hospital
 trend,exponential_rising,volatile_falling,bimodal_valley,stable_falling,exponential_rising
+Year,Stellar Memorial Hospital,Meridian Teaching Hospital,Silverhaven Community Hospital,Zenith Care Hospital,Azure Coast Hospital
 1961,80.13,73.3,24.65,79.89,82.29
 1962,88.5,71.62,11.15,79.53,90.27
 1963,100,73.47,6.65,83.46,89.33

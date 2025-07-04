@@ -1,6 +1,6 @@
 Food and Beverage Industry,Customer Traffic,customers/day
-Year,Stellar Bistro,The Cozy Nook,The Golden Spoon,Emerald Diner,Sky High Cafe,The Rusty Kettle,Crimson Plate
 trend,exponential_falling,single_peak,bimodal_valley,stable_falling,bimodal_peak,stable_rising,bimodal_peak
+Year,Stellar Bistro,The Cozy Nook,The Golden Spoon,Emerald Diner,Sky High Cafe,The Rusty Kettle,Crimson Plate
 1968,523.09,507.19,413.34,470.49,670.15,490.34,693.13
 1969,376.33,461.02,329.93,482.55,678.9,546.49,738.97
 1970,393.53,500.37,198.4,475.52,769.15,509.36,815.65

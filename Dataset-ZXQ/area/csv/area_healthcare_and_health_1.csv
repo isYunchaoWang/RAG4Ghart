@@ -1,6 +1,6 @@
 Healthcare and Health,Patient Visits,visits/month
-Year,Stellar Care Facility,Vitality Clinic,Meridian Health Post,Summit Health Annex,Lumina Clinic,Serenity Wellness Hub
 trend,stable_falling,stable_rising,periodic_stable,exponential_falling,volatile_rising,periodic_stable
+Year,Stellar Care Facility,Vitality Clinic,Meridian Health Post,Summit Health Annex,Lumina Clinic,Serenity Wellness Hub
 1992,895580.87,1118352.73,1005229.82,984695.54,1080860.93,986638.27
 1993,1044785.61,1104277.98,1035119.78,1003787.67,1177182.85,979784.2
 1994,1088504.2,1141855.06,942150.03,919191.8,1083307.51,999287.66

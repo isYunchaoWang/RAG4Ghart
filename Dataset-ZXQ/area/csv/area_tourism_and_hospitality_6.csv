@@ -1,6 +1,6 @@
 Tourism and Hospitality,Luggage Loss Rate,%
-Year,Ferry Services,Shared Ride,Car Rentals,Regional Airports,Bus Stations
 trend,volatile_rising,stable_falling,exponential_rising,volatile_rising,exponential_falling
+Year,Ferry Services,Shared Ride,Car Rentals,Regional Airports,Bus Stations
 2018,1.68,1.59,1.39,1.51,1.53
 2019,1.79,1.57,1.72,1.79,1.33
 2020,1.68,1.67,1.83,1.56,1.1

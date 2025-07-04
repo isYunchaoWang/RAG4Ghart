@@ -1,6 +1,6 @@
 Agriculture and Food Production,Water Usage,cubic meters
-Year,Misty Meadow Acres,Starfall Organics,Whispering Willows Estate,Sunstone Farms,Riverbend Plantation,Golden Harvest Cooperative
 trend,stable_falling,exponential_falling,stable_falling,volatile_rising,exponential_rising,periodic_stable
+Year,Misty Meadow Acres,Starfall Organics,Whispering Willows Estate,Sunstone Farms,Riverbend Plantation,Golden Harvest Cooperative
 1995,2022241.3,1985248.69,1908368.93,1829401.05,2025353.98,1988275.77
 1996,1991968.41,1859763.39,2047435.34,1850492.03,2105797.25,2424614.03
 1997,1887206.08,1928352.41,2188894.26,2593374.48,2376957.43,2337936.37

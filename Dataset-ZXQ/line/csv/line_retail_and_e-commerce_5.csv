@@ -1,6 +1,6 @@
 Retail and E-commerce,Inventory Turnover,times/year
-Year,Bulk Goods Centers,Tech Distribution,Fashion Depots,PrimeCart Warehouse,Cold Chain Facilities,QuickDeliver Hubs,Metro Storage
 trend,exponential_falling,stable_rising,exponential_rising,single_peak,exponential_falling,single_valley,exponential_rising
+Year,Bulk Goods Centers,Tech Distribution,Fashion Depots,PrimeCart Warehouse,Cold Chain Facilities,QuickDeliver Hubs,Metro Storage
 1983,5.38,6.88,6.85,6.94,6.7,5.93,5.83
 1984,4.86,7.9,6.9,5.74,5.73,5.61,7.05
 1985,5.79,5.29,7.52,6.53,4.85,5.92,8.83

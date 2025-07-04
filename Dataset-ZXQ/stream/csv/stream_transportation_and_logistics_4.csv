@@ -1,6 +1,6 @@
 Transportation and Logistics,Vehicle Maintenance Cost,$/month
-Year,Diesel Fleets,Railway Cars,Autonomous Drones,Cold Storage Vans,Electric Trucks,Heavy Machinery,Aircraft Engines
 trend,stable_falling,stable_rising,exponential_falling,stable_falling,periodic_stable,stable_rising,stable_falling
+Year,Diesel Fleets,Railway Cars,Autonomous Drones,Cold Storage Vans,Electric Trucks,Heavy Machinery,Aircraft Engines
 1977,1607.19,1685.95,1665.84,1571.21,1513.55,1625.25,1174.94
 1978,1420.81,1557.02,499.57,1657.28,1943.47,1718.56,1959.46
 1979,1478.25,1327.54,1110.46,1729.3,1652.89,1786.21,1784.19

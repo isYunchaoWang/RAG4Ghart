@@ -1,6 +1,6 @@
 Healthcare and Health,Average Treatment Cost,$
-Year,Pediatric Treatment,Standard Consultation,Specialist Surgery,Emergency Procedure,Rehabilitation Therapy
 trend,bimodal_peak,stable_falling,bimodal_peak,single_valley,single_peak
+Year,Pediatric Treatment,Standard Consultation,Specialist Surgery,Emergency Procedure,Rehabilitation Therapy
 1950,7284.18,5248.15,6612.97,4450.37,4510.34
 1951,7424.55,4935.14,6639.88,4357.81,5024.79
 1952,7225.22,4898.38,7283.28,4157.35,5685.36

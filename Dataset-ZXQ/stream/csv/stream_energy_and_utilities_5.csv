@@ -1,6 +1,6 @@
 Energy and Utilities,Natural Gas Prices,$/cubic meter
-Year,GeoHeat Commodity,Zephyr Gas Index,TerraFuel Exchange,Lumina Energy Market,Solara Power Futures
 trend,exponential_rising,volatile_rising,volatile_rising,stable_falling,exponential_falling
+Year,GeoHeat Commodity,Zephyr Gas Index,TerraFuel Exchange,Lumina Energy Market,Solara Power Futures
 1982,1.86,2.38,2.04,2.07,1.98
 1983,2.36,2.12,2.12,1.95,1.87
 1984,1.89,1.96,2.55,2.17,1.8

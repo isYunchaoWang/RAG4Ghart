@@ -1,6 +1,6 @@
 Tourism and Hospitality,Flight Bookings,bookings/month
-Year,Regional Carriers,Last-Minute Deals,EcoFly,Charter Flights,Global Wings
 trend,exponential_falling,periodic_stable,volatile_rising,stable_falling,volatile_falling
+Year,Regional Carriers,Last-Minute Deals,EcoFly,Charter Flights,Global Wings
 1966,146461.17,130059.55,41303.82,179101.92,149092.05
 1967,145719.61,212049.33,194634.91,199678.76,120391.47
 1968,217941.18,173569.46,169625.47,168362.42,99702.37

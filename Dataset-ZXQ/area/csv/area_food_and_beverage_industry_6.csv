@@ -1,6 +1,6 @@
 Food and Beverage Industry,Food Cost Percentage,%
-Year,The Golden Spoon,Emerald Diner,Crimson Plate,Sky High Cafe,The Rusty Kettle
 trend,exponential_rising,stable_falling,volatile_rising,volatile_falling,periodic_stable
+Year,The Golden Spoon,Emerald Diner,Crimson Plate,Sky High Cafe,The Rusty Kettle
 1961,28.64,30.27,28.24,30.01,29.76
 1962,32.07,30.84,32.45,29.41,37.17
 1963,36.79,32.91,34.03,25.52,33.7

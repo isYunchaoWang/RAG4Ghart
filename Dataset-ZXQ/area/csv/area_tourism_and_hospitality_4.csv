@@ -1,6 +1,6 @@
 Tourism and Hospitality,Restaurant Reservations,reservations/week
-Year,Family Restaurants,Fine Dining,Fusion Kitchens,Rooftop Bars,Casual Eateries,Vegan Cafes
 trend,periodic_stable,exponential_rising,exponential_falling,stable_rising,volatile_rising,exponential_rising
+Year,Family Restaurants,Fine Dining,Fusion Kitchens,Rooftop Bars,Casual Eateries,Vegan Cafes
 1991,1107.98,1232.15,1347.84,724.63,1107.4,1637.19
 1992,1392.6,851.37,1209.48,1053.75,663.84,1368.18
 1993,1237.93,1184.4,974.37,854.63,1152.26,1249.41

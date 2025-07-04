@@ -1,6 +1,6 @@
 Agriculture and Food Production,Livestock Production,tons
-Year,Golden Harvest Cooperative,Starfall Organics,Riverbend Plantation,Ironwood Ranch,Misty Meadow Acres,Sunstone Farms
 trend,exponential_falling,single_valley,bimodal_peak,single_valley,exponential_falling,periodic_stable
+Year,Golden Harvest Cooperative,Starfall Organics,Riverbend Plantation,Ironwood Ranch,Misty Meadow Acres,Sunstone Farms
 1971,50337.13,50659.36,60752.9,49227.44,46460.73,49966.46
 1972,40855.88,46238.44,65206.43,47535.1,47579.34,61697.59
 1973,37480.45,49101.69,73686.78,53408.63,36575.54,57953.12

@@ -1,6 +1,6 @@
 Healthcare and Health,Life Expectancy,years
-Year,Verdant Ward,Sector Beta,Stellar City Core,Crimson Quarter,Outer Rim Settlements,Azure Enclave
 trend,volatile_falling,exponential_falling,volatile_rising,stable_falling,bimodal_peak,stable_falling
+Year,Verdant Ward,Sector Beta,Stellar City Core,Crimson Quarter,Outer Rim Settlements,Azure Enclave
 1950,78.67,79.67,79.65,79.82,110.11,79.85
 1951,73.96,72.01,87.73,82.73,116.87,82.79
 1952,69.16,67.29,92.88,84.35,124.12,85.83

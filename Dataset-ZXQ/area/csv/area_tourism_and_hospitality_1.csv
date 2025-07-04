@@ -1,6 +1,6 @@
 Tourism and Hospitality,Hotel Occupancy Rate,%
-Year,Eco Lodges,Boutique Inns,Luxury Resorts,Budget Motels,Business Hotels
 trend,stable_rising,periodic_stable,exponential_rising,periodic_stable,stable_falling
+Year,Eco Lodges,Boutique Inns,Luxury Resorts,Budget Motels,Business Hotels
 1961,69.26,74.24,84.84,74.24,68.21
 1962,63.83,90.94,49.63,93.61,70.31
 1963,73.87,82.04,91.84,81.37,97.43

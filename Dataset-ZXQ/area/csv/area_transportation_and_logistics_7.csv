@@ -1,6 +1,6 @@
 Transportation and Logistics,Driver Satisfaction,index
-Year,Drone Pilots,Hazardous Material,Freight Train,Last-Mile Couriers,Night Shift,Long-Haul Operators,International Routes
 trend,stable_falling,periodic_stable,stable_falling,volatile_rising,stable_rising,volatile_rising,periodic_stable
+Year,Drone Pilots,Hazardous Material,Freight Train,Last-Mile Couriers,Night Shift,Long-Haul Operators,International Routes
 1983,74.33,75.52,89.03,70.54,77.07,65.64,77.52
 1984,84.65,100.59,79.27,85.2,75.99,105.45,95.03
 1985,74.77,91.3,92.77,96.95,82.59,99.01,83.02

@@ -1,6 +1,6 @@
 Transportation and Logistics,On-Time Delivery Rate,%
-Year,Oversized Loads,Emergency Shipments,E-Commerce Parcels,Same-Day Couriers,Automotive Parts
 trend,volatile_falling,exponential_falling,volatile_rising,volatile_falling,stable_falling
+Year,Oversized Loads,Emergency Shipments,E-Commerce Parcels,Same-Day Couriers,Automotive Parts
 2000,77.84,81.04,92.38,100,92.59
 2001,84.51,61.4,100,97.52,98.96
 2002,74.89,79.37,100,98.86,97.34

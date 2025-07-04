@@ -1,6 +1,6 @@
 Agriculture and Food Production,Crop Yield,tons/hectare
-Year,Misty Meadow Acres,Golden Harvest Cooperative,Starfall Organics,Sunstone Farms,Whispering Willows Estate
 trend,periodic_stable,exponential_rising,single_valley,exponential_falling,exponential_falling
+Year,Misty Meadow Acres,Golden Harvest Cooperative,Starfall Organics,Sunstone Farms,Whispering Willows Estate
 2000,102119.63,100465.69,33545.46,105525.87,97452.15
 2001,120873.64,113984.48,24111.75,82199.78,102499.73
 2002,112736.16,119383.2,17093.63,84231.63,80719.54

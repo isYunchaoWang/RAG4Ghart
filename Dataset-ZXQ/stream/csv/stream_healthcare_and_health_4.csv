@@ -1,6 +1,6 @@
 Healthcare and Health,Average Treatment Cost,$
-Year,Emergency Procedure,Chronic Care Program,Specialist Surgery,Preventative Screening
 trend,stable_rising,stable_falling,exponential_rising,volatile_rising
+Year,Emergency Procedure,Chronic Care Program,Specialist Surgery,Preventative Screening
 1960,4444.82,4978.1,5974.4,4446.29
 1961,5122.2,5798.23,4778.7,5721.83
 1962,5696.21,4908.28,5991.35,6045.79

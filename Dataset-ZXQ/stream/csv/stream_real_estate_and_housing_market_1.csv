@@ -1,6 +1,6 @@
 Real Estate and Housing Market,Home Sales,units/month
-Year,Crimson Bazaar,Starfall Mart,Echo Trade,Aether Market,Ironwood Market,Silverleaf Emporium,Nova Exchange
 trend,stable_rising,stable_falling,exponential_rising,stable_rising,exponential_rising,stable_falling,volatile_falling
+Year,Crimson Bazaar,Starfall Mart,Echo Trade,Aether Market,Ironwood Market,Silverleaf Emporium,Nova Exchange
 1997,1064.63,903.9,1073.85,946.74,1105.7,969.07,1486.87
 1998,1145.8,1136.75,1156.35,1079.1,781.04,854.55,910.5
 1999,1159.15,1042.14,1268.05,1123.87,1216.5,1005.75,936.59

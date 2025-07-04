@@ -1,6 +1,6 @@
 Transportation and Logistics,Warehouse Utilization,%
-Year,Seasonal Facilities,Automated Hubs,Perishable Goods,Bonded Storage,Urban Micro-Warehouses,Hazardous Material
 trend,stable_falling,exponential_falling,periodic_stable,exponential_falling,volatile_falling,exponential_rising
+Year,Seasonal Facilities,Automated Hubs,Perishable Goods,Bonded Storage,Urban Micro-Warehouses,Hazardous Material
 1995,79.92,100,85.4,90.37,100,78.69
 1996,84.35,68.12,100,76.68,94.54,97.08
 1997,100,70.42,93.76,55.49,61.88,100

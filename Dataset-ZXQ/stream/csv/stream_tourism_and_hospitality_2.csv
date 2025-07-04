@@ -1,6 +1,6 @@
 Tourism and Hospitality,Flight Bookings,bookings/month
-Year,Charter Flights,EcoFly,Business Class,Regional Carriers,Last-Minute Deals,SkyHigh Airlines,Global Wings
 trend,stable_rising,volatile_rising,exponential_falling,periodic_stable,periodic_stable,periodic_stable,stable_rising
+Year,Charter Flights,EcoFly,Business Class,Regional Carriers,Last-Minute Deals,SkyHigh Airlines,Global Wings
 1953,274504.58,107859.07,237439.19,158271.09,143466.48,137149.35,129548.48
 1954,139871.22,1500.0,129346.11,171361.12,204881.3,158260.49,101555.75
 1955,198272.55,258971.34,111563.47,180051.54,178329.85,198443.55,162699.48

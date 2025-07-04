@@ -1,6 +1,6 @@
 Agriculture and Food Production,Crop Yield,tons/hectare
-Year,Sunstone Farms,Golden Harvest Cooperative,Misty Meadow Acres,Starfall Organics,Riverbend Plantation,Ironwood Ranch,Whispering Willows Estate
 trend,exponential_falling,exponential_falling,stable_falling,stable_falling,volatile_falling,periodic_stable,exponential_falling
+Year,Sunstone Farms,Golden Harvest Cooperative,Misty Meadow Acres,Starfall Organics,Riverbend Plantation,Ironwood Ranch,Whispering Willows Estate
 1961,105554.05,102797.54,108720.48,101837.93,115786.34,106495.57,107187.89
 1962,85336.68,81290.58,86740.65,110238.82,101163.76,120858.23,85597.02
 1963,79378.47,84401.27,116916.87,112625.26,83914.42,112776.44,83886.22

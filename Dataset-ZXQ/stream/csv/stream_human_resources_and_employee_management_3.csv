@@ -1,6 +1,6 @@
 Human Resources and Employee Management,Training Hours,hours/employee
-Year,Sales Team,Human Resources,Administrative Support,Management Team,Operations Staff,Engineering Department,Research & Development
 trend,volatile_falling,stable_rising,exponential_rising,exponential_falling,periodic_stable,periodic_stable,exponential_rising
+Year,Sales Team,Human Resources,Administrative Support,Management Team,Operations Staff,Engineering Department,Research & Development
 2002,19.49,21.64,17.97,18.49,20.79,20.0,21.21
 2003,16.73,21.19,17.25,20.55,23.81,23.79,22.67
 2004,19.25,21.69,24.15,16.39,22.36,22.94,25.71

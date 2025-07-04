@@ -1,6 +1,6 @@
 Transportation and Logistics,Cross-Border Delays,hours
-Year,Weather Impacts,Security Checks,Political Disruptions,Documentation Errors,Tariff Negotiations
 trend,stable_rising,stable_rising,stable_falling,exponential_rising,volatile_falling
+Year,Weather Impacts,Security Checks,Political Disruptions,Documentation Errors,Tariff Negotiations
 1950,13.49,11.94,7.96,7.33,13.48
 1951,4.98,6.57,9.47,0.12,27.85
 1952,10.73,9.63,21.11,8.69,36.07
