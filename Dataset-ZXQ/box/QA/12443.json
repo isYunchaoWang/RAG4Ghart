@@ -1,0 +1,123 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {5} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Lost Signal}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Silent Echo}."
+        },
+        {
+            "Q": "Which box is the first position to the right of the box Wild Bloom?",
+            "A": "The first position to the right of the box Wild Bloom is {Deep Waters}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Silent Echo relative to the box Lost Signal in terms of horizontal (left/right) direction?",
+            "A": "Box Silent Echo is to the {right} of the box Lost Signal."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Dark Horizon}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Lost Signal}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Dark Horizon}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Dark Horizon in the box plot?",
+            "A": "The median of Dark Horizon is {543.0} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Deep Waters in the box plot?",
+            "A": "The upper quartile (Q3) of Deep Waters is {517.0} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Silent Echo in the box plot?",
+            "A": "The upper whisker limit of Silent Echo is {718} million USD."
+        },
+        {
+            "Q": "What is the lowest upper outlier value in Wild Bloom in the box plot?",
+            "A": "The lowest upper outlier value in Wild Bloom is {110} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {842.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {31.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between box Lost Signal and Silent Echo?",
+            "A": "The Median difference between box Lost Signal and Silent Echo is {104.0} million USD."
+        },
+        {
+            "Q": "What is the toal Q1 value of box Lost Signal and Wild Bloom?",
+            "A": "The total Q1 value of box Lost Signal and Wild Bloom is {881.0} million USD."
+        },
+        {
+            "Q": "What is the average Median value of box Wild Bloom and Deep Waters?",
+            "A": "The average Median value of box Wild Bloom and Deep Waters is {452.5} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes have median values exceed 508.50 million USD? Please list the boxes and corresponding values.",
+            "A": "{Lost Signal} has {532.0} million USD , {Dark Horizon} has {543.0} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 424.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Deep Waters} has {420.0} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Dark Horizon or Wild Bloom ",
+            "A": "The median value of the {Dark Horizon} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Dark Horizon, Lost Signal or Deep Waters ",
+            "A": "The median value of the {Dark Horizon} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Lost Signal, Silent Echo, Deep Waters or Wild Bloom ",
+            "A": "The median value of the {Lost Signal} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Deep Waters}."
+        }
+    ],
+    "VA": []
+}

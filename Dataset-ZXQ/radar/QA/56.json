@@ -1,0 +1,135 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Smart Equipment Coverage Rate?",
+            "A": "The next dimension clockwise from Smart Equipment Coverage Rate is Profit MarginSustainable Farming Adoption Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Land Utilization Rate?",
+            "A": "The next dimension counterclockwise from Smart Equipment Coverage Rate is Land Utilization Rate."
+        },
+        {
+            "Q": "On the Irrigation Water Use Efficiency, is the point for Rocha-MatthewsFarm inside or outside the point for Garcia, Lee and DuffyFarm?",
+            "A": "On the Irrigation Water Use Efficiency, the point for Rocha-MatthewsFarm is outside the point for Garcia, Lee and DuffyFarm."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Profit MarginSustainable Farming Adoption Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Rocha-MatthewsFarm?",
+            "A": "The strongest aspect is {Profit MarginSustainable Farming Adoption Rate}, while the weakest aspect is{ High-value Crop Cultivation Ratio}."
+        },
+        {
+            "Q": "On dimension Irrigation Water Use Efficiency, which label scores the highest?",
+            "A": "On Irrigation Water Use Efficiency, label {Garcia, Lee and DuffyFarm} scores the highest."
+        },
+        {
+            "Q": "On dimension Irrigation Water Use Efficiency, which label scores the highest?",
+            "A": "On Irrigation Water Use Efficiency, label {Garcia, Lee and DuffyFarm} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Garcia, Lee and DuffyFarm on the High-value Crop Cultivation Ratio in the radar chart?",
+            "A": "The value of Garcia, Lee and DuffyFarm on the Safety dimension is {79}."
+        },
+        {
+            "Q": "What is the value of Rocha-MatthewsFarm on the Irrigation Water Use Efficiency in the radar chart?",
+            "A": "The value of Rocha-MatthewsFarm on the Safety dimension is {70}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Garcia, Lee and DuffyFarm across all dimensions in the radar chart?",
+            "A": "The maximum value of Garcia, Lee and DuffyFarm across all dimensions is {35}."
+        },
+        {
+            "Q": "What is the minimum value of label Garcia, Lee and DuffyFarm across all dimensions in the radar chart?",
+            "A": "The minimum value of Garcia, Lee and DuffyFarm across all dimensions is {51}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of High-value Crop Cultivation Ratio",
+            "A": "The average value of High-value Crop Cultivation Ratio is {65.0}."
+        },
+        {
+            "Q": "What is the average value of Rocha-MatthewsFarm",
+            "A": "The average value of Rocha-MatthewsFarm is {60.2}."
+        },
+        {
+            "Q": "What is the difference in High-value Crop Cultivation Ratio between Rocha-MatthewsFarm and Bell, Jackson and WattsFarm?",
+            "A": "The difference in High-value Crop Cultivation Ratio between Rocha-MatthewsFarm and Bell, Jackson and WattsFarm is {14}."
+        },
+        {
+            "Q": "What is the difference in High-value Crop Cultivation Ratio between Garcia, Lee and DuffyFarm and Rocha-MatthewsFarm?",
+            "A": "The difference in High-value Crop Cultivation Ratio between Garcia, Lee and DuffyFarm and Rocha-MatthewsFarm is {28}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Bell, Jackson and WattsFarm in the radar chart, which dimensions have scores below 53? Please list the dimensions and corresponding scores.",
+            "A": "{Irrigation Water Use Efficiency} is {48}, {Smart Equipment Coverage Rate} is {41}, {Profit MarginSustainable Farming Adoption Rate} is {46}"
+        },
+        {
+            "Q": "Which labels have scores below 37 for the Smart Equipment Coverage Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Garcia, Lee and DuffyFarm} is {34}"
+        },
+        {
+            "Q": "Which labels have scores above 48 for the Smart Equipment Coverage Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Rocha-MatthewsFarm} is {51}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Bell, Jackson and WattsFarm, which dimension has a higher score: Irrigation Water Use Efficiency or Profit MarginSustainable Farming Adoption Rate?",
+            "A": "{Irrigation Water Use Efficiency} has a higher score than Profit MarginSustainable Farming Adoption Rate for Bell, Jackson and WattsFarm."
+        },
+        {
+            "Q": "For Rocha-MatthewsFarm, which dimension has a higher score: High-value Crop Cultivation Ratio or Irrigation Water Use Efficiency?",
+            "A": "{Irrigation Water Use Efficiency} has a higher score than High-value Crop Cultivation Ratio for Rocha-MatthewsFarm."
+        },
+        {
+            "Q": "On High-value Crop Cultivation Ratio, which label has a higher score: Garcia, Lee and DuffyFarm or the Rocha-MatthewsFarm?",
+            "A": "{Garcia, Lee and DuffyFarm} has a higher score on High-value Crop Cultivation Ratio compared to Rocha-MatthewsFarm."
+        },
+        {
+            "Q": "For Rocha-MatthewsFarm, which dimension has a higher score: Irrigation Water Use Efficiency or High-value Crop Cultivation Ratio or Profit MarginSustainable Farming Adoption Rate?",
+            "A": "{Profit MarginSustainable Farming Adoption Rate} has a higher score for Rocha-MatthewsFarm."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Bell, Jackson and WattsFarm, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Bell, Jackson and WattsFarm most needs to improve its {Smart Equipment Coverage Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Rocha-MatthewsFarm}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Garcia, Lee and DuffyFarm}."
+        }
+    ],
+    "VA": []
+}

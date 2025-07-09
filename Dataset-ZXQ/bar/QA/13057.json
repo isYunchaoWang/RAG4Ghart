@@ -1,0 +1,128 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {12} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Whisper Reef}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Misty Trail}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Hidden Valley relative to the bar Thunder Canyon in terms of horizontal (left/right) direction?",
+            "A": "Bar Hidden Valley is to the {right} of the bar Thunder Canyon."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Whisper Reef}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Celestial Arch}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Maple Arbor?",
+            "A": "The value of Maple Arbor is {1233.8} thousand visitors."
+        },
+        {
+            "Q": "What is the value of bar Hidden Valley?",
+            "A": "The value of Hidden Valley is {636.3} thousand visitors."
+        },
+        {
+            "Q": "What is the value of bar Celestial Arch?",
+            "A": "The value of Celestial Arch is {636.2} thousand visitors."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum thousand visitors in the bar chart?",
+            "A": "The maximum thousand visitors is {2100.9} thousand visitors."
+        },
+        {
+            "Q": "What is the minimum thousand visitors in the bar chart?",
+            "A": "The minimum thousand visitors is {636.2} thousand visitors."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Celestial Arch and Lotus Temple?",
+            "A": "The total value of Celestial Arch and Lotus Temple is {2243.1000000000004} thousand visitors."
+        },
+        {
+            "Q": "What is the average value of Lotus Temple and Thunder Canyon?",
+            "A": "The average value of Lotus Temple and Thunder Canyon is {1677.45} thousand visitors."
+        },
+        {
+            "Q": "What is the difference between Misty Trail and Dragon Ruins?",
+            "A": "The difference between Misty Trail and Dragon Ruins is {836.3999999999999} thousand visitors."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have thousand visitors values exceed 2088.75 thousand visitors? Please list the bars and corresponding thousand visitors values?",
+            "A": "{Whisper Reef} has {2100.9} thousand visitors."
+        },
+        {
+            "Q": "Which bars have {thousand visitors} values below 780.65 thousand visitors? Please list the bars and corresponding thousand visitors values?",
+            "A": "{Celestial Arch} has {636.2} thousand visitors, {Hidden Valley} has {636.3} thousand visitors, {Spring Spa} has {767.2} thousand visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Celestial Arch or Whisper Reef ",
+            "A": "The value of the {Whisper Reef} is larger?"
+        },
+        {
+            "Q": "Which is larger, Sunset Cliff, Celestial Arch or Emerald Beach ",
+            "A": "The value of the {Emerald Beach} is larger?"
+        },
+        {
+            "Q": "Which is larger, Emerald Beach, Sun Harbor, Maple Arbor or Hidden Valley ",
+            "A": "The value of the {Emerald Beach} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {5} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Whisper Reef} and {Sunset Cliff}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Whisper Reef}, {Misty Trail}, and {Emerald Beach}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by thousand visitors values in descending order and list the labels from left to right.",
+            "A": "Sorted by thousand visitors value descending: {Whisper Reef}, {Misty Trail}, {Emerald Beach}, {Thunder Canyon}, {Lotus Temple}, {Dragon Ruins}, {Maple Arbor}, {Sun Harbor}, {Sunset Cliff}, {Spring Spa}, {Hidden Valley}, and {Celestial Arch}."
+        },
+        {
+            "Q": "Sort the bars by thousand visitors values in ascending order and list the labels from left to right.",
+            "A": "Sorted by thousand visitors value ascending: {Celestial Arch}, {Hidden Valley}, {Spring Spa}, {Sunset Cliff}, {Sun Harbor}, {Maple Arbor}, {Dragon Ruins}, {Lotus Temple}, {Thunder Canyon}, {Emerald Beach}, {Misty Trail}, and {Whisper Reef}."
+        }
+    ]
+}

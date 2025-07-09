@@ -1,0 +1,128 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {11} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Creston}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Quarryville}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Creston relative to the bar Quarryville in terms of horizontal (left/right) direction?",
+            "A": "Bar Creston is to the {left} of the bar Quarryville."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Creston}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Westport}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Pinehaven?",
+            "A": "The value of Pinehaven is {547} Number."
+        },
+        {
+            "Q": "What is the value of bar Fairmont?",
+            "A": "The value of Fairmont is {1416} Number."
+        },
+        {
+            "Q": "What is the value of bar Ashford?",
+            "A": "The value of Ashford is {1617} Number."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum Number in the bar chart?",
+            "A": "The maximum Number is {1827} Number."
+        },
+        {
+            "Q": "What is the minimum Number in the bar chart?",
+            "A": "The minimum Number is {165} Number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Quarryville and Fairmont?",
+            "A": "The total value of Quarryville and Fairmont is {2581} Number."
+        },
+        {
+            "Q": "What is the average value of Glenhaven and Westport?",
+            "A": "The average value of Glenhaven and Westport is {753.5} Number."
+        },
+        {
+            "Q": "What is the difference between Creston and Rosewood?",
+            "A": "The difference between Creston and Rosewood is {596} Number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have Number values exceed 1611.00 Number? Please list the bars and corresponding Number values?",
+            "A": "{Ashford} has {1617} Number, {Creston} has {1827} Number."
+        },
+        {
+            "Q": "Which bars have {Number} values below 270.50 Number? Please list the bars and corresponding Number values?",
+            "A": "{Westport} has {165} Number."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Dunvale or Quarryville ",
+            "A": "The value of the {Quarryville} is larger?"
+        },
+        {
+            "Q": "Which is larger, Westport, Dunvale or Quarryville ",
+            "A": "The value of the {Quarryville} is larger?"
+        },
+        {
+            "Q": "Which is larger, Pinehaven, Yorkton, Fairmont or Ironwood ",
+            "A": "The value of the {Ironwood} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {7} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Creston} and {Pinehaven}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Creston}, {Ashford}, and {Ironwood}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by Number values in descending order and list the labels from left to right.",
+            "A": "Sorted by Number value descending: {Creston}, {Ashford}, {Ironwood}, {Yorkton}, {Fairmont}, {Glenhaven}, {Rosewood}, {Quarryville}, {Pinehaven}, {Dunvale}, and {Westport}."
+        },
+        {
+            "Q": "Sort the bars by Number values in ascending order and list the labels from left to right.",
+            "A": "Sorted by Number value ascending: {Westport}, {Dunvale}, {Pinehaven}, {Quarryville}, {Rosewood}, {Glenhaven}, {Fairmont}, {Yorkton}, {Ironwood}, {Ashford}, and {Creston}."
+        }
+    ]
+}

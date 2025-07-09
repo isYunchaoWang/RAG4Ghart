@@ -1,0 +1,8 @@
+Technology and Software,the Hierarchy of Technology and Software,6
+size,father,depth,label
+79.35,0,1,Technology and Software
+33.18,1,2,Artificial Intelligence
+23.45,1,2,Data Science
+39.67,1,2,Software Development
+10.57,2,3,Machine Learning
+12.4,4,3,Database

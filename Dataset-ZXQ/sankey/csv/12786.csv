@@ -1,0 +1,54 @@
+Sports and Entertainment,Sports Event Framework,Events,random,Engagement Channels,Revenue Streams,Sports Types,Audience Segments
+Source,Target,Value
+Social Media,Ticket Sales,1178
+Social Media,Sponsorships,9289
+Social Media,Merchandise,8867
+Social Media,Broadcast Rights,3488
+Fantasy Leagues,Ticket Sales,1259
+Fantasy Leagues,Sponsorships,2222
+Fantasy Leagues,Merchandise,1649
+Fantasy Leagues,Broadcast Rights,2751
+Mobile Apps,Ticket Sales,3787
+Mobile Apps,Sponsorships,2554
+Mobile Apps,Merchandise,1931
+Mobile Apps,Broadcast Rights,677
+Fan Meetups,Ticket Sales,1133
+Fan Meetups,Sponsorships,902
+Fan Meetups,Merchandise,6935
+Fan Meetups,Broadcast Rights,7466
+Ticket Sales,Football,2887
+Ticket Sales,Cricket,1077
+Ticket Sales,Tennis,2699
+Ticket Sales,Hockey,694
+Sponsorships,Football,2389
+Sponsorships,Cricket,1215
+Sponsorships,Tennis,4832
+Sponsorships,Hockey,6531
+Merchandise,Football,10807
+Merchandise,Cricket,6374
+Merchandise,Tennis,1110
+Merchandise,Hockey,1091
+Broadcast Rights,Football,5078
+Broadcast Rights,Cricket,3100
+Broadcast Rights,Tennis,1600
+Broadcast Rights,Hockey,4604
+Football,VIP Guests,1660
+Football,Corporate Groups,4840
+Football,Families,4265
+Football,International Fans,7564
+Football,Local Fans,2832
+Cricket,VIP Guests,3283
+Cricket,Corporate Groups,597
+Cricket,Families,4641
+Cricket,International Fans,1910
+Cricket,Local Fans,1335
+Tennis,VIP Guests,1168
+Tennis,Corporate Groups,5131
+Tennis,Families,2277
+Tennis,International Fans,694
+Tennis,Local Fans,971
+Hockey,VIP Guests,1286
+Hockey,Corporate Groups,2361
+Hockey,Families,1443
+Hockey,International Fans,4071
+Hockey,Local Fans,3759

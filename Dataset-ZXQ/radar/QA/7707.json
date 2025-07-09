@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Primary Healthcare Institutions Ratio?",
+            "A": "The next dimension clockwise from Primary Healthcare Institutions Ratio is Outpatient Satisfaction Rate "
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Primary Healthcare Institutions Ratio?",
+            "A": "The next dimension counterclockwise from Primary Healthcare Institutions Ratio is Hospital Bed Utilization Rate."
+        },
+        {
+            "Q": "On the Outpatient Satisfaction Rate , is the point for Vietnam inside or outside the point for Togo?",
+            "A": "On the Outpatient Satisfaction Rate , the point for Vietnam is outside the point for Togo."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Outpatient Satisfaction Rate } encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Vietnam?",
+            "A": "The strongest aspect is {Outpatient Satisfaction Rate }, while the weakest aspect is{ Hospital Bed Utilization Rate}."
+        },
+        {
+            "Q": "On dimension Outpatient Satisfaction Rate , which label scores the highest?",
+            "A": "On Outpatient Satisfaction Rate , label {Togo} scores the highest."
+        },
+        {
+            "Q": "On dimension Hospital Bed Utilization Rate, which label scores the highest?",
+            "A": "On Hospital Bed Utilization Rate, label {Vietnam} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Vietnam on the Primary Healthcare Institutions Ratio in the radar chart?",
+            "A": "The value of Vietnam on the Safety dimension is {73}."
+        },
+        {
+            "Q": "What is the value of Togo on the Health Insurance Coverage Rate in the radar chart?",
+            "A": "The value of Togo on the Safety dimension is {40}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Togo across all dimensions in the radar chart?",
+            "A": "The maximum value of Togo across all dimensions is {38}."
+        },
+        {
+            "Q": "What is the minimum value of label Vietnam across all dimensions in the radar chart?",
+            "A": "The minimum value of Vietnam across all dimensions is {85}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Primary Healthcare Institutions Ratio",
+            "A": "The average value of Primary Healthcare Institutions Ratio is {72.0}."
+        },
+        {
+            "Q": "What is the average value of Togo",
+            "A": "The average value of Togo is {60.83}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Togo in the radar chart, which dimensions have scores below 41? Please list the dimensions and corresponding scores.",
+            "A": "{Health Insurance Coverage Rate} is {38}, {Hospital Bed Utilization Rate} is {31}"
+        },
+        {
+            "Q": "For Vietnam in the radar chart, which dimensions have scores above 75? Please list the dimensions and corresponding scores.",
+            "A": "{Chronic Disease Management Compliance Rate} is {85}, {Outpatient Satisfaction Rate } is {80}"
+        },
+        {
+            "Q": "For Togo in the radar chart, which dimensions have scores between 41 and 75? Please list the dimensions and corresponding scores.",
+            "A": "{Primary Healthcare Institutions Ratio} is {71}, {Vaccination Rate} is {54}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Vietnam, which dimension has a higher score: Outpatient Satisfaction Rate  or Chronic Disease Management Compliance Rate?",
+            "A": "{Outpatient Satisfaction Rate } has a higher score than Chronic Disease Management Compliance Rate for Vietnam."
+        },
+        {
+            "Q": "On Outpatient Satisfaction Rate , which label has a higher score: Togo or the Vietnam?",
+            "A": "{Vietnam} has a higher score on Outpatient Satisfaction Rate  compared to Togo."
+        },
+        {
+            "Q": "For Vietnam, which dimension has a higher score: Chronic Disease Management Compliance Rate or Health Insurance Coverage Rate or Vaccination Rate?",
+            "A": "{Chronic Disease Management Compliance Rate} has a higher score for Vietnam."
+        },
+        {
+            "Q": "For Togo, which dimension has a higher score: Vaccination Rate or Outpatient Satisfaction Rate  or Chronic Disease Management Compliance Rate?",
+            "A": "{Chronic Disease Management Compliance Rate} has a higher score for Togo."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Togo, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Togo most needs to improve its {Hospital Bed Utilization Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Togo}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Vietnam}."
+        }
+    ],
+    "VA": []
+}

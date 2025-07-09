@@ -1,0 +1,12 @@
+Retail and E-commerce, E-commerce Platform User Migration, Million Users, long_tail
+Source,Target,Value
+JohnsonLLC.com,AtkinsonExpress,505
+AtkinsonExpress,JohnsonLLC.com,238
+JohnsonLLC.com,DanielsGroupShop,160
+DanielsGroupShop,JohnsonLLC.com,116
+GillespieShop,DanielsGroupShop,100
+DanielsGroupShop,GillespieShop,76
+DanielsGroupShop,AtkinsonExpress,65
+AtkinsonExpress,DanielsGroupShop,62
+GillespieShop,AtkinsonExpress,53
+AtkinsonExpress,GillespieShop,49

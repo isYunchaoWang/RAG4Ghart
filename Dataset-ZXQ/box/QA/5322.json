@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {2} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Vegetarian Restaurants}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Food Courts}."
+        },
+        {
+            "Q": "Which box is the first position to the right of the box Vegetarian Restaurants?",
+            "A": "The first position to the right of the box Vegetarian Restaurants is {Food Courts}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Vegetarian Restaurants relative to the box Food Courts in terms of horizontal (left/right) direction?",
+            "A": "Box Vegetarian Restaurants is to the {left} of the box Food Courts."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Food Courts}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Food Courts}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Food Courts}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Vegetarian Restaurants in the box plot?",
+            "A": "The median of Vegetarian Restaurants is {548.0} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Vegetarian Restaurants in the box plot?",
+            "A": "The upper quartile (Q3) of Vegetarian Restaurants is {703.75} million USD."
+        },
+        {
+            "Q": "What is the lower whisker limit of Food Courts in the box plot?",
+            "A": "The lower whisker limit of Food Courts is {286} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {1047.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {105.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between box Food Courts and Vegetarian Restaurants?",
+            "A": "The Q1 difference between box Food Courts and Vegetarian Restaurants is {109.0} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of box Food Courts and Vegetarian Restaurants?",
+            "A": "The total Q3 value of box Food Courts and Vegetarian Restaurants is {1462.5} million USD."
+        },
+        {
+            "Q": "What is the average Q3 value of box Vegetarian Restaurants and Food Courts?",
+            "A": "The average Q3 value of box Vegetarian Restaurants and Food Courts is {731.25} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes have median values exceed 601.25 million USD? Please list the boxes and corresponding values.",
+            "A": "{Food Courts} has {654.5} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 601.25 million USD? Please list the boxes and corresponding values.",
+            "A": "{Vegetarian Restaurants} has {548.0} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Food Courts or Vegetarian Restaurants ",
+            "A": "The median value of the {Food Courts} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Vegetarian Restaurants}."
+        }
+    ],
+    "VA": []
+}

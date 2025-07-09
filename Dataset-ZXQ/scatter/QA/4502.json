@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {30} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive u shape correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Team size in the scatter plot?",
+            "A": "The maximum observed value in the Team size dimension is {20.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Team size in the scatter plot?",
+            "A": "The minimum observed value in the Team size dimension is {2.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Absenteeism in the scatter plot?",
+            "A": "The maximum observed value in the Absenteeism dimension is {10.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Absenteeism in the scatter plot?",
+            "A": "The minimum observed value in the Absenteeism dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Team size for all points?",
+            "A": "The average value of Team size for all points is {11.00}."
+        },
+        {
+            "Q": "What is the average value of the Absenteeism for all points?",
+            "A": "The average value of Absenteeism for all points is {3.87}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Absenteeism values corresponding to the top 3 Team size values in the scatter plot?",
+            "A": "{10.00, 8.39, 6.86}."
+        },
+        {
+            "Q": "What are the Absenteeism values corresponding to the bottom 3 Team size values in the scatter plot?",
+            "A": "{9.92, 8.30, 7.33}."
+        },
+        {
+            "Q": "What are the Team size values corresponding to the top 3 Absenteeism values in the scatter plot?",
+            "A": "{20.00, 2.00, 19.38}."
+        },
+        {
+            "Q": "What are the Team size values corresponding to the bottom 3 Absenteeism values in the scatter plot?",
+            "A": "{11.31, 8.83, 10.69}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 13.44 and 16.25 and Y coordinates between 1.08 and 4.00?",
+            "A": "There are {4} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(2.00, 9.92) and (20.00, 10.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(6.97, 2.19) and (7.59, 2.26)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [6.07, 1.69, 8.49, 2.76] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (6.97, 2.19)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [15.33, 5.34, 18.92, 8.43]; Region B: [14.68, 0.17, 18.27, 3.26]; Region C: [5.49, 0.68, 9.07, 3.77]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {5} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar Elmwood of this stacked bar chart?",
+            "A": "There are {3} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Oakvale}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {Meadowbrook}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Lakewood relative to the bar Brookhaven in terms of horizontal (left/right) direction?",
+            "A": "Bar Lakewood is to the {left} of the bar Brookhaven."
+        },
+        {
+            "Q": "In the stacked bar of Meadowbrook, What is the spatial relationship of segment Construction relative to the segment Transportation in terms of vertical (above/below) direction?",
+            "A": "Construction segment is positioned {below} the Transportation segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Town has the highest bar in this stacked bar chart?",
+            "A": "The Town with the highest bar is {Meadowbrook}."
+        },
+        {
+            "Q": "Which Town has the lowest bar in this stacked bar chart?",
+            "A": "The Town with the lowest bar is {Oakvale}."
+        },
+        {
+            "Q": "In the stacked bar representing Brookhaven, which segment has the highest value?",
+            "A": "The segment with the highest value is {Construction}."
+        },
+        {
+            "Q": "In the stacked bar representing Lakewood, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {Technology}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Construction segment within the Elmwood bar in the stacked bar chart?",
+            "A": "The value of the Construction segment is {2340.00} number."
+        },
+        {
+            "Q": "What is the value of the Construction segment within the Oakvale bar in the stacked bar chart?",
+            "A": "The value of the Construction segment is {1090.00} number."
+        },
+        {
+            "Q": "What is the value of the Technology segment within the Brookhaven bar in the stacked bar chart?",
+            "A": "The value of the Technology segment is {550.00} number."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum number among the stacked segments of bar Meadowbrook?",
+            "A": "The maximum number among the stacked segments of bar Meadowbrook is {5000} number."
+        },
+        {
+            "Q": "What is the minimum number among the stacked segments of bar Elmwood?",
+            "A": "The minimum number among the stacked segments of bar Elmwood is {617} number."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum number of the segment Technology among the bars?",
+            "A": "The maximum number among the bars of segment Technology is {5000} number."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum number of the segment Technology among the bars?",
+            "A": "The minimum number among the bars of segment Technology is {550} number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar Oakvale?",
+            "A": "The total value of bar Oakvale is {4674.00} number."
+        },
+        {
+            "Q": "What is the total value of the bar Meadowbrook?",
+            "A": "The total value of bar Meadowbrook is {8475.00} number."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {33929} number."
+        },
+        {
+            "Q": "What is the difference between total value of bar Lakewood and Elmwood?",
+            "A": "The difference between between total value of bar Lakewood and Elmwood is {144} number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total number values exceed 7586.00 number? Please list the bar and corresponding values.",
+            "A": "{Lakewood} has {7658} number, {Meadowbrook} has {8475} number"
+        },
+        {
+            "Q": "Which bars have total number values below 6561.00 number? Please list the bar and corresponding values.",
+            "A": "{Oakvale} has {4674} number, {Brookhaven} has {5608} number"
+        },
+        {
+            "Q": "For bar Brookhaven in the stacked bar chart, which segment have number value between 275.0 and 4407? Please list the segment and corresponding values.",
+            "A": "{Technology} has {550} number, {Transportation} has {1201} number, {Construction} has {3857} number."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total number of Elmwood or Oakvale?",
+            "A": "The total number of the {Elmwood} is larger."
+        },
+        {
+            "Q": "Which is larger, the total number of Meadowbrook, Elmwood or Lakewood?",
+            "A": "The total number of the {Meadowbrook} is larger."
+        },
+        {
+            "Q": "In the bar Lakewood, which has a larger number value: Construction or Technology?",
+            "A": "{Construction} has the larger number value."
+        },
+        {
+            "Q": "In the bar Lakewood, which has a larger number value: Construction, Transportation or Technology?",
+            "A": "{Transportation} has the larger number value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment Transportation in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment Transportation are: {Elmwood}, {Lakewood}, {Meadowbrook}."
+        }
+    ],
+    "VA": []
+}

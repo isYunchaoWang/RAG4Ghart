@@ -1,0 +1,10 @@
+﻿Science and Engineering,Research Metrics of Different Lab
+Pattern,No Correlation,Weak Correlation,Weak Correlation,Weak Correlation,No Correlation,Weak Correlation
+labels,Citation index (citations/paper),Experiment success rate (%),Lab efficiency (%),Research funding (USD millions),Collaboration index (1-10),Publication count (papers),Patent applications (patents)
+"Porter, Kennedy and Woods  Lab",239.16,27.45,38.98,42.76,5.96,21.39,26.68
+Sutton and Sons  Research Center,30.94,17.05,37.54,0.1,1.0,18.76,30.15
+Hammond Group  Lab,0.0,10.0,30.0,28.94,4.81,4.47,23.66
+Hendricks PLC  Research Center,634.12,20.74,52.76,15.7,3.59,39.43,0.0
+Armstrong-Carroll  Research Institute,180.09,100.0,100.0,100.0,10.0,53.79,50.0
+"Ross, George and Roman  Lab",1000.0,28.68,36.95,81.23,5.54,0.0,9.93
+"Hughes, Wallace and Edwards  Research Center",909.55,75.7,71.93,69.58,4.08,100.0,40.88

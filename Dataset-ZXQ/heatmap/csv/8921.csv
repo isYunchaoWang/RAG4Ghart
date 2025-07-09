@@ -1,0 +1,65 @@
+Tourism and Hospitality,the Performance of Tourism and Hospitality,8x8,central_cluster
+Cruises,Adventure,0.16
+Events,Adventure,0.32
+Hotels,Adventure,0.46
+Marketing,Adventure,0.58
+Restaurants,Adventure,0.59
+Service Quality,Adventure,0.55
+Tour Operators,Adventure,0.49
+Transport,Adventure,0.38
+Cruises,Budget,0.34
+Events,Budget,0.5
+Hotels,Budget,0.63
+Marketing,Budget,0.76
+Restaurants,Budget,0.73
+Service Quality,Budget,0.74
+Tour Operators,Budget,0.65
+Transport,Budget,0.56
+Cruises,Business,0.43
+Events,Business,0.65
+Hotels,Business,0.77
+Marketing,Business,0.81
+Restaurants,Business,0.83
+Service Quality,Business,0.83
+Tour Operators,Business,0.76
+Transport,Business,0.69
+Cruises,Cultural,0.47
+Events,Cultural,0.66
+Hotels,Cultural,0.81
+Marketing,Cultural,0.89
+Restaurants,Cultural,0.93
+Service Quality,Cultural,0.92
+Tour Operators,Cultural,0.83
+Transport,Cultural,0.72
+Cruises,Family,0.51
+Events,Family,0.63
+Hotels,Family,0.76
+Marketing,Family,0.85
+Restaurants,Family,0.88
+Service Quality,Family,0.89
+Tour Operators,Family,0.81
+Transport,Family,0.69
+Cruises,Luxury,0.42
+Events,Luxury,0.6
+Hotels,Luxury,0.73
+Marketing,Luxury,0.79
+Restaurants,Luxury,0.82
+Service Quality,Luxury,0.79
+Tour Operators,Luxury,0.75
+Transport,Luxury,0.61
+Cruises,Seasonal,0.3
+Events,Seasonal,0.51
+Hotels,Seasonal,0.62
+Marketing,Seasonal,0.67
+Restaurants,Seasonal,0.69
+Service Quality,Seasonal,0.69
+Tour Operators,Seasonal,0.62
+Transport,Seasonal,0.49
+Cruises,Wellness,0.08
+Events,Wellness,0.3
+Hotels,Wellness,0.4
+Marketing,Wellness,0.53
+Restaurants,Wellness,0.51
+Service Quality,Wellness,0.53
+Tour Operators,Wellness,0.41
+Transport,Wellness,0.34

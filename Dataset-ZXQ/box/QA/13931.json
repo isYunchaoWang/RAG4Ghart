@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {4} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Dragon Ruins}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Maple Arbor}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box Maple Arbor?",
+            "A": "The first position to the left of the box Maple Arbor is {Silver Grove}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Sun Harbor relative to the box Silver Grove in terms of horizontal (left/right) direction?",
+            "A": "Box Sun Harbor is to the {left} of the box Silver Grove."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Sun Harbor}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Sun Harbor}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Sun Harbor}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Dragon Ruins in the box plot?",
+            "A": "The median of Dragon Ruins is {8685.0} Visitors."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Dragon Ruins in the box plot?",
+            "A": "The upper quartile (Q3) of Dragon Ruins is {10205.5} Visitors."
+        },
+        {
+            "Q": "What is the upper whisker limit of Maple Arbor in the box plot?",
+            "A": "The upper whisker limit of Maple Arbor is {13161} Visitors."
+        },
+        {
+            "Q": "What is the lowest upper outlier value in Sun Harbor in the box plot?",
+            "A": "The lowest upper outlier value in Sun Harbor is {1049}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Visitors value in the box plot?",
+            "A": "The global maximum Visitors value in the box plot is {18953.00} Visitors."
+        },
+        {
+            "Q": "What is the global minimum Visitors value in the box plot?",
+            "A": "The global minimum Visitors value in the box plot is {228.00} Visitors."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between box Maple Arbor and Dragon Ruins?",
+            "A": "The Q1 difference between box Maple Arbor and Dragon Ruins is {709.0} Visitors."
+        },
+        {
+            "Q": "What is the toal Q3 value of box Maple Arbor and Dragon Ruins?",
+            "A": "The total Q3 value of box Maple Arbor and Dragon Ruins is {19243.0} Visitors."
+        },
+        {
+            "Q": "What is the average Q1 value of box Sun Harbor and Dragon Ruins?",
+            "A": "The average Q1 value of box Sun Harbor and Dragon Ruins is {6593.5} Visitors."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 17057.7 Visitors?",
+            "A": "Box{Dragon Ruins},{Silver Grove} have the outliers exceed 17057.7 Visitors."
+        },
+        {
+            "Q": "Which boxes have median values exceed 8571.50 Visitors? Please list the boxes and corresponding values.",
+            "A": "{Dragon Ruins} has {8685.0} Visitors , {Sun Harbor} has {9035.0} Visitors "
+        },
+        {
+            "Q": "Which boxes have median values below 8571.50 Visitors? Please list the boxes and corresponding values.",
+            "A": "{Silver Grove} has {8458.0} Visitors , {Maple Arbor} has {7758.0} Visitors "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Dragon Ruins or Sun Harbor ",
+            "A": "The median value of the {Sun Harbor} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Dragon Ruins, Silver Grove or Sun Harbor ",
+            "A": "The median value of the {Sun Harbor} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Sun Harbor, Silver Grove, Maple Arbor or Dragon Ruins ",
+            "A": "The median value of the {Sun Harbor} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Silver Grove}."
+        }
+    ],
+    "VA": []
+}

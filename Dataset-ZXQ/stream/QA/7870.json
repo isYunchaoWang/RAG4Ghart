@@ -1,0 +1,80 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stream chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stream chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing CrimsonLink relative to AetherNet?",
+            "A": "CrimsonLink is {below} AetherNet in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing NovaStream relative to CrimsonLink?",
+            "A": "NovaStream is {above} CrimsonLink in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing AetherNet relative to NovaStream?",
+            "A": "AetherNet is {below} NovaStream in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total daily active users?",
+            "A": "The series with the largest contribution is {CrimsonLink}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total daily active users?",
+            "A": "The series with the smallest contribution is {EchoWave}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which year is EchoWave's maximum Daily Active Users in the streamgraph?",
+            "A": "EchoWave's maximum Daily Active Users is in {1990}."
+        },
+        {
+            "Q": "Which year is NovaStream's minimum Daily Active Users in the streamgraph?",
+            "A": "NovaStream's minimum Daily Active Users is in {1978}."
+        }
+    ],
+    "SC": [],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Between 1983 and 1988, was the average total Daily Active Users higher or lower than between 1989 and 1994?",
+            "A": "The average total daily active users between 1983 and 1988 was {lower} than between 1989 and 1994."
+        },
+        {
+            "Q": "Between 1983 and 1989, did the total Daily Active Users experience a larger or smaller change than between 1985 and 1991?",
+            "A": "The change in total daily active users between 1983 and 1989 was {larger} than between 1985 and 1991."
+        },
+        {
+            "Q": "Between 1988 and 1993, was the average total Daily Active Users higher or lower than between 1978 and 1982?",
+            "A": "The average total daily active users between 1988 and 1993 was {higher} than between 1978 and 1982."
+        },
+        {
+            "Q": "Between 1983 and 1984, did the total Daily Active Users experience a larger or smaller change than between 1983 and 1994?",
+            "A": "The change in total daily active users between 1983 and 1984 was {smaller} than between 1983 and 1994."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In this streamgraph, which one held the dominant position for the longest period of time?",
+            "A": "{CrimsonLink} held the dominant position for the longest period of time."
+        },
+        {
+            "Q": "In this streamgraph, in which year did EchoWave and CrimsonLink first exchange dominant positions?",
+            "A": "EchoWave and CrimsonLink first exchanged leading positions in {1979}."
+        }
+    ],
+    "VA": []
+}

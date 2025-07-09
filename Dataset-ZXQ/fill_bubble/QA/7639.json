@@ -1,0 +1,136 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {fill bubble} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this fill bubble chart?",
+            "A": "There are {8} bubbles."
+        },
+        {
+            "Q": "How many bubbles are in layer 3 of this fill bubble chart?",
+            "A": "There are {6} bubbles in layer 3."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Bubble Sports and Recreation positioned deeper, shallower or on the same depth as Bubble Tennis?",
+            "A": "Bubble Sports and Recreation is positioned {shallower than} Bubble Tennis."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the maximum depth in this fill bubble chart?",
+            "A": "The maximum depth is {3}."
+        },
+        {
+            "Q": "Which bubble contains bubble Badminton in the fill bubble chart?",
+            "A": "Bubble Badminton is contained by bubble {Individual Sports}."
+        },
+        {
+            "Q": "Which bubbles are contained within bubble Sports and Recreation in the fill bubble chart?",
+            "A": "Bubble Sports and Recreation contains bubbles {Individual Sports}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the size value of bubble Athletics?",
+            "A": "The size value of bubble Athletics is {9.28}."
+        },
+        {
+            "Q": "What is the size value of bubble Cycling?",
+            "A": "The size value of bubble Cycling is {9.17}."
+        },
+        {
+            "Q": "What is the size value of bubble Gymnastics?",
+            "A": "The size value of bubble Gymnastics is {8.21}."
+        },
+        {
+            "Q": "What is the size value of bubble Swimming?",
+            "A": "The size value of bubble Swimming is {6.39}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum size value in the fill bubble chart?",
+            "A": "The global maximum size value is {88.83}."
+        },
+        {
+            "Q": "What is the global minimum size value in the fill bubble chart?",
+            "A": "The global minimum size value is {6.39}."
+        },
+        {
+            "Q": "What is the maximum value under category Individual Sports?",
+            "A": "The maximum value under category Individual Sports is {11.09}."
+        },
+        {
+            "Q": "What is the minimum value under category Individual Sports?",
+            "A": "The minimum value under category Individual Sports is {6.39}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of layer 2 of bubbles?",
+            "A": "The total value of layer 2 of bubbles is {16.43}."
+        },
+        {
+            "Q": "What is the total value of layer 3 of bubbles?",
+            "A": "The total value of layer 3 of bubbles is {53.15}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 size values in the fill bubble chart?",
+            "A": "{88.83, 16.43, 11.09}."
+        },
+        {
+            "Q": "What are the bottom 3 size values in the fill bubble chart?",
+            "A": "{6.39, 8.21, 9.01}."
+        },
+        {
+            "Q": "Which bubbles have size values exceed 41.00? Please list the bubbles and corresponding values.",
+            "A": "Sports and Recreation has {88.83}."
+        },
+        {
+            "Q": "Which bubbles have size values between 14.40 and 74.87? Please list the bubbles and corresponding values.",
+            "A": "Individual Sports has {16.43}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the size value of Sports and Recreation or Cycling in the fill bubble chart?",
+            "A": "The size value of {Sports and Recreation} is larger."
+        },
+        {
+            "Q": "Which is larger, the size value of Individual Sports or Athletics in the fill bubble chart?",
+            "A": "The size value of {Individual Sports} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the fill bubble chart, which subcategory in the level 3 has the largest bubble area?",
+            "A": "The subcategory with the largest bubble area in the level 3 is {Badminton}."
+        },
+        {
+            "Q": "In the fill bubble chart, which subcategory in the level 2 has the smallest bubble area?",
+            "A": "The subcategory with the smallest bubble area in the level 2 is {Individual Sports}."
+        },
+        {
+            "Q": "How many bubbles have values above the average size across all categories?",
+            "A": "There are {1} bubbles with values above the average size."
+        },
+        {
+            "Q": "How many bubbles have values below the average oil storage across all categories?",
+            "A": "There are {7} bubbles with values below the average size."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual clutter caused by overlapping labels in the bubble chart, sample the labels and list the top 2 labels recommended for removal.",
+            "A": "The top 2 labels recommended for removal to reduce label overlap are: {Swimming}, {Tennis}."
+        }
+    ]
+}

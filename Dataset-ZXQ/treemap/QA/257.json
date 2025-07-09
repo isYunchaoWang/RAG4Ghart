@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Depth Control in this treemap?",
+            "A": "There are {2} child rectangles under the category Depth Control."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Crop Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Turbulence Chambers}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Crop Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Dosing Mechanisms rectangle in this treemap?",
+            "A": "The value of the Dosing Mechanisms rectangle is {13.74}."
+        },
+        {
+            "Q": "What is the value of the Anti-Clog Nozzles rectangle in this treemap?",
+            "A": "The value of the Anti-Clog Nozzles rectangle is {5.44}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.27}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Drip Networks and Laser-Drilled Orifices?",
+            "A": "The difference between Drip Networks and Laser-Drilled Orifices is {5.27}."
+        },
+        {
+            "Q": "What is the sum of the regions of Pivot Systems and Crop Systems?",
+            "A": "The sum of Pivot Systems and Crop Systems is {123.44}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Depth Control category in the treemap, which rectangular labels have a value exceeded 26.39? Please list the labels and values.",
+            "A": "{Parallel Linkages} has {27.66}"
+        },
+        {
+            "Q": "Under the Depth Control category in the treemap, which rectangular labels have a value below 23.84? Please list the labels and values.",
+            "A": "{Pressure Sensors} has {22.57}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Crop Systems or Precision Planting?",
+            "A": "The value of {Crop Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Seeders or Depth Control?",
+            "A": "The value of {Seeders} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

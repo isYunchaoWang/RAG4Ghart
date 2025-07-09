@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Sunstone Lofts relative to Skyline Towers?",
+            "A": "Sunstone Lofts is {below} Skyline Towers in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total rental yield?",
+            "A": "The series with the largest contribution is {Green Valley Homes}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total rental yield?",
+            "A": "The series with the smallest contribution is {Willow Creek Estates}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Green Valley Homes's Rental Yield in 1983?",
+            "A": "Green Valley Homes's rental yield in 1983 is {14.21} %."
+        },
+        {
+            "Q": "What is Skyline Towers's Rental Yield in 1977?",
+            "A": "Skyline Towers's rental yield in 1977 is {5.54} %."
+        },
+        {
+            "Q": "What is Green Valley Homes's Rental Yield in 1980?",
+            "A": "Green Valley Homes's rental yield in 1980 is {10.59} %."
+        },
+        {
+            "Q": "What are the rental yield of Crystal Cove Villas, Skyline Towers, and Sunstone Lofts in 1974?",
+            "A": "Crystal Cove Villas's rental yield is {6.06} %, Skyline Towers's rental yield is {6.02} %, Sunstone Lofts's rental yield is {5.99} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Rental Yield in the area chart?",
+            "A": "The global minimum rental yield is {2.11} %."
+        },
+        {
+            "Q": "What is the global maximum Rental Yield in the area chart?",
+            "A": "The global maximum rental yield is {15.74} %."
+        },
+        {
+            "Q": "What is the highest Rental Yield level recorded for Crystal Cove Villas?",
+            "A": "Crystal Cove Villas reached approximately {7.47} % in {1975}."
+        },
+        {
+            "Q": "What is the lowest Rental Yield level recorded for Crystal Cove Villas?",
+            "A": "Crystal Cove Villas's lowest recorded level is approximately {4.58} % in {1983}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Rental Yield?",
+            "A": "The average total rental yield is {40.27} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Rental Yield go below 38.17 %? Please list the years and corresponding total values.",
+            "A": "{38.08} % in {1982}, {36.99} % in {1978}, {37.12} % in {1983}."
+        },
+        {
+            "Q": "Which years did the total Rental Yield exceed 42.01 %? Please list the years and corresponding total values.",
+            "A": "{44.39} % in {1975}, {42.05} % in {1980}, {42.38} % in {1976}."
+        },
+        {
+            "Q": "Which years did the total Rental Yield fall between 38.09 and 42.09 %? Please list the years and corresponding total values.",
+            "A": "{40.78} % in {1984}, {42.05} % in {1980}, {42.01} % in {1974}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1978 and 1979, did the total Rental Yield experience a larger or smaller change than between 1979 and 1981?",
+            "A": "The change in total rental yield between 1978 and 1979 was {larger} than between 1979 and 1981."
+        },
+        {
+            "Q": "Between 1982 and 1983, did the total Rental Yield experience a larger or smaller change than between 1979 and 1982?",
+            "A": "The change in total rental yield between 1982 and 1983 was {smaller} than between 1979 and 1982."
+        },
+        {
+            "Q": "Was the total Rental Yield in 1977 higher or lower than in 1981?",
+            "A": "The total rental yield in 1977 was {lower} than in 1981."
+        },
+        {
+            "Q": "Was the total Rental Yield in 1974 higher or lower than in 1983?",
+            "A": "The total rental yield in 1974 was {higher} than in 1983."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Green Valley Homes} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Willow Creek Estates, Oceanview Condos, Skyline Towers, Ironpeak Residences, Sunstone Lofts, Crystal Cove Villas, Green Valley Homes}."
+        }
+    ]
+}

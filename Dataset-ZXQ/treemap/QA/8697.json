@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Neural TTS in this treemap?",
+            "A": "There are {2} child rectangles under the category Neural TTS."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Platform Architecture}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Notification Systems}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Platform Architecture}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Voice Synthesis rectangle in this treemap?",
+            "A": "The value of the Voice Synthesis rectangle is {27.59}."
+        },
+        {
+            "Q": "What is the value of the Tacotron rectangle in this treemap?",
+            "A": "The value of the Tacotron rectangle is {13.45}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.33}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Edge Computing and Notification Systems?",
+            "A": "The difference between Edge Computing and Notification Systems is {2.1}."
+        },
+        {
+            "Q": "What is the sum of the regions of Database Sharding and Cloud Integration?",
+            "A": "The sum of Database Sharding and Cloud Integration is {67.08}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Neural TTS category in the treemap, which rectangular labels have a value exceeded 13.97? Please list the labels and values.",
+            "A": "{WaveNet} has {14.14}"
+        },
+        {
+            "Q": "Under the Neural TTS category in the treemap, which rectangular labels have a value below 13.62? Please list the labels and values.",
+            "A": "{Tacotron} has {13.45}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Platform Architecture or Data Infrastructure?",
+            "A": "The value of {Platform Architecture} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Data Infrastructure, Storage Systems, or Database Sharding?",
+            "A": "The value of {Database Sharding} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Storage Systems or Horizontal Partition?",
+            "A": "The value of {Storage Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {4} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

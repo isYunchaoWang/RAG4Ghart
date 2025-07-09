@@ -1,0 +1,17 @@
+Transportation and Logistics,Manufacturing Supply Transportation Chain,Goods,random,Factory,Retail
+Source,Target,Value
+Food Processing Plant,Outlet Mall,374
+Food Processing Plant,City Supermarket,251
+Food Processing Plant,Online Fulfillment,263
+Food Processing Plant,Neighborhood Store,321
+Food Processing Plant,Convenience Store,142
+Textile Mill,Outlet Mall,181
+Textile Mill,City Supermarket,62
+Textile Mill,Online Fulfillment,114
+Textile Mill,Neighborhood Store,153
+Textile Mill,Convenience Store,242
+Auto Factory,Outlet Mall,100
+Auto Factory,City Supermarket,81
+Auto Factory,Online Fulfillment,582
+Auto Factory,Neighborhood Store,184
+Auto Factory,Convenience Store,647

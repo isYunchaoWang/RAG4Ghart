@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {5} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {4} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Vincentshire?",
+            "A": "The next arc clockwise from arc Vincentshire is arc {Christine}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Vincentshire?",
+            "A": "The next arc counterclockwise from arc Vincentshire is arc {Martinstad}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Vincentshire} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Christine} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Christine to Brandonburgh in the chord chart?",
+            "A": "The flow value is {158}."
+        },
+        {
+            "Q": "What is the flow value from Martinstad to Christine in the chord chart?",
+            "A": "The flow value is {86}."
+        },
+        {
+            "Q": "What is the flow value from Vincentshire to Christine in the chord chart?",
+            "A": "The flow value is {642}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Vincentshire and Martinstad in the chord chart?",
+            "A": "The maximum flow value between Vincentshire and Martinstad is {73}."
+        },
+        {
+            "Q": "What is the minimum flow value between Christine and Vincentshire in the chord chart?",
+            "A": "The minimum flow value between Christine and Vincentshire is {315}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {642}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {61}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Vincentshire?",
+            "A": "The total flow output from Vincentshire is {715}."
+        },
+        {
+            "Q": "What is the total flow input by Brandonburgh?",
+            "A": "The total flow input by Brandonburgh is {290}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 478? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {642} from {Vincentshire} to {Christine}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 76? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {73} from {Vincentshire} to {Martinstad}, a flow of {61} from {Martinstad} to {Vincentshire}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 97 and 120? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {108} from {Brandonburgh} to {Martinstad}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Christine to Brandonburgh or from Vincentshire to Martinstad?",
+            "A": "The flow from {Christine} to {Brandonburgh} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Christine to Martinstad, from Vincentshire to Christine, or from Vincentshire to Martinstad?",
+            "A": "The flow from {Vincentshire} to {Christine} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Vincentshire}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Christine} and {Vincentshire}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Vincentshire, Arc Christine, Arc Brandonburgh, Arc Martinstad}."
+        }
+    ]
+}

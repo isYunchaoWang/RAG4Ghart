@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {3} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Accessibility score (1-5) dimension, what is the spatial relationship of West Warrenland relative to Flowersmouth in terms of vertical (above/below) direction?",
+            "A": "{West Warrenland} is {above} {Flowersmouth} on the Accessibility score (1-5) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Cultural immersion index (1-10)?",
+            "A": "The first position to the left of Cultural immersion index (1-10) is {Accessibility score (1-5)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Cultural immersion index (1-10)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Customer satisfaction (1-10)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Cultural immersion index (1-10)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Accessibility score (1-5) and dimension Cultural immersion index (1-10)",
+            "A": "There is {Weak Correlation} between Accessibility score (1-5) and Cultural immersion index (1-10)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Franklinbury on the Customer satisfaction (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of Franklinbury on the Customer satisfaction (1-10) dimension is {4.0}"
+        },
+        {
+            "Q": "What is the value of West Lorettabury on the Cultural immersion index (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of West Lorettabury on the Cultural immersion index (1-10) dimension is {1.93}"
+        },
+        {
+            "Q": "What is the value of Flowersmouth on the Accessibility score (1-5) dimension in the parallel-coordinates chart?",
+            "A": "The value of Flowersmouth on the Accessibility score (1-5) dimension is {2.03}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label West Lorettabury across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of West Lorettabury across all dimensions is {9.81}"
+        },
+        {
+            "Q": "What is the minimum value of label Franklinbury across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Franklinbury across all dimensions is {1.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Cultural immersion index (1-10)?",
+            "A": "The average value of Cultural immersion index (1-10) is {4.85}"
+        },
+        {
+            "Q": "What is the difference in coding Cultural immersion index (1-10) between label Flowersmouth and label West Warrenland",
+            "A": "The difference in coding Cultural immersion index (1-10) between Flowersmouth and West Warrenland is {2.47}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Customer satisfaction (1-10) dimension in the parallel coordinates?",
+            "A": "{[10.0, 9.81, 9.42]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Accessibility score (1-5) dimension in the parallel coordinates?",
+            "A": "{[1.0, 2.03, 2.66]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Cultural immersion index (1-10), which label has a higher score: Blackburgh or Franklinbury?",
+            "A": "{Blackburgh} has a higher score on Cultural immersion index (1-10)."
+        },
+        {
+            "Q": "On Cultural immersion index (1-10), which label has a higher score: Pearsonstad or Franklinbury?",
+            "A": "{Pearsonstad} has a higher score on Cultural immersion index (1-10)."
+        },
+        {
+            "Q": "On Cultural immersion index (1-10), which label has a higher score: Blackburgh or West Warrenland?",
+            "A": "{West Warrenland} has a higher score on Cultural immersion index (1-10)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Cultural immersion index (1-10)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Cultural immersion index (1-10) being greater than 5.21 and Cultural immersion index (1-10) being less than 5.01?",
+            "A": "There are {0} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

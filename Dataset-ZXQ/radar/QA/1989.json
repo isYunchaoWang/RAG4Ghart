@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Capacity Utilization Rate?",
+            "A": "The next dimension clockwise from Capacity Utilization Rate is P/E Ratio vs. Industry Average Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Capacity Utilization Rate?",
+            "A": "The next dimension counterclockwise from Capacity Utilization Rate is Customer Retention Rate."
+        },
+        {
+            "Q": "On the Capacity Utilization Rate, is the point for Brown-Scott inside or outside the point for Lee, Johnson and Fernandez?",
+            "A": "On the Capacity Utilization Rate, the point for Brown-Scott is inside the point for Lee, Johnson and Fernandez."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Operating Cost Ratio} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Lee, Johnson and Fernandez?",
+            "A": "The strongest aspect is {Operating Cost Ratio}, while the weakest aspect is{ Customer Retention Rate}."
+        },
+        {
+            "Q": "On dimension Operating Cost Ratio, which label scores the highest?",
+            "A": "On Operating Cost Ratio, label {Lee, Johnson and Fernandez} scores the highest."
+        },
+        {
+            "Q": "On dimension ROI, which label scores the highest?",
+            "A": "On ROI, label {Lee, Johnson and Fernandez} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Brown-Scott on the ROI in the radar chart?",
+            "A": "The value of Brown-Scott on the Safety dimension is {79}."
+        },
+        {
+            "Q": "What is the value of Lee, Johnson and Fernandez on the Customer Retention Rate in the radar chart?",
+            "A": "The value of Lee, Johnson and Fernandez on the Safety dimension is {36}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Lee, Johnson and Fernandez across all dimensions in the radar chart?",
+            "A": "The maximum value of Lee, Johnson and Fernandez across all dimensions is {79}."
+        },
+        {
+            "Q": "What is the minimum value of label Brown-Scott across all dimensions in the radar chart?",
+            "A": "The minimum value of Brown-Scott across all dimensions is {75}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Operating Cost Ratio",
+            "A": "The average value of Operating Cost Ratio is {83.0}."
+        },
+        {
+            "Q": "What is the average value of Lee, Johnson and Fernandez",
+            "A": "The average value of Lee, Johnson and Fernandez is {50.6}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Brown-Scott in the radar chart, which dimensions have scores above 77? Please list the dimensions and corresponding scores.",
+            "A": "{Operating Cost Ratio} is {91}, {ROI} is {79}"
+        },
+        {
+            "Q": "Which labels have scores above 47 for the P/E Ratio vs. Industry Average Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Lee, Johnson and Fernandez} is {52}"
+        },
+        {
+            "Q": "Which labels have scores below 33 for the P/E Ratio vs. Industry Average Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Brown-Scott} is {28}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Lee, Johnson and Fernandez, which dimension has a higher score: P/E Ratio vs. Industry Average Rate or Customer Retention Rate?",
+            "A": "{P/E Ratio vs. Industry Average Rate} has a higher score than Customer Retention Rate for Lee, Johnson and Fernandez."
+        },
+        {
+            "Q": "On ROI, which label has a higher score: Lee, Johnson and Fernandez or the Brown-Scott?",
+            "A": "{Brown-Scott} has a higher score on ROI compared to Lee, Johnson and Fernandez."
+        },
+        {
+            "Q": "On Customer Retention Rate, which label has a higher score: Lee, Johnson and Fernandez or the Brown-Scott?",
+            "A": "{Lee, Johnson and Fernandez} has a higher score on Customer Retention Rate compared to Brown-Scott."
+        },
+        {
+            "Q": "For Brown-Scott, which dimension has a higher score: Customer Retention Rate or P/E Ratio vs. Industry Average Rate or Capacity Utilization Rate?",
+            "A": "{Capacity Utilization Rate} has a higher score for Brown-Scott."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Lee, Johnson and Fernandez, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Lee, Johnson and Fernandez most needs to improve its {Customer Retention Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Brown-Scott}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Lee, Johnson and Fernandez}."
+        }
+    ],
+    "VA": []
+}

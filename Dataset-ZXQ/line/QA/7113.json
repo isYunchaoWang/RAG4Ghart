@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Urban Dwellers, what is the spatial relationship of the data point in 2001 relative to that in 2000 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Urban Dwellers, the data point in 2001 is {above} and to the {right} of the data point in 2000."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Urban Dwellers's Technology Adoption Rate levels?",
+            "A": "Urban Dwellers's technology adoption rate levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Technology Adoption Rate levels?",
+            "A": "{Urban Dwellers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Urban Dwellers's Technology Adoption Rate in 2002?",
+            "A": "Urban Dwellers's technology adoption rate in 2002 is {46.20} %."
+        },
+        {
+            "Q": "What is Urban Dwellers's Technology Adoption Rate in 2003?",
+            "A": "Urban Dwellers's technology adoption rate in 2003 is {50.98} %."
+        },
+        {
+            "Q": "What is Urban Dwellers's Technology Adoption Rate in 2001?",
+            "A": "Urban Dwellers's technology adoption rate in 2001 is {42.05} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Technology Adoption Rate in the line chart?",
+            "A": "The global minimum technology adoption rate is {23.86} %."
+        },
+        {
+            "Q": "What is the global maximum Technology Adoption Rate in the line chart?",
+            "A": "The global maximum technology adoption rate is {50.98} %."
+        },
+        {
+            "Q": "What is the highest Technology Adoption Rate level recorded for Urban Dwellers?",
+            "A": "Urban Dwellers reached approximately {50.98} % in {2003}."
+        },
+        {
+            "Q": "What is the lowest Technology Adoption Rate level recorded for Urban Dwellers?",
+            "A": "Urban Dwellers's lowest recorded level is approximately {23.86} % in {1995}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Urban Dwellers's Technology Adoption Rate?",
+            "A": "The average value of Urban Dwellers's technology adoption rate is {35.85} %."
+        },
+        {
+            "Q": "What is the rate of change in Urban Dwellers's Technology Adoption Rate from the starting year to the final year?",
+            "A": "The rate of growth in Urban Dwellers's technology adoption rate is {113.66}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Urban Dwellers's Technology Adoption Rate below 29 %? Please list the years and corresponding values.",
+            "A": "{26.23} % in {1996} year, {23.86} % in {1995} year."
+        },
+        {
+            "Q": "Which years did Urban Dwellers's Technology Adoption Rate exceed 42 %? Please list the years and corresponding values.",
+            "A": "{46.20} % in {2002} year, {50.98} % in {2003} year."
+        },
+        {
+            "Q": "Which years did Urban Dwellers's Technology Adoption Rate between 30 and 41 %? Please list the years and corresponding values.",
+            "A": "{38.34} % in {2000} year, {34.77} % in {1999} year, {31.61} % in {1998} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Urban Dwellers's Technology Adoption Rate in 1997 higher or lower than in 1999?",
+            "A": "The technology adoption rate in 1997 was {lower} than in 1999."
+        },
+        {
+            "Q": "Was Urban Dwellers's Technology Adoption Rate in 1996 higher or lower than in 1998?",
+            "A": "The technology adoption rate in 1996 was {lower} than in 1998."
+        },
+        {
+            "Q": "Was Urban Dwellers's Technology Adoption Rate in 1995 higher or lower than in 2003?",
+            "A": "The technology adoption rate in 1995 was {lower} than in 2003."
+        },
+        {
+            "Q": "Was Urban Dwellers's Technology Adoption Rate in 1999 higher or lower than in 2000?",
+            "A": "The technology adoption rate in 1999 was {lower} than in 2000."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Urban Dwellers. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1995, 2003}."
+        }
+    ]
+}

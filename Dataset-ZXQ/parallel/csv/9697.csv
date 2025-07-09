@@ -1,0 +1,7 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,No Correlation,Clustering,Clustering
+labels,Maintenance cost (USD/MWh),Fuel efficiency (%),Output (MWh),Downtime (%)
+Harris Inc  Power Plant,94.65,44.72,1.0,10.81
+Garcia Inc  Power Plant,1.0,90.0,548.78,16.39
+"Koch, Roach and Thomas  Power Plant",100.0,64.61,3024.59,20.0
+Bonilla-Maxwell  Energy Facility,28.36,20.0,10000.0,0.1

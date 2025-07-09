@@ -1,0 +1,26 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1039.3 756 1119.3 756" fill="none" stroke="#000000"></polyline>
+<polyline points="1002.9 910.6 1082.9 910.6" fill="none" stroke="#000000"></polyline>
+<polyline points="993.4 1065.1 1073.4 1065.1" fill="none" stroke="#000000"></polyline>
+<polyline points="1133.2 601.4 1213.2 601.4" fill="none" stroke="#000000"></polyline>
+<polyline points="1250.6 446.9 1330.6 446.9" fill="none" stroke="#000000"></polyline>
+<polyline points="1394.2 292.3 1474.2 292.3" fill="none" stroke="#000000"></polyline>
+<polyline points="984.2 1219.7 1064.2 1219.7" fill="none" stroke="#000000"></polyline>
+<polygon points="652.7 679.7 1075.3 679.7 1003.2 832.3 724.8 832.3" fill="#A3B3C8" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="724.8 834.3 1003.2 834.3 1002.6 986.9 725.4 986.9" fill="#B6CAD7" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="725.4 988.9 1002.6 988.9 984.2 1141.4 743.8 1141.4" fill="#D2C3D5" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="536.9 525.1 1191.1 525.1 1075.3 677.7 652.7 677.7" fill="#84709B" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="417.9 370.6 1310.1 370.6 1191.1 523.1 536.9 523.1" fill="#5D7DB3" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="249.6 216 1478.4 216 1310.1 368.6 417.9 368.6" fill="#464879" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="743.8 1143.4 984.2 1143.4 984.2 1296 743.8 1296" fill="#E1E4EA" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1124.2716786817714" y="756" fill="#000000">Proposal Sent: 334</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1087.8885684860968" y="910.5714285714284" fill="#000000">Negotiation: 220</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1078.3973223480948" y="1065.142857142857" fill="#000000">Contract Signed: 219</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1218.2350154479918" y="601.4285714285713" fill="#000000">Needs Analysis: 517</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1335.6100926879506" y="446.85714285714283" fill="#000000">Initial Contact: 705</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1479.2442842430485" y="292.2857142857143" fill="#000000">Lead Captured: 971</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1069.2224510813594" y="1219.7142857142858" fill="#000000">Client Onboarded: 190</text>
+<path d="M-271.6484 -5l543.2969 0l0 58l-543.2969 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Client Acquisition (Clients)</text>
+</svg>

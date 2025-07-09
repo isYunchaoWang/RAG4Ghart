@@ -1,0 +1,17 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1323.4 350.3 1403.4 350.3" fill="none" stroke="#000000"></polyline>
+<polyline points="1118.4 620.8 1198.4 620.8" fill="none" stroke="#000000"></polyline>
+<polyline points="1048.7 891.3 1128.7 891.3" fill="none" stroke="#000000"></polyline>
+<polyline points="1029.1 1161.8 1109.1 1161.8" fill="none" stroke="#000000"></polyline>
+<polygon points="249.6 216 1478.4 216 1168.5 484.5 559.5 484.5" fill="#E9B9AA" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="559.5 486.5 1168.5 486.5 1068.4 755 659.6 755" fill="#D98481" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="659.6 757 1068.4 757 1029.1 1025.5 698.9 1025.5" fill="#7892B5" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="698.9 1027.5 1029.1 1027.5 1029.1 1296 698.9 1296" fill="#8CB9C0" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1408.4372623574145" y="350.25" fill="#000000">Needs Analysis: 1578</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1203.442585551331" y="620.75" fill="#000000">Proposal Sent: 782</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1133.7482889733842" y="891.25" fill="#000000">Negotiation: 525</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1114.0859315589355" y="1161.75" fill="#000000">Contract Signed: 424</text>
+<path d="M-271.6484 -5l543.2969 0l0 58l-543.2969 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Client Acquisition (Clients)</text>
+</svg>

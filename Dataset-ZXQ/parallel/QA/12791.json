@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Inventory accuracy (%) dimension, what is the spatial relationship of Smith LLC relative to Vance Group in terms of vertical (above/below) direction?",
+            "A": "{Smith LLC} is {above} {Vance Group} on the Inventory accuracy (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Return rate (%)?",
+            "A": "The second position to the left of Return rate (%) is {Inventory accuracy (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Return rate (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Gross margin (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Average order value (USD)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Inventory accuracy (%) and dimension Average order value (USD)",
+            "A": "There is {Strong Correlation} between Inventory accuracy (%) and Average order value (USD)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Vance Group on the Gross margin (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Vance Group on the Gross margin (%) dimension is {60.0}"
+        },
+        {
+            "Q": "What is the value of Smith LLC on the Average order value (USD) dimension in the parallel-coordinates chart?",
+            "A": "The value of Smith LLC on the Average order value (USD) dimension is {235.11}"
+        },
+        {
+            "Q": "What is the value of Smith LLC on the Gross margin (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Smith LLC on the Gross margin (%) dimension is {20.78}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Stanley, Reese and Gregory across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Stanley, Reese and Gregory across all dimensions is {500.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Vance Group across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Vance Group across all dimensions is {10.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Return rate (%)?",
+            "A": "The average value of Return rate (%) is {16.78}"
+        },
+        {
+            "Q": "What is the difference in coding Return rate (%) between label Vance Group and label Stanley, Reese and Gregory",
+            "A": "The difference in coding Return rate (%) between Vance Group and Stanley, Reese and Gregory is {4.31}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Average order value (USD) dimension in the parallel coordinates?",
+            "A": "{[500.0, 235.11, 173.5]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Return rate (%) dimension in the parallel coordinates?",
+            "A": "{[1.0, 15.9, 20.21]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Gross margin (%), which label has a higher score: Koch, Parker and Freeman or Stanley, Reese and Gregory?",
+            "A": "{Stanley, Reese and Gregory} has a higher score on Gross margin (%)."
+        },
+        {
+            "Q": "On Inventory accuracy (%), which label has a higher score: Stanley, Reese and Gregory or Koch, Parker and Freeman?",
+            "A": "{Stanley, Reese and Gregory} has a higher score on Inventory accuracy (%)."
+        },
+        {
+            "Q": "On Return rate (%), which label has a higher score: Vance Group or Koch, Parker and Freeman?",
+            "A": "{Vance Group} has a higher score on Return rate (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Average order value (USD)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Inventory accuracy (%) being greater than 89.22 and Gross margin (%) being less than 28.93?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

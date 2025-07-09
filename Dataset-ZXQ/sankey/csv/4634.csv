@@ -1,0 +1,10 @@
+Energy and Utilities,Carbon Emission Flow,Tons,random,Emission Sources,Final Disposition
+Source,Target,Value
+Livestock,Atmosphere,12083
+Livestock,Offset Projects,17641
+Coal Combustion,Atmosphere,12794
+Coal Combustion,Offset Projects,25675
+Oil Refining,Atmosphere,6072
+Oil Refining,Offset Projects,1541
+Cement Production,Atmosphere,9166
+Cement Production,Offset Projects,61851

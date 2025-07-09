@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Sustainable Packaging Adoption Rate?",
+            "A": "The next dimension clockwise from Sustainable Packaging Adoption Rate is Water Conservation Efficiency Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Sustainable Packaging Adoption Rate?",
+            "A": "The next dimension counterclockwise from Sustainable Packaging Adoption Rate is Renewable Energy Adoption Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Eco-Friendly Product Sales Growth Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Mccarthy, Hamilton and Collins Sustainability Initiative?",
+            "A": "The strongest aspect is {Eco-Friendly Product Sales Growth Rate}, while the weakest aspect is{ Carbon Footprint Reduction Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Mccarthy, Hamilton and Collins Sustainability Initiative on the Renewable Energy Adoption Rate in the radar chart?",
+            "A": "The value of Mccarthy, Hamilton and Collins Sustainability Initiative on the Safety dimension is {71}."
+        },
+        {
+            "Q": "What is the value of Mccarthy, Hamilton and Collins Sustainability Initiative on the Eco-Friendly Product Sales Growth Rate in the radar chart?",
+            "A": "The value of Mccarthy, Hamilton and Collins Sustainability Initiative on the Safety dimension is {82}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Mccarthy, Hamilton and Collins Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Mccarthy, Hamilton and Collins Sustainability Initiative across all dimensions is {82}."
+        },
+        {
+            "Q": "What is the minimum value of label Mccarthy, Hamilton and Collins Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Mccarthy, Hamilton and Collins Sustainability Initiative across all dimensions is {82}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Eco-Friendly Product Sales Growth Rate",
+            "A": "The average value of Eco-Friendly Product Sales Growth Rate is {82.0}."
+        },
+        {
+            "Q": "What is the average value of Mccarthy, Hamilton and Collins Sustainability Initiative",
+            "A": "The average value of Mccarthy, Hamilton and Collins Sustainability Initiative is {70.8}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative in the radar chart, which dimensions have scores above 78? Please list the dimensions and corresponding scores.",
+            "A": "{Eco-Friendly Product Sales Growth Rate} is {82}"
+        },
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative in the radar chart, which dimensions have scores between 64 and 78? Please list the dimensions and corresponding scores.",
+            "A": "{Renewable Energy Adoption Rate} is {71}, {Sustainable Packaging Adoption Rate} is {66}, {Water Conservation Efficiency Rate} is {75}"
+        },
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative in the radar chart, which dimensions have scores below 64? Please list the dimensions and corresponding scores.",
+            "A": "{Carbon Footprint Reduction Rate} is {60}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative, which dimension has a higher score: Water Conservation Efficiency Rate or Renewable Energy Adoption Rate?",
+            "A": "{Water Conservation Efficiency Rate} has a higher score than Renewable Energy Adoption Rate for Mccarthy, Hamilton and Collins Sustainability Initiative."
+        },
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative, which dimension has a higher score: Eco-Friendly Product Sales Growth Rate or Water Conservation Efficiency Rate?",
+            "A": "{Eco-Friendly Product Sales Growth Rate} has a higher score than Water Conservation Efficiency Rate for Mccarthy, Hamilton and Collins Sustainability Initiative."
+        },
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative, which dimension has a higher score: Water Conservation Efficiency Rate or Sustainable Packaging Adoption Rate or Eco-Friendly Product Sales Growth Rate?",
+            "A": "{Eco-Friendly Product Sales Growth Rate} has a higher score for Mccarthy, Hamilton and Collins Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Mccarthy, Hamilton and Collins Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Mccarthy, Hamilton and Collins Sustainability Initiative most needs to improve its {Carbon Footprint Reduction Rate}."
+        }
+    ],
+    "VA": []
+}

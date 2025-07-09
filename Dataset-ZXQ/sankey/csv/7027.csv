@@ -1,0 +1,30 @@
+Human Resources and Employee Management,Employee Management System,Employees,random,Onboarding Steps,Recruitment Sources,Employee Types,Performance Ratings,Interview Stages
+Source,Target,Value
+Orientation,Recruitment Agencies,11
+Orientation,Job Boards,106
+Orientation,Social Media,19
+Mentorship Assignment,Recruitment Agencies,218
+Mentorship Assignment,Job Boards,177
+Mentorship Assignment,Social Media,35
+Training Program,Recruitment Agencies,281
+Training Program,Job Boards,553
+Training Program,Social Media,334
+Document Verification,Recruitment Agencies,332
+Document Verification,Job Boards,318
+Document Verification,Social Media,442
+Recruitment Agencies,Part-time,319
+Recruitment Agencies,Contractor,523
+Job Boards,Part-time,668
+Job Boards,Contractor,486
+Social Media,Part-time,328
+Social Media,Contractor,502
+Part-time,Below Average,300
+Part-time,Average,1015
+Contractor,Below Average,849
+Contractor,Average,662
+Below Average,Technical Interview,608
+Below Average,Phone Screen,90
+Below Average,Final Interview,451
+Average,Technical Interview,579
+Average,Phone Screen,372
+Average,Final Interview,726

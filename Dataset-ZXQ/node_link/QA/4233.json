@@ -1,0 +1,67 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {14} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {17} links."
+        },
+        {
+            "Q": "How many nodes link with node Pinecrest Regional Hospital?",
+            "A": "There are {2} nodes link with node Pinecrest Regional Hospital."
+        }
+    ],
+    "SRP": [],
+    "VPR": [],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Evercare Medical Center and node Summit Neurology Center in this node-link chart?",
+            "A": "The relationship between node Evercare Medical Center and node Summit Neurology Center is {specialty_sharing}."
+        },
+        {
+            "Q": "What is the relationship between node Evercare Medical Center and node Pinecrest Regional Hospital in this node-link chart?",
+            "A": "The relationship between node Evercare Medical Center and node Pinecrest Regional Hospital is {healthcare_network}."
+        }
+    ],
+    "EVJ": [],
+    "SC": [
+        {
+            "Q": "How many links have the relation type medical_collaboration?",
+            "A": "There are {7} links with the relation type medical_collaboration."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Evercare Medical Center, how many links are of type patient_transfer?",
+            "A": "Node Evercare Medical Center has {1} links of type patient_transfer."
+        },
+        {
+            "Q": "Under node St. Mary's General Hospital, how many links are of type healthcare_network?",
+            "A": "Node St. Mary's General Hospital has {2} links of type healthcare_network."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "Which node is considered the most important in the node link chart?",
+            "A": "The most important node is {Cityview Children's Hospital}."
+        },
+        {
+            "Q": "Please list the top three nodes by degree and their corresponding degrees.",
+            "A": "The top three nodes by degree are: {node Cityview Children's Hospital with a degree of 6}, {node Evercare Medical Center with a degree of 6}, {node St. Mary's General Hospital with a degree of 5}."
+        },
+        {
+            "Q": "What is the shortest path from node Oceanview Cancer Institute to node Sunrise Rehabilitation Hospital in the node link diagram? Please list all nodes along this path in sequence.",
+            "A": "The shortest path from node Oceanview Cancer Institute to node Sunrise Rehabilitation Hospital is: {Oceanview Cancer Institute to St. Mary's General Hospital to Sunrise Rehabilitation Hospital}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,64 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {2} slices in this pie chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rental has the largest proportion in this pie chart?",
+            "A": "The rental with the largest proportion is {Commercial Rentals}."
+        },
+        {
+            "Q": "Which rental has the smallest proportion in this pie chart?",
+            "A": "The rental with the smallest proportion is {Storage Rentals}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Commercial Rentals slice in this pie chart?",
+            "A": "The value of the Commercial Rentals slice is {71}%."
+        },
+        {
+            "Q": "What is the value of the Storage Rentals slice in this pie chart?",
+            "A": "The value of the Storage Rentals slice is {29}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {71}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {29}%."
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 60.5%? Please list the category names and corresponding percentages.",
+            "A": "{Commercial Rentals} accounts for {71}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 39.5%? Please list the category names and corresponding percentages.",
+            "A": "{Storage Rentals} accounts for {29}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Commercial Rentals or Storage Rentals?",
+            "A": "The value of {Commercial Rentals} is larger."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

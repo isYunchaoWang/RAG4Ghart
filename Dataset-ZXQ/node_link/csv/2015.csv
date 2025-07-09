@@ -1,0 +1,20 @@
+Education and Academics,Global Academic Institutions Partnership Map
+Source Node Index,Source Node Name,Target Node Index,Target Node Name,Relation Type
+0,Greenwood High School,7,Sunrise Montessori School,academic_advising
+0,Greenwood High School,2,Oakridge International Academy,academic_advising
+0,Greenwood High School,8,Westfield Engineering School,funding_support
+0,Greenwood High School,11,Trinity Language School,funding_support
+0,Greenwood High School,5,Silverstream Science School,research_collaboration
+1,Starlight Elementary School,2,Oakridge International Academy,student_exchange
+1,Starlight Elementary School,11,Trinity Language School,research_collaboration
+1,Starlight Elementary School,9,Meadowlark Middle School,research_collaboration
+1,Starlight Elementary School,8,Westfield Engineering School,student_exchange
+1,Starlight Elementary School,5,Silverstream Science School,student_exchange
+2,Oakridge International Academy,5,Silverstream Science School,funding_support
+2,Oakridge International Academy,9,Meadowlark Middle School,academic_advising
+2,Oakridge International Academy,7,Sunrise Montessori School,academic_advising
+2,Oakridge International Academy,11,Trinity Language School,research_collaboration
+2,Oakridge International Academy,6,Beacon Arts Academy,research_collaboration
+3,Riverside Public School,6,Beacon Arts Academy,student_exchange
+4,Hillcrest Technical School,9,Meadowlark Middle School,joint_program
+10,Harborview STEM School,11,Trinity Language School,academic_advising

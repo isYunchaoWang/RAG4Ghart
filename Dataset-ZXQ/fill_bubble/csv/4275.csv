@@ -1,0 +1,10 @@
+Healthcare and Medicine,the Classification of Healthcare and Medicine,8
+size,father,depth,label
+95.5,0,1,Healthcare and Medicine
+15.02,1,2,Medical Procedures
+15.73,1,2,Medical Specialties
+33.05,1,2,Hospital Management
+25.7,1,2,Pharmaceuticals
+10.09,5,3,Clinical Trials
+8.53,3,3,Psychiatry
+12.14,5,3,Pharmacology

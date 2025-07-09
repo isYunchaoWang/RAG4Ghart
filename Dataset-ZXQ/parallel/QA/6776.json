@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Market growth rate (%) dimension, what is the spatial relationship of Allen Inc relative to Johnson Ltd in terms of vertical (above/below) direction?",
+            "A": "{Allen Inc} is {below} {Johnson Ltd} on the Market growth rate (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Customer lifetime value (USD)?",
+            "A": "The first position to the left of Customer lifetime value (USD) is {Price elasticity (unitless)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Market growth rate (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Price elasticity (unitless)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Customer lifetime value (USD)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Price elasticity (unitless) and dimension Customer lifetime value (USD)",
+            "A": "There is {Strong Correlation} between Price elasticity (unitless) and Customer lifetime value (USD)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Allen Inc on the Market growth rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Allen Inc on the Market growth rate (%) dimension is {10.81}"
+        },
+        {
+            "Q": "What is the value of Allen Inc on the Market growth rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Allen Inc on the Market growth rate (%) dimension is {10.81}"
+        },
+        {
+            "Q": "What is the value of Allen Inc on the Brand recognition (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Allen Inc on the Brand recognition (%) dimension is {44.38}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Schmidt-Fisher across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Schmidt-Fisher across all dimensions is {6515.21}"
+        },
+        {
+            "Q": "What is the minimum value of label Schmidt-Fisher across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Schmidt-Fisher across all dimensions is {2.86}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Market growth rate (%)?",
+            "A": "The average value of Market growth rate (%) is {11.88}"
+        },
+        {
+            "Q": "What is the difference in coding Price elasticity (unitless) between label Huerta PLC and label Lowery-Evans",
+            "A": "The difference in coding Price elasticity (unitless) between Huerta PLC and Lowery-Evans is {2.5}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Customer lifetime value (USD) dimension in the parallel coordinates?",
+            "A": "{[10000.0, 6515.21, 6210.15]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Market growth rate (%) dimension in the parallel coordinates?",
+            "A": "{[-5.0, 3.07, 5.12]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Customer lifetime value (USD), which label has a higher score: Lowery-Evans or Schmidt-Fisher?",
+            "A": "{Schmidt-Fisher} has a higher score on Customer lifetime value (USD)."
+        },
+        {
+            "Q": "On Brand recognition (%), which label has a higher score: Johnson Ltd or Schmidt-Fisher?",
+            "A": "{Schmidt-Fisher} has a higher score on Brand recognition (%)."
+        },
+        {
+            "Q": "On Brand recognition (%), which label has a higher score: Johnson Ltd or Schmidt-Fisher?",
+            "A": "{Schmidt-Fisher} has a higher score on Brand recognition (%)."
+        },
+        {
+            "Q": "On Price elasticity (unitless), which label has a higher score: Schmidt-Fisher or Lowery-Evans?",
+            "A": "{Schmidt-Fisher} has a higher score on Price elasticity (unitless)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Customer lifetime value (USD)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Customer lifetime value (USD) being greater than 3984.5 and Customer lifetime value (USD) being less than 6583.09?",
+            "A": "There are {3} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

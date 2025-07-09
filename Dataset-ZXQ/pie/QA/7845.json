@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {4} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Facebook?",
+            "A": "The next slice clockwise from slice Facebook is {LinkedIn}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Facebook?",
+            "A": "The next slice counterclockwise from slice Facebook is {Snapchat}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which 2024 has the largest proportion in this pie chart?",
+            "A": "The 2024 with the largest proportion is {Snapchat}."
+        },
+        {
+            "Q": "Which 2024 has the smallest proportion in this pie chart?",
+            "A": "The 2024 with the smallest proportion is {TikTok}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the LinkedIn slice in this pie chart?",
+            "A": "The value of the LinkedIn slice is {16}%."
+        },
+        {
+            "Q": "What is the value of the Snapchat slice in this pie chart?",
+            "A": "The value of the Snapchat slice is {38}%."
+        },
+        {
+            "Q": "What is the value of the Facebook slice in this pie chart?",
+            "A": "The value of the Facebook slice is {31}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {38}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {15}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of LinkedIn and Facebook in this pie chart?",
+            "A": "The difference between LinkedIn and Facebook is {15}%."
+        },
+        {
+            "Q": "What is the sum of the values of TikTok and Snapchat in this pie chart?",
+            "A": "The sum of TikTok and Snapchat is {53}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 32.75%? Please list the category names and corresponding percentages.",
+            "A": "{Snapchat} accounts for {38}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 15.75%? Please list the category names and corresponding percentages.",
+            "A": "{TikTok} accounts for {15}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Snapchat, Facebook, or LinkedIn?",
+            "A": "The value of {Snapchat} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Facebook, LinkedIn, or TikTok?",
+            "A": "The value of {TikTok} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Snapchat or Facebook?",
+            "A": "The value of {Snapchat} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 3% and 20%?",
+            "A": "There are {2} sectors that have a percentage between 3% and 20%."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,135 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Customer Retention Rate?",
+            "A": "The next dimension clockwise from Customer Retention Rate is Gross Profit Margin"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Customer Retention Rate?",
+            "A": "The next dimension counterclockwise from Customer Retention Rate is Net Promoter Score (NPS)."
+        },
+        {
+            "Q": "On the Customer Retention Rate, is the point for Fowler Inc Restaurant inside or outside the point for Frye-Hansen Restaurant?",
+            "A": "On the Customer Retention Rate, the point for Fowler Inc Restaurant is outside the point for Frye-Hansen Restaurant."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Table Turnover Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Clay PLC Restaurant?",
+            "A": "The strongest aspect is {Table Turnover Rate}, while the weakest aspect is{ Net Promoter Score (NPS)}."
+        },
+        {
+            "Q": "On dimension Customer Retention Rate, which label scores the highest?",
+            "A": "On Customer Retention Rate, label {Frye-Hansen Restaurant} scores the highest."
+        },
+        {
+            "Q": "On dimension Net Promoter Score (NPS), which label scores the highest?",
+            "A": "On Net Promoter Score (NPS), label {Clay PLC Restaurant} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Clay PLC Restaurant on the Customer Retention Rate in the radar chart?",
+            "A": "The value of Clay PLC Restaurant on the Safety dimension is {62}."
+        },
+        {
+            "Q": "What is the value of Fowler Inc Restaurant on the Table Turnover Rate in the radar chart?",
+            "A": "The value of Fowler Inc Restaurant on the Safety dimension is {46}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Clay PLC Restaurant across all dimensions in the radar chart?",
+            "A": "The maximum value of Clay PLC Restaurant across all dimensions is {27}."
+        },
+        {
+            "Q": "What is the minimum value of label Frye-Hansen Restaurant across all dimensions in the radar chart?",
+            "A": "The minimum value of Frye-Hansen Restaurant across all dimensions is {46}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Table Turnover Rate",
+            "A": "The average value of Table Turnover Rate is {48.33}."
+        },
+        {
+            "Q": "What is the average value of Frye-Hansen Restaurant",
+            "A": "The average value of Frye-Hansen Restaurant is {37.6}."
+        },
+        {
+            "Q": "What is the difference in Table Turnover Rate between Frye-Hansen Restaurant and Fowler Inc Restaurant?",
+            "A": "The difference in Table Turnover Rate between Frye-Hansen Restaurant and Fowler Inc Restaurant is {13}."
+        },
+        {
+            "Q": "What is the difference in Net Promoter Score (NPS) between Frye-Hansen Restaurant and Fowler Inc Restaurant?",
+            "A": "The difference in Net Promoter Score (NPS) between Frye-Hansen Restaurant and Fowler Inc Restaurant is {13}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 36 for the Net Promoter Score (NPS) dimension? Please list the labels and corresponding scores.",
+            "A": "{Clay PLC Restaurant} is {27}"
+        },
+        {
+            "Q": "Which labels have scores above 59 for the Table Turnover Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Clay PLC Restaurant} is {66}"
+        },
+        {
+            "Q": "For Fowler Inc Restaurant in the radar chart, which dimensions have scores below 35? Please list the dimensions and corresponding scores.",
+            "A": "{Net Promoter Score (NPS)} is {27}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Fowler Inc Restaurant, which dimension has a higher score: Net Promoter Score (NPS) or Table Turnover Rate?",
+            "A": "{Net Promoter Score (NPS)} has a higher score than Table Turnover Rate for Fowler Inc Restaurant."
+        },
+        {
+            "Q": "On Gross Profit Margin, which label has a higher score: Frye-Hansen Restaurant or the Clay PLC Restaurant?",
+            "A": "{Clay PLC Restaurant} has a higher score on Gross Profit Margin compared to Frye-Hansen Restaurant."
+        },
+        {
+            "Q": "For Fowler Inc Restaurant, which dimension has a higher score: Seat Occupancy Rate or Gross Profit Margin or Net Promoter Score (NPS)?",
+            "A": "{Seat Occupancy Rate} has a higher score for Fowler Inc Restaurant."
+        },
+        {
+            "Q": "For Fowler Inc Restaurant, which dimension has a higher score: Net Promoter Score (NPS) or Gross Profit Margin or Seat Occupancy Rate?",
+            "A": "{Seat Occupancy Rate} has a higher score for Fowler Inc Restaurant."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Frye-Hansen Restaurant, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Frye-Hansen Restaurant most needs to improve its {Customer Retention Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Fowler Inc Restaurant}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Frye-Hansen Restaurant}."
+        }
+    ],
+    "VA": []
+}

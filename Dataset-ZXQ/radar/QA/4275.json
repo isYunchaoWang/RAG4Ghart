@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Net Profit Margin ?",
+            "A": "The next dimension clockwise from Net Profit Margin  is Renewable Energy Investment Ratio"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Revenue Growth Rate?",
+            "A": "The next dimension counterclockwise from Net Profit Margin  is R&D Investment Ratio."
+        },
+        {
+            "Q": "On the Market Share, is the point for Bennett-Glenn inside or outside the point for Burke Inc?",
+            "A": "On the Market Share, the point for Bennett-Glenn is outside the point for Burke Inc."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {R&D Investment Ratio} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Bennett-Glenn?",
+            "A": "The strongest aspect is {R&D Investment Ratio}, while the weakest aspect is{ Revenue Growth Rate}."
+        },
+        {
+            "Q": "On dimension Revenue Growth Rate, which label scores the highest?",
+            "A": "On Revenue Growth Rate, label {Bennett-Glenn} scores the highest."
+        },
+        {
+            "Q": "On dimension Renewable Energy Investment Ratio, which label scores the highest?",
+            "A": "On Renewable Energy Investment Ratio, label {Bennett-Glenn} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Burke Inc on the Renewable Energy Investment Ratio in the radar chart?",
+            "A": "The value of Burke Inc on the Safety dimension is {73}."
+        },
+        {
+            "Q": "What is the value of Bennett-Glenn on the Net Profit Margin  in the radar chart?",
+            "A": "The value of Bennett-Glenn on the Safety dimension is {80}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Burke Inc across all dimensions in the radar chart?",
+            "A": "The maximum value of Burke Inc across all dimensions is {26}."
+        },
+        {
+            "Q": "What is the minimum value of label Burke Inc across all dimensions in the radar chart?",
+            "A": "The minimum value of Burke Inc across all dimensions is {52}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Patent Growth Rate",
+            "A": "The average value of Patent Growth Rate is {47.5}."
+        },
+        {
+            "Q": "What is the average value of Bennett-Glenn",
+            "A": "The average value of Bennett-Glenn is {58.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores above 68 for the Revenue Growth Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Burke Inc} is {74}"
+        },
+        {
+            "Q": "For Burke Inc in the radar chart, which dimensions have scores above 74? Please list the dimensions and corresponding scores.",
+            "A": "{R&D Investment Ratio} is {82}, {Net Profit Margin } is {80}"
+        },
+        {
+            "Q": "For Bennett-Glenn in the radar chart, which dimensions have scores below 36? Please list the dimensions and corresponding scores.",
+            "A": "{Market Share} is {26}, {R&D Investment Ratio} is {24}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Burke Inc, which dimension has a higher score: Net Profit Margin  or Revenue Growth Rate?",
+            "A": "{Net Profit Margin } has a higher score than Revenue Growth Rate for Burke Inc."
+        },
+        {
+            "Q": "For Bennett-Glenn, which dimension has a higher score: R&D Investment Ratio or Patent Growth Rate?",
+            "A": "{R&D Investment Ratio} has a higher score than Patent Growth Rate for Bennett-Glenn."
+        },
+        {
+            "Q": "On Patent Growth Rate, which label has a higher score: Bennett-Glenn or the Burke Inc?",
+            "A": "{Bennett-Glenn} has a higher score on Patent Growth Rate compared to Burke Inc."
+        },
+        {
+            "Q": "For Bennett-Glenn, which dimension has a higher score: Renewable Energy Investment Ratio or Market Share or Net Profit Margin ?",
+            "A": "{Net Profit Margin } has a higher score for Bennett-Glenn."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Bennett-Glenn, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Bennett-Glenn most needs to improve its {Revenue Growth Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Bennett-Glenn}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Burke Inc}."
+        }
+    ],
+    "VA": []
+}

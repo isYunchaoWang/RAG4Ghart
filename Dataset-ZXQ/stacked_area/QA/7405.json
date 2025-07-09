@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Luminara relative to OracleFeed?",
+            "A": "Luminara is {below} OracleFeed in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total ad revenue?",
+            "A": "The series with the largest contribution is {Starburst Online}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total ad revenue?",
+            "A": "The series with the smallest contribution is {Luminara}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is NovaStream's Ad Revenue in 1953?",
+            "A": "NovaStream's ad revenue in 1953 is {481533001.57} $."
+        },
+        {
+            "Q": "What is CrimsonLink's Ad Revenue in 1953?",
+            "A": "CrimsonLink's ad revenue in 1953 is {543108929.30} $."
+        },
+        {
+            "Q": "What is OracleFeed's Ad Revenue in 1970?",
+            "A": "OracleFeed's ad revenue in 1970 is {443436486.13} $."
+        },
+        {
+            "Q": "What are the ad revenue of CrimsonLink, OracleFeed, and NovaStream in 1952?",
+            "A": "CrimsonLink's ad revenue is {465679334.46} $, OracleFeed's ad revenue is {469689649.26} $, NovaStream's ad revenue is {474544142.01} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Ad Revenue in the area chart?",
+            "A": "The global minimum ad revenue is {5000000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Ad Revenue in the area chart?",
+            "A": "The global maximum ad revenue is {1310009499.19} $."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink reached approximately {1019177763.46} $ in {1973}."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink's lowest recorded level is approximately {465679334.46} $ in {1952}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Ad Revenue?",
+            "A": "The average total ad revenue is {2913702916.43} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Ad Revenue go below 2864259983.15 $? Please list the years and corresponding total values.",
+            "A": "{2636369124.02} $ in {1956}, {2680341925.65} $ in {1966}, {2527879164.25} $ in {1961}."
+        },
+        {
+            "Q": "Which years did the total Ad Revenue exceed 2988114806.99 $? Please list the years and corresponding total values.",
+            "A": "{3212735734.82} $ in {1953}, {3124282577.35} $ in {1973}, {3041742327.60} $ in {1958}."
+        },
+        {
+            "Q": "Which years did the total Ad Revenue fall between 2779878025.32 and 3072496764.82 $? Please list the years and corresponding total values.",
+            "A": "{2917744694.12} $ in {1967}, {2991201862.17} $ in {1971}, {2875535901.71} $ in {1957}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Ad Revenue in 1953 higher or lower than in 1956?",
+            "A": "The total ad revenue in 1953 was {higher} than in 1956."
+        },
+        {
+            "Q": "Between 1956 and 1962, did the total Ad Revenue experience a larger or smaller change than between 1952 and 1968?",
+            "A": "The change in total ad revenue between 1956 and 1962 was {larger} than between 1952 and 1968."
+        },
+        {
+            "Q": "Was the total Ad Revenue in 1957 higher or lower than in 1965?",
+            "A": "The total ad revenue in 1957 was {lower} than in 1965."
+        },
+        {
+            "Q": "Was the total Ad Revenue in 1958 higher or lower than in 1961?",
+            "A": "The total ad revenue in 1958 was {higher} than in 1961."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Starburst Online} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Luminara, NovaStream, EchoWave, OracleFeed, CrimsonLink, Starburst Online}."
+        }
+    ]
+}

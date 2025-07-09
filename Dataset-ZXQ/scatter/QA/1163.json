@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {85} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative u shape correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Class size in the scatter plot?",
+            "A": "The maximum observed value in the Class size dimension is {40.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Class size in the scatter plot?",
+            "A": "The minimum observed value in the Class size dimension is {10.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension College admission in the scatter plot?",
+            "A": "The maximum observed value in the College admission dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension College admission in the scatter plot?",
+            "A": "The minimum observed value in the College admission dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Class size for all points?",
+            "A": "The average value of Class size for all points is {25.00}."
+        },
+        {
+            "Q": "What is the average value of the College admission for all points?",
+            "A": "The average value of College admission for all points is {62.74}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the College admission values corresponding to the top 3 Class size values in the scatter plot?",
+            "A": "{20.81, 33.43, 25.14}."
+        },
+        {
+            "Q": "What are the College admission values corresponding to the bottom 3 Class size values in the scatter plot?",
+            "A": "{0.00, 25.10, 25.42}."
+        },
+        {
+            "Q": "What are the Class size values corresponding to the top 3 College admission values in the scatter plot?",
+            "A": "{22.14, 21.43, 24.64}."
+        },
+        {
+            "Q": "What are the Class size values corresponding to the bottom 3 College admission values in the scatter plot?",
+            "A": "{10.00, 37.86, 40.00}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 23.11 and 27.01 and Y coordinates between 4.32 and 18.74?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(10.00, 0.00) and (22.14, 100.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(32.50, 59.76) and (32.86, 59.72)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [31.00, 54.72, 34.36, 64.76] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (32.50, 59.76)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [29.80, 45.75, 35.56, 73.73]; Region B: [19.87, 60.19, 25.63, 88.17]; Region C: [10.18, 0.41, 15.94, 28.38]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region A."
+        }
+    ]
+}

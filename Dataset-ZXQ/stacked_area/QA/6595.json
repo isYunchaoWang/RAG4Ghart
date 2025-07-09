@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Direct-to-Consumer relative to Flash Sale Platforms?",
+            "A": "Direct-to-Consumer is {below} Flash Sale Platforms in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total return rate?",
+            "A": "The series with the largest contribution is {Clothing Merchants}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total return rate?",
+            "A": "The series with the smallest contribution is {Flash Sale Platforms}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Clothing Merchants's Return Rate in 1995?",
+            "A": "Clothing Merchants's return rate in 1995 is {41.11} %."
+        },
+        {
+            "Q": "What is Beauty Products's Return Rate in 1983?",
+            "A": "Beauty Products's return rate in 1983 is {12.03} %."
+        },
+        {
+            "Q": "What is Clothing Merchants's Return Rate in 1982?",
+            "A": "Clothing Merchants's return rate in 1982 is {12.48} %."
+        },
+        {
+            "Q": "What are the return rate of Clothing Merchants, Furniture Sellers, and Seasonal Goods in 1995?",
+            "A": "Clothing Merchants's return rate is {41.11} %, Furniture Sellers's return rate is {9.07} %, Seasonal Goods's return rate is {0.10} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Return Rate in the area chart?",
+            "A": "The global minimum return rate is {0.10} %."
+        },
+        {
+            "Q": "What is the global maximum Return Rate in the area chart?",
+            "A": "The global maximum return rate is {100.00} %."
+        },
+        {
+            "Q": "What is the highest Return Rate level recorded for Beauty Products?",
+            "A": "Beauty Products reached approximately {32.63} % in {2008}."
+        },
+        {
+            "Q": "What is the lowest Return Rate level recorded for Beauty Products?",
+            "A": "Beauty Products's lowest recorded level is approximately {9.17} % in {1980}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Return Rate?",
+            "A": "The average total return rate is {98.27} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Return Rate fall between 87.56 and 96.78 %? Please list the years and corresponding total values.",
+            "A": "{95.06} % in {1996}."
+        },
+        {
+            "Q": "Which years did the total Return Rate go below 74.79 %? Please list the years and corresponding total values.",
+            "A": "{70.43} % in {1988}, {74.24} % in {1982}, {69.39} % in {1980}."
+        },
+        {
+            "Q": "Which years did the total Return Rate exceed 109.55 %? Please list the years and corresponding total values.",
+            "A": "{157.25} % in {2006}, {134.09} % in {2002}, {150.24} % in {2005}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1984 and 2008, did the total Return Rate experience a larger or smaller change than between 1992 and 2006?",
+            "A": "The change in total return rate between 1984 and 2008 was {larger} than between 1992 and 2006."
+        },
+        {
+            "Q": "Between 1982 and 2006, did the total Return Rate experience a larger or smaller change than between 1995 and 2006?",
+            "A": "The change in total return rate between 1982 and 2006 was {larger} than between 1995 and 2006."
+        },
+        {
+            "Q": "Between 1999 and 2001, did the total Return Rate experience a larger or smaller change than between 1983 and 2000?",
+            "A": "The change in total return rate between 1999 and 2001 was {smaller} than between 1983 and 2000."
+        },
+        {
+            "Q": "Was the total Return Rate in 1996 higher or lower than in 2006?",
+            "A": "The total return rate in 1996 was {lower} than in 2006."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Clothing Merchants} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Flash Sale Platforms, Electronics Retailers, Seasonal Goods, Direct-to-Consumer, Furniture Sellers, Beauty Products, Clothing Merchants}."
+        }
+    ]
+}

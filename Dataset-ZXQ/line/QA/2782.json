@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1969, what is the vertical (above/below) relationship of the line representing Azure Reservoir Management relative to Silverhaven Water Board?",
+            "A": "In 1969, Azure Reservoir Management is {below} Silverhaven Water Board in the vertical direction."
+        },
+        {
+            "Q": "On Azure Reservoir Management, what is the spatial relationship of the data point in 1981 relative to that in 1977 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Azure Reservoir Management, the data point in 1981 is {above} and to the {right} of the data point in 1977."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Azure Reservoir Management's Water Consumption levels?",
+            "A": "Azure Reservoir Management's water consumption levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Water Board's Water Consumption levels?",
+            "A": "Silverhaven Water Board's water consumption levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Water Consumption levels?",
+            "A": "{Azure Reservoir Management}."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Water Consumption levels?",
+            "A": "{Silverhaven Water Board}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Silverhaven Water Board's Water Consumption in 1981?",
+            "A": "Silverhaven Water Board's water consumption in 1981 is {49774304.06} cubic meters."
+        },
+        {
+            "Q": "What is Silverhaven Water Board's Water Consumption in 1962?",
+            "A": "Silverhaven Water Board's water consumption in 1962 is {47308990.98} cubic meters."
+        },
+        {
+            "Q": "What is Silverhaven Water Board's Water Consumption in 1973?",
+            "A": "Silverhaven Water Board's water consumption in 1973 is {75083020.36} cubic meters."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Water Consumption in the line chart?",
+            "A": "The global minimum water consumption is {32243342.58} cubic meters."
+        },
+        {
+            "Q": "What is the global maximum Water Consumption in the line chart?",
+            "A": "The global maximum water consumption is {76245120.73} cubic meters."
+        },
+        {
+            "Q": "What is the highest Water Consumption level recorded for Azure Reservoir Management?",
+            "A": "Azure Reservoir Management reached approximately {52618846.74} cubic meters in {1983}."
+        },
+        {
+            "Q": "What is the lowest Water Consumption level recorded for Azure Reservoir Management?",
+            "A": "Azure Reservoir Management's lowest recorded level is approximately {32243342.58} cubic meters in {1962}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Silverhaven Water Board's Water Consumption?",
+            "A": "The average value of Silverhaven Water Board's water consumption is {61401867.97} cubic meters."
+        },
+        {
+            "Q": "What is the rate of change in Azure Reservoir Management's Water Consumption from the starting year to the final year?",
+            "A": "The rate of growth in Azure Reservoir Management's water consumption is {63.19}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Water Board's Water Consumption from the starting year to the final year?",
+            "A": "The rate of decline in Silverhaven Water Board's water consumption is {-2.55}%."
+        },
+        {
+            "Q": "What is the average value of Azure Reservoir Management's Water Consumption?",
+            "A": "The average value of Azure Reservoir Management's water consumption is {42427437.63} cubic meters."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1963, which line had Water Consumption exceed 44827584 cubic meters? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Water Board} had {49808427} cubic meters."
+        },
+        {
+            "Q": "Which years did Silverhaven Water Board's Water Consumption exceed 68620609 cubic meters? Please list the years and corresponding values.",
+            "A": "{75114077.59} cubic meters in {1971} year, {76245120.73} cubic meters in {1972} year, {70520642.86} cubic meters in {1975} year."
+        },
+        {
+            "Q": "Which years did Azure Reservoir Management's Water Consumption between 38290794 and 46427731 cubic meters? Please list the years and corresponding values.",
+            "A": "{42000818.96} cubic meters in {1972} year, {42897291.43} cubic meters in {1973} year, {45811893.22} cubic meters in {1976} year."
+        },
+        {
+            "Q": "Which years did Silverhaven Water Board's Water Consumption below 52280226 cubic meters? Please list the years and corresponding values.",
+            "A": "{52151569.88} cubic meters in {1980} year, {47308990.98} cubic meters in {1962} year, {49774304.06} cubic meters in {1981} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Azure Reservoir Management's Water Consumption in 1980 higher or lower than in 1982?",
+            "A": "The water consumption in 1980 was {lower} than in 1982."
+        },
+        {
+            "Q": "Between 1972 and 1974, which line experienced a larger change in Water Consumption, Silverhaven Water Board or Azure Reservoir Management?",
+            "A": "{Silverhaven Water Board} experienced a larger change in water consumption."
+        },
+        {
+            "Q": "Between 1964 and 1966, which line experienced a larger change in Water Consumption, Silverhaven Water Board or Azure Reservoir Management?",
+            "A": "{Silverhaven Water Board} experienced a larger change in water consumption."
+        },
+        {
+            "Q": "Was Azure Reservoir Management's Water Consumption in 1969 higher or lower than in 1976?",
+            "A": "The water consumption in 1969 was {lower} than in 1976."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Silverhaven Water Board}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1976 and 1981?",
+            "A": "{Azure Reservoir Management} has the fastest average growth rate between 1976 and 1981."
+        },
+        {
+            "Q": "In which year did Azure Reservoir Management first surpass Silverhaven Water Board?",
+            "A": "Azure Reservoir Management first surpassed Silverhaven Water Board in the year {1981}."
+        },
+        {
+            "Q": "Which label had the leading water consumption since 1964?",
+            "A": "Since 1964, {Silverhaven Water Board} had the leading water consumption."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Azure Reservoir Management. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1962, 1983}."
+        }
+    ]
+}

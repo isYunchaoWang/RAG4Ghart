@@ -1,0 +1,12 @@
+Healthcare and Health, Medical Referral Flow, Patients, random
+Source,Target,Value
+Rural Township Clinic,Specialist Hospital,131
+Specialist Hospital,Rural Township Clinic,304
+Rural Township Clinic,Tertiary General Hospital,62
+Tertiary General Hospital,Rural Township Clinic,403
+Tertiary General Hospital,TCM Hospital,169
+TCM Hospital,Tertiary General Hospital,127
+Specialist Hospital,TCM Hospital,445
+TCM Hospital,Specialist Hospital,446
+Rural Township Clinic,TCM Hospital,157
+TCM Hospital,Rural Township Clinic,350

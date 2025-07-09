@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Bonus percentage (%) dimension, what is the spatial relationship of Curry, Ortega and Romero relative to Morales-Mitchell in terms of vertical (above/below) direction?",
+            "A": "{Curry, Ortega and Romero} is {above} {Morales-Mitchell} on the Bonus percentage (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Bonus percentage (%)?",
+            "A": "The first position to the left of Bonus percentage (%) is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Overtime hours/month(hours)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Benefits cost (USD/year)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Pay equity ratio (ratio) and dimension Salary range (USD thousands)",
+            "A": "There is {No Correlation} between Pay equity ratio (ratio) and Salary range (USD thousands)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Bell, Mcknight and Hammond on the Pay equity ratio (ratio) dimension in the parallel-coordinates chart?",
+            "A": "The value of Bell, Mcknight and Hammond on the Pay equity ratio (ratio) dimension is {0.8}"
+        },
+        {
+            "Q": "What is the value of Bell, Mcknight and Hammond on the Bonus percentage (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Bell, Mcknight and Hammond on the Bonus percentage (%) dimension is {25.82}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Holmes, Hernandez and Ross across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Holmes, Hernandez and Ross across all dimensions is {17639.27}"
+        },
+        {
+            "Q": "What is the minimum value of label Curry, Ortega and Romero across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Curry, Ortega and Romero across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Remote work allowance (days/week)?",
+            "A": "The average value of Remote work allowance (days/week) is {2.15}"
+        },
+        {
+            "Q": "What is the difference in coding Bonus percentage (%) between label Curry, Ortega and Romero and label Jones LLC",
+            "A": "The difference in coding Bonus percentage (%) between Curry, Ortega and Romero and Jones LLC is {50.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Pay equity ratio (ratio) dimension in the parallel coordinates?",
+            "A": "{[1.2, 1.09, 0.93]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Pay equity ratio (ratio) dimension in the parallel coordinates?",
+            "A": "{[0.8, 0.85, 0.89]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Pay equity ratio (ratio), which label has a higher score: Liu-Bradley or Jones LLC?",
+            "A": "{Liu-Bradley} has a higher score on Pay equity ratio (ratio)."
+        },
+        {
+            "Q": "On Salary range (USD thousands), which label has a higher score: Curry, Ortega and Romero or Liu-Bradley?",
+            "A": "{Curry, Ortega and Romero} has a higher score on Salary range (USD thousands)."
+        },
+        {
+            "Q": "On Remote work allowance (days/week), which label has a higher score: Holmes, Hernandez and Ross or Jones LLC?",
+            "A": "{Holmes, Hernandez and Ross} has a higher score on Remote work allowance (days/week)."
+        },
+        {
+            "Q": "On Bonus percentage (%), which label has a higher score: Jones LLC or Bell, Mcknight and Hammond?",
+            "A": "{Bell, Mcknight and Hammond} has a higher score on Bonus percentage (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Overtime hours/month(hours) being greater than 13.11 and Remote work allowance (days/week) being less than 2.83?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

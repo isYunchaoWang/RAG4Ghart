@@ -1,0 +1,81 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {5} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of Metropolitan Areas relative to the peak of Suburbs in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  Metropolitan Areas is to the {right} of the peak of Suburbs."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Metropolitan Areas show?",
+            "A": "The ridgeline representing Metropolitan Areas shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Mountain Regions reach its peaks?",
+            "A": "At {126126.13}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Coastal Properties} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =58334.7?",
+            "A": "At X =58334.7,the label with the highest density is {Coastal Properties}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 398830? Please list the countries and corresponding peak values.",
+            "A": "{Urban Redevelopment Areas}'s peak at {831832}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 496459? Please list the countries and corresponding peak values.",
+            "A": "{Metropolitan Areas}'s peak at {119119},{Mountain Regions}'s peak at {126126},{Suburbs}'s peak at {91091},{Coastal Properties}'s peak at {95095}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Metropolitan Areas or Mountain Regions?",
+            "A": "{Mountain Regions} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Mountain Regions or Suburbs?",
+            "A": "{Mountain Regions} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Urban Redevelopment Areas or Coastal Properties?",
+            "A": "{Urban Redevelopment Areas} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Mountain Regions or Coastal Properties?",
+            "A": "{Mountain Regions} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {1} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {Coastal Properties}"
+        }
+    ],
+    "VA": []
+}

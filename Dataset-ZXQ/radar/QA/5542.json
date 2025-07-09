@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Eco-Friendly Product Sales Growth Rate?",
+            "A": "The next dimension clockwise from Eco-Friendly Product Sales Growth Rate is Renewable Energy Adoption Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Sustainable Packaging Adoption Rate?",
+            "A": "The next dimension counterclockwise from Eco-Friendly Product Sales Growth Rate is Sustainable Packaging Adoption Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Green Building Certification Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Rodriguez Ltd Sustainability Initiative?",
+            "A": "The strongest aspect is {Green Building Certification Rate}, while the weakest aspect is{ Renewable Energy Adoption Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Rodriguez Ltd Sustainability Initiative on the Renewable Energy Adoption Rate in the radar chart?",
+            "A": "The value of Rodriguez Ltd Sustainability Initiative on the Safety dimension is {21}."
+        },
+        {
+            "Q": "What is the value of Rodriguez Ltd Sustainability Initiative on the Green Building Certification Rate in the radar chart?",
+            "A": "The value of Rodriguez Ltd Sustainability Initiative on the Safety dimension is {75}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Rodriguez Ltd Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Rodriguez Ltd Sustainability Initiative across all dimensions is {41}."
+        },
+        {
+            "Q": "What is the minimum value of label Rodriguez Ltd Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Rodriguez Ltd Sustainability Initiative across all dimensions is {41}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Carbon Footprint Reduction Rate",
+            "A": "The average value of Carbon Footprint Reduction Rate is {72.0}."
+        },
+        {
+            "Q": "What is the average value of Rodriguez Ltd Sustainability Initiative",
+            "A": "The average value of Rodriguez Ltd Sustainability Initiative is {57.83}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 21 for the Renewable Energy Adoption Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Rodriguez Ltd Sustainability Initiative} is {21}"
+        },
+        {
+            "Q": "For Rodriguez Ltd Sustainability Initiative in the radar chart, which dimensions have scores below 32? Please list the dimensions and corresponding scores.",
+            "A": "{Renewable Energy Adoption Rate} is {21}"
+        },
+        {
+            "Q": "Which labels have scores above 73 for the Sustainable Packaging Adoption Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Rodriguez Ltd Sustainability Initiative} is {73}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Rodriguez Ltd Sustainability Initiative, which dimension has a higher score: Green Building Certification Rate or Recycling Material Utilization Rate?",
+            "A": "{Green Building Certification Rate} has a higher score than Recycling Material Utilization Rate for Rodriguez Ltd Sustainability Initiative."
+        },
+        {
+            "Q": "For Rodriguez Ltd Sustainability Initiative, which dimension has a higher score: Recycling Material Utilization Rate or Green Building Certification Rate or Carbon Footprint Reduction Rate?",
+            "A": "{Green Building Certification Rate} has a higher score for Rodriguez Ltd Sustainability Initiative."
+        },
+        {
+            "Q": "For Rodriguez Ltd Sustainability Initiative, which dimension has a higher score: Recycling Material Utilization Rate or Green Building Certification Rate or Eco-Friendly Product Sales Growth Rate?",
+            "A": "{Green Building Certification Rate} has a higher score for Rodriguez Ltd Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Rodriguez Ltd Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Rodriguez Ltd Sustainability Initiative most needs to improve its {Renewable Energy Adoption Rate}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {3} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {horizontal} box plot."
+        },
+        {
+            "Q": "Which box does the bottom box represent?",
+            "A": "The bottom box represents {Glenhaven}"
+        },
+        {
+            "Q": "Which box does the topmost box represent?",
+            "A": "The topmost box represents {Quarryville}."
+        },
+        {
+            "Q": "Which box is the first position beneath the box Quarryville?",
+            "A": "The first position beneath the box Quarryville is {Brookfield}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Quarryville relative to the box Glenhaven in terms of vertical (above/below) direction?",
+            "A": "Box Quarryville is {above} the box Glenhaven."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Quarryville}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Quarryville}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Brookfield}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Brookfield in the box plot?",
+            "A": "The median of Brookfield is {513.0} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Glenhaven in the box plot?",
+            "A": "The upper quartile (Q3) of Glenhaven is {665.0} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Brookfield in the box plot?",
+            "A": "The upper whisker limit of Brookfield is {953} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {1050.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {48.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between box Brookfield and Quarryville?",
+            "A": "The Median difference between box Brookfield and Quarryville is {93.0} million USD."
+        },
+        {
+            "Q": "What is the toal Median value of box Quarryville and Glenhaven?",
+            "A": "The total Median value of box Quarryville and Glenhaven is {1152.0} million USD."
+        },
+        {
+            "Q": "What is the average Q3 value of box Brookfield and Quarryville?",
+            "A": "The average Q3 value of box Brookfield and Quarryville is {688.0} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes have median values exceed 529.50 million USD? Please list the boxes and corresponding values.",
+            "A": "{Glenhaven} has {546.0} million USD , {Quarryville} has {606.0} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 576.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Glenhaven} has {546.0} million USD , {Brookfield} has {513.0} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Brookfield or Glenhaven ",
+            "A": "The median value of the {Glenhaven} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Quarryville, Glenhaven or Brookfield ",
+            "A": "The median value of the {Quarryville} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Quarryville}."
+        }
+    ],
+    "VA": []
+}

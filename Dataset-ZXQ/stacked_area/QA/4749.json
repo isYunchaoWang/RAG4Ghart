@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing AstraCorp relative to Meridian Dynamics?",
+            "A": "AstraCorp is {above} Meridian Dynamics in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total turnover rate?",
+            "A": "The series with the largest contribution is {AstraCorp}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total turnover rate?",
+            "A": "The series with the smallest contribution is {Ironclad Industries}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is AstraCorp's Turnover Rate in 1993?",
+            "A": "AstraCorp's turnover rate in 1993 is {22.57} %."
+        },
+        {
+            "Q": "What is Meridian Dynamics's Turnover Rate in 1996?",
+            "A": "Meridian Dynamics's turnover rate in 1996 is {8.08} %."
+        },
+        {
+            "Q": "What is AstraCorp's Turnover Rate in 1991?",
+            "A": "AstraCorp's turnover rate in 1991 is {17.91} %."
+        },
+        {
+            "Q": "What are the turnover rate of Lumina Solutions, Meridian Dynamics, and Skyward Systems in 1993?",
+            "A": "Lumina Solutions's turnover rate is {12.19} %, Meridian Dynamics's turnover rate is {12.48} %, Skyward Systems's turnover rate is {9.81} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Turnover Rate in the area chart?",
+            "A": "The global minimum turnover rate is {6.99} %."
+        },
+        {
+            "Q": "What is the global maximum Turnover Rate in the area chart?",
+            "A": "The global maximum turnover rate is {28.86} %."
+        },
+        {
+            "Q": "What is the highest Turnover Rate level recorded for AstraCorp?",
+            "A": "AstraCorp reached approximately {28.86} % in {1996}."
+        },
+        {
+            "Q": "What is the lowest Turnover Rate level recorded for AstraCorp?",
+            "A": "AstraCorp's lowest recorded level is approximately {14.80} % in {1989}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Turnover Rate?",
+            "A": "The average total turnover rate is {66.90} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Turnover Rate fall between 62.49 and 69.07 %? Please list the years and corresponding total values.",
+            "A": "{62.79} % in {1995}, {68.31} % in {1992}, {68.34} % in {1991}."
+        },
+        {
+            "Q": "Which years did the total Turnover Rate go below 63.23 %? Please list the years and corresponding total values.",
+            "A": "{62.56} % in {1994}, {59.21} % in {1996}, {62.79} % in {1995}."
+        },
+        {
+            "Q": "Which years did the total Turnover Rate exceed 68.34 %? Please list the years and corresponding total values.",
+            "A": "{72.73} % in {1990}, {74.09} % in {1989}, {68.34} % in {1991}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1991 and 1996, did the total Turnover Rate experience a larger or smaller change than between 1990 and 1994?",
+            "A": "The change in total turnover rate between 1991 and 1996 was {smaller} than between 1990 and 1994."
+        },
+        {
+            "Q": "Between 1991 and 1993, was the average total Turnover Rate higher or lower than between 1990 and 1992?",
+            "A": "The average total turnover rate between 1991 and 1993 was {lower} than between 1990 and 1992."
+        },
+        {
+            "Q": "Between 1990 and 1993, was the average total Turnover Rate higher or lower than between 1994 and 1995?",
+            "A": "The average total turnover rate between 1990 and 1993 was {higher} than between 1994 and 1995."
+        },
+        {
+            "Q": "Was the total Turnover Rate in 1990 higher or lower than in 1995?",
+            "A": "The total turnover rate in 1990 was {higher} than in 1995."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{AstraCorp} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Skyward Systems, Ironclad Industries, Lumina Solutions, Meridian Dynamics, AstraCorp}."
+        }
+    ]
+}

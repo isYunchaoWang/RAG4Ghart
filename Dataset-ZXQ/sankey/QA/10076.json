@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of column Research Fields of this sankey chart?",
+            "A": "There are {8} links flow out of column Research Fields."
+        },
+        {
+            "Q": "How many nodes are in this sankey chart?",
+            "A": "There are {18} nodes."
+        },
+        {
+            "Q": "How many nodes are in the column Funding Sources of this sankey chart?",
+            "A": "There are {3} nodes in the column Funding Sources."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Research Outcomes}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Funding Sources}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Artificial Intelligence} and {Corporate Labs}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Prototypes} and {Robotics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Patents to the node Artificial Intelligence?",
+            "A": "The flow value from the node Patents to the node Artificial Intelligence is {192}."
+        },
+        {
+            "Q": "What is the flow value from the node Healthcare to the node Crowdfunding?",
+            "A": "The flow value from the node Healthcare to the node Crowdfunding is {40}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Environment to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Environment to the next stage is {177}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Startups to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Startups to the next stage is {16}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Patents?",
+            "A": "The total flow output from node Patents is {429}."
+        },
+        {
+            "Q": "What is the total flow input by node Corporate Labs?",
+            "A": "The total flow input by node Corporate Labs is {481}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Research Fields of the sankey chart, which nodes have an outflow exceeded 224? Please list the node labels and their corresponding outflow values.",
+            "A": "{Artificial Intelligence} has an outflow of {242}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Research Outcomes and column Research Fields is the flow between 24 and 36? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {34} from node {Open-source Projects} to {Robotics}, a flow of {26} from node {Prototypes} to {Artificial Intelligence}, a flow of {35} from node {Patents} to {Robotics}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 60 and 63? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {62} from node {Commercial Products} to {Robotics}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Artificial Intelligence to node Corporate Labs and from node Patents to node Renewable Energy, which path has a larger flow?",
+            "A": "The flow from node {Artificial Intelligence} to node {Corporate Labs} is larger."
+        },
+        {
+            "Q": "Between the flows from node Commercial Products to node Renewable Energy and from node Artificial Intelligence to node Corporate Labs, which path has a larger flow?",
+            "A": "The flow from node {Artificial Intelligence} to node {Corporate Labs} is larger."
+        },
+        {
+            "Q": "Among the flows from node Healthcare to node Federal Grants, from node Environment to node Crowdfunding, and from node Robotics to node Corporate Labs, which path has the largest flow?",
+            "A": "The flow from node {Healthcare} to node {Federal Grants} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Research Fields of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Research Fields is {Artificial Intelligence}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Open-source Projects to target node Private Investment? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Open-source Projects to node Private Investment is: {Open-source Projects, Artificial Intelligence, Corporate Labs, Environment, Private Investment}."
+        }
+    ],
+    "VA": []
+}

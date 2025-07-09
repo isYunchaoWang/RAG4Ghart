@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {5} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Potter.com?",
+            "A": "The next arc clockwise from arc Potter.com is arc {Garcia Global}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Potter.com?",
+            "A": "The next arc counterclockwise from arc Potter.com is arc {Carter-RyanOnline}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{AtkinsonExpress} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Carter-RyanOnline} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Potter.com to DuffyLLCOnline in the chord chart?",
+            "A": "The flow value is {67}."
+        },
+        {
+            "Q": "What is the flow value from Potter.com to AtkinsonExpress in the chord chart?",
+            "A": "The flow value is {60}."
+        },
+        {
+            "Q": "What is the flow value from DuffyLLCOnline to Carter-RyanOnline in the chord chart?",
+            "A": "The flow value is {102}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Carter-RyanOnline and DuffyLLCOnline in the chord chart?",
+            "A": "The maximum flow value between Carter-RyanOnline and DuffyLLCOnline is {102}."
+        },
+        {
+            "Q": "What is the minimum flow value between Garcia Global and Potter.com in the chord chart?",
+            "A": "The minimum flow value between Garcia Global and Potter.com is {116}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {152}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {45}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Potter.com?",
+            "A": "The total flow output from Potter.com is {263}."
+        },
+        {
+            "Q": "What is the total flow input by Carter-RyanOnline?",
+            "A": "The total flow input by Carter-RyanOnline is {254}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 149? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {152} from {AtkinsonExpress} to {Carter-RyanOnline}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 63? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {60} from {Potter.com} to {AtkinsonExpress}, a flow of {45} from {AtkinsonExpress} to {Potter.com}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 90 and 109? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {102} from {DuffyLLCOnline} to {Carter-RyanOnline}, a flow of {96} from {Carter-RyanOnline} to {DuffyLLCOnline}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Potter.com to DuffyLLCOnline or from DuffyLLCOnline to Potter.com?",
+            "A": "The flow from {DuffyLLCOnline} to {Potter.com} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Garcia Global to Potter.com, from Potter.com to DuffyLLCOnline, or from Potter.com to AtkinsonExpress?",
+            "A": "The flow from {Garcia Global} to {Potter.com} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {DuffyLLCOnline}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {AtkinsonExpress} and {Carter-RyanOnline}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Carter-RyanOnline, Arc AtkinsonExpress, Arc DuffyLLCOnline, Arc Potter.com, Arc Garcia Global}."
+        }
+    ]
+}

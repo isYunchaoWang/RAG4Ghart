@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {7} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar Jul of this stacked bar chart?",
+            "A": "There are {5} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Jan}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {Aug}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Dec relative to the bar Jul in terms of horizontal (left/right) direction?",
+            "A": "Bar Dec is to the {right} of the bar Jul."
+        },
+        {
+            "Q": "In the stacked bar of Dec, What is the spatial relationship of segment PureSync relative to the segment MarketZen in terms of vertical (above/below) direction?",
+            "A": "PureSync segment is positioned {below} the MarketZen segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Month has the highest bar in this stacked bar chart?",
+            "A": "The Month with the highest bar is {Sep}."
+        },
+        {
+            "Q": "Which Month has the lowest bar in this stacked bar chart?",
+            "A": "The Month with the lowest bar is {May}."
+        },
+        {
+            "Q": "In the stacked bar representing Aug, which segment has the highest value?",
+            "A": "The segment with the highest value is {BrightWave}."
+        },
+        {
+            "Q": "In the stacked bar representing May, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {CoreLogic}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the CoreLogic segment within the Aug bar in the stacked bar chart?",
+            "A": "The value of the CoreLogic segment is {110.00} million USD."
+        },
+        {
+            "Q": "What is the value of the MarketZen segment within the Dec bar in the stacked bar chart?",
+            "A": "The value of the MarketZen segment is {112.00} million USD."
+        },
+        {
+            "Q": "What is the value of the CoreLogic segment within the Sep bar in the stacked bar chart?",
+            "A": "The value of the CoreLogic segment is {492.00} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum million USD among the stacked segments of bar Mar?",
+            "A": "The maximum million USD among the stacked segments of bar Mar is {500} million USD."
+        },
+        {
+            "Q": "What is the minimum million USD among the stacked segments of bar Mar?",
+            "A": "The minimum million USD among the stacked segments of bar Mar is {119} million USD."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum million USD of the segment CoreLogic among the bars?",
+            "A": "The maximum million USD among the bars of segment CoreLogic is {500} million USD."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum million USD of the segment CoreLogic among the bars?",
+            "A": "The minimum million USD among the bars of segment CoreLogic is {98} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar May?",
+            "A": "The total value of bar May is {743.00} million USD."
+        },
+        {
+            "Q": "What is the total value of the bar Jul?",
+            "A": "The total value of bar Jul is {1272.00} million USD."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {9929} million USD."
+        },
+        {
+            "Q": "What is the difference between total value of bar Jan and May?",
+            "A": "The difference between between total value of bar Jan and May is {1045} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total million USD values exceed 1959.50 million USD? Please list the bar and corresponding values.",
+            "A": "{Sep} has {2131} million USD"
+        },
+        {
+            "Q": "Which bars have total million USD values below 829.50 million USD? Please list the bar and corresponding values.",
+            "A": "{May} has {743} million USD"
+        },
+        {
+            "Q": "For bar Aug in the stacked bar chart, which segment have million USD value between 45.0 and 135.0? Please list the segment and corresponding values.",
+            "A": "{MarketZen} has {90} million USD, {SmartHub} has {107} million USD, {CoreLogic} has {110} million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total million USD of Aug or Mar?",
+            "A": "The total million USD of the {Mar} is larger."
+        },
+        {
+            "Q": "Which is larger, the total million USD of Dec, Jul or Jan?",
+            "A": "The total million USD of the {Jan} is larger."
+        },
+        {
+            "Q": "In the bar May, which has a larger million USD value: SmartHub or PureSync?",
+            "A": "{PureSync} has the larger million USD value."
+        },
+        {
+            "Q": "In the bar Dec, which has a larger million USD value: BrightWave, SmartHub or CoreLogic?",
+            "A": "{SmartHub} has the larger million USD value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment MarketZen in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment MarketZen are: {Sep}, {Jan}, {Jul}."
+        }
+    ],
+    "VA": []
+}

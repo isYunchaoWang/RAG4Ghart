@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {5} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Sun Harbor}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Celestial Arch}."
+        },
+        {
+            "Q": "Which violin is the first position to the right of the violin Crystal Falls?",
+            "A": "The first position to the right of the violin Crystal Falls is {Celestial Arch}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Sun Harbor relative to the violin Crystal Falls in terms of horizontal (left/right) direction?",
+            "A": "violin Sun Harbor is to the {left} of the violin Crystal Falls."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Silver Grove}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Silver Grove}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Sun Harbor?",
+            "A": "The density distribution pattern of the Sun Harbor shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Celestial Arch in the violin plot?",
+            "A": "The median of Celestial Arch is {9891.00} Visitors."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Silver Grove in the violin plot?",
+            "A": "The lower quartile (Q1) of Silver Grove is {7593.00} Visitors."
+        },
+        {
+            "Q": "What is the upper whisker limit of Crystal Falls in the violin plot?",
+            "A": "The upper whisker limit of Crystal Falls is {29191.00} Visitors."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Silver Grove in the violin plot?",
+            "A": "The largest upper outlier value in Silver Grove is {34873.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Visitors value in the violin plot?",
+            "A": "The global maximum Visitors value in the violin plot is {45223.00} Visitors."
+        },
+        {
+            "Q": "What is the global minimum Visitors value in the violin plot?",
+            "A": "The global minimum Visitors value in the violin plot is {3207.00} Visitors."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Crystal Falls and Silver Grove?",
+            "A": "The Q1 difference between violin Crystal Falls and Silver Grove is {174.25} Visitors."
+        },
+        {
+            "Q": "What is the toal Median value of violin Silver Grove and Star Plateau?",
+            "A": "The total Median value of violin Silver Grove and Celestial Arch is {20579.00} Visitors."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Celestial Arch and Sun Harbor?",
+            "A": "The average Q1 value of violin Celestial Arch and Sun Harbor is {6218.88} Visitors."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 10778.75 Visitors? Please list the violins and corresponding values.",
+            "A": "{Silver Grove} has {11062.50} Visitors "
+        },
+        {
+            "Q": "Which violins have median values below 9767.75 Visitors? Please list the violins and corresponding values.",
+            "A": "{Sun Harbor} has {9644.50} Visitors , {Star Plateau} has {9516.50} Visitors "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 6274.75 Visitors and the upper quartile (Q3) below 15383.75 Visitors?",
+            "A": "Violin {Celestial Arch} has the Q1 above 6274.75 Visitors and the Q3 below 15383.75 Visitors."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 8174.57 Visitors?",
+            "A": "Violin {Silver Grove} has {8868.09} Visitors ,{Crystal Falls} has {8827.43} Visitors have their highest density peak exceed 8174.57 Visitors."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 7284.02 Visitors?",
+            "A": "Violin {Sun Harbor} has {7018.34} Visitors ,{Celestial Arch} has {7046.32} Visitors have their highest density peak below 7284.02 Visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Star Plateau or Crystal Falls ",
+            "A": "The median value of the {Crystal Falls} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Crystal Falls, Celestial Arch or Sun Harbor ",
+            "A": "The median value of the {Crystal Falls} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Crystal Falls, Silver Grove, Star Plateau or Celestial Arch ",
+            "A": "The median value of the {Silver Grove} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Sun Harbor}."
+        }
+    ],
+    "VA": []
+}

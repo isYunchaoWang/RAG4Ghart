@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {5} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Coding Competitions?",
+            "A": "The next slice clockwise from slice Coding Competitions is {Cooking Competitions}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Coding Competitions?",
+            "A": "The next slice counterclockwise from slice Coding Competitions is {Sports Competitions}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which 2024 has the largest proportion in this pie chart?",
+            "A": "The 2024 with the largest proportion is {Sports Competitions}."
+        },
+        {
+            "Q": "Which 2024 has the smallest proportion in this pie chart?",
+            "A": "The 2024 with the smallest proportion is {Cooking Competitions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Sports Competitions slice in this pie chart?",
+            "A": "The value of the Sports Competitions slice is {31}%."
+        },
+        {
+            "Q": "What is the value of the Coding Competitions slice in this pie chart?",
+            "A": "The value of the Coding Competitions slice is {23}%."
+        },
+        {
+            "Q": "What is the value of the Music Competitions slice in this pie chart?",
+            "A": "The value of the Music Competitions slice is {18}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {31}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {11}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of Sports Competitions and Music Competitions in this pie chart?",
+            "A": "The difference between Sports Competitions and Music Competitions is {13}%."
+        },
+        {
+            "Q": "What is the sum of the values of E-sports and Coding Competitions in this pie chart?",
+            "A": "The sum of E-sports and Coding Competitions is {40}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 23.0%? Please list the category names and corresponding percentages.",
+            "A": "{Sports Competitions} accounts for {31}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 17.0%? Please list the category names and corresponding percentages.",
+            "A": "{Cooking Competitions} accounts for {11}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Coding Competitions, Music Competitions, or E-sports?",
+            "A": "The value of {E-sports} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Sports Competitions or Coding Competitions?",
+            "A": "The value of {Sports Competitions} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 3% and 15%?",
+            "A": "There are {1} sectors that have a percentage between 3% and 15%."
+        },
+        {
+            "Q": "Which three sectors have a sum of percentage less than 50%? List all possible combinations.",
+            "A": "The possible combinations are: {(Music Competitions, E-sports, Cooking Competitions)}."
+        }
+    ],
+    "VA": []
+}

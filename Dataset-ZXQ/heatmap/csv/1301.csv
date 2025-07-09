@@ -1,0 +1,57 @@
+Business and Finance,the Patterns of Business and Finance,8x7,uniform
+Accounting,Assets,0.46
+Auditing,Assets,0.46
+Capital Markets,Assets,0.47
+Insurance,Assets,0.48
+Investments,Assets,0.47
+Real Estate,Assets,0.46
+Risk Management,Assets,0.47
+Tax,Assets,0.46
+Accounting,Equity,0.48
+Auditing,Equity,0.46
+Capital Markets,Equity,0.49
+Insurance,Equity,0.48
+Investments,Equity,0.47
+Real Estate,Equity,0.48
+Risk Management,Equity,0.48
+Tax,Equity,0.48
+Accounting,Growth,0.47
+Auditing,Growth,0.47
+Capital Markets,Growth,0.49
+Insurance,Growth,0.47
+Investments,Growth,0.47
+Real Estate,Growth,0.47
+Risk Management,Growth,0.48
+Tax,Growth,0.47
+Accounting,Liabilities,0.47
+Auditing,Liabilities,0.46
+Capital Markets,Liabilities,0.46
+Insurance,Liabilities,0.48
+Investments,Liabilities,0.49
+Real Estate,Liabilities,0.48
+Risk Management,Liabilities,0.47
+Tax,Liabilities,0.46
+Accounting,Liquidity,0.47
+Auditing,Liquidity,0.46
+Capital Markets,Liquidity,0.48
+Insurance,Liquidity,0.48
+Investments,Liquidity,0.46
+Real Estate,Liquidity,0.44
+Risk Management,Liquidity,0.47
+Tax,Liquidity,0.48
+Accounting,Profit,0.47
+Auditing,Profit,0.45
+Capital Markets,Profit,0.47
+Insurance,Profit,0.48
+Investments,Profit,0.46
+Real Estate,Profit,0.46
+Risk Management,Profit,0.47
+Tax,Profit,0.45
+Accounting,Revenue,0.46
+Auditing,Revenue,0.47
+Capital Markets,Revenue,0.47
+Insurance,Revenue,0.47
+Investments,Revenue,0.48
+Real Estate,Revenue,0.47
+Risk Management,Revenue,0.47
+Tax,Revenue,0.45

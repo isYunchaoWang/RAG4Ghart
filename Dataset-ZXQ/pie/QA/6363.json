@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {6} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Car Rentals?",
+            "A": "The next slice clockwise from slice Car Rentals is {Vacation Rentals}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Car Rentals?",
+            "A": "The next slice counterclockwise from slice Car Rentals is {Storage Rentals}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which rental has the largest proportion in this pie chart?",
+            "A": "The rental with the largest proportion is {Storage Rentals}."
+        },
+        {
+            "Q": "Which rental has the smallest proportion in this pie chart?",
+            "A": "The rental with the smallest proportion is {Event Space Rentals}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Car Rentals slice in this pie chart?",
+            "A": "The value of the Car Rentals slice is {20}%."
+        },
+        {
+            "Q": "What is the value of the Storage Rentals slice in this pie chart?",
+            "A": "The value of the Storage Rentals slice is {23}%."
+        },
+        {
+            "Q": "What is the value of the Vacation Rentals slice in this pie chart?",
+            "A": "The value of the Vacation Rentals slice is {18}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {23}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {9}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of Vacation Rentals and Event Space Rentals in this pie chart?",
+            "A": "The difference between Vacation Rentals and Event Space Rentals is {9}%."
+        },
+        {
+            "Q": "What is the sum of the values of Car Rentals and Equipment Rentals in this pie chart?",
+            "A": "The sum of Car Rentals and Equipment Rentals is {37}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 19.5%? Please list the category names and corresponding percentages.",
+            "A": "{Storage Rentals} accounts for {23}% and {Car Rentals} accounts for {20}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 14.0%? Please list the category names and corresponding percentages.",
+            "A": "{Residential Rentals} accounts for {13}% and {Event Space Rentals} accounts for {9}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Storage Rentals, Car Rentals, or Vacation Rentals?",
+            "A": "The value of {Storage Rentals} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Storage Rentals or Car Rentals?",
+            "A": "The value of {Storage Rentals} is larger."
+        },
+        {
+            "Q": "Which has the largest value: Storage Rentals, Car Rentals, Vacation Rentals, or Residential Rentals?",
+            "A": "The value of {Storage Rentals} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 3% and 20%?",
+            "A": "There are {5} sectors that have a percentage between 3% and 20%."
+        },
+        {
+            "Q": "Which three sectors have a sum of percentage less than 45%? List all possible combinations.",
+            "A": "The possible combinations are: {(Car Rentals, Residential Rentals, Event Space Rentals), (Vacation Rentals, Equipment Rentals, Event Space Rentals), (Vacation Rentals, Residential Rentals, Event Space Rentals), (Equipment Rentals, Residential Rentals, Event Space Rentals)}."
+        }
+    ],
+    "VA": []
+}

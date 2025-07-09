@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in the column Emission Sources of this sankey chart?",
+            "A": "There are {2} nodes in the column Emission Sources."
+        },
+        {
+            "Q": "How many links are in this sankey chart?",
+            "A": "There are {24} links."
+        },
+        {
+            "Q": "How many links flow into column Sector Distribution of this sankey chart?",
+            "A": "There are {12} links flow into column Sector Distribution."
+        },
+        {
+            "Q": "How many links flow out of the node Power Generation in this sankey chart?",
+            "A": "There are {2} links flowing out of the node Power Generation."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Mitigation Measures}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Emission Sources}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Residential} and {Coal Combustion}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Power Generation} and {Livestock}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node None to the node Agriculture?",
+            "A": "The flow value from the node None to the node Agriculture is {13340}."
+        },
+        {
+            "Q": "What is the flow value from the node Carbon Capture to the node Waste Management?",
+            "A": "The flow value from the node Carbon Capture to the node Waste Management is {12335}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Transportation to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Transportation to the next stage is {2323}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node None to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node None to the next stage is {1904}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Agriculture?",
+            "A": "The total flow output from node Agriculture is {16920}."
+        },
+        {
+            "Q": "What is the total flow input by node Waste Management?",
+            "A": "The total flow input by node Waste Management is {28692}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Sector Distribution of the sankey chart, which nodes have an outflow exceeded 18163? Please list the node labels and their corresponding outflow values.",
+            "A": "{Waste Management} has an outflow of {21093}, {Residential} has an outflow of {21477}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Sector Distribution and column Emission Sources is the flow between 4918 and 6308? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {5018} from node {Agriculture} to {Livestock}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 5242 and 7738? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {6807} from node {None} to {Manufacturing}, a flow of {5467} from node {None} to {Power Generation}, a flow of {7599} from node {Waste Management} to {Livestock}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Power Generation to node Livestock and from node Waste Management to node Coal Combustion, which path has a larger flow?",
+            "A": "The flow from node {Waste Management} to node {Coal Combustion} is larger."
+        },
+        {
+            "Q": "Between the flows from node Power Generation to node Livestock and from node Agriculture to node Livestock, which path has a larger flow?",
+            "A": "The flow from node {Agriculture} to node {Livestock} is larger."
+        },
+        {
+            "Q": "Among the flows from node Carbon Capture to node Transportation, from node Residential to node Livestock, and from node Power Generation to node Coal Combustion, which path has the largest flow?",
+            "A": "The flow from node {Power Generation} to node {Coal Combustion} is the largest."
+        },
+        {
+            "Q": "Among the flows from node None to node Power Generation, from node Transportation to node Coal Combustion, and from node None to node Residential, which path has the largest flow?",
+            "A": "The flow from node {None} to node {Residential} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Emission Sources of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Emission Sources is {Coal Combustion}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Carbon Capture to target node Coal Combustion? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Carbon Capture to node Coal Combustion is: {Carbon Capture, Waste Management, Coal Combustion}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {5} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Northgate}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Brookfield}."
+        },
+        {
+            "Q": "Which box is the first position to the right of the box Mapleton?",
+            "A": "The first position to the right of the box Mapleton is {Brookfield}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Highvale relative to the box Northgate in terms of horizontal (left/right) direction?",
+            "A": "Box Highvale is to the {right} of the box Northgate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Brookfield}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Mapleton}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Springfield}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Brookfield in the box plot?",
+            "A": "The median of Brookfield is {696.5} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Highvale in the box plot?",
+            "A": "The upper quartile (Q3) of Highvale is {659.75} million USD."
+        },
+        {
+            "Q": "What is the lower whisker limit of Highvale in the box plot?",
+            "A": "The lower whisker limit of Highvale is {103} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Northgate in the box plot?",
+            "A": "The largest upper outlier value in Northgate is {1467} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {1767.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {103.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Brookfield and Highvale?",
+            "A": "The Q3 difference between box Brookfield and Highvale is {253.75} million USD."
+        },
+        {
+            "Q": "What is the toal Median value of box Northgate and Highvale?",
+            "A": "The total Median value of box Northgate and Highvale is {960.5} million USD."
+        },
+        {
+            "Q": "What is the average Q3 value of box Brookfield and Northgate?",
+            "A": "The average Q3 value of box Brookfield and Northgate is {838.0} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 1590.3 million USD?",
+            "A": "Box{Brookfield} have the outliers exceed 1590.3 million USD."
+        },
+        {
+            "Q": "Which boxes have median values exceed 480.25 million USD? Please list the boxes and corresponding values.",
+            "A": "{Northgate} has {554.0} million USD , {Mapleton} has {674.0} million USD , {Brookfield} has {696.5} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 397.75 million USD? Please list the boxes and corresponding values.",
+            "A": "{Springfield} has {389.0} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Brookfield or Northgate ",
+            "A": "The median value of the {Brookfield} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Springfield, Highvale or Northgate ",
+            "A": "The median value of the {Northgate} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Springfield, Northgate, Brookfield or Highvale ",
+            "A": "The median value of the {Brookfield} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Mapleton}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,8 @@
+﻿Education and Academics,HEIs Performance
+Pattern,No Correlation,No Correlation,Weak Correlation,Weak Correlation,Clustering
+labels,Graduation rate (%),Facility utilization (%),Alumni donation rate (%),Test scores (percentile),Student-teacher ratio (ratio),College acceptance rate (%)
+Miranda Ltd  University,76.05,45.9,1.0,1.0,5.0,76.44
+Rodriguez-Smith  Institute,100.0,98.45,37.9,99.0,30.0,10.0
+"Chandler, Garcia and Hawkins  School",68.13,87.21,50.0,92.23,16.64,100.0
+Harris-King  College,81.1,100.0,32.04,60.8,15.93,95.95
+Morris LLC  School,50.0,30.0,44.22,75.5,19.99,72.63

@@ -1,0 +1,91 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {7} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Pass the final test stage positioned above or below the Browse Course Page stage?",
+            "A": "The Pass the final test stage is positioned {below} the Browse Course Page stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {logarithmic} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Browse Course Page?",
+            "A": "The value of stage Browse Course Page is {100%}."
+        },
+        {
+            "Q": "What is the value of stage Register Learning Platform?",
+            "A": "The value of stage Register Learning Platform is {64%}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Browse Course Page, with a value of {100%}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Earn a certificate, with a value of {16%}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the percentage reduction from stage Register Learning Platform to stage Register Courses?",
+            "A": "The percentage reduction from stage Register Learning Platform to stage Register Courses is {21%}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 35%? Please list the stage labels and corresponding values.",
+            "A": "The {Browse Course Page} stage has {100%}, the {Register Learning Platform} stage has {64%}, the {Register Courses} stage has {43%}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 19%? Please list the stage labels and corresponding values.",
+            "A": "The {Earn a certificate} stage has {16%}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 19% and 35%? Please list the stage labels and corresponding values.",
+            "A": "The {Complete the first lesson} stage has {28%}, the {Complete the assignment} stage has {19%}, the {Pass the final test} stage has {19%}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Browse Course Page to Register Learning Platform, or from stage Complete the first lesson to Complete the assignment?",
+            "A": "The reduction from stage {Browse Course Page} to {Register Learning Platform} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Pass the final test to Earn a certificate, from stage Browse Course Page to Register Learning Platform, or from stage Register Courses to Complete the first lesson?",
+            "A": "The reduction from stage {Browse Course Page} to stage {Register Learning Platform} is the greatest."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Complete the assignment to Pass the final test, from stage Complete the first lesson to Complete the assignment, or from stage Register Learning Platform to Register Courses?",
+            "A": "The reduction from stage {Register Learning Platform} to stage {Register Courses} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Browse Course Page} and {Register Learning Platform} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Complete the assignment} and {Pass the final test} stages."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of the node Packaging in this sankey chart?",
+            "A": "There are {4} links flowing out of the node Packaging."
+        },
+        {
+            "Q": "How many links are in this sankey chart?",
+            "A": "There are {52} links."
+        },
+        {
+            "Q": "How many nodes are in this sankey chart?",
+            "A": "There are {18} nodes."
+        },
+        {
+            "Q": "How many links flow into the node Freezing in this sankey chart?",
+            "A": "There are {3} links flowing into the node Freezing."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Farming}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Import & Export}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Soil Preparation} and {Freezing}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Fertilization} and {Canning}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Consumption to the node Export Certification?",
+            "A": "The flow value from the node Consumption to the node Export Certification is {2346}."
+        },
+        {
+            "Q": "What is the flow value from the node Pest Control to the node Freezing?",
+            "A": "The flow value from the node Pest Control to the node Freezing is {1625}."
+        },
+        {
+            "Q": "What is the flow value from the node Fertilization to the node Cleaning?",
+            "A": "The flow value from the node Fertilization to the node Cleaning is {1754}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Consumption to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Consumption to the next stage is {2895}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Pest Control to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Pest Control to the next stage is {1625}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Pest Control?",
+            "A": "The total flow output from node Pest Control is {8485}."
+        },
+        {
+            "Q": "What is the total flow input by node Consumption?",
+            "A": "The total flow input by node Consumption is {9558}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Processing of the sankey chart, which nodes have an outflow exceeded 3724? Please list the node labels and their corresponding outflow values.",
+            "A": "{Canning} has an outflow of {4552}, {Freezing} has an outflow of {4299}, {Freezing} has an outflow of {4019}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Farming and column Processing is the flow between 1978 and 2442? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {2329} from node {Pest Control} to {Canning}, a flow of {1980} from node {Fertilization} to {Packaging}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 2690 and 2818? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {2722} from node {Freezing} to {Transportation}, a flow of {2787} from node {Consumption} to {International Shipping}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Consumption to node Customs Clearance and from node Cleaning to node Transportation, which path has a larger flow?",
+            "A": "The flow from node {Consumption} to node {Customs Clearance} is larger."
+        },
+        {
+            "Q": "Between the flows from node Consumption to node Customs Clearance and from node Wholesale to node Retail Purchase, which path has a larger flow?",
+            "A": "The flow from node {Consumption} to node {Customs Clearance} is larger."
+        },
+        {
+            "Q": "Among the flows from node Consumption to node Customs Clearance, from node Cleaning to node Wholesale, and from node Cleaning to node Storage, which path has the largest flow?",
+            "A": "The flow from node {Cleaning} to node {Storage} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Import & Export of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Import & Export is {Export Certification}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Soil Preparation to target node Customs Clearance? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Soil Preparation to node Customs Clearance is: {Soil Preparation, Freezing, Storage, Food Waste, Customs Clearance}."
+        }
+    ],
+    "VA": []
+}

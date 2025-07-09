@@ -1,0 +1,123 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {3} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Ironwood}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Highvale}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box Glenhaven?",
+            "A": "The first position to the left of the box Glenhaven is {Ironwood}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Highvale relative to the box Glenhaven in terms of horizontal (left/right) direction?",
+            "A": "Box Highvale is to the {right} of the box Glenhaven."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Highvale}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Highvale}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Ironwood}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Ironwood in the box plot?",
+            "A": "The median of Ironwood is {2031.0} MWh."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Ironwood in the box plot?",
+            "A": "The lower quartile (Q1) of Ironwood is {1879.25} MWh."
+        },
+        {
+            "Q": "What is the lower whisker limit of Ironwood in the box plot?",
+            "A": "The lower whisker limit of Ironwood is {1734} MWh."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Glenhaven in the box plot?",
+            "A": "The largest upper outlier value in Glenhaven is {3612} MWh."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum MWh value in the box plot?",
+            "A": "The global maximum MWh value in the box plot is {3711.00} MWh."
+        },
+        {
+            "Q": "What is the global minimum MWh value in the box plot?",
+            "A": "The global minimum MWh value in the box plot is {656.00} MWh."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between box Ironwood and Glenhaven?",
+            "A": "The Median difference between box Ironwood and Glenhaven is {595.0} MWh."
+        },
+        {
+            "Q": "What is the toal Q3 value of box Glenhaven and Highvale?",
+            "A": "The total Q3 value of box Glenhaven and Highvale is {4422.25} MWh."
+        },
+        {
+            "Q": "What is the average Q1 value of box Ironwood and Glenhaven?",
+            "A": "The average Q1 value of box Ironwood and Glenhaven is {1451.75} MWh."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 3339.9 MWh?",
+            "A": "Box{Glenhaven},{Highvale} have the outliers exceed 3339.9 MWh."
+        },
+        {
+            "Q": "Which boxes have median values exceed 1733.50 MWh? Please list the boxes and corresponding values.",
+            "A": "{Ironwood} has {2031.0} MWh , {Highvale} has {2052.0} MWh "
+        },
+        {
+            "Q": "Which boxes have median values below 2041.50 MWh? Please list the boxes and corresponding values.",
+            "A": "{Ironwood} has {2031.0} MWh , {Glenhaven} has {1436.0} MWh "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Ironwood or Glenhaven ",
+            "A": "The median value of the {Ironwood} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Ironwood, Glenhaven or Highvale ",
+            "A": "The median value of the {Highvale} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Glenhaven}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,35 @@
+Human Resources and Employee Management,Employee Management System,Employees,random,Recruitment Sources,Employee Types,Performance Ratings,Interview Stages
+Source,Target,Value
+University Career Fairs,Full-time,822
+University Career Fairs,Contractor,1007
+University Career Fairs,Part-time,1298
+University Career Fairs,Intern,869
+Referrals,Full-time,1420
+Referrals,Contractor,1092
+Referrals,Part-time,901
+Referrals,Intern,589
+Job Boards,Full-time,237
+Job Boards,Contractor,362
+Job Boards,Part-time,72
+Job Boards,Intern,587
+Full-time,Average,927
+Full-time,Excellent,602
+Full-time,Below Average,950
+Contractor,Average,662
+Contractor,Excellent,956
+Contractor,Below Average,843
+Part-time,Average,236
+Part-time,Excellent,1799
+Part-time,Below Average,236
+Intern,Average,267
+Intern,Excellent,1511
+Intern,Below Average,267
+Average,Technical Interview,540
+Average,HR Interview,667
+Average,Final Interview,885
+Excellent,Technical Interview,2285
+Excellent,HR Interview,376
+Excellent,Final Interview,2207
+Below Average,Technical Interview,343
+Below Average,HR Interview,1377
+Below Average,Final Interview,576

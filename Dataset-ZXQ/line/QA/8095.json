@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Nova Games, what is the spatial relationship of the data point in 2000 relative to that in 2014 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Nova Games, the data point in 2000 is {above} and to the {left} of the data point in 2014."
+        },
+        {
+            "Q": "In 2013, what is the vertical (above/below) relationship of the line representing Starfall Championship relative to Crimson Clash?",
+            "A": "In 2013, Starfall Championship is {below} Crimson Clash in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Nova Games's Stadium Attendance levels?",
+            "A": "Nova Games's stadium attendance levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Starfall Championship's Stadium Attendance levels?",
+            "A": "Starfall Championship's stadium attendance levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Silverleaf Open's Stadium Attendance levels?",
+            "A": "Silverleaf Open's stadium attendance levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Clash's Stadium Attendance levels?",
+            "A": "Crimson Clash's stadium attendance levels show a {stable falling} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Crimson Clash's Stadium Attendance in 2012?",
+            "A": "Crimson Clash's stadium attendance in 2012 is {97423.79} tickets/session."
+        },
+        {
+            "Q": "What is Silverleaf Open's Stadium Attendance in 2003?",
+            "A": "Silverleaf Open's stadium attendance in 2003 is {57970.67} tickets/session."
+        },
+        {
+            "Q": "What is Silverleaf Open's Stadium Attendance in 2010?",
+            "A": "Silverleaf Open's stadium attendance in 2010 is {56392.18} tickets/session."
+        },
+        {
+            "Q": "What are the stadium attendance of Crimson Clash, Starfall Championship, and Nova Games in 2004?",
+            "A": "Crimson Clash's stadium attendance is {83819.01} tickets/session, Starfall Championship's stadium attendance is {30718.21} tickets/session, Nova Games's stadium attendance is {78435.95} tickets/session."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Stadium Attendance in the line chart?",
+            "A": "The global minimum stadium attendance is {24850.70} tickets/session."
+        },
+        {
+            "Q": "What is the global maximum Stadium Attendance in the line chart?",
+            "A": "The global maximum stadium attendance is {100593.25} tickets/session."
+        },
+        {
+            "Q": "What is the highest Stadium Attendance level recorded for Crimson Clash?",
+            "A": "Crimson Clash reached approximately {100593.25} tickets/session in {2014}."
+        },
+        {
+            "Q": "What is the lowest Stadium Attendance level recorded for Crimson Clash?",
+            "A": "Crimson Clash's lowest recorded level is approximately {67529.04} tickets/session in {1995}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Crimson Clash's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of growth in Crimson Clash's stadium attendance is {48.96}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverleaf Open's Stadium Attendance from the starting year to the final year?",
+            "A": "The rate of decline in Silverleaf Open's stadium attendance is {-5.50}%."
+        },
+        {
+            "Q": "What is the average value of Crimson Clash's Stadium Attendance?",
+            "A": "The average value of Crimson Clash's stadium attendance is {84120.10} tickets/session."
+        },
+        {
+            "Q": "What is the average value of Silverleaf Open's Stadium Attendance?",
+            "A": "The average value of Silverleaf Open's stadium attendance is {58705.93} tickets/session."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1996, which lines had Stadium Attendance below 53686 tickets/session? Please list the lines and corresponding values.",
+            "A": "{Starfall Championship} had {31388} tickets/session."
+        },
+        {
+            "Q": "Which years did Nova Games's Stadium Attendance exceed 70674 tickets/session? Please list the years and corresponding values.",
+            "A": "{76094.73} tickets/session in {2010} year, {76607.80} tickets/session in {2001} year, {78527.09} tickets/session in {2003} year."
+        },
+        {
+            "Q": "In the year 2008, which line had Stadium Attendance exceed 80771 tickets/session? Please list the lines and corresponding values.",
+            "A": "{Crimson Clash} had {89986} tickets/session."
+        },
+        {
+            "Q": "Which years did Starfall Championship's Stadium Attendance between 27193 and 28704 tickets/session? Please list the years and corresponding values.",
+            "A": "{28019.92} tickets/session in {2011} year, {28174.99} tickets/session in {2003} year, {28166.47} tickets/session in {1997} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Nova Games's Stadium Attendance in 1999 higher or lower than in 2003?",
+            "A": "The stadium attendance in 1999 was {lower} than in 2003."
+        },
+        {
+            "Q": "In 2007, which line had the highest Stadium Attendance, Starfall Championship, Nova Games, or Crimson Clash?",
+            "A": "In 2007, {Crimson Clash} had the highest stadium attendance."
+        },
+        {
+            "Q": "Between 2000 and 2005, which line had the highest average Stadium Attendance, Nova Games, Starfall Championship, or Crimson Clash?",
+            "A": "{Crimson Clash} had the highest average stadium attendance."
+        },
+        {
+            "Q": "Between 2008 and 2014, which line had the highest average Stadium Attendance, Starfall Championship, Crimson Clash, or Nova Games?",
+            "A": "{Crimson Clash} had the highest average stadium attendance."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Crimson Clash}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2005 and 2011?",
+            "A": "{Crimson Clash} has the fastest average growth rate between 2005 and 2011."
+        },
+        {
+            "Q": "Which label had the leading stadium attendance since 2002?",
+            "A": "Since 2002, {Crimson Clash} had the leading stadium attendance."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Crimson Clash. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1995, 2014}."
+        }
+    ]
+}

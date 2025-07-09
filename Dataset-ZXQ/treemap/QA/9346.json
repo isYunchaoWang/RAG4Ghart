@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category nan in this treemap?",
+            "A": "There are {1} child rectangles under the category nan."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Destination Planning}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Crowd Simulation}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Destination Planning}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Evacuation Models rectangle in this treemap?",
+            "A": "The value of the Evacuation Models rectangle is {65.71}."
+        },
+        {
+            "Q": "What is the value of the IoT Deployment rectangle in this treemap?",
+            "A": "The value of the IoT Deployment rectangle is {8.77}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.04}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Recycling Systems and Beacon Networks?",
+            "A": "The difference between Recycling Systems and Beacon Networks is {3.51}."
+        },
+        {
+            "Q": "What is the sum of the regions of Audit Systems and Cellular Automata?",
+            "A": "The sum of Audit Systems and Cellular Automata is {80.05}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the nan category in the treemap, which rectangular labels have a value exceeded 99.99? Please list the labels and values.",
+            "A": "{Destination Planning} has {100.00}"
+        },
+        {
+            "Q": "Under the nan category in the treemap, which rectangular labels have a value below 100.01? Please list the labels and values.",
+            "A": "{Destination Planning} has {100.00}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Destination Planning, Sustainable Tourism, or Carrying Capacity?",
+            "A": "The value of {Destination Planning} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Destination Planning or Sustainable Tourism?",
+            "A": "The value of {Destination Planning} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {5} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Training hours/week (hours) dimension, what is the spatial relationship of Anna Lee relative to Elizabeth Shaw in terms of vertical (above/below) direction?",
+            "A": "{Anna Lee} is {above} {Elizabeth Shaw} on the Training hours/week (hours) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Training hours/week (hours)?",
+            "A": "The first position to the left of Training hours/week (hours) is {Recovery time (hours)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Speed (km/h)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Performance rating (1-10)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Recovery time (hours)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Performance rating (1-10) and dimension Recovery time (hours)",
+            "A": "There is {Strong Correlation} between Performance rating (1-10) and Recovery time (hours)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Michael Pearson on the Performance rating (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of Michael Pearson on the Performance rating (1-10) dimension is {4.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Anna Lee across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Anna Lee across all dimensions is {72.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Anthony Lindsey across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Anthony Lindsey across all dimensions is {4.65}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Recovery time (hours)?",
+            "A": "The average value of Recovery time (hours) is {37.8}"
+        },
+        {
+            "Q": "What is the difference in coding Speed (km/h) between label Anna Lee and label Elizabeth Shaw",
+            "A": "The difference in coding Speed (km/h) between Anna Lee and Elizabeth Shaw is {3.98}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Speed (km/h) dimension in the parallel coordinates?",
+            "A": "{[40.0, 32.69, 28.71]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Training hours/week (hours) dimension in the parallel coordinates?",
+            "A": "{[10.0, 20.26, 21.06]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Recovery time (hours), which label has a higher score: Michael Pearson or Anthony Lindsey?",
+            "A": "{Anthony Lindsey} has a higher score on Recovery time (hours)."
+        },
+        {
+            "Q": "On Training hours/week (hours), which label has a higher score: Michael Pearson or Anthony Lindsey?",
+            "A": "{Anthony Lindsey} has a higher score on Training hours/week (hours)."
+        },
+        {
+            "Q": "On Training hours/week (hours), which label has a higher score: Anna Lee or Anthony Lindsey?",
+            "A": "{Anthony Lindsey} has a higher score on Training hours/week (hours)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Recovery time (hours)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Training hours/week (hours) being greater than 29.27 and Training hours/week (hours) being less than 22.15?",
+            "A": "There are {0} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

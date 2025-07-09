@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Retention Rate?",
+            "A": "The next dimension clockwise from Retention Rate is Promotion Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Skill Proficiency Rate?",
+            "A": "The next dimension counterclockwise from Retention Rate is Job Satisfaction."
+        },
+        {
+            "Q": "On the Skill Proficiency Rate, is the point for Anderson, Evans and Moore inside or outside the point for Smith-Klein?",
+            "A": "On the Skill Proficiency Rate, the point for Anderson, Evans and Moore is outside the point for Smith-Klein."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Skill Proficiency Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Anderson, Evans and Moore?",
+            "A": "The strongest aspect is {Skill Proficiency Rate}, while the weakest aspect is{ Job Satisfaction}."
+        },
+        {
+            "Q": "On dimension Promotion Rate, which label scores the highest?",
+            "A": "On Promotion Rate, label {Smith-Klein} scores the highest."
+        },
+        {
+            "Q": "On dimension Skill Proficiency Rate, which label scores the highest?",
+            "A": "On Skill Proficiency Rate, label {Smith-Klein} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Smith-Klein on the Pay Equity Ratio in the radar chart?",
+            "A": "The value of Smith-Klein on the Safety dimension is {62}."
+        },
+        {
+            "Q": "What is the value of Anderson, Evans and Moore on the Time-to-Fill Rate in the radar chart?",
+            "A": "The value of Anderson, Evans and Moore on the Safety dimension is {50}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Smith-Klein across all dimensions in the radar chart?",
+            "A": "The maximum value of Smith-Klein across all dimensions is {72}."
+        },
+        {
+            "Q": "What is the minimum value of label Smith-Klein across all dimensions in the radar chart?",
+            "A": "The minimum value of Smith-Klein across all dimensions is {50}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Time-to-Fill Rate",
+            "A": "The average value of Time-to-Fill Rate is {42.0}."
+        },
+        {
+            "Q": "What is the average value of Smith-Klein",
+            "A": "The average value of Smith-Klein is {54.57}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores above 64 for the Job Satisfaction dimension? Please list the labels and corresponding scores.",
+            "A": "{Smith-Klein} is {72}"
+        },
+        {
+            "Q": "For Anderson, Evans and Moore in the radar chart, which dimensions have scores between 43 and 81? Please list the dimensions and corresponding scores.",
+            "A": "{Time-to-Fill Rate} is {50}, {Retention Rate} is {53}, {Promotion Rate} is {59}, {Offer Acceptance Rate} is {68}"
+        },
+        {
+            "Q": "For Anderson, Evans and Moore in the radar chart, which dimensions have scores below 43? Please list the dimensions and corresponding scores.",
+            "A": "{Job Satisfaction} is {31}, {Pay Equity Ratio} is {31}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Anderson, Evans and Moore, which dimension has a higher score: Pay Equity Ratio or Job Satisfaction?",
+            "A": "{Pay Equity Ratio} has a higher score than Job Satisfaction for Anderson, Evans and Moore."
+        },
+        {
+            "Q": "For Anderson, Evans and Moore, which dimension has a higher score: Retention Rate or Skill Proficiency Rate?",
+            "A": "{Skill Proficiency Rate} has a higher score than Retention Rate for Anderson, Evans and Moore."
+        },
+        {
+            "Q": "On Time-to-Fill Rate, which label has a higher score: Smith-Klein or the Anderson, Evans and Moore?",
+            "A": "{Anderson, Evans and Moore} has a higher score on Time-to-Fill Rate compared to Smith-Klein."
+        },
+        {
+            "Q": "For Anderson, Evans and Moore, which dimension has a higher score: Pay Equity Ratio or Job Satisfaction or Retention Rate?",
+            "A": "{Retention Rate} has a higher score for Anderson, Evans and Moore."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Anderson, Evans and Moore, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Anderson, Evans and Moore most needs to improve its {Job Satisfaction}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Anderson, Evans and Moore}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Smith-Klein}."
+        }
+    ],
+    "VA": []
+}

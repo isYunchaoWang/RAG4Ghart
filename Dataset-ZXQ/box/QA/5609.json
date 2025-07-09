@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {2} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Steak Houses}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Mexican Restaurants}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box Mexican Restaurants?",
+            "A": "The first position to the left of the box Mexican Restaurants is {Steak Houses}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Steak Houses relative to the box Mexican Restaurants in terms of horizontal (left/right) direction?",
+            "A": "Box Steak Houses is to the {left} of the box Mexican Restaurants."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Steak Houses}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Steak Houses}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Mexican Restaurants}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Steak Houses in the box plot?",
+            "A": "The median of Steak Houses is {593.5} million USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Steak Houses in the box plot?",
+            "A": "The lower quartile (Q1) of Steak Houses is {525.75} million USD."
+        },
+        {
+            "Q": "What is the lower whisker limit of Mexican Restaurants in the box plot?",
+            "A": "The lower whisker limit of Mexican Restaurants is {259} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Mexican Restaurants in the box plot?",
+            "A": "The largest upper outlier value in Mexican Restaurants is {764} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {808.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {131.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between box Steak Houses and Mexican Restaurants?",
+            "A": "The Median difference between box Steak Houses and Mexican Restaurants is {117.0} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of box Mexican Restaurants and Steak Houses?",
+            "A": "The total Q3 value of box Mexican Restaurants and Steak Houses is {1211.0} million USD."
+        },
+        {
+            "Q": "What is the average Q1 value of box Mexican Restaurants and Steak Houses?",
+            "A": "The average Q1 value of box Mexican Restaurants and Steak Houses is {473.875} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 687.6 million USD?",
+            "A": "Box{Mexican Restaurants} have the outliers exceed 687.6 million USD."
+        },
+        {
+            "Q": "Which boxes have median values exceed 535.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Steak Houses} has {593.5} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 535.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Mexican Restaurants} has {476.5} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Mexican Restaurants or Steak Houses ",
+            "A": "The median value of the {Steak Houses} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Steak Houses}."
+        }
+    ],
+    "VA": []
+}

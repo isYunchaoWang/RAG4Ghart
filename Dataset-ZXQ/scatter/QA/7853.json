@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {70} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Injury frequency in the scatter plot?",
+            "A": "The maximum observed value in the Injury frequency dimension is {5.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Injury frequency in the scatter plot?",
+            "A": "The minimum observed value in the Injury frequency dimension is {0.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Strength gain in the scatter plot?",
+            "A": "The maximum observed value in the Strength gain dimension is {50.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Strength gain in the scatter plot?",
+            "A": "The minimum observed value in the Strength gain dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Injury frequency for all points?",
+            "A": "The average value of Injury frequency for all points is {2.50}."
+        },
+        {
+            "Q": "What is the average value of the Strength gain for all points?",
+            "A": "The average value of Strength gain for all points is {22.55}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Strength gain values corresponding to the top 3 Injury frequency values in the scatter plot?",
+            "A": "{12.51, 4.73, 19.07}."
+        },
+        {
+            "Q": "What are the Strength gain values corresponding to the bottom 3 Injury frequency values in the scatter plot?",
+            "A": "{42.68, 28.51, 36.62}."
+        },
+        {
+            "Q": "What are the Injury frequency values corresponding to the top 3 Strength gain values in the scatter plot?",
+            "A": "{0.29, 0.22, 0.87}."
+        },
+        {
+            "Q": "What are the Injury frequency values corresponding to the bottom 3 Strength gain values in the scatter plot?",
+            "A": "{3.33, 4.78, 4.35}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 3.38 and 4.00 and Y coordinates between 19.10 and 26.73?",
+            "A": "There are {1} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(0.29, 50.00) and (3.33, 0.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(4.42, 14.95) and (4.49, 14.92)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [4.17, 12.42, 4.74, 17.45] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (4.42, 14.95)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [3.68, 10.04, 5.00, 19.83]; Region B: [1.69, 9.29, 3.01, 19.08]; Region C: [0.30, 31.80, 1.62, 41.60]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region A."
+        }
+    ]
+}

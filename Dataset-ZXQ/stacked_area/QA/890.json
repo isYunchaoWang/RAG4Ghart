@@ -1,0 +1,112 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Vanguard Dynamics relative to NovaTech Solutions?",
+            "A": "Vanguard Dynamics is {above} NovaTech Solutions in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total net profit margin?",
+            "A": "The series with the largest contribution is {Vanguard Dynamics}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total net profit margin?",
+            "A": "The series with the smallest contribution is {NovaTech Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is NovaTech Solutions's Net Profit Margin in 1967?",
+            "A": "NovaTech Solutions's net profit margin in 1967 is {12.98} %."
+        },
+        {
+            "Q": "What is Vanguard Dynamics's Net Profit Margin in 1976?",
+            "A": "Vanguard Dynamics's net profit margin in 1976 is {23.60} %."
+        },
+        {
+            "Q": "What is Vanguard Dynamics's Net Profit Margin in 1986?",
+            "A": "Vanguard Dynamics's net profit margin in 1986 is {30.84} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Net Profit Margin in the area chart?",
+            "A": "The global minimum net profit margin is {0.15} %."
+        },
+        {
+            "Q": "What is the global maximum Net Profit Margin in the area chart?",
+            "A": "The global maximum net profit margin is {35.64} %."
+        },
+        {
+            "Q": "What is the highest Net Profit Margin level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions reached approximately {14.82} % in {1965}."
+        },
+        {
+            "Q": "What is the lowest Net Profit Margin level recorded for NovaTech Solutions?",
+            "A": "NovaTech Solutions's lowest recorded level is approximately {0.15} % in {1982}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Net Profit Margin?",
+            "A": "The average total net profit margin is {30.19} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Net Profit Margin fall between 28.11 and 31.07 %? Please list the years and corresponding total values.",
+            "A": "{29.36} % in {1975}, {30.44} % in {1970}, {29.85} % in {1966}."
+        },
+        {
+            "Q": "Which years did the total Net Profit Margin go below 28.87 %? Please list the years and corresponding total values.",
+            "A": "{27.20} % in {1978}, {27.40} % in {1981}, {28.30} % in {1982}."
+        },
+        {
+            "Q": "Which years did the total Net Profit Margin exceed 30.32 %? Please list the years and corresponding total values.",
+            "A": "{34.39} % in {1990}, {30.44} % in {1970}, {35.09} % in {1992}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Net Profit Margin in 1980 higher or lower than in 1991?",
+            "A": "The total net profit margin in 1980 was {lower} than in 1991."
+        },
+        {
+            "Q": "Between 1973 and 1984, did the total Net Profit Margin experience a larger or smaller change than between 1967 and 1985?",
+            "A": "The change in total net profit margin between 1973 and 1984 was {smaller} than between 1967 and 1985."
+        },
+        {
+            "Q": "Between 1981 and 1987, did the total Net Profit Margin experience a larger or smaller change than between 1977 and 1978?",
+            "A": "The change in total net profit margin between 1981 and 1987 was {larger} than between 1977 and 1978."
+        },
+        {
+            "Q": "Between 1975 and 1979, was the average total Net Profit Margin higher or lower than between 1975 and 1976?",
+            "A": "The average total net profit margin between 1975 and 1979 was {lower} than between 1975 and 1976."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Vanguard Dynamics} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {NovaTech Solutions, Vanguard Dynamics}."
+        }
+    ]
+}

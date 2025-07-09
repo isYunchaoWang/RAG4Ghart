@@ -1,0 +1,91 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {4} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Post-Generation stage positioned above or below the Post-Transmission stage?",
+            "A": "The Post-Generation stage is positioned {above} the Post-Transmission stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {logarithmic} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Post-Transmission?",
+            "A": "The value of stage Post-Transmission is {21052}."
+        },
+        {
+            "Q": "What is the value of stage Post-Generation?",
+            "A": "The value of stage Post-Generation is {44293}."
+        },
+        {
+            "Q": "What is the value of stage Total Energy Generated?",
+            "A": "The value of stage Total Energy Generated is {88586}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Total Energy Generated, with a value of {88586}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Post-Distribution, with a value of {18378}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Total Energy Generated to stage Post-Generation?",
+            "A": "Decreased by {44293} Megawatt Hours from stage Total Energy Generated to stage Post-Generation."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 19715? Please list the stage labels and corresponding values.",
+            "A": "The {Total Energy Generated} stage has {88586}, the {Post-Generation} stage has {44293}, the {Post-Transmission} stage has {21052}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 32672? Please list the stage labels and corresponding values.",
+            "A": "The {Post-Transmission} stage has {21052}, the {Post-Distribution} stage has {18378}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 19715 and 66439? Please list the stage labels and corresponding values.",
+            "A": "The {Post-Generation} stage has {44293}, the {Post-Transmission} stage has {21052}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Post-Generation to Post-Transmission, or from stage Post-Transmission to Post-Distribution?",
+            "A": "The reduction from stage {Post-Generation} to {Post-Transmission} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Total Energy Generated to Post-Generation, from stage Post-Generation to Post-Transmission, or from stage Post-Transmission to Post-Distribution?",
+            "A": "The reduction from stage {Total Energy Generated} to stage {Post-Generation} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Total Energy Generated} and {Post-Generation} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Post-Transmission} and {Post-Distribution} stages."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,144 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Silverhaven Polytechnic, what is the spatial relationship of the data point in 1996 relative to that in 1997 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Silverhaven Polytechnic, the data point in 1996 is {above} and to the {left} of the data point in 1997."
+        },
+        {
+            "Q": "In 1996, what is the vertical (above/below) relationship of the line representing Borealis Graduate School relative to Silverhaven Polytechnic?",
+            "A": "In 1996, Borealis Graduate School is {above} Silverhaven Polytechnic in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Borealis Graduate School's Student-Teacher Ratio levels?",
+            "A": "Borealis Graduate School's student-teacher ratio levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Polytechnic's Student-Teacher Ratio levels?",
+            "A": "Silverhaven Polytechnic's student-teacher ratio levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Student-Teacher Ratio levels?",
+            "A": "{Borealis Graduate School}, {Silverhaven Polytechnic}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Silverhaven Polytechnic's Student-Teacher Ratio in 1995?",
+            "A": "Silverhaven Polytechnic's student-teacher ratio in 1995 is {30.29} ratio."
+        },
+        {
+            "Q": "What is Borealis Graduate School's Student-Teacher Ratio in 1997?",
+            "A": "Borealis Graduate School's student-teacher ratio in 1997 is {34.03} ratio."
+        },
+        {
+            "Q": "What is Borealis Graduate School's Student-Teacher Ratio in 1994?",
+            "A": "Borealis Graduate School's student-teacher ratio in 1994 is {36.60} ratio."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Student-Teacher Ratio in the line chart?",
+            "A": "The global minimum student-teacher ratio is {28.30} ratio."
+        },
+        {
+            "Q": "What is the global maximum Student-Teacher Ratio in the line chart?",
+            "A": "The global maximum student-teacher ratio is {36.60} ratio."
+        },
+        {
+            "Q": "What is the highest Student-Teacher Ratio level recorded for Borealis Graduate School?",
+            "A": "Borealis Graduate School reached approximately {36.60} ratio in {1994}."
+        },
+        {
+            "Q": "What is the lowest Student-Teacher Ratio level recorded for Borealis Graduate School?",
+            "A": "Borealis Graduate School's lowest recorded level is approximately {33.98} ratio in {1991}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Silverhaven Polytechnic's Student-Teacher Ratio?",
+            "A": "The average value of Silverhaven Polytechnic's student-teacher ratio is {29.53} ratio."
+        },
+        {
+            "Q": "What is the average value of Borealis Graduate School's Student-Teacher Ratio?",
+            "A": "The average value of Borealis Graduate School's student-teacher ratio is {35.43} ratio."
+        },
+        {
+            "Q": "What is the rate of change in Borealis Graduate School's Student-Teacher Ratio from the starting year to the final year?",
+            "A": "The rate of growth in Borealis Graduate School's student-teacher ratio is {0.15}%."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Polytechnic's Student-Teacher Ratio from the starting year to the final year?",
+            "A": "The rate of growth in Silverhaven Polytechnic's student-teacher ratio is {0.14}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Borealis Graduate School's Student-Teacher Ratio between 35 and 36 ratio? Please list the years and corresponding values.",
+            "A": "{35.48} ratio in {1996} year, {35.39} ratio in {1992} year."
+        },
+        {
+            "Q": "In the year 1997, which lines had Student-Teacher Ratio below 31 ratio? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Polytechnic} had {28} ratio."
+        },
+        {
+            "Q": "In the year 1996, which lines had Student-Teacher Ratio below 32 ratio? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Polytechnic} had {29} ratio."
+        },
+        {
+            "Q": "In the year 1995, which lines had Student-Teacher Ratio below 33 ratio? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Polytechnic} had {30} ratio."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1991 and 1997, which line had a higher average Student-Teacher Ratio, Borealis Graduate School or Silverhaven Polytechnic?",
+            "A": "{Borealis Graduate School} had a higher average student-teacher ratio."
+        },
+        {
+            "Q": "Between 1991 and 1997, which line experienced a larger change in Student-Teacher Ratio, Silverhaven Polytechnic or Borealis Graduate School?",
+            "A": "{Borealis Graduate School} experienced a larger change in student-teacher ratio."
+        },
+        {
+            "Q": "In 1993, which line had a higher Student-Teacher Ratio, {Borealis Graduate School} or {Silverhaven Polytechnic}?",
+            "A": "In 1993, {Borealis Graduate School} had a higher student-teacher ratio."
+        },
+        {
+            "Q": "Between 1992 and 1994, which line experienced a larger change in Student-Teacher Ratio, Silverhaven Polytechnic or Borealis Graduate School?",
+            "A": "{Borealis Graduate School} experienced a larger change in student-teacher ratio."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Borealis Graduate School}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1994 and 1997?",
+            "A": "{Silverhaven Polytechnic} has the fastest average growth rate between 1994 and 1997."
+        },
+        {
+            "Q": "Which label had the leading student-teacher ratio since 1993?",
+            "A": "Since 1993, {Borealis Graduate School} had the leading student-teacher ratio."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Silverhaven Polytechnic. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1991, 1994, 1997}."
+        }
+    ]
+}

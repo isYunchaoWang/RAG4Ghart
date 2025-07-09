@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {64} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {8} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {random} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Bakery and Exports in the heatmap?",
+            "A": "The heat value is {0.65}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Snacks and Consumption in the heatmap?",
+            "A": "The heat value is {0.12}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Seafood and Prices in the heatmap?",
+            "A": "The heat value is {0.22}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Dairy and Consumption in the heatmap?",
+            "A": "The heat value is {0.50}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.95}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.02}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Ingredients on the x-axis?",
+            "A": "The maximum heat value of Ingredients on the x-axis is {0.80}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Sustainability on the y-axis?",
+            "A": "The maximum heat value for Sustainability on the y-axis is {0.92}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Safety on the y-axis?",
+            "A": "The average heat value for Safety on the y-axis is {0.31}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Produce and Consumption or the cell corresponding to Frozen and Exports?",
+            "A": "The cell corresponding to {Produce} and {Consumption} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Bakery and Exports or the cell corresponding to Produce and Sustainability?",
+            "A": "The cell corresponding to {Bakery} and {Exports} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Dairy and Production or the cell corresponding to Produce and Production?",
+            "A": "The cell corresponding to {Produce} and {Production} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.32 to 0.54?",
+            "A": "The cells are: {(Dairy, Consumption), (Ingredients, Consumption), (Dairy, Exports), (Ingredients, Exports), (Seafood, Exports), (Dairy, Innovation), (Ingredients, Innovation), (Meat, Innovation), (Bakery, Prices), (Snacks, Prices), (Frozen, Production), (Produce, Production), (Meat, Regulations), (Dairy, Safety), (Frozen, Safety), (Meat, Sustainability), (Produce, Sustainability)}."
+        }
+    ],
+    "VA": []
+}

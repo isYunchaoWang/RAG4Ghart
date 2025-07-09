@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Citation Rate?",
+            "A": "The next dimension clockwise from Citation Rate is R&D ROI (Return on Investment)"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Research Growth Rate?",
+            "A": "The next dimension counterclockwise from Citation Rate is Research Growth Rate."
+        },
+        {
+            "Q": "On the Innovation Rate, is the point for Obrien, Roberts and Fisher Biotech inside or outside the point for Melton Group Robotics?",
+            "A": "On the Innovation Rate, the point for Obrien, Roberts and Fisher Biotech is outside the point for Melton Group Robotics."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Innovation Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Melton Group Robotics?",
+            "A": "The strongest aspect is {Innovation Rate}, while the weakest aspect is{ Interdisciplinary Collaboration Rate }."
+        },
+        {
+            "Q": "On dimension Innovation Rate, which label scores the highest?",
+            "A": "On Innovation Rate, label {Melton Group Robotics} scores the highest."
+        },
+        {
+            "Q": "On dimension R&D ROI (Return on Investment), which label scores the highest?",
+            "A": "On R&D ROI (Return on Investment), label {Obrien, Roberts and Fisher Biotech} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Melton Group Robotics on the Green Technology Adoption Rate Technology Transfer Success Rate in the radar chart?",
+            "A": "The value of Melton Group Robotics on the Safety dimension is {50}."
+        },
+        {
+            "Q": "What is the value of Melton Group Robotics on the R&D ROI (Return on Investment) in the radar chart?",
+            "A": "The value of Melton Group Robotics on the Safety dimension is {73}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Melton Group Robotics across all dimensions in the radar chart?",
+            "A": "The maximum value of Melton Group Robotics across all dimensions is {66}."
+        },
+        {
+            "Q": "What is the minimum value of label Melton Group Robotics across all dimensions in the radar chart?",
+            "A": "The minimum value of Melton Group Robotics across all dimensions is {77}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Citation Rate",
+            "A": "The average value of Citation Rate is {56.0}."
+        },
+        {
+            "Q": "What is the average value of Obrien, Roberts and Fisher Biotech",
+            "A": "The average value of Obrien, Roberts and Fisher Biotech is {58.86}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Melton Group Robotics in the radar chart, which dimensions have scores between 33 and 81? Please list the dimensions and corresponding scores.",
+            "A": "{Patent Commercialization Rate } is {66}, {Innovation Rate} is {77}, {Green Technology Adoption Rate Technology Transfer Success Rate} is {50}, {Research Growth Rate} is {34}, {Citation Rate} is {59}, {R&D ROI (Return on Investment)} is {73}"
+        },
+        {
+            "Q": "For Melton Group Robotics in the radar chart, which dimensions have scores above 81? Please list the dimensions and corresponding scores.",
+            "A": "{Innovation Rate} is {92}"
+        },
+        {
+            "Q": "Which labels have scores above 58 for the Citation Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Melton Group Robotics} is {59}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Melton Group Robotics, which dimension has a higher score: Patent Commercialization Rate  or Research Growth Rate?",
+            "A": "{Patent Commercialization Rate } has a higher score than Research Growth Rate for Melton Group Robotics."
+        },
+        {
+            "Q": "On Green Technology Adoption Rate Technology Transfer Success Rate, which label has a higher score: Obrien, Roberts and Fisher Biotech or the Melton Group Robotics?",
+            "A": "{Obrien, Roberts and Fisher Biotech} has a higher score on Green Technology Adoption Rate Technology Transfer Success Rate compared to Melton Group Robotics."
+        },
+        {
+            "Q": "On Research Growth Rate, which label has a higher score: Melton Group Robotics or the Obrien, Roberts and Fisher Biotech?",
+            "A": "{Obrien, Roberts and Fisher Biotech} has a higher score on Research Growth Rate compared to Melton Group Robotics."
+        },
+        {
+            "Q": "For Obrien, Roberts and Fisher Biotech, which dimension has a higher score: Research Growth Rate or Patent Commercialization Rate  or Innovation Rate?",
+            "A": "{Innovation Rate} has a higher score for Obrien, Roberts and Fisher Biotech."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Obrien, Roberts and Fisher Biotech, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Obrien, Roberts and Fisher Biotech most needs to improve its {Interdisciplinary Collaboration Rate }."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Obrien, Roberts and Fisher Biotech}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Melton Group Robotics}."
+        }
+    ],
+    "VA": []
+}

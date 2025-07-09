@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Natural Gas?",
+            "A": "The next arc clockwise from arc Natural Gas is arc {Oil}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Wind?",
+            "A": "The next arc counterclockwise from arc Wind is arc {Oil}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Oil} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Wind} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Natural Gas to Oil in the chord chart?",
+            "A": "The flow value is {69}."
+        },
+        {
+            "Q": "What is the flow value from Oil to Wind in the chord chart?",
+            "A": "The flow value is {503}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Oil and Natural Gas in the chord chart?",
+            "A": "The maximum flow value between Oil and Natural Gas is {197}."
+        },
+        {
+            "Q": "What is the minimum flow value between Wind and Natural Gas in the chord chart?",
+            "A": "The minimum flow value between Wind and Natural Gas is {199}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {503}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {69}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Wind?",
+            "A": "The total flow output from Wind is {581}."
+        },
+        {
+            "Q": "What is the total flow input by Oil?",
+            "A": "The total flow input by Oil is {451}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 445? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {503} from {Oil} to {Wind}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 198? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {69} from {Natural Gas} to {Oil}, a flow of {197} from {Oil} to {Natural Gas}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 198 and 290? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {199} from {Wind} to {Natural Gas}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Wind to Natural Gas or from Oil to Natural Gas?",
+            "A": "The flow from {Wind} to {Natural Gas} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Natural Gas to Oil, from Oil to Wind, or from Wind to Natural Gas?",
+            "A": "The flow from {Oil} to {Wind} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Oil}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Oil} and {Wind}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Oil, Arc Wind, Arc Natural Gas}."
+        }
+    ]
+}

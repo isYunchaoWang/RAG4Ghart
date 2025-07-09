@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {89} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive u shape correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension R&D investment in the scatter plot?",
+            "A": "The maximum observed value in the R&D investment dimension is {100000000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension R&D investment in the scatter plot?",
+            "A": "The minimum observed value in the R&D investment dimension is {100000.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension E-commerce sales in the scatter plot?",
+            "A": "The maximum observed value in the E-commerce sales dimension is {1000000000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension E-commerce sales in the scatter plot?",
+            "A": "The minimum observed value in the E-commerce sales dimension is {10000.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the R&D investment for all points?",
+            "A": "The average value of R&D investment for all points is {50050000.00}."
+        },
+        {
+            "Q": "What is the average value of the E-commerce sales for all points?",
+            "A": "The average value of E-commerce sales for all points is {362373110.67}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the E-commerce sales values corresponding to the top 3 R&D investment values in the scatter plot?",
+            "A": "{935467990.30, 963734432.45, 921289342.68}."
+        },
+        {
+            "Q": "What are the E-commerce sales values corresponding to the bottom 3 R&D investment values in the scatter plot?",
+            "A": "{1000000000.00, 925784677.67, 835138919.14}."
+        },
+        {
+            "Q": "What are the R&D investment values corresponding to the top 3 E-commerce sales values in the scatter plot?",
+            "A": "{100000.00, 98864772.73, 100000000.00}."
+        },
+        {
+            "Q": "What are the R&D investment values corresponding to the bottom 3 E-commerce sales values in the scatter plot?",
+            "A": "{48914772.73, 51185227.27, 42103409.09}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 29206075.03 and 52448521.90 and Y coordinates between 209237253.96 and 476926644.75?",
+            "A": "There are {2} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(100000.00, 1000000000.00) and (48914772.73, 10000.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(63672727.27, 88849896.00) and (64807954.55, 89000354.32)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [58677727.27, 38850396.00, 69802954.55, 138999854.32] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (63672727.27, 88849896.00)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [10565502.03, 554838640.38, 31548940.43, 858428269.86]; Region B: [30972344.36, 135918249.62, 51955782.75, 439507879.10]; Region C: [53748621.71, 10000.00, 74732060.11, 303599629.48]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

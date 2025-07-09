@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {81} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {9} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {9} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {horizontal gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Apparel and Marketing in the heatmap?",
+            "A": "The heat value is {0.68}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Home Goods and Sales in the heatmap?",
+            "A": "The heat value is {0.43}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Furniture and Marketing in the heatmap?",
+            "A": "The heat value is {0.55}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Toys and Inventory in the heatmap?",
+            "A": "The heat value is {0.26}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.72}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.24}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Sports on the x-axis?",
+            "A": "The maximum heat value of Sports on the x-axis is {0.34}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Books on the x-axis?",
+            "A": "The maximum heat value of Books on the x-axis is {0.66}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Sales on the y-axis?",
+            "A": "The average heat value for Sales on the y-axis is {0.49}."
+        },
+        {
+            "Q": "What is the average heat value for label Home Goods on the x-axis?",
+            "A": "The average heat value for Home Goods on the x-axis is {0.44}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Jewelry and Omnichannel or the cell corresponding to Books and Sales?",
+            "A": "The cell corresponding to {Books} and {Sales} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Jewelry and Marketing or the cell corresponding to Toys and Omnichannel?",
+            "A": "The cell corresponding to {Jewelry} and {Marketing} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Furniture and Sales or the cell corresponding to Apparel and Subscription?",
+            "A": "The cell corresponding to {Apparel} and {Subscription} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Furniture and Inventory or the cell corresponding to Beauty and Omnichannel?",
+            "A": "The cell corresponding to {Beauty} and {Omnichannel} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.52 to 0.56?",
+            "A": "The cells are: {(Furniture, Customer Service), (Furniture, Inventory), (Furniture, Marketing), (Furniture, Omnichannel), (Furniture, Online), (Furniture, Sales), (Furniture, Subscription)}."
+        }
+    ],
+    "VA": []
+}

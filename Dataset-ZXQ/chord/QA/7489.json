@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {6} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Operations Department?",
+            "A": "The next arc clockwise from arc Operations Department is arc {Admin and Facilities}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Sales Department?",
+            "A": "The next arc counterclockwise from arc Sales Department is arc {Admin and Facilities}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Human Resources Department} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Sales Department} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Finance Department to Admin and Facilities in the chord chart?",
+            "A": "The flow value is {170}."
+        },
+        {
+            "Q": "What is the flow value from Finance Department to Human Resources Department in the chord chart?",
+            "A": "The flow value is {31}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Sales Department and Finance Department in the chord chart?",
+            "A": "The maximum flow value between Sales Department and Finance Department is {168}."
+        },
+        {
+            "Q": "What is the minimum flow value between Operations Department and Human Resources Department in the chord chart?",
+            "A": "The minimum flow value between Operations Department and Human Resources Department is {88}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {206}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {31}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Operations Department?",
+            "A": "The total flow output from Operations Department is {120}."
+        },
+        {
+            "Q": "What is the total flow input by Admin and Facilities?",
+            "A": "The total flow input by Admin and Facilities is {251}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 191? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {206} from {Human Resources Department} to {Sales Department}, a flow of {195} from {Sales Department} to {Human Resources Department}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 40? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {31} from {Finance Department} to {Human Resources Department}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 84 and 147? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {88} from {Human Resources Department} to {Operations Department}, a flow of {120} from {Operations Department} to {Human Resources Department}, a flow of {126} from {Sales Department} to {Finance Department}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Human Resources Department to Operations Department or from Human Resources Department to Admin and Facilities?",
+            "A": "The flow from {Human Resources Department} to {Operations Department} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Finance Department to Admin and Facilities, from Human Resources Department to Finance Department, or from Operations Department to Human Resources Department?",
+            "A": "The flow from {Finance Department} to {Admin and Facilities} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Operations Department}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Human Resources Department} and {Sales Department}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Admin and Facilities, Arc Finance Department, Arc Sales Department, Arc Human Resources Department, Arc Operations Department}."
+        }
+    ]
+}

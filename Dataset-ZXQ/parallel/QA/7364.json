@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Average length of stay (days) dimension, what is the spatial relationship of Lopez, Watts and Shea  Medical Center relative to Meza, White and Butler  Hospital in terms of vertical (above/below) direction?",
+            "A": "{Lopez, Watts and Shea  Medical Center} is {above} {Meza, White and Butler  Hospital} on the Average length of stay (days) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Average length of stay (days)?",
+            "A": "The first position to the left of Average length of stay (days) is {Medication error rate (per 1000)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Wait time (minutes)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Readmission rate (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Wait time (minutes)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Staff-to-patient ratio (per shift) and dimension Wait time (minutes)",
+            "A": "There is {Weak Correlation} between Staff-to-patient ratio (per shift) and Wait time (minutes)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Meza, White and Butler  Hospital on the Readmission rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Meza, White and Butler  Hospital on the Readmission rate (%) dimension is {1.0}"
+        },
+        {
+            "Q": "What is the value of Barnes-Fernandez  Hospital on the Readmission rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Barnes-Fernandez  Hospital on the Readmission rate (%) dimension is {25.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Barnes-Fernandez  Hospital across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Barnes-Fernandez  Hospital across all dimensions is {239.64}"
+        },
+        {
+            "Q": "What is the minimum value of label Lopez, Watts and Shea  Medical Center across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Lopez, Watts and Shea  Medical Center across all dimensions is {1.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Preventive care rate (%)?",
+            "A": "The average value of Preventive care rate (%) is {44.79}"
+        },
+        {
+            "Q": "What is the difference in coding Medication error rate (per 1000) between label Meza, White and Butler  Hospital and label Barnes-Fernandez  Hospital",
+            "A": "The difference in coding Medication error rate (per 1000) between Meza, White and Butler  Hospital and Barnes-Fernandez  Hospital is {20.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Average length of stay (days) dimension in the parallel coordinates?",
+            "A": "{[14.0, 2.86, 1.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Medication error rate (per 1000) dimension in the parallel coordinates?",
+            "A": "{[0.0, 1.23, 20.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Readmission rate (%), which label has a higher score: Barnes-Fernandez  Hospital or Lopez, Watts and Shea  Medical Center?",
+            "A": "{Barnes-Fernandez  Hospital} has a higher score on Readmission rate (%)."
+        },
+        {
+            "Q": "On Wait time (minutes), which label has a higher score: Meza, White and Butler  Hospital or Lopez, Watts and Shea  Medical Center?",
+            "A": "{Meza, White and Butler  Hospital} has a higher score on Wait time (minutes)."
+        },
+        {
+            "Q": "On Readmission rate (%), which label has a higher score: Lopez, Watts and Shea  Medical Center or Barnes-Fernandez  Hospital?",
+            "A": "{Barnes-Fernandez  Hospital} has a higher score on Readmission rate (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Wait time (minutes)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Staff-to-patient ratio (per shift) being greater than 12.4 and Readmission rate (%) being less than 8.74?",
+            "A": "There are {0} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

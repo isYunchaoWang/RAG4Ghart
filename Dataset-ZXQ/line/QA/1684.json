@@ -1,0 +1,160 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Meridian Art Collective, what is the spatial relationship of the data point in 2012 relative to that in 1996 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Meridian Art Collective, the data point in 2012 is {above} and to the {right} of the data point in 1996."
+        },
+        {
+            "Q": "In 1995, what is the vertical (above/below) relationship of the line representing The Gilded Frame relative to Meridian Art Collective?",
+            "A": "In 1995, The Gilded Frame is {below} Meridian Art Collective in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of The Gilded Frame's Art Gallery Visitors levels?",
+            "A": "The Gilded Frame's art gallery visitors levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Aura Fine Arts's Art Gallery Visitors levels?",
+            "A": "Aura Fine Arts's art gallery visitors levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Art Collective's Art Gallery Visitors levels?",
+            "A": "Meridian Art Collective's art gallery visitors levels show a {single valley} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Art Gallery Visitors levels?",
+            "A": "{The Gilded Frame}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is The Gilded Frame's Art Gallery Visitors in 2010?",
+            "A": "The Gilded Frame's art gallery visitors in 2010 is {228796.10} visitors."
+        },
+        {
+            "Q": "What is Meridian Art Collective's Art Gallery Visitors in 1998?",
+            "A": "Meridian Art Collective's art gallery visitors in 1998 is {272014.48} visitors."
+        },
+        {
+            "Q": "What is Meridian Art Collective's Art Gallery Visitors in 1997?",
+            "A": "Meridian Art Collective's art gallery visitors in 1997 is {310055.25} visitors."
+        },
+        {
+            "Q": "What are the art gallery visitors of Aura Fine Arts, The Gilded Frame, and Meridian Art Collective in 2007?",
+            "A": "Aura Fine Arts's art gallery visitors is {274265.61} visitors, The Gilded Frame's art gallery visitors is {273402.92} visitors, Meridian Art Collective's art gallery visitors is {153986.71} visitors."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Art Gallery Visitors in the line chart?",
+            "A": "The global minimum art gallery visitors is {102577.96} visitors."
+        },
+        {
+            "Q": "What is the global maximum Art Gallery Visitors in the line chart?",
+            "A": "The global maximum art gallery visitors is {415523.08} visitors."
+        },
+        {
+            "Q": "What is the highest Art Gallery Visitors level recorded for Aura Fine Arts?",
+            "A": "Aura Fine Arts reached approximately {331006.97} visitors in {2017}."
+        },
+        {
+            "Q": "What is the lowest Art Gallery Visitors level recorded for Aura Fine Arts?",
+            "A": "Aura Fine Arts's lowest recorded level is approximately {190701.78} visitors in {1992}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in The Gilded Frame's Art Gallery Visitors from the starting year to the final year?",
+            "A": "The rate of decline in The Gilded Frame's art gallery visitors is {-0.14}%."
+        },
+        {
+            "Q": "What is the rate of change in Aura Fine Arts's Art Gallery Visitors from the starting year to the final year?",
+            "A": "The rate of growth in Aura Fine Arts's art gallery visitors is {73.57}%."
+        },
+        {
+            "Q": "What is the average value of The Gilded Frame's Art Gallery Visitors?",
+            "A": "The average value of The Gilded Frame's art gallery visitors is {275922.99} visitors."
+        },
+        {
+            "Q": "What is the average value of Aura Fine Arts's Art Gallery Visitors?",
+            "A": "The average value of Aura Fine Arts's art gallery visitors is {259313.22} visitors."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Aura Fine Arts's Art Gallery Visitors exceed 295173 visitors? Please list the years and corresponding values.",
+            "A": "{318767.04} visitors in {2015} year, {306529.31} visitors in {2013} year, {301097.56} visitors in {2012} year."
+        },
+        {
+            "Q": "Which years did Meridian Art Collective's Art Gallery Visitors between 185175 and 356498 visitors? Please list the years and corresponding values.",
+            "A": "{272014.48} visitors in {1998} year, {269461.47} visitors in {2010} year, {336854.30} visitors in {2012} year."
+        },
+        {
+            "Q": "Which years did The Gilded Frame's Art Gallery Visitors below 230718 visitors? Please list the years and corresponding values.",
+            "A": "{207248.16} visitors in {2001} year, {208773.49} visitors in {2006} year, {216502.75} visitors in {2011} year."
+        },
+        {
+            "Q": "In the year 2008, which lines had Art Gallery Visitors between 242983 and 302796 visitors? Please list the lines and corresponding values.",
+            "A": "{Aura Fine Arts} had {278638} visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 2009, which line had the highest Art Gallery Visitors, Aura Fine Arts, Meridian Art Collective, or The Gilded Frame?",
+            "A": "In 2009, {The Gilded Frame} had the highest art gallery visitors."
+        },
+        {
+            "Q": "Was Meridian Art Collective's Art Gallery Visitors in 2002 higher or lower than in 2013?",
+            "A": "The art gallery visitors in 2002 was {lower} than in 2013."
+        },
+        {
+            "Q": "Between 1992 and 1996, which line had a higher average Art Gallery Visitors, The Gilded Frame or Aura Fine Arts?",
+            "A": "{The Gilded Frame} had a higher average art gallery visitors."
+        },
+        {
+            "Q": "Between 2004 and 2016, which line experienced the largest change in Art Gallery Visitors, The Gilded Frame, Meridian Art Collective, or Aura Fine Arts?",
+            "A": "{Meridian Art Collective} experienced the largest change in art gallery visitors."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Meridian Art Collective}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2007 and 2010?",
+            "A": "{Meridian Art Collective} has the fastest average growth rate between 2007 and 2010."
+        },
+        {
+            "Q": "In which year did Meridian Art Collective first surpass The Gilded Frame?",
+            "A": "Meridian Art Collective first surpassed The Gilded Frame in the year {2010}."
+        },
+        {
+            "Q": "In which year did The Gilded Frame first surpass Meridian Art Collective?",
+            "A": "The Gilded Frame first surpassed Meridian Art Collective in the year {1998}."
+        },
+        {
+            "Q": "Which label had the leading art gallery visitors since 2012?",
+            "A": "Since 2012, {Meridian Art Collective} had the leading art gallery visitors."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Aura Fine Arts. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1992, 2017}."
+        }
+    ]
+}

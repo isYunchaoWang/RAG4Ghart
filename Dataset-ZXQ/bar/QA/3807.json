@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {15} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Oakridge}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Northgate}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Northgate relative to the bar Brookfield in terms of horizontal (left/right) direction?",
+            "A": "Bar Northgate is to the {right} of the bar Brookfield."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Dunvale}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Pinehaven}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Elmhurst?",
+            "A": "The value of Elmhurst is {5520} thousand students."
+        },
+        {
+            "Q": "What is the value of bar Ashford?",
+            "A": "The value of Ashford is {2537} thousand students."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum thousand students in the bar chart?",
+            "A": "The maximum thousand students is {6000} thousand students."
+        },
+        {
+            "Q": "What is the minimum thousand students in the bar chart?",
+            "A": "The minimum thousand students is {552} thousand students."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Highvale and Northgate?",
+            "A": "The total value of Highvale and Northgate is {7879} thousand students."
+        },
+        {
+            "Q": "What is the average value of Oakridge and Elmhurst?",
+            "A": "The average value of Oakridge and Elmhurst is {4561.5} thousand students."
+        },
+        {
+            "Q": "What is the difference between Yorkton and Ironwood?",
+            "A": "The difference between Yorkton and Ironwood is {207} thousand students."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have thousand students values exceed 4806.00 thousand students? Please list the bars and corresponding thousand students values?",
+            "A": "{Elmhurst} has {5520} thousand students, {Dunvale} has {6000} thousand students."
+        },
+        {
+            "Q": "Which bars have {thousand students} values below 2088.00 thousand students? Please list the bars and corresponding thousand students values?",
+            "A": "{Pinehaven} has {552} thousand students, {Lakeview} has {1355} thousand students, {Springfield} has {1822} thousand students."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Ashford or Northgate ",
+            "A": "The value of the {Northgate} is larger?"
+        },
+        {
+            "Q": "Which is larger, Pinehaven, Quarryville or Brookfield ",
+            "A": "The value of the {Quarryville} is larger?"
+        },
+        {
+            "Q": "Which is larger, Ironwood, Yorkton, Northgate or Springfield ",
+            "A": "The value of the {Northgate} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {9} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Dunvale} and {Pinehaven}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Dunvale}, {Elmhurst}, and {Northgate}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by thousand students values in descending order and list the labels from left to right.",
+            "A": "Sorted by thousand students value descending: {Dunvale}, {Elmhurst}, {Northgate}, {Highvale}, {Mapleton}, {Quarryville}, {Oakridge}, {Zephyr}, {Brookfield}, {Ironwood}, {Ashford}, {Yorkton}, {Springfield}, {Lakeview}, and {Pinehaven}."
+        },
+        {
+            "Q": "Sort the bars by thousand students values in ascending order and list the labels from left to right.",
+            "A": "Sorted by thousand students value ascending: {Pinehaven}, {Lakeview}, {Springfield}, {Yorkton}, {Ashford}, {Ironwood}, {Brookfield}, {Zephyr}, {Oakridge}, {Quarryville}, {Mapleton}, {Highvale}, {Northgate}, {Elmhurst}, and {Dunvale}."
+        }
+    ]
+}

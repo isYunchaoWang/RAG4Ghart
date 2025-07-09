@@ -1,0 +1,34 @@
+Human Resources and Employee Management,Employee Management System,Employees,random,Interview Stages,Recruitment Sources,Performance Ratings,Onboarding Steps
+Source,Target,Value
+Phone Screen,Social Media,577
+Phone Screen,Recruitment Agencies,1668
+Technical Interview,Social Media,1084
+Technical Interview,Recruitment Agencies,1215
+HR Interview,Social Media,1554
+HR Interview,Recruitment Agencies,2372
+Final Interview,Social Media,674
+Final Interview,Recruitment Agencies,622
+Social Media,Below Average,634
+Social Media,Good,1234
+Social Media,Excellent,1300
+Social Media,Average,721
+Recruitment Agencies,Below Average,1275
+Recruitment Agencies,Good,697
+Recruitment Agencies,Excellent,2031
+Recruitment Agencies,Average,1874
+Below Average,Orientation,177
+Below Average,Document Verification,91
+Below Average,Mentorship Assignment,828
+Below Average,Training Program,813
+Good,Orientation,345
+Good,Document Verification,844
+Good,Mentorship Assignment,651
+Good,Training Program,91
+Excellent,Orientation,744
+Excellent,Document Verification,805
+Excellent,Mentorship Assignment,177
+Excellent,Training Program,1605
+Average,Orientation,607
+Average,Document Verification,619
+Average,Mentorship Assignment,486
+Average,Training Program,883

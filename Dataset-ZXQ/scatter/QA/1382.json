@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {81} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Infrastructure age in the scatter plot?",
+            "A": "The maximum observed value in the Infrastructure age dimension is {50.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Infrastructure age in the scatter plot?",
+            "A": "The minimum observed value in the Infrastructure age dimension is {0.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Reliability index in the scatter plot?",
+            "A": "The maximum observed value in the Reliability index dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Reliability index in the scatter plot?",
+            "A": "The minimum observed value in the Reliability index dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Infrastructure age for all points?",
+            "A": "The average value of Infrastructure age for all points is {25.00}."
+        },
+        {
+            "Q": "What is the average value of the Reliability index for all points?",
+            "A": "The average value of Reliability index for all points is {55.73}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Reliability index values corresponding to the top 3 Infrastructure age values in the scatter plot?",
+            "A": "{90.50, 94.86, 56.15}."
+        },
+        {
+            "Q": "What are the Reliability index values corresponding to the bottom 3 Infrastructure age values in the scatter plot?",
+            "A": "{40.31, 45.55, 23.16}."
+        },
+        {
+            "Q": "What are the Infrastructure age values corresponding to the top 3 Reliability index values in the scatter plot?",
+            "A": "{35.00, 49.38, 21.88}."
+        },
+        {
+            "Q": "What are the Infrastructure age values corresponding to the bottom 3 Reliability index values in the scatter plot?",
+            "A": "{3.75, 6.25, 14.37}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 13.90 and 25.21 and Y coordinates between 55.88 and 67.57?",
+            "A": "There are {2} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(3.75, 0.00) and (49.38, 94.86)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(24.38, 36.88) and (25.00, 36.61)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [21.88, 31.61, 27.50, 41.88] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (24.38, 36.88)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [5.64, 55.20, 17.66, 83.92]; Region B: [18.68, 22.39, 30.70, 51.10]; Region C: [35.91, 70.06, 47.94, 98.78]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region B."
+        }
+    ]
+}

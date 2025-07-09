@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {100} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive exponential correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Athlete age in the scatter plot?",
+            "A": "The maximum observed value in the Athlete age dimension is {40.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Athlete age in the scatter plot?",
+            "A": "The minimum observed value in the Athlete age dimension is {15.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Win rate in the scatter plot?",
+            "A": "The maximum observed value in the Win rate dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Win rate in the scatter plot?",
+            "A": "The minimum observed value in the Win rate dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Athlete age for all points?",
+            "A": "The average value of Athlete age for all points is {27.50}."
+        },
+        {
+            "Q": "What is the average value of the Win rate for all points?",
+            "A": "The average value of Win rate for all points is {47.35}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Win rate values corresponding to the top 3 Athlete age values in the scatter plot?",
+            "A": "{97.01, 84.53, 100.00}."
+        },
+        {
+            "Q": "What are the Win rate values corresponding to the bottom 3 Athlete age values in the scatter plot?",
+            "A": "{0.00, 20.26, 30.38}."
+        },
+        {
+            "Q": "What are the Athlete age values corresponding to the top 3 Win rate values in the scatter plot?",
+            "A": "{39.49, 40.00, 37.98}."
+        },
+        {
+            "Q": "What are the Athlete age values corresponding to the bottom 3 Win rate values in the scatter plot?",
+            "A": "{15.00, 24.85, 17.02}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 33.54 and 37.43 and Y coordinates between 8.86 and 30.11?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(15.00, 0.00) and (39.49, 100.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(25.35, 36.22) and (25.61, 36.27)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [24.10, 31.22, 26.86, 41.27] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (25.35, 36.22)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [27.82, 61.54, 33.43, 92.20]; Region B: [15.87, 14.86, 21.49, 45.52]; Region C: [22.67, 20.91, 28.29, 51.58]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

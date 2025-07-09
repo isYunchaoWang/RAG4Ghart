@@ -1,0 +1,80 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stream chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stream chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Starfall Organics relative to Sunstone Farms?",
+            "A": "Starfall Organics is {below} Sunstone Farms in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Ironwood Ranch relative to Sunstone Farms?",
+            "A": "Ironwood Ranch is {below} Sunstone Farms in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Starfall Organics relative to Ironwood Ranch?",
+            "A": "Starfall Organics is {below} Ironwood Ranch in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total crop yield?",
+            "A": "The series with the largest contribution is {Ironwood Ranch}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total crop yield?",
+            "A": "The series with the smallest contribution is {Golden Harvest Cooperative}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which year is Golden Harvest Cooperative's minimum Crop Yield in the streamgraph?",
+            "A": "Golden Harvest Cooperative's minimum Crop Yield is in {1999}."
+        },
+        {
+            "Q": "Which year is Ironwood Ranch's maximum Crop Yield in the streamgraph?",
+            "A": "Ironwood Ranch's maximum Crop Yield is in {2000}."
+        }
+    ],
+    "SC": [],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Was the total Crop Yield in 1978 higher or lower than in 1993?",
+            "A": "The total crop yield in 1978 was {lower} than in 1993."
+        },
+        {
+            "Q": "Was the total Crop Yield in 1981 higher or lower than in 1983?",
+            "A": "The total crop yield in 1981 was {higher} than in 1983."
+        },
+        {
+            "Q": "Between 1984 and 1991, was the average total Crop Yield higher or lower than between 1997 and 2000?",
+            "A": "The average total crop yield between 1984 and 1991 was {lower} than between 1997 and 2000."
+        },
+        {
+            "Q": "Between 1987 and 1991, did the total Crop Yield experience a larger or smaller change than between 1988 and 1996?",
+            "A": "The change in total crop yield between 1987 and 1991 was {larger} than between 1988 and 1996."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In this streamgraph, which one held the dominant position for the longest period of time?",
+            "A": "{Ironwood Ranch} held the dominant position for the longest period of time."
+        },
+        {
+            "Q": "In this streamgraph, in which year did Sunstone Farms and Ironwood Ranch first exchange dominant positions?",
+            "A": "Sunstone Farms and Ironwood Ranch did not exchange leading positions."
+        }
+    ],
+    "VA": []
+}

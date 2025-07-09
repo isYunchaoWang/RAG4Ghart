@@ -1,0 +1,20 @@
+Human Resources and Employee Management ,Employee Distribution by Category (2021),%
+parent,child,value
+Root,Employee Lifecycle,43.59
+Employee Lifecycle,Onboarding,37.87
+Onboarding,Orientation,24.06
+Orientation,Facility Tours,5.87
+Orientation,Welcome Sessions,11.9
+Orientation,Policy Training,6.29
+Onboarding,Mentorship,13.81
+Mentorship,Shadowing Programs,7.77
+Mentorship,Buddy System,6.04
+Employee Lifecycle,Recruitment,5.72
+Root,Workplace Wellbeing,28.16
+Workplace Wellbeing,Work-Life Balance,15.16
+Work-Life Balance,Flexible Scheduling,6.86
+Work-Life Balance,Employee Assistance,8.3
+Workplace Wellbeing,Health & Safety,13.0
+Health & Safety,Emergency Response,13.0
+Root,Employee Development,28.24
+Employee Development,Training Programs,28.24

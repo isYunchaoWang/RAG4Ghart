@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {94} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive u shape correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Customer reviews count in the scatter plot?",
+            "A": "The maximum observed value in the Customer reviews count dimension is {10000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Customer reviews count in the scatter plot?",
+            "A": "The minimum observed value in the Customer reviews count dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Sales volume in the scatter plot?",
+            "A": "The maximum observed value in the Sales volume dimension is {1000000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Sales volume in the scatter plot?",
+            "A": "The minimum observed value in the Sales volume dimension is {100.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Customer reviews count for all points?",
+            "A": "The average value of Customer reviews count for all points is {5000.50}."
+        },
+        {
+            "Q": "What is the average value of the Sales volume for all points?",
+            "A": "The average value of Sales volume for all points is {395748.89}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Sales volume values corresponding to the top 3 Customer reviews count values in the scatter plot?",
+            "A": "{970734.72, 861031.62, 923594.84}."
+        },
+        {
+            "Q": "What are the Sales volume values corresponding to the bottom 3 Customer reviews count values in the scatter plot?",
+            "A": "{1000000.00, 940923.74, 981941.84}."
+        },
+        {
+            "Q": "What are the Customer reviews count values corresponding to the top 3 Sales volume values in the scatter plot?",
+            "A": "{1.00, 216.03, 10000.00}."
+        },
+        {
+            "Q": "What are the Customer reviews count values corresponding to the bottom 3 Sales volume values in the scatter plot?",
+            "A": "{5484.32, 4301.65, 4946.74}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 1070.27 and 2471.65 and Y coordinates between 685318.00 and 938313.93?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(1.00, 1000000.00) and (5484.32, 100.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(6344.45, 118731.12) and (6882.03, 118961.88)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [5844.50, 68736.12, 7381.98, 168956.88] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (6344.45, 118731.12)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [2892.00, 84815.72, 4888.89, 340807.97]; Region B: [526.53, 303012.01, 2523.42, 559004.25]; Region C: [5614.79, 100.00, 7611.69, 246842.62]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

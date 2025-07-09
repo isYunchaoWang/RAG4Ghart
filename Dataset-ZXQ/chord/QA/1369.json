@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Quinnview?",
+            "A": "The next arc clockwise from arc Quinnview is arc {Burtonville}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Quinnview?",
+            "A": "The next arc counterclockwise from arc Quinnview is arc {Dodsonburgh}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Dodsonburgh} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Quinnview} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Dodsonburgh to Quinnview in the chord chart?",
+            "A": "The flow value is {1111}."
+        },
+        {
+            "Q": "What is the flow value from Burtonville to Dodsonburgh in the chord chart?",
+            "A": "The flow value is {480}."
+        },
+        {
+            "Q": "What is the flow value from Quinnview to Dodsonburgh in the chord chart?",
+            "A": "The flow value is {1029}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Burtonville and Dodsonburgh in the chord chart?",
+            "A": "The maximum flow value between Burtonville and Dodsonburgh is {480}."
+        },
+        {
+            "Q": "What is the minimum flow value between Burtonville and Quinnview in the chord chart?",
+            "A": "The minimum flow value between Burtonville and Quinnview is {659}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {1111}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {357}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Dodsonburgh?",
+            "A": "The total flow output from Dodsonburgh is {1468}."
+        },
+        {
+            "Q": "What is the total flow input by Dodsonburgh?",
+            "A": "The total flow input by Dodsonburgh is {1509}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 1070? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {1111} from {Dodsonburgh} to {Quinnview}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 569? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {480} from {Burtonville} to {Dodsonburgh}, a flow of {357} from {Dodsonburgh} to {Burtonville}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 569 and 928? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {827} from {Burtonville} to {Quinnview}, a flow of {659} from {Quinnview} to {Burtonville}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Burtonville to Dodsonburgh or from Quinnview to Dodsonburgh?",
+            "A": "The flow from {Quinnview} to {Dodsonburgh} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Dodsonburgh to Quinnview, from Burtonville to Quinnview, or from Dodsonburgh to Burtonville?",
+            "A": "The flow from {Dodsonburgh} to {Quinnview} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Burtonville}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Dodsonburgh} and {Quinnview}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Burtonville, Arc Quinnview, Arc Dodsonburgh}."
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Time-to-Fill Rate?",
+            "A": "The next dimension clockwise from Time-to-Fill Rate is Pay Equity Ratio"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Time-to-Fill Rate?",
+            "A": "The next dimension counterclockwise from Time-to-Fill Rate is Promotion Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Time-to-Fill Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Fuller, Baker and Jackson?",
+            "A": "The strongest aspect is {Time-to-Fill Rate}, while the weakest aspect is{ Promotion Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Fuller, Baker and Jackson on the Promotion Rate in the radar chart?",
+            "A": "The value of Fuller, Baker and Jackson on the Safety dimension is {31}."
+        },
+        {
+            "Q": "What is the value of Fuller, Baker and Jackson on the Turnover Rate in the radar chart?",
+            "A": "The value of Fuller, Baker and Jackson on the Safety dimension is {42}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Fuller, Baker and Jackson across all dimensions in the radar chart?",
+            "A": "The maximum value of Fuller, Baker and Jackson across all dimensions is {42}."
+        },
+        {
+            "Q": "What is the minimum value of label Fuller, Baker and Jackson across all dimensions in the radar chart?",
+            "A": "The minimum value of Fuller, Baker and Jackson across all dimensions is {42}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Pay Equity Ratio",
+            "A": "The average value of Pay Equity Ratio is {70.0}."
+        },
+        {
+            "Q": "What is the average value of Fuller, Baker and Jackson",
+            "A": "The average value of Fuller, Baker and Jackson is {55.6}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 31 for the Promotion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Fuller, Baker and Jackson} is {31}"
+        },
+        {
+            "Q": "For Fuller, Baker and Jackson in the radar chart, which dimensions have scores above 67? Please list the dimensions and corresponding scores.",
+            "A": "{Time-to-Fill Rate} is {76}, {Pay Equity Ratio} is {70}"
+        },
+        {
+            "Q": "Which labels have scores above 31 for the Promotion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Fuller, Baker and Jackson} is {31}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Fuller, Baker and Jackson, which dimension has a higher score: Retention Rate or Pay Equity Ratio?",
+            "A": "{Pay Equity Ratio} has a higher score than Retention Rate for Fuller, Baker and Jackson."
+        },
+        {
+            "Q": "For Fuller, Baker and Jackson, which dimension has a higher score: Promotion Rate or Turnover Rate?",
+            "A": "{Turnover Rate} has a higher score than Promotion Rate for Fuller, Baker and Jackson."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Fuller, Baker and Jackson, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Fuller, Baker and Jackson most needs to improve its {Promotion Rate}."
+        }
+    ],
+    "VA": []
+}

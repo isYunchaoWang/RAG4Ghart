@@ -1,0 +1,128 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {14} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {Nightfall}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {Plain Sight}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Hidden Truth relative to the bar Iron Heart in terms of vetical (above/below) direction??",
+            "A": "Bar Hidden Truth is  {below} the bar Iron Heart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Nightfall}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Wild Bloom}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar True Edge?",
+            "A": "The value of True Edge is {1980} million USD."
+        },
+        {
+            "Q": "What is the value of bar Plain Sight?",
+            "A": "The value of Plain Sight is {1628} million USD."
+        },
+        {
+            "Q": "What is the value of bar Broken Mirror?",
+            "A": "The value of Broken Mirror is {3043} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum million USD in the bar chart?",
+            "A": "The maximum million USD is {4873} million USD."
+        },
+        {
+            "Q": "What is the minimum million USD in the bar chart?",
+            "A": "The minimum million USD is {1337} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Iron Heart and Shadow Line?",
+            "A": "The total value of Iron Heart and Shadow Line is {4688} million USD."
+        },
+        {
+            "Q": "What is the average value of Twin Souls and Iron Heart?",
+            "A": "The average value of Twin Souls and Iron Heart is {2850.5} million USD."
+        },
+        {
+            "Q": "What is the difference between True Edge and Lost Signal?",
+            "A": "The difference between True Edge and Lost Signal is {569} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have million USD values exceed 3532.00 million USD? Please list the bars and corresponding million USD values?",
+            "A": "{Echoes} has {3549} million USD, {Nightfall} has {4873} million USD."
+        },
+        {
+            "Q": "Which bars have {million USD} values below 1926.50 million USD? Please list the bars and corresponding million USD values?",
+            "A": "{Wild Bloom} has {1337} million USD, {Plain Sight} has {1628} million USD, {Hidden Truth} has {1873} million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Dark Horizon or Wild Bloom ",
+            "A": "The value of the {Dark Horizon} is larger?"
+        },
+        {
+            "Q": "Which is larger, Nightfall, Twin Souls or Plain Sight ",
+            "A": "The value of the {Nightfall} is larger?"
+        },
+        {
+            "Q": "Which is larger, Hidden Truth, Broken Mirror, Dark Horizon or Nightfall ",
+            "A": "The value of the {Nightfall} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {6} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Twin Souls} and {Wild Bloom}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Nightfall}, {Echoes}, and {Twin Souls}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by million USD values in descending order and list the labels from left to right.",
+            "A": "Sorted by million USD value descending: {Nightfall}, {Echoes}, {Twin Souls}, {Silent Echo}, {Broken Mirror}, {Dark Horizon}, {Lost Signal}, {Shadow Line}, {Iron Heart}, {Deep Waters}, {True Edge}, {Hidden Truth}, {Plain Sight}, and {Wild Bloom}."
+        },
+        {
+            "Q": "Sort the bars by million USD values in ascending order and list the labels from left to right.",
+            "A": "Sorted by million USD value ascending: {Wild Bloom}, {Plain Sight}, {Hidden Truth}, {True Edge}, {Deep Waters}, {Iron Heart}, {Shadow Line}, {Lost Signal}, {Dark Horizon}, {Broken Mirror}, {Silent Echo}, {Twin Souls}, {Echoes}, and {Nightfall}."
+        }
+    ]
+}

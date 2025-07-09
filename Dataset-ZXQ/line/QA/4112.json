@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Crimson Quarter, what is the spatial relationship of the data point in 1957 relative to that in 1958 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Crimson Quarter, the data point in 1957 is {above} and to the {left} of the data point in 1958."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Crimson Quarter's Life Expectancy levels?",
+            "A": "Crimson Quarter's life expectancy levels show a {single valley} trend."
+        },
+        {
+            "Q": "Which line shows a single valley trend in Life Expectancy levels?",
+            "A": "{Crimson Quarter}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Crimson Quarter's Life Expectancy in 1964?",
+            "A": "Crimson Quarter's life expectancy in 1964 is {30.51} years."
+        },
+        {
+            "Q": "What is Crimson Quarter's Life Expectancy in 1963?",
+            "A": "Crimson Quarter's life expectancy in 1963 is {25} years."
+        },
+        {
+            "Q": "What is Crimson Quarter's Life Expectancy in 1957?",
+            "A": "Crimson Quarter's life expectancy in 1957 is {24.95} years."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Life Expectancy in the line chart?",
+            "A": "The global minimum life expectancy is {16.69} years."
+        },
+        {
+            "Q": "What is the global maximum Life Expectancy in the line chart?",
+            "A": "The global maximum life expectancy is {30.51} years."
+        },
+        {
+            "Q": "What is the highest Life Expectancy level recorded for Crimson Quarter?",
+            "A": "Crimson Quarter reached approximately {30.51} years in {1964}."
+        },
+        {
+            "Q": "What is the lowest Life Expectancy level recorded for Crimson Quarter?",
+            "A": "Crimson Quarter's lowest recorded level is approximately {16.69} years in {1960}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Crimson Quarter's Life Expectancy from the starting year to the final year?",
+            "A": "The rate of growth in Crimson Quarter's life expectancy is {22.28}%."
+        },
+        {
+            "Q": "What is the average value of Crimson Quarter's Life Expectancy?",
+            "A": "The average value of Crimson Quarter's life expectancy is {21.73} years."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Crimson Quarter's Life Expectancy below 18 years? Please list the years and corresponding values.",
+            "A": "{17.73} years in {1961} year, {16.69} years in {1960} year, {17.71} years in {1959} year."
+        },
+        {
+            "Q": "Which years did Crimson Quarter's Life Expectancy between 18 and 24 years? Please list the years and corresponding values.",
+            "A": "{20.58} years in {1958} year, {20.64} years in {1962} year."
+        },
+        {
+            "Q": "Which years did Crimson Quarter's Life Expectancy exceed 25 years? Please list the years and corresponding values.",
+            "A": "{25} years in {1963} year, {30.51} years in {1964} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Crimson Quarter's Life Expectancy in 1957 higher or lower than in 1961?",
+            "A": "The life expectancy in 1957 was {higher} than in 1961."
+        },
+        {
+            "Q": "Was Crimson Quarter's Life Expectancy in 1958 higher or lower than in 1963?",
+            "A": "The life expectancy in 1958 was {lower} than in 1963."
+        },
+        {
+            "Q": "Was Crimson Quarter's Life Expectancy in 1960 higher or lower than in 1963?",
+            "A": "The life expectancy in 1960 was {lower} than in 1963."
+        },
+        {
+            "Q": "Was Crimson Quarter's Life Expectancy in 1960 higher or lower than in 1964?",
+            "A": "The life expectancy in 1960 was {lower} than in 1964."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Crimson Quarter. List the x-coordinates of data points to be preserved.(5 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1957, 1959, 1960, 1962, 1964}."
+        }
+    ]
+}

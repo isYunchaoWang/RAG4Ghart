@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Creston}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Westport}."
+        },
+        {
+            "Q": "Which violin is the second position to the left of the violin Westport?",
+            "A": "The second position to the left of the violin Westport is {Creston}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Rosewood relative to the violin Creston in terms of horizontal (left/right) direction?",
+            "A": "violin Rosewood is to the {right} of the violin Creston."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Rosewood}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Rosewood}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Rosewood?",
+            "A": "The density distribution pattern of the Rosewood shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Creston in the violin plot?",
+            "A": "The median of Creston is {3331.50} MWh."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Westport in the violin plot?",
+            "A": "The upper quartile (Q3) of Westport is {3687.00} MWh."
+        },
+        {
+            "Q": "What is the upper whisker limit of Rosewood in the violin plot?",
+            "A": "The upper whisker limit of Rosewood is {5674.00} MWh."
+        },
+        {
+            "Q": "What is the lowest lower outlier value in Creston in the violin plot?",
+            "A": "The lowest upper outlier value in Creston is {2559.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum MWh value in the violin plot?",
+            "A": "The global maximum MWh value in the violin plot is {5674.00} MWh."
+        },
+        {
+            "Q": "What is the global minimum MWh value in the violin plot?",
+            "A": "The global minimum MWh value in the violin plot is {2013.00} MWh."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between violin Westport and Rosewood?",
+            "A": "The Median difference between violin Westport and Rosewood is {1670.50} MWh."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin Westport and Creston?",
+            "A": "The total Q3 value of violin Westport and Westport is {7142.75} MWh."
+        },
+        {
+            "Q": "What is the average Median value of violin Westport and Rosewood?",
+            "A": "The average Median value of violin Westport and Rosewood is {4328.25} MWh."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 3412.25 MWh? Please list the violins and corresponding values.",
+            "A": "{Rosewood} has {5163.50} MWh , {Westport} has {3493.00} MWh "
+        },
+        {
+            "Q": "Which violins have median values below 4328.25 MWh? Please list the violins and corresponding values.",
+            "A": "{Creston} has {3331.50} MWh , {Westport} has {3493.00} MWh "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 3228.12 MWh and the upper quartile (Q3) below 4497.25 MWh?",
+            "A": "Violin {Westport} has the Q1 above 3228.12 MWh and the Q3 below 4497.25 MWh."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 3421.18 MWh?",
+            "A": "Violin {Rosewood} has {5188.43} MWh ,{Westport} has {3498.83} MWh have their highest density peak exceed 3421.18 MWh."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 4343.63 MWh?",
+            "A": "Violin {Creston} has {3343.54} MWh ,{Westport} has {3498.83} MWh have their highest density peak below 4343.63 MWh."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Creston or Westport ",
+            "A": "The median value of the {Westport} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Creston, Rosewood or Westport ",
+            "A": "The median value of the {Rosewood} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Westport}."
+        }
+    ],
+    "VA": []
+}

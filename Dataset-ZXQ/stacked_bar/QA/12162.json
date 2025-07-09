@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {13} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar Stonehill of this stacked bar chart?",
+            "A": "There are {4} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Silverton}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {Northfield}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Riverton relative to the bar Silverton in terms of horizontal (left/right) direction?",
+            "A": "Bar Riverton is to the {right} of the bar Silverton."
+        },
+        {
+            "Q": "In the stacked bar of Springvale, What is the spatial relationship of segment Dark Horizon relative to the segment Echoes in terms of vertical (above/below) direction?",
+            "A": "Dark Horizon segment is positioned {above} the Echoes segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Towns has the highest bar in this stacked bar chart?",
+            "A": "The Towns with the highest bar is {Brookhaven}."
+        },
+        {
+            "Q": "Which Towns has the lowest bar in this stacked bar chart?",
+            "A": "The Towns with the lowest bar is {Fairview}."
+        },
+        {
+            "Q": "In the stacked bar representing Meadowbrook, which segment has the highest value?",
+            "A": "The segment with the highest value is {Echoes}."
+        },
+        {
+            "Q": "In the stacked bar representing Mapleton, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {True Edge}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Plain Sight segment within the Pinecrest bar in the stacked bar chart?",
+            "A": "The value of the Plain Sight segment is {129.83} million USD."
+        },
+        {
+            "Q": "What is the value of the Echoes segment within the Silverton bar in the stacked bar chart?",
+            "A": "The value of the Echoes segment is {141.89} million USD."
+        },
+        {
+            "Q": "What is the value of the Echoes segment within the Stonehill bar in the stacked bar chart?",
+            "A": "The value of the Echoes segment is {244.31} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum million USD among the stacked segments of bar Riverton?",
+            "A": "The maximum million USD among the stacked segments of bar Riverton is {173.93} million USD."
+        },
+        {
+            "Q": "What is the minimum million USD among the stacked segments of bar Silverton?",
+            "A": "The minimum million USD among the stacked segments of bar Silverton is {106.94} million USD."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum million USD of the segment Dark Horizon among the bars?",
+            "A": "The maximum million USD among the bars of segment Dark Horizon is {490.0} million USD."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum million USD of the segment Plain Sight among the bars?",
+            "A": "The minimum million USD among the bars of segment Plain Sight is {106.62} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar Brookhaven?",
+            "A": "The total value of bar Brookhaven is {1292.97} million USD."
+        },
+        {
+            "Q": "What is the total value of the bar Mapleton?",
+            "A": "The total value of bar Mapleton is {933.48} million USD."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {9938.89} million USD."
+        },
+        {
+            "Q": "What is the difference between total value of bar Silverton and Pinecrest?",
+            "A": "The difference between between total value of bar Silverton and Pinecrest is {23.190000000000055} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total million USD values exceed 1151.45 million USD? Please list the bar and corresponding values.",
+            "A": "{Brookhaven} has {1292.9699999999998} million USD"
+        },
+        {
+            "Q": "Which bars have total million USD values below 527.21 million USD? Please list the bar and corresponding values.",
+            "A": "{Fairview} has {464.66999999999996} million USD, {Riverton} has {515.21} million USD, {Meadowbrook} has {517.4200000000001} million USD"
+        },
+        {
+            "Q": "For bar Redstone in the stacked bar chart, which segment have million USD value between 54.26 and 110.015? Please list the segment and corresponding values.",
+            "A": "{Echoes} has {108.52} million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total million USD of Redstone or Eastwood?",
+            "A": "The total million USD of the {Redstone} is larger."
+        },
+        {
+            "Q": "Which is larger, the total million USD of Brookhaven, Northfield or Riverton?",
+            "A": "The total million USD of the {Brookhaven} is larger."
+        },
+        {
+            "Q": "In the bar Meadowbrook, which has a larger million USD value: Plain Sight or Echoes?",
+            "A": "{Echoes} has the larger million USD value."
+        },
+        {
+            "Q": "In the bar Fairview, which has a larger million USD value: True Edge, Plain Sight or Echoes?",
+            "A": "{Echoes} has the larger million USD value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment Dark Horizon in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment Dark Horizon are: {Brookhaven}, {Mapleton}, {Clearview}."
+        }
+    ],
+    "VA": []
+}

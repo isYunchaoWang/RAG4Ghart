@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Thermal Systems in this treemap?",
+            "A": "There are {2} child rectangles under the category Thermal Systems."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Packaging Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Laser-Welded}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Packaging Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Seal Mechanisms rectangle in this treemap?",
+            "A": "The value of the Seal Mechanisms rectangle is {5.31}."
+        },
+        {
+            "Q": "What is the value of the Piston Fillers rectangle in this treemap?",
+            "A": "The value of the Piston Fillers rectangle is {5.31}."
+        },
+        {
+            "Q": "What is the value of the Packaging Systems rectangle in this treemap?",
+            "A": "The value of the Packaging Systems rectangle is {64.32}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {64.32}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.15}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Load Cells and Gasket Sealed?",
+            "A": "The difference between Load Cells and Gasket Sealed is {0.84}."
+        },
+        {
+            "Q": "What is the sum of the regions of Plate Designs and Scroll Compressors?",
+            "A": "The sum of Plate Designs and Scroll Compressors is {17.23}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Thermal Systems category in the treemap, which rectangular labels have a value exceeded 18.17? Please list the labels and values.",
+            "A": "{Blast Chillers} has {18.50}"
+        },
+        {
+            "Q": "Under the Thermal Systems category in the treemap, which rectangular labels have a value below 17.51? Please list the labels and values.",
+            "A": "{Retort Machines} has {17.18}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Packaging Systems or Sealing Equipment?",
+            "A": "The value of {Packaging Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Aseptic Sealers or Vapor Control?",
+            "A": "The value of {Aseptic Sealers} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {8} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

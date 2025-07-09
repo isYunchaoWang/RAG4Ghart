@@ -1,0 +1,77 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {4} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of ProfConnect relative to the peak of ViewTube in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  ProfConnect is to the {left} of the peak of ViewTube."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing ProfConnect show?",
+            "A": "The ridgeline representing ProfConnect shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  SnapFrame reach its peaks?",
+            "A": "At {1.65}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {ProfConnect} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =2.8?",
+            "A": "At X =2.8,the label with the highest density is {ProfConnect}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 7? Please list the countries and corresponding peak values.",
+            "A": "No matching label."
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 6? Please list the countries and corresponding peak values.",
+            "A": "{ViewTube}'s peak at {3},{ProfConnect}'s peak at {1},{SnapFrame}'s peak at {2},{FaceLink}'s peak at {2}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: FaceLink or ProfConnect?",
+            "A": "{FaceLink} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: SnapFrame or FaceLink?",
+            "A": "{FaceLink} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: ProfConnect or SnapFrame?",
+            "A": "{SnapFrame} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {0} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {ProfConnect}"
+        }
+    ],
+    "VA": []
+}

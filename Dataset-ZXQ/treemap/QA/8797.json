@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Neural TTS in this treemap?",
+            "A": "There are {2} child rectangles under the category Neural TTS."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Platform Architecture}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Tacotron}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Platform Architecture}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Accessibility rectangle in this treemap?",
+            "A": "The value of the Accessibility rectangle is {14.89}."
+        },
+        {
+            "Q": "What is the value of the ML-Based Prioritization rectangle in this treemap?",
+            "A": "The value of the ML-Based Prioritization rectangle is {44.56}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.27}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of In-App Badges and WaveNet?",
+            "A": "The difference between In-App Badges and WaveNet is {9.14}."
+        },
+        {
+            "Q": "What is the sum of the regions of Memory Optimizer and Dynamic Counter?",
+            "A": "The sum of Memory Optimizer and Dynamic Counter is {27.98}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Neural TTS category in the treemap, which rectangular labels have a value exceeded 8.53? Please list the labels and values.",
+            "A": "{WaveNet} has {9.62}"
+        },
+        {
+            "Q": "Under the Neural TTS category in the treemap, which rectangular labels have a value below 6.36? Please list the labels and values.",
+            "A": "{Tacotron} has {5.27}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Platform Architecture, User Interface, or Interaction Design?",
+            "A": "The value of {Platform Architecture} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of User Interface, Interaction Design, or Notification Systems?",
+            "A": "The value of {Notification Systems} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Platform Architecture or User Interface?",
+            "A": "The value of {Platform Architecture} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Interaction Design or Push Algorithm?",
+            "A": "The value of {Interaction Design} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {6} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

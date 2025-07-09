@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Windwhisper Turbine Park, what is the spatial relationship of the data point in 1978 relative to that in 1980 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Windwhisper Turbine Park, the data point in 1978 is {below} and to the {left} of the data point in 1980."
+        },
+        {
+            "Q": "In 1981, what is the vertical (above/below) relationship of the line representing Stellar Wind Array relative to Verdant Biomass Facility?",
+            "A": "In 1981, Stellar Wind Array is {above} Verdant Biomass Facility in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of GeoThermal Bloom Plant's Renewable Energy Production levels?",
+            "A": "GeoThermal Bloom Plant's renewable energy production levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Tide Energy's Renewable Energy Production levels?",
+            "A": "Azure Tide Energy's renewable energy production levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Riverbend Hydro Station's Renewable Energy Production levels?",
+            "A": "Riverbend Hydro Station's renewable energy production levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Sunstone Solar Farm's Renewable Energy Production levels?",
+            "A": "Sunstone Solar Farm's renewable energy production levels show a {stable rising} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Stellar Wind Array's Renewable Energy Production in 1976?",
+            "A": "Stellar Wind Array's renewable energy production in 1976 is {120368065.70} MWh."
+        },
+        {
+            "Q": "What is Riverbend Hydro Station's Renewable Energy Production in 1981?",
+            "A": "Riverbend Hydro Station's renewable energy production in 1981 is {1359480.87} MWh."
+        },
+        {
+            "Q": "What is Azure Tide Energy's Renewable Energy Production in 1976?",
+            "A": "Azure Tide Energy's renewable energy production in 1976 is {122745634.12} MWh."
+        },
+        {
+            "Q": "What are the renewable energy production of Verdant Biomass Facility, Riverbend Hydro Station, and Sunstone Solar Farm in 1979?",
+            "A": "Verdant Biomass Facility's renewable energy production is {21593937.54} MWh, Riverbend Hydro Station's renewable energy production is {1359480.87} MWh, Sunstone Solar Farm's renewable energy production is {100637386.91} MWh."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Renewable Energy Production in the line chart?",
+            "A": "The global minimum renewable energy production is {1359480.87} MWh."
+        },
+        {
+            "Q": "What is the global maximum Renewable Energy Production in the line chart?",
+            "A": "The global maximum renewable energy production is {223276542.12} MWh."
+        },
+        {
+            "Q": "What is the highest Renewable Energy Production level recorded for Azure Tide Energy?",
+            "A": "Azure Tide Energy reached approximately {185968109.59} MWh in {1982}."
+        },
+        {
+            "Q": "What is the lowest Renewable Energy Production level recorded for Azure Tide Energy?",
+            "A": "Azure Tide Energy's lowest recorded level is approximately {122745634.12} MWh in {1976}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Verdant Biomass Facility's Renewable Energy Production from the starting year to the final year?",
+            "A": "The rate of growth in Verdant Biomass Facility's renewable energy production is {4.89}%."
+        },
+        {
+            "Q": "What is the average value of Sunstone Solar Farm's Renewable Energy Production?",
+            "A": "The average value of Sunstone Solar Farm's renewable energy production is {100451640.15} MWh."
+        },
+        {
+            "Q": "What is the average value of Windwhisper Turbine Park's Renewable Energy Production?",
+            "A": "The average value of Windwhisper Turbine Park's renewable energy production is {214890356.42} MWh."
+        },
+        {
+            "Q": "What is the average value of Azure Tide Energy's Renewable Energy Production?",
+            "A": "The average value of Azure Tide Energy's renewable energy production is {154170272.44} MWh."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1977, which lines had Renewable Energy Production between 48430421 and 121371237 MWh? Please list the lines and corresponding values.",
+            "A": "{GeoThermal Bloom Plant} had {53194856} MWh, {Sunstone Solar Farm} had {91763712} MWh."
+        },
+        {
+            "Q": "In the year 1979, which line had Renewable Energy Production exceed 141669606 MWh? Please list the lines and corresponding values.",
+            "A": "{Windwhisper Turbine Park} had {223276542} MWh, {Azure Tide Energy} had {152408400} MWh."
+        },
+        {
+            "Q": "Which years did GeoThermal Bloom Plant's Renewable Energy Production below 56467129 MWh? Please list the years and corresponding values.",
+            "A": "{54415644.56} MWh in {1978} year, {53194855.89} MWh in {1977} year, {51333753.95} MWh in {1976} year."
+        },
+        {
+            "Q": "In the year 1982, which lines had Renewable Energy Production between 57813972 and 142793788 MWh? Please list the lines and corresponding values.",
+            "A": "{GeoThermal Bloom Plant} had {61469280} MWh, {Sunstone Solar Farm} had {113605996} MWh, {Stellar Wind Array} had {120864419} MWh."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1980, which line had the highest Renewable Energy Production, Verdant Biomass Facility, Stellar Wind Array, Sunstone Solar Farm, or GeoThermal Bloom Plant?",
+            "A": "In 1980, {Stellar Wind Array} had the highest renewable energy production."
+        },
+        {
+            "Q": "Between 1976 and 1979, which line experienced the largest change in Renewable Energy Production, Verdant Biomass Facility, Sunstone Solar Farm, or Windwhisper Turbine Park?",
+            "A": "{Windwhisper Turbine Park} experienced the largest change in renewable energy production."
+        },
+        {
+            "Q": "Between 1976 and 1982, which line had the highest average Renewable Energy Production, Stellar Wind Array, GeoThermal Bloom Plant, Windwhisper Turbine Park, or Azure Tide Energy?",
+            "A": "{Windwhisper Turbine Park} had the highest average renewable energy production."
+        },
+        {
+            "Q": "Between 1977 and 1980, which line had the highest average Renewable Energy Production, Azure Tide Energy, Riverbend Hydro Station, GeoThermal Bloom Plant, or Verdant Biomass Facility?",
+            "A": "{Azure Tide Energy} had the highest average renewable energy production."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Azure Tide Energy}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1978 and 1979?",
+            "A": "{Azure Tide Energy} has the fastest average growth rate between 1978 and 1979."
+        },
+        {
+            "Q": "Which label had the leading renewable energy production since 1978?",
+            "A": "Since 1978, {Windwhisper Turbine Park} had the leading renewable energy production."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Windwhisper Turbine Park. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1976, 1979, 1982}."
+        }
+    ]
+}

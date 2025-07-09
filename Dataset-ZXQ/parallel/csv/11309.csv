@@ -1,0 +1,7 @@
+﻿Science and Engineering,Research Metrics of Different Lab
+Pattern,Clustering,Strong Correlation,No Correlation
+labels,Citation index (citations/paper),Experiment success rate (%),Research funding (USD millions),Publication count (papers)
+Dunlap Ltd  Research Center,1000.0,11.84,0.1,21.65
+"Johnson, Sanchez and Lynch  Research Institute",0.0,92.29,90.28,100.0
+Holmes Inc  Research Center,79.76,100.0,100.0,0.0
+Smith PLC  Research Institute,676.88,10.0,2.52,42.54

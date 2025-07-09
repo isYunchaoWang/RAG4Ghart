@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Crimson Analytics relative to Oracle Solutions?",
+            "A": "Crimson Analytics is {below} Oracle Solutions in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total innovation index?",
+            "A": "The series with the largest contribution is {Oracle Solutions}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total innovation index?",
+            "A": "The series with the smallest contribution is {Luminara R&D}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Crimson Analytics's Innovation Index in 2003?",
+            "A": "Crimson Analytics's innovation index in 2003 is {41.51} index."
+        },
+        {
+            "Q": "What is Oracle Solutions's Innovation Index in 1999?",
+            "A": "Oracle Solutions's innovation index in 1999 is {38.82} index."
+        },
+        {
+            "Q": "What is Crimson Analytics's Innovation Index in 1995?",
+            "A": "Crimson Analytics's innovation index in 1995 is {52.13} index."
+        },
+        {
+            "Q": "What are the innovation index of Crimson Analytics, Oracle Solutions, and Luminara R&D in 1992?",
+            "A": "Crimson Analytics's innovation index is {55.55} index, Oracle Solutions's innovation index is {55.87} index, Luminara R&D's innovation index is {37.18} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Innovation Index in the area chart?",
+            "A": "The global minimum innovation index is {9.54} index."
+        },
+        {
+            "Q": "What is the global maximum Innovation Index in the area chart?",
+            "A": "The global maximum innovation index is {64.15} index."
+        },
+        {
+            "Q": "What is the highest Innovation Index level recorded for Crimson Analytics?",
+            "A": "Crimson Analytics reached approximately {63.71} index in {1996}."
+        },
+        {
+            "Q": "What is the lowest Innovation Index level recorded for Crimson Analytics?",
+            "A": "Crimson Analytics's lowest recorded level is approximately {38.07} index in {1994}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Innovation Index?",
+            "A": "The average total innovation index is {128.90} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Innovation Index fall between 121.44 and 134.22 index? Please list the years and corresponding total values.",
+            "A": "{129.84} index in {2002}, {121.50} index in {1993}, {132.55} index in {1995}."
+        },
+        {
+            "Q": "Which years did the total Innovation Index exceed 141.56 index? Please list the years and corresponding total values.",
+            "A": "{152.60} index in {1996}, {167.07} index in {1991}, {148.60} index in {1992}."
+        },
+        {
+            "Q": "Which years did the total Innovation Index go below 114.10 index? Please list the years and corresponding total values.",
+            "A": "{109.89} index in {1998}, {99.77} index in {1999}, {106.53} index in {1994}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1990 and 2001, was the average total Innovation Index higher or lower than between 1994 and 2000?",
+            "A": "The average total innovation index between 1990 and 2001 was {higher} than between 1994 and 2000."
+        },
+        {
+            "Q": "Between 1993 and 2001, was the average total Innovation Index higher or lower than between 1995 and 1998?",
+            "A": "The average total innovation index between 1993 and 2001 was {lower} than between 1995 and 1998."
+        },
+        {
+            "Q": "Between 1997 and 1999, was the average total Innovation Index higher or lower than between 1995 and 2000?",
+            "A": "The average total innovation index between 1997 and 1999 was {lower} than between 1995 and 2000."
+        },
+        {
+            "Q": "Between 1994 and 2002, did the total Innovation Index experience a larger or smaller change than between 1990 and 1993?",
+            "A": "The change in total innovation index between 1994 and 2002 was {smaller} than between 1990 and 1993."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Oracle Solutions} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Luminara R&D, Crimson Analytics, Oracle Solutions}."
+        }
+    ]
+}

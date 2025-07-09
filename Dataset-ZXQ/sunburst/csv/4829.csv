@@ -1,0 +1,15 @@
+Healthcare and Health,Healthcare Distribution by Category (2022),%
+parent,child,value
+Root,Health Technologies,32.53
+Health Technologies,Health Informatics,10.38
+Health Informatics,Electronic Records,5.01
+Health Informatics,Decision Support,5.37
+Health Technologies,Medical Devices,22.15
+Medical Devices,Monitoring Wearables,12.39
+Medical Devices,Diagnostic Equipment,9.76
+Root,Medical Services,24.88
+Medical Services,Primary Care,11.13
+Primary Care,Walk-in Clinics,11.13
+Medical Services,Specialized Care,13.75
+Root,Public Health Systems,42.58
+Public Health Systems,Health Surveillance,42.58

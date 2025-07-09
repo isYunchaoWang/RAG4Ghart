@@ -1,0 +1,10 @@
+﻿Cultural Trends and Influences,Influence Metrics of Different Cultural
+Pattern,No Correlation,No Correlation,Clustering,Weak Correlation,No Correlation
+labels,Artistic references (cultural citations),Language adoption (new words),Policy influence index (1-10),Behavior change rate (%),Opinion leader count(verified accounts),Historical significance (1-10)
+fine  Culture,97.0,100.0,3.99,1.0,854.37,10.0
+woman  Civilization,58.49,93.78,1.0,5.22,657.86,9.0
+bag  Culture,0.0,0.0,10.0,8.87,1000.0,4.31
+policy  Culture,1000.0,89.01,3.25,12.41,595.41,3.21
+we  Civilization,758.43,34.54,9.47,50.0,186.85,5.07
+might  Civilization,607.44,35.45,1.32,27.88,443.61,4.96
+step  Culture,256.42,37.54,2.68,9.63,1.0,1.0

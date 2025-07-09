@@ -1,0 +1,128 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {7} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {VK Video}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {Kuaishou}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar TikTok relative to the bar Youku in terms of vetical (above/below) direction??",
+            "A": "Bar TikTok is {above} the bar Youku."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {TikTok}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Instagram}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Dailymotion?",
+            "A": "The value of Dailymotion is {712} thousand views."
+        },
+        {
+            "Q": "What is the value of bar TikTok?",
+            "A": "The value of TikTok is {1391} thousand views."
+        },
+        {
+            "Q": "What is the value of bar VK Video?",
+            "A": "The value of VK Video is {304} thousand views."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum thousand views in the bar chart?",
+            "A": "The maximum thousand views is {1391} thousand views."
+        },
+        {
+            "Q": "What is the minimum thousand views in the bar chart?",
+            "A": "The minimum thousand views is {296} thousand views."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Kuaishou and Youku?",
+            "A": "The total value of Kuaishou and Youku is {1073} thousand views."
+        },
+        {
+            "Q": "What is the average value of Dailymotion and Youku?",
+            "A": "The average value of Dailymotion and Youku is {635.5} thousand views."
+        },
+        {
+            "Q": "What is the difference between Weibo and Youku?",
+            "A": "The difference between Weibo and Youku is {432} thousand views."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have thousand views values exceed 851.50 thousand views? Please list the bars and corresponding thousand views values?",
+            "A": "{Weibo} has {991} thousand views, {TikTok} has {1391} thousand views."
+        },
+        {
+            "Q": "Which bars have {thousand views} values below 300.00 thousand views? Please list the bars and corresponding thousand views values?",
+            "A": "{Instagram} has {296} thousand views."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, VK Video or Youku ",
+            "A": "The value of the {Youku} is larger?"
+        },
+        {
+            "Q": "Which is larger, Youku, Dailymotion or VK Video ",
+            "A": "The value of the {Dailymotion} is larger?"
+        },
+        {
+            "Q": "Which is larger, VK Video, Weibo, TikTok or Instagram ",
+            "A": "The value of the {TikTok} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {3} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {TikTok} and {Kuaishou}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {TikTok}, {Weibo}, and {Dailymotion}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by thousand views values in descending order and list the labels from left to right.",
+            "A": "Sorted by thousand views value descending: {TikTok}, {Weibo}, {Dailymotion}, {Youku}, {Kuaishou}, {VK Video}, and {Instagram}."
+        },
+        {
+            "Q": "Sort the bars by thousand views values in ascending order and list the labels from left to right.",
+            "A": "Sorted by thousand views value ascending: {Instagram}, {VK Video}, {Kuaishou}, {Youku}, {Dailymotion}, {Weibo}, and {TikTok}."
+        }
+    ]
+}

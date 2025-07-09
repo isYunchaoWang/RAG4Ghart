@@ -1,0 +1,12 @@
+Human Resources and Employee Management, HR Department Flow, Employees, long_tail
+Source,Target,Value
+Admin and Facilities,Sales Department,1207
+Sales Department,Admin and Facilities,561
+Legal Department,Marketing Department,379
+Marketing Department,Legal Department,290
+Finance Department,Admin and Facilities,227
+Admin and Facilities,Finance Department,205
+Admin and Facilities,Marketing Department,163
+Marketing Department,Admin and Facilities,153
+Sales Department,Legal Department,134
+Legal Department,Sales Department,121

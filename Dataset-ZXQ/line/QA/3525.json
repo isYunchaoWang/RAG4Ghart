@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On The Rusty Kettle, what is the spatial relationship of the data point in 1994 relative to that in 1985 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On The Rusty Kettle, the data point in 1994 is {above} and to the {right} of the data point in 1985."
+        },
+        {
+            "Q": "In 2001, what is the vertical (above/below) relationship of the line representing The Rusty Kettle relative to The Golden Spoon?",
+            "A": "In 2001, The Rusty Kettle is {above} The Golden Spoon in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Emerald Diner's Customer Traffic levels?",
+            "A": "Emerald Diner's customer traffic levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of The Golden Spoon's Customer Traffic levels?",
+            "A": "The Golden Spoon's customer traffic levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of The Rusty Kettle's Customer Traffic levels?",
+            "A": "The Rusty Kettle's customer traffic levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Customer Traffic levels?",
+            "A": "{Emerald Diner}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Emerald Diner's Customer Traffic in 1990?",
+            "A": "Emerald Diner's customer traffic in 1990 is {1087.75} customers/day."
+        },
+        {
+            "Q": "What is Emerald Diner's Customer Traffic in 1978?",
+            "A": "Emerald Diner's customer traffic in 1978 is {833.95} customers/day."
+        },
+        {
+            "Q": "What is The Rusty Kettle's Customer Traffic in 1983?",
+            "A": "The Rusty Kettle's customer traffic in 1983 is {1708.10} customers/day."
+        },
+        {
+            "Q": "What are the customer traffic of The Rusty Kettle, Emerald Diner, and The Golden Spoon in 1987?",
+            "A": "The Rusty Kettle's customer traffic is {2466.41} customers/day, Emerald Diner's customer traffic is {1025.01} customers/day, The Golden Spoon's customer traffic is {213.13} customers/day."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Customer Traffic in the line chart?",
+            "A": "The global minimum customer traffic is {112.13} customers/day."
+        },
+        {
+            "Q": "What is the global maximum Customer Traffic in the line chart?",
+            "A": "The global maximum customer traffic is {9231.76} customers/day."
+        },
+        {
+            "Q": "What is the highest Customer Traffic level recorded for Emerald Diner?",
+            "A": "Emerald Diner reached approximately {1328.88} customers/day in {2001}."
+        },
+        {
+            "Q": "What is the lowest Customer Traffic level recorded for Emerald Diner?",
+            "A": "Emerald Diner's lowest recorded level is approximately {724.93} customers/day in {1973}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Emerald Diner's Customer Traffic from the starting year to the final year?",
+            "A": "The rate of growth in Emerald Diner's customer traffic is {83.31}%."
+        },
+        {
+            "Q": "What is the average value of The Golden Spoon's Customer Traffic?",
+            "A": "The average value of The Golden Spoon's customer traffic is {191.14} customers/day."
+        },
+        {
+            "Q": "What is the average value of Emerald Diner's Customer Traffic?",
+            "A": "The average value of Emerald Diner's customer traffic is {1027.88} customers/day."
+        },
+        {
+            "Q": "What is the rate of change in The Golden Spoon's Customer Traffic from the starting year to the final year?",
+            "A": "The rate of growth in The Golden Spoon's customer traffic is {1.51}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did The Rusty Kettle's Customer Traffic exceed 4767 customers/day? Please list the years and corresponding values.",
+            "A": "{7628.13} customers/day in {1999} year, {9231.76} customers/day in {2001} year, {8388.47} customers/day in {2000} year."
+        },
+        {
+            "Q": "Which years did The Golden Spoon's Customer Traffic below 134 customers/day? Please list the years and corresponding values.",
+            "A": "{115.72} customers/day in {1994} year, {113.66} customers/day in {1993} year, {127.32} customers/day in {1992} year."
+        },
+        {
+            "Q": "In the year 1989, which line had Customer Traffic exceed 2025 customers/day? Please list the lines and corresponding values.",
+            "A": "{The Rusty Kettle} had {2979} customers/day."
+        },
+        {
+            "Q": "In the year 1991, which lines had Customer Traffic between 805 and 2183 customers/day? Please list the lines and corresponding values.",
+            "A": "{Emerald Diner} had {1119} customers/day."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1977, which line had the highest Customer Traffic, Emerald Diner, The Rusty Kettle, or The Golden Spoon?",
+            "A": "In 1977, {The Rusty Kettle} had the highest customer traffic."
+        },
+        {
+            "Q": "In 1991, which line had the highest Customer Traffic, Emerald Diner, The Rusty Kettle, or The Golden Spoon?",
+            "A": "In 1991, {The Rusty Kettle} had the highest customer traffic."
+        },
+        {
+            "Q": "In 1988, which line had the highest Customer Traffic, The Golden Spoon, The Rusty Kettle, or Emerald Diner?",
+            "A": "In 1988, {The Rusty Kettle} had the highest customer traffic."
+        },
+        {
+            "Q": "In 1984, which line had the highest Customer Traffic, Emerald Diner, The Rusty Kettle, or The Golden Spoon?",
+            "A": "In 1984, {The Rusty Kettle} had the highest customer traffic."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {The Rusty Kettle}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1999 and 2000?",
+            "A": "{The Rusty Kettle} has the fastest average growth rate between 1999 and 2000."
+        },
+        {
+            "Q": "In which year did The Rusty Kettle first surpass Emerald Diner?",
+            "A": "The Rusty Kettle first surpassed Emerald Diner in the year {1974}."
+        },
+        {
+            "Q": "Which label had the leading customer traffic since 1977?",
+            "A": "Since 1977, {The Rusty Kettle} had the leading customer traffic."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Emerald Diner. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1973, 2001}."
+        }
+    ]
+}

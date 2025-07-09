@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Further Education Rate?",
+            "A": "The next dimension clockwise from Further Education Rate is Employment Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Research Investment Rate?",
+            "A": "The next dimension counterclockwise from Further Education Rate is Graduation Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Research Investment Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of East Jon College?",
+            "A": "The strongest aspect is {Research Investment Rate}, while the weakest aspect is{ Employment Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of East Jon College on the Graduation Rate in the radar chart?",
+            "A": "The value of East Jon College on the Safety dimension is {84}."
+        },
+        {
+            "Q": "What is the value of East Jon College on the Further Education Rate in the radar chart?",
+            "A": "The value of East Jon College on the Safety dimension is {81}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label East Jon College across all dimensions in the radar chart?",
+            "A": "The maximum value of East Jon College across all dimensions is {69}."
+        },
+        {
+            "Q": "What is the minimum value of label East Jon College across all dimensions in the radar chart?",
+            "A": "The minimum value of East Jon College across all dimensions is {69}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Patent Conversion Rate",
+            "A": "The average value of Patent Conversion Rate is {57.0}."
+        },
+        {
+            "Q": "What is the average value of East Jon College",
+            "A": "The average value of East Jon College is {67.43}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For East Jon College in the radar chart, which dimensions have scores between 35 and 73? Please list the dimensions and corresponding scores.",
+            "A": "{Paper Publication Rate} is {69}, {Patent Conversion Rate} is {57}"
+        },
+        {
+            "Q": "Which labels have scores below 22 for the Employment Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{East Jon College} is {22}"
+        },
+        {
+            "Q": "Which labels have scores above 22 for the Employment Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{East Jon College} is {22}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For East Jon College, which dimension has a higher score: Citation Rate or Paper Publication Rate?",
+            "A": "{Citation Rate} has a higher score than Paper Publication Rate for East Jon College."
+        },
+        {
+            "Q": "For East Jon College, which dimension has a higher score: Further Education Rate or Patent Conversion Rate or Citation Rate?",
+            "A": "{Further Education Rate} has a higher score for East Jon College."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For East Jon College, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "East Jon College most needs to improve its {Employment Rate}."
+        }
+    ],
+    "VA": []
+}

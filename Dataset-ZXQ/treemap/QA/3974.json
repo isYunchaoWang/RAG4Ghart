@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Solar Arrays in this treemap?",
+            "A": "There are {1} child rectangles under the category Solar Arrays."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Power Generation}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Tracking Systems}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Power Generation}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Reactor Types rectangle in this treemap?",
+            "A": "The value of the Reactor Types rectangle is {56.43}."
+        },
+        {
+            "Q": "What is the value of the Nuclear Plants rectangle in this treemap?",
+            "A": "The value of the Nuclear Plants rectangle is {56.43}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {8.25}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Aerodynamic Testing and Reactor Types?",
+            "A": "The difference between Aerodynamic Testing and Reactor Types is {21.11}."
+        },
+        {
+            "Q": "What is the sum of the regions of Renewable Farms and Drywell Venting?",
+            "A": "The sum of Renewable Farms and Drywell Venting is {55.03}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Solar Arrays category in the treemap, which rectangular labels have a value exceeded 8.24? Please list the labels and values.",
+            "A": "{Tracking Systems} has {8.25}"
+        },
+        {
+            "Q": "Under the Solar Arrays category in the treemap, which rectangular labels have a value below 8.26? Please list the labels and values.",
+            "A": "{Tracking Systems} has {8.25}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Nuclear Plants, Reactor Types, or Renewable Farms?",
+            "A": "The value of {Renewable Farms} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Power Generation, Nuclear Plants, or Reactor Types?",
+            "A": "The value of {Power Generation} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

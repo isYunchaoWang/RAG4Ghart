@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Misty Meadow Acres, what is the spatial relationship of the data point in 1978 relative to that in 1981 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Misty Meadow Acres, the data point in 1978 is {above} and to the {left} of the data point in 1981."
+        },
+        {
+            "Q": "In 1980, what is the vertical (above/below) relationship of the line representing Sunstone Farms relative to Golden Harvest Cooperative?",
+            "A": "In 1980, Sunstone Farms is {above} Golden Harvest Cooperative in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Misty Meadow Acres's Organic Farming Area levels?",
+            "A": "Misty Meadow Acres's organic farming area levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Sunstone Farms's Organic Farming Area levels?",
+            "A": "Sunstone Farms's organic farming area levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Golden Harvest Cooperative's Organic Farming Area levels?",
+            "A": "Golden Harvest Cooperative's organic farming area levels show a {single valley} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Organic Farming Area levels?",
+            "A": "{Misty Meadow Acres}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Golden Harvest Cooperative's Organic Farming Area in 1973?",
+            "A": "Golden Harvest Cooperative's organic farming area in 1973 is {560.72} hectares."
+        },
+        {
+            "Q": "What is Sunstone Farms's Organic Farming Area in 1977?",
+            "A": "Sunstone Farms's organic farming area in 1977 is {1670.26} hectares."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Organic Farming Area in 1977?",
+            "A": "Golden Harvest Cooperative's organic farming area in 1977 is {251.79} hectares."
+        },
+        {
+            "Q": "What are the organic farming area of Misty Meadow Acres, Golden Harvest Cooperative, and Sunstone Farms in 1979?",
+            "A": "Misty Meadow Acres's organic farming area is {2093.33} hectares, Golden Harvest Cooperative's organic farming area is {267.70} hectares, Sunstone Farms's organic farming area is {1664.78} hectares."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Organic Farming Area in the line chart?",
+            "A": "The global minimum organic farming area is {226.94} hectares."
+        },
+        {
+            "Q": "What is the global maximum Organic Farming Area in the line chart?",
+            "A": "The global maximum organic farming area is {2104.30} hectares."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {624.27} hectares in {1972}."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {226.94} hectares in {1978}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Misty Meadow Acres's Organic Farming Area?",
+            "A": "The average value of Misty Meadow Acres's organic farming area is {1916.45} hectares."
+        },
+        {
+            "Q": "What is the rate of change in Golden Harvest Cooperative's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of decline in Golden Harvest Cooperative's organic farming area is {-0.05}%."
+        },
+        {
+            "Q": "What is the average value of Golden Harvest Cooperative's Organic Farming Area?",
+            "A": "The average value of Golden Harvest Cooperative's organic farming area is {405.20} hectares."
+        },
+        {
+            "Q": "What is the rate of change in Sunstone Farms's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of growth in Sunstone Farms's organic farming area is {0.62}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Golden Harvest Cooperative's Organic Farming Area exceed 536 hectares? Please list the years and corresponding values.",
+            "A": "{624.27} hectares in {1972} year, {560.72} hectares in {1973} year, {623.94} hectares in {1984} year."
+        },
+        {
+            "Q": "In the year 1974, which line had Organic Farming Area exceed 1686 hectares? Please list the lines and corresponding values.",
+            "A": "{Misty Meadow Acres} had {1883} hectares."
+        },
+        {
+            "Q": "Which years did Sunstone Farms's Organic Farming Area exceed 1512 hectares? Please list the years and corresponding values.",
+            "A": "{1565.55} hectares in {1975} year, {1578.62} hectares in {1981} year, {1670.26} hectares in {1977} year."
+        },
+        {
+            "Q": "Which years did Misty Meadow Acres's Organic Farming Area below 1813 hectares? Please list the years and corresponding values.",
+            "A": "{1675.54} hectares in {1972} year, {1648.52} hectares in {1984} year, {1734.80} hectares in {1983} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1973 and 1983, which line had a higher average Organic Farming Area, Sunstone Farms or Misty Meadow Acres?",
+            "A": "{Misty Meadow Acres} had a higher average organic farming area."
+        },
+        {
+            "Q": "Between 1973 and 1984, which line experienced the largest change in Organic Farming Area, Misty Meadow Acres, Golden Harvest Cooperative, or Sunstone Farms?",
+            "A": "{Misty Meadow Acres} experienced the largest change in organic farming area."
+        },
+        {
+            "Q": "Was Misty Meadow Acres's Organic Farming Area in 1974 higher or lower than in 1980?",
+            "A": "The organic farming area in 1974 was {lower} than in 1980."
+        },
+        {
+            "Q": "Between 1978 and 1983, which line had a higher average Organic Farming Area, Misty Meadow Acres or Sunstone Farms?",
+            "A": "{Misty Meadow Acres} had a higher average organic farming area."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Misty Meadow Acres}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1975 and 1978?",
+            "A": "{Sunstone Farms} has the fastest average growth rate between 1975 and 1978."
+        },
+        {
+            "Q": "Which label had the leading organic farming area since 1973?",
+            "A": "Since 1973, {Misty Meadow Acres} had the leading organic farming area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Misty Meadow Acres. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1972, 1977, 1984}."
+        }
+    ]
+}

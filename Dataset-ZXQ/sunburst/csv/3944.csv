@@ -1,0 +1,19 @@
+Food and Beverage Industry,Food Industry Distribution by Category (2023),%
+parent,child,value
+Root,Food Processing,42.6
+Food Processing,Dairy Processing,9.01
+Food Processing,Meat Processing,33.59
+Meat Processing,Slaughtering,24.06
+Slaughtering,Beef,10.26
+Slaughtering,Pork,13.8
+Meat Processing,Packaging,9.53
+Root,Food Distribution,29.83
+Food Distribution,Retail,15.72
+Retail,Supermarkets,6.04
+Retail,Convenience Stores,9.68
+Food Distribution,Wholesale,14.11
+Wholesale,Regional Hubs,14.11
+Regional Hubs,Cold Chain,5.97
+Regional Hubs,Dry Goods,8.14
+Root,Food Production,27.57
+Food Production,Agriculture,27.57

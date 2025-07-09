@@ -1,0 +1,82 @@
+Food and Beverage Industry,the Comparison of Food and Beverage Industry,9x9,central_cluster
+Beverages,Consumption,0.06
+Confectionery,Consumption,0.08
+Dairy,Consumption,0.1
+Frozen,Consumption,0.12
+Ingredients,Consumption,0.11
+Meat,Consumption,0.1
+Processed Foods,Consumption,0.1
+Produce,Consumption,0.08
+Seafood,Consumption,0.08
+Beverages,Distribution,0.11
+Confectionery,Distribution,0.08
+Dairy,Distribution,0.15
+Frozen,Distribution,0.17
+Ingredients,Distribution,0.15
+Meat,Distribution,0.18
+Processed Foods,Distribution,0.15
+Produce,Distribution,0.18
+Seafood,Distribution,0.13
+Beverages,Exports,0.11
+Confectionery,Exports,0.14
+Dairy,Exports,0.17
+Frozen,Exports,0.22
+Ingredients,Exports,0.27
+Meat,Exports,0.27
+Processed Foods,Exports,0.25
+Produce,Exports,0.29
+Seafood,Exports,0.22
+Beverages,Imports,0.16
+Confectionery,Imports,0.15
+Dairy,Imports,0.22
+Frozen,Imports,0.29
+Ingredients,Imports,0.37
+Meat,Imports,0.4
+Processed Foods,Imports,0.44
+Produce,Imports,0.38
+Seafood,Imports,0.35
+Beverages,Innovation,0.15
+Confectionery,Innovation,0.19
+Dairy,Innovation,0.34
+Frozen,Innovation,0.43
+Ingredients,Innovation,0.53
+Meat,Innovation,0.53
+Processed Foods,Innovation,0.57
+Produce,Innovation,0.56
+Seafood,Innovation,0.49
+Beverages,Production,0.23
+Confectionery,Production,0.31
+Dairy,Production,0.42
+Frozen,Production,0.54
+Ingredients,Production,0.67
+Meat,Production,0.72
+Processed Foods,Production,0.71
+Produce,Production,0.7
+Seafood,Production,0.59
+Beverages,Regulations,0.24
+Confectionery,Regulations,0.34
+Dairy,Regulations,0.43
+Frozen,Regulations,0.61
+Ingredients,Regulations,0.74
+Meat,Regulations,0.79
+Processed Foods,Regulations,0.84
+Produce,Regulations,0.81
+Seafood,Regulations,0.64
+Beverages,Safety,0.23
+Confectionery,Safety,0.35
+Dairy,Safety,0.46
+Frozen,Safety,0.59
+Ingredients,Safety,0.73
+Meat,Safety,0.81
+Processed Foods,Safety,0.84
+Produce,Safety,0.82
+Seafood,Safety,0.7
+Beverages,Sustainability,0.19
+Confectionery,Sustainability,0.3
+Dairy,Sustainability,0.45
+Frozen,Sustainability,0.57
+Ingredients,Sustainability,0.66
+Meat,Sustainability,0.74
+Processed Foods,Sustainability,0.75
+Produce,Sustainability,0.77
+Seafood,Sustainability,0.63

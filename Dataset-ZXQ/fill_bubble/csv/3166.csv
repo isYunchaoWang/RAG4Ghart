@@ -1,0 +1,12 @@
+Food and Beverage,the Segments of Food and Beverage,10
+size,father,depth,label
+64.42,0,1,Food and Beverage
+20.34,1,2,Cuisines
+18.19,1,2,Beverages
+5.49,3,3,Soft Drinks
+14.39,3,3,Water
+6.42,2,3,Indian Cuisine
+11.36,2,3,Mexican Cuisine
+11.63,3,3,Coffee and Tea
+9.95,2,3,Asian Cuisine
+9.72,2,3,Italian Cuisine

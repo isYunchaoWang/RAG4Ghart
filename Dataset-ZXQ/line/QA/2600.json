@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Borealis Graduate School, what is the spatial relationship of the data point in 1977 relative to that in 1972 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Borealis Graduate School, the data point in 1977 is {below} and to the {right} of the data point in 1972."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Borealis Graduate School's Research Funding levels?",
+            "A": "Borealis Graduate School's research funding levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Research Funding levels?",
+            "A": "{Borealis Graduate School}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Borealis Graduate School's Research Funding in 1968?",
+            "A": "Borealis Graduate School's research funding in 1968 is {275830.74} $."
+        },
+        {
+            "Q": "What is Borealis Graduate School's Research Funding in 1971?",
+            "A": "Borealis Graduate School's research funding in 1971 is {141998.51} $."
+        },
+        {
+            "Q": "What is Borealis Graduate School's Research Funding in 1984?",
+            "A": "Borealis Graduate School's research funding in 1984 is {177862.41} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Research Funding in the line chart?",
+            "A": "The global minimum research funding is {52003.17} $."
+        },
+        {
+            "Q": "What is the global maximum Research Funding in the line chart?",
+            "A": "The global maximum research funding is {366976.71} $."
+        },
+        {
+            "Q": "What is the highest Research Funding level recorded for Borealis Graduate School?",
+            "A": "Borealis Graduate School reached approximately {366976.71} $ in {1987}."
+        },
+        {
+            "Q": "What is the lowest Research Funding level recorded for Borealis Graduate School?",
+            "A": "Borealis Graduate School's lowest recorded level is approximately {52003.17} $ in {1980}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Borealis Graduate School's Research Funding from the starting year to the final year?",
+            "A": "The rate of growth in Borealis Graduate School's research funding is {0.66}%."
+        },
+        {
+            "Q": "What is the average value of Borealis Graduate School's Research Funding?",
+            "A": "The average value of Borealis Graduate School's research funding is {153595.36} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Borealis Graduate School's Research Funding between 84314 and 217706 $? Please list the years and corresponding values.",
+            "A": "{174210.94} $ in {1970} year, {177862.41} $ in {1984} year, {138580.57} $ in {1983} year."
+        },
+        {
+            "Q": "Which years did Borealis Graduate School's Research Funding below 67641 $? Please list the years and corresponding values.",
+            "A": "{52003.17} $ in {1980} year, {60276.06} $ in {1975} year, {56073.96} $ in {1977} year."
+        },
+        {
+            "Q": "Which years did Borealis Graduate School's Research Funding exceed 234380 $? Please list the years and corresponding values.",
+            "A": "{364569.52} $ in {1967} year, {275830.74} $ in {1968} year, {243123.33} $ in {1969} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Borealis Graduate School's Research Funding in 1968 higher or lower than in 1981?",
+            "A": "The research funding in 1968 was {higher} than in 1981."
+        },
+        {
+            "Q": "Was Borealis Graduate School's Research Funding in 1977 higher or lower than in 1985?",
+            "A": "The research funding in 1977 was {lower} than in 1985."
+        },
+        {
+            "Q": "Was Borealis Graduate School's Research Funding in 1970 higher or lower than in 1974?",
+            "A": "The research funding in 1970 was {higher} than in 1974."
+        },
+        {
+            "Q": "Was Borealis Graduate School's Research Funding in 1974 higher or lower than in 1982?",
+            "A": "The research funding in 1974 was {lower} than in 1982."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Borealis Graduate School. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1967, 1980, 1987}."
+        }
+    ]
+}

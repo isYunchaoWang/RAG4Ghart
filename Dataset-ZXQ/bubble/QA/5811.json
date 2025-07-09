@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bubble} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this bubble chart?",
+            "A": "There are {10} bubbles."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the relative position of the bubble with a Size of the team of 2.55 relative to the bubble with a Size of the team of 2.00 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The bubble with a Size of the team of 2.55 is {below} and to the {right} of the bubble with a Size of the team of 2.00."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Where is the highest concentration of bubbles located in terms of Years of experience and Salary?",
+            "A": "The highest concentration of bubbles corresponds to approximately {8.42} years and {49448.14} $."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the Size of the team of the largest bubble?",
+            "A": "The Size of the team of the largest bubble is {50.00} count."
+        },
+        {
+            "Q": "What is the Size of the team of the smallest bubble?",
+            "A": "The Size of the team of the smallest bubble is {2.00} count."
+        },
+        {
+            "Q": "What are the Years of experience and Salary values of the largest bubble?",
+            "A": "The Years of experience of the largest bubble is {27.65} years, and {Salary} is {110170.07} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Size of the team in the bubble chart?",
+            "A": "The global maximum Size of the team is {50.00} count."
+        },
+        {
+            "Q": "What is the global minimum Size of the team in the bubble chart?",
+            "A": "The global minimum Size of the team is {2.00} count."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Years of experience in the bubble chart?",
+            "A": "The maximum observed value in the Years of experience dimension is {28.31} years."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Years of experience in the bubble chart?",
+            "A": "The minimum observed value in the Years of experience dimension is {0.82} years."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Salary in the bubble chart?",
+            "A": "The maximum observed value in the Salary dimension is {202047.41} $."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Salary in the bubble chart?",
+            "A": "The minimum observed value in the Salary dimension is {30000.00} $."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Size of the team for all bubbles?",
+            "A": "The average value of the Size of the team for all bubbles is {8.85} count."
+        },
+        {
+            "Q": "What is the average value of the Years of experience for all bubbles?",
+            "A": "The average value of Years of experience for all bubbles is {13.71} years."
+        },
+        {
+            "Q": "What is the average value of the Salary for all bubbles?",
+            "A": "The average value of Salary for all bubbles is {92432.56} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 Size of the team values in the bubble chart?",
+            "A": "{50.00, 10.51, 4.94} count."
+        },
+        {
+            "Q": "What are the bottom 3 Size of the team values in the bubble chart?",
+            "A": "{2.00, 2.25, 2.55} count."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has a larger Size of the team value, the bubble with a Years of experience of 6.3 years and a Salary of 105403.7 $, or the bubble with a Years of experience of 6.4 years and a Salary of 202047.4 $?",
+            "A": "The bubble with a Years of experience of {6.4} and a Salary of {202047.4} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "What is the Size of the team value of the bubble with the largest Salary value?",
+            "A": "The Size of the team value of the bubble with the largest Salary is {10.51}."
+        },
+        {
+            "Q": "What is the Size of the team value of the bubble with the largest Years of experience value?",
+            "A": "The Size of the team value of the bubble with the largest Years of experience is {4.84}."
+        },
+        {
+            "Q": "Classify bubbles with a Salary-coordinate greater than 178873 as 'high value group' and the rest as 'low value group'. What is the difference between the sum of Size of the team for the high value group and the low value group?",
+            "A": "The difference between the total Size of the team of the high-value and low-value groups is {57.56}."
+        }
+    ],
+    "VA": []
+}

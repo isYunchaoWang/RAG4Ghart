@@ -1,0 +1,98 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Wearables in this treemap?",
+            "A": "There are {1} child rectangles under the category Wearables."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Training Tech}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Nonlinearity Correction}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Training Tech}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Force Analysis rectangle in this treemap?",
+            "A": "The value of the Force Analysis rectangle is {21.17}."
+        },
+        {
+            "Q": "What is the value of the 3D Reconstruction rectangle in this treemap?",
+            "A": "The value of the 3D Reconstruction rectangle is {8.03}."
+        },
+        {
+            "Q": "What is the value of the Wireless Sensors rectangle in this treemap?",
+            "A": "The value of the Wireless Sensors rectangle is {7.52}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {6.67}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Wearables and Signal Processing?",
+            "A": "The difference between Wearables and Signal Processing is {13.87}."
+        },
+        {
+            "Q": "What is the sum of the regions of Force Plates and Gait Analysis?",
+            "A": "The sum of Force Plates and Gait Analysis is {35.02}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Wearables category in the treemap, which rectangular labels have a value exceeded 21.38? Please list the labels and values.",
+            "A": "{IMU Sensors} has {21.39}"
+        },
+        {
+            "Q": "Under the Wearables category in the treemap, which rectangular labels have a value below 21.40? Please list the labels and values.",
+            "A": "{IMU Sensors} has {21.39}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Training Tech or Biomechanics?",
+            "A": "The value of {Training Tech} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Motion Capture or Infrared Markers?",
+            "A": "The value of {Motion Capture} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Training Tech, Biomechanics, or Motion Capture?",
+            "A": "The value of {Training Tech} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Biomechanics, Motion Capture, or Optical Systems?",
+            "A": "The value of {Optical Systems} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {8} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

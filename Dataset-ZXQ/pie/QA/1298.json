@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {7} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Equity?",
+            "A": "The next slice clockwise from slice Equity is {Cash Flow}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Equity?",
+            "A": "The next slice counterclockwise from slice Equity is {Operating Costs}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which revenue has the largest proportion in this pie chart?",
+            "A": "The revenue with the largest proportion is {Profit Margin}."
+        },
+        {
+            "Q": "Which revenue has the smallest proportion in this pie chart?",
+            "A": "The revenue with the smallest proportion is {Operating Costs}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Profit Margin slice in this pie chart?",
+            "A": "The value of the Profit Margin slice is {19}%."
+        },
+        {
+            "Q": "What is the value of the Cash Flow slice in this pie chart?",
+            "A": "The value of the Cash Flow slice is {18}%."
+        },
+        {
+            "Q": "What is the value of the Investments slice in this pie chart?",
+            "A": "The value of the Investments slice is {9}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {19}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {9}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of Debt and Equity in this pie chart?",
+            "A": "The difference between Debt and Equity is {2}%."
+        },
+        {
+            "Q": "What is the sum of the values of Cash Flow and Operating Costs in this pie chart?",
+            "A": "The sum of Cash Flow and Operating Costs is {27}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 17.5%? Please list the category names and corresponding percentages.",
+            "A": "{Profit Margin} accounts for {19}% and {Cash Flow} accounts for {18}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 11.0%? Please list the category names and corresponding percentages.",
+            "A": "{Investments} accounts for {9}% and {Operating Costs} accounts for {9}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has the largest value: Profit Margin, Cash Flow, Revenue, or Equity?",
+            "A": "The value of {Profit Margin} is the largest."
+        },
+        {
+            "Q": "Which is smaller, the value of Cash Flow, Revenue, or Debt?",
+            "A": "The value of {Debt} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 5% and 12%?",
+            "A": "There are {2} sectors that have a percentage between 5% and 12%."
+        },
+        {
+            "Q": "Which three sectors have a sum of percentage less than 40%? List all possible combinations.",
+            "A": "The possible combinations are: {(Profit Margin, Investments, Operating Costs), (Cash Flow, Investments, Operating Costs), (Revenue, Equity, Investments), (Revenue, Equity, Operating Costs), (Revenue, Investments, Operating Costs), (Debt, Equity, Investments), (Debt, Equity, Operating Costs), (Debt, Investments, Operating Costs), (Equity, Investments, Operating Costs)}."
+        }
+    ],
+    "VA": []
+}

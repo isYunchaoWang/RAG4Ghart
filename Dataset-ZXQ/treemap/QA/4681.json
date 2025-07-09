@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Aseptic Sealers in this treemap?",
+            "A": "There are {1} child rectangles under the category Aseptic Sealers."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Processing Lines}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Pressure Regulation}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Processing Lines}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Plate Designs rectangle in this treemap?",
+            "A": "The value of the Plate Designs rectangle is {33.88}."
+        },
+        {
+            "Q": "What is the value of the Vapor Control rectangle in this treemap?",
+            "A": "The value of the Vapor Control rectangle is {5.74}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {88.58}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.24}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Screw Compressors and Vapor Control?",
+            "A": "The difference between Screw Compressors and Vapor Control is {28.26}."
+        },
+        {
+            "Q": "What is the sum of the regions of Compressor Types and Blast Chillers?",
+            "A": "The sum of Compressor Types and Blast Chillers is {98.92}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Aseptic Sealers category in the treemap, which rectangular labels have a value exceeded 5.73? Please list the labels and values.",
+            "A": "{H2O2 Sterilization} has {5.74}"
+        },
+        {
+            "Q": "Under the Aseptic Sealers category in the treemap, which rectangular labels have a value below 5.75? Please list the labels and values.",
+            "A": "{H2O2 Sterilization} has {5.74}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Processing Lines, Thermal Systems, or Blast Chillers?",
+            "A": "The value of {Processing Lines} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Thermal Systems, Blast Chillers, or Refrigeration Circuits?",
+            "A": "The value of {Refrigeration Circuits} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {6} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,91 @@
+Tourism and Hospitality,the Comparison of Tourism and Hospitality,10x9,diagonal
+Attractions,Adventure,0.96
+Cruises,Adventure,0.86
+Destinations,Adventure,0.79
+Events,Adventure,0.7
+Hotels,Adventure,0.62
+Online Booking,Adventure,0.53
+Restaurants,Adventure,0.44
+Service Quality,Adventure,0.34
+Tour Operators,Adventure,0.25
+Transport,Adventure,0.17
+Attractions,Business,0.86
+Cruises,Business,0.92
+Destinations,Business,0.86
+Events,Business,0.78
+Hotels,Business,0.69
+Online Booking,Business,0.6
+Restaurants,Business,0.51
+Service Quality,Business,0.42
+Tour Operators,Business,0.33
+Transport,Business,0.26
+Attractions,Cultural,0.79
+Cruises,Cultural,0.85
+Destinations,Cultural,0.92
+Events,Cultural,0.86
+Hotels,Cultural,0.78
+Online Booking,Cultural,0.69
+Restaurants,Cultural,0.61
+Service Quality,Cultural,0.51
+Tour Operators,Cultural,0.42
+Transport,Cultural,0.34
+Attractions,Eco-tourism,0.7
+Cruises,Eco-tourism,0.78
+Destinations,Eco-tourism,0.85
+Events,Eco-tourism,0.93
+Hotels,Eco-tourism,0.85
+Online Booking,Eco-tourism,0.79
+Restaurants,Eco-tourism,0.69
+Service Quality,Eco-tourism,0.6
+Tour Operators,Eco-tourism,0.51
+Transport,Eco-tourism,0.43
+Attractions,Family,0.62
+Cruises,Family,0.69
+Destinations,Family,0.78
+Events,Family,0.86
+Hotels,Family,0.93
+Online Booking,Family,0.86
+Restaurants,Family,0.78
+Service Quality,Family,0.68
+Tour Operators,Family,0.6
+Transport,Family,0.52
+Attractions,Luxury,0.52
+Cruises,Luxury,0.6
+Destinations,Luxury,0.69
+Events,Luxury,0.79
+Hotels,Luxury,0.86
+Online Booking,Luxury,0.93
+Restaurants,Luxury,0.86
+Service Quality,Luxury,0.77
+Tour Operators,Luxury,0.69
+Transport,Luxury,0.61
+Attractions,Rural,0.44
+Cruises,Rural,0.51
+Destinations,Rural,0.61
+Events,Rural,0.69
+Hotels,Rural,0.79
+Online Booking,Rural,0.85
+Restaurants,Rural,0.93
+Service Quality,Rural,0.86
+Tour Operators,Rural,0.78
+Transport,Rural,0.7
+Attractions,Seasonal,0.34
+Cruises,Seasonal,0.42
+Destinations,Seasonal,0.51
+Events,Seasonal,0.61
+Hotels,Seasonal,0.68
+Online Booking,Seasonal,0.78
+Restaurants,Seasonal,0.85
+Service Quality,Seasonal,0.93
+Tour Operators,Seasonal,0.85
+Transport,Seasonal,0.79
+Attractions,Wellness,0.26
+Cruises,Wellness,0.35
+Destinations,Wellness,0.44
+Events,Wellness,0.53
+Hotels,Wellness,0.62
+Online Booking,Wellness,0.7
+Restaurants,Wellness,0.79
+Service Quality,Wellness,0.85
+Tour Operators,Wellness,0.93
+Transport,Wellness,0.85

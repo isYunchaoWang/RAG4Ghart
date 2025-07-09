@@ -1,0 +1,70 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Institution Types,Research Outcomes,Impact Areas,Funding Sources,Research Fields
+Source,Target,Value
+Government Agencies,Commercial Products,20
+Government Agencies,Published Papers,26
+Government Agencies,Open-source Projects,31
+Government Agencies,Patents,22
+Government Agencies,Prototypes,23
+Corporate Labs,Commercial Products,23
+Corporate Labs,Published Papers,29
+Corporate Labs,Open-source Projects,8
+Corporate Labs,Patents,16
+Corporate Labs,Prototypes,17
+Research Universities,Commercial Products,57
+Research Universities,Published Papers,12
+Research Universities,Open-source Projects,22
+Research Universities,Patents,86
+Research Universities,Prototypes,91
+Startups,Commercial Products,2
+Startups,Published Papers,8
+Startups,Open-source Projects,5
+Startups,Patents,5
+Startups,Prototypes,12
+Commercial Products,Environment,15
+Commercial Products,Defense,33
+Commercial Products,Healthcare,38
+Commercial Products,Education,16
+Published Papers,Environment,8
+Published Papers,Defense,27
+Published Papers,Healthcare,30
+Published Papers,Education,10
+Open-source Projects,Environment,15
+Open-source Projects,Defense,16
+Open-source Projects,Healthcare,15
+Open-source Projects,Education,20
+Patents,Environment,12
+Patents,Defense,53
+Patents,Healthcare,5
+Patents,Education,59
+Prototypes,Environment,18
+Prototypes,Defense,35
+Prototypes,Healthcare,42
+Prototypes,Education,48
+Environment,Corporate Sponsorship,5
+Environment,Federal Grants,24
+Environment,Private Investment,17
+Environment,University Budget,22
+Defense,Corporate Sponsorship,67
+Defense,Federal Grants,42
+Defense,Private Investment,18
+Defense,University Budget,37
+Healthcare,Corporate Sponsorship,81
+Healthcare,Federal Grants,11
+Healthcare,Private Investment,9
+Healthcare,University Budget,29
+Education,Corporate Sponsorship,70
+Education,Federal Grants,9
+Education,Private Investment,67
+Education,University Budget,7
+Corporate Sponsorship,Biotechnology,61
+Corporate Sponsorship,Space Exploration,82
+Corporate Sponsorship,Renewable Energy,80
+Federal Grants,Biotechnology,12
+Federal Grants,Space Exploration,13
+Federal Grants,Renewable Energy,61
+Private Investment,Biotechnology,33
+Private Investment,Space Exploration,44
+Private Investment,Renewable Energy,34
+University Budget,Biotechnology,12
+University Budget,Space Exploration,44
+University Budget,Renewable Energy,39

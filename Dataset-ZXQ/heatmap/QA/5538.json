@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {81} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {9} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {9} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {horizontal gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to REITs and Location in the heatmap?",
+            "A": "The heat value is {0.29}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Property Management and Affordability in the heatmap?",
+            "A": "The heat value is {0.31}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.79}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.24}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Location on the y-axis?",
+            "A": "The maximum heat value for Location on the y-axis is {0.79}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Residential on the x-axis?",
+            "A": "The maximum heat value of Residential on the x-axis is {0.31}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Size on the y-axis?",
+            "A": "The average heat value for Size on the y-axis is {0.46}."
+        },
+        {
+            "Q": "What is the average heat value for label Industrial on the x-axis?",
+            "A": "The average heat value for Industrial on the x-axis is {0.57}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Property Management and Interest Rates or the cell corresponding to Construction and Inventory?",
+            "A": "The cell corresponding to {Construction} and {Inventory} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Land and Inventory or the cell corresponding to Commercial and Market Trends?",
+            "A": "The cell corresponding to {Commercial} and {Market Trends} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Mortgages and Age or the cell corresponding to Residential and Age?",
+            "A": "The cell corresponding to {Mortgages} and {Age} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Property Management and Age or the cell corresponding to Commercial and Location?",
+            "A": "The cell corresponding to {Commercial} and {Location} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.31 to 0.48?",
+            "A": "The cells are: {(Land, Affordability), (Mortgages, Affordability), (Property Management, Affordability), (REITs, Affordability), (Residential, Affordability), (Land, Age), (Mortgages, Age), (Mortgages, Condition), (Property Management, Condition), (REITs, Condition), (Land, Interest Rates), (Mortgages, Interest Rates), (Property Management, Interest Rates), (REITs, Interest Rates), (Mortgages, Inventory), (REITs, Inventory), (Land, Location), (Mortgages, Location), (Property Management, Location), (Land, Market Trends), (Mortgages, Market Trends), (Property Management, Market Trends), (REITs, Market Trends), (Land, Size), (Mortgages, Size), (Property Management, Size), (REITs, Size), (Mortgages, Supply), (Property Management, Supply)}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Graduation Rate?",
+            "A": "The next dimension clockwise from Graduation Rate is Citation Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Graduation Rate?",
+            "A": "The next dimension counterclockwise from Graduation Rate is Employment Rate."
+        },
+        {
+            "Q": "On the Research Investment Rate, is the point for Powelltown School inside or outside the point for North Victoriashire Institute?",
+            "A": "On the Research Investment Rate, the point for Powelltown School is inside the point for North Victoriashire Institute."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Employment Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of North Victoriashire Institute?",
+            "A": "The strongest aspect is {Employment Rate}, while the weakest aspect is{ Graduation Rate}."
+        },
+        {
+            "Q": "On dimension Graduation Rate, which label scores the highest?",
+            "A": "On Graduation Rate, label {North Victoriashire Institute} scores the highest."
+        },
+        {
+            "Q": "On dimension Graduation Rate, which label scores the highest?",
+            "A": "On Graduation Rate, label {North Victoriashire Institute} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of North Victoriashire Institute on the Citation Rate in the radar chart?",
+            "A": "The value of North Victoriashire Institute on the Safety dimension is {72}."
+        },
+        {
+            "Q": "What is the value of North Victoriashire Institute on the Graduation Rate in the radar chart?",
+            "A": "The value of North Victoriashire Institute on the Safety dimension is {28}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Powelltown School across all dimensions in the radar chart?",
+            "A": "The maximum value of Powelltown School across all dimensions is {73}."
+        },
+        {
+            "Q": "What is the minimum value of label Powelltown School across all dimensions in the radar chart?",
+            "A": "The minimum value of Powelltown School across all dimensions is {67}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Citation Rate",
+            "A": "The average value of Citation Rate is {51.5}."
+        },
+        {
+            "Q": "What is the average value of North Victoriashire Institute",
+            "A": "The average value of North Victoriashire Institute is {60.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Powelltown School in the radar chart, which dimensions have scores between 37 and 64? Please list the dimensions and corresponding scores.",
+            "A": "None is between 37 and 64"
+        },
+        {
+            "Q": "For North Victoriashire Institute in the radar chart, which dimensions have scores above 64? Please list the dimensions and corresponding scores.",
+            "A": "{Research Investment Rate} is {67}, {Employment Rate} is {73}, {Citation Rate} is {72}"
+        },
+        {
+            "Q": "Which labels have scores below 78 for the Employment Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{North Victoriashire Institute} is {73}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For North Victoriashire Institute, which dimension has a higher score: Citation Rate or Graduation Rate?",
+            "A": "{Citation Rate} has a higher score than Graduation Rate for North Victoriashire Institute."
+        },
+        {
+            "Q": "On Research Investment Rate, which label has a higher score: North Victoriashire Institute or the Powelltown School?",
+            "A": "{North Victoriashire Institute} has a higher score on Research Investment Rate compared to Powelltown School."
+        },
+        {
+            "Q": "On Employment Rate, which label has a higher score: North Victoriashire Institute or the Powelltown School?",
+            "A": "{Powelltown School} has a higher score on Employment Rate compared to North Victoriashire Institute."
+        },
+        {
+            "Q": "For Powelltown School, which dimension has a higher score: Graduation Rate or Employment Rate or Research Investment Rate?",
+            "A": "{Employment Rate} has a higher score for Powelltown School."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For North Victoriashire Institute, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "North Victoriashire Institute most needs to improve its {Graduation Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {North Victoriashire Institute}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Powelltown School}."
+        }
+    ],
+    "VA": []
+}

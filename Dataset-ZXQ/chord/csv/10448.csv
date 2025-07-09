@@ -1,0 +1,12 @@
+Science and Engineering, Research Institution Collaboration Flow, Collaborations, random
+Source,Target,Value
+Fleming-Rosario Academy,Alex Laboratory,0
+Alex Laboratory,Fleming-Rosario Academy,19
+Fleming-Rosario Academy,Herman Research Center,21
+Herman Research Center,Fleming-Rosario Academy,25
+Alex Laboratory,Williams University,22
+Williams University,Alex Laboratory,15
+Alex Laboratory,Herman Research Center,23
+Herman Research Center,Alex Laboratory,18
+Fleming-Rosario Academy,Williams University,3
+Williams University,Fleming-Rosario Academy,28

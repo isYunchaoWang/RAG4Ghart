@@ -1,0 +1,7 @@
+﻿Sports and Entertainment,Athlete Statistics
+Pattern,Weak Correlation,No Correlation,No Correlation
+labels,Injury frequency (per year),Recovery time (hours),Endurance (minutes),Training hours/week (hours)
+Kenneth Johnson,0.64,13.39,120.0,10.0
+Paul Wright,5.0,12.0,47.27,40.0
+Ronnie Vaughn,1.85,72.0,30.0,18.24
+Jim Carroll,0.0,51.97,68.84,30.15

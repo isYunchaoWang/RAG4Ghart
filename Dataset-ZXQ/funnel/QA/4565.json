@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {7} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Total Energy Generated stage positioned above or below the Billed Consumption stage?",
+            "A": "The Total Energy Generated stage is positioned {above} the Billed Consumption stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {linear} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Paid Consumption?",
+            "A": "The value of stage Paid Consumption is {10800}."
+        },
+        {
+            "Q": "What is the value of stage Delivered to End Users?",
+            "A": "The value of stage Delivered to End Users is {30420}."
+        },
+        {
+            "Q": "What is the value of stage Post-Transmission?",
+            "A": "The value of stage Post-Transmission is {52549}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Total Energy Generated, with a value of {73791}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Paid Consumption, with a value of {10800}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Delivered to End Users to stage Billed Consumption?",
+            "A": "Decreased by {10485} Megawatt Hours from stage Delivered to End Users to stage Billed Consumption."
+        },
+        {
+            "Q": "How much did it decrease from stage Post-Generation to stage Post-Transmission?",
+            "A": "Decreased by {9677} Megawatt Hours from stage Post-Generation to stage Post-Transmission."
+        },
+        {
+            "Q": "How much did it decrease from stage Total Energy Generated to stage Post-Generation?",
+            "A": "Decreased by {11565} Megawatt Hours from stage Total Energy Generated to stage Post-Generation."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 57387? Please list the stage labels and corresponding values.",
+            "A": "The {Total Energy Generated} stage has {73791}, the {Post-Generation} stage has {62226}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 25177? Please list the stage labels and corresponding values.",
+            "A": "The {Billed Consumption} stage has {19935}, the {Paid Consumption} stage has {10800}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 25177 and 57387? Please list the stage labels and corresponding values.",
+            "A": "The {Post-Transmission} stage has {52549}, the {Post-Distribution} stage has {41978}, the {Delivered to End Users} stage has {30420}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Post-Generation to Post-Transmission, or from stage Total Energy Generated to Post-Generation?",
+            "A": "The reduction from stage {Total Energy Generated} to {Post-Generation} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Post-Transmission to Post-Distribution, from stage Post-Distribution to Delivered to End Users, or from stage Billed Consumption to Paid Consumption?",
+            "A": "The reduction from stage {Post-Distribution} to stage {Delivered to End Users} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Total Energy Generated} and {Post-Generation} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Billed Consumption} and {Paid Consumption} stages."
+        }
+    ],
+    "VA": []
+}

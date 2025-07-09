@@ -1,0 +1,12 @@
+Cultural Trends and Influences, Fashion Trends Influence, Trend Influence Score, long_tail
+Source,Target,Value
+Fast Fashion,Luxury Fashion,1282
+Luxury Fashion,Fast Fashion,635
+Athleisure,Luxury Fashion,422
+Luxury Fashion,Athleisure,295
+Athleisure,High Fashion,235
+High Fashion,Athleisure,209
+Athleisure,Fast Fashion,175
+Fast Fashion,Athleisure,153
+Fast Fashion,High Fashion,131
+High Fashion,Fast Fashion,120

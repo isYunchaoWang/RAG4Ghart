@@ -1,0 +1,82 @@
+Food and Beverage Industry,the Distribution of Food and Beverage Industry,9x9,vertical_gradient
+Bakery,Consumption,0.14
+Beverages,Consumption,0.14
+Confectionery,Consumption,0.12
+Dairy,Consumption,0.09
+Meat,Consumption,0.12
+Processed Foods,Consumption,0.12
+Produce,Consumption,0.09
+Seafood,Consumption,0.11
+Snacks,Consumption,0.11
+Bakery,Exports,0.13
+Beverages,Exports,0.15
+Confectionery,Exports,0.13
+Dairy,Exports,0.18
+Meat,Exports,0.17
+Processed Foods,Exports,0.13
+Produce,Exports,0.16
+Seafood,Exports,0.11
+Snacks,Exports,0.14
+Bakery,Imports,0.17
+Beverages,Imports,0.22
+Confectionery,Imports,0.2
+Dairy,Imports,0.15
+Meat,Imports,0.18
+Processed Foods,Imports,0.18
+Produce,Imports,0.17
+Seafood,Imports,0.14
+Snacks,Imports,0.15
+Bakery,Innovation,0.19
+Beverages,Innovation,0.2
+Confectionery,Innovation,0.2
+Dairy,Innovation,0.22
+Meat,Innovation,0.25
+Processed Foods,Innovation,0.24
+Produce,Innovation,0.22
+Seafood,Innovation,0.2
+Snacks,Innovation,0.21
+Bakery,Marketing,0.29
+Beverages,Marketing,0.32
+Confectionery,Marketing,0.28
+Dairy,Marketing,0.27
+Meat,Marketing,0.3
+Processed Foods,Marketing,0.28
+Produce,Marketing,0.27
+Seafood,Marketing,0.25
+Snacks,Marketing,0.27
+Bakery,Production,0.39
+Beverages,Production,0.37
+Confectionery,Production,0.35
+Dairy,Production,0.4
+Meat,Production,0.39
+Processed Foods,Production,0.4
+Produce,Production,0.36
+Seafood,Production,0.38
+Snacks,Production,0.36
+Bakery,Regulations,0.49
+Beverages,Regulations,0.52
+Confectionery,Regulations,0.49
+Dairy,Regulations,0.48
+Meat,Regulations,0.46
+Processed Foods,Regulations,0.46
+Produce,Regulations,0.46
+Seafood,Regulations,0.47
+Snacks,Regulations,0.49
+Bakery,Safety,0.63
+Beverages,Safety,0.61
+Confectionery,Safety,0.6
+Dairy,Safety,0.59
+Meat,Safety,0.59
+Processed Foods,Safety,0.64
+Produce,Safety,0.62
+Seafood,Safety,0.59
+Snacks,Safety,0.6
+Bakery,Sustainability,0.79
+Beverages,Sustainability,0.78
+Confectionery,Sustainability,0.78
+Dairy,Sustainability,0.77
+Meat,Sustainability,0.78
+Processed Foods,Sustainability,0.77
+Produce,Sustainability,0.76
+Seafood,Sustainability,0.76
+Snacks,Sustainability,0.77

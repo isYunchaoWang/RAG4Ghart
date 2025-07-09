@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this sankey chart?",
+            "A": "There are {7} nodes."
+        },
+        {
+            "Q": "How many links are in this sankey chart?",
+            "A": "There are {12} links."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Impact Areas}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Research Outcomes}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Education} and {Prototypes}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Industrial Automation} and {Open-source Projects}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Healthcare to the node Prototypes?",
+            "A": "The flow value from the node Healthcare to the node Prototypes is {14}."
+        },
+        {
+            "Q": "What is the flow value from the node Defense to the node Published Papers?",
+            "A": "The flow value from the node Defense to the node Published Papers is {43}."
+        },
+        {
+            "Q": "What is the flow value from the node Defense to the node Prototypes?",
+            "A": "The flow value from the node Defense to the node Prototypes is {58}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Healthcare to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Healthcare to the next stage is {126}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Defense to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Defense to the next stage is {17}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Industrial Automation?",
+            "A": "The total flow output from node Industrial Automation is {91}."
+        },
+        {
+            "Q": "What is the total flow input by node Prototypes?",
+            "A": "The total flow input by node Prototypes is {266}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Impact Areas of the sankey chart, which nodes have an outflow exceeded 76? Please list the node labels and their corresponding outflow values.",
+            "A": "{Healthcare} has an outflow of {126}, {Education} has an outflow of {86}, {Education} has an outflow of {128}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Impact Areas and column Research Outcomes is the flow between 29 and 59? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {43} from node {Defense} to {Published Papers}, a flow of {58} from node {Defense} to {Prototypes}, a flow of {41} from node {Healthcare} to {Open-source Projects}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 42 and 59? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {43} from node {Defense} to {Published Papers}, a flow of {58} from node {Defense} to {Prototypes}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Healthcare to node Published Papers and from node Industrial Automation to node Published Papers, which path has a larger flow?",
+            "A": "The flow from node {Healthcare} to node {Published Papers} is larger."
+        },
+        {
+            "Q": "Between the flows from node Healthcare to node Published Papers and from node Education to node Published Papers, which path has a larger flow?",
+            "A": "The flow from node {Healthcare} to node {Published Papers} is larger."
+        },
+        {
+            "Q": "Among the flows from node Industrial Automation to node Published Papers, from node Defense to node Published Papers, and from node Education to node Prototypes, which path has the largest flow?",
+            "A": "The flow from node {Education} to node {Prototypes} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Impact Areas of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Impact Areas is {Education}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Defense to target node Prototypes? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Defense to node Prototypes is: {Defense, Prototypes}."
+        }
+    ],
+    "VA": []
+}

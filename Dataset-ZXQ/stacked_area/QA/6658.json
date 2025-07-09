@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Autonomous Vehicles relative to Rural Logistics?",
+            "A": "Autonomous Vehicles is {below} Rural Logistics in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total delivery time?",
+            "A": "The series with the largest contribution is {International Freight}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total delivery time?",
+            "A": "The series with the smallest contribution is {Rural Logistics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Autonomous Vehicles's Delivery Time in 1964?",
+            "A": "Autonomous Vehicles's delivery time in 1964 is {3.11} days."
+        },
+        {
+            "Q": "What is Drone Delivery's Delivery Time in 1962?",
+            "A": "Drone Delivery's delivery time in 1962 is {2.18} days."
+        },
+        {
+            "Q": "What is International Freight's Delivery Time in 1964?",
+            "A": "International Freight's delivery time in 1964 is {3.18} days."
+        },
+        {
+            "Q": "What are the delivery time of Rural Logistics, Autonomous Vehicles, and Drone Delivery in 1962?",
+            "A": "Rural Logistics's delivery time is {1.64} days, Autonomous Vehicles's delivery time is {1.84} days, Drone Delivery's delivery time is {2.18} days."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Delivery Time in the area chart?",
+            "A": "The global minimum delivery time is {1.13} days."
+        },
+        {
+            "Q": "What is the global maximum Delivery Time in the area chart?",
+            "A": "The global maximum delivery time is {3.52} days."
+        },
+        {
+            "Q": "What is the highest Delivery Time level recorded for Autonomous Vehicles?",
+            "A": "Autonomous Vehicles reached approximately {3.11} days in {1964}."
+        },
+        {
+            "Q": "What is the lowest Delivery Time level recorded for Autonomous Vehicles?",
+            "A": "Autonomous Vehicles's lowest recorded level is approximately {1.84} days in {1962}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Delivery Time?",
+            "A": "The average total delivery time is {11.31} days."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Delivery Time fall between 10.69 and 11.82 days? Please list the years and corresponding total values.",
+            "A": "{11.17} days in {1964}, {11.13} days in {1963}, {11} days in {1961}."
+        },
+        {
+            "Q": "Which years did the total Delivery Time exceed 11.69 days? Please list the years and corresponding total values.",
+            "A": "{12.71} days in {1959}, {12.03} days in {1960}, {12.33} days in {1958}."
+        },
+        {
+            "Q": "Which years did the total Delivery Time go below 10.83 days? Please list the years and corresponding total values.",
+            "A": "{10.56} days in {1965}, {10.71} days in {1962}, {10.18} days in {1966}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1961 and 1962, did the total Delivery Time experience a larger or smaller change than between 1962 and 1963?",
+            "A": "The change in total delivery time between 1961 and 1962 was {smaller} than between 1962 and 1963."
+        },
+        {
+            "Q": "Between 1960 and 1961, did the total Delivery Time experience a larger or smaller change than between 1959 and 1966?",
+            "A": "The change in total delivery time between 1960 and 1961 was {smaller} than between 1959 and 1966."
+        },
+        {
+            "Q": "Between 1961 and 1964, did the total Delivery Time experience a larger or smaller change than between 1959 and 1960?",
+            "A": "The change in total delivery time between 1961 and 1964 was {smaller} than between 1959 and 1960."
+        },
+        {
+            "Q": "Between 1959 and 1963, was the average total Delivery Time higher or lower than between 1960 and 1966?",
+            "A": "The average total delivery time between 1959 and 1963 was {higher} than between 1960 and 1966."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{International Freight} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Rural Logistics, Standard Shipping, Drone Delivery, Autonomous Vehicles, International Freight}."
+        }
+    ]
+}

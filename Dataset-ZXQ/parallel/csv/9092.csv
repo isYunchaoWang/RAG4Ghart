@@ -1,0 +1,7 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,No Correlation,Clustering,Strong Correlation,Strong Correlation
+labels,Capacity factor (%),Maintenance cost (USD/MWh),Renewable percentage (%),Fuel efficiency (%),Carbon intensity (kgCO2/MWh)
+Mullins-Mack  Power Plant,81.52,100.0,10.25,25.42,92.77
+Vaughn-Russell  Energy Facility,95.0,1.0,71.75,56.71,239.81
+Gonzalez Ltd  Energy Facility,82.46,46.5,100.0,90.0,1000.0
+Phillips Ltd  Energy Facility,10.0,91.59,0.0,20.0,0.0

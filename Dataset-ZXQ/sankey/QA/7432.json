@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of the node Final Interview in this sankey chart?",
+            "A": "There are {2} links flowing out of the node Final Interview."
+        },
+        {
+            "Q": "How many links flow into column Interview Stages of this sankey chart?",
+            "A": "There are {12} links flow into column Interview Stages."
+        },
+        {
+            "Q": "How many links are in this sankey chart?",
+            "A": "There are {26} links."
+        },
+        {
+            "Q": "How many nodes are in this sankey chart?",
+            "A": "There are {12} nodes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Performance Ratings}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Employee Types}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Phone Screen} and {Training Program}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Below Average} and {HR Interview}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Good to the node Final Interview?",
+            "A": "The flow value from the node Good to the node Final Interview is {285}."
+        },
+        {
+            "Q": "What is the flow value from the node HR Interview to the node Document Verification?",
+            "A": "The flow value from the node HR Interview to the node Document Verification is {177}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Phone Screen to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Phone Screen to the next stage is {1389}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Phone Screen to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Phone Screen to the next stage is {208}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Excellent?",
+            "A": "The total flow output from node Excellent is {963}."
+        },
+        {
+            "Q": "What is the total flow input by node Contractor?",
+            "A": "The total flow input by node Contractor is {1296}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Interview Stages of the sankey chart, which nodes have an outflow exceeded 397? Please list the node labels and their corresponding outflow values.",
+            "A": "{Technical Interview} has an outflow of {792}, {Phone Screen} has an outflow of {1389}, {HR Interview} has an outflow of {421}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Performance Ratings and column Interview Stages is the flow between 100 and 291? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {100} from node {Below Average} to {Phone Screen}, a flow of {100} from node {Excellent} to {Technical Interview}, a flow of {196} from node {Excellent} to {HR Interview}, a flow of {285} from node {Good} to {Final Interview}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 293 and 360? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {297} from node {Excellent} to {Final Interview}, a flow of {351} from node {Good} to {HR Interview}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Final Interview to node Training Program and from node Phone Screen to node Document Verification, which path has a larger flow?",
+            "A": "The flow from node {Final Interview} to node {Training Program} is larger."
+        },
+        {
+            "Q": "Among the flows from node Training Program to node Full-time, from node Good to node Phone Screen, and from node HR Interview to node Document Verification, which path has the largest flow?",
+            "A": "The flow from node {Good} to node {Phone Screen} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Employee Types of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Employee Types is {Full-time}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Good to target node Part-time? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Good to node Part-time is: {Good, Phone Screen, Training Program, Part-time}."
+        }
+    ],
+    "VA": []
+}

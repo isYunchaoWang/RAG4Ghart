@@ -1,0 +1,23 @@
+Retail and E-commerce,E-commerce Distribution by Category (2022),%
+parent,child,value
+,Platform Architecture,100.0
+Platform Architecture,Payment Systems,15.92
+Payment Systems,Fraud Detection,10.7
+Fraud Detection,ML Models,10.7
+ML Models,Behavior Analysis,5.22
+ML Models,Anomaly Detection,5.48
+Anomaly Detection,Isolation Forest,5.48
+Payment Systems,Gateway APIs,5.22
+Gateway APIs,Tokenization,5.22
+Tokenization,PCI Compliance,5.22
+Platform Architecture,Recommendation Engines,84.08
+Recommendation Engines,Collaborative Filtering,18.38
+Collaborative Filtering,Matrix Factorization,18.38
+Matrix Factorization,SVD Algorithms,18.38
+SVD Algorithms,Parallel Computing,10.77
+SVD Algorithms,GPU Acceleration,7.61
+Recommendation Engines,Real-Time Prediction,65.7
+Real-Time Prediction,Stream Processing,65.7
+Stream Processing,Kafka Pipelines,65.7
+Kafka Pipelines,Exactly-Once Semantics,46.02
+Kafka Pipelines,Stateful Operators,19.68

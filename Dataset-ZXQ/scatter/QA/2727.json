@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {51} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {no correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Stock price in the scatter plot?",
+            "A": "The maximum observed value in the Stock price dimension is {5000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Stock price in the scatter plot?",
+            "A": "The minimum observed value in the Stock price dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Consumer spending in the scatter plot?",
+            "A": "The maximum observed value in the Consumer spending dimension is {100000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Consumer spending in the scatter plot?",
+            "A": "The minimum observed value in the Consumer spending dimension is {1000.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Stock price for all points?",
+            "A": "The average value of Stock price for all points is {2500.50}."
+        },
+        {
+            "Q": "What is the average value of the Consumer spending for all points?",
+            "A": "The average value of Consumer spending for all points is {49632.75}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Consumer spending values corresponding to the top 3 Stock price values in the scatter plot?",
+            "A": "{34588.66, 21585.12, 24074.80}."
+        },
+        {
+            "Q": "What are the Consumer spending values corresponding to the bottom 3 Stock price values in the scatter plot?",
+            "A": "{74684.18, 86152.87, 100000.00}."
+        },
+        {
+            "Q": "What are the Stock price values corresponding to the top 3 Consumer spending values in the scatter plot?",
+            "A": "{200.96, 100.98, 4100.18}."
+        },
+        {
+            "Q": "What are the Stock price values corresponding to the bottom 3 Consumer spending values in the scatter plot?",
+            "A": "{3300.34, 4600.08, 1600.68}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 603.98 and 1290.27 and Y coordinates between 29844.82 and 51363.87?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(200.96, 100000.00) and (3300.34, 1000.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(2400.52, 44434.38) and (2700.46, 44502.83)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [2150.57, 39484.38, 2950.41, 49452.83] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (2400.52, 44434.38)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [1462.84, 5890.00, 2571.44, 31269.44]; Region B: [1996.19, 31778.88, 3104.79, 57158.33]; Region C: [118.27, 47627.80, 1226.86, 73007.24]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region B."
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Rebeccaview Dolphins?",
+            "A": "The next arc clockwise from arc Rebeccaview Dolphins is arc {Fosterborough Stars}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Fosterborough Stars?",
+            "A": "The next arc counterclockwise from arc Fosterborough Stars is arc {Rebeccaview Dolphins}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Fosterborough Stars} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Eddiehaven Panthers} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Fosterborough Stars to Rebeccaview Dolphins in the chord chart?",
+            "A": "The flow value is {376}."
+        },
+        {
+            "Q": "What is the flow value from Rebeccaview Dolphins to Fosterborough Stars in the chord chart?",
+            "A": "The flow value is {124}."
+        },
+        {
+            "Q": "What is the flow value from Eddiehaven Panthers to Fosterborough Stars in the chord chart?",
+            "A": "The flow value is {781}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Fosterborough Stars and Eddiehaven Panthers in the chord chart?",
+            "A": "The maximum flow value between Fosterborough Stars and Eddiehaven Panthers is {893}."
+        },
+        {
+            "Q": "What is the minimum flow value between Fosterborough Stars and Rebeccaview Dolphins in the chord chart?",
+            "A": "The minimum flow value between Fosterborough Stars and Rebeccaview Dolphins is {124}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {893}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {124}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Rebeccaview Dolphins?",
+            "A": "The total flow output from Rebeccaview Dolphins is {521}."
+        },
+        {
+            "Q": "What is the total flow input by Fosterborough Stars?",
+            "A": "The total flow input by Fosterborough Stars is {905}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 778? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {781} from {Eddiehaven Panthers} to {Fosterborough Stars}, a flow of {893} from {Fosterborough Stars} to {Eddiehaven Panthers}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 386? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {124} from {Rebeccaview Dolphins} to {Fosterborough Stars}, a flow of {376} from {Fosterborough Stars} to {Rebeccaview Dolphins}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 386 and 778? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {775} from {Eddiehaven Panthers} to {Rebeccaview Dolphins}, a flow of {397} from {Rebeccaview Dolphins} to {Eddiehaven Panthers}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Eddiehaven Panthers to Rebeccaview Dolphins or from Fosterborough Stars to Rebeccaview Dolphins?",
+            "A": "The flow from {Eddiehaven Panthers} to {Rebeccaview Dolphins} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Eddiehaven Panthers to Fosterborough Stars, from Rebeccaview Dolphins to Eddiehaven Panthers, or from Fosterborough Stars to Rebeccaview Dolphins?",
+            "A": "The flow from {Eddiehaven Panthers} to {Fosterborough Stars} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Fosterborough Stars}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Eddiehaven Panthers} and {Fosterborough Stars}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Eddiehaven Panthers, Arc Fosterborough Stars, Arc Rebeccaview Dolphins}."
+        }
+    ]
+}

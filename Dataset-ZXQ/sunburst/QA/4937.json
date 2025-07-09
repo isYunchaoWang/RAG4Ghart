@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {18} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {5} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Prenatal Services positioned outside, inside or on the same side as Vaccination Initiatives?",
+            "A": "Prenatal Services is positioned {outside} Vaccination Initiatives."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Health Technologies}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Medical Services segment in this sunburst chart?",
+            "A": "The value of the Medical Services segment is {27.69}."
+        },
+        {
+            "Q": "What is the value of the Prenatal Services segment in this sunburst chart?",
+            "A": "The value of the Prenatal Services segment is {5.09}."
+        },
+        {
+            "Q": "What is the value of the Health Surveillance segment in this sunburst chart?",
+            "A": "The value of the Health Surveillance segment is {9.2}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {41.2}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {27.69}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {19.08}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.09}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {99.99}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Health Technologies exceed 60%? Please list the category names and corresponding percentages.",
+            "A": "{Health Informatics} accounts for {70.44}%"
+        },
+        {
+            "Q": "Which categories in the segment Health Technologies are below 40%? Please list the category names and corresponding percentages.",
+            "A": "{Medical Devices} accounts for {29.56}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Public Health Systems, Health Informatics, or Electronic Records?",
+            "A": "The value of {Electronic Records} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Health Technologies, Public Health Systems, or Health Informatics?",
+            "A": "The value of {Health Technologies} is larger."
+        },
+        {
+            "Q": "Which has the largest value: Health Technologies, Public Health Systems, Health Informatics, or Medical Services?",
+            "A": "The value of {Health Technologies} is the largest."
+        },
+        {
+            "Q": "Which is larger, the value of Health Technologies or Public Health Systems?",
+            "A": "The value of {Health Technologies} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Health Technologies to Health Informatics to Electronic Records to Data Privacy Tools}."
+        }
+    ],
+    "VA": []
+}

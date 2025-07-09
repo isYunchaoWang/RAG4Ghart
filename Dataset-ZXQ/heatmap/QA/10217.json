@@ -1,0 +1,105 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {64} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {8} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {horizontal gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Warehousing and Sustainability in the heatmap?",
+            "A": "The heat value is {0.77}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Road and Compliance in the heatmap?",
+            "A": "The heat value is {0.73}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Air and Efficiency in the heatmap?",
+            "A": "The heat value is {0.25}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Warehousing and Safety in the heatmap?",
+            "A": "The heat value is {0.76}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.77}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.25}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Speed on the y-axis?",
+            "A": "The maximum heat value for Speed on the y-axis is {0.74}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Capacity on the y-axis?",
+            "A": "The maximum heat value for Capacity on the y-axis is {0.75}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Warehousing on the x-axis?",
+            "A": "The average heat value for Warehousing on the x-axis is {0.75}."
+        },
+        {
+            "Q": "What is the average heat value for label Speed on the y-axis?",
+            "A": "The average heat value for Speed on the y-axis is {0.51}."
+        },
+        {
+            "Q": "What is the average heat value for label Compliance on the y-axis?",
+            "A": "The average heat value for Compliance on the y-axis is {0.52}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Customs and Reliability or the cell corresponding to Warehousing and Speed?",
+            "A": "The cell corresponding to {Warehousing} and {Speed} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Road and Cost or the cell corresponding to Pipeline and Efficiency?",
+            "A": "The cell corresponding to {Road} and {Cost} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Air and Speed or the cell corresponding to Intermodal and Sustainability?",
+            "A": "The cell corresponding to {Intermodal} and {Sustainability} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Warehousing and Compliance or the cell corresponding to Maritime and Efficiency?",
+            "A": "The cell corresponding to {Warehousing} and {Compliance} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.65 to 0.69?",
+            "A": "There are {no cells} with heat values within the range of 0.65 to 0.69."
+        }
+    ],
+    "VA": []
+}

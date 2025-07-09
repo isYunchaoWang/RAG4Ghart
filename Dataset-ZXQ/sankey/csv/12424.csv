@@ -1,0 +1,26 @@
+Sports and Entertainment,Sports Event Framework,Events,random,Audience Segments,Sports Types,Engagement Channels
+Source,Target,Value
+VIP Guests,Baseball,7544
+VIP Guests,Basketball,7126
+VIP Guests,Hockey,8590
+International Fans,Baseball,1584
+International Fans,Basketball,10085
+International Fans,Hockey,13023
+Corporate Groups,Baseball,2203
+Corporate Groups,Basketball,1172
+Corporate Groups,Hockey,3025
+Local Fans,Baseball,18362
+Local Fans,Basketball,4040
+Local Fans,Hockey,10704
+Baseball,Social Media,7343
+Baseball,Fan Meetups,9089
+Baseball,Mobile Apps,1989
+Baseball,Fantasy Leagues,11272
+Basketball,Social Media,3623
+Basketball,Fan Meetups,7810
+Basketball,Mobile Apps,4626
+Basketball,Fantasy Leagues,6364
+Hockey,Social Media,14143
+Hockey,Fan Meetups,8070
+Hockey,Mobile Apps,10313
+Hockey,Fantasy Leagues,2816

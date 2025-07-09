@@ -1,0 +1,52 @@
+Energy and Utilities,Carbon Emission Flow,Tons,random,Final Disposition,Sector Distribution,Transportation Methods,Mitigation Measures,Emission Sources
+Source,Target,Value
+Offset Projects,Agriculture,12266
+Offset Projects,Waste Management,13261
+Atmosphere,Agriculture,29610
+Atmosphere,Waste Management,17746
+Carbon Trading,Agriculture,27931
+Carbon Trading,Waste Management,44786
+Agriculture,Rail Transport,16166
+Agriculture,Air Cargo,10613
+Agriculture,Road Freight,25211
+Agriculture,Maritime Shipping,17817
+Waste Management,Rail Transport,19309
+Waste Management,Air Cargo,15787
+Waste Management,Road Freight,15701
+Waste Management,Maritime Shipping,24996
+Rail Transport,Renewable Energy,5899
+Rail Transport,None,4884
+Rail Transport,Energy Efficiency,8636
+Rail Transport,Afforestation,16056
+Air Cargo,Renewable Energy,6643
+Air Cargo,None,8205
+Air Cargo,Energy Efficiency,4722
+Air Cargo,Afforestation,6830
+Road Freight,Renewable Energy,8174
+Road Freight,None,17688
+Road Freight,Energy Efficiency,6076
+Road Freight,Afforestation,8974
+Maritime Shipping,Renewable Energy,20835
+Maritime Shipping,None,5037
+Maritime Shipping,Energy Efficiency,14562
+Maritime Shipping,Afforestation,2379
+Renewable Energy,Coal Combustion,9901
+Renewable Energy,Deforestation,7219
+Renewable Energy,Natural Gas,8122
+Renewable Energy,Livestock,6139
+Renewable Energy,Cement Production,10170
+None,Coal Combustion,9443
+None,Deforestation,1070
+None,Natural Gas,9975
+None,Livestock,10499
+None,Cement Production,4827
+Energy Efficiency,Coal Combustion,2610
+Energy Efficiency,Deforestation,10232
+Energy Efficiency,Natural Gas,6471
+Energy Efficiency,Livestock,8223
+Energy Efficiency,Cement Production,6460
+Afforestation,Coal Combustion,9311
+Afforestation,Deforestation,6978
+Afforestation,Natural Gas,6756
+Afforestation,Livestock,10059
+Afforestation,Cement Production,1135

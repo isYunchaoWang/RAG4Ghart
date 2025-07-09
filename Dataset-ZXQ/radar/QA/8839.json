@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Job Satisfaction?",
+            "A": "The next dimension clockwise from Job Satisfaction is Promotion Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Job Satisfaction?",
+            "A": "The next dimension counterclockwise from Job Satisfaction is Offer Acceptance Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Pay Equity Ratio} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Lane, Velasquez and Pierce?",
+            "A": "The strongest aspect is {Pay Equity Ratio}, while the weakest aspect is{ Offer Acceptance Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Lane, Velasquez and Pierce on the Promotion Rate in the radar chart?",
+            "A": "The value of Lane, Velasquez and Pierce on the Safety dimension is {78}."
+        },
+        {
+            "Q": "What is the value of Lane, Velasquez and Pierce on the Job Satisfaction in the radar chart?",
+            "A": "The value of Lane, Velasquez and Pierce on the Safety dimension is {66}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Lane, Velasquez and Pierce across all dimensions in the radar chart?",
+            "A": "The maximum value of Lane, Velasquez and Pierce across all dimensions is {95}."
+        },
+        {
+            "Q": "What is the minimum value of label Lane, Velasquez and Pierce across all dimensions in the radar chart?",
+            "A": "The minimum value of Lane, Velasquez and Pierce across all dimensions is {95}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Job Satisfaction",
+            "A": "The average value of Job Satisfaction is {66.0}."
+        },
+        {
+            "Q": "What is the average value of Lane, Velasquez and Pierce",
+            "A": "The average value of Lane, Velasquez and Pierce is {70.25}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 78 for the Promotion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Lane, Velasquez and Pierce} is {78}"
+        },
+        {
+            "Q": "Which labels have scores above 42 for the Offer Acceptance Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Lane, Velasquez and Pierce} is {42}"
+        },
+        {
+            "Q": "For Lane, Velasquez and Pierce in the radar chart, which dimensions have scores between 53 and 84? Please list the dimensions and corresponding scores.",
+            "A": "{Job Satisfaction} is {66}, {Promotion Rate} is {78}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Lane, Velasquez and Pierce, which dimension has a higher score: Promotion Rate or Job Satisfaction?",
+            "A": "{Promotion Rate} has a higher score than Job Satisfaction for Lane, Velasquez and Pierce."
+        },
+        {
+            "Q": "For Lane, Velasquez and Pierce, which dimension has a higher score: Pay Equity Ratio or Promotion Rate or Offer Acceptance Rate?",
+            "A": "{Pay Equity Ratio} has a higher score for Lane, Velasquez and Pierce."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Lane, Velasquez and Pierce, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Lane, Velasquez and Pierce most needs to improve its {Offer Acceptance Rate}."
+        }
+    ],
+    "VA": []
+}

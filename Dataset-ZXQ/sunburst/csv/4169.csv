@@ -1,0 +1,20 @@
+Food and Beverage Industry,Food Industry Distribution by Category (2023),%
+parent,child,value
+Root,Food Production,49.84
+Food Production,Agriculture,39.55
+Agriculture,Crop Farming,20.67
+Crop Farming,Fruits,6.85
+Crop Farming,Grains,7.93
+Crop Farming,Vegetables,5.89
+Agriculture,Livestock,18.88
+Livestock,Dairy Farming,11.14
+Livestock,Cattle,7.74
+Food Production,Aquaculture,10.29
+Aquaculture,Freshwater Farming,5.01
+Aquaculture,Marine Farming,5.28
+Root,Food Processing,25.86
+Food Processing,Meat Processing,12.03
+Meat Processing,Packaging,12.03
+Food Processing,Dairy Processing,13.83
+Root,Food Distribution,24.3
+Food Distribution,Retail,24.3

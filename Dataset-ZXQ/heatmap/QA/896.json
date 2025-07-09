@@ -1,0 +1,101 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {49} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {7} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {7} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {radial gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Financial Tech and Risk in the heatmap?",
+            "A": "The heat value is {0.70}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Financial Tech and Assets in the heatmap?",
+            "A": "The heat value is {0.52}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Capital Markets and Valuation in the heatmap?",
+            "A": "The heat value is {0.88}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Investments and Risk in the heatmap?",
+            "A": "The heat value is {0.65}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.93}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.18}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Real Estate on the x-axis?",
+            "A": "The maximum heat value of Real Estate on the x-axis is {0.71}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Valuation on the y-axis?",
+            "A": "The maximum heat value for Valuation on the y-axis is {0.93}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Profit on the y-axis?",
+            "A": "The average heat value for Profit on the y-axis is {0.55}."
+        },
+        {
+            "Q": "What is the average heat value for label Market Share on the y-axis?",
+            "A": "The average heat value for Market Share on the y-axis is {0.48}."
+        },
+        {
+            "Q": "What is the average heat value for label Revenue on the y-axis?",
+            "A": "The average heat value for Revenue on the y-axis is {0.61}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Financial Tech and Market Share or the cell corresponding to Risk Management and Profit?",
+            "A": "The cell corresponding to {Financial Tech} and {Market Share} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Real Estate and Risk or the cell corresponding to Real Estate and Valuation?",
+            "A": "The cell corresponding to {Real Estate} and {Valuation} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Tax and Liabilities or the cell corresponding to Tax and Valuation?",
+            "A": "The cell corresponding to {Tax} and {Valuation} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.30 to 0.45?",
+            "A": "The cells are: {(Investments, Assets), (Real Estate, Assets), (Investments, Liabilities), (Real Estate, Liabilities), (Real Estate, Market Share), (Risk Management, Market Share), (Risk Management, Profit), (Tax, Profit)}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,73 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {6} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of Barley relative to the peak of Oats in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  Barley is to the {right} of the peak of Oats."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Oats show?",
+            "A": "The ridgeline representing Oats shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Rice reach its peaks?",
+            "A": "At {4129.13}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Corn} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =4486.4?",
+            "A": "At X =4486.4,the label with the highest density is {Rice}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 2292? Please list the countries and corresponding peak values.",
+            "A": "{Barley}'s peak at {3989},{Soybeans}'s peak at {3764},{Rice}'s peak at {4129}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 3741? Please list the countries and corresponding peak values.",
+            "A": "{Oats}'s peak at {566},{Corn}'s peak at {576},{Potatoes}'s peak at {541}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Potatoes or Rice?",
+            "A": "{Rice} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Potatoes or Soybeans?",
+            "A": "{Soybeans} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {3} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {Corn}"
+        }
+    ],
+    "VA": []
+}

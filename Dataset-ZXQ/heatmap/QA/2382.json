@@ -1,0 +1,97 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {72} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {9} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {diagonal} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Mathematics and Freshman in the heatmap?",
+            "A": "The heat value is {0.56}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Chemistry and PhD in the heatmap?",
+            "A": "The heat value is {0.66}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Geography and Graduate in the heatmap?",
+            "A": "The heat value is {0.85}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Biology and Staff in the heatmap?",
+            "A": "The heat value is {0.26}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.96}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.17}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Staff on the y-axis?",
+            "A": "The maximum heat value for Staff on the y-axis is {0.84}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Physics on the x-axis?",
+            "A": "The maximum heat value of Physics on the x-axis is {0.94}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Graduate on the y-axis?",
+            "A": "The average heat value for Graduate on the y-axis is {0.76}."
+        },
+        {
+            "Q": "What is the average heat value for label Geography on the x-axis?",
+            "A": "The average heat value for Geography on the x-axis is {0.74}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Arts and Admin or the cell corresponding to Computer Science and Staff?",
+            "A": "The cell corresponding to {Arts} and {Admin} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Mathematics and Admin or the cell corresponding to History and Postdoc?",
+            "A": "The cell corresponding to {History} and {Postdoc} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Arts and Graduate or the cell corresponding to Biology and Postdoc?",
+            "A": "The cell corresponding to {Arts} and {Graduate} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.51 to 0.76?",
+            "A": "The cells are: {(Computer Science, Admin), (Geography, Admin), (Geography, Faculty), (History, Faculty), (History, Freshman), (Mathematics, Freshman), (Arts, Graduate), (Mathematics, Graduate), (Physics, Graduate), (Arts, Junior), (Biology, Junior), (Physics, Junior), (Biology, PhD), (Chemistry, PhD), (Chemistry, Postdoc), (Computer Science, Postdoc), (Computer Science, Researcher), (Geography, Researcher), (Geography, Staff), (History, Staff)}."
+        }
+    ],
+    "VA": []
+}

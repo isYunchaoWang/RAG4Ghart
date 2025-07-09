@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Pesticide use (kg/ha) dimension, what is the spatial relationship of movie  Apple relative to word  Rice in terms of vertical (above/below) direction?",
+            "A": "{movie  Apple} is {below} {word  Rice} on the Pesticide use (kg/ha) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Pesticide use (kg/ha)?",
+            "A": "The first position to the left of Pesticide use (kg/ha) is {Water usage (liters/kg)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Yield per acre (tons)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Water usage (liters/kg)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Water usage (liters/kg)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Soil health index (1-10) and dimension Yield per acre (tons)",
+            "A": "There is {No Correlation} between Soil health index (1-10) and Yield per acre (tons)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of movie  Apple on the Water usage (liters/kg) dimension in the parallel-coordinates chart?",
+            "A": "The value of movie  Apple on the Water usage (liters/kg) dimension is {1.0}"
+        },
+        {
+            "Q": "What is the value of close  Rice on the Yield per acre (tons) dimension in the parallel-coordinates chart?",
+            "A": "The value of close  Rice on the Yield per acre (tons) dimension is {23.03}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label close  Rice across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of close  Rice across all dimensions is {898.55}"
+        },
+        {
+            "Q": "What is the minimum value of label lose  Rice across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of lose  Rice across all dimensions is {10.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Pesticide use (kg/ha)?",
+            "A": "The average value of Pesticide use (kg/ha) is {13.37}"
+        },
+        {
+            "Q": "What is the difference in coding Pesticide use (kg/ha) between label close  Rice and label church  Soybean",
+            "A": "The difference in coding Pesticide use (kg/ha) between close  Rice and church  Soybean is {6.77}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Water usage (liters/kg) dimension in the parallel coordinates?",
+            "A": "{[1000.0, 898.55, 823.46]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Pesticide use (kg/ha) dimension in the parallel coordinates?",
+            "A": "{[0.0, 10.35, 17.12]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Soil health index (1-10), which label has a higher score: close  Rice or church  Soybean?",
+            "A": "{close  Rice} has a higher score on Soil health index (1-10)."
+        },
+        {
+            "Q": "On Water usage (liters/kg), which label has a higher score: movie  Apple or word  Rice?",
+            "A": "{word  Rice} has a higher score on Water usage (liters/kg)."
+        },
+        {
+            "Q": "On Pesticide use (kg/ha), which label has a higher score: movie  Apple or word  Rice?",
+            "A": "{word  Rice} has a higher score on Pesticide use (kg/ha)."
+        },
+        {
+            "Q": "On Yield per acre (tons), which label has a higher score: close  Rice or word  Rice?",
+            "A": "{word  Rice} has a higher score on Yield per acre (tons)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Water usage (liters/kg)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Soil health index (1-10) being greater than 5.43 and Pesticide use (kg/ha) being less than 13.61?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

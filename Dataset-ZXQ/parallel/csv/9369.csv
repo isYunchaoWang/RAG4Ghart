@@ -1,0 +1,10 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,Clustering,Weak Correlation,No Correlation,No Correlation,Clustering,Weak Correlation
+labels,Carbon intensity (kgCO2/MWh),Fuel efficiency (%),Downtime (%),Maintenance cost (USD/MWh),Renewable percentage (%),Output (MWh),Capacity factor (%)
+Elliott-Torres  Power Plant,1000.0,80.61,0.1,100.0,62.27,10000.0,13.33
+"Hines, Thompson and Noble  Generation Station",0.0,20.0,2.76,1.0,74.49,178.51,10.0
+Payne PLC  Power Plant,451.71,63.23,20.0,96.07,58.54,3915.07,51.66
+"Berg, Wright and Turner  Power Plant",420.9,50.24,14.52,55.44,47.42,5264.93,66.82
+"Parker, Brown and Morgan  Generation Station",864.82,45.1,2.22,25.59,100.0,1.0,25.11
+"Rivers, Miles and Hull  Energy Facility",378.24,51.04,2.08,9.87,33.92,4528.0,39.52
+Vega Group  Generation Station,640.11,90.0,5.16,13.62,0.0,8969.42,95.0

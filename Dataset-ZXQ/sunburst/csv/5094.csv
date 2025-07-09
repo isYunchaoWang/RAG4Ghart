@@ -1,0 +1,20 @@
+Human Resources and Employee Management ,Employee Distribution by Category (2021),%
+parent,child,value
+Root,Employee Development,20.22
+Employee Development,Training Programs,6.4
+Employee Development,Performance Management,13.82
+Performance Management,Feedback,8.53
+Performance Management,Goal Setting,5.29
+Root,Workplace Wellbeing,35.45
+Workplace Wellbeing,Health & Safety,29.05
+Health & Safety,Emergency Response,18.5
+Emergency Response,Fire Safety,5.76
+Emergency Response,First Aid Training,6.94
+Emergency Response,Evacuation Drills,5.81
+Health & Safety,Ergonomics,10.55
+Ergonomics,Eye Care,5.54
+Ergonomics,Posture Training,5.01
+Workplace Wellbeing,Work-Life Balance,6.4
+Work-Life Balance,Flexible Scheduling,6.4
+Root,Employee Lifecycle,44.33
+Employee Lifecycle,Onboarding,44.33

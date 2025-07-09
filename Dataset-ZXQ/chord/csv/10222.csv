@@ -1,0 +1,14 @@
+Science and Engineering, Research Institution Collaboration Flow, Collaborations, normal
+Source,Target,Value
+Royal Academy,Odonnell Laboratory,4
+Odonnell Laboratory,Royal Academy,11
+NIT,Odonnell Laboratory,18
+Odonnell Laboratory,NIT,26
+Williams University,NIT,36
+NIT,Williams University,43
+NIT,Herman Research Center,46
+Herman Research Center,NIT,41
+Williams University,Herman Research Center,34
+Herman Research Center,Williams University,27
+Royal Academy,NIT,20
+NIT,Royal Academy,12

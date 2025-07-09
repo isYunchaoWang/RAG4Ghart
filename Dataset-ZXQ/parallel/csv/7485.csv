@@ -1,0 +1,10 @@
+﻿Healthcare and Health,Patient Care Metrics In Different Hostpital
+Pattern,No Correlation,Clustering
+labels,Wait time (minutes),Average length of stay (days),Medication error rate (per 1000)
+"Bautista, Blake and Aguilar  Medical Center",206.22,12.3,20.0
+"Dunn, Dodson and Mills  Clinic",240.0,7.89,2.14
+Medina-White  Hospital,92.73,14.0,0.0
+Tucker LLC  Medical Center,5.0,8.4,15.13
+"Watts, Hall and Atkins  Clinic",162.69,4.25,11.01
+"Escobar, Vance and Carpenter  Medical Center",43.72,1.0,7.18
+Velasquez Inc  Hospital,17.91,7.09,19.84

@@ -1,0 +1,64 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {2} slices in this pie chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which 2024 has the largest proportion in this pie chart?",
+            "A": "The 2024 with the largest proportion is {Debates}."
+        },
+        {
+            "Q": "Which 2024 has the smallest proportion in this pie chart?",
+            "A": "The 2024 with the smallest proportion is {Cooking Competitions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Debates slice in this pie chart?",
+            "A": "The value of the Debates slice is {52}%."
+        },
+        {
+            "Q": "What is the value of the Cooking Competitions slice in this pie chart?",
+            "A": "The value of the Cooking Competitions slice is {48}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {52}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {48}%."
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 51.0%? Please list the category names and corresponding percentages.",
+            "A": "{Debates} accounts for {52}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 49.0%? Please list the category names and corresponding percentages.",
+            "A": "{Cooking Competitions} accounts for {48}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Debates or Cooking Competitions?",
+            "A": "The value of {Debates} is larger."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

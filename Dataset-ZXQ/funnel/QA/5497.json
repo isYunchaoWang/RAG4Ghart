@@ -1,0 +1,95 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {6} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the In-Store Promotion stage positioned above or below the Taste Testing stage?",
+            "A": "The In-Store Promotion stage is positioned {below} the Taste Testing stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {logarithmic} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage In-Store Promotion?",
+            "A": "The value of stage In-Store Promotion is {976}."
+        },
+        {
+            "Q": "What is the value of stage Customer Purchase?",
+            "A": "The value of stage Customer Purchase is {514}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Taste Testing, with a value of {4315}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Repeat Purchase, with a value of {429}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Taste Testing to stage Launch in Market?",
+            "A": "Decreased by {1670} Thousand Bottles from stage Taste Testing to stage Launch in Market."
+        },
+        {
+            "Q": "How much did it decrease from stage Customer Purchase to stage Repeat Purchase?",
+            "A": "Decreased by {85} Thousand Bottles from stage Customer Purchase to stage Repeat Purchase."
+        },
+        {
+            "Q": "How much did it decrease from stage Launch in Market to stage Retail Placement?",
+            "A": "Decreased by {976} Thousand Bottles from stage Launch in Market to stage Retail Placement."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 2157? Please list the stage labels and corresponding values.",
+            "A": "The {Taste Testing} stage has {4315}, the {Launch in Market} stage has {2645}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 1322? Please list the stage labels and corresponding values.",
+            "A": "The {In-Store Promotion} stage has {976}, the {Customer Purchase} stage has {514}, the {Repeat Purchase} stage has {429}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 745 and 2157? Please list the stage labels and corresponding values.",
+            "A": "The {Retail Placement} stage has {1669}, the {In-Store Promotion} stage has {976}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage In-Store Promotion to Customer Purchase, or from stage Retail Placement to In-Store Promotion?",
+            "A": "The reduction from stage {Retail Placement} to {In-Store Promotion} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Launch in Market to Retail Placement, from stage Retail Placement to In-Store Promotion, or from stage Customer Purchase to Repeat Purchase?",
+            "A": "The reduction from stage {Launch in Market} to stage {Retail Placement} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Taste Testing} and {Launch in Market} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Customer Purchase} and {Repeat Purchase} stages."
+        }
+    ],
+    "VA": []
+}

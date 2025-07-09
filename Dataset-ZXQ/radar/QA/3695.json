@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Patent Conversion Rate?",
+            "A": "The next dimension clockwise from Patent Conversion Rate is Graduation Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Patent Conversion Rate?",
+            "A": "The next dimension counterclockwise from Patent Conversion Rate is Discipline Coverage Rate."
+        },
+        {
+            "Q": "On the Graduation Rate, is the point for Sylviaport School inside or outside the point for New Allisonburgh Academy?",
+            "A": "On the Graduation Rate, the point for Sylviaport School is outside the point for New Allisonburgh Academy."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Discipline Coverage Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of New Allisonburgh Academy?",
+            "A": "The strongest aspect is {Discipline Coverage Rate}, while the weakest aspect is{ Patent Conversion Rate}."
+        },
+        {
+            "Q": "On dimension Discipline Coverage Rate, which label scores the highest?",
+            "A": "On Discipline Coverage Rate, label {Sylviaport School} scores the highest."
+        },
+        {
+            "Q": "On dimension Citation Rate, which label scores the highest?",
+            "A": "On Citation Rate, label {New Allisonburgh Academy} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Sylviaport School on the Discipline Coverage Rate in the radar chart?",
+            "A": "The value of Sylviaport School on the Safety dimension is {64}."
+        },
+        {
+            "Q": "What is the value of New Allisonburgh Academy on the Discipline Coverage Rate in the radar chart?",
+            "A": "The value of New Allisonburgh Academy on the Safety dimension is {93}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label New Allisonburgh Academy across all dimensions in the radar chart?",
+            "A": "The maximum value of New Allisonburgh Academy across all dimensions is {64}."
+        },
+        {
+            "Q": "What is the minimum value of label New Allisonburgh Academy across all dimensions in the radar chart?",
+            "A": "The minimum value of New Allisonburgh Academy across all dimensions is {51}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Patent Conversion Rate",
+            "A": "The average value of Patent Conversion Rate is {43.5}."
+        },
+        {
+            "Q": "What is the average value of Sylviaport School",
+            "A": "The average value of Sylviaport School is {69.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 38 for the Patent Conversion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{New Allisonburgh Academy} is {35}"
+        },
+        {
+            "Q": "Which labels have scores above 49 for the Patent Conversion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Sylviaport School} is {52}"
+        },
+        {
+            "Q": "For Sylviaport School in the radar chart, which dimensions have scores between 47 and 79? Please list the dimensions and corresponding scores.",
+            "A": "{Citation Rate} is {74}, {Discipline Coverage Rate} is {64}, {Patent Conversion Rate} is {52}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Sylviaport School, which dimension has a higher score: Citation Rate or Patent Conversion Rate?",
+            "A": "{Citation Rate} has a higher score than Patent Conversion Rate for Sylviaport School."
+        },
+        {
+            "Q": "On Discipline Coverage Rate, which label has a higher score: New Allisonburgh Academy or the Sylviaport School?",
+            "A": "{New Allisonburgh Academy} has a higher score on Discipline Coverage Rate compared to Sylviaport School."
+        },
+        {
+            "Q": "On Patent Conversion Rate, which label has a higher score: Sylviaport School or the New Allisonburgh Academy?",
+            "A": "{Sylviaport School} has a higher score on Patent Conversion Rate compared to New Allisonburgh Academy."
+        },
+        {
+            "Q": "For New Allisonburgh Academy, which dimension has a higher score: Graduation Rate or Citation Rate or Patent Conversion Rate?",
+            "A": "{Graduation Rate} has a higher score for New Allisonburgh Academy."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For New Allisonburgh Academy, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "New Allisonburgh Academy most needs to improve its {Patent Conversion Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Sylviaport School}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {New Allisonburgh Academy}."
+        }
+    ],
+    "VA": []
+}

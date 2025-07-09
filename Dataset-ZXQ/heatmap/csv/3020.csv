@@ -1,0 +1,91 @@
+Energy and Utilities,the Metrics of Energy and Utilities,9x10,horizontal_gradient
+Coal,Consumption,0.88
+Distribution,Consumption,0.83
+Electricity,Consumption,0.76
+Exploration,Consumption,0.67
+Oil,Consumption,0.54
+Renewables,Consumption,0.38
+Transmission,Consumption,0.28
+Waste Management,Consumption,0.21
+Water,Consumption,0.21
+Coal,Efficiency,0.86
+Distribution,Efficiency,0.84
+Electricity,Efficiency,0.82
+Exploration,Efficiency,0.71
+Oil,Efficiency,0.51
+Renewables,Efficiency,0.35
+Transmission,Efficiency,0.26
+Waste Management,Efficiency,0.24
+Water,Efficiency,0.22
+Coal,Emissions,0.86
+Distribution,Emissions,0.82
+Electricity,Emissions,0.78
+Exploration,Emissions,0.75
+Oil,Emissions,0.5
+Renewables,Emissions,0.35
+Transmission,Emissions,0.24
+Waste Management,Emissions,0.21
+Water,Emissions,0.19
+Coal,Investment,0.8
+Distribution,Investment,0.8
+Electricity,Investment,0.78
+Exploration,Investment,0.69
+Oil,Investment,0.56
+Renewables,Investment,0.36
+Transmission,Investment,0.27
+Waste Management,Investment,0.25
+Water,Investment,0.21
+Coal,Policy,0.82
+Distribution,Policy,0.83
+Electricity,Policy,0.82
+Exploration,Policy,0.69
+Oil,Policy,0.54
+Renewables,Policy,0.37
+Transmission,Policy,0.21
+Waste Management,Policy,0.28
+Water,Policy,0.23
+Coal,Prices,0.84
+Distribution,Prices,0.82
+Electricity,Prices,0.78
+Exploration,Prices,0.71
+Oil,Prices,0.52
+Renewables,Prices,0.38
+Transmission,Prices,0.31
+Waste Management,Prices,0.27
+Water,Prices,0.23
+Coal,Production,0.86
+Distribution,Production,0.82
+Electricity,Production,0.78
+Exploration,Production,0.7
+Oil,Production,0.54
+Renewables,Production,0.36
+Transmission,Production,0.26
+Waste Management,Production,0.26
+Water,Production,0.2
+Coal,Reliability,0.83
+Distribution,Reliability,0.82
+Electricity,Reliability,0.82
+Exploration,Reliability,0.69
+Oil,Reliability,0.53
+Renewables,Reliability,0.36
+Transmission,Reliability,0.26
+Waste Management,Reliability,0.26
+Water,Reliability,0.26
+Coal,Storage,0.8
+Distribution,Storage,0.84
+Electricity,Storage,0.8
+Exploration,Storage,0.77
+Oil,Storage,0.56
+Renewables,Storage,0.37
+Transmission,Storage,0.26
+Waste Management,Storage,0.22
+Water,Storage,0.22
+Coal,Technology,0.85
+Distribution,Technology,0.84
+Electricity,Technology,0.78
+Exploration,Technology,0.69
+Oil,Technology,0.52
+Renewables,Technology,0.37
+Transmission,Technology,0.31
+Waste Management,Technology,0.22
+Water,Technology,0.19

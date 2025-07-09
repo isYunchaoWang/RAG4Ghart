@@ -1,0 +1,68 @@
+Retail and E-commerce,Omni-channel Retail Purchase Ecosystem,Purchases,random,Product Categories,Channels,Marketing Campaigns,Customer Segments
+Source,Target,Value
+Books,Physical Store,5524
+Books,Mobile App,8351
+Books,Online Store,12908
+Beauty Products,Physical Store,2518
+Beauty Products,Mobile App,17370
+Beauty Products,Online Store,19763
+Physical Store,Holiday Promo,241
+Physical Store,Email Newsletter,2150
+Physical Store,Social Media Ad,1762
+Physical Store,Referral Program,1730
+Physical Store,Flash Sale,717
+Physical Store,Influencer Campaign,1442
+Mobile App,Holiday Promo,5897
+Mobile App,Email Newsletter,7562
+Mobile App,Social Media Ad,1302
+Mobile App,Referral Program,1227
+Mobile App,Flash Sale,1227
+Mobile App,Influencer Campaign,8506
+Online Store,Holiday Promo,4506
+Online Store,Email Newsletter,4351
+Online Store,Social Media Ad,8893
+Online Store,Referral Program,3882
+Online Store,Flash Sale,3474
+Online Store,Influencer Campaign,7565
+Holiday Promo,Teens,3139
+Holiday Promo,Young Adults,1986
+Holiday Promo,Seniors,707
+Holiday Promo,Professionals,1329
+Holiday Promo,Parents,1804
+Holiday Promo,Students,1152
+Holiday Promo,Adults,527
+Email Newsletter,Teens,2117
+Email Newsletter,Young Adults,2845
+Email Newsletter,Seniors,1939
+Email Newsletter,Professionals,2037
+Email Newsletter,Parents,2947
+Email Newsletter,Students,1871
+Email Newsletter,Adults,307
+Social Media Ad,Teens,2072
+Social Media Ad,Young Adults,1973
+Social Media Ad,Seniors,856
+Social Media Ad,Professionals,468
+Social Media Ad,Parents,2977
+Social Media Ad,Students,3143
+Social Media Ad,Adults,468
+Referral Program,Teens,1702
+Referral Program,Young Adults,1343
+Referral Program,Seniors,225
+Referral Program,Professionals,1595
+Referral Program,Parents,1430
+Referral Program,Students,362
+Referral Program,Adults,182
+Flash Sale,Teens,195
+Flash Sale,Young Adults,1161
+Flash Sale,Seniors,1032
+Flash Sale,Professionals,246
+Flash Sale,Parents,882
+Flash Sale,Students,1244
+Flash Sale,Adults,658
+Influencer Campaign,Teens,1032
+Influencer Campaign,Young Adults,1874
+Influencer Campaign,Seniors,4033
+Influencer Campaign,Professionals,1887
+Influencer Campaign,Parents,2788
+Influencer Campaign,Students,1132
+Influencer Campaign,Adults,4767

@@ -1,0 +1,13 @@
+Human Resources and Employee Management,Productivity Rate,units/hour
+trend,random_on_off_rising,stable_rising,exponential_falling,exponential_falling
+Year,Engineering Department,Research & Development,Administrative Support,Human Resources
+1996,9.13,10.19,9.66,9.55
+1997,9.56,10.1,9.3,8.65
+1998,10.48,10.66,8.12,7.75
+1999,11.18,11.21,7.08,7.36
+2000,7.63,12.88,6.21,4.9
+2001,1.21,12.58,4.49,4.92
+2002,0.1,12.5,4.47,5.48
+2003,0.1,12.38,5.29,4.61
+2004,0.1,14.85,4.88,2.54
+2005,8.57,14.46,3.15,4.34

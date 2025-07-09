@@ -1,0 +1,10 @@
+﻿Sports and Entertainment,Athlete Statistics
+Pattern,Weak Correlation,No Correlation,Clustering,Strong Correlation,Strong Correlation,Weak Correlation
+labels,Performance rating (1-10),Injury frequency (per year),Training hours/week (hours),Speed (km/h),Endurance (minutes),Accuracy (%),Recovery time (hours)
+Luis Wallace,7.62,0.0,31.49,40.0,120.0,100.0,46.64
+Matthew Martin,7.57,2.58,40.0,32.07,80.14,62.63,12.0
+Melanie Weeks,8.2,0.56,10.65,28.44,70.4,62.59,40.08
+Brittany Steele,10.0,1.34,20.26,34.21,88.89,75.23,35.88
+Jessica Flowers,4.15,0.15,15.27,15.0,30.0,50.0,72.0
+Sherri Joyce,4.0,5.0,10.0,25.85,67.67,58.41,25.86
+Andrew Rhodes,9.49,2.07,31.46,33.36,85.3,68.98,28.23

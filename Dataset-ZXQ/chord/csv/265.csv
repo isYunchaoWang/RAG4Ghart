@@ -1,0 +1,14 @@
+Agriculture and Food Production, Crops Production Transfer Flow, Thousand Tons, normal
+Source,Target,Value
+Potatoes,Sugarcane,38
+Sugarcane,Potatoes,62
+Barley,Sugarcane,108
+Sugarcane,Barley,162
+Potatoes,Soybeans,207
+Soybeans,Potatoes,251
+Wheat,Soybeans,253
+Soybeans,Wheat,241
+Wheat,Sugarcane,203
+Sugarcane,Wheat,157
+Barley,Soybeans,112
+Soybeans,Barley,63

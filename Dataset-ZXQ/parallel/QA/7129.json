@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Average length of stay (days) dimension, what is the spatial relationship of Hartman-Chase  Medical Center relative to Bell LLC  Medical Center in terms of vertical (above/below) direction?",
+            "A": "{Hartman-Chase  Medical Center} is {above} {Bell LLC  Medical Center} on the Average length of stay (days) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Average length of stay (days)?",
+            "A": "The second position to the left of Average length of stay (days) is {Staff-to-patient ratio (per shift)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Preventive care rate (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Patient satisfaction (1-10)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Wait time (minutes)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Medication error rate (per 1000) and dimension Average length of stay (days)",
+            "A": "There is {No Correlation} between Medication error rate (per 1000) and Average length of stay (days)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Shelton, Martin and Ross  Hospital on the Patient satisfaction (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of Shelton, Martin and Ross  Hospital on the Patient satisfaction (1-10) dimension is {10.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Mcconnell, Robinson and Richmond  Clinic across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Mcconnell, Robinson and Richmond  Clinic across all dimensions is {90.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Mcconnell, Robinson and Richmond  Clinic across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Mcconnell, Robinson and Richmond  Clinic across all dimensions is {3.36}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Patient satisfaction (1-10)?",
+            "A": "The average value of Patient satisfaction (1-10) is {5.12}"
+        },
+        {
+            "Q": "What is the difference in coding Medication error rate (per 1000) between label Shelton, Martin and Ross  Hospital and label Bell LLC  Medical Center",
+            "A": "The difference in coding Medication error rate (per 1000) between Shelton, Martin and Ross  Hospital and Bell LLC  Medical Center is {20.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Preventive care rate (%) dimension in the parallel coordinates?",
+            "A": "{[90.0, 69.33, 45.78]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Patient satisfaction (1-10) dimension in the parallel coordinates?",
+            "A": "{[3.0, 3.36, 4.12]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Medication error rate (per 1000), which label has a higher score: Bell LLC  Medical Center or Mcconnell, Robinson and Richmond  Clinic?",
+            "A": "{Mcconnell, Robinson and Richmond  Clinic} has a higher score on Medication error rate (per 1000)."
+        },
+        {
+            "Q": "On Medication error rate (per 1000), which label has a higher score: Mcconnell, Robinson and Richmond  Clinic or Hartman-Chase  Medical Center?",
+            "A": "{Mcconnell, Robinson and Richmond  Clinic} has a higher score on Medication error rate (per 1000)."
+        },
+        {
+            "Q": "On Patient satisfaction (1-10), which label has a higher score: Mcconnell, Robinson and Richmond  Clinic or Shelton, Martin and Ross  Hospital?",
+            "A": "{Shelton, Martin and Ross  Hospital} has a higher score on Patient satisfaction (1-10)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Wait time (minutes)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Staff-to-patient ratio (per shift) being greater than 12.7 and Medication error rate (per 1000) being less than 11.1?",
+            "A": "There are {0} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

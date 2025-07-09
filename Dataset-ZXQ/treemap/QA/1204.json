@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category ABC Analysis in this treemap?",
+            "A": "There are {2} child rectangles under the category ABC Analysis."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Supply Chain}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Intermodal}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Supply Chain}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Sentiment Analysis rectangle in this treemap?",
+            "A": "The value of the Sentiment Analysis rectangle is {20.28}."
+        },
+        {
+            "Q": "What is the value of the BERT Models rectangle in this treemap?",
+            "A": "The value of the BERT Models rectangle is {12.74}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.76}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Social Listening and Logistics?",
+            "A": "The difference between Social Listening and Logistics is {49.59}."
+        },
+        {
+            "Q": "What is the sum of the regions of Emoji Decoding and Warehouse Design?",
+            "A": "The sum of Emoji Decoding and Warehouse Design is {65.17}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the ABC Analysis category in the treemap, which rectangular labels have a value exceeded 34.62? Please list the labels and values.",
+            "A": "{Pareto Thresholds} has {40.42}"
+        },
+        {
+            "Q": "Under the ABC Analysis category in the treemap, which rectangular labels have a value below 23.01? Please list the labels and values.",
+            "A": "{Velocity Profiling} has {17.21}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Warehouse Design or ABC Analysis?",
+            "A": "The value of {Warehouse Design} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Logistics, Warehouse Design, or Slotting Algorithms?",
+            "A": "The value of {Slotting Algorithms} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Supply Chain or Logistics?",
+            "A": "The value of {Supply Chain} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Supply Chain, Logistics, or Warehouse Design?",
+            "A": "The value of {Supply Chain} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {6} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

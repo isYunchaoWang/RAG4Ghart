@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc South Gate?",
+            "A": "The next arc clockwise from arc South Gate is arc {Harbor Point}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc South Gate?",
+            "A": "The next arc counterclockwise from arc South Gate is arc {Grand Terminal}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{South Gate} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Harbor Point} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from South Gate to Grand Terminal in the chord chart?",
+            "A": "The flow value is {176}."
+        },
+        {
+            "Q": "What is the flow value from Grand Terminal to South Gate in the chord chart?",
+            "A": "The flow value is {339}."
+        },
+        {
+            "Q": "What is the flow value from Grand Terminal to Harbor Point in the chord chart?",
+            "A": "The flow value is {173}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Grand Terminal and Harbor Point in the chord chart?",
+            "A": "The maximum flow value between Grand Terminal and Harbor Point is {173}."
+        },
+        {
+            "Q": "What is the minimum flow value between South Gate and Grand Terminal in the chord chart?",
+            "A": "The minimum flow value between South Gate and Grand Terminal is {176}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {404}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {55}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Harbor Point?",
+            "A": "The total flow output from Harbor Point is {380}."
+        },
+        {
+            "Q": "What is the total flow input by South Gate?",
+            "A": "The total flow input by South Gate is {664}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 250? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {325} from {Harbor Point} to {South Gate}, a flow of {404} from {South Gate} to {Harbor Point}, a flow of {339} from {Grand Terminal} to {South Gate}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 250? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {55} from {Harbor Point} to {Grand Terminal}, a flow of {173} from {Grand Terminal} to {Harbor Point}, a flow of {176} from {South Gate} to {Grand Terminal}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 114 and 332? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {173} from {Grand Terminal} to {Harbor Point}, a flow of {325} from {Harbor Point} to {South Gate}, a flow of {176} from {South Gate} to {Grand Terminal}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from South Gate to Grand Terminal or from Harbor Point to Grand Terminal?",
+            "A": "The flow from {South Gate} to {Grand Terminal} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Harbor Point to Grand Terminal, from South Gate to Grand Terminal, or from Grand Terminal to South Gate?",
+            "A": "The flow from {Grand Terminal} to {South Gate} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Grand Terminal}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Harbor Point} and {South Gate}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc South Gate, Arc Harbor Point, Arc Grand Terminal}."
+        }
+    ]
+}

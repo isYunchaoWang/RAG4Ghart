@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this sankey chart?",
+            "A": "There are {7} nodes."
+        },
+        {
+            "Q": "How many links flow into column Enrollment Channels of this sankey chart?",
+            "A": "There are {10} links flow into column Enrollment Channels."
+        },
+        {
+            "Q": "How many nodes are in the column Enrollment Channels of this sankey chart?",
+            "A": "There are {2} nodes in the column Enrollment Channels."
+        },
+        {
+            "Q": "How many links are in this sankey chart?",
+            "A": "There are {10} links."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Institution Types}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Enrollment Channels}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {University} and {Direct Admission}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {University} and {Exchange Programs}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Public School to the node Exchange Programs?",
+            "A": "The flow value from the node Public School to the node Exchange Programs is {2103}."
+        },
+        {
+            "Q": "What is the flow value from the node Private School to the node Exchange Programs?",
+            "A": "The flow value from the node Private School to the node Exchange Programs is {3074}."
+        },
+        {
+            "Q": "What is the flow value from the node University to the node Exchange Programs?",
+            "A": "The flow value from the node University to the node Exchange Programs is {991}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Public School to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Public School to the next stage is {5009}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node University to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node University to the next stage is {991}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node University?",
+            "A": "The total flow output from node University is {7337}."
+        },
+        {
+            "Q": "What is the total flow input by node Direct Admission?",
+            "A": "The total flow input by node Direct Admission is {18359}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Institution Types of the sankey chart, which nodes have an outflow exceeded 3094? Please list the node labels and their corresponding outflow values.",
+            "A": "{Public School} has an outflow of {5009}, {Online Institution} has an outflow of {3115}, {University} has an outflow of {6346}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Institution Types and column Enrollment Channels is the flow between 2091 and 2883? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {2103} from node {Public School} to {Exchange Programs}, a flow of {2693} from node {Private School} to {Direct Admission}, a flow of {2617} from node {Online Institution} to {Exchange Programs}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 2360 and 2655? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {2617} from node {Online Institution} to {Exchange Programs}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Online Institution to node Direct Admission and from node University to node Exchange Programs, which path has a larger flow?",
+            "A": "The flow from node {Online Institution} to node {Direct Admission} is larger."
+        },
+        {
+            "Q": "Among the flows from node Community College to node Direct Admission, from node Private School to node Exchange Programs, and from node Private School to node Direct Admission, which path has the largest flow?",
+            "A": "The flow from node {Private School} to node {Exchange Programs} is the largest."
+        },
+        {
+            "Q": "Among the flows from node Public School to node Exchange Programs, from node Community College to node Exchange Programs, and from node Online Institution to node Direct Admission, which path has the largest flow?",
+            "A": "The flow from node {Online Institution} to node {Direct Admission} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Enrollment Channels of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Enrollment Channels is {Direct Admission}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Community College to target node Direct Admission? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Community College to node Direct Admission is: {Community College, Direct Admission}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,14 @@
+Agriculture and Food Production, Crops Production Transfer Flow, Thousand Tons, random
+Source,Target,Value
+Soybeans,Potatoes,334
+Potatoes,Soybeans,594
+Oats,Soybeans,153
+Soybeans,Oats,509
+Oats,Sugarcane,21
+Sugarcane,Oats,197
+Potatoes,Corn,48
+Corn,Potatoes,52
+Oats,Potatoes,408
+Potatoes,Oats,441
+Potatoes,Sugarcane,92
+Sugarcane,Potatoes,357

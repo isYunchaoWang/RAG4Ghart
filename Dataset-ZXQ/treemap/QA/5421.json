@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Force Feedback in this treemap?",
+            "A": "There are {1} child rectangles under the category Force Feedback."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Medical Tech}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Iterative Algorithms}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Medical Tech}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Attention Gates rectangle in this treemap?",
+            "A": "The value of the Attention Gates rectangle is {14.45}."
+        },
+        {
+            "Q": "What is the value of the Wave Variables rectangle in this treemap?",
+            "A": "The value of the Wave Variables rectangle is {11.4}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.81}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Attention Gates and MRI Machines?",
+            "A": "The difference between Attention Gates and MRI Machines is {25.42}."
+        },
+        {
+            "Q": "What is the sum of the regions of CT Scanners and U-Net Variants?",
+            "A": "The sum of CT Scanners and U-Net Variants is {39.06}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Force Feedback category in the treemap, which rectangular labels have a value exceeded 30.46? Please list the labels and values.",
+            "A": "{Bilateral Teleoperation} has {30.47}"
+        },
+        {
+            "Q": "Under the Force Feedback category in the treemap, which rectangular labels have a value below 30.48? Please list the labels and values.",
+            "A": "{Bilateral Teleoperation} has {30.47}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Imaging Systems, MRI Machines, or Pulse Sequences?",
+            "A": "The value of {Pulse Sequences} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Medical Tech, Imaging Systems, or MRI Machines?",
+            "A": "The value of {Medical Tech} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of MRI Machines or Gradient Echo?",
+            "A": "The value of {MRI Machines} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Medical Tech or Imaging Systems?",
+            "A": "The value of {Medical Tech} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {8} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

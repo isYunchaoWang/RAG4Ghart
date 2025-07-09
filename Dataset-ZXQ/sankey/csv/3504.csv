@@ -1,0 +1,41 @@
+Education and Academics,Education System Framework,Students,random,Student Backgrounds,Support Services,Post-Education Paths,Enrollment Channels
+Source,Target,Value
+Transfer Students,Counseling,226
+Transfer Students,Financial Aid,170
+Transfer Students,Career Services,224
+International,Counseling,119
+International,Financial Aid,16
+International,Career Services,16
+Rural,Counseling,91
+Rural,Financial Aid,91
+Rural,Career Services,292
+Urban,Counseling,169
+Urban,Financial Aid,174
+Urban,Career Services,156
+First-Generation,Counseling,640
+First-Generation,Financial Aid,103
+First-Generation,Career Services,103
+Low-Income,Counseling,86
+Low-Income,Financial Aid,38
+Low-Income,Career Services,34
+Counseling,Gap Year,215
+Counseling,Graduate Studies,600
+Counseling,Entrepreneurship,516
+Financial Aid,Gap Year,308
+Financial Aid,Graduate Studies,230
+Financial Aid,Entrepreneurship,54
+Career Services,Gap Year,341
+Career Services,Graduate Studies,357
+Career Services,Entrepreneurship,127
+Gap Year,Entrance Exams,176
+Gap Year,Exchange Programs,99
+Gap Year,Scholarships,459
+Gap Year,Direct Admission,130
+Graduate Studies,Entrance Exams,134
+Graduate Studies,Exchange Programs,358
+Graduate Studies,Scholarships,560
+Graduate Studies,Direct Admission,135
+Entrepreneurship,Entrance Exams,38
+Entrepreneurship,Exchange Programs,164
+Entrepreneurship,Scholarships,347
+Entrepreneurship,Direct Admission,148

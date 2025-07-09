@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {6} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {SwiftLink}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {SmartHub}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar SmartHub relative to the bar BrightEdge in terms of horizontal (left/right) direction?",
+            "A": "Bar SmartHub is to the {right} of the bar BrightEdge."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {SwiftLink}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {SkyBound}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar SwiftLink?",
+            "A": "The value of SwiftLink is {30000.0} million USD."
+        },
+        {
+            "Q": "What is the value of bar SkyBound?",
+            "A": "The value of SkyBound is {5000.0} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum million USD in the bar chart?",
+            "A": "The maximum million USD is {30000.0} million USD."
+        },
+        {
+            "Q": "What is the minimum million USD in the bar chart?",
+            "A": "The minimum million USD is {5000.0} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of BrightEdge and PrimeVue?",
+            "A": "The total value of BrightEdge and PrimeVue is {38237.2} million USD."
+        },
+        {
+            "Q": "What is the average value of SkyBound and SwiftLink?",
+            "A": "The average value of SkyBound and SwiftLink is {17500.0} million USD."
+        },
+        {
+            "Q": "What is the difference between BrightEdge and SkyBound?",
+            "A": "The difference between BrightEdge and SkyBound is {10812.0} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have million USD values exceed 28950.05 million USD? Please list the bars and corresponding million USD values?",
+            "A": "{SwiftLink} has {30000.0} million USD."
+        },
+        {
+            "Q": "Which bars have {million USD} values below 19118.60 million USD? Please list the bars and corresponding million USD values?",
+            "A": "{SkyBound} has {5000.0} million USD, {SmartHub} has {13300.5} million USD, {BrightEdge} has {15812.0} million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, NextGen or SkyBound ",
+            "A": "The value of the {NextGen} is larger?"
+        },
+        {
+            "Q": "Which is larger, NextGen, SwiftLink or PrimeVue ",
+            "A": "The value of the {SwiftLink} is larger?"
+        },
+        {
+            "Q": "Which is larger, SwiftLink, SkyBound, BrightEdge or NextGen ",
+            "A": "The value of the {SwiftLink} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {3} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {NextGen} and {BrightEdge}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {SwiftLink}, {NextGen}, and {PrimeVue}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by million USD values in descending order and list the labels from left to right.",
+            "A": "Sorted by million USD value descending: {SwiftLink}, {NextGen}, {PrimeVue}, {BrightEdge}, {SmartHub}, and {SkyBound}."
+        },
+        {
+            "Q": "Sort the bars by million USD values in ascending order and list the labels from left to right.",
+            "A": "Sorted by million USD value ascending: {SkyBound}, {SmartHub}, {BrightEdge}, {PrimeVue}, {NextGen}, and {SwiftLink}."
+        }
+    ]
+}

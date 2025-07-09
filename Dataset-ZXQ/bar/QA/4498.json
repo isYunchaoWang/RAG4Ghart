@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {12} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Diesel}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Gasoline}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Diesel relative to the bar Hydrogen in terms of horizontal (left/right) direction?",
+            "A": "Bar Diesel is to the {left} of the bar Hydrogen."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Solar}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Electricity}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Electricity?",
+            "A": "The value of Electricity is {899} TWh."
+        },
+        {
+            "Q": "What is the value of bar Natural Gas?",
+            "A": "The value of Natural Gas is {2124} TWh."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum TWh in the bar chart?",
+            "A": "The maximum TWh is {4600} TWh."
+        },
+        {
+            "Q": "What is the minimum TWh in the bar chart?",
+            "A": "The minimum TWh is {899} TWh."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Biomass and Electricity?",
+            "A": "The total value of Biomass and Electricity is {3830} TWh."
+        },
+        {
+            "Q": "What is the average value of Solar and Diesel?",
+            "A": "The average value of Solar and Diesel is {3847.0} TWh."
+        },
+        {
+            "Q": "What is the difference between Gasoline and Hydro?",
+            "A": "The difference between Gasoline and Hydro is {231} TWh."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have TWh values exceed 4589.50 TWh? Please list the bars and corresponding TWh values?",
+            "A": "{Solar} has {4600} TWh."
+        },
+        {
+            "Q": "Which bars have {TWh} values below 1517.00 TWh? Please list the bars and corresponding TWh values?",
+            "A": "{Electricity} has {899} TWh, {Nuclear} has {908} TWh, {Hydrogen} has {1205} TWh."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Wind or Natural Gas ",
+            "A": "The value of the {Natural Gas} is larger?"
+        },
+        {
+            "Q": "Which is larger, Wind, Diesel or Hydrogen ",
+            "A": "The value of the {Diesel} is larger?"
+        },
+        {
+            "Q": "Which is larger, Petroleum, Gasoline, Wind or Electricity ",
+            "A": "The value of the {Petroleum} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {5} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Nuclear} and {Solar}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Solar}, {Biofuel}, and {Diesel}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by TWh values in descending order and list the labels from left to right.",
+            "A": "Sorted by TWh value descending: {Solar}, {Biofuel}, {Diesel}, {Biomass}, {Petroleum}, {Hydro}, {Natural Gas}, {Gasoline}, {Wind}, {Hydrogen}, {Nuclear}, and {Electricity}."
+        },
+        {
+            "Q": "Sort the bars by TWh values in ascending order and list the labels from left to right.",
+            "A": "Sorted by TWh value ascending: {Electricity}, {Nuclear}, {Hydrogen}, {Wind}, {Gasoline}, {Natural Gas}, {Hydro}, {Petroleum}, {Biomass}, {Diesel}, {Biofuel}, and {Solar}."
+        }
+    ]
+}

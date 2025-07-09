@@ -1,0 +1,101 @@
+Retail and E-commerce,the Index of Retail and E-commerce,10x10,diagonal
+Apparel,Brick&Mortar,0.94
+Beauty,Brick&Mortar,0.73
+Electronics,Brick&Mortar,0.58
+Furniture,Brick&Mortar,0.35
+Groceries,Brick&Mortar,0.19
+Home Goods,Brick&Mortar,0.19
+Jewelry,Brick&Mortar,0.36
+Pet Supplies,Brick&Mortar,0.58
+Sports,Brick&Mortar,0.74
+Toys,Brick&Mortar,0.94
+Apparel,Customer Service,0.74
+Beauty,Customer Service,0.88
+Electronics,Customer Service,0.72
+Furniture,Customer Service,0.55
+Groceries,Customer Service,0.36
+Home Goods,Customer Service,0.36
+Jewelry,Customer Service,0.55
+Pet Supplies,Customer Service,0.72
+Sports,Customer Service,0.88
+Toys,Customer Service,0.73
+Apparel,DTC,0.58
+Beauty,DTC,0.72
+Electronics,DTC,0.88
+Furniture,DTC,0.72
+Groceries,DTC,0.58
+Home Goods,DTC,0.58
+Jewelry,DTC,0.72
+Pet Supplies,DTC,0.88
+Sports,DTC,0.72
+Toys,DTC,0.57
+Apparel,Inventory,0.36
+Beauty,Inventory,0.55
+Electronics,Inventory,0.72
+Furniture,Inventory,0.89
+Groceries,Inventory,0.74
+Home Goods,Inventory,0.74
+Jewelry,Inventory,0.88
+Pet Supplies,Inventory,0.72
+Sports,Inventory,0.55
+Toys,Inventory,0.36
+Apparel,Logistics,0.19
+Beauty,Logistics,0.36
+Electronics,Logistics,0.58
+Furniture,Logistics,0.73
+Groceries,Logistics,0.94
+Home Goods,Logistics,0.94
+Jewelry,Logistics,0.73
+Pet Supplies,Logistics,0.58
+Sports,Logistics,0.36
+Toys,Logistics,0.19
+Apparel,Marketing,0.19
+Beauty,Marketing,0.36
+Electronics,Marketing,0.58
+Furniture,Marketing,0.73
+Groceries,Marketing,0.94
+Home Goods,Marketing,0.93
+Jewelry,Marketing,0.73
+Pet Supplies,Marketing,0.58
+Sports,Marketing,0.36
+Toys,Marketing,0.2
+Apparel,Marketplace,0.36
+Beauty,Marketplace,0.55
+Electronics,Marketplace,0.72
+Furniture,Marketplace,0.88
+Groceries,Marketplace,0.73
+Home Goods,Marketplace,0.74
+Jewelry,Marketplace,0.89
+Pet Supplies,Marketplace,0.72
+Sports,Marketplace,0.55
+Toys,Marketplace,0.36
+Apparel,Omnichannel,0.58
+Beauty,Omnichannel,0.72
+Electronics,Omnichannel,0.89
+Furniture,Omnichannel,0.72
+Groceries,Omnichannel,0.57
+Home Goods,Omnichannel,0.57
+Jewelry,Omnichannel,0.72
+Pet Supplies,Omnichannel,0.88
+Sports,Omnichannel,0.72
+Toys,Omnichannel,0.57
+Apparel,Sales,0.73
+Beauty,Sales,0.88
+Electronics,Sales,0.72
+Furniture,Sales,0.55
+Groceries,Sales,0.36
+Home Goods,Sales,0.36
+Jewelry,Sales,0.55
+Pet Supplies,Sales,0.72
+Sports,Sales,0.88
+Toys,Sales,0.74
+Apparel,Subscription,0.94
+Beauty,Subscription,0.74
+Electronics,Subscription,0.58
+Furniture,Subscription,0.36
+Groceries,Subscription,0.19
+Home Goods,Subscription,0.18
+Jewelry,Subscription,0.36
+Pet Supplies,Subscription,0.57
+Sports,Subscription,0.74
+Toys,Subscription,0.93

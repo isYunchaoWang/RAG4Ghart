@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Green Building Certification Rate?",
+            "A": "The next dimension clockwise from Green Building Certification Rate is Renewable Energy Adoption Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Green Building Certification Rate?",
+            "A": "The next dimension counterclockwise from Green Building Certification Rate is Sustainable Packaging Adoption Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Renewable Energy Adoption Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Powers, Cabrera and Hunter Sustainability Initiative?",
+            "A": "The strongest aspect is {Renewable Energy Adoption Rate}, while the weakest aspect is{ Recycling Material Utilization Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Powers, Cabrera and Hunter Sustainability Initiative on the Green Building Certification Rate in the radar chart?",
+            "A": "The value of Powers, Cabrera and Hunter Sustainability Initiative on the Safety dimension is {40}."
+        },
+        {
+            "Q": "What is the value of Powers, Cabrera and Hunter Sustainability Initiative on the Recycling Material Utilization Rate in the radar chart?",
+            "A": "The value of Powers, Cabrera and Hunter Sustainability Initiative on the Safety dimension is {23}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Powers, Cabrera and Hunter Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Powers, Cabrera and Hunter Sustainability Initiative across all dimensions is {23}."
+        },
+        {
+            "Q": "What is the minimum value of label Powers, Cabrera and Hunter Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Powers, Cabrera and Hunter Sustainability Initiative across all dimensions is {23}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Green Building Certification Rate",
+            "A": "The average value of Green Building Certification Rate is {40.0}."
+        },
+        {
+            "Q": "What is the average value of Powers, Cabrera and Hunter Sustainability Initiative",
+            "A": "The average value of Powers, Cabrera and Hunter Sustainability Initiative is {42.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Powers, Cabrera and Hunter Sustainability Initiative in the radar chart, which dimensions have scores above 60? Please list the dimensions and corresponding scores.",
+            "A": "{Renewable Energy Adoption Rate} is {69}"
+        },
+        {
+            "Q": "Which labels have scores below 69 for the Renewable Energy Adoption Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Powers, Cabrera and Hunter Sustainability Initiative} is {69}"
+        },
+        {
+            "Q": "For Powers, Cabrera and Hunter Sustainability Initiative in the radar chart, which dimensions have scores below 32? Please list the dimensions and corresponding scores.",
+            "A": "{Recycling Material Utilization Rate} is {23}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Powers, Cabrera and Hunter Sustainability Initiative, which dimension has a higher score: Green Building Certification Rate or Sustainable Packaging Adoption Rate?",
+            "A": "{Green Building Certification Rate} has a higher score than Sustainable Packaging Adoption Rate for Powers, Cabrera and Hunter Sustainability Initiative."
+        },
+        {
+            "Q": "For Powers, Cabrera and Hunter Sustainability Initiative, which dimension has a higher score: Renewable Energy Adoption Rate or Recycling Material Utilization Rate?",
+            "A": "{Renewable Energy Adoption Rate} has a higher score than Recycling Material Utilization Rate for Powers, Cabrera and Hunter Sustainability Initiative."
+        },
+        {
+            "Q": "For Powers, Cabrera and Hunter Sustainability Initiative, which dimension has a higher score: Sustainable Packaging Adoption Rate or Renewable Energy Adoption Rate or Recycling Material Utilization Rate?",
+            "A": "{Renewable Energy Adoption Rate} has a higher score for Powers, Cabrera and Hunter Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Powers, Cabrera and Hunter Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Powers, Cabrera and Hunter Sustainability Initiative most needs to improve its {Recycling Material Utilization Rate}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,26 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1154.2 756 1234.2 756" fill="none" stroke="#000000"></polyline>
+<polyline points="1062.6 910.6 1142.6 910.6" fill="none" stroke="#000000"></polyline>
+<polyline points="983.4 1065.1 1063.4 1065.1" fill="none" stroke="#000000"></polyline>
+<polyline points="946 1219.7 1026 1219.7" fill="none" stroke="#000000"></polyline>
+<polyline points="1432.2 292.3 1512.2 292.3" fill="none" stroke="#000000"></polyline>
+<polyline points="1336.4 446.9 1416.4 446.9" fill="none" stroke="#000000"></polyline>
+<polyline points="1245.3 601.4 1325.3 601.4" fill="none" stroke="#000000"></polyline>
+<polygon points="524.1 679.7 1203.9 679.7 1104.5 832.3 623.5 832.3" fill="#6A9AAA" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="623.5 834.3 1104.5 834.3 1020.8 986.9 707.2 986.9" fill="#5A8B97" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="707.2 988.9 1020.8 988.9 946 1141.4 782 1141.4" fill="#4A7C84" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="782 1143.4 946 1143.4 946 1296 782 1296" fill="#3C6E71" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="249.6 216 1478.4 216 1386 368.6 342 368.6" fill="#9AC7E3" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="342 370.6 1386 370.6 1286.7 523.1 441.3 523.1" fill="#8AB8D0" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="441.3 525.1 1286.7 525.1 1203.9 677.7 524.1 677.7" fill="#7AA9BD" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1239.1595264196449" y="756" fill="#000000">Retail Placement: 2523</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1147.6259153694366" y="910.5714285714284" fill="#000000">In-Store Promotion: 1785</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1068.4180223635167" y="1065.142857142857" fill="#000000">Customer Purchase: 1164</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1031.0367463275597" y="1219.7142857142858" fill="#000000">Repeat Purchase: 609</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1517.1953957465469" y="292.2857142857143" fill="#000000">Product Concept: 4561</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1421.3511510633634" y="446.85714285714283" fill="#000000">Taste Testing: 3875</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1330.2890155667617" y="601.4285714285713" fill="#000000">Launch in Market: 3138</text>
+<path d="M-422.2344 -5l844.4688 0l0 58l-844.4687 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Beverage Sales Process (Thousand Bottles)</text>
+</svg>

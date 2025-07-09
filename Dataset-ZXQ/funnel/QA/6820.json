@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {7} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Post-Treatment Assessment stage positioned above or below the Initial Consultation stage?",
+            "A": "The Post-Treatment Assessment stage is positioned {below} the Initial Consultation stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {linear} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Initial Consultation?",
+            "A": "The value of stage Initial Consultation is {4563}."
+        },
+        {
+            "Q": "What is the value of stage Diagnosis Confirmed?",
+            "A": "The value of stage Diagnosis Confirmed is {3383}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Initial Consultation, with a value of {4563}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Post-Treatment Assessment, with a value of {1203}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Diagnostic Testing to stage Diagnosis Confirmed?",
+            "A": "Decreased by {634} Patients from stage Diagnostic Testing to stage Diagnosis Confirmed."
+        },
+        {
+            "Q": "How much did it decrease from stage Treatment Recommended to stage Treatment Initiated?",
+            "A": "Decreased by {553} Patients from stage Treatment Recommended to stage Treatment Initiated."
+        },
+        {
+            "Q": "How much did it decrease from stage Treatment Initiated to stage Treatment Completed?",
+            "A": "Decreased by {590} Patients from stage Treatment Initiated to stage Treatment Completed."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 4290? Please list the stage labels and corresponding values.",
+            "A": "The {Initial Consultation} stage has {4563}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 2550? Please list the stage labels and corresponding values.",
+            "A": "The {Treatment Initiated} stage has {2274}, the {Treatment Completed} stage has {1684}, the {Post-Treatment Assessment} stage has {1203}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 2550 and 3105? Please list the stage labels and corresponding values.",
+            "A": "The {Treatment Recommended} stage has {2827}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Treatment Recommended to Treatment Initiated, or from stage Initial Consultation to Diagnostic Testing?",
+            "A": "The reduction from stage {Treatment Recommended} to {Treatment Initiated} is greater."
+        },
+        {
+            "Q": "Which reduction is greater: from stage Diagnostic Testing to Diagnosis Confirmed, or from stage Initial Consultation to Diagnostic Testing?",
+            "A": "The reduction from stage {Diagnostic Testing} to {Diagnosis Confirmed} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Treatment Completed to Post-Treatment Assessment, from stage Treatment Recommended to Treatment Initiated, or from stage Treatment Initiated to Treatment Completed?",
+            "A": "The reduction from stage {Treatment Initiated} to stage {Treatment Completed} is the greatest."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Initial Consultation to Diagnostic Testing, from stage Diagnostic Testing to Diagnosis Confirmed, or from stage Diagnosis Confirmed to Treatment Recommended?",
+            "A": "The reduction from stage {Diagnostic Testing} to stage {Diagnosis Confirmed} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Diagnostic Testing} and {Diagnosis Confirmed} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Treatment Completed} and {Post-Treatment Assessment} stages."
+        }
+    ],
+    "VA": []
+}

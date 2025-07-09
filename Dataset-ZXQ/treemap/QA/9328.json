@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Carbon Tracking in this treemap?",
+            "A": "There are {2} child rectangles under the category Carbon Tracking."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Destination Planning}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Urban Sprawl}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Destination Planning}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Energy Audits rectangle in this treemap?",
+            "A": "The value of the Energy Audits rectangle is {36.36}."
+        },
+        {
+            "Q": "What is the value of the Carrying Capacity rectangle in this treemap?",
+            "A": "The value of the Carrying Capacity rectangle is {20.7}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.53}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Desalination Tech and REC Certificates?",
+            "A": "The difference between Desalination Tech and REC Certificates is {9.6}."
+        },
+        {
+            "Q": "What is the sum of the regions of Smart Tourism and Cellular Automata?",
+            "A": "The sum of Smart Tourism and Cellular Automata is {15.24}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Carbon Tracking category in the treemap, which rectangular labels have a value exceeded 19.62? Please list the labels and values.",
+            "A": "{Scope 3 Emissions} has {21.05}"
+        },
+        {
+            "Q": "Under the Carbon Tracking category in the treemap, which rectangular labels have a value below 16.74? Please list the labels and values.",
+            "A": "{REC Certificates} has {15.31}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Sustainable Tourism, Eco-Certification, or Audit Systems?",
+            "A": "The value of {Audit Systems} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Destination Planning, Sustainable Tourism, or Eco-Certification?",
+            "A": "The value of {Destination Planning} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Destination Planning or Sustainable Tourism?",
+            "A": "The value of {Destination Planning} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

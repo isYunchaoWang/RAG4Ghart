@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {7} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Mapleton}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Lakewood}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Cedarburg relative to the bar Northfield in terms of horizontal (left/right) direction?",
+            "A": "Bar Cedarburg is to the {right} of the bar Northfield."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Northfield}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Pinecrest}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Pinecrest?",
+            "A": "The value of Pinecrest is {60650} visits."
+        },
+        {
+            "Q": "What is the value of bar Northfield?",
+            "A": "The value of Northfield is {704351} visits."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum visits in the bar chart?",
+            "A": "The maximum visits is {704351} visits."
+        },
+        {
+            "Q": "What is the minimum visits in the bar chart?",
+            "A": "The minimum visits is {60650} visits."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Pinecrest and Westwood?",
+            "A": "The total value of Pinecrest and Westwood is {749480} visits."
+        },
+        {
+            "Q": "What is the average value of Lakewood and Westwood?",
+            "A": "The average value of Lakewood and Westwood is {424461.5} visits."
+        },
+        {
+            "Q": "What is the difference between Pinecrest and Northfield?",
+            "A": "The difference between Pinecrest and Northfield is {643701} visits."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have visits values exceed 696590.50 visits? Please list the bars and corresponding visits values?",
+            "A": "{Northfield} has {704351} visits."
+        },
+        {
+            "Q": "Which bars have {visits} values below 147018.00 visits? Please list the bars and corresponding visits values?",
+            "A": "{Pinecrest} has {60650} visits, {Fairview} has {133943} visits."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Fairview or Mapleton ",
+            "A": "The value of the {Mapleton} is larger?"
+        },
+        {
+            "Q": "Which is larger, Fairview, Westwood or Mapleton ",
+            "A": "The value of the {Westwood} is larger?"
+        },
+        {
+            "Q": "Which is larger, Pinecrest, Cedarburg, Mapleton or Lakewood ",
+            "A": "The value of the {Cedarburg} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {4} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Westwood} and {Pinecrest}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Northfield}, {Westwood}, and {Cedarburg}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by visits values in descending order and list the labels from left to right.",
+            "A": "Sorted by visits value descending: {Northfield}, {Westwood}, {Cedarburg}, {Mapleton}, {Lakewood}, {Fairview}, and {Pinecrest}."
+        },
+        {
+            "Q": "Sort the bars by visits values in ascending order and list the labels from left to right.",
+            "A": "Sorted by visits value ascending: {Pinecrest}, {Fairview}, {Lakewood}, {Mapleton}, {Cedarburg}, {Westwood}, and {Northfield}."
+        }
+    ]
+}

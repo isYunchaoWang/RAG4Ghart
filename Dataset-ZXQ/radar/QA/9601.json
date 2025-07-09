@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Capital Appreciation Rate?",
+            "A": "The next dimension clockwise from Capital Appreciation Rate is Rate of Newly Built Homes"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Rate of Newly Built Homes?",
+            "A": "The next dimension counterclockwise from Capital Appreciation Rate is Rental Yield."
+        },
+        {
+            "Q": "On the Price Volatility Index, is the point for mouth inside or outside the point for ton?",
+            "A": "On the Price Volatility Index, the point for mouth is outside the point for ton."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Capital Appreciation Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of port?",
+            "A": "The strongest aspect is {Capital Appreciation Rate}, while the weakest aspect is{ Price-to-Income Ratio}."
+        },
+        {
+            "Q": "On dimension Rental Yield, which label scores the highest?",
+            "A": "On Rental Yield, label {mouth} scores the highest."
+        },
+        {
+            "Q": "On dimension Capital Appreciation Rate, which label scores the highest?",
+            "A": "On Capital Appreciation Rate, label {ton} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of port on the Price-to-Income Ratio in the radar chart?",
+            "A": "The value of port on the Safety dimension is {44}."
+        },
+        {
+            "Q": "What is the value of port on the Rental Yield in the radar chart?",
+            "A": "The value of port on the Safety dimension is {71}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label ton across all dimensions in the radar chart?",
+            "A": "The maximum value of ton across all dimensions is {80}."
+        },
+        {
+            "Q": "What is the minimum value of label ton across all dimensions in the radar chart?",
+            "A": "The minimum value of ton across all dimensions is {44}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Price-to-Income Ratio",
+            "A": "The average value of Price-to-Income Ratio is {38.67}."
+        },
+        {
+            "Q": "What is the average value of mouth",
+            "A": "The average value of mouth is {60.8}."
+        },
+        {
+            "Q": "What is the difference in Price Volatility Index between ton and port?",
+            "A": "The difference in Price Volatility Index between ton and port is {9}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores above 80 for the Capital Appreciation Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{mouth} is {85}, {port} is {80}"
+        },
+        {
+            "Q": "Which labels have scores below 63 for the Price Volatility Index dimension? Please list the labels and corresponding scores.",
+            "A": "{ton} is {56}"
+        },
+        {
+            "Q": "For ton in the radar chart, which dimensions have scores below 35? Please list the dimensions and corresponding scores.",
+            "A": "{Rate of Newly Built Homes} is {21}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For port, which dimension has a higher score: Rental Yield or Rate of Newly Built Homes?",
+            "A": "{Rental Yield} has a higher score than Rate of Newly Built Homes for port."
+        },
+        {
+            "Q": "On Price-to-Income Ratio, which label has a higher score: ton or the port?",
+            "A": "{port} has a higher score on Price-to-Income Ratio compared to ton."
+        },
+        {
+            "Q": "For mouth, which dimension has a higher score: Price Volatility Index or Rate of Newly Built Homes or Capital Appreciation Rate?",
+            "A": "{Price Volatility Index} has a higher score for mouth."
+        },
+        {
+            "Q": "For port, which dimension has a higher score: Rental Yield or Rate of Newly Built Homes or Price Volatility Index?",
+            "A": "{Rental Yield} has a higher score for port."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For mouth, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "mouth most needs to improve its {Rate of Newly Built Homes}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {port}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {ton}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Ticket Sales Rate ?",
+            "A": "The next dimension clockwise from Ticket Sales Rate  is Box Office ROI "
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Ticket Sales Rate ?",
+            "A": "The next dimension counterclockwise from Ticket Sales Rate  is Ad Impression Rate ."
+        },
+        {
+            "Q": "On the Stadium Occupancy Rate , is the point for extend open-source methodologies inside or outside the point for grow cutting-edge users?",
+            "A": "On the Stadium Occupancy Rate , the point for extend open-source methodologies is outside the point for grow cutting-edge users."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {User Retention Rate } encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of grow cutting-edge users?",
+            "A": "The strongest aspect is {User Retention Rate }, while the weakest aspect is{ Stadium Occupancy Rate }."
+        },
+        {
+            "Q": "On dimension Ad Impression Rate , which label scores the highest?",
+            "A": "On Ad Impression Rate , label {grow cutting-edge users} scores the highest."
+        },
+        {
+            "Q": "On dimension User Retention Rate , which label scores the highest?",
+            "A": "On User Retention Rate , label {extend open-source methodologies} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of extend open-source methodologies on the Box Office ROI  in the radar chart?",
+            "A": "The value of extend open-source methodologies on the Safety dimension is {52}."
+        },
+        {
+            "Q": "What is the value of grow cutting-edge users on the User Retention Rate  in the radar chart?",
+            "A": "The value of grow cutting-edge users on the Safety dimension is {99}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label grow cutting-edge users across all dimensions in the radar chart?",
+            "A": "The maximum value of grow cutting-edge users across all dimensions is {93}."
+        },
+        {
+            "Q": "What is the minimum value of label grow cutting-edge users across all dimensions in the radar chart?",
+            "A": "The minimum value of grow cutting-edge users across all dimensions is {29}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Ad Impression Rate ",
+            "A": "The average value of Ad Impression Rate  is {42.5}."
+        },
+        {
+            "Q": "What is the average value of grow cutting-edge users",
+            "A": "The average value of grow cutting-edge users is {51.8}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 39 for the Ad Impression Rate  dimension? Please list the labels and corresponding scores.",
+            "A": "{grow cutting-edge users} is {37}"
+        },
+        {
+            "Q": "For extend open-source methodologies in the radar chart, which dimensions have scores below 44? Please list the dimensions and corresponding scores.",
+            "A": "{Stadium Occupancy Rate } is {32}"
+        },
+        {
+            "Q": "For extend open-source methodologies in the radar chart, which dimensions have scores above 81? Please list the dimensions and corresponding scores.",
+            "A": "{User Retention Rate } is {93}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For extend open-source methodologies, which dimension has a higher score: Box Office ROI  or Ticket Sales Rate ?",
+            "A": "{Box Office ROI } has a higher score than Ticket Sales Rate  for extend open-source methodologies."
+        },
+        {
+            "Q": "For extend open-source methodologies, which dimension has a higher score: Ticket Sales Rate  or Ad Impression Rate ?",
+            "A": "{Ticket Sales Rate } has a higher score than Ad Impression Rate  for extend open-source methodologies."
+        },
+        {
+            "Q": "On User Retention Rate , which label has a higher score: extend open-source methodologies or the grow cutting-edge users?",
+            "A": "{grow cutting-edge users} has a higher score on User Retention Rate  compared to extend open-source methodologies."
+        },
+        {
+            "Q": "On User Retention Rate , which label has a higher score: extend open-source methodologies or the grow cutting-edge users?",
+            "A": "{grow cutting-edge users} has a higher score on User Retention Rate  compared to extend open-source methodologies."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For extend open-source methodologies, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "extend open-source methodologies most needs to improve its {Stadium Occupancy Rate }."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {extend open-source methodologies}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {grow cutting-edge users}."
+        }
+    ],
+    "VA": []
+}

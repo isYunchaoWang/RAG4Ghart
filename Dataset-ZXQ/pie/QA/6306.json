@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {7} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Storage Rentals?",
+            "A": "The next slice clockwise from slice Storage Rentals is {Car Rentals}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Storage Rentals?",
+            "A": "The next slice counterclockwise from slice Storage Rentals is {Commercial Rentals}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which rental has the largest proportion in this pie chart?",
+            "A": "The rental with the largest proportion is {Vacation Rentals}."
+        },
+        {
+            "Q": "Which rental has the smallest proportion in this pie chart?",
+            "A": "The rental with the smallest proportion is {Car Rentals}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Vacation Rentals slice in this pie chart?",
+            "A": "The value of the Vacation Rentals slice is {21}%."
+        },
+        {
+            "Q": "What is the value of the Residential Rentals slice in this pie chart?",
+            "A": "The value of the Residential Rentals slice is {14}%."
+        },
+        {
+            "Q": "What is the value of the Event Space Rentals slice in this pie chart?",
+            "A": "The value of the Event Space Rentals slice is {10}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {21}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {9}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of Car Rentals and Residential Rentals in this pie chart?",
+            "A": "The difference between Car Rentals and Residential Rentals is {5}%."
+        },
+        {
+            "Q": "What is the sum of the values of Equipment Rentals and Commercial Rentals in this pie chart?",
+            "A": "The sum of Equipment Rentals and Commercial Rentals is {36}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 18.0%? Please list the category names and corresponding percentages.",
+            "A": "{Vacation Rentals} accounts for {21}% and {Equipment Rentals} accounts for {19}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 10.0%? Please list the category names and corresponding percentages.",
+            "A": "{Car Rentals} accounts for {9}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has the largest value: Vacation Rentals, Equipment Rentals, Commercial Rentals, or Event Space Rentals?",
+            "A": "The value of {Vacation Rentals} is the largest."
+        },
+        {
+            "Q": "Which is smaller, the value of Equipment Rentals, Commercial Rentals, or Residential Rentals?",
+            "A": "The value of {Residential Rentals} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Vacation Rentals or Equipment Rentals?",
+            "A": "The value of {Vacation Rentals} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Vacation Rentals, Equipment Rentals, or Commercial Rentals?",
+            "A": "The value of {Vacation Rentals} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 3% and 15%?",
+            "A": "There are {4} sectors that have a percentage between 3% and 15%."
+        },
+        {
+            "Q": "Which three sectors have a sum of percentage less than 50%? List all possible combinations.",
+            "A": "The possible combinations are: {(Vacation Rentals, Equipment Rentals, Car Rentals), (Vacation Rentals, Commercial Rentals, Event Space Rentals), (Vacation Rentals, Commercial Rentals, Storage Rentals), (Vacation Rentals, Commercial Rentals, Car Rentals), (Vacation Rentals, Residential Rentals, Event Space Rentals), (Vacation Rentals, Residential Rentals, Storage Rentals), (Vacation Rentals, Residential Rentals, Car Rentals), (Vacation Rentals, Event Space Rentals, Storage Rentals), (Vacation Rentals, Event Space Rentals, Car Rentals), (Vacation Rentals, Storage Rentals, Car Rentals), (Equipment Rentals, Commercial Rentals, Event Space Rentals), (Equipment Rentals, Commercial Rentals, Storage Rentals), (Equipment Rentals, Commercial Rentals, Car Rentals), (Equipment Rentals, Residential Rentals, Event Space Rentals), (Equipment Rentals, Residential Rentals, Storage Rentals), (Equipment Rentals, Residential Rentals, Car Rentals), (Equipment Rentals, Event Space Rentals, Storage Rentals), (Equipment Rentals, Event Space Rentals, Car Rentals), (Equipment Rentals, Storage Rentals, Car Rentals), (Commercial Rentals, Residential Rentals, Event Space Rentals), (Commercial Rentals, Residential Rentals, Storage Rentals), (Commercial Rentals, Residential Rentals, Car Rentals), (Commercial Rentals, Event Space Rentals, Storage Rentals), (Commercial Rentals, Event Space Rentals, Car Rentals), (Commercial Rentals, Storage Rentals, Car Rentals), (Residential Rentals, Event Space Rentals, Storage Rentals), (Residential Rentals, Event Space Rentals, Car Rentals), (Residential Rentals, Storage Rentals, Car Rentals), (Event Space Rentals, Storage Rentals, Car Rentals)}."
+        }
+    ],
+    "VA": []
+}

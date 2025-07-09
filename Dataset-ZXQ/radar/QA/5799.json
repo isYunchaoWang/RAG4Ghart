@@ -1,0 +1,135 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Water Conservation Efficiency Rate?",
+            "A": "The next dimension clockwise from Water Conservation Efficiency Rate is Renewable Energy Adoption Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Waste-to-Energy Conversion Rate?",
+            "A": "The next dimension counterclockwise from Water Conservation Efficiency Rate is Waste-to-Energy Conversion Rate."
+        },
+        {
+            "Q": "On the Water Conservation Efficiency Rate, is the point for Smith-Dyer Sustainability Initiative inside or outside the point for Dillon-Coleman Sustainability Initiative?",
+            "A": "On the Water Conservation Efficiency Rate, the point for Smith-Dyer Sustainability Initiative is inside the point for Dillon-Coleman Sustainability Initiative."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Renewable Energy Adoption Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Dillon-Coleman Sustainability Initiative?",
+            "A": "The strongest aspect is {Renewable Energy Adoption Rate}, while the weakest aspect is{ Waste-to-Energy Conversion Rate}."
+        },
+        {
+            "Q": "On dimension Eco-Friendly Product Sales Growth Rate, which label scores the highest?",
+            "A": "On Eco-Friendly Product Sales Growth Rate, label {Thompson, Ross and Moore Sustainability Initiative} scores the highest."
+        },
+        {
+            "Q": "On dimension Waste-to-Energy Conversion Rate, which label scores the highest?",
+            "A": "On Waste-to-Energy Conversion Rate, label {Dillon-Coleman Sustainability Initiative} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Thompson, Ross and Moore Sustainability Initiative on the Eco-Friendly Product Sales Growth Rate in the radar chart?",
+            "A": "The value of Thompson, Ross and Moore Sustainability Initiative on the Safety dimension is {49}."
+        },
+        {
+            "Q": "What is the value of Dillon-Coleman Sustainability Initiative on the Water Conservation Efficiency Rate in the radar chart?",
+            "A": "The value of Dillon-Coleman Sustainability Initiative on the Safety dimension is {63}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Thompson, Ross and Moore Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Thompson, Ross and Moore Sustainability Initiative across all dimensions is {64}."
+        },
+        {
+            "Q": "What is the minimum value of label Thompson, Ross and Moore Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Thompson, Ross and Moore Sustainability Initiative across all dimensions is {37}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Green Building Certification Rate",
+            "A": "The average value of Green Building Certification Rate is {59.67}."
+        },
+        {
+            "Q": "What is the average value of Thompson, Ross and Moore Sustainability Initiative",
+            "A": "The average value of Thompson, Ross and Moore Sustainability Initiative is {61.0}."
+        },
+        {
+            "Q": "What is the difference in Eco-Friendly Product Sales Growth Rate between Smith-Dyer Sustainability Initiative and Dillon-Coleman Sustainability Initiative?",
+            "A": "The difference in Eco-Friendly Product Sales Growth Rate between Smith-Dyer Sustainability Initiative and Dillon-Coleman Sustainability Initiative is {20}."
+        },
+        {
+            "Q": "What is the difference in Water Conservation Efficiency Rate between Smith-Dyer Sustainability Initiative and Dillon-Coleman Sustainability Initiative?",
+            "A": "The difference in Water Conservation Efficiency Rate between Smith-Dyer Sustainability Initiative and Dillon-Coleman Sustainability Initiative is {22}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Dillon-Coleman Sustainability Initiative in the radar chart, which dimensions have scores below 54? Please list the dimensions and corresponding scores.",
+            "A": "{Eco-Friendly Product Sales Growth Rate} is {49}, {Waste-to-Energy Conversion Rate} is {48}"
+        },
+        {
+            "Q": "Which labels have scores above 79 for the Eco-Friendly Product Sales Growth Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Dillon-Coleman Sustainability Initiative} is {86}"
+        },
+        {
+            "Q": "For Thompson, Ross and Moore Sustainability Initiative in the radar chart, which dimensions have scores above 79? Please list the dimensions and corresponding scores.",
+            "A": "{Eco-Friendly Product Sales Growth Rate} is {86}, {Renewable Energy Adoption Rate} is {89}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Thompson, Ross and Moore Sustainability Initiative, which dimension has a higher score: Eco-Friendly Product Sales Growth Rate or Water Conservation Efficiency Rate?",
+            "A": "{Water Conservation Efficiency Rate} has a higher score than Eco-Friendly Product Sales Growth Rate for Thompson, Ross and Moore Sustainability Initiative."
+        },
+        {
+            "Q": "For Smith-Dyer Sustainability Initiative, which dimension has a higher score: Eco-Friendly Product Sales Growth Rate or Water Conservation Efficiency Rate?",
+            "A": "{Eco-Friendly Product Sales Growth Rate} has a higher score than Water Conservation Efficiency Rate for Smith-Dyer Sustainability Initiative."
+        },
+        {
+            "Q": "On Green Building Certification Rate, which label has a higher score: Dillon-Coleman Sustainability Initiative or the Thompson, Ross and Moore Sustainability Initiative?",
+            "A": "{Thompson, Ross and Moore Sustainability Initiative} has a higher score on Green Building Certification Rate compared to Dillon-Coleman Sustainability Initiative."
+        },
+        {
+            "Q": "For Thompson, Ross and Moore Sustainability Initiative, which dimension has a higher score: Renewable Energy Adoption Rate or Eco-Friendly Product Sales Growth Rate or Waste-to-Energy Conversion Rate?",
+            "A": "{Renewable Energy Adoption Rate} has a higher score for Thompson, Ross and Moore Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Dillon-Coleman Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Dillon-Coleman Sustainability Initiative most needs to improve its {Waste-to-Energy Conversion Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Dillon-Coleman Sustainability Initiative}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Smith-Dyer Sustainability Initiative}."
+        }
+    ],
+    "VA": []
+}

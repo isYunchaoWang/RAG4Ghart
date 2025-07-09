@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Machine Learning in this treemap?",
+            "A": "There are {1} child rectangles under the category Machine Learning."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Traffic Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Crossover Operators}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Traffic Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Velocity Update rectangle in this treemap?",
+            "A": "The value of the Velocity Update rectangle is {6.53}."
+        },
+        {
+            "Q": "What is the value of the Membership Functions rectangle in this treemap?",
+            "A": "The value of the Membership Functions rectangle is {24.27}."
+        },
+        {
+            "Q": "What is the value of the Fuzzy Logic rectangle in this treemap?",
+            "A": "The value of the Fuzzy Logic rectangle is {24.27}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.77}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Traffic Systems and Q-Learning?",
+            "A": "The difference between Traffic Systems and Q-Learning is {36.57}."
+        },
+        {
+            "Q": "What is the sum of the regions of Gaussian and Genetic Algorithms?",
+            "A": "The sum of Gaussian and Genetic Algorithms is {14.61}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Machine Learning category in the treemap, which rectangular labels have a value exceeded 63.42? Please list the labels and values.",
+            "A": "{Q-Learning} has {63.43}"
+        },
+        {
+            "Q": "Under the Machine Learning category in the treemap, which rectangular labels have a value below 63.44? Please list the labels and values.",
+            "A": "{Q-Learning} has {63.43}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Traffic Systems or Signal Control?",
+            "A": "The value of {Traffic Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Adaptive Systems or Q-Learning?",
+            "A": "The value of {Adaptive Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {6} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

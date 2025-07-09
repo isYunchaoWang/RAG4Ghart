@@ -1,0 +1,10 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,No Correlation,Weak Correlation
+labels,Carbon intensity (kgCO2/MWh),Downtime (%),Output (MWh)
+"Hood, Rodriguez and Howell  Generation Station",848.33,16.27,9262.14
+Aguilar PLC  Energy Facility,575.06,5.14,9905.9
+Gonzales PLC  Generation Station,888.72,0.1,4238.72
+Sullivan-Nguyen  Power Plant,1000.0,5.64,10000.0
+Robinson and Sons  Generation Station,3.89,6.29,2300.42
+"Lewis, Wheeler and Huerta  Energy Facility",0.0,10.32,1887.59
+Johnson LLC  Power Plant,95.03,20.0,1.0

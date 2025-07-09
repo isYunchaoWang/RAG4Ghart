@@ -1,0 +1,80 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stream chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stream chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Emergency Room Patients relative to Pediatric Patients?",
+            "A": "Emergency Room Patients is {below} Pediatric Patients in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Outpatient Visitors relative to Emergency Room Patients?",
+            "A": "Outpatient Visitors is {below} Emergency Room Patients in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Wellness Program Participants relative to Outpatient Visitors?",
+            "A": "Wellness Program Participants is {above} Outpatient Visitors in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total patient satisfaction?",
+            "A": "The series with the largest contribution is {Emergency Room Patients}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total patient satisfaction?",
+            "A": "The series with the smallest contribution is {Acute Care Patients}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which year is Emergency Room Patients's maximum Patient Satisfaction in the streamgraph?",
+            "A": "Emergency Room Patients's maximum Patient Satisfaction is in {1966}."
+        },
+        {
+            "Q": "Which year is Emergency Room Patients's minimum Patient Satisfaction in the streamgraph?",
+            "A": "Emergency Room Patients's minimum Patient Satisfaction is in {1965}."
+        }
+    ],
+    "SC": [],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Between 1985 and 1988, did the total Patient Satisfaction experience a larger or smaller change than between 1970 and 1990?",
+            "A": "The change in total patient satisfaction between 1985 and 1988 was {larger} than between 1970 and 1990."
+        },
+        {
+            "Q": "Between 1968 and 1993, was the average total Patient Satisfaction higher or lower than between 1973 and 1987?",
+            "A": "The average total patient satisfaction between 1968 and 1993 was {lower} than between 1973 and 1987."
+        },
+        {
+            "Q": "Between 1992 and 1993, was the average total Patient Satisfaction higher or lower than between 1969 and 1972?",
+            "A": "The average total patient satisfaction between 1992 and 1993 was {higher} than between 1969 and 1972."
+        },
+        {
+            "Q": "Between 1986 and 1990, was the average total Patient Satisfaction higher or lower than between 1968 and 1991?",
+            "A": "The average total patient satisfaction between 1986 and 1990 was {higher} than between 1968 and 1991."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In this streamgraph, which one held the dominant position for the longest period of time?",
+            "A": "{Outpatient Visitors} held the dominant position for the longest period of time."
+        },
+        {
+            "Q": "In this streamgraph, in which year did Chronic Condition Patients and Pediatric Patients first exchange dominant positions?",
+            "A": "Chronic Condition Patients and Pediatric Patients did not exchange leading positions."
+        }
+    ],
+    "VA": []
+}

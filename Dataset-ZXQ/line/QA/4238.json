@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1980, what is the vertical (above/below) relationship of the line representing District Alpha relative to Crimson Quarter?",
+            "A": "In 1980, District Alpha is {above} Crimson Quarter in the vertical direction."
+        },
+        {
+            "Q": "On Outer Rim Settlements, what is the spatial relationship of the data point in 1984 relative to that in 1982 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Outer Rim Settlements, the data point in 1984 is {below} and to the {right} of the data point in 1982."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Crimson Quarter's Life Expectancy levels?",
+            "A": "Crimson Quarter's life expectancy levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Outer Rim Settlements's Life Expectancy levels?",
+            "A": "Outer Rim Settlements's life expectancy levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of District Alpha's Life Expectancy levels?",
+            "A": "District Alpha's life expectancy levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Verdant Ward's Life Expectancy levels?",
+            "A": "Verdant Ward's life expectancy levels show a {bimodal valley} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Stellar City Core's Life Expectancy in 1963?",
+            "A": "Stellar City Core's life expectancy in 1963 is {49.84} years."
+        },
+        {
+            "Q": "What is Sector Beta's Life Expectancy in 1976?",
+            "A": "Sector Beta's life expectancy in 1976 is {100.75} years."
+        },
+        {
+            "Q": "What is Stellar City Core's Life Expectancy in 1975?",
+            "A": "Stellar City Core's life expectancy in 1975 is {65.47} years."
+        },
+        {
+            "Q": "What are the life expectancy of Outer Rim Settlements, District Alpha, and Verdant Ward in 1978?",
+            "A": "Outer Rim Settlements's life expectancy is {94.66} years, District Alpha's life expectancy is {171.08} years, Verdant Ward's life expectancy is {16.51} years."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Life Expectancy in the line chart?",
+            "A": "The global minimum life expectancy is {14.15} years."
+        },
+        {
+            "Q": "What is the global maximum Life Expectancy in the line chart?",
+            "A": "The global maximum life expectancy is {175.17} years."
+        },
+        {
+            "Q": "What is the highest Life Expectancy level recorded for Crimson Quarter?",
+            "A": "Crimson Quarter reached approximately {81.14} years in {1979}."
+        },
+        {
+            "Q": "What is the lowest Life Expectancy level recorded for Crimson Quarter?",
+            "A": "Crimson Quarter's lowest recorded level is approximately {49.81} years in {1977}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in District Alpha's Life Expectancy from the starting year to the final year?",
+            "A": "The rate of no change in District Alpha's life expectancy is {0.00}%."
+        },
+        {
+            "Q": "What is the average value of Stellar City Core's Life Expectancy?",
+            "A": "The average value of Stellar City Core's life expectancy is {62.22} years."
+        },
+        {
+            "Q": "What is the rate of change in Outer Rim Settlements's Life Expectancy from the starting year to the final year?",
+            "A": "The rate of growth in Outer Rim Settlements's life expectancy is {0.16}%."
+        },
+        {
+            "Q": "What is the average value of District Alpha's Life Expectancy?",
+            "A": "The average value of District Alpha's life expectancy is {157.75} years."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Outer Rim Settlements's Life Expectancy exceed 87 years? Please list the years and corresponding values.",
+            "A": "{96.85} years in {1965} year, {94.66} years in {1978} year, {96.43} years in {1966} year."
+        },
+        {
+            "Q": "Which years did Verdant Ward's Life Expectancy below 17 years? Please list the years and corresponding values.",
+            "A": "{16.51} years in {1967} year, {14.15} years in {1965} year, {14.66} years in {1979} year."
+        },
+        {
+            "Q": "In the year 1966, which line had Life Expectancy exceed 100 years? Please list the lines and corresponding values.",
+            "A": "{Sector Beta} had {101} years, {District Alpha} had {174} years."
+        },
+        {
+            "Q": "In the year 1974, which lines had Life Expectancy between 75 and 124 years? Please list the lines and corresponding values.",
+            "A": "{Crimson Quarter} had {81} years, {Outer Rim Settlements} had {83} years."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Crimson Quarter's Life Expectancy in 1977 higher or lower than in 1987?",
+            "A": "The life expectancy in 1977 was {lower} than in 1987."
+        },
+        {
+            "Q": "Between 1970 and 1983, which line experienced the largest change in Life Expectancy, Stellar City Core, Sector Beta, Outer Rim Settlements, or Verdant Ward?",
+            "A": "{Stellar City Core} experienced the largest change in life expectancy."
+        },
+        {
+            "Q": "Between 1968 and 1977, which line had the highest average Life Expectancy, Crimson Quarter, Stellar City Core, or Verdant Ward?",
+            "A": "{Crimson Quarter} had the highest average life expectancy."
+        },
+        {
+            "Q": "Between 1964 and 1980, which line had the highest average Life Expectancy, District Alpha, Crimson Quarter, or Sector Beta?",
+            "A": "{District Alpha} had the highest average life expectancy."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Sector Beta}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1965 and 1967?",
+            "A": "{Stellar City Core} has the fastest average growth rate between 1965 and 1967."
+        },
+        {
+            "Q": "In which year did Stellar City Core first surpass Outer Rim Settlements?",
+            "A": "Stellar City Core first surpassed Outer Rim Settlements in the year {1986}."
+        },
+        {
+            "Q": "Which label had the leading life expectancy since 1970?",
+            "A": "Since 1970, {District Alpha} had the leading life expectancy."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the District Alpha. List the x-coordinates of data points to be preserved.(7 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1958, 1965, 1973, 1978, 1980, 1981, 1987}."
+        }
+    ]
+}

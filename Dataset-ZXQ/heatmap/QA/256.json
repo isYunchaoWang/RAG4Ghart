@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {49} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {7} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {7} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {diagonal} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Pest Control and Demand in the heatmap?",
+            "A": "The heat value is {0.55}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Poultry and Demand in the heatmap?",
+            "A": "The heat value is {0.42}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Farm Management and Sustainability in the heatmap?",
+            "A": "The heat value is {0.70}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Farm Management and Market Price in the heatmap?",
+            "A": "The heat value is {0.81}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.95}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.18}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Farming Techniques on the x-axis?",
+            "A": "The maximum heat value of Farming Techniques on the x-axis is {0.91}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Farm Management on the x-axis?",
+            "A": "The maximum heat value of Farm Management on the x-axis is {0.92}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Yield on the y-axis?",
+            "A": "The average heat value for Yield on the y-axis is {0.56}."
+        },
+        {
+            "Q": "What is the average heat value for label Poultry on the x-axis?",
+            "A": "The average heat value for Poultry on the x-axis is {0.64}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Soil Health and Demand or the cell corresponding to Forestry and Technology Adoption?",
+            "A": "The cell corresponding to {Forestry} and {Technology Adoption} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Crops and Weather Impact or the cell corresponding to Soil Health and Yield?",
+            "A": "The cell corresponding to {Soil Health} and {Yield} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.41 to 0.48?",
+            "A": "The cells are: {(Pest Control, Cost), (Poultry, Demand), (Soil Health, Market Price), (Crops, Technology Adoption), (Farm Management, Weather Impact), (Farming Techniques, Yield)}."
+        }
+    ],
+    "VA": []
+}

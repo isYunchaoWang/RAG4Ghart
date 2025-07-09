@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {6} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Mountain Cabin}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Mobile Home}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Waterfront Property relative to the bar Duplex in terms of horizontal (left/right) direction?",
+            "A": "Bar Waterfront Property is to the {right} of the bar Duplex."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Waterfront Property}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Duplex}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Mobile Home?",
+            "A": "The value of Mobile Home is {648.9} thousand USD."
+        },
+        {
+            "Q": "What is the value of bar Single-Family Home?",
+            "A": "The value of Single-Family Home is {374.5} thousand USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum thousand USD in the bar chart?",
+            "A": "The maximum thousand USD is {737.1} thousand USD."
+        },
+        {
+            "Q": "What is the minimum thousand USD in the bar chart?",
+            "A": "The minimum thousand USD is {170.1} thousand USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Mobile Home and Single-Family Home?",
+            "A": "The total value of Mobile Home and Single-Family Home is {1023.4} thousand USD."
+        },
+        {
+            "Q": "What is the average value of Single-Family Home and Waterfront Property?",
+            "A": "The average value of Single-Family Home and Waterfront Property is {555.8} thousand USD."
+        },
+        {
+            "Q": "What is the difference between Mountain Cabin and Waterfront Property?",
+            "A": "The difference between Mountain Cabin and Waterfront Property is {481.20000000000005} thousand USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have thousand USD values exceed 724.95 thousand USD? Please list the bars and corresponding thousand USD values?",
+            "A": "{Waterfront Property} has {737.1} thousand USD."
+        },
+        {
+            "Q": "Which bars have {thousand USD} values below 511.70 thousand USD? Please list the bars and corresponding thousand USD values?",
+            "A": "{Duplex} has {170.1} thousand USD, {Mountain Cabin} has {255.9} thousand USD, {Single-Family Home} has {374.5} thousand USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Duplex or Waterfront Property ",
+            "A": "The value of the {Waterfront Property} is larger?"
+        },
+        {
+            "Q": "Which is larger, Studio Apartment, Single-Family Home or Duplex ",
+            "A": "The value of the {Studio Apartment} is larger?"
+        },
+        {
+            "Q": "Which is larger, Duplex, Single-Family Home, Studio Apartment or Mountain Cabin ",
+            "A": "The value of the {Studio Apartment} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {3} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Single-Family Home} and {Waterfront Property}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Waterfront Property}, {Studio Apartment}, and {Mobile Home}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by thousand USD values in descending order and list the labels from left to right.",
+            "A": "Sorted by thousand USD value descending: {Waterfront Property}, {Studio Apartment}, {Mobile Home}, {Single-Family Home}, {Mountain Cabin}, and {Duplex}."
+        },
+        {
+            "Q": "Sort the bars by thousand USD values in ascending order and list the labels from left to right.",
+            "A": "Sorted by thousand USD value ascending: {Duplex}, {Mountain Cabin}, {Single-Family Home}, {Mobile Home}, {Studio Apartment}, and {Waterfront Property}."
+        }
+    ]
+}

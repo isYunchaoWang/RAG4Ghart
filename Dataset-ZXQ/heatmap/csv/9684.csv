@@ -1,0 +1,65 @@
+Transportation and Logistics,the Correlations of Transportation and Logistics,8x8,vertical_gradient
+Air,Capacity,0.22
+Customs,Capacity,0.23
+Last Mile,Capacity,0.23
+Maritime,Capacity,0.21
+Rail,Capacity,0.23
+Road,Capacity,0.2
+Tracking,Capacity,0.19
+Warehousing,Capacity,0.21
+Air,Compliance,0.23
+Customs,Compliance,0.21
+Last Mile,Compliance,0.22
+Maritime,Compliance,0.21
+Rail,Compliance,0.24
+Road,Compliance,0.2
+Tracking,Compliance,0.23
+Warehousing,Compliance,0.2
+Air,Efficiency,0.22
+Customs,Efficiency,0.25
+Last Mile,Efficiency,0.26
+Maritime,Efficiency,0.21
+Rail,Efficiency,0.28
+Road,Efficiency,0.26
+Tracking,Efficiency,0.22
+Warehousing,Efficiency,0.25
+Air,Labor,0.33
+Customs,Labor,0.29
+Last Mile,Labor,0.31
+Maritime,Labor,0.3
+Rail,Labor,0.27
+Road,Labor,0.28
+Tracking,Labor,0.29
+Warehousing,Labor,0.29
+Air,Safety,0.37
+Customs,Safety,0.35
+Last Mile,Safety,0.36
+Maritime,Safety,0.32
+Rail,Safety,0.35
+Road,Safety,0.39
+Tracking,Safety,0.38
+Warehousing,Safety,0.36
+Air,Speed,0.45
+Customs,Speed,0.46
+Last Mile,Speed,0.47
+Maritime,Speed,0.46
+Rail,Speed,0.46
+Road,Speed,0.45
+Tracking,Speed,0.47
+Warehousing,Speed,0.48
+Air,Sustainability,0.58
+Customs,Sustainability,0.61
+Last Mile,Sustainability,0.55
+Maritime,Sustainability,0.58
+Rail,Sustainability,0.59
+Road,Sustainability,0.6
+Tracking,Sustainability,0.55
+Warehousing,Sustainability,0.56
+Air,Technology,0.71
+Customs,Technology,0.71
+Last Mile,Technology,0.72
+Maritime,Technology,0.72
+Rail,Technology,0.66
+Road,Technology,0.71
+Tracking,Technology,0.7
+Warehousing,Technology,0.72

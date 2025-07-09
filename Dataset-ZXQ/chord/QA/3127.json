@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {5} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {4} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Health Sciences?",
+            "A": "The next arc clockwise from arc Health Sciences is arc {Arts}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Social Sciences?",
+            "A": "The next arc counterclockwise from arc Social Sciences is arc {Arts}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Business} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Health Sciences} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Health Sciences to Arts in the chord chart?",
+            "A": "The flow value is {39}."
+        },
+        {
+            "Q": "What is the flow value from Health Sciences to Business in the chord chart?",
+            "A": "The flow value is {210}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Social Sciences and Arts in the chord chart?",
+            "A": "The maximum flow value between Social Sciences and Arts is {57}."
+        },
+        {
+            "Q": "What is the minimum flow value between Health Sciences and Arts in the chord chart?",
+            "A": "The minimum flow value between Health Sciences and Arts is {39}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {422}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {39}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Arts?",
+            "A": "The total flow output from Arts is {204}."
+        },
+        {
+            "Q": "What is the total flow input by Arts?",
+            "A": "The total flow input by Arts is {240}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 316? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {422} from {Business} to {Health Sciences}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 54? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {51} from {Arts} to {Social Sciences}, a flow of {44} from {Arts} to {Health Sciences}, a flow of {39} from {Health Sciences} to {Arts}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 62 and 75? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {67} from {Health Sciences} to {Social Sciences}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Arts to Business or from Health Sciences to Business?",
+            "A": "The flow from {Health Sciences} to {Business} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Business to Health Sciences, from Social Sciences to Arts, or from Arts to Business?",
+            "A": "The flow from {Business} to {Health Sciences} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Business}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Business} and {Health Sciences}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Business, Arc Health Sciences, Arc Arts, Arc Social Sciences}."
+        }
+    ]
+}

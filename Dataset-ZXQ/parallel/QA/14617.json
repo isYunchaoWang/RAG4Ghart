@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Booking lead time (days) dimension, what is the spatial relationship of Port Nicolefurt relative to Hollandberg in terms of vertical (above/below) direction?",
+            "A": "{Port Nicolefurt} is {above} {Hollandberg} on the Booking lead time (days) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Customer satisfaction (1-10)?",
+            "A": "The second position to the left of Customer satisfaction (1-10) is {Booking lead time (days)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Accessibility score (1-5)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Booking lead time (days)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Booking lead time (days)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Booking lead time (days) and dimension Cultural immersion index (1-10)",
+            "A": "There is {Strong Correlation} between Booking lead time (days) and Cultural immersion index (1-10)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Port Nicolefurt on the Booking lead time (days) dimension in the parallel-coordinates chart?",
+            "A": "The value of Port Nicolefurt on the Booking lead time (days) dimension is {321.75}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Hollandberg across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Hollandberg across all dimensions is {5.97}"
+        },
+        {
+            "Q": "What is the minimum value of label Port Nicolefurt across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Port Nicolefurt across all dimensions is {3.02}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Customer satisfaction (1-10)?",
+            "A": "The average value of Customer satisfaction (1-10) is {6.54}"
+        },
+        {
+            "Q": "What is the difference in coding Booking lead time (days) between label Hollandberg and label Clarkland",
+            "A": "The difference in coding Booking lead time (days) between Hollandberg and Clarkland is {330.41}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Accessibility score (1-5) dimension in the parallel coordinates?",
+            "A": "{[5.0, 4.89, 3.96]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Booking lead time (days) dimension in the parallel coordinates?",
+            "A": "{[0.0, 13.91, 19.41]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Accessibility score (1-5), which label has a higher score: Hollandberg or North Ericstad?",
+            "A": "{Hollandberg} has a higher score on Accessibility score (1-5)."
+        },
+        {
+            "Q": "On Booking lead time (days), which label has a higher score: Ashleyville or Hollandberg?",
+            "A": "{Ashleyville} has a higher score on Booking lead time (days)."
+        },
+        {
+            "Q": "On Cultural immersion index (1-10), which label has a higher score: Doriston or Clarkland?",
+            "A": "{Doriston} has a higher score on Cultural immersion index (1-10)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Booking lead time (days)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Booking lead time (days) being greater than 129.33 and Customer satisfaction (1-10) being less than 7.14?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

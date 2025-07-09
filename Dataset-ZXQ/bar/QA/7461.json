@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {5} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {CoreLogic}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {SmartHub}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar CoreLogic relative to the bar AlphaNet in terms of horizontal (left/right) direction?",
+            "A": "Bar CoreLogic is to the {left} of the bar AlphaNet."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {CoreLogic}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {AlphaNet}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar CoreLogic?",
+            "A": "The value of CoreLogic is {232606} number of employees."
+        },
+        {
+            "Q": "What is the value of bar BrightWave?",
+            "A": "The value of BrightWave is {71030} number of employees."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum number of employees in the bar chart?",
+            "A": "The maximum number of employees is {232606} number of employees."
+        },
+        {
+            "Q": "What is the minimum number of employees in the bar chart?",
+            "A": "The minimum number of employees is {53816} number of employees."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of CoreLogic and SmartHub?",
+            "A": "The total value of CoreLogic and SmartHub is {313581} number of employees."
+        },
+        {
+            "Q": "What is the average value of SmartHub and SkyBound?",
+            "A": "The average value of SmartHub and SkyBound is {67697.0} number of employees."
+        },
+        {
+            "Q": "What is the difference between AlphaNet and SkyBound?",
+            "A": "The difference between AlphaNet and SkyBound is {603} number of employees."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have number of employees values exceed 76002.50 number of employees? Please list the bars and corresponding number of employees values?",
+            "A": "{SmartHub} has {80975} number of employees, {CoreLogic} has {232606} number of employees."
+        },
+        {
+            "Q": "Which bars have {number of employees} values below 54117.50 number of employees? Please list the bars and corresponding number of employees values?",
+            "A": "{AlphaNet} has {53816} number of employees."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, BrightWave or CoreLogic ",
+            "A": "The value of the {CoreLogic} is larger?"
+        },
+        {
+            "Q": "Which is larger, SkyBound, BrightWave or SmartHub ",
+            "A": "The value of the {SmartHub} is larger?"
+        },
+        {
+            "Q": "Which is larger, BrightWave, CoreLogic, AlphaNet or SmartHub ",
+            "A": "The value of the {CoreLogic} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {1} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {CoreLogic} and {SkyBound}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {CoreLogic}, {SmartHub}, and {BrightWave}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by number of employees values in descending order and list the labels from left to right.",
+            "A": "Sorted by number of employees value descending: {CoreLogic}, {SmartHub}, {BrightWave}, {SkyBound}, and {AlphaNet}."
+        },
+        {
+            "Q": "Sort the bars by number of employees values in ascending order and list the labels from left to right.",
+            "A": "Sorted by number of employees value ascending: {AlphaNet}, {SkyBound}, {BrightWave}, {SmartHub}, and {CoreLogic}."
+        }
+    ]
+}

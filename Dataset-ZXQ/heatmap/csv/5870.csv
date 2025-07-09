@@ -1,0 +1,65 @@
+Real Estate and Housing Market,the Patterns of Real Estate and Housing Market,8x8,vertical_gradient
+Appraisal,Age,0.74
+Commercial,Age,0.71
+Construction,Age,0.72
+Land,Age,0.74
+Property Management,Age,0.73
+REITs,Age,0.73
+Rental,Age,0.74
+Residential,Age,0.7
+Appraisal,Interest Rates,0.58
+Commercial,Interest Rates,0.6
+Construction,Interest Rates,0.59
+Land,Interest Rates,0.57
+Property Management,Interest Rates,0.62
+REITs,Interest Rates,0.59
+Rental,Interest Rates,0.53
+Residential,Interest Rates,0.56
+Appraisal,Inventory,0.44
+Commercial,Inventory,0.48
+Construction,Inventory,0.46
+Land,Inventory,0.42
+Property Management,Inventory,0.42
+REITs,Inventory,0.46
+Rental,Inventory,0.44
+Residential,Inventory,0.45
+Appraisal,Location,0.31
+Commercial,Location,0.36
+Construction,Location,0.33
+Land,Location,0.33
+Property Management,Location,0.36
+REITs,Location,0.34
+Rental,Location,0.37
+Residential,Location,0.35
+Appraisal,Market Trends,0.28
+Commercial,Market Trends,0.25
+Construction,Market Trends,0.26
+Land,Market Trends,0.23
+Property Management,Market Trends,0.24
+REITs,Market Trends,0.26
+Rental,Market Trends,0.22
+Residential,Market Trends,0.27
+Appraisal,Price,0.24
+Commercial,Price,0.19
+Construction,Price,0.18
+Land,Price,0.23
+Property Management,Price,0.2
+REITs,Price,0.2
+Rental,Price,0.21
+Residential,Price,0.19
+Appraisal,Size,0.21
+Commercial,Size,0.2
+Construction,Size,0.17
+Land,Size,0.16
+Property Management,Size,0.16
+REITs,Size,0.16
+Rental,Size,0.16
+Residential,Size,0.18
+Appraisal,Supply,0.14
+Commercial,Supply,0.19
+Construction,Supply,0.17
+Land,Supply,0.18
+Property Management,Supply,0.16
+REITs,Supply,0.16
+Rental,Supply,0.15
+Residential,Supply,0.15

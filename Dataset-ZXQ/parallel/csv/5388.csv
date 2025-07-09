@@ -1,0 +1,9 @@
+﻿Cultural Trends and Influences,Influence Metrics of Different Cultural
+Pattern,No Correlation,Strong Correlation,Weak Correlation,Clustering,No Correlation
+labels,Media coverage (articles/month),Behavior change rate (%),Language adoption (new words),Opinion leader count(verified accounts),Artistic references (cultural citations),Policy influence index (1-10)
+quality  Culture,562.77,17.67,38.82,558.57,273.04,1.0
+when  Civilization,279.65,19.05,12.61,129.51,924.37,8.57
+pay  Civilization,761.69,50.0,100.0,1000.0,1000.0,10.0
+box  Civilization,679.38,12.89,66.69,377.06,0.0,3.57
+effect  Culture,1.0,34.61,56.85,1.0,636.27,2.73
+relationship  Civilization,1000.0,1.0,0.0,746.36,874.25,4.44

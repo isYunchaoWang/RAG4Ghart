@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {76} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative exponential correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension CO2 emissions in the scatter plot?",
+            "A": "The maximum observed value in the CO2 emissions dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension CO2 emissions in the scatter plot?",
+            "A": "The minimum observed value in the CO2 emissions dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Glacier size in the scatter plot?",
+            "A": "The maximum observed value in the Glacier size dimension is {1000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Glacier size in the scatter plot?",
+            "A": "The minimum observed value in the Glacier size dimension is {1.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the CO2 emissions for all points?",
+            "A": "The average value of CO2 emissions for all points is {50.50}."
+        },
+        {
+            "Q": "What is the average value of the Glacier size for all points?",
+            "A": "The average value of Glacier size for all points is {311.42}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Glacier size values corresponding to the top 3 CO2 emissions values in the scatter plot?",
+            "A": "{172.01, 133.46, 147.92}."
+        },
+        {
+            "Q": "What are the Glacier size values corresponding to the bottom 3 CO2 emissions values in the scatter plot?",
+            "A": "{1000.00, 982.12, 913.15}."
+        },
+        {
+            "Q": "What are the CO2 emissions values corresponding to the top 3 Glacier size values in the scatter plot?",
+            "A": "{1.00, 2.32, 3.64}."
+        },
+        {
+            "Q": "What are the CO2 emissions values corresponding to the bottom 3 Glacier size values in the scatter plot?",
+            "A": "{74.92, 85.48, 68.32}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 13.47 and 29.63 and Y coordinates between 120.09 and 311.63?",
+            "A": "There are {1} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(1.00, 1000.00) and (74.92, 1.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(92.08, 221.90) and (93.40, 219.80)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [87.13, 169.85, 98.35, 271.85] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (92.08, 221.90)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [12.90, 573.25, 42.09, 797.96]; Region B: [23.53, 136.80, 52.72, 361.51]; Region C: [70.82, 108.50, 100.00, 333.20]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

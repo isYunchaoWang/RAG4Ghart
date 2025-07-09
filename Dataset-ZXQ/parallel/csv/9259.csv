@@ -1,0 +1,8 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,Strong Correlation,No Correlation,Strong Correlation,Weak Correlation,Weak Correlation,No Correlation
+labels,Maintenance cost (USD/MWh),Carbon intensity (kgCO2/MWh),Fuel efficiency (%),Capacity factor (%),Downtime (%),Renewable percentage (%),Output (MWh)
+White Group  Energy Facility,100.0,1000.0,57.01,26.04,17.98,0.0,10000.0
+Solomon Ltd  Energy Facility,51.26,367.22,90.0,81.49,20.0,55.82,4686.87
+Sanchez Group  Energy Facility,59.65,531.85,67.17,50.24,15.16,37.4,3766.72
+Young Ltd  Generation Station,1.0,0.0,20.0,10.0,10.64,2.9,3786.15
+"Howe, Owens and Ross  Energy Facility",67.95,459.69,85.96,95.0,0.1,100.0,1.0

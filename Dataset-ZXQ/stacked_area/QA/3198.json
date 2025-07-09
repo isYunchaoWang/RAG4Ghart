@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {7} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing GeoHeat Commodity relative to TerraFuel Exchange?",
+            "A": "GeoHeat Commodity is {below} TerraFuel Exchange in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total natural gas prices?",
+            "A": "The series with the largest contribution is {GeoHeat Commodity}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total natural gas prices?",
+            "A": "The series with the smallest contribution is {Lumina Energy Market}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Zephyr Gas Index's Natural Gas Prices in 1973?",
+            "A": "Zephyr Gas Index's natural gas prices in 1973 is {1.52} $/cubic meter."
+        },
+        {
+            "Q": "What is TerraFuel Exchange's Natural Gas Prices in 1967?",
+            "A": "TerraFuel Exchange's natural gas prices in 1967 is {2.36} $/cubic meter."
+        },
+        {
+            "Q": "What is AquaSource Trading's Natural Gas Prices in 1985?",
+            "A": "AquaSource Trading's natural gas prices in 1985 is {2.01} $/cubic meter."
+        },
+        {
+            "Q": "What are the natural gas prices of SkyFlow Water Index, Lumina Energy Market, and GeoHeat Commodity in 1970?",
+            "A": "SkyFlow Water Index's natural gas prices is {1.68} $/cubic meter, Lumina Energy Market's natural gas prices is {1.33} $/cubic meter, GeoHeat Commodity's natural gas prices is {2.73} $/cubic meter."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Natural Gas Prices in the area chart?",
+            "A": "The global minimum natural gas prices is {0.02} $/cubic meter."
+        },
+        {
+            "Q": "What is the global maximum Natural Gas Prices in the area chart?",
+            "A": "The global maximum natural gas prices is {5.22} $/cubic meter."
+        },
+        {
+            "Q": "What is the highest Natural Gas Prices level recorded for AquaSource Trading?",
+            "A": "AquaSource Trading reached approximately {2.51} $/cubic meter in {1966}."
+        },
+        {
+            "Q": "What is the lowest Natural Gas Prices level recorded for AquaSource Trading?",
+            "A": "AquaSource Trading's lowest recorded level is approximately {1.50} $/cubic meter in {1969}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Natural Gas Prices?",
+            "A": "The average total natural gas prices is {14.21} $/cubic meter."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Natural Gas Prices exceed 14.79 $/cubic meter? Please list the years and corresponding total values.",
+            "A": "{15.42} $/cubic meter in {1981}, {15.03} $/cubic meter in {1976}, {15.17} $/cubic meter in {1971}."
+        },
+        {
+            "Q": "Which years did the total Natural Gas Prices fall between 13.52 and 14.95 $/cubic meter? Please list the years and corresponding total values.",
+            "A": "{13.97} $/cubic meter in {1970}, {14.86} $/cubic meter in {1982}, {14.10} $/cubic meter in {1980}."
+        },
+        {
+            "Q": "Which years did the total Natural Gas Prices go below 13.68 $/cubic meter? Please list the years and corresponding total values.",
+            "A": "{13.61} $/cubic meter in {1968}, {13.06} $/cubic meter in {1974}, {13.06} $/cubic meter in {1969}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1975 and 1981, was the average total Natural Gas Prices higher or lower than between 1968 and 1969?",
+            "A": "The average total natural gas prices between 1975 and 1981 was {higher} than between 1968 and 1969."
+        },
+        {
+            "Q": "Was the total Natural Gas Prices in 1966 higher or lower than in 1977?",
+            "A": "The total natural gas prices in 1966 was {higher} than in 1977."
+        },
+        {
+            "Q": "Was the total Natural Gas Prices in 1972 higher or lower than in 1973?",
+            "A": "The total natural gas prices in 1972 was {higher} than in 1973."
+        },
+        {
+            "Q": "Between 1970 and 1976, did the total Natural Gas Prices experience a larger or smaller change than between 1969 and 1984?",
+            "A": "The change in total natural gas prices between 1970 and 1976 was {larger} than between 1969 and 1984."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{GeoHeat Commodity} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Lumina Energy Market, SkyFlow Water Index, Zephyr Gas Index, TerraFuel Exchange, AquaSource Trading, Solara Power Futures, GeoHeat Commodity}."
+        }
+    ]
+}

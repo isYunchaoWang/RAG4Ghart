@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Max speed (km/h) dimension, what is the spatial relationship of blood Cargo ship relative to practice plane in terms of vertical (above/below) direction?",
+            "A": "{blood Cargo ship} is {above} {practice plane} on the Max speed (km/h) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Moving time (hours)?",
+            "A": "The first position to the left of Moving time (hours) is {Average speed (km/h)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Max speed (km/h)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Average speed (km/h)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Average speed (km/h)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Loading/unloading time (hours) and dimension Max speed (km/h)",
+            "A": "There is {No Correlation} between Loading/unloading time (hours) and Max speed (km/h)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of blood Cargo ship on the Moving time (hours) dimension in the parallel-coordinates chart?",
+            "A": "The value of blood Cargo ship on the Moving time (hours) dimension is {48.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label blood Cargo ship across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of blood Cargo ship across all dimensions is {120.0}"
+        },
+        {
+            "Q": "What is the minimum value of label successful Ferry across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of successful Ferry across all dimensions is {0.5}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Max speed (km/h)?",
+            "A": "The average value of Max speed (km/h) is {86.34}"
+        },
+        {
+            "Q": "What is the difference in coding Max speed (km/h) between label successful Ferry and label blood Cargo ship",
+            "A": "The difference in coding Max speed (km/h) between successful Ferry and blood Cargo ship is {60.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Moving time (hours) dimension in the parallel coordinates?",
+            "A": "{[48.0, 14.56, 1.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Loading/unloading time (hours) dimension in the parallel coordinates?",
+            "A": "{[0.5, 1.88, 8.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Loading/unloading time (hours), which label has a higher score: practice plane or blood Cargo ship?",
+            "A": "{blood Cargo ship} has a higher score on Loading/unloading time (hours)."
+        },
+        {
+            "Q": "On Loading/unloading time (hours), which label has a higher score: successful Ferry or practice plane?",
+            "A": "{practice plane} has a higher score on Loading/unloading time (hours)."
+        },
+        {
+            "Q": "On Loading/unloading time (hours), which label has a higher score: blood Cargo ship or successful Ferry?",
+            "A": "{blood Cargo ship} has a higher score on Loading/unloading time (hours)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Average speed (km/h)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Average speed (km/h) being greater than 59.93 and Max speed (km/h) being less than 87.3?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Azure Health Initiative, what is the spatial relationship of the data point in 1964 relative to that in 1987 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Azure Health Initiative, the data point in 1964 is {above} and to the {left} of the data point in 1987."
+        },
+        {
+            "Q": "In 1987, what is the vertical (above/below) relationship of the line representing Lumina Health Authority relative to Azure Health Initiative?",
+            "A": "In 1987, Lumina Health Authority is {above} Azure Health Initiative in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Borealis Wellness Council's Healthcare Expenditure levels?",
+            "A": "Borealis Wellness Council's healthcare expenditure levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Healthcare Group (Public)'s Healthcare Expenditure levels?",
+            "A": "Meridian Healthcare Group (Public)'s healthcare expenditure levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Stellar Public Health's Healthcare Expenditure levels?",
+            "A": "Stellar Public Health's healthcare expenditure levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Health Initiative's Healthcare Expenditure levels?",
+            "A": "Azure Health Initiative's healthcare expenditure levels show a {bimodal peak} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Meridian Healthcare Group (Public)'s Healthcare Expenditure in 1971?",
+            "A": "Meridian Healthcare Group (Public)'s healthcare expenditure in 1971 is {845087827.81} $."
+        },
+        {
+            "Q": "What is Lumina Health Authority's Healthcare Expenditure in 1976?",
+            "A": "Lumina Health Authority's healthcare expenditure in 1976 is {3073012454.31} $."
+        },
+        {
+            "Q": "What is Stellar Public Health's Healthcare Expenditure in 1980?",
+            "A": "Stellar Public Health's healthcare expenditure in 1980 is {828346640.49} $."
+        },
+        {
+            "Q": "What are the healthcare expenditure of Meridian Healthcare Group (Public), Borealis Wellness Council, and Zenith Medical Foundation in 1966?",
+            "A": "Meridian Healthcare Group (Public)'s healthcare expenditure is {632137389.01} $, Borealis Wellness Council's healthcare expenditure is {1082301848.59} $, Zenith Medical Foundation's healthcare expenditure is {833897312.51} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Healthcare Expenditure in the line chart?",
+            "A": "The global minimum healthcare expenditure is {91910319.54} $."
+        },
+        {
+            "Q": "What is the global maximum Healthcare Expenditure in the line chart?",
+            "A": "The global maximum healthcare expenditure is {4346114373.34} $."
+        },
+        {
+            "Q": "What is the highest Healthcare Expenditure level recorded for Aethelgard Medical Board?",
+            "A": "Aethelgard Medical Board reached approximately {1467807709.20} $ in {1987}."
+        },
+        {
+            "Q": "What is the lowest Healthcare Expenditure level recorded for Aethelgard Medical Board?",
+            "A": "Aethelgard Medical Board's lowest recorded level is approximately {647659483.57} $ in {1962}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Stellar Public Health's Healthcare Expenditure?",
+            "A": "The average value of Stellar Public Health's healthcare expenditure is {969471986.82} $."
+        },
+        {
+            "Q": "What is the rate of change in Azure Health Initiative's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of growth in Azure Health Initiative's healthcare expenditure is {0.81}%."
+        },
+        {
+            "Q": "What is the rate of change in Aethelgard Medical Board's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of growth in Aethelgard Medical Board's healthcare expenditure is {126.63}%."
+        },
+        {
+            "Q": "What is the rate of change in Lumina Health Authority's Healthcare Expenditure from the starting year to the final year?",
+            "A": "The rate of growth in Lumina Health Authority's healthcare expenditure is {199.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Stellar Public Health's Healthcare Expenditure exceed 1092664190 $? Please list the years and corresponding values.",
+            "A": "{1210632729.83} $ in {1968} year, {1214071322.36} $ in {1983} year, {1197932034.01} $ in {1963} year."
+        },
+        {
+            "Q": "Which years did Lumina Health Authority's Healthcare Expenditure exceed 3621804949 $? Please list the years and corresponding values.",
+            "A": "{4258487844.52} $ in {1986} year, {4116254887.41} $ in {1985} year, {3651360575.82} $ in {1981} year."
+        },
+        {
+            "Q": "In the year 1963, which line had Healthcare Expenditure exceed 1377907409 $? Please list the lines and corresponding values.",
+            "A": "{Lumina Health Authority} had {1557882785} $, {Azure Health Initiative} had {1787645301} $."
+        },
+        {
+            "Q": "Which years did Meridian Healthcare Group (Public)'s Healthcare Expenditure between 607487452 and 813767803 $? Please list the years and corresponding values.",
+            "A": "{715705471.21} $ in {1968} year, {632137389.01} $ in {1966} year, {676214504.17} $ in {1967} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1968 and 1970, which line had the highest average Healthcare Expenditure, Zenith Medical Foundation, Lumina Health Authority, or Aethelgard Medical Board?",
+            "A": "{Lumina Health Authority} had the highest average healthcare expenditure."
+        },
+        {
+            "Q": "Between 1962 and 1978, which line experienced the largest change in Healthcare Expenditure, Lumina Health Authority, Stellar Public Health, Borealis Wellness Council, or Azure Health Initiative?",
+            "A": "{Lumina Health Authority} experienced the largest change in healthcare expenditure."
+        },
+        {
+            "Q": "Between 1969 and 1987, which line experienced the largest change in Healthcare Expenditure, Lumina Health Authority, Aethelgard Medical Board, or Borealis Wellness Council?",
+            "A": "{Lumina Health Authority} experienced the largest change in healthcare expenditure."
+        },
+        {
+            "Q": "In 1980, which line had a higher Healthcare Expenditure, {Zenith Medical Foundation} or {Azure Health Initiative}?",
+            "A": "In 1980, {Azure Health Initiative} had a higher healthcare expenditure."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Lumina Health Authority}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1986 and 1987?",
+            "A": "{Stellar Public Health} has the fastest average growth rate between 1986 and 1987."
+        },
+        {
+            "Q": "In which year did Meridian Healthcare Group (Public) first surpass Zenith Medical Foundation?",
+            "A": "Meridian Healthcare Group (Public) first surpassed Zenith Medical Foundation in the year {1969}."
+        },
+        {
+            "Q": "Which label had the leading healthcare expenditure since 1977?",
+            "A": "Since 1977, {Lumina Health Authority} had the leading healthcare expenditure."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Aethelgard Medical Board. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1962, 1987}."
+        }
+    ]
+}

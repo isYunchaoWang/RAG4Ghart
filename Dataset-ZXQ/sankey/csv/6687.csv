@@ -1,0 +1,12 @@
+Healthcare and Health,Healthcare Service Ecosystem,Patients,random,Healthcare Providers,Medical Specialties
+Source,Target,Value
+Clinics,Pediatrics,62
+Clinics,Cardiology,62
+Clinics,Orthopedics,489
+Clinics,Neurology,225
+Clinics,Dermatology,62
+Rehabilitation Centers,Pediatrics,56
+Rehabilitation Centers,Cardiology,193
+Rehabilitation Centers,Orthopedics,158
+Rehabilitation Centers,Neurology,118
+Rehabilitation Centers,Dermatology,265

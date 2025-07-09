@@ -1,0 +1,16 @@
+Education and Academics,Education System Framework,Students,random,Enrollment Channels,Student Backgrounds,Institution Types
+Source,Target,Value
+Entrance Exams,First-Generation,3599
+Entrance Exams,Urban,2063
+Scholarships,First-Generation,1357
+Scholarships,Urban,3091
+Exchange Programs,First-Generation,423
+Exchange Programs,Urban,911
+First-Generation,Private School,1303
+First-Generation,University,1641
+First-Generation,Online Institution,1115
+First-Generation,Public School,1320
+Urban,Private School,1607
+Urban,University,1577
+Urban,Online Institution,1704
+Urban,Public School,1177

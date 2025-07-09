@@ -1,0 +1,50 @@
+Food and Beverage Industry,the Factors of Food and Beverage Industry,7x7,vertical_gradient
+Bakery,Consumption,0.73
+Confectionery,Consumption,0.72
+Dairy,Consumption,0.72
+Frozen,Consumption,0.72
+Ingredients,Consumption,0.68
+Processed Foods,Consumption,0.69
+Snacks,Consumption,0.73
+Bakery,Exports,0.6
+Confectionery,Exports,0.56
+Dairy,Exports,0.62
+Frozen,Exports,0.58
+Ingredients,Exports,0.6
+Processed Foods,Exports,0.56
+Snacks,Exports,0.59
+Bakery,Innovation,0.46
+Confectionery,Innovation,0.5
+Dairy,Innovation,0.45
+Frozen,Innovation,0.47
+Ingredients,Innovation,0.47
+Processed Foods,Innovation,0.42
+Snacks,Innovation,0.49
+Bakery,Marketing,0.36
+Confectionery,Marketing,0.41
+Dairy,Marketing,0.37
+Frozen,Marketing,0.39
+Ingredients,Marketing,0.42
+Processed Foods,Marketing,0.42
+Snacks,Marketing,0.4
+Bakery,Production,0.34
+Confectionery,Production,0.35
+Dairy,Production,0.32
+Frozen,Production,0.35
+Ingredients,Production,0.3
+Processed Foods,Production,0.33
+Snacks,Production,0.35
+Bakery,Regulations,0.29
+Confectionery,Regulations,0.31
+Dairy,Regulations,0.26
+Frozen,Regulations,0.29
+Ingredients,Regulations,0.29
+Processed Foods,Regulations,0.33
+Snacks,Regulations,0.3
+Bakery,Safety,0.29
+Confectionery,Safety,0.28
+Dairy,Safety,0.3
+Frozen,Safety,0.29
+Ingredients,Safety,0.27
+Processed Foods,Safety,0.27
+Snacks,Safety,0.25

@@ -1,0 +1,43 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Impact Areas,Research Outcomes,Institution Types,Funding Sources,Research Fields
+Source,Target,Value
+Environment,Published Papers,4
+Environment,Patents,10
+Environment,Prototypes,8
+Environment,Open-source Projects,1
+Defense,Published Papers,30
+Defense,Patents,3
+Defense,Prototypes,2
+Defense,Open-source Projects,28
+Education,Published Papers,21
+Education,Patents,96
+Education,Prototypes,69
+Education,Open-source Projects,33
+Published Papers,Corporate Labs,36
+Published Papers,Startups,19
+Patents,Corporate Labs,82
+Patents,Startups,27
+Prototypes,Corporate Labs,46
+Prototypes,Startups,33
+Open-source Projects,Corporate Labs,44
+Open-source Projects,Startups,18
+Corporate Labs,Federal Grants,142
+Corporate Labs,Corporate Sponsorship,17
+Corporate Labs,University Budget,49
+Startups,Federal Grants,48
+Startups,Corporate Sponsorship,42
+Startups,University Budget,7
+Federal Grants,Biotechnology,74
+Federal Grants,Renewable Energy,37
+Federal Grants,Quantum Computing,45
+Federal Grants,Artificial Intelligence,19
+Federal Grants,Space Exploration,15
+Corporate Sponsorship,Biotechnology,13
+Corporate Sponsorship,Renewable Energy,15
+Corporate Sponsorship,Quantum Computing,6
+Corporate Sponsorship,Artificial Intelligence,23
+Corporate Sponsorship,Space Exploration,2
+University Budget,Biotechnology,10
+University Budget,Renewable Energy,4
+University Budget,Quantum Computing,12
+University Budget,Artificial Intelligence,16
+University Budget,Space Exploration,14

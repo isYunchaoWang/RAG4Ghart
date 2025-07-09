@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bubble} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this bubble chart?",
+            "A": "There are {15} bubbles."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the relative position of the bubble with a Total number of subscribers of 5816591.51 relative to the bubble with a Total number of subscribers of 10000000.00 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The bubble with a Total number of subscribers of 5816591.51 is {above} and to the {right} of the bubble with a Total number of subscribers of 10000000.00."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Where is the highest concentration of bubbles located in terms of Ad spend and Conversion rate?",
+            "A": "The highest concentration of bubbles corresponds to approximately {23016.97} $ and {6.80} %."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the Total number of subscribers of the largest bubble?",
+            "A": "The Total number of subscribers of the largest bubble is {10000000.00} count."
+        },
+        {
+            "Q": "What is the Total number of subscribers of the smallest bubble?",
+            "A": "The Total number of subscribers of the smallest bubble is {1000.00} count."
+        },
+        {
+            "Q": "What are the Ad spend and Conversion rate values of the largest bubble?",
+            "A": "The Ad spend of the largest bubble is {53491.36} $, and {Conversion rate} is {4.48} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Total number of subscribers in the bubble chart?",
+            "A": "The global maximum Total number of subscribers is {10000000.00} count."
+        },
+        {
+            "Q": "What is the global minimum Total number of subscribers in the bubble chart?",
+            "A": "The global minimum Total number of subscribers is {1000.00} count."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Ad spend in the bubble chart?",
+            "A": "The maximum observed value in the Ad spend dimension is {97993.43} $."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Ad spend in the bubble chart?",
+            "A": "The minimum observed value in the Ad spend dimension is {4054.10} $."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Conversion rate in the bubble chart?",
+            "A": "The maximum observed value in the Conversion rate dimension is {9.11} %."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Conversion rate in the bubble chart?",
+            "A": "The minimum observed value in the Conversion rate dimension is {0.76} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Total number of subscribers for all bubbles?",
+            "A": "The average value of the Total number of subscribers for all bubbles is {4424931.95} count."
+        },
+        {
+            "Q": "What is the average value of the Ad spend for all bubbles?",
+            "A": "The average value of Ad spend for all bubbles is {43065.27} $."
+        },
+        {
+            "Q": "What is the average value of the Conversion rate for all bubbles?",
+            "A": "The average value of Conversion rate for all bubbles is {5.75} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 Total number of subscribers values in the bubble chart?",
+            "A": "{10000000.00, 8972087.94, 8921024.37} count."
+        },
+        {
+            "Q": "What are the bottom 3 Total number of subscribers values in the bubble chart?",
+            "A": "{1000.00, 351467.26, 743470.66} count."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has a larger Total number of subscribers value, the bubble with a Ad spend of 57013.3 $ and a Conversion rate of 5.0 %, or the bubble with a Ad spend of 30822.4 $ and a Conversion rate of 5.9 %?",
+            "A": "The bubble with a Ad spend of {57013.3} and a Conversion rate of {5.0} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "What is the Total number of subscribers value of the bubble with the largest Conversion rate value?",
+            "A": "The Total number of subscribers value of the bubble with the largest Conversion rate is {351467.26}."
+        },
+        {
+            "Q": "What is the Total number of subscribers value of the bubble with the largest Ad spend value?",
+            "A": "The Total number of subscribers value of the bubble with the largest Ad spend is {1000.00}."
+        },
+        {
+            "Q": "Classify bubbles with a Conversion rate-coordinate greater than 2 as 'high value group' and the rest as 'low value group'. What is the difference between the sum of Total number of subscribers for the high value group and the low value group?",
+            "A": "The difference between the total Total number of subscribers of the high-value and low-value groups is {48531930.57}."
+        }
+    ],
+    "VA": []
+}

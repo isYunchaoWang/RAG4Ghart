@@ -1,0 +1,64 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {2} slices in this pie chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which 2023 has the largest proportion in this pie chart?",
+            "A": "The 2023 with the largest proportion is {Bakeries}."
+        },
+        {
+            "Q": "Which 2023 has the smallest proportion in this pie chart?",
+            "A": "The 2023 with the smallest proportion is {Food Trucks}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Bakeries slice in this pie chart?",
+            "A": "The value of the Bakeries slice is {55}%."
+        },
+        {
+            "Q": "What is the value of the Food Trucks slice in this pie chart?",
+            "A": "The value of the Food Trucks slice is {45}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {55}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {45}%."
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 52.5%? Please list the category names and corresponding percentages.",
+            "A": "{Bakeries} accounts for {55}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 47.5%? Please list the category names and corresponding percentages.",
+            "A": "{Food Trucks} accounts for {45}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Bakeries or Food Trucks?",
+            "A": "The value of {Bakeries} is larger."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

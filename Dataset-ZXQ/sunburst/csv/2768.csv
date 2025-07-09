@@ -1,0 +1,19 @@
+Energy and Utilities,Energy Distribution by Category (2020),%
+parent,child,value
+Root,Energy Infrastructure,30.86
+Energy Infrastructure,Generation,23.99
+Generation,Hydropower,8.59
+Generation,Thermal Plants,15.4
+Thermal Plants,Steam Boilers,8.51
+Thermal Plants,Gas Turbines,6.89
+Energy Infrastructure,Transmission,6.87
+Root,Energy Consumption,31.63
+Energy Consumption,Industrial,12.16
+Industrial,Manufacturing,6.86
+Industrial,Mining,5.3
+Energy Consumption,Residential,19.47
+Residential,Appliances,19.47
+Appliances,Washing Machines,12.11
+Appliances,Refrigerators,7.36
+Root,Energy Sources,37.51
+Energy Sources,Fossil Fuels,37.51

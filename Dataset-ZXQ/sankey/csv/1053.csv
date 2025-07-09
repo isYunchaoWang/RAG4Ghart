@@ -1,0 +1,16 @@
+Business and Finance,Investment Decision-Making Routine,$,random,Returns,Investment Strategies,Market Segments
+Source,Target,Value
+Negative Return,Value Investing,7928
+Negative Return,Day Trading,1145
+Moderate Return,Value Investing,925
+Moderate Return,Day Trading,3110
+High Return,Value Investing,29280
+High Return,Day Trading,9822
+Low Return,Value Investing,16525
+Low Return,Day Trading,21095
+Value Investing,Retail Investors,3554
+Value Investing,Hedge Funds,28128
+Value Investing,Institutional Investors,22976
+Day Trading,Retail Investors,8848
+Day Trading,Hedge Funds,21872
+Day Trading,Institutional Investors,4452

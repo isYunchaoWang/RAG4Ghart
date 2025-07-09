@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Self-Service Resolution Rate?",
+            "A": "The next dimension clockwise from Self-Service Resolution Rate is Inventory Turnover Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Self-Service Resolution Rate?",
+            "A": "The next dimension counterclockwise from Self-Service Resolution Rate is Member Activity Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Inventory Turnover Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Thompson, Powers and Allen?",
+            "A": "The strongest aspect is {Inventory Turnover Rate}, while the weakest aspect is{ Conversion Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Thompson, Powers and Allen on the Member Activity Rate in the radar chart?",
+            "A": "The value of Thompson, Powers and Allen on the Safety dimension is {87}."
+        },
+        {
+            "Q": "What is the value of Thompson, Powers and Allen on the Conversion Rate in the radar chart?",
+            "A": "The value of Thompson, Powers and Allen on the Safety dimension is {80}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Thompson, Powers and Allen across all dimensions in the radar chart?",
+            "A": "The maximum value of Thompson, Powers and Allen across all dimensions is {80}."
+        },
+        {
+            "Q": "What is the minimum value of label Thompson, Powers and Allen across all dimensions in the radar chart?",
+            "A": "The minimum value of Thompson, Powers and Allen across all dimensions is {80}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Conversion Rate",
+            "A": "The average value of Conversion Rate is {80.0}."
+        },
+        {
+            "Q": "What is the average value of Thompson, Powers and Allen",
+            "A": "The average value of Thompson, Powers and Allen is {84.5}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Thompson, Powers and Allen in the radar chart, which dimensions have scores between 82 and 86? Please list the dimensions and corresponding scores.",
+            "A": "{Self-Service Resolution Rate} is {83}"
+        },
+        {
+            "Q": "For Thompson, Powers and Allen in the radar chart, which dimensions have scores below 82? Please list the dimensions and corresponding scores.",
+            "A": "{Conversion Rate} is {80}"
+        },
+        {
+            "Q": "Which labels have scores above 80 for the Conversion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Thompson, Powers and Allen} is {80}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Thompson, Powers and Allen, which dimension has a higher score: Conversion Rate or Self-Service Resolution Rate?",
+            "A": "{Self-Service Resolution Rate} has a higher score than Conversion Rate for Thompson, Powers and Allen."
+        },
+        {
+            "Q": "For Thompson, Powers and Allen, which dimension has a higher score: Self-Service Resolution Rate or Conversion Rate?",
+            "A": "{Self-Service Resolution Rate} has a higher score than Conversion Rate for Thompson, Powers and Allen."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Thompson, Powers and Allen, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Thompson, Powers and Allen most needs to improve its {Conversion Rate}."
+        }
+    ],
+    "VA": []
+}

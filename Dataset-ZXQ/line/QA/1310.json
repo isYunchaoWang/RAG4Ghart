@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Starlight Innovations, what is the spatial relationship of the data point in 1951 relative to that in 1952 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Starlight Innovations, the data point in 1951 is {below} and to the {left} of the data point in 1952."
+        },
+        {
+            "Q": "In 1953, what is the vertical (above/below) relationship of the line representing Horizon Enterprises relative to Starlight Innovations?",
+            "A": "In 1953, Horizon Enterprises is {below} Starlight Innovations in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Starlight Innovations's Debt to Equity Ratio levels?",
+            "A": "Starlight Innovations's debt to equity ratio levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Ironclad Ventures's Debt to Equity Ratio levels?",
+            "A": "Ironclad Ventures's debt to equity ratio levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Horizon Enterprises's Debt to Equity Ratio levels?",
+            "A": "Horizon Enterprises's debt to equity ratio levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Debt to Equity Ratio levels?",
+            "A": "{Starlight Innovations}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Starlight Innovations's Debt to Equity Ratio in 1953?",
+            "A": "Starlight Innovations's debt to equity ratio in 1953 is {1.20} ratio."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Debt to Equity Ratio in 1952?",
+            "A": "Horizon Enterprises's debt to equity ratio in 1952 is {0.59} ratio."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Debt to Equity Ratio in 1951?",
+            "A": "Horizon Enterprises's debt to equity ratio in 1951 is {0.54} ratio."
+        },
+        {
+            "Q": "What are the debt to equity ratio of Ironclad Ventures, Horizon Enterprises, and Starlight Innovations in 1952?",
+            "A": "Ironclad Ventures's debt to equity ratio is {0.46} ratio, Horizon Enterprises's debt to equity ratio is {0.59} ratio, Starlight Innovations's debt to equity ratio is {1.22} ratio."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Debt to Equity Ratio in the line chart?",
+            "A": "The global minimum debt to equity ratio is {0.42} ratio."
+        },
+        {
+            "Q": "What is the global maximum Debt to Equity Ratio in the line chart?",
+            "A": "The global maximum debt to equity ratio is {1.22} ratio."
+        },
+        {
+            "Q": "What is the highest Debt to Equity Ratio level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises reached approximately {0.64} ratio in {1953}."
+        },
+        {
+            "Q": "What is the lowest Debt to Equity Ratio level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises's lowest recorded level is approximately {0.54} ratio in {1951}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Starlight Innovations's Debt to Equity Ratio from the starting year to the final year?",
+            "A": "The rate of no change in Starlight Innovations's debt to equity ratio is {0.00}%."
+        },
+        {
+            "Q": "What is the average value of Ironclad Ventures's Debt to Equity Ratio?",
+            "A": "The average value of Ironclad Ventures's debt to equity ratio is {0.47} ratio."
+        },
+        {
+            "Q": "What is the rate of change in Ironclad Ventures's Debt to Equity Ratio from the starting year to the final year?",
+            "A": "The rate of decline in Ironclad Ventures's debt to equity ratio is {-19.23}%."
+        },
+        {
+            "Q": "What is the rate of change in Horizon Enterprises's Debt to Equity Ratio from the starting year to the final year?",
+            "A": "The rate of growth in Horizon Enterprises's debt to equity ratio is {18.52}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Ironclad Ventures's Debt to Equity Ratio exceed 0 ratio? Please list the years and corresponding values.",
+            "A": "{0.52} ratio in {1951} year."
+        },
+        {
+            "Q": "In the year 1953, which lines had Debt to Equity Ratio below 1 ratio? Please list the lines and corresponding values.",
+            "A": "{Ironclad Ventures} had {0} ratio."
+        },
+        {
+            "Q": "Which years did Horizon Enterprises's Debt to Equity Ratio exceed 1 ratio? Please list the years and corresponding values.",
+            "A": "{0.59} ratio in {1952} year, {0.64} ratio in {1953} year."
+        },
+        {
+            "Q": "In the year 1953, which lines had Debt to Equity Ratio between 1 and 1 ratio? Please list the lines and corresponding values.",
+            "A": "{Horizon Enterprises} had {1} ratio."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1951 and 1953, which line experienced a larger change in Debt to Equity Ratio, Ironclad Ventures or Horizon Enterprises?",
+            "A": "{Ironclad Ventures} experienced a larger change in debt to equity ratio."
+        },
+        {
+            "Q": "Between 1951 and 1953, which line had the highest average Debt to Equity Ratio, Ironclad Ventures, Starlight Innovations, or Horizon Enterprises?",
+            "A": "{Starlight Innovations} had the highest average debt to equity ratio."
+        },
+        {
+            "Q": "Between 1951 and 1952, which line had a higher average Debt to Equity Ratio, Ironclad Ventures or Horizon Enterprises?",
+            "A": "{Horizon Enterprises} had a higher average debt to equity ratio."
+        },
+        {
+            "Q": "Between 1951 and 1952, which line had a higher average Debt to Equity Ratio, Horizon Enterprises or Ironclad Ventures?",
+            "A": "{Horizon Enterprises} had a higher average debt to equity ratio."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Ironclad Ventures}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1952 and 1953?",
+            "A": "{Horizon Enterprises} has the fastest average growth rate between 1952 and 1953."
+        },
+        {
+            "Q": "Which label had the leading debt to equity ratio since 1952?",
+            "A": "Since 1952, {Starlight Innovations} had the leading debt to equity ratio."
+        }
+    ],
+    "VA": []
+}

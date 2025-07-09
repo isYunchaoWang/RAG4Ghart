@@ -1,0 +1,148 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 2023, what is the vertical (above/below) relationship of the line representing Long-Haul Operators relative to Night Shift?",
+            "A": "In 2023, Long-Haul Operators is {below} Night Shift in the vertical direction."
+        },
+        {
+            "Q": "On Night Shift, what is the spatial relationship of the data point in 2021 relative to that in 2020 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Night Shift, the data point in 2021 is {above} and to the {right} of the data point in 2020."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Long-Haul Operators's Driver Satisfaction levels?",
+            "A": "Long-Haul Operators's driver satisfaction levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Night Shift's Driver Satisfaction levels?",
+            "A": "Night Shift's driver satisfaction levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Driver Satisfaction levels?",
+            "A": "{Long-Haul Operators}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Driver Satisfaction levels?",
+            "A": "{Night Shift}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Night Shift's Driver Satisfaction in 2024?",
+            "A": "Night Shift's driver satisfaction in 2024 is {107.89} index."
+        },
+        {
+            "Q": "What is Night Shift's Driver Satisfaction in 2023?",
+            "A": "Night Shift's driver satisfaction in 2023 is {105.62} index."
+        },
+        {
+            "Q": "What is Long-Haul Operators's Driver Satisfaction in 2024?",
+            "A": "Long-Haul Operators's driver satisfaction in 2024 is {31.53} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Driver Satisfaction in the line chart?",
+            "A": "The global minimum driver satisfaction is {31.53} index."
+        },
+        {
+            "Q": "What is the global maximum Driver Satisfaction in the line chart?",
+            "A": "The global maximum driver satisfaction is {107.89} index."
+        },
+        {
+            "Q": "What is the highest Driver Satisfaction level recorded for Long-Haul Operators?",
+            "A": "Long-Haul Operators reached approximately {41.92} index in {2020}."
+        },
+        {
+            "Q": "What is the lowest Driver Satisfaction level recorded for Long-Haul Operators?",
+            "A": "Long-Haul Operators's lowest recorded level is approximately {31.53} index in {2024}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Long-Haul Operators's Driver Satisfaction from the starting year to the final year?",
+            "A": "The rate of decline in Long-Haul Operators's driver satisfaction is {-24.79}%."
+        },
+        {
+            "Q": "What is the average value of Long-Haul Operators's Driver Satisfaction?",
+            "A": "The average value of Long-Haul Operators's driver satisfaction is {36.95} index."
+        },
+        {
+            "Q": "What is the rate of change in Night Shift's Driver Satisfaction from the starting year to the final year?",
+            "A": "The rate of growth in Night Shift's driver satisfaction is {11.70}%."
+        },
+        {
+            "Q": "What is the average value of Night Shift's Driver Satisfaction?",
+            "A": "The average value of Night Shift's driver satisfaction is {102.58} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 2021, which lines had Driver Satisfaction below 54 index? Please list the lines and corresponding values.",
+            "A": "{Long-Haul Operators} had {39} index."
+        },
+        {
+            "Q": "Which years did Long-Haul Operators's Driver Satisfaction below 35 index? Please list the years and corresponding values.",
+            "A": "{31.53} index in {2024} year."
+        },
+        {
+            "Q": "Which years did Long-Haul Operators's Driver Satisfaction exceed 38 index? Please list the years and corresponding values.",
+            "A": "{39.05} index in {2021} year, {41.92} index in {2020} year."
+        },
+        {
+            "Q": "Which years did Night Shift's Driver Satisfaction between 100 and 105 index? Please list the years and corresponding values.",
+            "A": "{103.06} index in {2022} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Long-Haul Operators's Driver Satisfaction in 2020 higher or lower than in 2024?",
+            "A": "The driver satisfaction in 2020 was {higher} than in 2024."
+        },
+        {
+            "Q": "In 2020, which line had a higher Driver Satisfaction, {Long-Haul Operators} or {Night Shift}?",
+            "A": "In 2020, {Night Shift} had a higher driver satisfaction."
+        },
+        {
+            "Q": "In 2022, which line had a higher Driver Satisfaction, {Night Shift} or {Long-Haul Operators}?",
+            "A": "In 2022, {Night Shift} had a higher driver satisfaction."
+        },
+        {
+            "Q": "Was Night Shift's Driver Satisfaction in 2022 higher or lower than in 2024?",
+            "A": "The driver satisfaction in 2022 was {lower} than in 2024."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Night Shift}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2020 and 2021?",
+            "A": "{Night Shift} has the fastest average growth rate between 2020 and 2021."
+        },
+        {
+            "Q": "Which label had the leading driver satisfaction since 2021?",
+            "A": "Since 2021, {Night Shift} had the leading driver satisfaction."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Night Shift. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {2020, 2024}."
+        }
+    ]
+}

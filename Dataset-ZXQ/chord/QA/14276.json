@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {5} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {4} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Metro Center?",
+            "A": "The next arc clockwise from arc Metro Center is arc {South Gate}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Metro Center?",
+            "A": "The next arc counterclockwise from arc Metro Center is arc {Skyline Station}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Skyline Station} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Metro Center} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from West Cross to Skyline Station in the chord chart?",
+            "A": "The flow value is {59}."
+        },
+        {
+            "Q": "What is the flow value from West Cross to South Gate in the chord chart?",
+            "A": "The flow value is {39}."
+        },
+        {
+            "Q": "What is the flow value from Metro Center to Skyline Station in the chord chart?",
+            "A": "The flow value is {190}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between West Cross and Skyline Station in the chord chart?",
+            "A": "The maximum flow value between West Cross and Skyline Station is {73}."
+        },
+        {
+            "Q": "What is the minimum flow value between Metro Center and Skyline Station in the chord chart?",
+            "A": "The minimum flow value between Metro Center and Skyline Station is {190}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {353}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {37}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Skyline Station?",
+            "A": "The total flow output from Skyline Station is {549}."
+        },
+        {
+            "Q": "What is the total flow input by Skyline Station?",
+            "A": "The total flow input by Skyline Station is {336}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 156? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {353} from {Skyline Station} to {Metro Center}, a flow of {190} from {Metro Center} to {Skyline Station}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 38? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {37} from {South Gate} to {West Cross}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 54 and 66? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {59} from {West Cross} to {Skyline Station}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Metro Center to South Gate or from Metro Center to Skyline Station?",
+            "A": "The flow from {Metro Center} to {Skyline Station} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Metro Center to South Gate, from South Gate to Metro Center, or from Skyline Station to West Cross?",
+            "A": "The flow from {Skyline Station} to {West Cross} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Skyline Station}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Metro Center} and {Skyline Station}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Metro Center, Arc Skyline Station, Arc South Gate, Arc West Cross}."
+        }
+    ]
+}

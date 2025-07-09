@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Cargo Planes relative to Freight Trains?",
+            "A": "Cargo Planes is {above} Freight Trains in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total fuel consumption?",
+            "A": "The series with the largest contribution is {Delivery Vans}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total fuel consumption?",
+            "A": "The series with the smallest contribution is {Long-Haul Trucks}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Long-Haul Trucks's Fuel Consumption in 1996?",
+            "A": "Long-Haul Trucks's fuel consumption in 1996 is {6.68} L/100km."
+        },
+        {
+            "Q": "What is Freight Trains's Fuel Consumption in 1990?",
+            "A": "Freight Trains's fuel consumption in 1990 is {9.22} L/100km."
+        },
+        {
+            "Q": "What is Cargo Ships's Fuel Consumption in 1995?",
+            "A": "Cargo Ships's fuel consumption in 1995 is {7.08} L/100km."
+        },
+        {
+            "Q": "What are the fuel consumption of Long-Haul Trucks, Delivery Vans, and Cargo Ships in 1991?",
+            "A": "Long-Haul Trucks's fuel consumption is {7.99} L/100km, Delivery Vans's fuel consumption is {8.57} L/100km, Cargo Ships's fuel consumption is {7.89} L/100km."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Fuel Consumption in the area chart?",
+            "A": "The global minimum fuel consumption is {5.69} L/100km."
+        },
+        {
+            "Q": "What is the global maximum Fuel Consumption in the area chart?",
+            "A": "The global maximum fuel consumption is {17.01} L/100km."
+        },
+        {
+            "Q": "What is the highest Fuel Consumption level recorded for Cargo Planes?",
+            "A": "Cargo Planes reached approximately {14.13} L/100km in {1997}."
+        },
+        {
+            "Q": "What is the lowest Fuel Consumption level recorded for Cargo Planes?",
+            "A": "Cargo Planes's lowest recorded level is approximately {6.23} L/100km in {1990}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Fuel Consumption?",
+            "A": "The average total fuel consumption is {47.68} L/100km."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Fuel Consumption exceed 47.98 L/100km? Please list the years and corresponding total values.",
+            "A": "{55.63} L/100km in {1997}, {48.04} L/100km in {1995}, {53.57} L/100km in {1996}."
+        },
+        {
+            "Q": "Which years did the total Fuel Consumption fall between 44.26 and 48.92 L/100km? Please list the years and corresponding total values.",
+            "A": "{48.04} L/100km in {1995}, {47.43} L/100km in {1993}, {44.96} L/100km in {1992}."
+        },
+        {
+            "Q": "Which years did the total Fuel Consumption go below 45.21 L/100km? Please list the years and corresponding total values.",
+            "A": "{44.96} L/100km in {1992}, {42.43} L/100km in {1990}, {41.93} L/100km in {1991}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1991 and 1994, did the total Fuel Consumption experience a larger or smaller change than between 1995 and 1996?",
+            "A": "The change in total fuel consumption between 1991 and 1994 was {larger} than between 1995 and 1996."
+        },
+        {
+            "Q": "Was the total Fuel Consumption in 1994 higher or lower than in 1997?",
+            "A": "The total fuel consumption in 1994 was {lower} than in 1997."
+        },
+        {
+            "Q": "Between 1990 and 1994, did the total Fuel Consumption experience a larger or smaller change than between 1992 and 1997?",
+            "A": "The change in total fuel consumption between 1990 and 1994 was {smaller} than between 1992 and 1997."
+        },
+        {
+            "Q": "Between 1991 and 1993, did the total Fuel Consumption experience a larger or smaller change than between 1992 and 1996?",
+            "A": "The change in total fuel consumption between 1991 and 1993 was {smaller} than between 1992 and 1996."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Delivery Vans} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Long-Haul Trucks, Cargo Ships, Freight Trains, Cargo Planes, Delivery Vans}."
+        }
+    ]
+}

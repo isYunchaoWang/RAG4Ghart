@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {5} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Williamhaven?",
+            "A": "The next arc clockwise from arc Williamhaven is arc {Hannah}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Lake Sherry?",
+            "A": "The next arc counterclockwise from arc Lake Sherry is arc {Quinnview}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Kristenmouth} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Williamhaven} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Lake Sherry to Williamhaven in the chord chart?",
+            "A": "The flow value is {513}."
+        },
+        {
+            "Q": "What is the flow value from Quinnview to Hannah in the chord chart?",
+            "A": "The flow value is {630}."
+        },
+        {
+            "Q": "What is the flow value from Williamhaven to Lake Sherry in the chord chart?",
+            "A": "The flow value is {429}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Kristenmouth and Lake Sherry in the chord chart?",
+            "A": "The maximum flow value between Kristenmouth and Lake Sherry is {360}."
+        },
+        {
+            "Q": "What is the minimum flow value between Lake Sherry and Williamhaven in the chord chart?",
+            "A": "The minimum flow value between Lake Sherry and Williamhaven is {429}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {2378}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {237}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Williamhaven?",
+            "A": "The total flow output from Williamhaven is {1620}."
+        },
+        {
+            "Q": "What is the total flow input by Hannah?",
+            "A": "The total flow input by Hannah is {630}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 1020? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {2378} from {Kristenmouth} to {Williamhaven}, a flow of {1191} from {Williamhaven} to {Kristenmouth}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 328? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {297} from {Kristenmouth} to {Lake Sherry}, a flow of {274} from {Lake Sherry} to {Quinnview}, a flow of {237} from {Quinnview} to {Lake Sherry}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 394 and 571? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {513} from {Lake Sherry} to {Williamhaven}, a flow of {429} from {Williamhaven} to {Lake Sherry}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Quinnview to Lake Sherry or from Kristenmouth to Lake Sherry?",
+            "A": "The flow from {Kristenmouth} to {Lake Sherry} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Lake Sherry to Williamhaven, from Kristenmouth to Lake Sherry, or from Kristenmouth to Williamhaven?",
+            "A": "The flow from {Kristenmouth} to {Williamhaven} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Kristenmouth}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Kristenmouth} and {Williamhaven}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Williamhaven, Arc Kristenmouth, Arc Lake Sherry, Arc Quinnview, Arc Hannah}."
+        }
+    ]
+}

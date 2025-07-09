@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Danielle's Chicken?",
+            "A": "The next arc clockwise from arc Danielle's Chicken is arc {Cisnerosfurt Sandwich}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Danielle's Chicken?",
+            "A": "The next arc counterclockwise from arc Danielle's Chicken is arc {World Donuts}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Cisnerosfurt Sandwich} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{World Donuts} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from World Donuts to Danielle's Chicken in the chord chart?",
+            "A": "The flow value is {169}."
+        },
+        {
+            "Q": "What is the flow value from World Donuts to Cisnerosfurt Sandwich in the chord chart?",
+            "A": "The flow value is {466}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Cisnerosfurt Sandwich and World Donuts in the chord chart?",
+            "A": "The maximum flow value between Cisnerosfurt Sandwich and World Donuts is {573}."
+        },
+        {
+            "Q": "What is the minimum flow value between Danielle's Chicken and Cisnerosfurt Sandwich in the chord chart?",
+            "A": "The minimum flow value between Danielle's Chicken and Cisnerosfurt Sandwich is {315}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {573}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {169}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Danielle's Chicken?",
+            "A": "The total flow output from Danielle's Chicken is {548}."
+        },
+        {
+            "Q": "What is the total flow input by World Donuts?",
+            "A": "The total flow input by World Donuts is {806}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 519? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {573} from {Cisnerosfurt Sandwich} to {World Donuts}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 274? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {233} from {Danielle's Chicken} to {World Donuts}, a flow of {169} from {World Donuts} to {Danielle's Chicken}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 274 and 432? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {399} from {Cisnerosfurt Sandwich} to {Danielle's Chicken}, a flow of {315} from {Danielle's Chicken} to {Cisnerosfurt Sandwich}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from World Donuts to Danielle's Chicken or from Danielle's Chicken to Cisnerosfurt Sandwich?",
+            "A": "The flow from {Danielle's Chicken} to {Cisnerosfurt Sandwich} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from World Donuts to Cisnerosfurt Sandwich, from Danielle's Chicken to Cisnerosfurt Sandwich, or from Danielle's Chicken to World Donuts?",
+            "A": "The flow from {World Donuts} to {Cisnerosfurt Sandwich} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Cisnerosfurt Sandwich}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Cisnerosfurt Sandwich} and {World Donuts}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Cisnerosfurt Sandwich, Arc World Donuts, Arc Danielle's Chicken}."
+        }
+    ]
+}

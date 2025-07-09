@@ -1,0 +1,82 @@
+Healthcare and Health,the Engagement of Healthcare and Health,9x9,random
+Clinics,Access,0.96
+Hospitals,Access,0.46
+Insurance,Access,0.33
+Patient Care,Access,0.99
+Pharmaceuticals,Access,0.61
+Policy,Access,0.67
+Public Health,Access,0.4
+Research,Access,0.43
+Telemedicine,Access,0.54
+Clinics,Cost,0.09
+Hospitals,Cost,0.26
+Insurance,Cost,0.5
+Patient Care,Cost,0.49
+Pharmaceuticals,Cost,0.13
+Policy,Cost,0.09
+Public Health,Cost,0.41
+Research,Cost,0.84
+Telemedicine,Cost,0.75
+Clinics,Epidemiology,0.9
+Hospitals,Epidemiology,0.0
+Insurance,Epidemiology,0.75
+Patient Care,Epidemiology,0.85
+Pharmaceuticals,Epidemiology,0.54
+Policy,Epidemiology,0.98
+Public Health,Epidemiology,0.06
+Research,Epidemiology,0.72
+Telemedicine,Epidemiology,0.37
+Clinics,Funding,0.27
+Hospitals,Funding,0.45
+Insurance,Funding,0.5
+Patient Care,Funding,0.93
+Pharmaceuticals,Funding,0.95
+Policy,Funding,0.36
+Public Health,Funding,0.52
+Research,Funding,0.21
+Telemedicine,Funding,0.7
+Clinics,Outcomes,0.3
+Hospitals,Outcomes,0.0
+Insurance,Outcomes,0.99
+Patient Care,Outcomes,0.31
+Pharmaceuticals,Outcomes,0.62
+Policy,Outcomes,0.92
+Public Health,Outcomes,0.25
+Research,Outcomes,0.64
+Telemedicine,Outcomes,0.76
+Clinics,Patient Satisfaction,0.76
+Hospitals,Patient Satisfaction,0.93
+Insurance,Patient Satisfaction,0.71
+Patient Care,Patient Satisfaction,0.19
+Pharmaceuticals,Patient Satisfaction,0.32
+Policy,Patient Satisfaction,0.45
+Public Health,Patient Satisfaction,0.0
+Research,Patient Satisfaction,0.15
+Telemedicine,Patient Satisfaction,0.35
+Clinics,Prevention,0.02
+Hospitals,Prevention,0.09
+Insurance,Prevention,0.37
+Patient Care,Prevention,0.4
+Pharmaceuticals,Prevention,0.72
+Policy,Prevention,0.44
+Public Health,Prevention,0.34
+Research,Prevention,0.03
+Telemedicine,Prevention,0.09
+Clinics,Quality,0.04
+Hospitals,Quality,0.22
+Insurance,Quality,0.77
+Patient Care,Quality,0.7
+Pharmaceuticals,Quality,0.09
+Policy,Quality,0.22
+Public Health,Quality,0.44
+Research,Quality,0.94
+Telemedicine,Quality,0.41
+Clinics,Staffing,0.51
+Hospitals,Staffing,0.55
+Insurance,Staffing,0.96
+Patient Care,Staffing,0.04
+Pharmaceuticals,Staffing,0.99
+Policy,Staffing,0.0
+Public Health,Staffing,0.99
+Research,Staffing,0.42
+Telemedicine,Staffing,0.31

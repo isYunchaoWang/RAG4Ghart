@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the trend of Emergency Room Patients's Patient Satisfaction levels?",
+            "A": "Emergency Room Patients's patient satisfaction levels show a {stable rising} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Patient Satisfaction levels?",
+            "A": "{Emergency Room Patients}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Emergency Room Patients's Patient Satisfaction in 1996?",
+            "A": "Emergency Room Patients's patient satisfaction in 1996 is {100} %."
+        },
+        {
+            "Q": "What is Emergency Room Patients's Patient Satisfaction in 1993?",
+            "A": "Emergency Room Patients's patient satisfaction in 1993 is {100} %."
+        },
+        {
+            "Q": "What is Emergency Room Patients's Patient Satisfaction in 1984?",
+            "A": "Emergency Room Patients's patient satisfaction in 1984 is {100} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Patient Satisfaction in the line chart?",
+            "A": "The global minimum patient satisfaction is {100} %."
+        },
+        {
+            "Q": "What is the global maximum Patient Satisfaction in the line chart?",
+            "A": "The global maximum patient satisfaction is {100} %."
+        },
+        {
+            "Q": "What is the highest Patient Satisfaction level recorded for Emergency Room Patients?",
+            "A": "Emergency Room Patients reached approximately {100.00} % in {1979}."
+        },
+        {
+            "Q": "What is the lowest Patient Satisfaction level recorded for Emergency Room Patients?",
+            "A": "Emergency Room Patients's lowest recorded level is approximately {100.00} % in {1979}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Emergency Room Patients's Patient Satisfaction from the starting year to the final year?",
+            "A": "The rate of no change in Emergency Room Patients's patient satisfaction is {0.00}%."
+        },
+        {
+            "Q": "What is the average value of Emergency Room Patients's Patient Satisfaction?",
+            "A": "The average value of Emergency Room Patients's patient satisfaction is {100.00} %."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Was Emergency Room Patients's Patient Satisfaction in 1982 higher or lower than in 1989?",
+            "A": "The patient satisfaction in 1982 was {the same} than in 1989."
+        },
+        {
+            "Q": "Was Emergency Room Patients's Patient Satisfaction in 1989 higher or lower than in 1991?",
+            "A": "The patient satisfaction in 1989 was {the same} than in 1991."
+        },
+        {
+            "Q": "Was Emergency Room Patients's Patient Satisfaction in 1981 higher or lower than in 1988?",
+            "A": "The patient satisfaction in 1981 was {the same} than in 1988."
+        },
+        {
+            "Q": "Was Emergency Room Patients's Patient Satisfaction in 1990 higher or lower than in 1993?",
+            "A": "The patient satisfaction in 1990 was {the same} than in 1993."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Emergency Room Patients. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1979, 1996}."
+        }
+    ]
+}

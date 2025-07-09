@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {6} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Clipio}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Vido}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box Viewly?",
+            "A": "The first position to the left of the box Viewly is {Clipio}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Clipio relative to the box Reelix in terms of horizontal (left/right) direction?",
+            "A": "Box Clipio is to the {left} of the box Reelix."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Clipio}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Clipio}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Vido}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Reelix in the box plot?",
+            "A": "The median of Reelix is {9088.0} viewers."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Streamo in the box plot?",
+            "A": "The lower quartile (Q1) of Streamo is {21482.0} viewers."
+        },
+        {
+            "Q": "What is the upper whisker limit of Watchit in the box plot?",
+            "A": "The upper whisker limit of Watchit is {15004} viewers."
+        },
+        {
+            "Q": "What is the lowest upper outlier value in Clipio in the box plot?",
+            "A": "The lowest upper outlier value in Clipio is {17046}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum viewers value in the box plot?",
+            "A": "The global maximum viewers value in the box plot is {42859.00} viewers."
+        },
+        {
+            "Q": "What is the global minimum viewers value in the box plot?",
+            "A": "The global minimum viewers value in the box plot is {812.00} viewers."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Watchit and Reelix?",
+            "A": "The Q3 difference between box Watchit and Reelix is {2954.0} viewers."
+        },
+        {
+            "Q": "What is the toal Median value of box Streamo and Vido?",
+            "A": "The total Median value of box Streamo and Vido is {30274.0} viewers."
+        },
+        {
+            "Q": "What is the average Q3 value of box Watchit and Viewly?",
+            "A": "The average Q3 value of box Watchit and Viewly is {11246.5} viewers."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 16997.4 viewers?",
+            "A": "Box{Clipio},{Reelix} have the outliers exceed 16997.4 viewers."
+        },
+        {
+            "Q": "Which boxes have median values exceed 10237.00 viewers? Please list the boxes and corresponding values.",
+            "A": "{Clipio} has {30667.0} viewers , {Viewly} has {11386.0} viewers , {Streamo} has {22975.0} viewers "
+        },
+        {
+            "Q": "Which boxes have median values below 8193.50 viewers? Please list the boxes and corresponding values.",
+            "A": "{Watchit} has {6523.0} viewers , {Vido} has {7299.0} viewers "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Viewly or Clipio ",
+            "A": "The median value of the {Clipio} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Vido, Viewly or Watchit ",
+            "A": "The median value of the {Viewly} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Vido, Watchit, Streamo or Clipio ",
+            "A": "The median value of the {Clipio} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Viewly}."
+        }
+    ],
+    "VA": []
+}

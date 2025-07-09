@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Fieldwork Tech in this treemap?",
+            "A": "There are {1} child rectangles under the category Fieldwork Tech."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Learning Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {LoRa Modules}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Learning Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Learning Systems rectangle in this treemap?",
+            "A": "The value of the Learning Systems rectangle is {100.0}."
+        },
+        {
+            "Q": "What is the value of the Active Learning rectangle in this treemap?",
+            "A": "The value of the Active Learning rectangle is {40.65}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.47}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Real-Time Editing and Competency-Based?",
+            "A": "The difference between Real-Time Editing and Competency-Based is {13.05}."
+        },
+        {
+            "Q": "What is the sum of the regions of Fieldwork Tech and Project-Based?",
+            "A": "The sum of Fieldwork Tech and Project-Based is {25.91}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Fieldwork Tech category in the treemap, which rectangular labels have a value exceeded 11.38? Please list the labels and values.",
+            "A": "{Mobile Sensing} has {11.39}"
+        },
+        {
+            "Q": "Under the Fieldwork Tech category in the treemap, which rectangular labels have a value below 11.40? Please list the labels and values.",
+            "A": "{Mobile Sensing} has {11.39}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Pedagogy, Active Learning, or Experiential?",
+            "A": "The value of {Experiential} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Learning Systems or Pedagogy?",
+            "A": "The value of {Learning Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {11} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

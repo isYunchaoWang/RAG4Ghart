@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Crimson Bazaar, what is the spatial relationship of the data point in 2003 relative to that in 1992 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Crimson Bazaar, the data point in 2003 is {above} and to the {right} of the data point in 1992."
+        },
+        {
+            "Q": "In 1986, what is the vertical (above/below) relationship of the line representing Ironwood Market relative to Silverleaf Emporium?",
+            "A": "In 1986, Ironwood Market is {above} Silverleaf Emporium in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Crimson Bazaar's Home Sales levels?",
+            "A": "Crimson Bazaar's home sales levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Aether Market's Home Sales levels?",
+            "A": "Aether Market's home sales levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Silverleaf Emporium's Home Sales levels?",
+            "A": "Silverleaf Emporium's home sales levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Market's Home Sales levels?",
+            "A": "Ironwood Market's home sales levels show a {stable falling} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Ironwood Market's Home Sales in 1990?",
+            "A": "Ironwood Market's home sales in 1990 is {1165.60} units/month."
+        },
+        {
+            "Q": "What is Crimson Bazaar's Home Sales in 2002?",
+            "A": "Crimson Bazaar's home sales in 2002 is {295.35} units/month."
+        },
+        {
+            "Q": "What is Ironwood Market's Home Sales in 1994?",
+            "A": "Ironwood Market's home sales in 1994 is {1294.27} units/month."
+        },
+        {
+            "Q": "What are the home sales of Crimson Bazaar, Aether Market, and Ironwood Market in 2002?",
+            "A": "Crimson Bazaar's home sales is {295.35} units/month, Aether Market's home sales is {1862.90} units/month, Ironwood Market's home sales is {1511.89} units/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Home Sales in the line chart?",
+            "A": "The global minimum home sales is {107.21} units/month."
+        },
+        {
+            "Q": "What is the global maximum Home Sales in the line chart?",
+            "A": "The global maximum home sales is {1922.71} units/month."
+        },
+        {
+            "Q": "What is the highest Home Sales level recorded for Aether Market?",
+            "A": "Aether Market reached approximately {1922.71} units/month in {1999}."
+        },
+        {
+            "Q": "What is the lowest Home Sales level recorded for Aether Market?",
+            "A": "Aether Market's lowest recorded level is approximately {1498.98} units/month in {2006}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Silverleaf Emporium's Home Sales?",
+            "A": "The average value of Silverleaf Emporium's home sales is {386.90} units/month."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Market's Home Sales from the starting year to the final year?",
+            "A": "The rate of growth in Ironwood Market's home sales is {64.03}%."
+        },
+        {
+            "Q": "What is the average value of Aether Market's Home Sales?",
+            "A": "The average value of Aether Market's home sales is {1806.80} units/month."
+        },
+        {
+            "Q": "What is the rate of change in Silverleaf Emporium's Home Sales from the starting year to the final year?",
+            "A": "The rate of decline in Silverleaf Emporium's home sales is {-88.72}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1988, which lines had Home Sales below 614 units/month? Please list the lines and corresponding values.",
+            "A": "{Crimson Bazaar} had {380} units/month."
+        },
+        {
+            "Q": "In the year 1987, which line had Home Sales exceed 1229 units/month? Please list the lines and corresponding values.",
+            "A": "{Aether Market} had {1707} units/month."
+        },
+        {
+            "Q": "Which years did Ironwood Market's Home Sales between 1203 and 1466 units/month? Please list the years and corresponding values.",
+            "A": "{1294.27} units/month in {1994} year, {1376.90} units/month in {1997} year, {1224.37} units/month in {1992} year."
+        },
+        {
+            "Q": "Which years did Crimson Bazaar's Home Sales below 234 units/month? Please list the years and corresponding values.",
+            "A": "{200.49} units/month in {2000} year, {216.92} units/month in {1992} year, {228.20} units/month in {1995} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Aether Market's Home Sales in 2000 higher or lower than in 2005?",
+            "A": "The home sales in 2000 was {higher} than in 2005."
+        },
+        {
+            "Q": "Between 1995 and 1999, which line had the highest average Home Sales, Crimson Bazaar, Aether Market, Silverleaf Emporium, or Ironwood Market?",
+            "A": "{Aether Market} had the highest average home sales."
+        },
+        {
+            "Q": "Between 1993 and 1999, which line experienced the largest change in Home Sales, Silverleaf Emporium, Aether Market, or Crimson Bazaar?",
+            "A": "{Silverleaf Emporium} experienced the largest change in home sales."
+        },
+        {
+            "Q": "In 1999, which line had a higher Home Sales, {Crimson Bazaar} or {Silverleaf Emporium}?",
+            "A": "In 1999, {Crimson Bazaar} had a higher home sales."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Silverleaf Emporium}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1996 and 1999?",
+            "A": "{Ironwood Market} has the fastest average growth rate between 1996 and 1999."
+        },
+        {
+            "Q": "In which year did Crimson Bazaar first surpass Silverleaf Emporium?",
+            "A": "Crimson Bazaar first surpassed Silverleaf Emporium in the year {1999}."
+        },
+        {
+            "Q": "Which label had the leading home sales since 1989?",
+            "A": "Since 1989, {Aether Market} had the leading home sales."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Crimson Bazaar. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1985, 2000, 2006}."
+        }
+    ]
+}

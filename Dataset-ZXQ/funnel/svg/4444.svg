@@ -1,0 +1,26 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1022.7 756 1102.7 756" fill="none" stroke="#000000"></polyline>
+<polyline points="1133.5 601.4 1213.5 601.4" fill="none" stroke="#000000"></polyline>
+<polyline points="1252.1 446.9 1332.1 446.9" fill="none" stroke="#000000"></polyline>
+<polyline points="987.8 910.6 1067.8 910.6" fill="none" stroke="#000000"></polyline>
+<polyline points="979.2 1065.1 1059.2 1065.1" fill="none" stroke="#000000"></polyline>
+<polyline points="970.6 1219.7 1050.6 1219.7" fill="none" stroke="#000000"></polyline>
+<polyline points="1386.5 292.3 1466.5 292.3" fill="none" stroke="#000000"></polyline>
+<polygon points="670.4 679.7 1057.6 679.7 987.8 832.3 740.2 832.3" fill="#8CB9C0" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="518.5 525.1 1209.5 525.1 1057.6 677.7 670.4 677.7" fill="#7892B5" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="433.4 370.6 1294.6 370.6 1209.5 523.1 518.5 523.1" fill="#D98481" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="740.2 834.3 987.8 834.3 987.8 986.9 740.2 986.9" fill="#91B5A9" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="740.2 988.9 987.8 988.9 970.6 1141.4 757.4 1141.4" fill="#EDCA7F" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="757.4 1143.4 970.6 1143.4 970.6 1296 757.4 1296" fill="#A17CAB" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="249.6 216 1478.4 216 1294.6 368.6 433.4 368.6" fill="#E9B9AA" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1107.6990733518455" y="756" fill="#000000">Post-Distribution: 20195</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1218.541618046239" y="601.4285714285713" fill="#000000">Post-Transmission: 36049</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1337.0759040279554" y="446.85714285714283" fill="#000000">Post-Generation: 44929</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1072.8298461826464" y="910.5714285714284" fill="#000000">Delivered to End Users: 12920</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1064.1892171851111" y="1065.142857142857" fill="#000000">Billed Consumption: 12919</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1055.553380549749" y="1219.7142857142858" fill="#000000">Paid Consumption: 11117</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1471.5160400611526" y="292.2857142857143" fill="#000000">Total Energy Generated: 64102</text>
+<path d="M-531.7578 -5l1063.5156 0l0 58l-1063.5156 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Energy Generation and Distribution (Megawatt Hours)</text>
+</svg>

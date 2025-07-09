@@ -1,0 +1,61 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Funding Sources,Research Fields,Institution Types,Research Outcomes,Impact Areas
+Source,Target,Value
+Federal Grants,Biotechnology,37
+Federal Grants,Artificial Intelligence,8
+Federal Grants,Robotics,43
+Federal Grants,Nanotechnology,47
+Crowdfunding,Biotechnology,65
+Crowdfunding,Artificial Intelligence,75
+Crowdfunding,Robotics,30
+Crowdfunding,Nanotechnology,44
+Corporate Sponsorship,Biotechnology,12
+Corporate Sponsorship,Artificial Intelligence,3
+Corporate Sponsorship,Robotics,5
+Corporate Sponsorship,Nanotechnology,9
+Biotechnology,Corporate Labs,25
+Biotechnology,Non-profit Organizations,23
+Biotechnology,Government Agencies,19
+Biotechnology,Research Universities,29
+Biotechnology,Startups,18
+Artificial Intelligence,Corporate Labs,11
+Artificial Intelligence,Non-profit Organizations,11
+Artificial Intelligence,Government Agencies,22
+Artificial Intelligence,Research Universities,26
+Artificial Intelligence,Startups,16
+Robotics,Corporate Labs,23
+Robotics,Non-profit Organizations,2
+Robotics,Government Agencies,14
+Robotics,Research Universities,9
+Robotics,Startups,30
+Nanotechnology,Corporate Labs,29
+Nanotechnology,Non-profit Organizations,20
+Nanotechnology,Government Agencies,20
+Nanotechnology,Research Universities,10
+Nanotechnology,Startups,21
+Corporate Labs,Published Papers,26
+Corporate Labs,Prototypes,42
+Corporate Labs,Commercial Products,20
+Non-profit Organizations,Published Papers,14
+Non-profit Organizations,Prototypes,4
+Non-profit Organizations,Commercial Products,38
+Government Agencies,Published Papers,5
+Government Agencies,Prototypes,41
+Government Agencies,Commercial Products,29
+Research Universities,Published Papers,40
+Research Universities,Prototypes,10
+Research Universities,Commercial Products,24
+Startups,Published Papers,41
+Startups,Prototypes,33
+Startups,Commercial Products,11
+Published Papers,Industrial Automation,37
+Published Papers,Environment,12
+Published Papers,Education,53
+Published Papers,Defense,24
+Prototypes,Industrial Automation,38
+Prototypes,Environment,34
+Prototypes,Education,45
+Prototypes,Defense,13
+Commercial Products,Industrial Automation,7
+Commercial Products,Environment,62
+Commercial Products,Education,45
+Commercial Products,Defense,8

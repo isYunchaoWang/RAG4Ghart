@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {6} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar 2018 of this stacked bar chart?",
+            "A": "There are {5} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {2010}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {2019}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar 2018 relative to the bar 2019 in terms of horizontal (left/right) direction?",
+            "A": "Bar 2018 is to the {left} of the bar 2019."
+        },
+        {
+            "Q": "In the stacked bar of 2013, What is the spatial relationship of segment Glenwood relative to the segment Northfield in terms of vertical (above/below) direction?",
+            "A": "Glenwood segment is positioned {below} the Northfield segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Year has the highest bar in this stacked bar chart?",
+            "A": "The Year with the highest bar is {2013}."
+        },
+        {
+            "Q": "Which Year has the lowest bar in this stacked bar chart?",
+            "A": "The Year with the lowest bar is {2017}."
+        },
+        {
+            "Q": "In the stacked bar representing 2010, which segment has the highest value?",
+            "A": "The segment with the highest value is {Glenwood}."
+        },
+        {
+            "Q": "In the stacked bar representing 2012, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {Northfield}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Eastwood segment within the 2012 bar in the stacked bar chart?",
+            "A": "The value of the Eastwood segment is {10384.00} visits."
+        },
+        {
+            "Q": "What is the value of the Silverton segment within the 2017 bar in the stacked bar chart?",
+            "A": "The value of the Silverton segment is {10835.00} visits."
+        },
+        {
+            "Q": "What is the value of the Glenwood segment within the 2010 bar in the stacked bar chart?",
+            "A": "The value of the Glenwood segment is {21658.00} visits."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum visits among the stacked segments of bar 2017?",
+            "A": "The maximum visits among the stacked segments of bar 2017 is {13062} visits."
+        },
+        {
+            "Q": "What is the minimum visits among the stacked segments of bar 2019?",
+            "A": "The minimum visits among the stacked segments of bar 2019 is {6588} visits."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum visits of the segment Oakvale among the bars?",
+            "A": "The maximum visits among the bars of segment Oakvale is {16469} visits."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum visits of the segment Silverton among the bars?",
+            "A": "The minimum visits among the bars of segment Silverton is {5786} visits."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar 2019?",
+            "A": "The total value of bar 2019 is {54090.00} visits."
+        },
+        {
+            "Q": "What is the total value of the bar 2018?",
+            "A": "The total value of bar 2018 is {64180.00} visits."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {360219} visits."
+        },
+        {
+            "Q": "What is the difference between total value of bar 2019 and 2018?",
+            "A": "The difference between between total value of bar 2019 and 2018 is {10090} visits."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total visits values exceed 64618.50 visits? Please list the bar and corresponding values.",
+            "A": "{2010} has {65057} visits, {2013} has {66097} visits"
+        },
+        {
+            "Q": "Which bars have total visits values below 61546.50 visits? Please list the bar and corresponding values.",
+            "A": "{2017} has {51882} visits, {2019} has {54090} visits, {2012} has {58913} visits"
+        },
+        {
+            "Q": "For bar 2013 in the stacked bar chart, which segment have visits value between 12609.0 and 15002.0? Please list the segment and corresponding values.",
+            "A": "{Silverton} has {14454} visits."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total visits of 2010 or 2018?",
+            "A": "The total visits of the {2010} is larger."
+        },
+        {
+            "Q": "Which is larger, the total visits of 2010, 2012 or 2013?",
+            "A": "The total visits of the {2013} is larger."
+        },
+        {
+            "Q": "In the bar 2017, which has a larger visits value: Silverton or Glenwood?",
+            "A": "{Silverton} has the larger visits value."
+        },
+        {
+            "Q": "In the bar 2010, which has a larger visits value: Northfield, Glenwood or Oakvale?",
+            "A": "{Glenwood} has the larger visits value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment Silverton in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment Silverton are: {2013}, {2012}, {2010}."
+        }
+    ],
+    "VA": []
+}

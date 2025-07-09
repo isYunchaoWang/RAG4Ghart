@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {6} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc East Rovers?",
+            "A": "The next arc clockwise from arc East Rovers is arc {Eddiehaven Panthers}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Eddiehaven Panthers?",
+            "A": "The next arc counterclockwise from arc Eddiehaven Panthers is arc {East Rovers}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{South Stars} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Edwardsborough Bulls} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from South Stars to Eddiehaven Panthers in the chord chart?",
+            "A": "The flow value is {94}."
+        },
+        {
+            "Q": "What is the flow value from East Rovers to Eddiehaven Panthers in the chord chart?",
+            "A": "The flow value is {148}."
+        },
+        {
+            "Q": "What is the flow value from East Rovers to South Stars in the chord chart?",
+            "A": "The flow value is {170}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Eddiehaven Panthers and East Rovers in the chord chart?",
+            "A": "The maximum flow value between Eddiehaven Panthers and East Rovers is {148}."
+        },
+        {
+            "Q": "What is the minimum flow value between Eddiehaven Panthers and Edwardsborough Bulls in the chord chart?",
+            "A": "The minimum flow value between Eddiehaven Panthers and Edwardsborough Bulls is {104}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {1055}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {85}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Eddiehaven Panthers?",
+            "A": "The total flow output from Eddiehaven Panthers is {322}."
+        },
+        {
+            "Q": "What is the total flow input by Eddiehaven Panthers?",
+            "A": "The total flow input by Eddiehaven Panthers is {346}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 788? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {1055} from {South Stars} to {Edwardsborough Bulls}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 89? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {85} from {Eddiehaven Panthers} to {South Stars}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 138 and 181? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {170} from {East Rovers} to {South Stars}, a flow of {148} from {East Rovers} to {Eddiehaven Panthers}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from South Stars to East Rovers or from Edwardsborough Bulls to Poolechester Dynasty?",
+            "A": "The flow from {Edwardsborough Bulls} to {Poolechester Dynasty} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Eddiehaven Panthers to South Stars, from East Rovers to South Stars, or from Edwardsborough Bulls to Eddiehaven Panthers?",
+            "A": "The flow from {East Rovers} to {South Stars} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {South Stars}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Edwardsborough Bulls} and {South Stars}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Poolechester Dynasty, Arc Edwardsborough Bulls, Arc South Stars, Arc Eddiehaven Panthers, Arc East Rovers}."
+        }
+    ]
+}

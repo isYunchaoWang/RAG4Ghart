@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bubble} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this bubble chart?",
+            "A": "There are {15} bubbles."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the relative position of the bubble with a Total number of utility customers of 714571.43 relative to the bubble with a Total number of utility customers of 1000000.00 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The bubble with a Total number of utility customers of 714571.43 is {below} and to the {right} of the bubble with a Total number of utility customers of 1000000.00."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Where is the highest concentration of bubbles located in terms of Production capacity and Efficiency score?",
+            "A": "The highest concentration of bubbles corresponds to approximately {566496.30} MW and {84.74} %."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the Total number of utility customers of the largest bubble?",
+            "A": "The Total number of utility customers of the largest bubble is {1000000.00} count."
+        },
+        {
+            "Q": "What is the Total number of utility customers of the smallest bubble?",
+            "A": "The Total number of utility customers of the smallest bubble is {1000.00} count."
+        },
+        {
+            "Q": "What are the Production capacity and Efficiency score values of the largest bubble?",
+            "A": "The Production capacity of the largest bubble is {143320.47} MW, and {Efficiency score} is {80.39} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Total number of utility customers in the bubble chart?",
+            "A": "The global maximum Total number of utility customers is {1000000.00} count."
+        },
+        {
+            "Q": "What is the global minimum Total number of utility customers in the bubble chart?",
+            "A": "The global minimum Total number of utility customers is {1000.00} count."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Production capacity in the bubble chart?",
+            "A": "The maximum observed value in the Production capacity dimension is {693758.01} MW."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Production capacity in the bubble chart?",
+            "A": "The minimum observed value in the Production capacity dimension is {1000.00} MW."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Efficiency score in the bubble chart?",
+            "A": "The maximum observed value in the Efficiency score dimension is {92.19} %."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Efficiency score in the bubble chart?",
+            "A": "The minimum observed value in the Efficiency score dimension is {50.46} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Total number of utility customers for all bubbles?",
+            "A": "The average value of the Total number of utility customers for all bubbles is {500500.00} count."
+        },
+        {
+            "Q": "What is the average value of the Production capacity for all bubbles?",
+            "A": "The average value of Production capacity for all bubbles is {405486.75} MW."
+        },
+        {
+            "Q": "What is the average value of the Efficiency score for all bubbles?",
+            "A": "The average value of Efficiency score for all bubbles is {69.25} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 Total number of utility customers values in the bubble chart?",
+            "A": "{1000000.00, 928642.86, 857285.71} count."
+        },
+        {
+            "Q": "What are the bottom 3 Total number of utility customers values in the bubble chart?",
+            "A": "{1000.00, 72357.14, 143714.29} count."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has a larger Total number of utility customers value, the bubble with a Production capacity of 1000.0 MW and a Efficiency score of 57.9 %, or the bubble with a Production capacity of 603927.3 MW and a Efficiency score of 82.3 %?",
+            "A": "The bubble with a Production capacity of {1000.0} and a Efficiency score of {57.9} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "What is the Total number of utility customers value of the bubble with the largest Efficiency score value?",
+            "A": "The Total number of utility customers value of the bubble with the largest Efficiency score is {857285.71}."
+        },
+        {
+            "Q": "What is the Total number of utility customers value of the bubble with the largest Production capacity value?",
+            "A": "The Total number of utility customers value of the bubble with the largest Production capacity is {643214.29}."
+        },
+        {
+            "Q": "Classify bubbles with a Efficiency score-coordinate greater than 60 as 'high value group' and the rest as 'low value group'. What is the difference between the sum of Total number of utility customers for the high value group and the low value group?",
+            "A": "The difference between the total Total number of utility customers of the high-value and low-value groups is {1360785.70}."
+        }
+    ],
+    "VA": []
+}

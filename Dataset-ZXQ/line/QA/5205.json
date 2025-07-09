@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 2005, what is the vertical (above/below) relationship of the line representing Sales Team relative to Human Resources?",
+            "A": "In 2005, Sales Team is {above} Human Resources in the vertical direction."
+        },
+        {
+            "Q": "On Sales Team, what is the spatial relationship of the data point in 2005 relative to that in 2014 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Sales Team, the data point in 2005 is {below} and to the {left} of the data point in 2014."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Human Resources's Training Hours levels?",
+            "A": "Human Resources's training hours levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Sales Team's Training Hours levels?",
+            "A": "Sales Team's training hours levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Training Hours levels?",
+            "A": "{Human Resources}."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Training Hours levels?",
+            "A": "{Sales Team}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Sales Team's Training Hours in 2016?",
+            "A": "Sales Team's training hours in 2016 is {13.08} hours/employee."
+        },
+        {
+            "Q": "What is Human Resources's Training Hours in 2017?",
+            "A": "Human Resources's training hours in 2017 is {23.79} hours/employee."
+        },
+        {
+            "Q": "What is Human Resources's Training Hours in 2009?",
+            "A": "Human Resources's training hours in 2009 is {16.92} hours/employee."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Training Hours in the line chart?",
+            "A": "The global minimum training hours is {10.82} hours/employee."
+        },
+        {
+            "Q": "What is the global maximum Training Hours in the line chart?",
+            "A": "The global maximum training hours is {29.85} hours/employee."
+        },
+        {
+            "Q": "What is the highest Training Hours level recorded for Human Resources?",
+            "A": "Human Resources reached approximately {29.85} hours/employee in {2024}."
+        },
+        {
+            "Q": "What is the lowest Training Hours level recorded for Human Resources?",
+            "A": "Human Resources's lowest recorded level is approximately {10.82} hours/employee in {2002}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Human Resources's Training Hours from the starting year to the final year?",
+            "A": "The rate of growth in Human Resources's training hours is {175.88}%."
+        },
+        {
+            "Q": "What is the average value of Sales Team's Training Hours?",
+            "A": "The average value of Sales Team's training hours is {17.49} hours/employee."
+        },
+        {
+            "Q": "What is the rate of change in Sales Team's Training Hours from the starting year to the final year?",
+            "A": "The rate of growth in Sales Team's training hours is {15.08}%."
+        },
+        {
+            "Q": "What is the average value of Human Resources's Training Hours?",
+            "A": "The average value of Human Resources's training hours is {20.34} hours/employee."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 2004, which lines had Training Hours below 14 hours/employee? Please list the lines and corresponding values.",
+            "A": "{Human Resources} had {13} hours/employee."
+        },
+        {
+            "Q": "In the year 2007, which lines had Training Hours below 17 hours/employee? Please list the lines and corresponding values.",
+            "A": "{Human Resources} had {15} hours/employee."
+        },
+        {
+            "Q": "In the year 2020, which lines had Training Hours below 18 hours/employee? Please list the lines and corresponding values.",
+            "A": "{Sales Team} had {15} hours/employee."
+        },
+        {
+            "Q": "Which years did Human Resources's Training Hours between 17 and 24 hours/employee? Please list the years and corresponding values.",
+            "A": "{17.73} hours/employee in {2010} year, {22.10} hours/employee in {2015} year, {18.57} hours/employee in {2011} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Human Resources's Training Hours in 2002 higher or lower than in 2006?",
+            "A": "The training hours in 2002 was {lower} than in 2006."
+        },
+        {
+            "Q": "Between 2007 and 2008, which line experienced a larger change in Training Hours, Human Resources or Sales Team?",
+            "A": "{Sales Team} experienced a larger change in training hours."
+        },
+        {
+            "Q": "Between 2005 and 2011, which line experienced a larger change in Training Hours, Human Resources or Sales Team?",
+            "A": "{Human Resources} experienced a larger change in training hours."
+        },
+        {
+            "Q": "Between 2010 and 2011, which line had a higher average Training Hours, Human Resources or Sales Team?",
+            "A": "{Human Resources} had a higher average training hours."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Human Resources}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2014 and 2024?",
+            "A": "{Human Resources} has the fastest average growth rate between 2014 and 2024."
+        },
+        {
+            "Q": "In which year did Sales Team first surpass Human Resources?",
+            "A": "Sales Team first surpassed Human Resources in the year {2007}."
+        },
+        {
+            "Q": "In which year did Human Resources first surpass Sales Team?",
+            "A": "Human Resources first surpassed Sales Team in the year {2006}."
+        },
+        {
+            "Q": "Which label had the leading training hours since 2015?",
+            "A": "Since 2015, {Human Resources} had the leading training hours."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Sales Team. List the x-coordinates of data points to be preserved.(11 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {2002, 2003, 2006, 2008, 2011, 2013, 2016, 2018, 2021, 2023, 2024}."
+        }
+    ]
+}

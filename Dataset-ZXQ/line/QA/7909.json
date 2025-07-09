@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On CrimsonLink, what is the spatial relationship of the data point in 2005 relative to that in 2001 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On CrimsonLink, the data point in 2005 is {below} and to the {right} of the data point in 2001."
+        },
+        {
+            "Q": "In 2000, what is the vertical (above/below) relationship of the line representing OracleFeed relative to CrimsonLink?",
+            "A": "In 2000, OracleFeed is {below} CrimsonLink in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of CrimsonLink's Ad Revenue levels?",
+            "A": "CrimsonLink's ad revenue levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of EchoWave's Ad Revenue levels?",
+            "A": "EchoWave's ad revenue levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of OracleFeed's Ad Revenue levels?",
+            "A": "OracleFeed's ad revenue levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Ad Revenue levels?",
+            "A": "{CrimsonLink}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is OracleFeed's Ad Revenue in 2001?",
+            "A": "OracleFeed's ad revenue in 2001 is {5005168.71} $."
+        },
+        {
+            "Q": "What is EchoWave's Ad Revenue in 2004?",
+            "A": "EchoWave's ad revenue in 2004 is {3077769.59} $."
+        },
+        {
+            "Q": "What is OracleFeed's Ad Revenue in 2002?",
+            "A": "OracleFeed's ad revenue in 2002 is {5005168.71} $."
+        },
+        {
+            "Q": "What are the ad revenue of CrimsonLink, EchoWave, and OracleFeed in 2004?",
+            "A": "CrimsonLink's ad revenue is {539360612.76} $, EchoWave's ad revenue is {3077769.59} $, OracleFeed's ad revenue is {5005168.71} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Ad Revenue in the line chart?",
+            "A": "The global minimum ad revenue is {3077769.59} $."
+        },
+        {
+            "Q": "What is the global maximum Ad Revenue in the line chart?",
+            "A": "The global maximum ad revenue is {675968404.76} $."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink reached approximately {675968404.76} $ in {2000}."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for CrimsonLink?",
+            "A": "CrimsonLink's lowest recorded level is approximately {503572661.82} $ in {2005}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in OracleFeed's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of no change in OracleFeed's ad revenue is {0.00}%."
+        },
+        {
+            "Q": "What is the average value of CrimsonLink's Ad Revenue?",
+            "A": "The average value of CrimsonLink's ad revenue is {591873556.52} $."
+        },
+        {
+            "Q": "What is the rate of change in CrimsonLink's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of decline in CrimsonLink's ad revenue is {-25.50}%."
+        },
+        {
+            "Q": "What is the rate of change in EchoWave's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of no change in EchoWave's ad revenue is {0.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 2001, which line had Ad Revenue exceed 327401742 $? Please list the lines and corresponding values.",
+            "A": "{CrimsonLink} had {649798314} $."
+        },
+        {
+            "Q": "Which years did CrimsonLink's Ad Revenue below 553929928 $? Please list the years and corresponding values.",
+            "A": "{539360612.76} $ in {2004} year, {503572661.82} $ in {2005} year."
+        },
+        {
+            "Q": "In the year 2002, which line had Ad Revenue exceed 310550465 $? Please list the lines and corresponding values.",
+            "A": "{CrimsonLink} had {616095761} $."
+        },
+        {
+            "Q": "In the year 2000, which line had Ad Revenue exceed 340486787 $? Please list the lines and corresponding values.",
+            "A": "{CrimsonLink} had {675968405} $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was CrimsonLink's Ad Revenue in 2000 higher or lower than in 2004?",
+            "A": "The ad revenue in 2000 was {higher} than in 2004."
+        },
+        {
+            "Q": "Between 2002 and 2005, which line experienced a larger change in Ad Revenue, CrimsonLink or EchoWave?",
+            "A": "{CrimsonLink} experienced a larger change in ad revenue."
+        },
+        {
+            "Q": "Between 2002 and 2003, which line had the highest average Ad Revenue, EchoWave, OracleFeed, or CrimsonLink?",
+            "A": "{CrimsonLink} had the highest average ad revenue."
+        },
+        {
+            "Q": "Between 2001 and 2003, which line experienced a larger change in Ad Revenue, CrimsonLink or EchoWave?",
+            "A": "{CrimsonLink} experienced a larger change in ad revenue."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {CrimsonLink}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2003 and 2005?",
+            "A": "{EchoWave} has the fastest average growth rate between 2003 and 2005."
+        },
+        {
+            "Q": "Which label had the leading ad revenue since 2003?",
+            "A": "Since 2003, {CrimsonLink} had the leading ad revenue."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the CrimsonLink. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {2000, 2005}."
+        }
+    ]
+}

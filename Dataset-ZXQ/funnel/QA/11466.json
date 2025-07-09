@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {7} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Share Content stage positioned above or below the Join Group or Community stage?",
+            "A": "The Share Content stage is positioned {above} the Join Group or Community stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {logarithmic} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage View Content?",
+            "A": "The value of stage View Content is {225}."
+        },
+        {
+            "Q": "What is the value of stage Like or Comment?",
+            "A": "The value of stage Like or Comment is {144}."
+        },
+        {
+            "Q": "What is the value of stage Share Content?",
+            "A": "The value of stage Share Content is {97}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is View Content, with a value of {225}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Participate in Paid Subscription, with a value of {20}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Join Group or Community to stage Content Creation or Upload?",
+            "A": "Decreased by {15} Million Users from stage Join Group or Community to stage Content Creation or Upload."
+        },
+        {
+            "Q": "How much did it decrease from stage View Content to stage Like or Comment?",
+            "A": "Decreased by {81} Million Users from stage View Content to stage Like or Comment."
+        },
+        {
+            "Q": "How much did it decrease from stage Content Creation or Upload to stage Participate in Paid Subscription?",
+            "A": "Decreased by {3} Million Users from stage Content Creation or Upload to stage Participate in Paid Subscription."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 184? Please list the stage labels and corresponding values.",
+            "A": "The {View Content} stage has {225}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 21? Please list the stage labels and corresponding values.",
+            "A": "The {Participate in Paid Subscription} stage has {20}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 51 and 80? Please list the stage labels and corresponding values.",
+            "A": "The {Follow Account} stage has {64}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage View Content to Like or Comment, or from stage Like or Comment to Share Content?",
+            "A": "The reduction from stage {View Content} to {Like or Comment} is greater."
+        },
+        {
+            "Q": "Which reduction is greater: from stage Like or Comment to Share Content, or from stage Content Creation or Upload to Participate in Paid Subscription?",
+            "A": "The reduction from stage {Like or Comment} to {Share Content} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Share Content to Follow Account, from stage Like or Comment to Share Content, or from stage Join Group or Community to Content Creation or Upload?",
+            "A": "The reduction from stage {Like or Comment} to stage {Share Content} is the greatest."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Content Creation or Upload to Participate in Paid Subscription, from stage Follow Account to Join Group or Community, or from stage View Content to Like or Comment?",
+            "A": "The reduction from stage {View Content} to stage {Like or Comment} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {View Content} and {Like or Comment} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Content Creation or Upload} and {Participate in Paid Subscription} stages."
+        }
+    ],
+    "VA": []
+}

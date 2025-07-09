@@ -1,0 +1,57 @@
+Tourism and Hospitality,the Distribution of Tourism and Hospitality,7x8,vertical_gradient
+Destinations,Adventure,0.25
+Events,Adventure,0.21
+Hotels,Adventure,0.21
+Online Booking,Adventure,0.22
+Restaurants,Adventure,0.22
+Service Quality,Adventure,0.22
+Tour Operators,Adventure,0.21
+Destinations,Budget,0.29
+Events,Budget,0.31
+Hotels,Budget,0.3
+Online Booking,Budget,0.3
+Restaurants,Budget,0.32
+Service Quality,Budget,0.29
+Tour Operators,Budget,0.3
+Destinations,Business,0.39
+Events,Business,0.38
+Hotels,Business,0.37
+Online Booking,Business,0.39
+Restaurants,Business,0.37
+Service Quality,Business,0.37
+Tour Operators,Business,0.4
+Destinations,Eco-tourism,0.47
+Events,Eco-tourism,0.5
+Hotels,Eco-tourism,0.47
+Online Booking,Eco-tourism,0.48
+Restaurants,Eco-tourism,0.47
+Service Quality,Eco-tourism,0.45
+Tour Operators,Eco-tourism,0.46
+Destinations,Family,0.57
+Events,Family,0.54
+Hotels,Family,0.51
+Online Booking,Family,0.55
+Restaurants,Family,0.56
+Service Quality,Family,0.54
+Tour Operators,Family,0.56
+Destinations,Luxury,0.61
+Events,Luxury,0.65
+Hotels,Luxury,0.62
+Online Booking,Luxury,0.6
+Restaurants,Luxury,0.65
+Service Quality,Luxury,0.6
+Tour Operators,Luxury,0.61
+Destinations,Rural,0.72
+Events,Rural,0.69
+Hotels,Rural,0.72
+Online Booking,Rural,0.69
+Restaurants,Rural,0.68
+Service Quality,Rural,0.7
+Tour Operators,Rural,0.7
+Destinations,Urban,0.77
+Events,Urban,0.78
+Hotels,Urban,0.8
+Online Booking,Urban,0.82
+Restaurants,Urban,0.82
+Service Quality,Urban,0.76
+Tour Operators,Urban,0.79

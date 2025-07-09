@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {16} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Marketplace Platforms positioned outside, inside or on the same side as Fashion Retailers?",
+            "A": "Marketplace Platforms is positioned {inside} Fashion Retailers."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Payment & Logistics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Customer Service segment in this sunburst chart?",
+            "A": "The value of the Customer Service segment is {14.4}."
+        },
+        {
+            "Q": "What is the value of the Electronics Retailers segment in this sunburst chart?",
+            "A": "The value of the Electronics Retailers segment is {7.39}."
+        },
+        {
+            "Q": "What is the value of the Short Videos segment in this sunburst chart?",
+            "A": "The value of the Short Videos segment is {5.54}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {34.44}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {32.68}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {6.92}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.54}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.01}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Payment & Logistics exceed 100%? Please list the category names and corresponding percentages.",
+            "A": "None."
+        },
+        {
+            "Q": "Which categories in the segment Payment & Logistics are below 100%? Please list the category names and corresponding percentages.",
+            "A": "None."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Payment & Logistics or Digital Payment Systems?",
+            "A": "The value of {Payment & Logistics} is larger."
+        },
+        {
+            "Q": "Which has the largest value: Payment & Logistics, Digital Payment Systems, Marketplace Platforms, or B2C Platforms?",
+            "A": "The value of {Payment & Logistics} is the largest."
+        },
+        {
+            "Q": "Which is smaller, the value of Digital Payment Systems, Marketplace Platforms, or Customer Engagement?",
+            "A": "The value of {Customer Engagement} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Customer Engagement to Marketing Strategies to Social Media Ads to Influencer Marketing}."
+        }
+    ],
+    "VA": []
+}

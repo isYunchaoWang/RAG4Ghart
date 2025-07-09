@@ -1,0 +1,8 @@
+﻿Agriculture and Food Production,Farm Productivity
+Pattern,Weak Correlation,Clustering,Weak Correlation,Strong Correlation,Weak Correlation,Clustering
+labels,Labor efficiency (acres/worker),Water usage (liters/kg),Soil health index (1-10),Equipment utilization (%),Pesticide use (kg/ha),Yield per acre (tons),Harvest frequency (per year)
+deal  Corn,957.75,1000.0,1.0,30.0,0.0,0.5,4.0
+remember  Corn,79.05,362.05,8.93,95.75,18.81,44.21,1.0
+best  Potato,1.0,352.26,10.0,100.0,20.0,50.0,1.29
+career  Barley,507.31,1.0,4.42,87.11,16.58,1.38,3.18
+production  Wheat,1000.0,235.93,5.38,70.0,11.81,5.89,3.47

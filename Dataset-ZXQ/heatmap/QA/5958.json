@@ -1,0 +1,85 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {49} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {7} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {7} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {uniform} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Residential and Age in the heatmap?",
+            "A": "The heat value is {0.55}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Property Management and Price in the heatmap?",
+            "A": "The heat value is {0.55}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.56}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.53}."
+        },
+        {
+            "Q": "What is the maximum heat value of label REITs on the x-axis?",
+            "A": "The maximum heat value of REITs on the x-axis is {0.56}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Market Trends on the y-axis?",
+            "A": "The maximum heat value for Market Trends on the y-axis is {0.56}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Age on the y-axis?",
+            "A": "The average heat value for Age on the y-axis is {0.54}."
+        },
+        {
+            "Q": "What is the average heat value for label Supply on the y-axis?",
+            "A": "The average heat value for Supply on the y-axis is {0.54}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Mortgages and Inventory or the cell corresponding to Property Management and Market Trends?",
+            "A": "The cell corresponding to {Property Management} and {Market Trends} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Appraisal and Age or the cell corresponding to Mortgages and Supply?",
+            "A": "The cell corresponding to {Mortgages} and {Supply} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.53 to 0.55?",
+            "A": "The cells are: {(Appraisal, Affordability), (Commercial, Affordability), (Construction, Affordability), (Mortgages, Affordability), (Property Management, Affordability), (Residential, Affordability), (Appraisal, Age), (Construction, Age), (Mortgages, Age), (Property Management, Age), (REITs, Age), (Residential, Age), (Appraisal, Inventory), (Construction, Inventory), (Property Management, Inventory), (Residential, Inventory), (Appraisal, Location), (Commercial, Location), (Construction, Location), (Mortgages, Location), (Property Management, Location), (REITs, Location), (Residential, Location), (Construction, Market Trends), (Mortgages, Market Trends), (Property Management, Market Trends), (REITs, Market Trends), (Commercial, Price), (Construction, Price), (Mortgages, Price), (Property Management, Price), (REITs, Price), (Residential, Price), (Commercial, Supply), (Residential, Supply)}."
+        }
+    ],
+    "VA": []
+}

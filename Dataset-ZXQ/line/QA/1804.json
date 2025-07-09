@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Stellar Performance Troupe, what is the spatial relationship of the data point in 1990 relative to that in 1997 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Stellar Performance Troupe, the data point in 1990 is {above} and to the {left} of the data point in 1997."
+        },
+        {
+            "Q": "In 1996, what is the vertical (above/below) relationship of the line representing Stellar Performance Troupe relative to Aethelgard Thespians?",
+            "A": "In 1996, Stellar Performance Troupe is {below} Aethelgard Thespians in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Stellar Performance Troupe's Theater Attendance levels?",
+            "A": "Stellar Performance Troupe's theater attendance levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Aethelgard Thespians's Theater Attendance levels?",
+            "A": "Aethelgard Thespians's theater attendance levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of The Ivory Stage's Theater Attendance levels?",
+            "A": "The Ivory Stage's theater attendance levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Theater Attendance levels?",
+            "A": "{Stellar Performance Troupe}, {The Ivory Stage}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Aethelgard Thespians's Theater Attendance in 1991?",
+            "A": "Aethelgard Thespians's theater attendance in 1991 is {236814.20} tickets."
+        },
+        {
+            "Q": "What is The Ivory Stage's Theater Attendance in 1997?",
+            "A": "The Ivory Stage's theater attendance in 1997 is {20659.23} tickets."
+        },
+        {
+            "Q": "What is Stellar Performance Troupe's Theater Attendance in 1989?",
+            "A": "Stellar Performance Troupe's theater attendance in 1989 is {221345.68} tickets."
+        },
+        {
+            "Q": "What are the theater attendance of Aethelgard Thespians, Stellar Performance Troupe, and The Ivory Stage in 2002?",
+            "A": "Aethelgard Thespians's theater attendance is {422217.16} tickets, Stellar Performance Troupe's theater attendance is {54052.49} tickets, The Ivory Stage's theater attendance is {68727.99} tickets."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Theater Attendance in the line chart?",
+            "A": "The global minimum theater attendance is {5594.44} tickets."
+        },
+        {
+            "Q": "What is the global maximum Theater Attendance in the line chart?",
+            "A": "The global maximum theater attendance is {483434.17} tickets."
+        },
+        {
+            "Q": "What is the highest Theater Attendance level recorded for Aethelgard Thespians?",
+            "A": "Aethelgard Thespians reached approximately {483434.17} tickets in {2006}."
+        },
+        {
+            "Q": "What is the lowest Theater Attendance level recorded for Aethelgard Thespians?",
+            "A": "Aethelgard Thespians's lowest recorded level is approximately {205948.34} tickets in {1989}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Stellar Performance Troupe's Theater Attendance from the starting year to the final year?",
+            "A": "The rate of growth in Stellar Performance Troupe's theater attendance is {9.06}%."
+        },
+        {
+            "Q": "What is the rate of change in The Ivory Stage's Theater Attendance from the starting year to the final year?",
+            "A": "The rate of decline in The Ivory Stage's theater attendance is {-7.40}%."
+        },
+        {
+            "Q": "What is the average value of Stellar Performance Troupe's Theater Attendance?",
+            "A": "The average value of Stellar Performance Troupe's theater attendance is {84233.73} tickets."
+        },
+        {
+            "Q": "What is the average value of The Ivory Stage's Theater Attendance?",
+            "A": "The average value of The Ivory Stage's theater attendance is {99145.08} tickets."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did The Ivory Stage's Theater Attendance below 28242 tickets? Please list the years and corresponding values.",
+            "A": "{20659.23} tickets in {1999} year, {20659.23} tickets in {1997} year, {23465.73} tickets in {1996} year."
+        },
+        {
+            "Q": "Which years did The Ivory Stage's Theater Attendance exceed 149766 tickets? Please list the years and corresponding values.",
+            "A": "{150461.87} tickets in {1991} year, {201218.78} tickets in {1990} year, {193103.34} tickets in {2005} year."
+        },
+        {
+            "Q": "In the year 1991, which line had Theater Attendance exceed 193638 tickets? Please list the lines and corresponding values.",
+            "A": "{Aethelgard Thespians} had {236814} tickets."
+        },
+        {
+            "Q": "Which years did Aethelgard Thespians's Theater Attendance between 288356 and 402491 tickets? Please list the years and corresponding values.",
+            "A": "{369656.01} tickets in {1999} year, {351808.29} tickets in {1998} year, {302538.08} tickets in {1995} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Aethelgard Thespians's Theater Attendance in 1993 higher or lower than in 1996?",
+            "A": "The theater attendance in 1993 was {lower} than in 1996."
+        },
+        {
+            "Q": "Between 1995 and 1997, which line experienced the largest change in Theater Attendance, The Ivory Stage, Stellar Performance Troupe, or Aethelgard Thespians?",
+            "A": "{Aethelgard Thespians} experienced the largest change in theater attendance."
+        },
+        {
+            "Q": "Between 1989 and 1998, which line had the highest average Theater Attendance, Stellar Performance Troupe, Aethelgard Thespians, or The Ivory Stage?",
+            "A": "{Aethelgard Thespians} had the highest average theater attendance."
+        },
+        {
+            "Q": "Between 1997 and 2000, which line had the highest average Theater Attendance, Aethelgard Thespians, Stellar Performance Troupe, or The Ivory Stage?",
+            "A": "{Aethelgard Thespians} had the highest average theater attendance."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Aethelgard Thespians}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1999 and 2001?",
+            "A": "{The Ivory Stage} has the fastest average growth rate between 1999 and 2001."
+        },
+        {
+            "Q": "In which year did Stellar Performance Troupe first surpass The Ivory Stage?",
+            "A": "Stellar Performance Troupe first surpassed The Ivory Stage in the year {2006}."
+        },
+        {
+            "Q": "Which label had the leading theater attendance since 2004?",
+            "A": "Since 2004, {Aethelgard Thespians} had the leading theater attendance."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Stellar Performance Troupe. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1989, 1997, 2006}."
+        }
+    ]
+}

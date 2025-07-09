@@ -1,0 +1,89 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {64} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {8} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {radial gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Gaming Platforms and Growth in the heatmap?",
+            "A": "The heat value is {0.34}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Netflix and Advertising in the heatmap?",
+            "A": "The heat value is {0.59}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.72}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.06}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Spotify on the x-axis?",
+            "A": "The maximum heat value of Spotify on the x-axis is {0.66}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Instagram on the x-axis?",
+            "A": "The maximum heat value of Instagram on the x-axis is {0.50}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label TikTok on the x-axis?",
+            "A": "The average heat value for TikTok on the x-axis is {0.49}."
+        },
+        {
+            "Q": "What is the average heat value for label Gaming Platforms on the x-axis?",
+            "A": "The average heat value for Gaming Platforms on the x-axis is {0.32}."
+        },
+        {
+            "Q": "What is the average heat value for label Instagram on the x-axis?",
+            "A": "The average heat value for Instagram on the x-axis is {0.37}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Facebook and Advertising or the cell corresponding to Facebook and Revenue?",
+            "A": "The cell corresponding to {Facebook} and {Advertising} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Spotify and Platform Trends or the cell corresponding to Instagram and Users?",
+            "A": "The cell corresponding to {Spotify} and {Platform Trends} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.36 to 0.57?",
+            "A": "The cells are: {(Facebook, Advertising), (Gaming Platforms, Advertising), (Instagram, Advertising), (Facebook, Content), (Gaming Platforms, Content), (Instagram, Content), (Netflix, Content), (Gaming Platforms, Creator Economy), (Instagram, Creator Economy), (Netflix, Creator Economy), (Spotify, Creator Economy), (Instagram, Growth), (Netflix, Growth), (Spotify, Growth), (TikTok, Growth), (YouTube, Growth), (Instagram, Monetization), (Spotify, Monetization), (TikTok, Monetization), (YouTube, Monetization), (Spotify, Platform Trends), (TikTok, Platform Trends), (YouTube, Platform Trends)}."
+        }
+    ],
+    "VA": []
+}

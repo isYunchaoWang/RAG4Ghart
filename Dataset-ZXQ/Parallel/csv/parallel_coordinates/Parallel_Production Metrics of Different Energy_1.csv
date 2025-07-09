@@ -1,8 +1,0 @@
-﻿Energy and Utilities,Production Metrics of Different Energy
-labels,Output (MWh),Capacity factor (%),Downtime (%),Renewable percentage (%),Maintenance cost (USD/MWh)
-Pattern,Strong Correlation,Clustering,Strong Correlation,Weak Correlation
-Long-Anderson  Energy Facility,7710.92,52.87,10.38,65.77,78.92
-"Wheeler, Tate and Howe  Power Plant",1913.86,20.6,9.64,100.0,100.0
-"Vasquez, Smith and Harris  Power Plant",1.0,10.0,0.1,54.01,56.62
-"Olson, Spencer and Smith  Power Plant",934.83,33.84,6.94,0.0,48.88
-"Berry, Neal and Copeland  Generation Station",10000.0,95.0,20.0,30.86,1.0

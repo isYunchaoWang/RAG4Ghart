@@ -1,0 +1,139 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Current Ratio?",
+            "A": "The next dimension clockwise from Current Ratio is P/E Ratio vs. Industry Average Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from ROI?",
+            "A": "The next dimension counterclockwise from Current Ratio is Operating Cost Ratio."
+        },
+        {
+            "Q": "On the Capacity Utilization Rate, is the point for Stanton-Baxter inside or outside the point for Vazquez, Smith and Wood?",
+            "A": "On the Capacity Utilization Rate, the point for Stanton-Baxter is outside the point for Vazquez, Smith and Wood."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Net Profit Margin} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Lopez, Mccann and Martin?",
+            "A": "The strongest aspect is {Net Profit Margin}, while the weakest aspect is{ Current Ratio}."
+        },
+        {
+            "Q": "On dimension Net Profit Margin, which label scores the highest?",
+            "A": "On Net Profit Margin, label {Stanton-Baxter} scores the highest."
+        },
+        {
+            "Q": "On dimension Customer Retention Rate, which label scores the highest?",
+            "A": "On Customer Retention Rate, label {Vazquez, Smith and Wood} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Vazquez, Smith and Wood on the Customer Retention Rate in the radar chart?",
+            "A": "The value of Vazquez, Smith and Wood on the Safety dimension is {35}."
+        },
+        {
+            "Q": "What is the value of Stanton-Baxter on the Net Profit Margin in the radar chart?",
+            "A": "The value of Stanton-Baxter on the Safety dimension is {55}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Lopez, Mccann and Martin across all dimensions in the radar chart?",
+            "A": "The maximum value of Lopez, Mccann and Martin across all dimensions is {67}."
+        },
+        {
+            "Q": "What is the minimum value of label Lopez, Mccann and Martin across all dimensions in the radar chart?",
+            "A": "The minimum value of Lopez, Mccann and Martin across all dimensions is {75}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Customer Retention Rate",
+            "A": "The average value of Customer Retention Rate is {65.0}."
+        },
+        {
+            "Q": "What is the average value of Lopez, Mccann and Martin",
+            "A": "The average value of Lopez, Mccann and Martin is {70.43}."
+        },
+        {
+            "Q": "What is the difference in Current Ratio between Vazquez, Smith and Wood and Stanton-Baxter?",
+            "A": "The difference in Current Ratio between Vazquez, Smith and Wood and Stanton-Baxter is {68}."
+        },
+        {
+            "Q": "What is the difference in P/E Ratio vs. Industry Average Rate between Lopez, Mccann and Martin and Stanton-Baxter?",
+            "A": "The difference in P/E Ratio vs. Industry Average Rate between Lopez, Mccann and Martin and Stanton-Baxter is {11}."
+        },
+        {
+            "Q": "What is the difference in Net Profit Margin between Lopez, Mccann and Martin and Stanton-Baxter?",
+            "A": "The difference in Net Profit Margin between Lopez, Mccann and Martin and Stanton-Baxter is {38}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores above 81 for the Current Ratio dimension? Please list the labels and corresponding scores.",
+            "A": "{Vazquez, Smith and Wood} is {95}"
+        },
+        {
+            "Q": "For Stanton-Baxter in the radar chart, which dimensions have scores below 40? Please list the dimensions and corresponding scores.",
+            "A": "{Capacity Utilization Rate} is {26}, {Customer Retention Rate} is {35}, {P/E Ratio vs. Industry Average Rate} is {38}"
+        },
+        {
+            "Q": "Which labels have scores below 41 for the ROI dimension? Please list the labels and corresponding scores.",
+            "A": "{Stanton-Baxter} is {32}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Stanton-Baxter, which dimension has a higher score: Operating Cost Ratio or Current Ratio?",
+            "A": "{Operating Cost Ratio} has a higher score than Current Ratio for Stanton-Baxter."
+        },
+        {
+            "Q": "For Vazquez, Smith and Wood, which dimension has a higher score: Current Ratio or Net Profit Margin?",
+            "A": "{Current Ratio} has a higher score than Net Profit Margin for Vazquez, Smith and Wood."
+        },
+        {
+            "Q": "On ROI, which label has a higher score: Lopez, Mccann and Martin or the Stanton-Baxter?",
+            "A": "{Lopez, Mccann and Martin} has a higher score on ROI compared to Stanton-Baxter."
+        },
+        {
+            "Q": "On Current Ratio, which label has a higher score: Stanton-Baxter or the Lopez, Mccann and Martin?",
+            "A": "{Lopez, Mccann and Martin} has a higher score on Current Ratio compared to Stanton-Baxter."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Lopez, Mccann and Martin, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Lopez, Mccann and Martin most needs to improve its {Current Ratio}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Lopez, Mccann and Martin}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Stanton-Baxter}."
+        }
+    ],
+    "VA": []
+}

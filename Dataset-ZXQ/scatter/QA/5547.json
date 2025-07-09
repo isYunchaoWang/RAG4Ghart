@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {62} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive exponential correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Location score in the scatter plot?",
+            "A": "The maximum observed value in the Location score dimension is {10.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Location score in the scatter plot?",
+            "A": "The minimum observed value in the Location score dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Sales price per m³ in the scatter plot?",
+            "A": "The maximum observed value in the Sales price per m³ dimension is {1000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Sales price per m³ in the scatter plot?",
+            "A": "The minimum observed value in the Sales price per m³ dimension is {50.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Location score for all points?",
+            "A": "The average value of Location score for all points is {5.50}."
+        },
+        {
+            "Q": "What is the average value of the Sales price per m³ for all points?",
+            "A": "The average value of Sales price per m³ for all points is {413.73}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Sales price per m³ values corresponding to the top 3 Location score values in the scatter plot?",
+            "A": "{1000.00, 880.57, 832.39}."
+        },
+        {
+            "Q": "What are the Sales price per m³ values corresponding to the bottom 3 Location score values in the scatter plot?",
+            "A": "{118.65, 120.40, 152.63}."
+        },
+        {
+            "Q": "What are the Location score values corresponding to the top 3 Sales price per m³ values in the scatter plot?",
+            "A": "{10.00, 9.56, 9.85}."
+        },
+        {
+            "Q": "What are the Location score values corresponding to the bottom 3 Sales price per m³ values in the scatter plot?",
+            "A": "{2.62, 1.89, 1.74}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 7.67 and 8.81 and Y coordinates between 614.90 and 734.22?",
+            "A": "There are {4} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(2.62, 50.00) and (10.00, 1000.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(3.95, 251.73) and (4.39, 251.61)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [3.50, 204.11, 4.84, 299.23] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (3.95, 251.73)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [6.03, 611.81, 8.22, 850.89]; Region B: [3.07, 132.13, 5.27, 371.21]; Region C: [6.13, 227.10, 8.32, 466.18]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region B."
+        }
+    ]
+}

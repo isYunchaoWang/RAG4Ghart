@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Bonus percentage (%) dimension, what is the spatial relationship of Cabrera, Hall and Baker relative to Mann LLC in terms of vertical (above/below) direction?",
+            "A": "{Cabrera, Hall and Baker} is {below} {Mann LLC} on the Bonus percentage (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Stock options (%)?",
+            "A": "The second position to the left of Stock options (%) is {Bonus percentage (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Remote work allowance (days/week)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Bonus percentage (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Bonus percentage (%) and dimension Benefits cost (USD/year)",
+            "A": "There is {No Correlation} between Bonus percentage (%) and Benefits cost (USD/year)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Cabrera, Hall and Baker on the Stock options (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Cabrera, Hall and Baker on the Stock options (%) dimension is {0.0}"
+        },
+        {
+            "Q": "What is the value of Cabrera, Hall and Baker on the Remote work allowance (days/week) dimension in the parallel-coordinates chart?",
+            "A": "The value of Cabrera, Hall and Baker on the Remote work allowance (days/week) dimension is {5.0}"
+        },
+        {
+            "Q": "What is the value of Barnett, Howard and Anderson on the Stock options (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Barnett, Howard and Anderson on the Stock options (%) dimension is {15.71}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Cabrera, Hall and Baker across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Cabrera, Hall and Baker across all dimensions is {20000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Mann LLC across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Mann LLC across all dimensions is {1.2}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Stock options (%)?",
+            "A": "The average value of Stock options (%) is {11.9}"
+        },
+        {
+            "Q": "What is the difference in coding Benefits cost (USD/year) between label Mann LLC and label Cabrera, Hall and Baker",
+            "A": "The difference in coding Benefits cost (USD/year) between Mann LLC and Cabrera, Hall and Baker is {15148.47}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Stock options (%) dimension in the parallel coordinates?",
+            "A": "{[20.0, 15.71, 0.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Pay equity ratio (ratio) dimension in the parallel coordinates?",
+            "A": "{[0.8, 0.82, 1.2]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Remote work allowance (days/week), which label has a higher score: Mann LLC or Cabrera, Hall and Baker?",
+            "A": "{Cabrera, Hall and Baker} has a higher score on Remote work allowance (days/week)."
+        },
+        {
+            "Q": "On Benefits cost (USD/year), which label has a higher score: Cabrera, Hall and Baker or Barnett, Howard and Anderson?",
+            "A": "{Cabrera, Hall and Baker} has a higher score on Benefits cost (USD/year)."
+        },
+        {
+            "Q": "On Bonus percentage (%), which label has a higher score: Barnett, Howard and Anderson or Mann LLC?",
+            "A": "{Barnett, Howard and Anderson} has a higher score on Bonus percentage (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Remote work allowance (days/week) being greater than 2.08 and Pay equity ratio (ratio) being less than 1.05?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

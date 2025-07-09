@@ -1,0 +1,96 @@
+Healthcare and Health,Healthcare Service Ecosystem,Patients,random,Outcomes,Treatment Types,Medical Specialties,Healthcare Providers,Patient Demographics
+Source,Target,Value
+Worsened Condition,Emergency Care,941
+Worsened Condition,Surgery,272
+Worsened Condition,Therapy,698
+Worsened Condition,Medication,891
+Full Recovery,Emergency Care,1311
+Full Recovery,Surgery,1422
+Full Recovery,Therapy,1198
+Full Recovery,Medication,605
+Deceased,Emergency Care,926
+Deceased,Surgery,1106
+Deceased,Therapy,1635
+Deceased,Medication,476
+Improved Condition,Emergency Care,268
+Improved Condition,Surgery,125
+Improved Condition,Therapy,81
+Improved Condition,Medication,49
+Stable Condition,Emergency Care,177
+Stable Condition,Surgery,984
+Stable Condition,Therapy,1634
+Stable Condition,Medication,701
+Emergency Care,Pediatrics,717
+Emergency Care,Dermatology,518
+Emergency Care,Cardiology,343
+Emergency Care,Orthopedics,563
+Emergency Care,Neurology,711
+Emergency Care,Oncology,771
+Surgery,Pediatrics,900
+Surgery,Dermatology,567
+Surgery,Cardiology,632
+Surgery,Orthopedics,676
+Surgery,Neurology,843
+Surgery,Oncology,291
+Therapy,Pediatrics,711
+Therapy,Dermatology,391
+Therapy,Cardiology,1106
+Therapy,Orthopedics,1247
+Therapy,Neurology,557
+Therapy,Oncology,1234
+Medication,Pediatrics,512
+Medication,Dermatology,173
+Medication,Cardiology,697
+Medication,Orthopedics,661
+Medication,Neurology,215
+Medication,Oncology,464
+Pediatrics,Hospitals,319
+Pediatrics,Clinics,850
+Pediatrics,Rehabilitation Centers,928
+Pediatrics,Nursing Homes,641
+Pediatrics,Pharmacies,102
+Dermatology,Hospitals,140
+Dermatology,Clinics,83
+Dermatology,Rehabilitation Centers,171
+Dermatology,Nursing Homes,472
+Dermatology,Pharmacies,783
+Cardiology,Hospitals,861
+Cardiology,Clinics,150
+Cardiology,Rehabilitation Centers,542
+Cardiology,Nursing Homes,951
+Cardiology,Pharmacies,274
+Orthopedics,Hospitals,427
+Orthopedics,Clinics,718
+Orthopedics,Rehabilitation Centers,1104
+Orthopedics,Nursing Homes,609
+Orthopedics,Pharmacies,289
+Neurology,Hospitals,695
+Neurology,Clinics,556
+Neurology,Rehabilitation Centers,150
+Neurology,Nursing Homes,342
+Neurology,Pharmacies,583
+Oncology,Hospitals,624
+Oncology,Clinics,426
+Oncology,Rehabilitation Centers,600
+Oncology,Nursing Homes,628
+Oncology,Pharmacies,482
+Hospitals,Children,623
+Hospitals,Pregnant Women,615
+Hospitals,Seniors,236
+Hospitals,Adults,1592
+Clinics,Children,945
+Clinics,Pregnant Women,774
+Clinics,Seniors,281
+Clinics,Adults,783
+Rehabilitation Centers,Children,286
+Rehabilitation Centers,Pregnant Women,2089
+Rehabilitation Centers,Seniors,834
+Rehabilitation Centers,Adults,286
+Nursing Homes,Children,225
+Nursing Homes,Pregnant Women,1166
+Nursing Homes,Seniors,907
+Nursing Homes,Adults,1345
+Pharmacies,Children,397
+Pharmacies,Pregnant Women,571
+Pharmacies,Seniors,1056
+Pharmacies,Adults,489

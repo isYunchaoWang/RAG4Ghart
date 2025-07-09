@@ -1,0 +1,75 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {14} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {17} links."
+        },
+        {
+            "Q": "How many nodes link with node Delta Innovation Crew?",
+            "A": "There are {2} nodes link with node Delta Innovation Crew."
+        }
+    ],
+    "SRP": [],
+    "VPR": [],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Gamma Security Unit and node Falcon Deployment Crew in this node-link chart?",
+            "A": "The relationship between node Gamma Security Unit and node Falcon Deployment Crew is {ticket_sharing}."
+        },
+        {
+            "Q": "What is the relationship between node Beta Operations Group and node Lynx Data Science Team in this node-link chart?",
+            "A": "The relationship between node Beta Operations Group and node Lynx Data Science Team is {venue_booking}."
+        }
+    ],
+    "EVJ": [],
+    "SC": [
+        {
+            "Q": "How many links have the relation type broadcast_right?",
+            "A": "There are {5} links with the relation type broadcast_right."
+        },
+        {
+            "Q": "How many links have the relation type match_schedule?",
+            "A": "There are {3} links with the relation type match_schedule."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Gamma Security Unit, how many links are of type broadcast_right?",
+            "A": "Node Gamma Security Unit has {1} links of type broadcast_right."
+        },
+        {
+            "Q": "Under node Alpha Research Team, how many links are of type league_affiliation?",
+            "A": "Node Alpha Research Team has {1} links of type league_affiliation."
+        },
+        {
+            "Q": "Under node Alpha Research Team, how many links are of type match_schedule?",
+            "A": "Node Alpha Research Team has {1} links of type match_schedule."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "Which node is considered the most important in the node link chart?",
+            "A": "The most important node is {Beta Operations Group}."
+        },
+        {
+            "Q": "Please list the top three nodes by degree and their corresponding degrees.",
+            "A": "The top three nodes by degree are: {node Beta Operations Group with a degree of 7}, {node Gamma Security Unit with a degree of 6}, {node Alpha Research Team with a degree of 5}."
+        },
+        {
+            "Q": "What is the shortest path from node Phoenix Rescue Squad to node Epsilon Design Team in the node link diagram? Please list all nodes along this path in sequence.",
+            "A": "The shortest path from node Phoenix Rescue Squad to node Epsilon Design Team is: {Phoenix Rescue Squad to Gamma Security Unit to Falcon Deployment Crew to Epsilon Design Team}."
+        }
+    ],
+    "VA": []
+}

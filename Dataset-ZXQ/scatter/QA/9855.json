@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {92} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative u shape correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Distance traveled in the scatter plot?",
+            "A": "The maximum observed value in the Distance traveled dimension is {1000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Distance traveled in the scatter plot?",
+            "A": "The minimum observed value in the Distance traveled dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Fuel efficiency in the scatter plot?",
+            "A": "The maximum observed value in the Fuel efficiency dimension is {50.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Fuel efficiency in the scatter plot?",
+            "A": "The minimum observed value in the Fuel efficiency dimension is {15.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Distance traveled for all points?",
+            "A": "The average value of Distance traveled for all points is {500.50}."
+        },
+        {
+            "Q": "What is the average value of the Fuel efficiency for all points?",
+            "A": "The average value of Fuel efficiency for all points is {35.48}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Fuel efficiency values corresponding to the top 3 Distance traveled values in the scatter plot?",
+            "A": "{19.08, 16.76, 20.05}."
+        },
+        {
+            "Q": "What are the Fuel efficiency values corresponding to the bottom 3 Distance traveled values in the scatter plot?",
+            "A": "{15.00, 16.60, 18.71}."
+        },
+        {
+            "Q": "What are the Distance traveled values corresponding to the top 3 Fuel efficiency values in the scatter plot?",
+            "A": "{637.73, 626.75, 549.90}."
+        },
+        {
+            "Q": "What are the Distance traveled values corresponding to the bottom 3 Fuel efficiency values in the scatter plot?",
+            "A": "{1.00, 33.93, 967.07}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 91.97 and 240.07 and Y coordinates between 40.05 and 46.48?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(1.00, 15.00) and (1000.00, 19.08)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(736.53, 40.52) and (747.51, 40.24)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [686.58, 38.49, 797.46, 42.27] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (736.53, 40.52)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [603.91, 36.16, 880.13, 44.60]; Region B: [260.08, 40.37, 536.30, 48.81]; Region C: [228.50, 30.74, 504.72, 39.19]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region A."
+        }
+    ]
+}

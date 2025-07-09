@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Media coverage (articles/month) dimension, what is the spatial relationship of culture  Civilization relative to cut  Civilization in terms of vertical (above/below) direction?",
+            "A": "{culture  Civilization} is {above} {cut  Civilization} on the Media coverage (articles/month) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Media coverage (articles/month)?",
+            "A": "The first position to the left of Media coverage (articles/month) is {Opinion leader count(verified accounts)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Behavior change rate (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Opinion leader count(verified accounts)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Opinion leader count(verified accounts)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Media coverage (articles/month) and dimension Artistic references (cultural citations)",
+            "A": "There is {Clustering} between Media coverage (articles/month) and Artistic references (cultural citations)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of wonder  Civilization on the Behavior change rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of wonder  Civilization on the Behavior change rate (%) dimension is {36.23}"
+        },
+        {
+            "Q": "What is the value of wonder  Civilization on the Media coverage (articles/month) dimension in the parallel-coordinates chart?",
+            "A": "The value of wonder  Civilization on the Media coverage (articles/month) dimension is {1000.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label cut  Civilization across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of cut  Civilization across all dimensions is {1000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label wonder  Civilization across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of wonder  Civilization across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Media coverage (articles/month)?",
+            "A": "The average value of Media coverage (articles/month) is {524.29}"
+        },
+        {
+            "Q": "What is the difference in coding Opinion leader count(verified accounts) between label culture  Civilization and label cut  Civilization",
+            "A": "The difference in coding Opinion leader count(verified accounts) between culture  Civilization and cut  Civilization is {999.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Artistic references (cultural citations) dimension in the parallel coordinates?",
+            "A": "{[1000.0, 929.57, 0.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Opinion leader count(verified accounts) dimension in the parallel coordinates?",
+            "A": "{[1.0, 35.98, 1000.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Media coverage (articles/month), which label has a higher score: culture  Civilization or cut  Civilization?",
+            "A": "{culture  Civilization} has a higher score on Media coverage (articles/month)."
+        },
+        {
+            "Q": "On Media coverage (articles/month), which label has a higher score: wonder  Civilization or culture  Civilization?",
+            "A": "{wonder  Civilization} has a higher score on Media coverage (articles/month)."
+        },
+        {
+            "Q": "On Artistic references (cultural citations), which label has a higher score: wonder  Civilization or culture  Civilization?",
+            "A": "{culture  Civilization} has a higher score on Artistic references (cultural citations)."
+        },
+        {
+            "Q": "On Opinion leader count(verified accounts), which label has a higher score: cut  Civilization or culture  Civilization?",
+            "A": "{culture  Civilization} has a higher score on Opinion leader count(verified accounts)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Opinion leader count(verified accounts)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Artistic references (cultural citations) being greater than 476.71 and Behavior change rate (%) being less than 24.67?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {16} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Lodging Options positioned outside, inside or on the same side as Air Travel?",
+            "A": "Lodging Options is positioned {inside} Air Travel."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Travel Services}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Coastal Areas segment in this sunburst chart?",
+            "A": "The value of the Coastal Areas segment is {9.02}."
+        },
+        {
+            "Q": "What is the value of the International Routes segment in this sunburst chart?",
+            "A": "The value of the International Routes segment is {11.2}."
+        },
+        {
+            "Q": "What is the value of the Urban Tourism segment in this sunburst chart?",
+            "A": "The value of the Urban Tourism segment is {9.81}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {50.7}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {22.19}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {29.39}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {10.1}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Travel Services exceed 100%? Please list the category names and corresponding percentages.",
+            "A": "None."
+        },
+        {
+            "Q": "Which categories in the segment Travel Services are below 100%? Please list the category names and corresponding percentages.",
+            "A": "None."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Travel Services or Transportation?",
+            "A": "The value of {Travel Services} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Travel Services, Transportation, or Air Travel?",
+            "A": "The value of {Travel Services} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Travel Services to Transportation to Air Travel to Domestic Flights}."
+        }
+    ],
+    "VA": []
+}

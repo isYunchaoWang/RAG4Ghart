@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On EchoWave Entertainment, what is the spatial relationship of the data point in 2009 relative to that in 2008 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On EchoWave Entertainment, the data point in 2009 is {above} and to the {right} of the data point in 2008."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of EchoWave Entertainment's Streaming Views levels?",
+            "A": "EchoWave Entertainment's streaming views levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Streaming Views levels?",
+            "A": "{EchoWave Entertainment}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is EchoWave Entertainment's Streaming Views in 2011?",
+            "A": "EchoWave Entertainment's streaming views in 2011 is {230455.75} views/month."
+        },
+        {
+            "Q": "What is EchoWave Entertainment's Streaming Views in 2001?",
+            "A": "EchoWave Entertainment's streaming views in 2001 is {143343.93} views/month."
+        },
+        {
+            "Q": "What is EchoWave Entertainment's Streaming Views in 2003?",
+            "A": "EchoWave Entertainment's streaming views in 2003 is {159206.68} views/month."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Streaming Views in the line chart?",
+            "A": "The global minimum streaming views is {106483.35} views/month."
+        },
+        {
+            "Q": "What is the global maximum Streaming Views in the line chart?",
+            "A": "The global maximum streaming views is {237386.17} views/month."
+        },
+        {
+            "Q": "What is the highest Streaming Views level recorded for EchoWave Entertainment?",
+            "A": "EchoWave Entertainment reached approximately {237386.17} views/month in {2012}."
+        },
+        {
+            "Q": "What is the lowest Streaming Views level recorded for EchoWave Entertainment?",
+            "A": "EchoWave Entertainment's lowest recorded level is approximately {106483.35} views/month in {1997}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in EchoWave Entertainment's Streaming Views from the starting year to the final year?",
+            "A": "The rate of growth in EchoWave Entertainment's streaming views is {122.93}%."
+        },
+        {
+            "Q": "What is the average value of EchoWave Entertainment's Streaming Views?",
+            "A": "The average value of EchoWave Entertainment's streaming views is {172475.02} views/month."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did EchoWave Entertainment's Streaming Views below 140812 views/month? Please list the years and corresponding values.",
+            "A": "{106483.35} views/month in {1997} year, {133215.08} views/month in {2000} year, {125436.14} views/month in {1999} year."
+        },
+        {
+            "Q": "Which years did EchoWave Entertainment's Streaming Views between 147334 and 199508 views/month? Please list the years and corresponding values.",
+            "A": "{159206.68} views/month in {2003} year, {183966.21} views/month in {2006} year, {152716.93} views/month in {2002} year."
+        },
+        {
+            "Q": "Which years did EchoWave Entertainment's Streaming Views exceed 206030 views/month? Please list the years and corresponding values.",
+            "A": "{212389.40} views/month in {2009} year, {230455.75} views/month in {2011} year, {237386.17} views/month in {2012} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was EchoWave Entertainment's Streaming Views in 2004 higher or lower than in 2012?",
+            "A": "The streaming views in 2004 was {lower} than in 2012."
+        },
+        {
+            "Q": "Was EchoWave Entertainment's Streaming Views in 1997 higher or lower than in 2007?",
+            "A": "The streaming views in 1997 was {lower} than in 2007."
+        },
+        {
+            "Q": "Was EchoWave Entertainment's Streaming Views in 2002 higher or lower than in 2006?",
+            "A": "The streaming views in 2002 was {lower} than in 2006."
+        },
+        {
+            "Q": "Was EchoWave Entertainment's Streaming Views in 1998 higher or lower than in 2002?",
+            "A": "The streaming views in 1998 was {lower} than in 2002."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the EchoWave Entertainment. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1997, 2012}."
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Zenith Imprints, what is the spatial relationship of the data point in 1957 relative to that in 1959 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Zenith Imprints, the data point in 1957 is {below} and to the {left} of the data point in 1959."
+        },
+        {
+            "Q": "In 1957, what is the vertical (above/below) relationship of the line representing Zenith Imprints relative to Azure Ink Works?",
+            "A": "In 1957, Zenith Imprints is {below} Azure Ink Works in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Azure Ink Works's Book Sales levels?",
+            "A": "Azure Ink Works's book sales levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Imprints's Book Sales levels?",
+            "A": "Zenith Imprints's book sales levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Book Sales levels?",
+            "A": "{Azure Ink Works}."
+        },
+        {
+            "Q": "Which line shows a exponential rising trend in Book Sales levels?",
+            "A": "{Zenith Imprints}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Azure Ink Works's Book Sales in 1958?",
+            "A": "Azure Ink Works's book sales in 1958 is {387033.30} copies."
+        },
+        {
+            "Q": "What is Azure Ink Works's Book Sales in 1959?",
+            "A": "Azure Ink Works's book sales in 1959 is {362193.51} copies."
+        },
+        {
+            "Q": "What is Zenith Imprints's Book Sales in 1958?",
+            "A": "Zenith Imprints's book sales in 1958 is {290239.49} copies."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Book Sales in the line chart?",
+            "A": "The global minimum book sales is {259682.75} copies."
+        },
+        {
+            "Q": "What is the global maximum Book Sales in the line chart?",
+            "A": "The global maximum book sales is {387033.30} copies."
+        },
+        {
+            "Q": "What is the highest Book Sales level recorded for Azure Ink Works?",
+            "A": "Azure Ink Works reached approximately {387033.30} copies in {1958}."
+        },
+        {
+            "Q": "What is the lowest Book Sales level recorded for Azure Ink Works?",
+            "A": "Azure Ink Works's lowest recorded level is approximately {314776.36} copies in {1957}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Zenith Imprints's Book Sales?",
+            "A": "The average value of Zenith Imprints's book sales is {287436.81} copies."
+        },
+        {
+            "Q": "What is the rate of change in Azure Ink Works's Book Sales from the starting year to the final year?",
+            "A": "The rate of growth in Azure Ink Works's book sales is {15.06}%."
+        },
+        {
+            "Q": "What is the average value of Azure Ink Works's Book Sales?",
+            "A": "The average value of Azure Ink Works's book sales is {354667.72} copies."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Imprints's Book Sales from the starting year to the final year?",
+            "A": "The rate of growth in Zenith Imprints's book sales is {20.30}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Zenith Imprints's Book Sales below 285651 copies? Please list the years and corresponding values.",
+            "A": "{259682.75} copies in {1957} year."
+        },
+        {
+            "Q": "Which years did Azure Ink Works's Book Sales below 346254 copies? Please list the years and corresponding values.",
+            "A": "{314776.36} copies in {1957} year."
+        },
+        {
+            "Q": "Which years did Azure Ink Works's Book Sales between 342098 and 371001 copies? Please list the years and corresponding values.",
+            "A": "{362193.51} copies in {1959} year."
+        },
+        {
+            "Q": "In the year 1959, which lines had Book Sales below 343627 copies? Please list the lines and corresponding values.",
+            "A": "{Zenith Imprints} had {312388} copies."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1957, which line had a higher Book Sales, {Zenith Imprints} or {Azure Ink Works}?",
+            "A": "In 1957, {Azure Ink Works} had a higher book sales."
+        },
+        {
+            "Q": "Between 1958 and 1959, which line experienced a larger change in Book Sales, Azure Ink Works or Zenith Imprints?",
+            "A": "{Azure Ink Works} experienced a larger change in book sales."
+        },
+        {
+            "Q": "In 1958, which line had a higher Book Sales, {Zenith Imprints} or {Azure Ink Works}?",
+            "A": "In 1958, {Azure Ink Works} had a higher book sales."
+        },
+        {
+            "Q": "Between 1957 and 1958, which line had a higher average Book Sales, Zenith Imprints or Azure Ink Works?",
+            "A": "{Azure Ink Works} had a higher average book sales."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Azure Ink Works}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1957 and 1958?",
+            "A": "{Azure Ink Works} has the fastest average growth rate between 1957 and 1958."
+        },
+        {
+            "Q": "Which label had the leading book sales since 1958?",
+            "A": "Since 1958, {Azure Ink Works} had the leading book sales."
+        }
+    ],
+    "VA": []
+}

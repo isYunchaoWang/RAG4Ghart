@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of column Research Outcomes of this sankey chart?",
+            "A": "There are {15} links flow out of column Research Outcomes."
+        },
+        {
+            "Q": "How many nodes are in the column Funding Sources of this sankey chart?",
+            "A": "There are {3} nodes in the column Funding Sources."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Research Outcomes}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Funding Sources}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Commercial Products} and {Federal Grants}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Open-source Projects} and {Crowdfunding}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Open-source Projects to the node University Budget?",
+            "A": "The flow value from the node Open-source Projects to the node University Budget is {90}."
+        },
+        {
+            "Q": "What is the flow value from the node Patents to the node University Budget?",
+            "A": "The flow value from the node Patents to the node University Budget is {158}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Published Papers to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Published Papers to the next stage is {312}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Published Papers to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Published Papers to the next stage is {113}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Open-source Projects?",
+            "A": "The total flow output from node Open-source Projects is {167}."
+        },
+        {
+            "Q": "What is the total flow input by node University Budget?",
+            "A": "The total flow input by node University Budget is {781}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Research Outcomes of the sankey chart, which nodes have an outflow exceeded 306? Please list the node labels and their corresponding outflow values.",
+            "A": "{Commercial Products} has an outflow of {374}, {Published Papers} has an outflow of {312}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Research Outcomes and column Funding Sources is the flow between 98 and 109? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {106} from node {Prototypes} to {Federal Grants}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 79 and 116? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {90} from node {Open-source Projects} to {University Budget}, a flow of {106} from node {Prototypes} to {Federal Grants}, a flow of {113} from node {Published Papers} to {University Budget}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Published Papers to node Crowdfunding and from node Commercial Products to node Crowdfunding, which path has a larger flow?",
+            "A": "The flow from node {Published Papers} to node {Crowdfunding} is larger."
+        },
+        {
+            "Q": "Between the flows from node Published Papers to node Crowdfunding and from node Published Papers to node University Budget, which path has a larger flow?",
+            "A": "The flow from node {Published Papers} to node {Crowdfunding} is larger."
+        },
+        {
+            "Q": "Among the flows from node Patents to node University Budget, from node Prototypes to node University Budget, and from node Published Papers to node Crowdfunding, which path has the largest flow?",
+            "A": "The flow from node {Published Papers} to node {Crowdfunding} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Funding Sources of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Funding Sources is {University Budget}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Open-source Projects to target node Federal Grants? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Open-source Projects to node Federal Grants is: {Open-source Projects, Federal Grants}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {6} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Alex Laboratory?",
+            "A": "The next arc clockwise from arc Alex Laboratory is arc {Royal Academy}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Alex Laboratory?",
+            "A": "The next arc counterclockwise from arc Alex Laboratory is arc {Jessicatown School}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Jessicatown School} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Alex Laboratory} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Alex Laboratory to Jessicatown School in the chord chart?",
+            "A": "The flow value is {40}."
+        },
+        {
+            "Q": "What is the flow value from Royal Academy to Herman Research Center in the chord chart?",
+            "A": "The flow value is {16}."
+        },
+        {
+            "Q": "What is the flow value from Jessicatown School to Alex Laboratory in the chord chart?",
+            "A": "The flow value is {86}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between NIT and Royal Academy in the chord chart?",
+            "A": "The maximum flow value between NIT and Royal Academy is {11}."
+        },
+        {
+            "Q": "What is the minimum flow value between NIT and Herman Research Center in the chord chart?",
+            "A": "The minimum flow value between NIT and Herman Research Center is {6}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {86}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {6}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from NIT?",
+            "A": "The total flow output from NIT is {18}."
+        },
+        {
+            "Q": "What is the total flow input by Herman Research Center?",
+            "A": "The total flow input by Herman Research Center is {31}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 33? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {86} from {Jessicatown School} to {Alex Laboratory}, a flow of {40} from {Alex Laboratory} to {Jessicatown School}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 7? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {6} from {Herman Research Center} to {NIT}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 10 and 12? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {11} from {NIT} to {Royal Academy}, a flow of {10} from {Royal Academy} to {NIT}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Royal Academy to NIT or from Herman Research Center to NIT?",
+            "A": "The flow from {Royal Academy} to {NIT} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Royal Academy to NIT, from Herman Research Center to NIT, or from NIT to Herman Research Center?",
+            "A": "The flow from {Royal Academy} to {NIT} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Jessicatown School}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Alex Laboratory} and {Jessicatown School}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc NIT, Arc Royal Academy, Arc Jessicatown School, Arc Alex Laboratory, Arc Herman Research Center}."
+        }
+    ]
+}

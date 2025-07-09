@@ -1,0 +1,160 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1977, what is the vertical (above/below) relationship of the line representing Golden Harvest Cooperative relative to Ironwood Ranch?",
+            "A": "In 1977, Golden Harvest Cooperative is {below} Ironwood Ranch in the vertical direction."
+        },
+        {
+            "Q": "On Ironwood Ranch, what is the spatial relationship of the data point in 1982 relative to that in 1984 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Ironwood Ranch, the data point in 1982 is {below} and to the {left} of the data point in 1984."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Golden Harvest Cooperative's Livestock Production levels?",
+            "A": "Golden Harvest Cooperative's livestock production levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Misty Meadow Acres's Livestock Production levels?",
+            "A": "Misty Meadow Acres's livestock production levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Riverbend Plantation's Livestock Production levels?",
+            "A": "Riverbend Plantation's livestock production levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Ranch's Livestock Production levels?",
+            "A": "Ironwood Ranch's livestock production levels show a {stable rising} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Golden Harvest Cooperative's Livestock Production in 1985?",
+            "A": "Golden Harvest Cooperative's livestock production in 1985 is {73513.17} tons."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Livestock Production in 1970?",
+            "A": "Golden Harvest Cooperative's livestock production in 1970 is {78126.97} tons."
+        },
+        {
+            "Q": "What is Riverbend Plantation's Livestock Production in 1973?",
+            "A": "Riverbend Plantation's livestock production in 1973 is {15517.84} tons."
+        },
+        {
+            "Q": "What are the livestock production of Misty Meadow Acres, Riverbend Plantation, and Golden Harvest Cooperative in 1976?",
+            "A": "Misty Meadow Acres's livestock production is {20735.41} tons, Riverbend Plantation's livestock production is {21116.93} tons, Golden Harvest Cooperative's livestock production is {104927.62} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Livestock Production in the line chart?",
+            "A": "The global minimum livestock production is {10777.36} tons."
+        },
+        {
+            "Q": "What is the global maximum Livestock Production in the line chart?",
+            "A": "The global maximum livestock production is {162711.62} tons."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {106758.93} tons in {1977}."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {62165.69} tons in {1990}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Riverbend Plantation's Livestock Production?",
+            "A": "The average value of Riverbend Plantation's livestock production is {18347.27} tons."
+        },
+        {
+            "Q": "What is the average value of Misty Meadow Acres's Livestock Production?",
+            "A": "The average value of Misty Meadow Acres's livestock production is {17973.76} tons."
+        },
+        {
+            "Q": "What is the average value of Ironwood Ranch's Livestock Production?",
+            "A": "The average value of Ironwood Ranch's livestock production is {116803.99} tons."
+        },
+        {
+            "Q": "What is the average value of Golden Harvest Cooperative's Livestock Production?",
+            "A": "The average value of Golden Harvest Cooperative's livestock production is {81723.58} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Ironwood Ranch's Livestock Production between 98227 and 135406 tons? Please list the years and corresponding values.",
+            "A": "{123700.81} tons in {1979} year, {130933.47} tons in {1981} year, {120139.15} tons in {1978} year."
+        },
+        {
+            "Q": "Which years did Riverbend Plantation's Livestock Production exceed 21236 tons? Please list the years and corresponding values.",
+            "A": "{21354.97} tons in {1977} year, {26299.46} tons in {1965} year, {21876.22} tons in {1966} year."
+        },
+        {
+            "Q": "In the year 1984, which line had Livestock Production exceed 93764 tons? Please list the lines and corresponding values.",
+            "A": "{Ironwood Ranch} had {142142} tons."
+        },
+        {
+            "Q": "In the year 1973, which lines had Livestock Production below 16794 tons? Please list the lines and corresponding values.",
+            "A": "{Riverbend Plantation} had {15518} tons, {Misty Meadow Acres} had {15268} tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1974 and 1982, which line had the highest average Livestock Production, Misty Meadow Acres, Ironwood Ranch, Golden Harvest Cooperative, or Riverbend Plantation?",
+            "A": "{Ironwood Ranch} had the highest average livestock production."
+        },
+        {
+            "Q": "In 1984, which line had the highest Livestock Production, Misty Meadow Acres, Golden Harvest Cooperative, Riverbend Plantation, or Ironwood Ranch?",
+            "A": "In 1984, {Ironwood Ranch} had the highest livestock production."
+        },
+        {
+            "Q": "In 1976, which line had the highest Livestock Production, Golden Harvest Cooperative, Ironwood Ranch, Riverbend Plantation, or Misty Meadow Acres?",
+            "A": "In 1976, {Ironwood Ranch} had the highest livestock production."
+        },
+        {
+            "Q": "In 1982, which line had the highest Livestock Production, Golden Harvest Cooperative, Ironwood Ranch, Misty Meadow Acres, or Riverbend Plantation?",
+            "A": "In 1982, {Ironwood Ranch} had the highest livestock production."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Ironwood Ranch}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1975 and 1982?",
+            "A": "{Ironwood Ranch} has the fastest average growth rate between 1975 and 1982."
+        },
+        {
+            "Q": "In which year did Misty Meadow Acres first surpass Riverbend Plantation?",
+            "A": "Misty Meadow Acres first surpassed Riverbend Plantation in the year {1971}."
+        },
+        {
+            "Q": "In which year did Riverbend Plantation first surpass Misty Meadow Acres?",
+            "A": "Riverbend Plantation first surpassed Misty Meadow Acres in the year {1967}."
+        },
+        {
+            "Q": "Which label had the leading livestock production since 1979?",
+            "A": "Since 1979, {Ironwood Ranch} had the leading livestock production."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Misty Meadow Acres. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1964, 1984, 1990}."
+        }
+    ]
+}

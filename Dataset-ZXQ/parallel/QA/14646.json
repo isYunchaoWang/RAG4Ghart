@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Attraction visit rate (per day) dimension, what is the spatial relationship of North Ashleeview relative to Tamaraburgh in terms of vertical (above/below) direction?",
+            "A": "{North Ashleeview} is {below} {Tamaraburgh} on the Attraction visit rate (per day) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Accessibility score (1-5)?",
+            "A": "The second position to the left of Accessibility score (1-5) is {Repeat visitor rate (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Booking lead time (days)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Attraction visit rate (per day)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Booking lead time (days)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Attraction visit rate (per day) and dimension Repeat visitor rate (%)",
+            "A": "There is {Weak Correlation} between Attraction visit rate (per day) and Repeat visitor rate (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of North Ashleeview on the Repeat visitor rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of North Ashleeview on the Repeat visitor rate (%) dimension is {60.0}"
+        },
+        {
+            "Q": "What is the value of North Ashleeview on the Attraction visit rate (per day) dimension in the parallel-coordinates chart?",
+            "A": "The value of North Ashleeview on the Attraction visit rate (per day) dimension is {2.45}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label West Josestad across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of West Josestad across all dimensions is {365.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Youngside across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Youngside across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Attraction visit rate (per day)?",
+            "A": "The average value of Attraction visit rate (per day) is {2.85}"
+        },
+        {
+            "Q": "What is the difference in coding Customer satisfaction (1-10) between label Youngside and label Tamaraburgh",
+            "A": "The difference in coding Customer satisfaction (1-10) between Youngside and Tamaraburgh is {6.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Attraction visit rate (per day) dimension in the parallel coordinates?",
+            "A": "{[5.0, 4.85, 2.45]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Attraction visit rate (per day) dimension in the parallel coordinates?",
+            "A": "{[1.0, 1.64, 2.15]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Customer satisfaction (1-10), which label has a higher score: Tamaraburgh or Fostermouth?",
+            "A": "{Fostermouth} has a higher score on Customer satisfaction (1-10)."
+        },
+        {
+            "Q": "On Repeat visitor rate (%), which label has a higher score: Tamaraburgh or Fostermouth?",
+            "A": "{Fostermouth} has a higher score on Repeat visitor rate (%)."
+        },
+        {
+            "Q": "On Repeat visitor rate (%), which label has a higher score: Tamaraburgh or West Josestad?",
+            "A": "{Tamaraburgh} has a higher score on Repeat visitor rate (%)."
+        },
+        {
+            "Q": "On Accessibility score (1-5), which label has a higher score: West Josestad or Fostermouth?",
+            "A": "{West Josestad} has a higher score on Accessibility score (1-5)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Booking lead time (days)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Repeat visitor rate (%) being greater than 27.73 and Attraction visit rate (per day) being less than 3.02?",
+            "A": "There are {3} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

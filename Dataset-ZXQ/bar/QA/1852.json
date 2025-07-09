@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {3} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {SwiftLink}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {TechNova}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar BrightWave relative to the bar SwiftLink in terms of vetical (above/below) direction??",
+            "A": "Bar BrightWave is {above} the bar SwiftLink."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {BrightWave}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {SwiftLink}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar TechNova?",
+            "A": "The value of TechNova is {19482.4} million USD."
+        },
+        {
+            "Q": "What is the value of bar SwiftLink?",
+            "A": "The value of SwiftLink is {5000.0} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum million USD in the bar chart?",
+            "A": "The maximum million USD is {30000.0} million USD."
+        },
+        {
+            "Q": "What is the minimum million USD in the bar chart?",
+            "A": "The minimum million USD is {5000.0} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of TechNova and SwiftLink?",
+            "A": "The total value of TechNova and SwiftLink is {24482.4} million USD."
+        },
+        {
+            "Q": "What is the average value of TechNova and SwiftLink?",
+            "A": "The average value of TechNova and SwiftLink is {12241.2} million USD."
+        },
+        {
+            "Q": "What is the difference between TechNova and SwiftLink?",
+            "A": "The difference between TechNova and SwiftLink is {14482.400000000001} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have million USD values exceed 12241.20 million USD? Please list the bars and corresponding million USD values?",
+            "A": "{TechNova} has {19482.4} million USD, {BrightWave} has {30000.0} million USD."
+        },
+        {
+            "Q": "Which bars have {million USD} values below 24741.20 million USD? Please list the bars and corresponding million USD values?",
+            "A": "{SwiftLink} has {5000.0} million USD, {TechNova} has {19482.4} million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, SwiftLink or BrightWave ",
+            "A": "The value of the {BrightWave} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {2} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {SwiftLink} and {BrightWave}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {BrightWave}, {TechNova}, and {SwiftLink}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by million USD values in descending order and list the labels from left to right.",
+            "A": "Sorted by million USD value descending: {BrightWave}, {TechNova}, and {SwiftLink}."
+        },
+        {
+            "Q": "Sort the bars by million USD values in ascending order and list the labels from left to right.",
+            "A": "Sorted by million USD value ascending: {SwiftLink}, {TechNova}, and {BrightWave}."
+        }
+    ]
+}

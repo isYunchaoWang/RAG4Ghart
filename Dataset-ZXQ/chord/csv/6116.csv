@@ -1,0 +1,12 @@
+Healthcare and Health, Medical Referral Flow, Patients, long_tail
+Source,Target,Value
+Commdata_unity Health Center,Maternal and Child Health Center,406
+Maternal and Child Health Center,Commdata_unity Health Center,206
+Rural Township Clinic,Maternal and Child Health Center,133
+Maternal and Child Health Center,Rural Township Clinic,102
+TCM Hospital,Maternal and Child Health Center,80
+Maternal and Child Health Center,TCM Hospital,68
+Commdata_unity Health Center,Rural Township Clinic,60
+Rural Township Clinic,Commdata_unity Health Center,52
+TCM Hospital,Commdata_unity Health Center,45
+Commdata_unity Health Center,TCM Hospital,42

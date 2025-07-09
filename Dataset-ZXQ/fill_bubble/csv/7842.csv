@@ -1,0 +1,10 @@
+Sports and Recreation,the Hierarchy of Sports and Recreation,8
+size,father,depth,label
+64.71,0,1,Sports and Recreation
+22.69,1,2,Team Sports
+12.71,2,3,Basketball
+7.53,2,3,Hockey
+6.88,2,3,Volleyball
+10.1,2,3,Soccer
+9.4,2,3,American Football
+7.05,2,3,Baseball

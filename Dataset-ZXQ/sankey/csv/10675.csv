@@ -1,0 +1,34 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Funding Sources,Institution Types,Research Fields,Research Outcomes
+Source,Target,Value
+Private Investment,Research Universities,8
+Private Investment,Corporate Labs,76
+Crowdfunding,Research Universities,41
+Crowdfunding,Corporate Labs,37
+Research Universities,Quantum Computing,7
+Research Universities,Space Exploration,19
+Research Universities,Robotics,11
+Research Universities,Biotechnology,12
+Corporate Labs,Quantum Computing,41
+Corporate Labs,Space Exploration,34
+Corporate Labs,Robotics,19
+Corporate Labs,Biotechnology,19
+Quantum Computing,Prototypes,6
+Quantum Computing,Open-source Projects,5
+Quantum Computing,Commercial Products,11
+Quantum Computing,Published Papers,10
+Quantum Computing,Patents,16
+Space Exploration,Prototypes,12
+Space Exploration,Open-source Projects,7
+Space Exploration,Commercial Products,6
+Space Exploration,Published Papers,12
+Space Exploration,Patents,16
+Robotics,Prototypes,13
+Robotics,Open-source Projects,3
+Robotics,Commercial Products,10
+Robotics,Published Papers,3
+Robotics,Patents,1
+Biotechnology,Prototypes,10
+Biotechnology,Open-source Projects,7
+Biotechnology,Commercial Products,3
+Biotechnology,Published Papers,6
+Biotechnology,Patents,5

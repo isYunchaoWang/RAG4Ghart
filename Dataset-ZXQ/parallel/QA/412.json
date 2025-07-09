@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Injury frequency (per year) dimension, what is the spatial relationship of Charles Hatfield relative to Shannon Johnson in terms of vertical (above/below) direction?",
+            "A": "{Charles Hatfield} is {below} {Shannon Johnson} on the Injury frequency (per year) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Training hours/week (hours)?",
+            "A": "The first position to the left of Training hours/week (hours) is {Injury frequency (per year)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Speed (km/h)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Injury frequency (per year)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Endurance (minutes)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Performance rating (1-10) and dimension Endurance (minutes)",
+            "A": "There is {No Correlation} between Performance rating (1-10) and Endurance (minutes)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of David Fischer on the Training hours/week (hours) dimension in the parallel-coordinates chart?",
+            "A": "The value of David Fischer on the Training hours/week (hours) dimension is {18.87}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Jonathan Rodriguez across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Jonathan Rodriguez across all dimensions is {72.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Charles Hatfield across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Charles Hatfield across all dimensions is {1.25}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Recovery time (hours)?",
+            "A": "The average value of Recovery time (hours) is {31.5}"
+        },
+        {
+            "Q": "What is the difference in coding Performance rating (1-10) between label Jonathan Rodriguez and label Shannon Johnson",
+            "A": "The difference in coding Performance rating (1-10) between Jonathan Rodriguez and Shannon Johnson is {0.37}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Speed (km/h) dimension in the parallel coordinates?",
+            "A": "{[40.0, 25.25, 23.9]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Injury frequency (per year) dimension in the parallel coordinates?",
+            "A": "{[0.0, 1.25, 1.6]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Accuracy (%), which label has a higher score: Shannon Johnson or Jonathan Rodriguez?",
+            "A": "{Shannon Johnson} has a higher score on Accuracy (%)."
+        },
+        {
+            "Q": "On Speed (km/h), which label has a higher score: Jonathan Rodriguez or Samuel Moon?",
+            "A": "{Jonathan Rodriguez} has a higher score on Speed (km/h)."
+        },
+        {
+            "Q": "On Speed (km/h), which label has a higher score: Shannon Johnson or David Fischer?",
+            "A": "{Shannon Johnson} has a higher score on Speed (km/h)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Endurance (minutes)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Performance rating (1-10) being greater than 5.94 and Injury frequency (per year) being less than 1.61?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

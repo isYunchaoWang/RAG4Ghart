@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Zenith Cultural Endowment, what is the spatial relationship of the data point in 1975 relative to that in 1966 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Zenith Cultural Endowment, the data point in 1975 is {above} and to the {right} of the data point in 1966."
+        },
+        {
+            "Q": "In 1970, what is the vertical (above/below) relationship of the line representing Zenith Cultural Endowment relative to Azure Creative Trust?",
+            "A": "In 1970, Zenith Cultural Endowment is {below} Azure Creative Trust in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Zenith Cultural Endowment's Cultural Event Funding levels?",
+            "A": "Zenith Cultural Endowment's cultural event funding levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Creative Trust's Cultural Event Funding levels?",
+            "A": "Azure Creative Trust's cultural event funding levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Silverhaven Arts Foundation's Cultural Event Funding levels?",
+            "A": "Silverhaven Arts Foundation's cultural event funding levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Cultural Event Funding levels?",
+            "A": "{Zenith Cultural Endowment}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Azure Creative Trust's Cultural Event Funding in 1961?",
+            "A": "Azure Creative Trust's cultural event funding in 1961 is {86296816.45} $."
+        },
+        {
+            "Q": "What is Zenith Cultural Endowment's Cultural Event Funding in 1974?",
+            "A": "Zenith Cultural Endowment's cultural event funding in 1974 is {13759287.04} $."
+        },
+        {
+            "Q": "What is Azure Creative Trust's Cultural Event Funding in 1963?",
+            "A": "Azure Creative Trust's cultural event funding in 1963 is {58282276.57} $."
+        },
+        {
+            "Q": "What are the cultural event funding of Zenith Cultural Endowment, Azure Creative Trust, and Silverhaven Arts Foundation in 1965?",
+            "A": "Zenith Cultural Endowment's cultural event funding is {623564.72} $, Azure Creative Trust's cultural event funding is {70918987.72} $, Silverhaven Arts Foundation's cultural event funding is {55537204.11} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Cultural Event Funding in the line chart?",
+            "A": "The global minimum cultural event funding is {623564.72} $."
+        },
+        {
+            "Q": "What is the global maximum Cultural Event Funding in the line chart?",
+            "A": "The global maximum cultural event funding is {89780339.20} $."
+        },
+        {
+            "Q": "What is the highest Cultural Event Funding level recorded for Azure Creative Trust?",
+            "A": "Azure Creative Trust reached approximately {89780339.20} $ in {1971}."
+        },
+        {
+            "Q": "What is the lowest Cultural Event Funding level recorded for Azure Creative Trust?",
+            "A": "Azure Creative Trust's lowest recorded level is approximately {53600861.57} $ in {1974}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Silverhaven Arts Foundation's Cultural Event Funding?",
+            "A": "The average value of Silverhaven Arts Foundation's cultural event funding is {52731259.08} $."
+        },
+        {
+            "Q": "What is the rate of change in Silverhaven Arts Foundation's Cultural Event Funding from the starting year to the final year?",
+            "A": "The rate of decline in Silverhaven Arts Foundation's cultural event funding is {-8.34}%."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Cultural Endowment's Cultural Event Funding from the starting year to the final year?",
+            "A": "The rate of decline in Zenith Cultural Endowment's cultural event funding is {-22.84}%."
+        },
+        {
+            "Q": "What is the rate of change in Azure Creative Trust's Cultural Event Funding from the starting year to the final year?",
+            "A": "The rate of decline in Azure Creative Trust's cultural event funding is {-0.23}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Azure Creative Trust's Cultural Event Funding between 61144231 and 79706314 $? Please list the years and corresponding values.",
+            "A": "{70918987.72} $ in {1965} year, {70560829.94} $ in {1975} year, {70720401.57} $ in {1960} year."
+        },
+        {
+            "Q": "In the year 1974, which line had Cultural Event Funding exceed 45930999 $? Please list the lines and corresponding values.",
+            "A": "{Azure Creative Trust} had {53600862} $."
+        },
+        {
+            "Q": "Which years did Azure Creative Trust's Cultural Event Funding below 58960948 $? Please list the years and corresponding values.",
+            "A": "{53600861.57} $ in {1974} year, {53711111.71} $ in {1969} year, {55265160.74} $ in {1964} year."
+        },
+        {
+            "Q": "In the year 1974, which lines had Cultural Event Funding between 28002290 and 43938920 $? Please list the lines and corresponding values.",
+            "A": "{Silverhaven Arts Foundation} had {38261136} $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Silverhaven Arts Foundation's Cultural Event Funding in 1972 higher or lower than in 1974?",
+            "A": "The cultural event funding in 1972 was {higher} than in 1974."
+        },
+        {
+            "Q": "Between 1964 and 1973, which line experienced a larger change in Cultural Event Funding, Silverhaven Arts Foundation or Azure Creative Trust?",
+            "A": "{Azure Creative Trust} experienced a larger change in cultural event funding."
+        },
+        {
+            "Q": "Between 1962 and 1966, which line had a higher average Cultural Event Funding, Azure Creative Trust or Silverhaven Arts Foundation?",
+            "A": "{Azure Creative Trust} had a higher average cultural event funding."
+        },
+        {
+            "Q": "Between 1963 and 1967, which line experienced a larger change in Cultural Event Funding, Azure Creative Trust or Silverhaven Arts Foundation?",
+            "A": "{Azure Creative Trust} experienced a larger change in cultural event funding."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Azure Creative Trust}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1965 and 1970?",
+            "A": "{Azure Creative Trust} has the fastest average growth rate between 1965 and 1970."
+        },
+        {
+            "Q": "Which label had the leading cultural event funding since 1967?",
+            "A": "Since 1967, {Azure Creative Trust} had the leading cultural event funding."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Silverhaven Arts Foundation. List the x-coordinates of data points to be preserved.(8 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1960, 1961, 1964, 1966, 1969, 1971, 1974, 1975}."
+        }
+    ]
+}

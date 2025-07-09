@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Staff-to-patient ratio (per shift) dimension, what is the spatial relationship of Schneider-Yang  Medical Center relative to Thompson, Thompson and Williams  Medical Center in terms of vertical (above/below) direction?",
+            "A": "{Schneider-Yang  Medical Center} is {below} {Thompson, Thompson and Williams  Medical Center} on the Staff-to-patient ratio (per shift) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Staff-to-patient ratio (per shift)?",
+            "A": "The second position to the left of Staff-to-patient ratio (per shift) is {Wait time (minutes)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Medication error rate (per 1000)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Wait time (minutes)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Wait time (minutes)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Staff-to-patient ratio (per shift) and dimension Medication error rate (per 1000)",
+            "A": "There is {Strong Correlation} between Staff-to-patient ratio (per shift) and Medication error rate (per 1000)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Boone and Sons  Clinic on the Average length of stay (days) dimension in the parallel-coordinates chart?",
+            "A": "The value of Boone and Sons  Clinic on the Average length of stay (days) dimension is {14.0}"
+        },
+        {
+            "Q": "What is the value of Schneider-Yang  Medical Center on the Staff-to-patient ratio (per shift) dimension in the parallel-coordinates chart?",
+            "A": "The value of Schneider-Yang  Medical Center on the Staff-to-patient ratio (per shift) dimension is {9.6}"
+        },
+        {
+            "Q": "What is the value of Thompson, Thompson and Williams  Medical Center on the Average length of stay (days) dimension in the parallel-coordinates chart?",
+            "A": "The value of Thompson, Thompson and Williams  Medical Center on the Average length of stay (days) dimension is {7.33}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Blackburn, Drake and Robinson  Clinic across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Blackburn, Drake and Robinson  Clinic across all dimensions is {88.27}"
+        },
+        {
+            "Q": "What is the minimum value of label Gilbert Ltd  Clinic across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Gilbert Ltd  Clinic across all dimensions is {11.17}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Wait time (minutes)?",
+            "A": "The average value of Wait time (minutes) is {133.4}"
+        },
+        {
+            "Q": "What is the difference in coding Staff-to-patient ratio (per shift) between label Thompson, Thompson and Williams  Medical Center and label Bell-Contreras  Clinic",
+            "A": "The difference in coding Staff-to-patient ratio (per shift) between Thompson, Thompson and Williams  Medical Center and Bell-Contreras  Clinic is {1.3}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Medication error rate (per 1000) dimension in the parallel coordinates?",
+            "A": "{[20.0, 16.68, 14.74]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Average length of stay (days) dimension in the parallel coordinates?",
+            "A": "{[1.0, 3.58, 7.33]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Medication error rate (per 1000), which label has a higher score: Thompson, Thompson and Williams  Medical Center or Anderson PLC  Clinic?",
+            "A": "{Thompson, Thompson and Williams  Medical Center} has a higher score on Medication error rate (per 1000)."
+        },
+        {
+            "Q": "On Medication error rate (per 1000), which label has a higher score: Gilbert Ltd  Clinic or Thompson, Thompson and Williams  Medical Center?",
+            "A": "{Thompson, Thompson and Williams  Medical Center} has a higher score on Medication error rate (per 1000)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Wait time (minutes)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Medication error rate (per 1000) being greater than 12.62 and Average length of stay (days) being less than 7.66?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {12} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {vertical} bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Rainbow Gorge}."
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The rightmost bar represents {Moon Cavern}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Misty Trail relative to the bar Sunset Cliff in terms of horizontal (left/right) direction?",
+            "A": "Bar Misty Trail is to the {left} of the bar Sunset Cliff."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Rainbow Gorge}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Willow Grove}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Willow Grove?",
+            "A": "The value of Willow Grove is {500.0} thousand visitors."
+        },
+        {
+            "Q": "What is the value of bar Emerald Beach?",
+            "A": "The value of Emerald Beach is {2269.2} thousand visitors."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum thousand visitors in the bar chart?",
+            "A": "The maximum thousand visitors is {3000.0} thousand visitors."
+        },
+        {
+            "Q": "What is the minimum thousand visitors in the bar chart?",
+            "A": "The minimum thousand visitors is {500.0} thousand visitors."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Hidden Valley and Sun Harbor?",
+            "A": "The total value of Hidden Valley and Sun Harbor is {5023.9} thousand visitors."
+        },
+        {
+            "Q": "What is the average value of Lotus Temple and Willow Grove?",
+            "A": "The average value of Lotus Temple and Willow Grove is {1456.0} thousand visitors."
+        },
+        {
+            "Q": "What is the difference between Sun Harbor and Rainbow Gorge?",
+            "A": "The difference between Sun Harbor and Rainbow Gorge is {605.1999999999998} thousand visitors."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have thousand visitors values exceed 2603.05 thousand visitors? Please list the bars and corresponding thousand visitors values?",
+            "A": "{Hidden Valley} has {2629.1} thousand visitors, {Rainbow Gorge} has {3000.0} thousand visitors."
+        },
+        {
+            "Q": "Which bars have {thousand visitors} values below 1120.10 thousand visitors? Please list the bars and corresponding thousand visitors values?",
+            "A": "{Willow Grove} has {500.0} thousand visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Sunset Cliff or Celestial Arch ",
+            "A": "The value of the {Celestial Arch} is larger?"
+        },
+        {
+            "Q": "Which is larger, Sunset Cliff, Misty Trail or Emerald Beach ",
+            "A": "The value of the {Misty Trail} is larger?"
+        },
+        {
+            "Q": "Which is larger, Emerald Beach, Hidden Valley, Moon Cavern or Willow Grove ",
+            "A": "The value of the {Hidden Valley} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {8} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Willow Grove} and {Hidden Valley}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Rainbow Gorge}, {Hidden Valley}, and {Misty Trail}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by thousand visitors values in descending order and list the labels from left to right.",
+            "A": "Sorted by thousand visitors value descending: {Rainbow Gorge}, {Hidden Valley}, {Misty Trail}, {Celestial Arch}, {Lotus Temple}, {Sun Harbor}, {Emerald Beach}, {Spring Spa}, {Maple Arbor}, {Sunset Cliff}, {Moon Cavern}, and {Willow Grove}."
+        },
+        {
+            "Q": "Sort the bars by thousand visitors values in ascending order and list the labels from left to right.",
+            "A": "Sorted by thousand visitors value ascending: {Willow Grove}, {Moon Cavern}, {Sunset Cliff}, {Maple Arbor}, {Spring Spa}, {Emerald Beach}, {Sun Harbor}, {Lotus Temple}, {Celestial Arch}, {Misty Trail}, {Hidden Valley}, and {Rainbow Gorge}."
+        }
+    ]
+}

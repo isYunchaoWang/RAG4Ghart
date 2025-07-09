@@ -1,0 +1,11 @@
+Food and Beverage,the Hierarchy of Food and Beverage,9
+size,father,depth,label
+96.76,0,1,Food and Beverage
+19.81,1,2,Cuisines
+23.08,1,2,Beverages
+24.14,1,2,Ingredients
+8.77,2,3,Mediterranean Cuisine
+6.91,2,3,Asian Cuisine
+8.81,4,3,Grains and Legumes
+9.16,3,3,Alcoholic Drinks
+12.56,3,3,Juices and Smoothies

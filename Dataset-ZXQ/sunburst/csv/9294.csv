@@ -1,0 +1,20 @@
+Tourism and Hospitality,Tourism Distribution by Category (2022),%
+parent,child,value
+Root,Destination Types,29.63
+Destination Types,Urban Tourism,7.46
+Destination Types,Nature Tourism,22.17
+Nature Tourism,Coastal Areas,16.96
+Coastal Areas,Surfing Zones,5.18
+Coastal Areas,Marine Parks,5.66
+Coastal Areas,Beach Resorts,6.12
+Nature Tourism,Mountain Destinations,5.21
+Root,Travel Services,47.73
+Travel Services,Guided Tours,29.25
+Guided Tours,Cultural Tours,21.99
+Cultural Tours,Audio Tours,15.53
+Cultural Tours,City Walks,6.46
+Guided Tours,Adventure Tours,7.26
+Travel Services,Transportation,18.48
+Transportation,Rail & Road,18.48
+Root,Hospitality Services,22.64
+Hospitality Services,Dining Experiences,22.64

@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Silverleaf Supporters, what is the spatial relationship of the data point in 1962 relative to that in 1959 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Silverleaf Supporters, the data point in 1962 is {above} and to the {right} of the data point in 1959."
+        },
+        {
+            "Q": "In 1961, what is the vertical (above/below) relationship of the line representing Azure Legion relative to Golden Enthusiasts?",
+            "A": "In 1961, Azure Legion is {above} Golden Enthusiasts in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Shadowfen Devotees's Fan Engagement levels?",
+            "A": "Shadowfen Devotees's fan engagement levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Azure Legion's Fan Engagement levels?",
+            "A": "Azure Legion's fan engagement levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Veridian Followers's Fan Engagement levels?",
+            "A": "Veridian Followers's fan engagement levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Faithful's Fan Engagement levels?",
+            "A": "Crimson Faithful's fan engagement levels show a {volatile rising} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Veridian Followers's Fan Engagement in 1965?",
+            "A": "Veridian Followers's fan engagement in 1965 is {130.13} index."
+        },
+        {
+            "Q": "What is Ironwood Fanatics's Fan Engagement in 1962?",
+            "A": "Ironwood Fanatics's fan engagement in 1962 is {75.88} index."
+        },
+        {
+            "Q": "What is Shadowfen Devotees's Fan Engagement in 1960?",
+            "A": "Shadowfen Devotees's fan engagement in 1960 is {11.76} index."
+        },
+        {
+            "Q": "What are the fan engagement of Silverleaf Supporters, Ironwood Fanatics, and Azure Legion in 1963?",
+            "A": "Silverleaf Supporters's fan engagement is {63.15} index, Ironwood Fanatics's fan engagement is {70.75} index, Azure Legion's fan engagement is {46.18} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Fan Engagement in the line chart?",
+            "A": "The global minimum fan engagement is {9.42} index."
+        },
+        {
+            "Q": "What is the global maximum Fan Engagement in the line chart?",
+            "A": "The global maximum fan engagement is {138.50} index."
+        },
+        {
+            "Q": "What is the highest Fan Engagement level recorded for Azure Legion?",
+            "A": "Azure Legion reached approximately {65.65} index in {1958}."
+        },
+        {
+            "Q": "What is the lowest Fan Engagement level recorded for Azure Legion?",
+            "A": "Azure Legion's lowest recorded level is approximately {29.97} index in {1967}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Azure Legion's Fan Engagement from the starting year to the final year?",
+            "A": "The rate of decline in Azure Legion's fan engagement is {-54.35}%."
+        },
+        {
+            "Q": "What is the average value of Silverleaf Supporters's Fan Engagement?",
+            "A": "The average value of Silverleaf Supporters's fan engagement is {61.55} index."
+        },
+        {
+            "Q": "What is the rate of change in Golden Enthusiasts's Fan Engagement from the starting year to the final year?",
+            "A": "The rate of growth in Golden Enthusiasts's fan engagement is {72.79}%."
+        },
+        {
+            "Q": "What is the average value of Veridian Followers's Fan Engagement?",
+            "A": "The average value of Veridian Followers's fan engagement is {130.22} index."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1959, which lines had Fan Engagement between 52 and 76 index? Please list the lines and corresponding values.",
+            "A": "{Crimson Faithful} had {59} index, {Silverleaf Supporters} had {53} index, {Azure Legion} had {61} index."
+        },
+        {
+            "Q": "Which years did Shadowfen Devotees's Fan Engagement below 10 index? Please list the years and corresponding values.",
+            "A": "{10.08} index in {1963} year, {10.21} index in {1961} year, {9.42} index in {1962} year."
+        },
+        {
+            "Q": "In the year 1963, which lines had Fan Engagement below 52 index? Please list the lines and corresponding values.",
+            "A": "{Shadowfen Devotees} had {10} index, {Azure Legion} had {46} index."
+        },
+        {
+            "Q": "In the year 1966, which lines had Fan Engagement between 47 and 76 index? Please list the lines and corresponding values.",
+            "A": "{Golden Enthusiasts} had {68} index, {Silverleaf Supporters} had {71} index, {Ironwood Fanatics} had {53} index."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1960 and 1966, which line had the highest average Fan Engagement, Crimson Faithful, Ironwood Fanatics, or Shadowfen Devotees?",
+            "A": "{Crimson Faithful} had the highest average fan engagement."
+        },
+        {
+            "Q": "Between 1961 and 1962, which line experienced a larger change in Fan Engagement, Veridian Followers or Crimson Faithful?",
+            "A": "{Crimson Faithful} experienced a larger change in fan engagement."
+        },
+        {
+            "Q": "Between 1964 and 1966, which line experienced a larger change in Fan Engagement, Veridian Followers or Golden Enthusiasts?",
+            "A": "{Veridian Followers} experienced a larger change in fan engagement."
+        },
+        {
+            "Q": "In 1966, which line had the highest Fan Engagement, Azure Legion, Ironwood Fanatics, or Shadowfen Devotees?",
+            "A": "In 1966, {Ironwood Fanatics} had the highest fan engagement."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Ironwood Fanatics}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1965 and 1967?",
+            "A": "{Crimson Faithful} has the fastest average growth rate between 1965 and 1967."
+        },
+        {
+            "Q": "In which year did Golden Enthusiasts first surpass Ironwood Fanatics?",
+            "A": "Golden Enthusiasts first surpassed Ironwood Fanatics in the year {1965}."
+        },
+        {
+            "Q": "Which label had the leading fan engagement since 1966?",
+            "A": "Since 1966, {Veridian Followers} had the leading fan engagement."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Crimson Faithful. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1958, 1967}."
+        }
+    ]
+}

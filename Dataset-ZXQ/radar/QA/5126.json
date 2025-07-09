@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Green Building Certification Rate?",
+            "A": "The next dimension clockwise from Green Building Certification Rate is Eco-Friendly Product Sales Growth Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Green Building Certification Rate?",
+            "A": "The next dimension counterclockwise from Green Building Certification Rate is Sustainable Packaging Adoption Rate."
+        },
+        {
+            "Q": "On the Sustainable Packaging Adoption Rate, is the point for Porter, Craig and Martin Sustainability Initiative inside or outside the point for Mcfarland PLC Sustainability Initiative?",
+            "A": "On the Sustainable Packaging Adoption Rate, the point for Porter, Craig and Martin Sustainability Initiative is outside the point for Mcfarland PLC Sustainability Initiative."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Eco-Friendly Product Sales Growth Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Anthony Inc Sustainability Initiative?",
+            "A": "The strongest aspect is {Eco-Friendly Product Sales Growth Rate}, while the weakest aspect is{ Sustainable Packaging Adoption Rate}."
+        },
+        {
+            "Q": "On dimension Eco-Friendly Product Sales Growth Rate, which label scores the highest?",
+            "A": "On Eco-Friendly Product Sales Growth Rate, label {Mcfarland PLC Sustainability Initiative} scores the highest."
+        },
+        {
+            "Q": "On dimension Sustainable Packaging Adoption Rate, which label scores the highest?",
+            "A": "On Sustainable Packaging Adoption Rate, label {Anthony Inc Sustainability Initiative} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Anthony Inc Sustainability Initiative on the Carbon Footprint Reduction Rate in the radar chart?",
+            "A": "The value of Anthony Inc Sustainability Initiative on the Safety dimension is {49}."
+        },
+        {
+            "Q": "What is the value of Mcfarland PLC Sustainability Initiative on the Eco-Friendly Product Sales Growth Rate in the radar chart?",
+            "A": "The value of Mcfarland PLC Sustainability Initiative on the Safety dimension is {62}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Porter, Craig and Martin Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Porter, Craig and Martin Sustainability Initiative across all dimensions is {49}."
+        },
+        {
+            "Q": "What is the minimum value of label Anthony Inc Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Anthony Inc Sustainability Initiative across all dimensions is {60}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Eco-Friendly Product Sales Growth Rate",
+            "A": "The average value of Eco-Friendly Product Sales Growth Rate is {78.0}."
+        },
+        {
+            "Q": "What is the average value of Mcfarland PLC Sustainability Initiative",
+            "A": "The average value of Mcfarland PLC Sustainability Initiative is {53.0}."
+        },
+        {
+            "Q": "What is the difference in Sustainable Packaging Adoption Rate between Anthony Inc Sustainability Initiative and Mcfarland PLC Sustainability Initiative?",
+            "A": "The difference in Sustainable Packaging Adoption Rate between Anthony Inc Sustainability Initiative and Mcfarland PLC Sustainability Initiative is {8}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores above 89 for the Eco-Friendly Product Sales Growth Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Anthony Inc Sustainability Initiative} is {96}"
+        },
+        {
+            "Q": "Which labels have scores below 48 for the Green Building Certification Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Mcfarland PLC Sustainability Initiative} is {45}, {Porter, Craig and Martin Sustainability Initiative} is {44}"
+        },
+        {
+            "Q": "For Porter, Craig and Martin Sustainability Initiative in the radar chart, which dimensions have scores below 49? Please list the dimensions and corresponding scores.",
+            "A": "{Sustainable Packaging Adoption Rate} is {37}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Porter, Craig and Martin Sustainability Initiative, which dimension has a higher score: Eco-Friendly Product Sales Growth Rate or Sustainable Packaging Adoption Rate?",
+            "A": "{Sustainable Packaging Adoption Rate} has a higher score than Eco-Friendly Product Sales Growth Rate for Porter, Craig and Martin Sustainability Initiative."
+        },
+        {
+            "Q": "On Sustainable Packaging Adoption Rate, which label has a higher score: Porter, Craig and Martin Sustainability Initiative or the Mcfarland PLC Sustainability Initiative?",
+            "A": "{Porter, Craig and Martin Sustainability Initiative} has a higher score on Sustainable Packaging Adoption Rate compared to Mcfarland PLC Sustainability Initiative."
+        },
+        {
+            "Q": "On Green Building Certification Rate, which label has a higher score: Mcfarland PLC Sustainability Initiative or the Porter, Craig and Martin Sustainability Initiative?",
+            "A": "{Mcfarland PLC Sustainability Initiative} has a higher score on Green Building Certification Rate compared to Porter, Craig and Martin Sustainability Initiative."
+        },
+        {
+            "Q": "For Anthony Inc Sustainability Initiative, which dimension has a higher score: Carbon Footprint Reduction Rate or Sustainable Packaging Adoption Rate or Eco-Friendly Product Sales Growth Rate?",
+            "A": "{Eco-Friendly Product Sales Growth Rate} has a higher score for Anthony Inc Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Mcfarland PLC Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Mcfarland PLC Sustainability Initiative most needs to improve its {Sustainable Packaging Adoption Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Porter, Craig and Martin Sustainability Initiative}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Mcfarland PLC Sustainability Initiative}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,124 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {11} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {Rapeseed}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {Orange}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Corn relative to the bar Apple in terms of vetical (above/below) direction??",
+            "A": "Bar Corn is  {below} the bar Apple."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Orange}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Rapeseed}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Cotton?",
+            "A": "The value of Cotton is {5026} metric tons."
+        },
+        {
+            "Q": "What is the value of bar Orange?",
+            "A": "The value of Orange is {19686} metric tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum metric tons in the bar chart?",
+            "A": "The maximum metric tons is {19686} metric tons."
+        },
+        {
+            "Q": "What is the minimum metric tons in the bar chart?",
+            "A": "The minimum metric tons is {2397} metric tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Wheat and Corn?",
+            "A": "The total value of Wheat and Corn is {18442} metric tons."
+        },
+        {
+            "Q": "What is the average value of Corn and Sugarcane?",
+            "A": "The average value of Corn and Sugarcane is {6301.0} metric tons."
+        },
+        {
+            "Q": "What is the difference between Tomato and Orange?",
+            "A": "The difference between Tomato and Orange is {9101} metric tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have metric tons values exceed 17320.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Potato} has {18851} metric tons, {Orange} has {19686} metric tons."
+        },
+        {
+            "Q": "Which bars have {metric tons} values below 4522.50 metric tons? Please list the bars and corresponding metric tons values?",
+            "A": "{Rapeseed} has {2397} metric tons, {Sugarcane} has {4019} metric tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Corn or Cotton ",
+            "A": "The value of the {Corn} is larger?"
+        },
+        {
+            "Q": "Which is larger, Tomato, Corn or Cotton ",
+            "A": "The value of the {Tomato} is larger?"
+        },
+        {
+            "Q": "Which is larger, Orange, Peanut, Sorghum or Sugarcane ",
+            "A": "The value of the {Orange} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {5} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Cotton} and {Corn}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Orange}, {Potato}, and {Peanut}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by metric tons values in descending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value descending: {Orange}, {Potato}, {Peanut}, {Sorghum}, {Apple}, {Tomato}, {Wheat}, {Corn}, {Cotton}, {Sugarcane}, and {Rapeseed}."
+        },
+        {
+            "Q": "Sort the bars by metric tons values in ascending order and list the labels from left to right.",
+            "A": "Sorted by metric tons value ascending: {Rapeseed}, {Sugarcane}, {Cotton}, {Corn}, {Wheat}, {Tomato}, {Apple}, {Sorghum}, {Peanut}, {Potato}, and {Orange}."
+        }
+    ]
+}

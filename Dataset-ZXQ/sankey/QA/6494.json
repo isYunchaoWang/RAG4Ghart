@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow into the node Full Recovery in this sankey chart?",
+            "A": "There are {2} links flowing into the node Full Recovery."
+        },
+        {
+            "Q": "How many links flow out of the node Therapy in this sankey chart?",
+            "A": "There are {2} links flowing out of the node Therapy."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Treatment Types}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Outcomes}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Surgery} and {Full Recovery}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Therapy} and {Worsened Condition}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Surgery to the node Full Recovery?",
+            "A": "The flow value from the node Surgery to the node Full Recovery is {6330}."
+        },
+        {
+            "Q": "What is the flow value from the node Surgery to the node Worsened Condition?",
+            "A": "The flow value from the node Surgery to the node Worsened Condition is {4524}."
+        },
+        {
+            "Q": "What is the flow value from the node Therapy to the node Worsened Condition?",
+            "A": "The flow value from the node Therapy to the node Worsened Condition is {1424}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Surgery to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Surgery to the next stage is {6330}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Surgery to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Surgery to the next stage is {4524}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Surgery?",
+            "A": "The total flow output from node Surgery is {10854}."
+        },
+        {
+            "Q": "What is the total flow input by node Full Recovery?",
+            "A": "The total flow input by node Full Recovery is {9540}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Treatment Types of the sankey chart, which nodes have an outflow exceeded 2317? Please list the node labels and their corresponding outflow values.",
+            "A": "{Therapy} has an outflow of {3210}, {Surgery} has an outflow of {6330}, {Surgery} has an outflow of {4524}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Treatment Types and column Outcomes is the flow between 2317 and 3867? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {3210} from node {Therapy} to {Full Recovery}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 2317 and 5427? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {3210} from node {Therapy} to {Full Recovery}, a flow of {4524} from node {Surgery} to {Worsened Condition}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Therapy to node Full Recovery and from node Therapy to node Worsened Condition, which path has a larger flow?",
+            "A": "The flow from node {Therapy} to node {Full Recovery} is larger."
+        },
+        {
+            "Q": "Between the flows from node Surgery to node Full Recovery and from node Therapy to node Full Recovery, which path has a larger flow?",
+            "A": "The flow from node {Surgery} to node {Full Recovery} is larger."
+        },
+        {
+            "Q": "Cannot compare three flows.",
+            "A": "Requires at least 6 distinct links to form two triplets."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Treatment Types of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Treatment Types is {Surgery}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Surgery to target node Worsened Condition? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Surgery to node Worsened Condition is: {Surgery, Worsened Condition}."
+        }
+    ],
+    "VA": []
+}

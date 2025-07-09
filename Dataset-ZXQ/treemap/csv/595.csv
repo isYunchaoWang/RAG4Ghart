@@ -1,0 +1,15 @@
+Agriculture and Food Production,Agriculture Production Distribution by Category (2021),%
+parent,child,value
+,Crop Systems,100.0
+Crop Systems,Precision Planting,94.06
+Precision Planting,Seeders,15.47
+Seeders,Row Units,15.47
+Row Units,Depth Control,15.47
+Depth Control,Parallel Linkages,7.68
+Depth Control,Pressure Sensors,7.79
+Precision Planting,Fertigation Systems,78.59
+Fertigation Systems,Dosing Mechanisms,78.59
+Dosing Mechanisms,Venturi Injectors,78.59
+Venturi Injectors,Flow Calibration,17.61
+Venturi Injectors,Anti-Clog Nozzles,60.98
+Crop Systems,Irrigation Tech,5.94

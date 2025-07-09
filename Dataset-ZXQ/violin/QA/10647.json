@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {2} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Rosewood}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Northgate}."
+        },
+        {
+            "Q": "Which violin is the first position to the left of the violin Northgate?",
+            "A": "The first position to the left of the violin Northgate is {Rosewood}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Northgate relative to the violin Rosewood in terms of horizontal (left/right) direction?",
+            "A": "violin Northgate is to the {right} of the violin Rosewood."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Northgate}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Northgate}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Northgate?",
+            "A": "The density distribution pattern of the Northgate shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Rosewood in the violin plot?",
+            "A": "The median of Rosewood is {541.00} million USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Rosewood in the violin plot?",
+            "A": "The lower quartile (Q1) of Rosewood is {376.25} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Northgate in the violin plot?",
+            "A": "The upper whisker limit of Northgate is {1323.00} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Rosewood in the violin plot?",
+            "A": "The largest upper outlier value in Rosewood is {1477.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the violin plot?",
+            "A": "The global maximum million USD value in the violin plot is {1716.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the violin plot?",
+            "A": "The global minimum million USD value in the violin plot is {125.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Northgate and Rosewood?",
+            "A": "The Q1 difference between violin Northgate and Rosewood is {166.50} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin Rosewood and Northgate?",
+            "A": "The total Q3 value of violin Rosewood and Northgate is {1648.00} million USD."
+        },
+        {
+            "Q": "What is the average Median value of violin Northgate and Rosewood?",
+            "A": "The average Median value of violin Northgate and Rosewood is {639.50} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 639.50 million USD? Please list the violins and corresponding values.",
+            "A": "{Northgate} has {738.00} million USD "
+        },
+        {
+            "Q": "Which violins have median values below 639.50 million USD? Please list the violins and corresponding values.",
+            "A": "{Rosewood} has {541.00} million USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 544.70 million USD?",
+            "A": "Violin {Northgate} has {670.73} million USD have their highest density peak exceed 544.70 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 544.70 million USD?",
+            "A": "Violin {Rosewood} has {418.68} million USD have their highest density peak below 544.70 million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Northgate or Rosewood ",
+            "A": "The median value of the {Northgate} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Northgate}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,49 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Research Fields,Impact Areas,Funding Sources,Institution Types
+Source,Target,Value
+Biotechnology,Environment,18
+Biotechnology,Defense,9
+Biotechnology,Education,34
+Nanotechnology,Environment,65
+Nanotechnology,Defense,18
+Nanotechnology,Education,6
+Quantum Computing,Environment,7
+Quantum Computing,Defense,4
+Quantum Computing,Education,9
+Artificial Intelligence,Environment,42
+Artificial Intelligence,Defense,13
+Artificial Intelligence,Education,44
+Environment,Crowdfunding,21
+Environment,Private Investment,25
+Environment,Corporate Sponsorship,34
+Environment,University Budget,24
+Environment,Federal Grants,28
+Defense,Crowdfunding,9
+Defense,Private Investment,10
+Defense,Corporate Sponsorship,1
+Defense,University Budget,14
+Defense,Federal Grants,10
+Education,Crowdfunding,26
+Education,Private Investment,32
+Education,Corporate Sponsorship,3
+Education,University Budget,10
+Education,Federal Grants,22
+Crowdfunding,Non-profit Organizations,16
+Crowdfunding,Government Agencies,20
+Crowdfunding,Startups,10
+Crowdfunding,Corporate Labs,10
+Private Investment,Non-profit Organizations,15
+Private Investment,Government Agencies,16
+Private Investment,Startups,14
+Private Investment,Corporate Labs,22
+Corporate Sponsorship,Non-profit Organizations,3
+Corporate Sponsorship,Government Agencies,7
+Corporate Sponsorship,Startups,25
+Corporate Sponsorship,Corporate Labs,3
+University Budget,Non-profit Organizations,9
+University Budget,Government Agencies,4
+University Budget,Startups,21
+University Budget,Corporate Labs,14
+Federal Grants,Non-profit Organizations,18
+Federal Grants,Government Agencies,18
+Federal Grants,Startups,22
+Federal Grants,Corporate Labs,2

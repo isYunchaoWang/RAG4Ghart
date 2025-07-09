@@ -1,0 +1,17 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1355.8 350.3 1435.8 350.3" fill="none" stroke="#000000"></polyline>
+<polyline points="1180.5 620.8 1260.5 620.8" fill="none" stroke="#000000"></polyline>
+<polyline points="1109.2 891.3 1189.2 891.3" fill="none" stroke="#000000"></polyline>
+<polyline points="1090.7 1161.8 1170.7 1161.8" fill="none" stroke="#000000"></polyline>
+<polygon points="249.6 216 1478.4 216 1233.2 484.5 494.8 484.5" fill="#E9B9AA" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="494.8 486.5 1233.2 486.5 1127.8 755 600.2 755" fill="#D98481" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="600.2 757 1127.8 757 1090.7 1025.5 637.3 1025.5" fill="#7892B5" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="637.3 1027.5 1090.7 1027.5 1090.7 1296 637.3 1296" fill="#8CB9C0" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1440.7856505877585" y="350.25" fill="#000000">Post-Distribution: 74010</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1265.4687150385084" y="620.75" fill="#000000">Delivered to End Users: 44470</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1194.2286988244832" y="891.25" fill="#000000">Billed Consumption: 31773</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1175.6912687474664" y="1161.75" fill="#000000">Paid Consumption: 27307</text>
+<path d="M-531.7578 -5l1063.5156 0l0 58l-1063.5156 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Energy Generation and Distribution (Megawatt Hours)</text>
+</svg>

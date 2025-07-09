@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Meridian Dynamics, what is the spatial relationship of the data point in 2009 relative to that in 2014 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Meridian Dynamics, the data point in 2009 is {above} and to the {left} of the data point in 2014."
+        },
+        {
+            "Q": "In 2013, what is the vertical (above/below) relationship of the line representing Meridian Dynamics relative to Skyward Systems?",
+            "A": "In 2013, Meridian Dynamics is {below} Skyward Systems in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of AstraCorp's Employee Count levels?",
+            "A": "AstraCorp's employee count levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Enterprises's Employee Count levels?",
+            "A": "Zenith Enterprises's employee count levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Lumina Solutions's Employee Count levels?",
+            "A": "Lumina Solutions's employee count levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Dynamics's Employee Count levels?",
+            "A": "Meridian Dynamics's employee count levels show a {volatile falling} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Verdant Ventures's Employee Count in 2018?",
+            "A": "Verdant Ventures's employee count in 2018 is {335.57} employees."
+        },
+        {
+            "Q": "What is Lumina Solutions's Employee Count in 2020?",
+            "A": "Lumina Solutions's employee count in 2020 is {2177.92} employees."
+        },
+        {
+            "Q": "What is AstraCorp's Employee Count in 2019?",
+            "A": "AstraCorp's employee count in 2019 is {870.22} employees."
+        },
+        {
+            "Q": "What are the employee count of Meridian Dynamics, AstraCorp, and Zenith Enterprises in 2012?",
+            "A": "Meridian Dynamics's employee count is {219.95} employees, AstraCorp's employee count is {731.98} employees, Zenith Enterprises's employee count is {1114.83} employees."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Employee Count in the line chart?",
+            "A": "The global minimum employee count is {77.83} employees."
+        },
+        {
+            "Q": "What is the global maximum Employee Count in the line chart?",
+            "A": "The global maximum employee count is {2177.92} employees."
+        },
+        {
+            "Q": "What is the highest Employee Count level recorded for AstraCorp?",
+            "A": "AstraCorp reached approximately {883.48} employees in {2020}."
+        },
+        {
+            "Q": "What is the lowest Employee Count level recorded for AstraCorp?",
+            "A": "AstraCorp's lowest recorded level is approximately {653.13} employees in {2008}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Zenith Enterprises's Employee Count?",
+            "A": "The average value of Zenith Enterprises's employee count is {1039.61} employees."
+        },
+        {
+            "Q": "What is the average value of AstraCorp's Employee Count?",
+            "A": "The average value of AstraCorp's employee count is {770.58} employees."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Enterprises's Employee Count from the starting year to the final year?",
+            "A": "The rate of growth in Zenith Enterprises's employee count is {0.51}%."
+        },
+        {
+            "Q": "What is the rate of change in Lumina Solutions's Employee Count from the starting year to the final year?",
+            "A": "The rate of growth in Lumina Solutions's employee count is {215.78}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Zenith Enterprises's Employee Count below 982 employees? Please list the years and corresponding values.",
+            "A": "{953.82} employees in {2009} year, {892.81} employees in {2008} year, {955.62} employees in {2019} year."
+        },
+        {
+            "Q": "Which years did Lumina Solutions's Employee Count below 922 employees? Please list the years and corresponding values.",
+            "A": "{833.75} employees in {2010} year, {764.85} employees in {2009} year, {689.69} employees in {2008} year."
+        },
+        {
+            "Q": "Which years did Zenith Enterprises's Employee Count exceed 1033 employees? Please list the years and corresponding values.",
+            "A": "{1139.34} employees in {2015} year, {1110.44} employees in {2016} year, {1066.90} employees in {2017} year."
+        },
+        {
+            "Q": "In the year 2013, which lines had Employee Count between 418 and 1054 employees? Please list the lines and corresponding values.",
+            "A": "{AstraCorp} had {752} employees."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 2017 and 2018, which line had the highest average Employee Count, Zenith Enterprises, Verdant Ventures, or Skyward Systems?",
+            "A": "{Skyward Systems} had the highest average employee count."
+        },
+        {
+            "Q": "Between 2009 and 2017, which line had a higher average Employee Count, Skyward Systems or AstraCorp?",
+            "A": "{Skyward Systems} had a higher average employee count."
+        },
+        {
+            "Q": "Was Lumina Solutions's Employee Count in 2011 higher or lower than in 2019?",
+            "A": "The employee count in 2011 was {lower} than in 2019."
+        },
+        {
+            "Q": "Between 2012 and 2013, which line had the highest average Employee Count, Zenith Enterprises, Lumina Solutions, Meridian Dynamics, or Skyward Systems?",
+            "A": "{Skyward Systems} had the highest average employee count."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Lumina Solutions}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2018 and 2020?",
+            "A": "{Lumina Solutions} has the fastest average growth rate between 2018 and 2020."
+        },
+        {
+            "Q": "In which year did Lumina Solutions first surpass Skyward Systems?",
+            "A": "Lumina Solutions first surpassed Skyward Systems in the year {2014}."
+        },
+        {
+            "Q": "Which label had the leading employee count since 2016?",
+            "A": "Since 2016, {Lumina Solutions} had the leading employee count."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Skyward Systems. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {2008, 2014, 2020}."
+        }
+    ]
+}

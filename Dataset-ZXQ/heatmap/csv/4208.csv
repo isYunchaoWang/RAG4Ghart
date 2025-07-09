@@ -1,0 +1,73 @@
+Healthcare and Health,the Engagement of Healthcare and Health,8x9,random
+Clinics,Access,0.85
+Insurance,Access,0.89
+Medical Devices,Access,0.59
+Patient Care,Access,0.34
+Pharmaceuticals,Access,0.12
+Policy,Access,0.04
+Research,Access,0.02
+Telemedicine,Access,0.17
+Clinics,Cost,0.88
+Insurance,Cost,0.02
+Medical Devices,Cost,0.34
+Patient Care,Cost,0.68
+Pharmaceuticals,Cost,0.22
+Policy,Cost,0.42
+Research,Cost,0.92
+Telemedicine,Cost,0.8
+Clinics,Epidemiology,0.44
+Insurance,Epidemiology,0.09
+Medical Devices,Epidemiology,0.16
+Patient Care,Epidemiology,0.12
+Pharmaceuticals,Epidemiology,1.0
+Policy,Epidemiology,0.88
+Research,Epidemiology,0.49
+Telemedicine,Epidemiology,0.01
+Clinics,Funding,0.68
+Insurance,Funding,0.21
+Medical Devices,Funding,0.27
+Patient Care,Funding,0.58
+Pharmaceuticals,Funding,0.01
+Policy,Funding,0.19
+Research,Funding,0.34
+Telemedicine,Funding,0.46
+Clinics,Outcomes,0.89
+Insurance,Outcomes,0.95
+Medical Devices,Outcomes,0.74
+Patient Care,Outcomes,0.68
+Pharmaceuticals,Outcomes,0.1
+Policy,Outcomes,0.53
+Research,Outcomes,0.13
+Telemedicine,Outcomes,0.12
+Clinics,Patient Satisfaction,0.29
+Insurance,Patient Satisfaction,0.8
+Medical Devices,Patient Satisfaction,0.16
+Patient Care,Patient Satisfaction,0.04
+Pharmaceuticals,Patient Satisfaction,0.22
+Policy,Patient Satisfaction,0.43
+Research,Patient Satisfaction,0.09
+Telemedicine,Patient Satisfaction,0.4
+Clinics,Prevention,0.62
+Insurance,Prevention,0.63
+Medical Devices,Prevention,0.55
+Patient Care,Prevention,0.58
+Pharmaceuticals,Prevention,0.59
+Policy,Prevention,0.71
+Research,Prevention,0.09
+Telemedicine,Prevention,0.06
+Clinics,Staffing,0.06
+Insurance,Staffing,0.33
+Medical Devices,Staffing,0.93
+Patient Care,Staffing,0.41
+Pharmaceuticals,Staffing,0.78
+Policy,Staffing,0.13
+Research,Staffing,0.42
+Telemedicine,Staffing,0.46
+Clinics,Technology Adoption,0.51
+Insurance,Technology Adoption,0.2
+Medical Devices,Technology Adoption,0.32
+Patient Care,Technology Adoption,0.68
+Pharmaceuticals,Technology Adoption,0.75
+Policy,Technology Adoption,0.75
+Research,Technology Adoption,0.92
+Telemedicine,Technology Adoption,0.14

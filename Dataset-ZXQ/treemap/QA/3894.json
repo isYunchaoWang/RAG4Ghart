@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Azimuth Control in this treemap?",
+            "A": "There are {2} child rectangles under the category Azimuth Control."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Power Generation}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Coolant Systems}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Power Generation}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Coolant Systems rectangle in this treemap?",
+            "A": "The value of the Coolant Systems rectangle is {6.47}."
+        },
+        {
+            "Q": "What is the value of the Dual-Axis rectangle in this treemap?",
+            "A": "The value of the Dual-Axis rectangle is {14.05}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {6.47}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Dual-Axis and Power Generation?",
+            "A": "The difference between Dual-Axis and Power Generation is {85.95}."
+        },
+        {
+            "Q": "What is the sum of the regions of Reactor Types and CFD Simulation?",
+            "A": "The sum of Reactor Types and CFD Simulation is {44.37}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Azimuth Control category in the treemap, which rectangular labels have a value exceeded 7.29? Please list the labels and values.",
+            "A": "{Optical Sensors} has {7.56}"
+        },
+        {
+            "Q": "Under the Azimuth Control category in the treemap, which rectangular labels have a value below 6.76? Please list the labels and values.",
+            "A": "{GPS Alignment} has {6.49}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Renewable Farms, Solar Arrays, or Tracking Systems?",
+            "A": "The value of {Tracking Systems} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Power Generation or Renewable Farms?",
+            "A": "The value of {Power Generation} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

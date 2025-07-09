@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of the node Mobile Apps in this sankey chart?",
+            "A": "There are {5} links flowing out of the node Mobile Apps."
+        },
+        {
+            "Q": "How many nodes are in the column Engagement Channels of this sankey chart?",
+            "A": "There are {3} nodes in the column Engagement Channels."
+        },
+        {
+            "Q": "How many links are in this sankey chart?",
+            "A": "There are {15} links."
+        },
+        {
+            "Q": "How many links flow into the node Concessions in this sankey chart?",
+            "A": "There are {3} links flowing into the node Concessions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Engagement Channels}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Revenue Streams}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Fan Meetups} and {Ticket Sales}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Fantasy Leagues} and {Concessions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Fantasy Leagues to the node Broadcast Rights?",
+            "A": "The flow value from the node Fantasy Leagues to the node Broadcast Rights is {10400}."
+        },
+        {
+            "Q": "What is the flow value from the node Mobile Apps to the node Broadcast Rights?",
+            "A": "The flow value from the node Mobile Apps to the node Broadcast Rights is {4409}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Fan Meetups to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Fan Meetups to the next stage is {13592}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Fantasy Leagues to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Fantasy Leagues to the next stage is {1169}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Mobile Apps?",
+            "A": "The total flow output from node Mobile Apps is {25059}."
+        },
+        {
+            "Q": "What is the total flow input by node Broadcast Rights?",
+            "A": "The total flow input by node Broadcast Rights is {22426}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Engagement Channels of the sankey chart, which nodes have an outflow exceeded 13071? Please list the node labels and their corresponding outflow values.",
+            "A": "{Fan Meetups} has an outflow of {13592}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Engagement Channels and column Revenue Streams is the flow between 6902 and 6941? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {6914} from node {Fantasy Leagues} to {Sponsorships}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 6902 and 6941? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {6914} from node {Fantasy Leagues} to {Sponsorships}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Fantasy Leagues to node Merchandise and from node Fantasy Leagues to node Concessions, which path has a larger flow?",
+            "A": "The flow from node {Fantasy Leagues} to node {Merchandise} is larger."
+        },
+        {
+            "Q": "Between the flows from node Fan Meetups to node Ticket Sales and from node Fantasy Leagues to node Concessions, which path has a larger flow?",
+            "A": "The flow from node {Fan Meetups} to node {Ticket Sales} is larger."
+        },
+        {
+            "Q": "Among the flows from node Mobile Apps to node Ticket Sales, from node Fan Meetups to node Concessions, and from node Fan Meetups to node Broadcast Rights, which path has the largest flow?",
+            "A": "The flow from node {Fan Meetups} to node {Concessions} is the largest."
+        },
+        {
+            "Q": "Among the flows from node Fantasy Leagues to node Ticket Sales, from node Mobile Apps to node Sponsorships, and from node Mobile Apps to node Broadcast Rights, which path has the largest flow?",
+            "A": "The flow from node {Fantasy Leagues} to node {Ticket Sales} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Engagement Channels of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Engagement Channels is {Fan Meetups}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Fantasy Leagues to target node Merchandise? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Fantasy Leagues to node Merchandise is: {Fantasy Leagues, Merchandise}."
+        }
+    ],
+    "VA": []
+}

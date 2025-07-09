@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Standard Dine-in relative to Large Group Booking?",
+            "A": "Standard Dine-in is {above} Large Group Booking in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total average order value?",
+            "A": "The series with the largest contribution is {Large Group Booking}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total average order value?",
+            "A": "The series with the smallest contribution is {Standard Dine-in}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Seasonal Special Order's Average Order Value in 1975?",
+            "A": "Seasonal Special Order's average order value in 1975 is {60.45} $."
+        },
+        {
+            "Q": "What is Seasonal Special Order's Average Order Value in 1970?",
+            "A": "Seasonal Special Order's average order value in 1970 is {49.41} $."
+        },
+        {
+            "Q": "What is Seasonal Special Order's Average Order Value in 1974?",
+            "A": "Seasonal Special Order's average order value in 1974 is {59.98} $."
+        },
+        {
+            "Q": "What are the average order value of Standard Dine-in, Seasonal Special Order, and Large Group Booking in 1970?",
+            "A": "Standard Dine-in's average order value is {13.19} $, Seasonal Special Order's average order value is {49.41} $, Large Group Booking's average order value is {49.93} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Average Order Value in the area chart?",
+            "A": "The global minimum average order value is {0.87} $."
+        },
+        {
+            "Q": "What is the global maximum Average Order Value in the area chart?",
+            "A": "The global maximum average order value is {95.46} $."
+        },
+        {
+            "Q": "What is the highest Average Order Value level recorded for Breakfast Rush Order?",
+            "A": "Breakfast Rush Order reached approximately {70.90} $ in {1989}."
+        },
+        {
+            "Q": "What is the lowest Average Order Value level recorded for Breakfast Rush Order?",
+            "A": "Breakfast Rush Order's lowest recorded level is approximately {29.78} $ in {1962}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Average Order Value?",
+            "A": "The average total average order value is {185.34} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Average Order Value exceed 211.33 $? Please list the years and corresponding total values.",
+            "A": "{225.76} $ in {1983}, {244.47} $ in {1986}, {238.13} $ in {1985}."
+        },
+        {
+            "Q": "Which years did the total Average Order Value go below 155.19 $? Please list the years and corresponding total values.",
+            "A": "{125.39} $ in {1963}, {150.61} $ in {1969}, {126.41} $ in {1964}."
+        },
+        {
+            "Q": "Which years did the total Average Order Value fall between 174.10 and 192.43 $? Please list the years and corresponding total values.",
+            "A": "{174.68} $ in {1974}, {191.01} $ in {1977}, {179.16} $ in {1975}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1968 and 1976, did the total Average Order Value experience a larger or smaller change than between 1981 and 1985?",
+            "A": "The change in total average order value between 1968 and 1976 was {larger} than between 1981 and 1985."
+        },
+        {
+            "Q": "Was the total Average Order Value in 1962 higher or lower than in 1984?",
+            "A": "The total average order value in 1962 was {lower} than in 1984."
+        },
+        {
+            "Q": "Between 1965 and 1986, was the average total Average Order Value higher or lower than between 1962 and 1979?",
+            "A": "The average total average order value between 1965 and 1986 was {higher} than between 1962 and 1979."
+        },
+        {
+            "Q": "Between 1977 and 1983, was the average total Average Order Value higher or lower than between 1980 and 1988?",
+            "A": "The average total average order value between 1977 and 1983 was {lower} than between 1980 and 1988."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Large Group Booking} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Standard Dine-in, Breakfast Rush Order, Large Group Booking, Seasonal Special Order}."
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,Clustering,Strong Correlation,No Correlation,No Correlation,Weak Correlation,Strong Correlation
+labels,Capacity factor (%),Downtime (%),Output (MWh),Renewable percentage (%),Maintenance cost (USD/MWh),Fuel efficiency (%),Carbon intensity (kgCO2/MWh)
+"Gonzalez, Hubbard and Williams  Generation Station",38.3,0.1,2098.08,48.51,29.66,43.08,423.96
+Wallace-Cortez  Power Plant,20.95,20.0,10000.0,100.0,1.0,20.0,0.0
+Stewart-Brown  Generation Station,95.0,0.7,2491.96,49.39,83.8,65.05,650.06
+Rangel-Gonzalez  Generation Station,10.0,0.49,1.0,0.0,100.0,90.0,1000.0

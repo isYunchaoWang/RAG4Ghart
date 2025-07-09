@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Carbon Footprint Reduction Rate?",
+            "A": "The next dimension clockwise from Carbon Footprint Reduction Rate is Green Building Certification Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Carbon Footprint Reduction Rate?",
+            "A": "The next dimension counterclockwise from Carbon Footprint Reduction Rate is Recycling Material Utilization Rate."
+        },
+        {
+            "Q": "On the Renewable Energy Adoption Rate, is the point for Thomas Inc Sustainability Initiative inside or outside the point for Fleming, Smith and Williams Sustainability Initiative?",
+            "A": "On the Renewable Energy Adoption Rate, the point for Thomas Inc Sustainability Initiative is outside the point for Fleming, Smith and Williams Sustainability Initiative."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Recycling Material Utilization Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Fleming, Smith and Williams Sustainability Initiative?",
+            "A": "The strongest aspect is {Recycling Material Utilization Rate}, while the weakest aspect is{ Renewable Energy Adoption Rate}."
+        },
+        {
+            "Q": "On dimension Green Building Certification Rate, which label scores the highest?",
+            "A": "On Green Building Certification Rate, label {Fleming, Smith and Williams Sustainability Initiative} scores the highest."
+        },
+        {
+            "Q": "On dimension Renewable Energy Adoption Rate, which label scores the highest?",
+            "A": "On Renewable Energy Adoption Rate, label {Fleming, Smith and Williams Sustainability Initiative} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Fleming, Smith and Williams Sustainability Initiative on the Eco-Friendly Product Sales Growth Rate in the radar chart?",
+            "A": "The value of Fleming, Smith and Williams Sustainability Initiative on the Safety dimension is {30}."
+        },
+        {
+            "Q": "What is the value of Thomas Inc Sustainability Initiative on the Carbon Footprint Reduction Rate in the radar chart?",
+            "A": "The value of Thomas Inc Sustainability Initiative on the Safety dimension is {22}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Thomas Inc Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Thomas Inc Sustainability Initiative across all dimensions is {30}."
+        },
+        {
+            "Q": "What is the minimum value of label Thomas Inc Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Thomas Inc Sustainability Initiative across all dimensions is {30}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Recycling Material Utilization Rate",
+            "A": "The average value of Recycling Material Utilization Rate is {66.5}."
+        },
+        {
+            "Q": "What is the average value of Fleming, Smith and Williams Sustainability Initiative",
+            "A": "The average value of Fleming, Smith and Williams Sustainability Initiative is {40.4}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Thomas Inc Sustainability Initiative in the radar chart, which dimensions have scores above 49? Please list the dimensions and corresponding scores.",
+            "A": "{Recycling Material Utilization Rate} is {56}, {Green Building Certification Rate} is {51}"
+        },
+        {
+            "Q": "For Thomas Inc Sustainability Initiative in the radar chart, which dimensions have scores below 29? Please list the dimensions and corresponding scores.",
+            "A": "{Carbon Footprint Reduction Rate} is {22}"
+        },
+        {
+            "Q": "For Thomas Inc Sustainability Initiative in the radar chart, which dimensions have scores between 29 and 49? Please list the dimensions and corresponding scores.",
+            "A": "{Eco-Friendly Product Sales Growth Rate} is {30}, {Renewable Energy Adoption Rate} is {33}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Thomas Inc Sustainability Initiative, which dimension has a higher score: Green Building Certification Rate or Renewable Energy Adoption Rate?",
+            "A": "{Green Building Certification Rate} has a higher score than Renewable Energy Adoption Rate for Thomas Inc Sustainability Initiative."
+        },
+        {
+            "Q": "On Renewable Energy Adoption Rate, which label has a higher score: Fleming, Smith and Williams Sustainability Initiative or the Thomas Inc Sustainability Initiative?",
+            "A": "{Thomas Inc Sustainability Initiative} has a higher score on Renewable Energy Adoption Rate compared to Fleming, Smith and Williams Sustainability Initiative."
+        },
+        {
+            "Q": "On Recycling Material Utilization Rate, which label has a higher score: Fleming, Smith and Williams Sustainability Initiative or the Thomas Inc Sustainability Initiative?",
+            "A": "{Fleming, Smith and Williams Sustainability Initiative} has a higher score on Recycling Material Utilization Rate compared to Thomas Inc Sustainability Initiative."
+        },
+        {
+            "Q": "For Fleming, Smith and Williams Sustainability Initiative, which dimension has a higher score: Carbon Footprint Reduction Rate or Green Building Certification Rate or Renewable Energy Adoption Rate?",
+            "A": "{Carbon Footprint Reduction Rate} has a higher score for Fleming, Smith and Williams Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Thomas Inc Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Thomas Inc Sustainability Initiative most needs to improve its {Carbon Footprint Reduction Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Fleming, Smith and Williams Sustainability Initiative}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Thomas Inc Sustainability Initiative}."
+        }
+    ],
+    "VA": []
+}

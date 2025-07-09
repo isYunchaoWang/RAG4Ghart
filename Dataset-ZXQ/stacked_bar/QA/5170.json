@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {9} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar 2008 of this stacked bar chart?",
+            "A": "There are {3} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {2003}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {2020}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar 2011 relative to the bar 2008 in terms of horizontal (left/right) direction?",
+            "A": "Bar 2011 is to the {right} of the bar 2008."
+        },
+        {
+            "Q": "In the stacked bar of 2008, What is the spatial relationship of segment Confectionery relative to the segment Seafood in terms of vertical (above/below) direction?",
+            "A": "Confectionery segment is positioned {above} the Seafood segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Year has the highest bar in this stacked bar chart?",
+            "A": "The Year with the highest bar is {2010}."
+        },
+        {
+            "Q": "Which Year has the lowest bar in this stacked bar chart?",
+            "A": "The Year with the lowest bar is {2007}."
+        },
+        {
+            "Q": "In the stacked bar representing 2020, which segment has the highest value?",
+            "A": "The segment with the highest value is {Confectionery}."
+        },
+        {
+            "Q": "In the stacked bar representing 2010, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {Confectionery}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Confectionery segment within the 2017 bar in the stacked bar chart?",
+            "A": "The value of the Confectionery segment is {741.56} million USD."
+        },
+        {
+            "Q": "What is the value of the Confectionery segment within the 2003 bar in the stacked bar chart?",
+            "A": "The value of the Confectionery segment is {265.31} million USD."
+        },
+        {
+            "Q": "What is the value of the Confectionery segment within the 2010 bar in the stacked bar chart?",
+            "A": "The value of the Confectionery segment is {221.46} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum million USD among the stacked segments of bar 2017?",
+            "A": "The maximum million USD among the stacked segments of bar 2017 is {741.56} million USD."
+        },
+        {
+            "Q": "What is the minimum million USD among the stacked segments of bar 2011?",
+            "A": "The minimum million USD among the stacked segments of bar 2011 is {245.53} million USD."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum million USD of the segment Fruits among the bars?",
+            "A": "The maximum million USD among the bars of segment Fruits is {1000.0} million USD."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum million USD of the segment Seafood among the bars?",
+            "A": "The minimum million USD among the bars of segment Seafood is {229.28} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar 2011?",
+            "A": "The total value of bar 2011 is {902.51} million USD."
+        },
+        {
+            "Q": "What is the total value of the bar 2020?",
+            "A": "The total value of bar 2020 is {1094.63} million USD."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {9602.36} million USD."
+        },
+        {
+            "Q": "What is the difference between total value of bar 2008 and 2010?",
+            "A": "The difference between between total value of bar 2008 and 2010 is {832.5299999999999} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total million USD values exceed 1351.40 million USD? Please list the bar and corresponding values.",
+            "A": "{2006.0} has {1377.09} million USD, {2010.0} has {1533.35} million USD"
+        },
+        {
+            "Q": "Which bars have total million USD values below 690.94 million USD? Please list the bar and corresponding values.",
+            "A": "{2007.0} has {681.06} million USD"
+        },
+        {
+            "Q": "For bar 2020 in the stacked bar chart, which segment have million USD value between 310.545 and 394.76? Please list the segment and corresponding values.",
+            "A": "{Seafood} has {315.98} million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total million USD of 2017 or 2011?",
+            "A": "The total million USD of the {2017} is larger."
+        },
+        {
+            "Q": "Which is larger, the total million USD of 2008, 2011 or 2003?",
+            "A": "The total million USD of the {2003} is larger."
+        },
+        {
+            "Q": "In the bar 2011, which has a larger million USD value: Seafood or Fruits?",
+            "A": "{Seafood} has the larger million USD value."
+        },
+        {
+            "Q": "In the bar 2006, which has a larger million USD value: Seafood, Fruits or Confectionery?",
+            "A": "{Confectionery} has the larger million USD value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment Seafood in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment Seafood are: {2003}, {2006}, {2011}."
+        }
+    ],
+    "VA": []
+}

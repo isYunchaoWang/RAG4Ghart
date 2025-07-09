@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Geriatric Care Hospital?",
+            "A": "The next arc clockwise from arc Geriatric Care Hospital is arc {Commdata_unity Health Center}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Geriatric Care Hospital?",
+            "A": "The next arc counterclockwise from arc Geriatric Care Hospital is arc {Maternal and Child Health Center}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Geriatric Care Hospital} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Commdata_unity Health Center} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Maternal and Child Health Center to Commdata_unity Health Center in the chord chart?",
+            "A": "The flow value is {169}."
+        },
+        {
+            "Q": "What is the flow value from Maternal and Child Health Center to Geriatric Care Hospital in the chord chart?",
+            "A": "The flow value is {328}."
+        },
+        {
+            "Q": "What is the flow value from Geriatric Care Hospital to Commdata_unity Health Center in the chord chart?",
+            "A": "The flow value is {428}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Geriatric Care Hospital and Maternal and Child Health Center in the chord chart?",
+            "A": "The maximum flow value between Geriatric Care Hospital and Maternal and Child Health Center is {328}."
+        },
+        {
+            "Q": "What is the minimum flow value between Maternal and Child Health Center and Geriatric Care Hospital in the chord chart?",
+            "A": "The minimum flow value between Maternal and Child Health Center and Geriatric Care Hospital is {166}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {428}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {61}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Commdata_unity Health Center?",
+            "A": "The total flow output from Commdata_unity Health Center is {402}."
+        },
+        {
+            "Q": "What is the total flow input by Commdata_unity Health Center?",
+            "A": "The total flow input by Commdata_unity Health Center is {597}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 248? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {341} from {Commdata_unity Health Center} to {Geriatric Care Hospital}, a flow of {428} from {Geriatric Care Hospital} to {Commdata_unity Health Center}, a flow of {328} from {Maternal and Child Health Center} to {Geriatric Care Hospital}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 248? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {61} from {Commdata_unity Health Center} to {Maternal and Child Health Center}, a flow of {169} from {Maternal and Child Health Center} to {Commdata_unity Health Center}, a flow of {166} from {Geriatric Care Hospital} to {Maternal and Child Health Center}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 167 and 334? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {169} from {Maternal and Child Health Center} to {Commdata_unity Health Center}, a flow of {328} from {Maternal and Child Health Center} to {Geriatric Care Hospital}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Commdata_unity Health Center to Maternal and Child Health Center or from Maternal and Child Health Center to Commdata_unity Health Center?",
+            "A": "The flow from {Maternal and Child Health Center} to {Commdata_unity Health Center} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Maternal and Child Health Center to Commdata_unity Health Center, from Commdata_unity Health Center to Geriatric Care Hospital, or from Maternal and Child Health Center to Geriatric Care Hospital?",
+            "A": "The flow from {Commdata_unity Health Center} to {Geriatric Care Hospital} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Maternal and Child Health Center}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Commdata_unity Health Center} and {Geriatric Care Hospital}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Maternal and Child Health Center, Arc Geriatric Care Hospital, Arc Commdata_unity Health Center}."
+        }
+    ]
+}

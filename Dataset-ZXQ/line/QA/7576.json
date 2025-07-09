@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1953, what is the vertical (above/below) relationship of the line representing EchoWave relative to OracleFeed?",
+            "A": "In 1953, EchoWave is {above} OracleFeed in the vertical direction."
+        },
+        {
+            "Q": "On EchoWave, what is the spatial relationship of the data point in 1950 relative to that in 1953 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On EchoWave, the data point in 1950 is {below} and to the {left} of the data point in 1953."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of OracleFeed's Ad Revenue levels?",
+            "A": "OracleFeed's ad revenue levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of EchoWave's Ad Revenue levels?",
+            "A": "EchoWave's ad revenue levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of AetherNet's Ad Revenue levels?",
+            "A": "AetherNet's ad revenue levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a stable rising trend in Ad Revenue levels?",
+            "A": "{OracleFeed}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is EchoWave's Ad Revenue in 1951?",
+            "A": "EchoWave's ad revenue in 1951 is {560562547.72} $."
+        },
+        {
+            "Q": "What is AetherNet's Ad Revenue in 1954?",
+            "A": "AetherNet's ad revenue in 1954 is {2812578.84} $."
+        },
+        {
+            "Q": "What is OracleFeed's Ad Revenue in 1953?",
+            "A": "OracleFeed's ad revenue in 1953 is {476213028.40} $."
+        },
+        {
+            "Q": "What are the ad revenue of AetherNet, EchoWave, and OracleFeed in 1957?",
+            "A": "AetherNet's ad revenue is {2812578.84} $, EchoWave's ad revenue is {678900240.79} $, OracleFeed's ad revenue is {558890395.44} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Ad Revenue in the line chart?",
+            "A": "The global minimum ad revenue is {2812578.84} $."
+        },
+        {
+            "Q": "What is the global maximum Ad Revenue in the line chart?",
+            "A": "The global maximum ad revenue is {688425933.72} $."
+        },
+        {
+            "Q": "What is the highest Ad Revenue level recorded for AetherNet?",
+            "A": "AetherNet reached approximately {74290432.53} $ in {1950}."
+        },
+        {
+            "Q": "What is the lowest Ad Revenue level recorded for AetherNet?",
+            "A": "AetherNet's lowest recorded level is approximately {2812578.84} $ in {1952}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in EchoWave's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of growth in EchoWave's ad revenue is {7.70}%."
+        },
+        {
+            "Q": "What is the average value of OracleFeed's Ad Revenue?",
+            "A": "The average value of OracleFeed's ad revenue is {530497606.05} $."
+        },
+        {
+            "Q": "What is the rate of change in AetherNet's Ad Revenue from the starting year to the final year?",
+            "A": "The rate of decline in AetherNet's ad revenue is {-80.83}%."
+        },
+        {
+            "Q": "What is the average value of AetherNet's Ad Revenue?",
+            "A": "The average value of AetherNet's ad revenue is {11307593.75} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did AetherNet's Ad Revenue below 3093837 $? Please list the years and corresponding values.",
+            "A": "{2812578.84} $ in {1956} year, {2812578.84} $ in {1958} year, {2812578.84} $ in {1957} year."
+        },
+        {
+            "Q": "Which years did OracleFeed's Ad Revenue below 473408521 $? Please list the years and corresponding values.",
+            "A": "{436949909.10} $ in {1951} year, {464994996.93} $ in {1952} year, {416241981.33} $ in {1950} year."
+        },
+        {
+            "Q": "In the year 1957, which line had Ad Revenue exceed 611010217 $? Please list the lines and corresponding values.",
+            "A": "{EchoWave} had {678900241} $."
+        },
+        {
+            "Q": "Which years did EchoWave's Ad Revenue exceed 619583340 $? Please list the years and corresponding values.",
+            "A": "{662462897.30} $ in {1954} year, {631437226.32} $ in {1959} year, {669690261.76} $ in {1955} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1954 and 1958, which line had a higher average Ad Revenue, AetherNet or OracleFeed?",
+            "A": "{OracleFeed} had a higher average ad revenue."
+        },
+        {
+            "Q": "In 1957, which line had the highest Ad Revenue, OracleFeed, EchoWave, or AetherNet?",
+            "A": "In 1957, {EchoWave} had the highest ad revenue."
+        },
+        {
+            "Q": "In 1958, which line had the highest Ad Revenue, EchoWave, AetherNet, or OracleFeed?",
+            "A": "In 1958, {EchoWave} had the highest ad revenue."
+        },
+        {
+            "Q": "In 1952, which line had the highest Ad Revenue, OracleFeed, AetherNet, or EchoWave?",
+            "A": "In 1952, {EchoWave} had the highest ad revenue."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {OracleFeed}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1959 and 1960?",
+            "A": "{OracleFeed} has the fastest average growth rate between 1959 and 1960."
+        },
+        {
+            "Q": "In which year did OracleFeed first surpass EchoWave?",
+            "A": "OracleFeed first surpassed EchoWave in the year {1960}."
+        },
+        {
+            "Q": "Which label had the leading ad revenue since 1954?",
+            "A": "Since 1954, {EchoWave} had the leading ad revenue."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the AetherNet. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1950, 1952, 1961}."
+        }
+    ]
+}

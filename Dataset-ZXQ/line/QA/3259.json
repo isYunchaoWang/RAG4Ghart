@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 2002, what is the vertical (above/below) relationship of the line representing AquaFlow Utilities relative to TerraGen Power?",
+            "A": "In 2002, AquaFlow Utilities is {above} TerraGen Power in the vertical direction."
+        },
+        {
+            "Q": "On TerraGen Power, what is the spatial relationship of the data point in 1979 relative to that in 1978 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On TerraGen Power, the data point in 1979 is {above} and to the {right} of the data point in 1978."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of TerraGen Power's Carbon Emissions levels?",
+            "A": "TerraGen Power's carbon emissions levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of AquaFlow Utilities's Carbon Emissions levels?",
+            "A": "AquaFlow Utilities's carbon emissions levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "Which line shows a periodic stable trend in Carbon Emissions levels?",
+            "A": "{TerraGen Power}."
+        },
+        {
+            "Q": "Which line shows a bimodal peak trend in Carbon Emissions levels?",
+            "A": "{AquaFlow Utilities}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is TerraGen Power's Carbon Emissions in 1994?",
+            "A": "TerraGen Power's carbon emissions in 1994 is {5635454.96} tons."
+        },
+        {
+            "Q": "What is TerraGen Power's Carbon Emissions in 1988?",
+            "A": "TerraGen Power's carbon emissions in 1988 is {4273718.87} tons."
+        },
+        {
+            "Q": "What is TerraGen Power's Carbon Emissions in 2001?",
+            "A": "TerraGen Power's carbon emissions in 2001 is {6469440.43} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Carbon Emissions in the line chart?",
+            "A": "The global minimum carbon emissions is {4219521.18} tons."
+        },
+        {
+            "Q": "What is the global maximum Carbon Emissions in the line chart?",
+            "A": "The global maximum carbon emissions is {7939265.90} tons."
+        },
+        {
+            "Q": "What is the highest Carbon Emissions level recorded for AquaFlow Utilities?",
+            "A": "AquaFlow Utilities reached approximately {7939265.90} tons in {1981}."
+        },
+        {
+            "Q": "What is the lowest Carbon Emissions level recorded for AquaFlow Utilities?",
+            "A": "AquaFlow Utilities's lowest recorded level is approximately {5777431.15} tons in {1974}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in TerraGen Power's Carbon Emissions from the starting year to the final year?",
+            "A": "The rate of decline in TerraGen Power's carbon emissions is {-24.04}%."
+        },
+        {
+            "Q": "What is the rate of change in AquaFlow Utilities's Carbon Emissions from the starting year to the final year?",
+            "A": "The rate of growth in AquaFlow Utilities's carbon emissions is {0.61}%."
+        },
+        {
+            "Q": "What is the average value of AquaFlow Utilities's Carbon Emissions?",
+            "A": "The average value of AquaFlow Utilities's carbon emissions is {7147650.18} tons."
+        },
+        {
+            "Q": "What is the average value of TerraGen Power's Carbon Emissions?",
+            "A": "The average value of TerraGen Power's carbon emissions is {5601141.78} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did AquaFlow Utilities's Carbon Emissions between 6880134 and 7610628 tons? Please list the years and corresponding values.",
+            "A": "{7292145.64} tons in {1985} year, {7004789.59} tons in {1977} year, {7307667.90} tons in {1999} year."
+        },
+        {
+            "Q": "Which years did TerraGen Power's Carbon Emissions below 4756932 tons? Please list the years and corresponding values.",
+            "A": "{4261221.52} tons in {2003} year, {4714165.65} tons in {1987} year, {4257778.96} tons in {1993} year."
+        },
+        {
+            "Q": "In the year 1981, which line had Carbon Emissions exceed 7145339 tons? Please list the lines and corresponding values.",
+            "A": "{AquaFlow Utilities} had {7939266} tons."
+        },
+        {
+            "Q": "In the year 1987, which lines had Carbon Emissions below 5259764 tons? Please list the lines and corresponding values.",
+            "A": "{TerraGen Power} had {4714166} tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 2000, which line had a higher Carbon Emissions, {TerraGen Power} or {AquaFlow Utilities}?",
+            "A": "In 2000, {AquaFlow Utilities} had a higher carbon emissions."
+        },
+        {
+            "Q": "Between 1999 and 2003, which line had a higher average Carbon Emissions, TerraGen Power or AquaFlow Utilities?",
+            "A": "{AquaFlow Utilities} had a higher average carbon emissions."
+        },
+        {
+            "Q": "Was TerraGen Power's Carbon Emissions in 1991 higher or lower than in 1997?",
+            "A": "The carbon emissions in 1991 was {higher} than in 1997."
+        },
+        {
+            "Q": "In 2002, which line had a higher Carbon Emissions, {TerraGen Power} or {AquaFlow Utilities}?",
+            "A": "In 2002, {AquaFlow Utilities} had a higher carbon emissions."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {TerraGen Power}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1979 and 1984?",
+            "A": "{TerraGen Power} has the fastest average growth rate between 1979 and 1984."
+        },
+        {
+            "Q": "In which year did AquaFlow Utilities first surpass TerraGen Power?",
+            "A": "AquaFlow Utilities first surpassed TerraGen Power in the year {1976}."
+        },
+        {
+            "Q": "In which year did TerraGen Power first surpass AquaFlow Utilities?",
+            "A": "TerraGen Power first surpassed AquaFlow Utilities in the year {1975}."
+        },
+        {
+            "Q": "Which label had the leading carbon emissions since 2000?",
+            "A": "Since 2000, {AquaFlow Utilities} had the leading carbon emissions."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the AquaFlow Utilities. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1974, 1981, 2003}."
+        }
+    ]
+}

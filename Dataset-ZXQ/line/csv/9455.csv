@@ -1,0 +1,6 @@
+Transportation and Logistics,Warehouse Utilization,%
+trend,volatile_rising,volatile_falling,bimodal_peak,exponential_rising,stable_rising,volatile_rising,stable_rising
+Year,Seasonal Facilities,Cross-Docking,Automated Hubs,Urban Micro-Warehouses,Bonded Storage,Hazardous Material,Perishable Goods
+1998,61.03,100,100,100,71.68,75.29,72.87
+1999,65.89,100,100,100,76.25,80.49,76.26
+2000,70.29,100,100,100,79.33,86.53,79.9

@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Maintenance cost (USD/MWh) dimension, what is the spatial relationship of Hutchinson, Peterson and Morris  Energy Facility relative to White-Bowen  Generation Station in terms of vertical (above/below) direction?",
+            "A": "{Hutchinson, Peterson and Morris  Energy Facility} is {above} {White-Bowen  Generation Station} on the Maintenance cost (USD/MWh) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Renewable percentage (%)?",
+            "A": "The first position to the left of Renewable percentage (%) is {Carbon intensity (kgCO2/MWh)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Downtime (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Carbon intensity (kgCO2/MWh)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Output (MWh)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Output (MWh) and dimension Downtime (%)",
+            "A": "There is {Clustering} between Output (MWh) and Downtime (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Welch Inc  Power Plant on the Maintenance cost (USD/MWh) dimension in the parallel-coordinates chart?",
+            "A": "The value of Welch Inc  Power Plant on the Maintenance cost (USD/MWh) dimension is {77.59}"
+        },
+        {
+            "Q": "What is the value of Mitchell, Lee and Garcia  Power Plant on the Carbon intensity (kgCO2/MWh) dimension in the parallel-coordinates chart?",
+            "A": "The value of Mitchell, Lee and Garcia  Power Plant on the Carbon intensity (kgCO2/MWh) dimension is {258.93}"
+        },
+        {
+            "Q": "What is the value of White-Bowen  Generation Station on the Downtime (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of White-Bowen  Generation Station on the Downtime (%) dimension is {11.62}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Hutchinson, Peterson and Morris  Energy Facility across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Hutchinson, Peterson and Morris  Energy Facility across all dimensions is {10000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Welch Inc  Power Plant across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Welch Inc  Power Plant across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Carbon intensity (kgCO2/MWh)?",
+            "A": "The average value of Carbon intensity (kgCO2/MWh) is {274.98}"
+        },
+        {
+            "Q": "What is the difference in coding Output (MWh) between label Mitchell, Lee and Garcia  Power Plant and label Hutchinson, Peterson and Morris  Energy Facility",
+            "A": "The difference in coding Output (MWh) between Mitchell, Lee and Garcia  Power Plant and Hutchinson, Peterson and Morris  Energy Facility is {842.23}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Renewable percentage (%) dimension in the parallel coordinates?",
+            "A": "{[100.0, 68.0, 62.95]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Maintenance cost (USD/MWh) dimension in the parallel coordinates?",
+            "A": "{[1.0, 69.06, 77.59]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Carbon intensity (kgCO2/MWh), which label has a higher score: Mitchell, Lee and Garcia  Power Plant or Hutchinson, Peterson and Morris  Energy Facility?",
+            "A": "{Hutchinson, Peterson and Morris  Energy Facility} has a higher score on Carbon intensity (kgCO2/MWh)."
+        },
+        {
+            "Q": "On Downtime (%), which label has a higher score: Mitchell, Lee and Garcia  Power Plant or White-Bowen  Generation Station?",
+            "A": "{Mitchell, Lee and Garcia  Power Plant} has a higher score on Downtime (%)."
+        },
+        {
+            "Q": "On Output (MWh), which label has a higher score: Wilson, Chang and Christian  Energy Facility or Welch Inc  Power Plant?",
+            "A": "{Welch Inc  Power Plant} has a higher score on Output (MWh)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Output (MWh)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Renewable percentage (%) being greater than 53.37 and Maintenance cost (USD/MWh) being less than 58.96?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

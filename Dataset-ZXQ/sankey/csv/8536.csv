@@ -1,0 +1,26 @@
+Real Estate and Housing Market,Real Estate Transaction Ecosystem,Properties,random,Location Types,Property Types,Market Conditions,Financing Options
+Source,Target,Value
+Suburban,Commercial Property,172
+Suburban,Single Family Home,167
+Suburban,Condo,302
+Rural,Commercial Property,32
+Rural,Single Family Home,142
+Rural,Condo,228
+Commercial Property,Neutral Market,50
+Commercial Property,Buyer's Market,64
+Commercial Property,Seller's Market,90
+Single Family Home,Neutral Market,115
+Single Family Home,Buyer's Market,100
+Single Family Home,Seller's Market,94
+Condo,Neutral Market,134
+Condo,Buyer's Market,175
+Condo,Seller's Market,221
+Neutral Market,Mortgage,101
+Neutral Market,Lease-to-Own,149
+Neutral Market,Cash Purchase,49
+Buyer's Market,Mortgage,41
+Buyer's Market,Lease-to-Own,138
+Buyer's Market,Cash Purchase,160
+Seller's Market,Mortgage,155
+Seller's Market,Lease-to-Own,127
+Seller's Market,Cash Purchase,123

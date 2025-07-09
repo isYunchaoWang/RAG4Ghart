@@ -1,0 +1,63 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {8} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {15} links."
+        },
+        {
+            "Q": "How many nodes link with node Velocity Pro Account?",
+            "A": "There are {3} nodes link with node Velocity Pro Account."
+        }
+    ],
+    "SRP": [],
+    "VPR": [],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Sunrise Savings Account and node Harmony Subscription Profile in this node-link chart?",
+            "A": "The relationship between node Sunrise Savings Account and node Harmony Subscription Profile is {tag_mention}."
+        },
+        {
+            "Q": "What is the relationship between node Anderson Premium Account and node Sunrise Savings Account in this node-link chart?",
+            "A": "The relationship between node Anderson Premium Account and node Sunrise Savings Account is {tag_mention}."
+        }
+    ],
+    "EVJ": [],
+    "SC": [
+        {
+            "Q": "How many links have the relation type media_affiliation?",
+            "A": "There are {2} links with the relation type media_affiliation."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Sunrise Savings Account, how many links are of type content_stream?",
+            "A": "Node Sunrise Savings Account has {2} links of type content_stream."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "Which node is considered the most important in the node link chart?",
+            "A": "The most important node is {Quantum Trading Profile}."
+        },
+        {
+            "Q": "Please list the top three nodes by degree and their corresponding degrees.",
+            "A": "The top three nodes by degree are: {node Quantum Trading Profile with a degree of 7}, {node Sunrise Savings Account with a degree of 6}, {node Anderson Premium Account with a degree of 5}."
+        },
+        {
+            "Q": "What is the shortest path from node Anderson Premium Account to node UrbanTrend Member Account in the node link diagram? Please list all nodes along this path in sequence.",
+            "A": "The shortest path from node Anderson Premium Account to node UrbanTrend Member Account is: {Anderson Premium Account to Quantum Trading Profile to UrbanTrend Member Account}."
+        }
+    ],
+    "VA": []
+}

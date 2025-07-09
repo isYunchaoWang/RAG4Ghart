@@ -1,0 +1,123 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {3} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {horizontal} box plot."
+        },
+        {
+            "Q": "Which box does the bottom box represent?",
+            "A": "The bottom box represents {Crestview High}"
+        },
+        {
+            "Q": "Which box does the topmost box represent?",
+            "A": "The topmost box represents {Northgate School}."
+        },
+        {
+            "Q": "Which box is the second position beneath the box Northgate School?",
+            "A": "The second position beneath the box Northgate School is {Crestview High}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Westport Academy relative to the box Northgate School in terms of vertical (above/below) direction?",
+            "A": "Box Westport Academy is {below} the box Northgate School."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Northgate School}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Northgate School}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Westport Academy}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Westport Academy in the box plot?",
+            "A": "The median of Westport Academy is {84.965} %."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Westport Academy in the box plot?",
+            "A": "The lower quartile (Q1) of Westport Academy is {82.8575} %."
+        },
+        {
+            "Q": "What is the lower whisker limit of Northgate School in the box plot?",
+            "A": "The lower whisker limit of Northgate School is {74.75} %."
+        },
+        {
+            "Q": "What is the lowest upper outlier value in Westport Academy in the box plot?",
+            "A": "The lowest upper outlier value in Westport Academy is {73.09}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum % value in the box plot?",
+            "A": "The global maximum % value in the box plot is {102.85} %."
+        },
+        {
+            "Q": "What is the global minimum % value in the box plot?",
+            "A": "The global minimum % value in the box plot is {65.60} %."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Westport Academy and Crestview High?",
+            "A": "The Q3 difference between box Westport Academy and Crestview High is {1.4050000000000011} %."
+        },
+        {
+            "Q": "What is the toal Q3 value of box Crestview High and Northgate School?",
+            "A": "The total Q3 value of box Crestview High and Northgate School is {181.1075} %."
+        },
+        {
+            "Q": "What is the average Median value of box Northgate School and Crestview High?",
+            "A": "The average Median value of box Northgate School and Crestview High is {86.3475} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 92.565 %?",
+            "A": "Box{Crestview High} have the outliers exceed 92.565 %."
+        },
+        {
+            "Q": "Which boxes have median values exceed 87.22 %? Please list the boxes and corresponding values.",
+            "A": "{Northgate School} has {89.47} % "
+        },
+        {
+            "Q": "Which boxes have median values below 87.22 %? Please list the boxes and corresponding values.",
+            "A": "{Crestview High} has {83.225} % , {Westport Academy} has {84.965} % "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Crestview High or Westport Academy ",
+            "A": "The median value of the {Westport Academy} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Westport Academy, Northgate School or Crestview High ",
+            "A": "The median value of the {Northgate School} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Crestview High}."
+        }
+    ],
+    "VA": []
+}

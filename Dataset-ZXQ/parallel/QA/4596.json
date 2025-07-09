@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Alumni donation rate (%) dimension, what is the spatial relationship of Davis-Howell  University relative to Morgan-Alexander  College in terms of vertical (above/below) direction?",
+            "A": "{Davis-Howell  University} is {below} {Morgan-Alexander  College} on the Alumni donation rate (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Alumni donation rate (%)?",
+            "A": "The first position to the left of Alumni donation rate (%) is {Test scores (percentile)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Research funding (USD millions)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Test scores (percentile)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Research funding (USD millions)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Facility utilization (%) and dimension Student-teacher ratio (ratio)",
+            "A": "There is {Strong Correlation} between Facility utilization (%) and Student-teacher ratio (ratio)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Wilson, Fisher and Keller  University on the Alumni donation rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Wilson, Fisher and Keller  University on the Alumni donation rate (%) dimension is {50.0}"
+        },
+        {
+            "Q": "What is the value of Wilson, Fisher and Keller  University on the Student-teacher ratio (ratio) dimension in the parallel-coordinates chart?",
+            "A": "The value of Wilson, Fisher and Keller  University on the Student-teacher ratio (ratio) dimension is {30.0}"
+        },
+        {
+            "Q": "What is the value of Wilson, Fisher and Keller  University on the Alumni donation rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Wilson, Fisher and Keller  University on the Alumni donation rate (%) dimension is {50.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Morgan-Alexander  College across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Morgan-Alexander  College across all dimensions is {376.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Davis-Howell  University across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Davis-Howell  University across all dimensions is {0.1}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Student-teacher ratio (ratio)?",
+            "A": "The average value of Student-teacher ratio (ratio) is {19.86}"
+        },
+        {
+            "Q": "What is the difference in coding Student-teacher ratio (ratio) between label Davis-Howell  University and label Wilson, Fisher and Keller  University",
+            "A": "The difference in coding Student-teacher ratio (ratio) between Davis-Howell  University and Wilson, Fisher and Keller  University is {25.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Student-teacher ratio (ratio) dimension in the parallel coordinates?",
+            "A": "{[30.0, 24.57, 5.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Research funding (USD millions) dimension in the parallel coordinates?",
+            "A": "{[0.1, 376.0, 500.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Test scores (percentile), which label has a higher score: Wilson, Fisher and Keller  University or Morgan-Alexander  College?",
+            "A": "{Wilson, Fisher and Keller  University} has a higher score on Test scores (percentile)."
+        },
+        {
+            "Q": "On Student-teacher ratio (ratio), which label has a higher score: Davis-Howell  University or Morgan-Alexander  College?",
+            "A": "{Morgan-Alexander  College} has a higher score on Student-teacher ratio (ratio)."
+        },
+        {
+            "Q": "On Facility utilization (%), which label has a higher score: Morgan-Alexander  College or Wilson, Fisher and Keller  University?",
+            "A": "{Wilson, Fisher and Keller  University} has a higher score on Facility utilization (%)."
+        },
+        {
+            "Q": "On Test scores (percentile), which label has a higher score: Wilson, Fisher and Keller  University or Morgan-Alexander  College?",
+            "A": "{Wilson, Fisher and Keller  University} has a higher score on Test scores (percentile)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Research funding (USD millions)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Test scores (percentile) being greater than 54.91 and Research funding (USD millions) being less than 196.3?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

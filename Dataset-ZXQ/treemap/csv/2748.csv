@@ -1,0 +1,25 @@
+Education and Academics,Education Distribution by Category (2021),%
+parent,child,value
+,Learning Systems,100.0
+Learning Systems,Pedagogy,64.9
+Pedagogy,Active Learning,54.38
+Active Learning,Flipped Classroom,19.06
+Flipped Classroom,Digital Platforms,19.06
+Digital Platforms,LMS Integration,10.47
+Digital Platforms,Video Analytics,8.59
+Active Learning,Project-Based,35.32
+Project-Based,Collaborative Tools,35.32
+Collaborative Tools,Real-Time Editing,28.62
+Collaborative Tools,Version Control,6.7
+Pedagogy,Competency-Based,10.52
+Competency-Based,Micro-Credentials,10.52
+Micro-Credentials,Blockchain Issuance,10.52
+Blockchain Issuance,Smart Contracts,5.47
+Blockchain Issuance,Decentralized IDs,5.05
+Learning Systems,Experiential,35.1
+Experiential,Lab Simulations,8.21
+Experiential,Fieldwork Tech,26.89
+Fieldwork Tech,Mobile Sensing,26.89
+Mobile Sensing,IoT Kits,26.89
+IoT Kits,LoRa Modules,6.65
+IoT Kits,Edge Computing,20.24

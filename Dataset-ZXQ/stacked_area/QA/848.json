@@ -1,0 +1,112 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Horizon Enterprises relative to Starlight Innovations?",
+            "A": "Horizon Enterprises is {above} Starlight Innovations in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total debt to equity ratio?",
+            "A": "The series with the largest contribution is {Horizon Enterprises}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total debt to equity ratio?",
+            "A": "The series with the smallest contribution is {Starlight Innovations}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Starlight Innovations's Debt to Equity Ratio in 1994?",
+            "A": "Starlight Innovations's debt to equity ratio in 1994 is {0.17} ratio."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Debt to Equity Ratio in 2003?",
+            "A": "Horizon Enterprises's debt to equity ratio in 2003 is {0.21} ratio."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Debt to Equity Ratio in 1996?",
+            "A": "Horizon Enterprises's debt to equity ratio in 1996 is {0.32} ratio."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Debt to Equity Ratio in the area chart?",
+            "A": "The global minimum debt to equity ratio is {0.03} ratio."
+        },
+        {
+            "Q": "What is the global maximum Debt to Equity Ratio in the area chart?",
+            "A": "The global maximum debt to equity ratio is {0.50} ratio."
+        },
+        {
+            "Q": "What is the highest Debt to Equity Ratio level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises reached approximately {0.49} ratio in {1984}."
+        },
+        {
+            "Q": "What is the lowest Debt to Equity Ratio level recorded for Horizon Enterprises?",
+            "A": "Horizon Enterprises's lowest recorded level is approximately {0.10} ratio in {2011}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Debt to Equity Ratio?",
+            "A": "The average total debt to equity ratio is {0.47} ratio."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Debt to Equity Ratio go below 0.28 ratio? Please list the years and corresponding total values.",
+            "A": "{0.24} ratio in {2005}, {0.17} ratio in {2008}, {0.16} ratio in {2009}."
+        },
+        {
+            "Q": "Which years did the total Debt to Equity Ratio fall between 0.41 and 0.46 ratio? Please list the years and corresponding total values.",
+            "A": "{0.45} ratio in {1997}."
+        },
+        {
+            "Q": "Which years did the total Debt to Equity Ratio exceed 0.58 ratio? Please list the years and corresponding total values.",
+            "A": "{0.81} ratio in {1987}, {0.71} ratio in {1989}, {0.93} ratio in {1985}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1987 and 1992, did the total Debt to Equity Ratio experience a larger or smaller change than between 1989 and 2007?",
+            "A": "The change in total debt to equity ratio between 1987 and 1992 was {smaller} than between 1989 and 2007."
+        },
+        {
+            "Q": "Between 1986 and 1995, was the average total Debt to Equity Ratio higher or lower than between 1994 and 2000?",
+            "A": "The average total debt to equity ratio between 1986 and 1995 was {higher} than between 1994 and 2000."
+        },
+        {
+            "Q": "Between 1991 and 2006, was the average total Debt to Equity Ratio higher or lower than between 1987 and 2003?",
+            "A": "The average total debt to equity ratio between 1991 and 2006 was {lower} than between 1987 and 2003."
+        },
+        {
+            "Q": "Between 1999 and 2003, did the total Debt to Equity Ratio experience a larger or smaller change than between 1984 and 2004?",
+            "A": "The change in total debt to equity ratio between 1999 and 2003 was {smaller} than between 1984 and 2004."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Horizon Enterprises} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Starlight Innovations, Horizon Enterprises}."
+        }
+    ]
+}

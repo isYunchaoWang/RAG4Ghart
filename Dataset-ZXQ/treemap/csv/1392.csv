@@ -1,0 +1,25 @@
+Business and Finance,Business Distribution by Category (2022),%
+parent,child,value
+,Supply Chain,100.0
+Supply Chain,Logistics,70.59
+Logistics,Route Optimization,12.18
+Route Optimization,Vehicle Routing,5.62
+Vehicle Routing,Metaheuristics,5.62
+Route Optimization,Transport Modes,6.56
+Transport Modes,Intermodal,6.56
+Logistics,Warehouse Design,58.41
+Warehouse Design,Slotting Algorithms,58.41
+Slotting Algorithms,ABC Analysis,58.41
+ABC Analysis,Pareto Thresholds,37.72
+ABC Analysis,Velocity Profiling,20.69
+Supply Chain,Inventory Control,29.41
+Inventory Control,RFID Tracking,14.24
+RFID Tracking,Real-Time Locating,14.24
+Real-Time Locating,Triangulation,14.24
+Triangulation,TDOA,9.2
+Triangulation,RSSI Mapping,5.04
+Inventory Control,Demand Sensing,15.17
+Demand Sensing,Social Listening,15.17
+Social Listening,Sentiment Analysis,15.17
+Sentiment Analysis,BERT Models,8.9
+Sentiment Analysis,Emoji Decoding,6.27

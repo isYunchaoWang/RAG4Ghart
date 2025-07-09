@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Vanguard Dynamics relative to Horizon Enterprises?",
+            "A": "Vanguard Dynamics is {above} Horizon Enterprises in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total operating expenses?",
+            "A": "The series with the largest contribution is {Horizon Enterprises}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total operating expenses?",
+            "A": "The series with the smallest contribution is {Vanguard Dynamics}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Horizon Enterprises's Operating Expenses in 1989?",
+            "A": "Horizon Enterprises's operating expenses in 1989 is {8298985.81} $."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Operating Expenses in 1992?",
+            "A": "Horizon Enterprises's operating expenses in 1992 is {10129517.01} $."
+        },
+        {
+            "Q": "What is Horizon Enterprises's Operating Expenses in 1981?",
+            "A": "Horizon Enterprises's operating expenses in 1981 is {5385819.03} $."
+        },
+        {
+            "Q": "What are the operating expenses of Vanguard Dynamics, Aegis Corp, and Horizon Enterprises in 1992?",
+            "A": "Vanguard Dynamics's operating expenses is {1559608.38} $, Aegis Corp's operating expenses is {5711941.04} $, Horizon Enterprises's operating expenses is {10129517.01} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Operating Expenses in the area chart?",
+            "A": "The global minimum operating expenses is {1372440.21} $."
+        },
+        {
+            "Q": "What is the global maximum Operating Expenses in the area chart?",
+            "A": "The global maximum operating expenses is {10374640.08} $."
+        },
+        {
+            "Q": "What is the highest Operating Expenses level recorded for Aegis Corp?",
+            "A": "Aegis Corp reached approximately {6098480.40} $ in {1981}."
+        },
+        {
+            "Q": "What is the lowest Operating Expenses level recorded for Aegis Corp?",
+            "A": "Aegis Corp's lowest recorded level is approximately {3651197.12} $ in {1984}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Operating Expenses?",
+            "A": "The average total operating expenses is {15596256.20} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Operating Expenses exceed 16008292.46 $? Please list the years and corresponding total values.",
+            "A": "{17401066.43} $ in {1992}, {16058839.18} $ in {1981}, {17100352.37} $ in {1991}."
+        },
+        {
+            "Q": "Which years did the total Operating Expenses fall between 14816426.95 and 16376050.84 $? Please list the years and corresponding total values.",
+            "A": "{15395830.18} $ in {1980}, {15674406.07} $ in {1990}, {16287904.51} $ in {1987}."
+        },
+        {
+            "Q": "Which years did the total Operating Expenses go below 15184185.33 $? Please list the years and corresponding total values.",
+            "A": "{14798002.74} $ in {1985}, {14033934.87} $ in {1989}, {14518391.90} $ in {1983}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1983 and 1987, was the average total Operating Expenses higher or lower than between 1980 and 1987?",
+            "A": "The average total operating expenses between 1983 and 1987 was {lower} than between 1980 and 1987."
+        },
+        {
+            "Q": "Between 1985 and 1991, did the total Operating Expenses experience a larger or smaller change than between 1988 and 1989?",
+            "A": "The change in total operating expenses between 1985 and 1991 was {larger} than between 1988 and 1989."
+        },
+        {
+            "Q": "Between 1986 and 1993, was the average total Operating Expenses higher or lower than between 1988 and 1990?",
+            "A": "The average total operating expenses between 1986 and 1993 was {higher} than between 1988 and 1990."
+        },
+        {
+            "Q": "Between 1985 and 1990, was the average total Operating Expenses higher or lower than between 1989 and 1993?",
+            "A": "The average total operating expenses between 1985 and 1990 was {lower} than between 1989 and 1993."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Horizon Enterprises} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Vanguard Dynamics, Aegis Corp, Horizon Enterprises}."
+        }
+    ]
+}

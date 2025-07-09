@@ -1,0 +1,79 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {10} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {15} links."
+        },
+        {
+            "Q": "How many nodes link with node Harmony Subscription Profile?",
+            "A": "There are {3} nodes link with node Harmony Subscription Profile."
+        }
+    ],
+    "SRP": [],
+    "VPR": [],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Sunrise Savings Account and node Quantum Trading Profile in this node-link chart?",
+            "A": "The relationship between node Sunrise Savings Account and node Quantum Trading Profile is {tag_mention}."
+        },
+        {
+            "Q": "What is the relationship between node Sunrise Savings Account and node Crystal Loyalty Account in this node-link chart?",
+            "A": "The relationship between node Sunrise Savings Account and node Crystal Loyalty Account is {follower_link}."
+        },
+        {
+            "Q": "What is the relationship between node Anderson Premium Account and node Falcon Investment Profile in this node-link chart?",
+            "A": "The relationship between node Anderson Premium Account and node Falcon Investment Profile is {collab_post}."
+        }
+    ],
+    "EVJ": [],
+    "SC": [
+        {
+            "Q": "How many links have the relation type collab_post?",
+            "A": "There are {5} links with the relation type collab_post."
+        },
+        {
+            "Q": "How many links have the relation type media_affiliation?",
+            "A": "There are {1} links with the relation type media_affiliation."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Anderson Premium Account, how many links are of type media_affiliation?",
+            "A": "Node Anderson Premium Account has {1} links of type media_affiliation."
+        },
+        {
+            "Q": "Under node Sunrise Savings Account, how many links are of type tag_mention?",
+            "A": "Node Sunrise Savings Account has {1} links of type tag_mention."
+        },
+        {
+            "Q": "Under node Anderson Premium Account, how many links are of type follower_link?",
+            "A": "Node Anderson Premium Account has {1} links of type follower_link."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "Which node is considered the most important in the node link chart?",
+            "A": "The most important node is {Anderson Premium Account}."
+        },
+        {
+            "Q": "Please list the top three nodes by degree and their corresponding degrees.",
+            "A": "The top three nodes by degree are: {node Anderson Premium Account with a degree of 6}, {node Sunrise Savings Account with a degree of 6}, {node Quantum Trading Profile with a degree of 6}."
+        },
+        {
+            "Q": "What is the shortest path from node Harmony Subscription Profile to node Velocity Pro Account in the node link diagram? Please list all nodes along this path in sequence.",
+            "A": "The shortest path from node Harmony Subscription Profile to node Velocity Pro Account is: {Harmony Subscription Profile to Quantum Trading Profile to Velocity Pro Account}."
+        }
+    ],
+    "VA": []
+}

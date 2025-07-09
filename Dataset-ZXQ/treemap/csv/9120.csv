@@ -1,0 +1,21 @@
+Sports and Entertainment,Sports Distribution by Category (2022),%
+parent,child,value
+,Training Tech,100.0
+Training Tech,Biomechanics,20.41
+Biomechanics,Motion Capture,14.19
+Motion Capture,Wearables,7.53
+Wearables,IMU Sensors,7.53
+Motion Capture,Optical Systems,6.66
+Optical Systems,Infrared Markers,6.66
+Biomechanics,Gait Analysis,6.22
+Gait Analysis,Foot Strike,6.22
+Foot Strike,Plantar Pressure,6.22
+Training Tech,Force Analysis,79.59
+Force Analysis,EMG Systems,9.09
+EMG Systems,Wireless Sensors,9.09
+Wireless Sensors,Signal Processing,9.09
+Force Analysis,Force Plates,70.5
+Force Plates,Piezoelectric,70.5
+Piezoelectric,Calibration,70.5
+Calibration,Temperature Drift,6.18
+Calibration,Nonlinearity Correction,64.32

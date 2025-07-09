@@ -1,0 +1,58 @@
+Food and Beverage Industry,Food Production and Consumption Chain,Products,random,Processing Facilities,Distribution Channels,Food Sources,Waste Management
+Source,Target,Value
+Canneries,Wholesalers,672
+Canneries,Online Platforms,896
+Canneries,Farmers' Markets,1388
+Canneries,Retailers,396
+Beverage Plants,Wholesalers,759
+Beverage Plants,Online Platforms,1368
+Beverage Plants,Farmers' Markets,701
+Beverage Plants,Retailers,301
+Slaughterhouses,Wholesalers,273
+Slaughterhouses,Online Platforms,144
+Slaughterhouses,Farmers' Markets,1375
+Slaughterhouses,Retailers,1368
+Bakeries,Wholesalers,368
+Bakeries,Online Platforms,248
+Bakeries,Farmers' Markets,1262
+Bakeries,Retailers,1835
+Wholesalers,Greenhouses,168
+Wholesalers,Orchards,465
+Wholesalers,Farms,755
+Wholesalers,Ranches,86
+Wholesalers,Fisheries,598
+Online Platforms,Greenhouses,130
+Online Platforms,Orchards,97
+Online Platforms,Farms,644
+Online Platforms,Ranches,879
+Online Platforms,Fisheries,906
+Farmers' Markets,Greenhouses,993
+Farmers' Markets,Orchards,1170
+Farmers' Markets,Farms,359
+Farmers' Markets,Ranches,1070
+Farmers' Markets,Fisheries,1134
+Retailers,Greenhouses,1280
+Retailers,Orchards,558
+Retailers,Farms,334
+Retailers,Ranches,1542
+Retailers,Fisheries,186
+Greenhouses,Recycling,882
+Greenhouses,Food Banks,726
+Greenhouses,Landfills,720
+Greenhouses,Composting,243
+Orchards,Recycling,664
+Orchards,Food Banks,526
+Orchards,Landfills,280
+Orchards,Composting,820
+Farms,Recycling,522
+Farms,Food Banks,139
+Farms,Landfills,1294
+Farms,Composting,137
+Ranches,Recycling,467
+Ranches,Food Banks,1363
+Ranches,Landfills,225
+Ranches,Composting,1522
+Fisheries,Recycling,1333
+Fisheries,Food Banks,884
+Fisheries,Landfills,168
+Fisheries,Composting,439

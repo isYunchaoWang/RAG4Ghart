@@ -1,0 +1,91 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {5} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the In-Store Promotion stage positioned above or below the Launch in Market stage?",
+            "A": "The In-Store Promotion stage is positioned {below} the Launch in Market stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {exponential} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Retail Placement?",
+            "A": "The value of stage Retail Placement is {1944}."
+        },
+        {
+            "Q": "What is the value of stage Product Concept?",
+            "A": "The value of stage Product Concept is {4856}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Product Concept, with a value of {4856}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is In-Store Promotion, with a value of {1702}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Taste Testing to stage Launch in Market?",
+            "A": "Decreased by {1103} Thousand Bottles from stage Taste Testing to stage Launch in Market."
+        },
+        {
+            "Q": "How much did it decrease from stage Launch in Market to stage Retail Placement?",
+            "A": "Decreased by {383} Thousand Bottles from stage Launch in Market to stage Retail Placement."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 2135? Please list the stage labels and corresponding values.",
+            "A": "The {Product Concept} stage has {4856}, the {Taste Testing} stage has {3430}, the {Launch in Market} stage has {2327}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 2878? Please list the stage labels and corresponding values.",
+            "A": "The {Launch in Market} stage has {2327}, the {Retail Placement} stage has {1944}, the {In-Store Promotion} stage has {1702}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 1823 and 2878? Please list the stage labels and corresponding values.",
+            "A": "The {Launch in Market} stage has {2327}, the {Retail Placement} stage has {1944}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Retail Placement to In-Store Promotion, or from stage Taste Testing to Launch in Market?",
+            "A": "The reduction from stage {Taste Testing} to {Launch in Market} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Taste Testing to Launch in Market, from stage Retail Placement to In-Store Promotion, or from stage Product Concept to Taste Testing?",
+            "A": "The reduction from stage {Product Concept} to stage {Taste Testing} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Product Concept} and {Taste Testing} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Retail Placement} and {In-Store Promotion} stages."
+        }
+    ],
+    "VA": []
+}

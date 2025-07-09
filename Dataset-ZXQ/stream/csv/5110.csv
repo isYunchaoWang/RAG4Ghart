@@ -1,0 +1,13 @@
+Human Resources and Employee Management,Training Hours,hours/employee
+trend,stable_falling,random_on_off_rising,stable_falling,exponential_falling,volatile_rising,stable_falling
+Year,Research & Development,Human Resources,Engineering Department,Management Team,Administrative Support,Sales Team
+2006,20.5,19.62,20.55,17.34,22.34,21.83
+2007,19.82,19.59,21.13,14.73,22.68,19.85
+2008,20.1,22.03,20.38,15.83,22.22,20.06
+2009,19.93,19.9,20.06,12.5,26.77,21.06
+2010,24.41,14.35,21.92,14.53,27.12,21.4
+2011,24.23,0.2,23.92,12.6,28.73,23.53
+2012,23.29,16.35,23.91,9.88,26.81,24.14
+2013,23.56,28.48,24.62,8.69,30.08,24.17
+2014,24.26,27.31,21.65,7.48,31.68,25.71
+2015,25.87,1.77,24.39,6.05,36.26,26.73

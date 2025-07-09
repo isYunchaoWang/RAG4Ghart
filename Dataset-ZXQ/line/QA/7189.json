@@ -1,0 +1,144 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Oracle Systems, what is the spatial relationship of the data point in 1979 relative to that in 1982 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Oracle Systems, the data point in 1979 is {below} and to the {left} of the data point in 1982."
+        },
+        {
+            "Q": "In 1983, what is the vertical (above/below) relationship of the line representing Starburst Enterprises relative to Oracle Systems?",
+            "A": "In 1983, Starburst Enterprises is {below} Oracle Systems in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Starburst Enterprises's R&D Investment levels?",
+            "A": "Starburst Enterprises's r&d investment levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Oracle Systems's R&D Investment levels?",
+            "A": "Oracle Systems's r&d investment levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in R&D Investment levels?",
+            "A": "{Starburst Enterprises}, {Oracle Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Oracle Systems's R&D Investment in 1982?",
+            "A": "Oracle Systems's r&d investment in 1982 is {25687868.89} $."
+        },
+        {
+            "Q": "What is Starburst Enterprises's R&D Investment in 1983?",
+            "A": "Starburst Enterprises's r&d investment in 1983 is {22897048.64} $."
+        },
+        {
+            "Q": "What is Oracle Systems's R&D Investment in 1983?",
+            "A": "Oracle Systems's r&d investment in 1983 is {25697628.87} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum R&D Investment in the line chart?",
+            "A": "The global minimum r&d investment is {21349148.84} $."
+        },
+        {
+            "Q": "What is the global maximum R&D Investment in the line chart?",
+            "A": "The global maximum r&d investment is {25697628.87} $."
+        },
+        {
+            "Q": "What is the highest R&D Investment level recorded for Oracle Systems?",
+            "A": "Oracle Systems reached approximately {25697628.87} $ in {1983}."
+        },
+        {
+            "Q": "What is the lowest R&D Investment level recorded for Oracle Systems?",
+            "A": "Oracle Systems's lowest recorded level is approximately {23986750.65} $ in {1985}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Starburst Enterprises's R&D Investment from the starting year to the final year?",
+            "A": "The rate of growth in Starburst Enterprises's r&d investment is {0.77}%."
+        },
+        {
+            "Q": "What is the rate of change in Oracle Systems's R&D Investment from the starting year to the final year?",
+            "A": "The rate of decline in Oracle Systems's r&d investment is {-0.61}%."
+        },
+        {
+            "Q": "What is the average value of Oracle Systems's R&D Investment?",
+            "A": "The average value of Oracle Systems's r&d investment is {25021635.40} $."
+        },
+        {
+            "Q": "What is the average value of Starburst Enterprises's R&D Investment?",
+            "A": "The average value of Starburst Enterprises's r&d investment is {22183878.77} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1979, which line had R&D Investment exceed 21720072 $? Please list the lines and corresponding values.",
+            "A": "{Oracle Systems} had {24133413} $."
+        },
+        {
+            "Q": "In the year 1981, which lines had R&D Investment below 24718027 $? Please list the lines and corresponding values.",
+            "A": "{Starburst Enterprises} had {22470934} $."
+        },
+        {
+            "Q": "In the year 1980, which lines had R&D Investment below 24204696 $? Please list the lines and corresponding values.",
+            "A": "{Starburst Enterprises} had {22004269} $."
+        },
+        {
+            "Q": "Which years did Oracle Systems's R&D Investment between 24619314 and 25567539 $? Please list the years and corresponding values.",
+            "A": "{24868158.84} $ in {1980} year, {25093363.06} $ in {1984} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1985, which line had a higher R&D Investment, {Starburst Enterprises} or {Oracle Systems}?",
+            "A": "In 1985, {Oracle Systems} had a higher r&d investment."
+        },
+        {
+            "Q": "In 1979, which line had a higher R&D Investment, {Starburst Enterprises} or {Oracle Systems}?",
+            "A": "In 1979, {Oracle Systems} had a higher r&d investment."
+        },
+        {
+            "Q": "In 1981, which line had a higher R&D Investment, {Oracle Systems} or {Starburst Enterprises}?",
+            "A": "In 1981, {Oracle Systems} had a higher r&d investment."
+        },
+        {
+            "Q": "Between 1983 and 1985, which line had a higher average R&D Investment, Starburst Enterprises or Oracle Systems?",
+            "A": "{Oracle Systems} had a higher average r&d investment."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Oracle Systems}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1980 and 1982?",
+            "A": "{Starburst Enterprises} has the fastest average growth rate between 1980 and 1982."
+        },
+        {
+            "Q": "Which label had the leading r&d investment since 1982?",
+            "A": "Since 1982, {Oracle Systems} had the leading r&d investment."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Starburst Enterprises. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1979, 1982, 1985}."
+        }
+    ]
+}

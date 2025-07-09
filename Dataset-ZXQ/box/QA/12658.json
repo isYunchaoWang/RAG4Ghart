@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {7} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {horizontal} box plot."
+        },
+        {
+            "Q": "Which box does the bottom box represent?",
+            "A": "The bottom box represents {Nightfall}"
+        },
+        {
+            "Q": "Which box does the topmost box represent?",
+            "A": "The topmost box represents {Lost Signal}."
+        },
+        {
+            "Q": "Which box is the third position above the box Frozen Time?",
+            "A": "The third position above the box Frozen Time is {Lost Signal}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Dark Horizon relative to the box Last Ember in terms of vertical (above/below) direction?",
+            "A": "Box Dark Horizon is {below} the box Last Ember."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {True Edge}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {True Edge}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Nightfall}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of True Edge in the box plot?",
+            "A": "The median of True Edge is {658.0} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Broken Mirror in the box plot?",
+            "A": "The upper quartile (Q3) of Broken Mirror is {564.0} million USD."
+        },
+        {
+            "Q": "What is the lower whisker limit of True Edge in the box plot?",
+            "A": "The lower whisker limit of True Edge is {411} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in True Edge in the box plot?",
+            "A": "The largest upper outlier value in True Edge is {996} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {996.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {44.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Frozen Time and Dark Horizon?",
+            "A": "The Q3 difference between box Frozen Time and Dark Horizon is {0.0} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of box True Edge and Broken Mirror?",
+            "A": "The total Q3 value of box True Edge and Broken Mirror is {1285.0} million USD."
+        },
+        {
+            "Q": "What is the average Q3 value of box Last Ember and Lost Signal?",
+            "A": "The average Q3 value of box Last Ember and Lost Signal is {575.0} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 896.4 million USD?",
+            "A": "Box{True Edge} have the outliers exceed 896.4 million USD."
+        },
+        {
+            "Q": "Which boxes have median values exceed 646.50 million USD? Please list the boxes and corresponding values.",
+            "A": "{True Edge} has {658.0} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 477.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Lost Signal} has {467.0} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Frozen Time or True Edge ",
+            "A": "The median value of the {True Edge} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Frozen Time, Nightfall or Lost Signal ",
+            "A": "The median value of the {Frozen Time} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Frozen Time, Dark Horizon, Broken Mirror or True Edge ",
+            "A": "The median value of the {True Edge} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Last Ember}."
+        }
+    ],
+    "VA": []
+}

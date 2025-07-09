@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Table Turnover Rate?",
+            "A": "The next dimension clockwise from Table Turnover Rate is Customer Retention Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Net Promoter Score (NPS)?",
+            "A": "The next dimension counterclockwise from Table Turnover Rate is Net Promoter Score (NPS)."
+        },
+        {
+            "Q": "On the Customer Retention Rate, is the point for Dalton, Hunter and Lewis Restaurant inside or outside the point for Smith, Trujillo and Smith Restaurant?",
+            "A": "On the Customer Retention Rate, the point for Dalton, Hunter and Lewis Restaurant is inside the point for Smith, Trujillo and Smith Restaurant."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Customer Satisfaction Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Smith, Trujillo and Smith Restaurant?",
+            "A": "The strongest aspect is {Customer Satisfaction Rate}, while the weakest aspect is{ Net Promoter Score (NPS)}."
+        },
+        {
+            "Q": "On dimension Table Turnover Rate, which label scores the highest?",
+            "A": "On Table Turnover Rate, label {Dalton, Hunter and Lewis Restaurant} scores the highest."
+        },
+        {
+            "Q": "On dimension Customer Satisfaction Rate, which label scores the highest?",
+            "A": "On Customer Satisfaction Rate, label {Dalton, Hunter and Lewis Restaurant} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Dalton, Hunter and Lewis Restaurant on the Customer Satisfaction Rate in the radar chart?",
+            "A": "The value of Dalton, Hunter and Lewis Restaurant on the Safety dimension is {77}."
+        },
+        {
+            "Q": "What is the value of Dalton, Hunter and Lewis Restaurant on the Net Promoter Score (NPS) in the radar chart?",
+            "A": "The value of Dalton, Hunter and Lewis Restaurant on the Safety dimension is {40}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Dalton, Hunter and Lewis Restaurant across all dimensions in the radar chart?",
+            "A": "The maximum value of Dalton, Hunter and Lewis Restaurant across all dimensions is {77}."
+        },
+        {
+            "Q": "What is the minimum value of label Dalton, Hunter and Lewis Restaurant across all dimensions in the radar chart?",
+            "A": "The minimum value of Dalton, Hunter and Lewis Restaurant across all dimensions is {28}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Net Promoter Score (NPS)",
+            "A": "The average value of Net Promoter Score (NPS) is {44.0}."
+        },
+        {
+            "Q": "What is the average value of Dalton, Hunter and Lewis Restaurant",
+            "A": "The average value of Dalton, Hunter and Lewis Restaurant is {42.6}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Smith, Trujillo and Smith Restaurant in the radar chart, which dimensions have scores below 31? Please list the dimensions and corresponding scores.",
+            "A": "{Gross Profit Margin} is {28}, {Table Turnover Rate} is {20}"
+        },
+        {
+            "Q": "Which labels have scores below 77 for the Customer Satisfaction Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Dalton, Hunter and Lewis Restaurant} is {77}"
+        },
+        {
+            "Q": "For Dalton, Hunter and Lewis Restaurant in the radar chart, which dimensions have scores above 72? Please list the dimensions and corresponding scores.",
+            "A": "{Customer Satisfaction Rate} is {78}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Dalton, Hunter and Lewis Restaurant, which dimension has a higher score: Gross Profit Margin or Net Promoter Score (NPS)?",
+            "A": "{Net Promoter Score (NPS)} has a higher score than Gross Profit Margin for Dalton, Hunter and Lewis Restaurant."
+        },
+        {
+            "Q": "For Dalton, Hunter and Lewis Restaurant, which dimension has a higher score: Net Promoter Score (NPS) or Customer Retention Rate?",
+            "A": "{Customer Retention Rate} has a higher score than Net Promoter Score (NPS) for Dalton, Hunter and Lewis Restaurant."
+        },
+        {
+            "Q": "On Table Turnover Rate, which label has a higher score: Dalton, Hunter and Lewis Restaurant or the Smith, Trujillo and Smith Restaurant?",
+            "A": "{Smith, Trujillo and Smith Restaurant} has a higher score on Table Turnover Rate compared to Dalton, Hunter and Lewis Restaurant."
+        },
+        {
+            "Q": "For Dalton, Hunter and Lewis Restaurant, which dimension has a higher score: Gross Profit Margin or Customer Satisfaction Rate or Table Turnover Rate?",
+            "A": "{Customer Satisfaction Rate} has a higher score for Dalton, Hunter and Lewis Restaurant."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Dalton, Hunter and Lewis Restaurant, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Dalton, Hunter and Lewis Restaurant most needs to improve its {Table Turnover Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Smith, Trujillo and Smith Restaurant}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Dalton, Hunter and Lewis Restaurant}."
+        }
+    ],
+    "VA": []
+}

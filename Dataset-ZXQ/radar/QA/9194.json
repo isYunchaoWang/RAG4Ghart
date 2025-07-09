@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Price-to-Income Ratio?",
+            "A": "The next dimension clockwise from Price-to-Income Ratio is Capital Appreciation Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Price-to-Income Ratio?",
+            "A": "The next dimension counterclockwise from Price-to-Income Ratio is Yearly Price Growth Rate."
+        },
+        {
+            "Q": "On the Capital Appreciation Rate, is the point for port inside or outside the point for side?",
+            "A": "On the Capital Appreciation Rate, the point for port is inside the point for side."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Price Volatility Index} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of side?",
+            "A": "The strongest aspect is {Price Volatility Index}, while the weakest aspect is{ Yearly Price Growth Rate}."
+        },
+        {
+            "Q": "On dimension Capital Appreciation Rate, which label scores the highest?",
+            "A": "On Capital Appreciation Rate, label {port} scores the highest."
+        },
+        {
+            "Q": "On dimension Capital Appreciation Rate, which label scores the highest?",
+            "A": "On Capital Appreciation Rate, label {port} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of side on the Capital Appreciation Rate in the radar chart?",
+            "A": "The value of side on the Safety dimension is {68}."
+        },
+        {
+            "Q": "What is the value of side on the Transaction Volume Growth in the radar chart?",
+            "A": "The value of side on the Safety dimension is {54}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label side across all dimensions in the radar chart?",
+            "A": "The maximum value of side across all dimensions is {50}."
+        },
+        {
+            "Q": "What is the minimum value of label side across all dimensions in the radar chart?",
+            "A": "The minimum value of side across all dimensions is {77}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Price-to-Income Ratio",
+            "A": "The average value of Price-to-Income Ratio is {67.0}."
+        },
+        {
+            "Q": "What is the average value of port",
+            "A": "The average value of port is {50.8}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 30 for the Capital Appreciation Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{port} is {20}"
+        },
+        {
+            "Q": "Which labels have scores above 46 for the Yearly Price Growth Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{side} is {50}"
+        },
+        {
+            "Q": "For side in the radar chart, which dimensions have scores above 72? Please list the dimensions and corresponding scores.",
+            "A": "{Price Volatility Index} is {77}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For port, which dimension has a higher score: Price-to-Income Ratio or Yearly Price Growth Rate?",
+            "A": "{Price-to-Income Ratio} has a higher score than Yearly Price Growth Rate for port."
+        },
+        {
+            "Q": "On Price-to-Income Ratio, which label has a higher score: port or the side?",
+            "A": "{port} has a higher score on Price-to-Income Ratio compared to side."
+        },
+        {
+            "Q": "For side, which dimension has a higher score: Transaction Volume Growth or Price-to-Income Ratio or Yearly Price Growth Rate?",
+            "A": "{Price-to-Income Ratio} has a higher score for side."
+        },
+        {
+            "Q": "For side, which dimension has a higher score: Capital Appreciation Rate or Yearly Price Growth Rate or Price Volatility Index?",
+            "A": "{Price Volatility Index} has a higher score for side."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For side, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "side most needs to improve its {Yearly Price Growth Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {side}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {port}."
+        }
+    ],
+    "VA": []
+}

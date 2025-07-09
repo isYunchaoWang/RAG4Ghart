@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Media coverage (articles/month) dimension, what is the spatial relationship of work  Civilization relative to end  Culture in terms of vertical (above/below) direction?",
+            "A": "{work  Civilization} is {below} {end  Culture} on the Media coverage (articles/month) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Language adoption (new words)?",
+            "A": "The first position to the left of Language adoption (new words) is {Policy influence index (1-10)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Opinion leader count(verified accounts)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Historical significance (1-10)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Media coverage (articles/month)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Media coverage (articles/month) and dimension Opinion leader count(verified accounts)",
+            "A": "There is {No Correlation} between Media coverage (articles/month) and Opinion leader count(verified accounts)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of end  Culture on the Opinion leader count(verified accounts) dimension in the parallel-coordinates chart?",
+            "A": "The value of end  Culture on the Opinion leader count(verified accounts) dimension is {1.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label work  Civilization across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of work  Civilization across all dimensions is {765.8}"
+        },
+        {
+            "Q": "What is the minimum value of label heavy  Culture across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of heavy  Culture across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Media coverage (articles/month)?",
+            "A": "The average value of Media coverage (articles/month) is {356.24}"
+        },
+        {
+            "Q": "What is the difference in coding Policy influence index (1-10) between label heavy  Culture and label herself  Civilization",
+            "A": "The difference in coding Policy influence index (1-10) between heavy  Culture and herself  Civilization is {7.28}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Opinion leader count(verified accounts) dimension in the parallel coordinates?",
+            "A": "{[1000.0, 765.8, 352.3]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Policy influence index (1-10) dimension in the parallel coordinates?",
+            "A": "{[1.0, 1.04, 8.23]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Language adoption (new words), which label has a higher score: end  Culture or heavy  Culture?",
+            "A": "{end  Culture} has a higher score on Language adoption (new words)."
+        },
+        {
+            "Q": "On Language adoption (new words), which label has a higher score: work  Civilization or end  Culture?",
+            "A": "{end  Culture} has a higher score on Language adoption (new words)."
+        },
+        {
+            "Q": "On Opinion leader count(verified accounts), which label has a higher score: herself  Civilization or work  Civilization?",
+            "A": "{work  Civilization} has a higher score on Opinion leader count(verified accounts)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Media coverage (articles/month)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Media coverage (articles/month) being greater than 624.17 and Opinion leader count(verified accounts) being less than 406.18?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

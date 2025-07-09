@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {2} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Gross Margin?",
+            "A": "The next dimension clockwise from Gross Margin is Inventory Turnover Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Return on Investment (ROI)?",
+            "A": "The next dimension counterclockwise from Gross Margin is Member Activity Rate."
+        },
+        {
+            "Q": "On the Return on Investment (ROI), is the point for Ramirez, Delgado and Lang inside or outside the point for Williams Ltd?",
+            "A": "On the Return on Investment (ROI), the point for Ramirez, Delgado and Lang is outside the point for Williams Ltd."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Member Activity Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Williams Ltd?",
+            "A": "The strongest aspect is {Member Activity Rate}, while the weakest aspect is{ Return on Investment (ROI)}."
+        },
+        {
+            "Q": "On dimension Self-Service Resolution Rate, which label scores the highest?",
+            "A": "On Self-Service Resolution Rate, label {Williams Ltd} scores the highest."
+        },
+        {
+            "Q": "On dimension Return on Investment (ROI), which label scores the highest?",
+            "A": "On Return on Investment (ROI), label {Williams Ltd} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Ramirez, Delgado and Lang on the Conversion Rate in the radar chart?",
+            "A": "The value of Ramirez, Delgado and Lang on the Safety dimension is {72}."
+        },
+        {
+            "Q": "What is the value of Ramirez, Delgado and Lang on the Inventory Turnover Rate in the radar chart?",
+            "A": "The value of Ramirez, Delgado and Lang on the Safety dimension is {88}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Williams Ltd across all dimensions in the radar chart?",
+            "A": "The maximum value of Williams Ltd across all dimensions is {81}."
+        },
+        {
+            "Q": "What is the minimum value of label Williams Ltd across all dimensions in the radar chart?",
+            "A": "The minimum value of Williams Ltd across all dimensions is {48}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Gross Margin",
+            "A": "The average value of Gross Margin is {54.5}."
+        },
+        {
+            "Q": "What is the average value of Williams Ltd",
+            "A": "The average value of Williams Ltd is {63.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 64 for the Self-Service Resolution Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Williams Ltd} is {60}"
+        },
+        {
+            "Q": "For Williams Ltd in the radar chart, which dimensions have scores above 80? Please list the dimensions and corresponding scores.",
+            "A": "{Self-Service Resolution Rate} is {81}, {Inventory Turnover Rate} is {88}"
+        },
+        {
+            "Q": "For Ramirez, Delgado and Lang in the radar chart, which dimensions have scores below 51? Please list the dimensions and corresponding scores.",
+            "A": "{Traffic Conversion Rate} is {45}, {Return on Investment (ROI)} is {42}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Williams Ltd, which dimension has a higher score: Return on Investment (ROI) or Self-Service Resolution Rate?",
+            "A": "{Self-Service Resolution Rate} has a higher score than Return on Investment (ROI) for Williams Ltd."
+        },
+        {
+            "Q": "For Williams Ltd, which dimension has a higher score: Inventory Turnover Rate or Traffic Conversion Rate?",
+            "A": "{Inventory Turnover Rate} has a higher score than Traffic Conversion Rate for Williams Ltd."
+        },
+        {
+            "Q": "On Gross Margin, which label has a higher score: Ramirez, Delgado and Lang or the Williams Ltd?",
+            "A": "{Williams Ltd} has a higher score on Gross Margin compared to Ramirez, Delgado and Lang."
+        },
+        {
+            "Q": "For Ramirez, Delgado and Lang, which dimension has a higher score: Traffic Conversion Rate or Gross Margin or Return on Investment (ROI)?",
+            "A": "{Return on Investment (ROI)} has a higher score for Ramirez, Delgado and Lang."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Williams Ltd, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Williams Ltd most needs to improve its {Return on Investment (ROI)}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Ramirez, Delgado and Lang}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Williams Ltd}."
+        }
+    ],
+    "VA": []
+}

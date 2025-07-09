@@ -1,0 +1,71 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {5} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {10} links."
+        },
+        {
+            "Q": "How many nodes link with node Urban Theater House?",
+            "A": "There are {4} nodes link with node Urban Theater House."
+        }
+    ],
+    "SRP": [],
+    "VPR": [],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Heritage Art Museum and node Modern Music Studio in this node-link chart?",
+            "A": "The relationship between node Heritage Art Museum and node Modern Music Studio is {festival_participation}."
+        },
+        {
+            "Q": "What is the relationship between node Folklore Exhibition Hall and node Urban Theater House in this node-link chart?",
+            "A": "The relationship between node Folklore Exhibition Hall and node Urban Theater House is {gallery_network}."
+        }
+    ],
+    "EVJ": [],
+    "SC": [
+        {
+            "Q": "How many links have the relation type gallery_network?",
+            "A": "There are {3} links with the relation type gallery_network."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Folklore Exhibition Hall, how many links are of type gallery_network?",
+            "A": "Node Folklore Exhibition Hall has {2} links of type gallery_network."
+        },
+        {
+            "Q": "Under node Global Culture Pavilion, how many links are of type festival_participation?",
+            "A": "Node Global Culture Pavilion has {1} links of type festival_participation."
+        },
+        {
+            "Q": "Under node Global Culture Pavilion, how many links are of type cross_cultural_event?",
+            "A": "Node Global Culture Pavilion has {2} links of type cross_cultural_event."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "Which node is considered the most important in the node link chart?",
+            "A": "The most important node is {Global Culture Pavilion}."
+        },
+        {
+            "Q": "Please list the top three nodes by degree and their corresponding degrees.",
+            "A": "The top three nodes by degree are: {node Global Culture Pavilion with a degree of 4}, {node Folklore Exhibition Hall with a degree of 4}, {node Urban Theater House with a degree of 4}."
+        },
+        {
+            "Q": "What is the shortest path from node Urban Theater House to node Heritage Art Museum in the node link diagram? Please list all nodes along this path in sequence.",
+            "A": "The shortest path from node Urban Theater House to node Heritage Art Museum is: {Urban Theater House to Heritage Art Museum}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {6} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Lakeview}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Pinehaven}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box Elmhurst?",
+            "A": "The first position to the left of the box Elmhurst is {Yorkton}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Yorkton relative to the box Pinehaven in terms of horizontal (left/right) direction?",
+            "A": "Box Yorkton is to the {left} of the box Pinehaven."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Lakeview}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Lakeview}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Yorkton}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Lakeview in the box plot?",
+            "A": "The median of Lakeview is {59052.5} tons."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Oakridge in the box plot?",
+            "A": "The lower quartile (Q1) of Oakridge is {41776.25} tons."
+        },
+        {
+            "Q": "What is the upper whisker limit of Oakridge in the box plot?",
+            "A": "The upper whisker limit of Oakridge is {106407} tons."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Creston in the box plot?",
+            "A": "The largest upper outlier value in Creston is {165622} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum tons value in the box plot?",
+            "A": "The global maximum tons value in the box plot is {168153.00} tons."
+        },
+        {
+            "Q": "What is the global minimum tons value in the box plot?",
+            "A": "The global minimum tons value in the box plot is {27005.00} tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Elmhurst and Creston?",
+            "A": "The Q3 difference between box Elmhurst and Creston is {6641.75} tons."
+        },
+        {
+            "Q": "What is the toal Q1 value of box Oakridge and Lakeview?",
+            "A": "The total Q1 value of box Oakridge and Lakeview is {90097.75} tons."
+        },
+        {
+            "Q": "What is the average Q3 value of box Pinehaven and Oakridge?",
+            "A": "The average Q3 value of box Pinehaven and Oakridge is {66402.25} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 135886.5 tons?",
+            "A": "Box{Lakeview},{Creston},{Elmhurst},{Oakridge},{Pinehaven} have the outliers exceed 135886.5 tons."
+        },
+        {
+            "Q": "Which boxes have median values exceed 53720.75 tons? Please list the boxes and corresponding values.",
+            "A": "{Lakeview} has {59052.5} tons , {Elmhurst} has {55140.0} tons "
+        },
+        {
+            "Q": "Which boxes have median values below 51912.25 tons? Please list the boxes and corresponding values.",
+            "A": "{Yorkton} has {49264.0} tons , {Oakridge} has {51523.0} tons , {Pinehaven} has {49285.5} tons "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Oakridge or Pinehaven ",
+            "A": "The median value of the {Oakridge} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Yorkton, Creston or Oakridge ",
+            "A": "The median value of the {Creston} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Oakridge, Lakeview, Pinehaven or Yorkton ",
+            "A": "The median value of the {Lakeview} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Elmhurst}."
+        }
+    ],
+    "VA": []
+}

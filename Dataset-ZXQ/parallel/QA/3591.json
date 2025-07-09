@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Equipment utilization (%) dimension, what is the spatial relationship of family  Potato relative to thought  Tomato in terms of vertical (above/below) direction?",
+            "A": "{family  Potato} is {above} {thought  Tomato} on the Equipment utilization (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Soil health index (1-10)?",
+            "A": "The first position to the left of Soil health index (1-10) is {Pesticide use (kg/ha)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Harvest frequency (per year)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Pesticide use (kg/ha)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Equipment utilization (%)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Pesticide use (kg/ha) and dimension Soil health index (1-10)",
+            "A": "There is {Weak Correlation} between Pesticide use (kg/ha) and Soil health index (1-10)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of which  Tomato on the Soil health index (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of which  Tomato on the Soil health index (1-10) dimension is {7.97}"
+        },
+        {
+            "Q": "What is the value of happen  Cotton on the Soil health index (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of happen  Cotton on the Soil health index (1-10) dimension is {5.18}"
+        },
+        {
+            "Q": "What is the value of happen  Cotton on the Equipment utilization (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of happen  Cotton on the Equipment utilization (%) dimension is {30.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label adult  Rice across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of adult  Rice across all dimensions is {84.22}"
+        },
+        {
+            "Q": "What is the minimum value of label adult  Rice across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of adult  Rice across all dimensions is {1.41}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Harvest frequency (per year)?",
+            "A": "The average value of Harvest frequency (per year) is {3.1}"
+        },
+        {
+            "Q": "What is the difference in coding Equipment utilization (%) between label happen  Cotton and label require  Corn",
+            "A": "The difference in coding Equipment utilization (%) between happen  Cotton and require  Corn is {5.91}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Equipment utilization (%) dimension in the parallel coordinates?",
+            "A": "{[100.0, 94.3, 84.22]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Equipment utilization (%) dimension in the parallel coordinates?",
+            "A": "{[30.0, 35.91, 45.57]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Pesticide use (kg/ha), which label has a higher score: which  Tomato or adult  Rice?",
+            "A": "{which  Tomato} has a higher score on Pesticide use (kg/ha)."
+        },
+        {
+            "Q": "On Pesticide use (kg/ha), which label has a higher score: family  Potato or thought  Tomato?",
+            "A": "{thought  Tomato} has a higher score on Pesticide use (kg/ha)."
+        },
+        {
+            "Q": "On Pesticide use (kg/ha), which label has a higher score: which  Tomato or family  Potato?",
+            "A": "{which  Tomato} has a higher score on Pesticide use (kg/ha)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Equipment utilization (%)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Equipment utilization (%) being greater than 56.58 and Pesticide use (kg/ha) being less than 13.03?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

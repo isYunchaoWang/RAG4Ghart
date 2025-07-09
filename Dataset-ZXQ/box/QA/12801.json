@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {2} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Echoes}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Fading Light}."
+        },
+        {
+            "Q": "Which box is the first position to the right of the box Echoes?",
+            "A": "The first position to the right of the box Echoes is {Fading Light}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Echoes relative to the box Fading Light in terms of horizontal (left/right) direction?",
+            "A": "Box Echoes is to the {left} of the box Fading Light."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Fading Light}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Fading Light}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Echoes}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Echoes in the box plot?",
+            "A": "The median of Echoes is {501.0} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Fading Light in the box plot?",
+            "A": "The upper quartile (Q3) of Fading Light is {717.5} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Echoes in the box plot?",
+            "A": "The upper whisker limit of Echoes is {653} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Echoes in the box plot?",
+            "A": "The largest upper outlier value in Echoes is {678} million USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the box plot?",
+            "A": "The global maximum million USD value in the box plot is {877.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the box plot?",
+            "A": "The global minimum million USD value in the box plot is {282.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between box Fading Light and Echoes?",
+            "A": "The Q1 difference between box Fading Light and Echoes is {100.5} million USD."
+        },
+        {
+            "Q": "What is the toal Median value of box Fading Light and Echoes?",
+            "A": "The total Median value of box Fading Light and Echoes is {1146.0} million USD."
+        },
+        {
+            "Q": "What is the average Q1 value of box Fading Light and Echoes?",
+            "A": "The average Q1 value of box Fading Light and Echoes is {500.25} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 610.2 million USD?",
+            "A": "Box{Echoes} have the outliers exceed 610.2 million USD."
+        },
+        {
+            "Q": "Which boxes have median values exceed 573.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Fading Light} has {645.0} million USD "
+        },
+        {
+            "Q": "Which boxes have median values below 573.00 million USD? Please list the boxes and corresponding values.",
+            "A": "{Echoes} has {501.0} million USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Echoes or Fading Light ",
+            "A": "The median value of the {Fading Light} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Fading Light}."
+        }
+    ],
+    "VA": []
+}

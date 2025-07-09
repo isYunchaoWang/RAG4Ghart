@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {15} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar Clearview of this stacked bar chart?",
+            "A": "There are {7} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {Oakvale}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {Stonehill}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Redstone relative to the bar Riverton in terms of horizontal (left/right) direction?",
+            "A": "Bar Redstone is to the {right} of the bar Riverton."
+        },
+        {
+            "Q": "In the stacked bar of Cedarburg, What is the spatial relationship of segment Technology relative to the segment Agriculture in terms of vertical (above/below) direction?",
+            "A": "Technology segment is positioned {below} the Agriculture segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Town has the highest bar in this stacked bar chart?",
+            "A": "The Town with the highest bar is {Glenwood}."
+        },
+        {
+            "Q": "Which Town has the lowest bar in this stacked bar chart?",
+            "A": "The Town with the lowest bar is {Westwood}."
+        },
+        {
+            "Q": "In the stacked bar representing Elmwood, which segment has the highest value?",
+            "A": "The segment with the highest value is {Transportation}."
+        },
+        {
+            "Q": "In the stacked bar representing Clearview, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {Technology}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Finance segment within the Glenwood bar in the stacked bar chart?",
+            "A": "The value of the Finance segment is {5000.00} number."
+        },
+        {
+            "Q": "What is the value of the Finance segment within the Lakewood bar in the stacked bar chart?",
+            "A": "The value of the Finance segment is {5000.00} number."
+        },
+        {
+            "Q": "What is the value of the Transportation segment within the Westwood bar in the stacked bar chart?",
+            "A": "The value of the Transportation segment is {1208.00} number."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum number among the stacked segments of bar Stonehill?",
+            "A": "The maximum number among the stacked segments of bar Stonehill is {2185} number."
+        },
+        {
+            "Q": "What is the minimum number among the stacked segments of bar Cedarburg?",
+            "A": "The minimum number among the stacked segments of bar Cedarburg is {550} number."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum number of the segment Technology among the bars?",
+            "A": "The maximum number among the bars of segment Technology is {4306} number."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum number of the segment Transportation among the bars?",
+            "A": "The minimum number among the bars of segment Transportation is {550} number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar Northfield?",
+            "A": "The total value of bar Northfield is {13959.00} number."
+        },
+        {
+            "Q": "What is the total value of the bar Redstone?",
+            "A": "The total value of bar Redstone is {8604.00} number."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {150362} number."
+        },
+        {
+            "Q": "What is the difference between total value of bar Hillcrest and Clearview?",
+            "A": "The difference between between total value of bar Hillcrest and Clearview is {4451} number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total number values exceed 14447.00 number? Please list the bar and corresponding values.",
+            "A": "{Lakewood} has {14935} number, {Glenwood} has {16387} number"
+        },
+        {
+            "Q": "Which bars have total number values below 5641.50 number? Please list the bar and corresponding values.",
+            "A": "{Westwood} has {5566} number"
+        },
+        {
+            "Q": "For bar Lakewood in the stacked bar chart, which segment have number value between 4653.0 and 5550? Please list the segment and corresponding values.",
+            "A": "{Finance} has {5000} number."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total number of Clearview or Oakvale?",
+            "A": "The total number of the {Clearview} is larger."
+        },
+        {
+            "Q": "Which is larger, the total number of Cedarburg, Pinecrest or Lakewood?",
+            "A": "The total number of the {Lakewood} is larger."
+        },
+        {
+            "Q": "In the bar Riverton, which has a larger number value: Hospitality or Technology?",
+            "A": "{Hospitality} has the larger number value."
+        },
+        {
+            "Q": "In the bar Pinecrest, which has a larger number value: Agriculture, Transportation or Hospitality?",
+            "A": "{Transportation} has the larger number value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment Energy in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment Energy are: {Oakvale}, {Stonehill}, {Glenwood}."
+        }
+    ],
+    "VA": []
+}

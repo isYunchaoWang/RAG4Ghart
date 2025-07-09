@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {6} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Burtonville?",
+            "A": "The next arc clockwise from arc Burtonville is arc {Williamhaven}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Burtonville?",
+            "A": "The next arc counterclockwise from arc Burtonville is arc {Hannah}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Quinnview} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Hannah} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Hannah to Williamhaven in the chord chart?",
+            "A": "The flow value is {772}."
+        },
+        {
+            "Q": "What is the flow value from Quinnview to Hannah in the chord chart?",
+            "A": "The flow value is {1149}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Quinnview and Lake Sherry in the chord chart?",
+            "A": "The maximum flow value between Quinnview and Lake Sherry is {710}."
+        },
+        {
+            "Q": "What is the minimum flow value between Williamhaven and Hannah in the chord chart?",
+            "A": "The minimum flow value between Williamhaven and Hannah is {772}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {1149}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {335}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Quinnview?",
+            "A": "The total flow output from Quinnview is {2802}."
+        },
+        {
+            "Q": "What is the total flow input by Burtonville?",
+            "A": "The total flow input by Burtonville is {1921}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 1001? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {1149} from {Quinnview} to {Hannah}, a flow of {1060} from {Hannah} to {Quinnview}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 373? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {335} from {Burtonville} to {Hannah}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 671 and 741? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {710} from {Quinnview} to {Lake Sherry}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Quinnview to Hannah or from Hannah to Quinnview?",
+            "A": "The flow from {Quinnview} to {Hannah} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Quinnview to Burtonville, from Hannah to Burtonville, or from Burtonville to Lake Sherry?",
+            "A": "The flow from {Quinnview} to {Burtonville} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Williamhaven}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Hannah} and {Quinnview}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Burtonville, Arc Quinnview, Arc Hannah, Arc Lake Sherry, Arc Williamhaven}."
+        }
+    ]
+}

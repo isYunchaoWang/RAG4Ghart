@@ -1,0 +1,58 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Research Fields,Research Outcomes,Funding Sources,Impact Areas
+Source,Target,Value
+Renewable Energy,Open-source Projects,2
+Renewable Energy,Prototypes,18
+Renewable Energy,Published Papers,5
+Renewable Energy,Patents,15
+Renewable Energy,Commercial Products,15
+Artificial Intelligence,Open-source Projects,32
+Artificial Intelligence,Prototypes,13
+Artificial Intelligence,Published Papers,5
+Artificial Intelligence,Patents,31
+Artificial Intelligence,Commercial Products,43
+Quantum Computing,Open-source Projects,27
+Quantum Computing,Prototypes,17
+Quantum Computing,Published Papers,21
+Quantum Computing,Patents,6
+Quantum Computing,Commercial Products,16
+Biotechnology,Open-source Projects,62
+Biotechnology,Prototypes,22
+Biotechnology,Published Papers,40
+Biotechnology,Patents,54
+Biotechnology,Commercial Products,15
+Nanotechnology,Open-source Projects,2
+Nanotechnology,Prototypes,1
+Nanotechnology,Published Papers,6
+Nanotechnology,Patents,9
+Nanotechnology,Commercial Products,5
+Space Exploration,Open-source Projects,19
+Space Exploration,Prototypes,3
+Space Exploration,Published Papers,17
+Space Exploration,Patents,27
+Space Exploration,Commercial Products,16
+Robotics,Open-source Projects,16
+Robotics,Prototypes,45
+Robotics,Published Papers,21
+Robotics,Patents,6
+Robotics,Commercial Products,36
+Open-source Projects,Corporate Sponsorship,69
+Open-source Projects,Private Investment,32
+Open-source Projects,Federal Grants,59
+Prototypes,Corporate Sponsorship,59
+Prototypes,Private Investment,14
+Prototypes,Federal Grants,46
+Published Papers,Corporate Sponsorship,52
+Published Papers,Private Investment,29
+Published Papers,Federal Grants,34
+Patents,Corporate Sponsorship,17
+Patents,Private Investment,28
+Patents,Federal Grants,103
+Commercial Products,Corporate Sponsorship,27
+Commercial Products,Private Investment,44
+Commercial Products,Federal Grants,75
+Corporate Sponsorship,Industrial Automation,160
+Corporate Sponsorship,Environment,64
+Private Investment,Industrial Automation,18
+Private Investment,Environment,129
+Federal Grants,Industrial Automation,165
+Federal Grants,Environment,152

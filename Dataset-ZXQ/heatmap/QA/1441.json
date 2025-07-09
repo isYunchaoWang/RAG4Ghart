@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {81} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {9} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {9} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {radial gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Language and Adoption in the heatmap?",
+            "A": "The heat value is {0.48}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to TV Shows and Localization in the heatmap?",
+            "A": "The heat value is {0.83}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to TV Shows and Critique in the heatmap?",
+            "A": "The heat value is {0.67}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Music and Diversity in the heatmap?",
+            "A": "The heat value is {0.73}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.84}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.17}."
+        },
+        {
+            "Q": "What is the maximum heat value of label TV Shows on the x-axis?",
+            "A": "The maximum heat value of TV Shows on the x-axis is {0.83}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Fashion on the x-axis?",
+            "A": "The maximum heat value of Fashion on the x-axis is {0.52}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Music on the x-axis?",
+            "A": "The average heat value for Music on the x-axis is {0.71}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to TV Shows and Innovation or the cell corresponding to Movies and Preservation?",
+            "A": "The cell corresponding to {TV Shows} and {Innovation} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Movies and Influence or the cell corresponding to Movies and Preservation?",
+            "A": "The cell corresponding to {Movies} and {Preservation} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Language and Diversity or the cell corresponding to Literature and Influence?",
+            "A": "The cell corresponding to {Literature} and {Influence} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.36 to 0.43?",
+            "A": "The cells are: {(Language, Accessibility), (Gaming, Adoption), (Fashion, Critique), (Cuisine, Influence), (Cuisine, Innovation), (Cuisine, Localization), (Cuisine, Preservation)}."
+        }
+    ],
+    "VA": []
+}

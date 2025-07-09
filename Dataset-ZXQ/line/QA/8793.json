@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Fusion Kitchens, what is the spatial relationship of the data point in 1984 relative to that in 1985 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Fusion Kitchens, the data point in 1984 is {below} and to the {left} of the data point in 1985."
+        },
+        {
+            "Q": "In 1982, what is the vertical (above/below) relationship of the line representing Rooftop Bars relative to Vegan Cafes?",
+            "A": "In 1982, Rooftop Bars is {above} Vegan Cafes in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Vegan Cafes's Restaurant Reservations levels?",
+            "A": "Vegan Cafes's restaurant reservations levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Fusion Kitchens's Restaurant Reservations levels?",
+            "A": "Fusion Kitchens's restaurant reservations levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Fine Dining's Restaurant Reservations levels?",
+            "A": "Fine Dining's restaurant reservations levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Casual Eateries's Restaurant Reservations levels?",
+            "A": "Casual Eateries's restaurant reservations levels show a {bimodal valley} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Vegan Cafes's Restaurant Reservations in 1982?",
+            "A": "Vegan Cafes's restaurant reservations in 1982 is {582.90} reservations/week."
+        },
+        {
+            "Q": "What is Casual Eateries's Restaurant Reservations in 1987?",
+            "A": "Casual Eateries's restaurant reservations in 1987 is {10.56} reservations/week."
+        },
+        {
+            "Q": "What is Rooftop Bars's Restaurant Reservations in 1986?",
+            "A": "Rooftop Bars's restaurant reservations in 1986 is {1539.90} reservations/week."
+        },
+        {
+            "Q": "What are the restaurant reservations of Family Restaurants, Rooftop Bars, and Fusion Kitchens in 1986?",
+            "A": "Family Restaurants's restaurant reservations is {827.50} reservations/week, Rooftop Bars's restaurant reservations is {1539.90} reservations/week, Fusion Kitchens's restaurant reservations is {2443.52} reservations/week."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Restaurant Reservations in the line chart?",
+            "A": "The global minimum restaurant reservations is {10.56} reservations/week."
+        },
+        {
+            "Q": "What is the global maximum Restaurant Reservations in the line chart?",
+            "A": "The global maximum restaurant reservations is {2462.70} reservations/week."
+        },
+        {
+            "Q": "What is the highest Restaurant Reservations level recorded for Casual Eateries?",
+            "A": "Casual Eateries reached approximately {10.56} reservations/week in {1982}."
+        },
+        {
+            "Q": "What is the lowest Restaurant Reservations level recorded for Casual Eateries?",
+            "A": "Casual Eateries's lowest recorded level is approximately {10.56} reservations/week in {1982}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Fusion Kitchens's Restaurant Reservations?",
+            "A": "The average value of Fusion Kitchens's restaurant reservations is {2362.46} reservations/week."
+        },
+        {
+            "Q": "What is the average value of Rooftop Bars's Restaurant Reservations?",
+            "A": "The average value of Rooftop Bars's restaurant reservations is {1573.31} reservations/week."
+        },
+        {
+            "Q": "What is the rate of change in Rooftop Bars's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of growth in Rooftop Bars's restaurant reservations is {11.81}%."
+        },
+        {
+            "Q": "What is the rate of change in Casual Eateries's Restaurant Reservations from the starting year to the final year?",
+            "A": "The rate of no change in Casual Eateries's restaurant reservations is {0.00}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1986, which line had Restaurant Reservations exceed 1362 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Rooftop Bars} had {1540} reservations/week, {Fusion Kitchens} had {2444} reservations/week."
+        },
+        {
+            "Q": "In the year 1983, which lines had Restaurant Reservations below 517 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Vegan Cafes} had {476} reservations/week, {Casual Eateries} had {11} reservations/week."
+        },
+        {
+            "Q": "In the year 1988, which lines had Restaurant Reservations between 597 and 1347 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Family Restaurants} had {676} reservations/week."
+        },
+        {
+            "Q": "In the year 1984, which line had Restaurant Reservations exceed 1362 reservations/week? Please list the lines and corresponding values.",
+            "A": "{Rooftop Bars} had {1505} reservations/week, {Fusion Kitchens} had {2438} reservations/week."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1985 and 1987, which line had the highest average Restaurant Reservations, Fusion Kitchens, Fine Dining, Casual Eateries, or Rooftop Bars?",
+            "A": "{Fusion Kitchens} had the highest average restaurant reservations."
+        },
+        {
+            "Q": "In 1988, which line had the highest Restaurant Reservations, Fusion Kitchens, Casual Eateries, Family Restaurants, or Vegan Cafes?",
+            "A": "In 1988, {Fusion Kitchens} had the highest restaurant reservations."
+        },
+        {
+            "Q": "Was Rooftop Bars's Restaurant Reservations in 1985 higher or lower than in 1986?",
+            "A": "The restaurant reservations in 1985 was {lower} than in 1986."
+        },
+        {
+            "Q": "Between 1988 and 1989, which line had the highest average Restaurant Reservations, Rooftop Bars, Fusion Kitchens, or Vegan Cafes?",
+            "A": "{Fusion Kitchens} had the highest average restaurant reservations."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Family Restaurants}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1988 and 1989?",
+            "A": "{Vegan Cafes} has the fastest average growth rate between 1988 and 1989."
+        },
+        {
+            "Q": "In which year did Vegan Cafes first surpass Fine Dining?",
+            "A": "Vegan Cafes first surpassed Fine Dining in the year {1988}."
+        },
+        {
+            "Q": "Which label had the leading restaurant reservations since 1987?",
+            "A": "Since 1987, {Fusion Kitchens} had the leading restaurant reservations."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Rooftop Bars. List the x-coordinates of data points to be preserved.(4 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1982, 1985, 1988, 1989}."
+        }
+    ]
+}

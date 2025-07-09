@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {95} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension CO2 emissions in the scatter plot?",
+            "A": "The maximum observed value in the CO2 emissions dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension CO2 emissions in the scatter plot?",
+            "A": "The minimum observed value in the CO2 emissions dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Species diversity in the scatter plot?",
+            "A": "The maximum observed value in the Species diversity dimension is {1000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Species diversity in the scatter plot?",
+            "A": "The minimum observed value in the Species diversity dimension is {1.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the CO2 emissions for all points?",
+            "A": "The average value of CO2 emissions for all points is {50.50}."
+        },
+        {
+            "Q": "What is the average value of the Species diversity for all points?",
+            "A": "The average value of Species diversity for all points is {508.81}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Species diversity values corresponding to the top 3 CO2 emissions values in the scatter plot?",
+            "A": "{240.73, 443.72, 177.28}."
+        },
+        {
+            "Q": "What are the Species diversity values corresponding to the bottom 3 CO2 emissions values in the scatter plot?",
+            "A": "{856.86, 1.00, 663.08}."
+        },
+        {
+            "Q": "What are the CO2 emissions values corresponding to the top 3 Species diversity values in the scatter plot?",
+            "A": "{46.29, 56.82, 41.02}."
+        },
+        {
+            "Q": "What are the CO2 emissions values corresponding to the bottom 3 Species diversity values in the scatter plot?",
+            "A": "{2.05, 79.99, 97.89}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 40.29 and 62.68 and Y coordinates between 526.76 and 781.91?",
+            "A": "There are {6} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(2.05, 1.00) and (46.29, 1000.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(44.18, 361.50) and (45.23, 363.10)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [39.23, 311.55, 50.18, 413.05] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (44.18, 361.50)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [72.17, 88.96, 97.76, 336.58]; Region B: [31.91, 238.49, 57.50, 486.11]; Region C: [46.95, 734.73, 72.54, 982.35]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region B."
+        }
+    ]
+}

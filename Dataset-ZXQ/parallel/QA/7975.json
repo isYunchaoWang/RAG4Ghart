@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Average length of stay (days) dimension, what is the spatial relationship of Martinez PLC  Clinic relative to Jackson, Mills and Martin  Medical Center in terms of vertical (above/below) direction?",
+            "A": "{Martinez PLC  Clinic} is {below} {Jackson, Mills and Martin  Medical Center} on the Average length of stay (days) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Preventive care rate (%)?",
+            "A": "The second position to the left of Preventive care rate (%) is {Staff-to-patient ratio (per shift)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Average length of stay (days)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Staff-to-patient ratio (per shift)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Wait time (minutes)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Medication error rate (per 1000) and dimension Average length of stay (days)",
+            "A": "There is {Weak Correlation} between Medication error rate (per 1000) and Average length of stay (days)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Miller Inc  Hospital on the Staff-to-patient ratio (per shift) dimension in the parallel-coordinates chart?",
+            "A": "The value of Miller Inc  Hospital on the Staff-to-patient ratio (per shift) dimension is {9.72}"
+        },
+        {
+            "Q": "What is the value of Copeland-Barber  Hospital on the Medication error rate (per 1000) dimension in the parallel-coordinates chart?",
+            "A": "The value of Copeland-Barber  Hospital on the Medication error rate (per 1000) dimension is {11.33}"
+        },
+        {
+            "Q": "What is the value of Copeland-Barber  Hospital on the Readmission rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Copeland-Barber  Hospital on the Readmission rate (%) dimension is {20.02}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Copeland-Barber  Hospital across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Copeland-Barber  Hospital across all dimensions is {240.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Williams and Sons  Medical Center across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Williams and Sons  Medical Center across all dimensions is {8.24}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Staff-to-patient ratio (per shift)?",
+            "A": "The average value of Staff-to-patient ratio (per shift) is {13.12}"
+        },
+        {
+            "Q": "What is the difference in coding Wait time (minutes) between label Martinez PLC  Clinic and label Miller Inc  Hospital",
+            "A": "The difference in coding Wait time (minutes) between Martinez PLC  Clinic and Miller Inc  Hospital is {182.62}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Readmission rate (%) dimension in the parallel coordinates?",
+            "A": "{[25.0, 20.02, 15.66]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Average length of stay (days) dimension in the parallel coordinates?",
+            "A": "{[1.0, 1.83, 2.03]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Preventive care rate (%), which label has a higher score: Copeland-Barber  Hospital or Williams and Sons  Medical Center?",
+            "A": "{Copeland-Barber  Hospital} has a higher score on Preventive care rate (%)."
+        },
+        {
+            "Q": "On Average length of stay (days), which label has a higher score: Jackson, Mills and Martin  Medical Center or Copeland-Barber  Hospital?",
+            "A": "{Jackson, Mills and Martin  Medical Center} has a higher score on Average length of stay (days)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Wait time (minutes)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Readmission rate (%) being greater than 16.28 and Wait time (minutes) being less than 167.75?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

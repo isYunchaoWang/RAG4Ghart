@@ -1,0 +1,82 @@
+Real Estate and Housing Market,the Trends of Real Estate and Housing Market,9x9,diagonal
+Appraisal,Affordability,0.17
+Commercial,Affordability,0.26
+Construction,Affordability,0.37
+Industrial,Affordability,0.47
+Mortgages,Affordability,0.58
+Property Management,Affordability,0.68
+REITs,Affordability,0.78
+Rental,Affordability,0.87
+Residential,Affordability,0.96
+Appraisal,Age,0.26
+Commercial,Age,0.36
+Construction,Age,0.46
+Industrial,Age,0.57
+Mortgages,Age,0.67
+Property Management,Age,0.77
+REITs,Age,0.86
+Rental,Age,0.94
+Residential,Age,0.86
+Appraisal,Condition,0.37
+Commercial,Condition,0.45
+Construction,Condition,0.57
+Industrial,Condition,0.67
+Mortgages,Condition,0.77
+Property Management,Condition,0.86
+REITs,Condition,0.94
+Rental,Condition,0.86
+Residential,Condition,0.78
+Appraisal,Demand,0.46
+Commercial,Demand,0.56
+Construction,Demand,0.66
+Industrial,Demand,0.77
+Mortgages,Demand,0.85
+Property Management,Demand,0.94
+REITs,Demand,0.86
+Rental,Demand,0.77
+Residential,Demand,0.68
+Appraisal,Interest Rates,0.57
+Commercial,Interest Rates,0.67
+Construction,Interest Rates,0.78
+Industrial,Interest Rates,0.86
+Mortgages,Interest Rates,0.94
+Property Management,Interest Rates,0.86
+REITs,Interest Rates,0.77
+Rental,Interest Rates,0.66
+Residential,Interest Rates,0.58
+Appraisal,Inventory,0.67
+Commercial,Inventory,0.77
+Construction,Inventory,0.86
+Industrial,Inventory,0.94
+Mortgages,Inventory,0.86
+Property Management,Inventory,0.78
+REITs,Inventory,0.66
+Rental,Inventory,0.56
+Residential,Inventory,0.47
+Appraisal,Location,0.78
+Commercial,Location,0.86
+Construction,Location,0.94
+Industrial,Location,0.86
+Mortgages,Location,0.77
+Property Management,Location,0.67
+REITs,Location,0.57
+Rental,Location,0.46
+Residential,Location,0.37
+Appraisal,Market Trends,0.87
+Commercial,Market Trends,0.94
+Construction,Market Trends,0.86
+Industrial,Market Trends,0.77
+Mortgages,Market Trends,0.66
+Property Management,Market Trends,0.56
+REITs,Market Trends,0.46
+Rental,Market Trends,0.36
+Residential,Market Trends,0.26
+Appraisal,Price,0.97
+Commercial,Price,0.86
+Construction,Price,0.78
+Industrial,Price,0.67
+Mortgages,Price,0.58
+Property Management,Price,0.47
+REITs,Price,0.37
+Rental,Price,0.26
+Residential,Price,0.16

@@ -1,0 +1,24 @@
+Food and Beverage Industry,Food Industry Distribution by Category (2021),%
+parent,child,value
+,Processing Lines,45.01
+Processing Lines,Thermal Systems,45.01
+Thermal Systems,Retort Machines,6.26
+Thermal Systems,Blast Chillers,38.75
+Blast Chillers,Refrigeration Circuits,38.75
+Refrigeration Circuits,Compressor Types,38.75
+Compressor Types,Scroll Compressors,6.51
+Compressor Types,Screw Compressors,32.24
+,Packaging Systems,54.99
+Packaging Systems,Filling Machines,12.46
+Filling Machines,Volumetric,5.14
+Volumetric,Piston Fillers,5.14
+Piston Fillers,Seal Mechanisms,5.14
+Filling Machines,Gravimetric,7.32
+Gravimetric,Load Cells,7.32
+Load Cells,Calibration,7.32
+Packaging Systems,Sealing Equipment,42.53
+Sealing Equipment,Aseptic Sealers,42.53
+Aseptic Sealers,H2O2 Sterilization,42.53
+H2O2 Sterilization,Vapor Control,42.53
+Vapor Control,Catalytic Converters,9.36
+Vapor Control,Condensation Traps,33.17

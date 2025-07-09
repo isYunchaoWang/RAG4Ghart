@@ -1,7 +1,0 @@
-﻿Real Estate and Housing Market,Property Characteristics of Different House
-labels,Days on market (days),Year built (year),Bathroom count (units),Energy efficiency rating (1-10),Bedroom count (units),Walk score (0-100),Square footage (sq ft)
-Pattern,Clustering,Strong Correlation,No Correlation,No Correlation,Weak Correlation,Clustering
-leave Cottage,171.06,1903.62,1.0,4.25,5.91,100.0,500.0
-must Cottage,1.0,1901.67,3.49,10.0,3.86,99.89,6176.42
-nation Mansion,238.77,2023.0,1.71,5.78,6.0,93.09,10000.0
-various Mansion,365.0,1800.0,5.0,1.0,1.0,0.0,4344.17

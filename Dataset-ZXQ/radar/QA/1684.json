@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Operating Cost Ratio?",
+            "A": "The next dimension clockwise from Operating Cost Ratio is Market Share Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Operating Cost Ratio?",
+            "A": "The next dimension counterclockwise from Operating Cost Ratio is Current Ratio."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Operating Cost Ratio} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Davies Group?",
+            "A": "The strongest aspect is {Operating Cost Ratio}, while the weakest aspect is{ Market Share Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Davies Group on the Current Ratio in the radar chart?",
+            "A": "The value of Davies Group on the Safety dimension is {89}."
+        },
+        {
+            "Q": "What is the value of Davies Group on the Market Share Rate in the radar chart?",
+            "A": "The value of Davies Group on the Safety dimension is {29}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Davies Group across all dimensions in the radar chart?",
+            "A": "The maximum value of Davies Group across all dimensions is {55}."
+        },
+        {
+            "Q": "What is the minimum value of label Davies Group across all dimensions in the radar chart?",
+            "A": "The minimum value of Davies Group across all dimensions is {55}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Current Ratio",
+            "A": "The average value of Current Ratio is {89.0}."
+        },
+        {
+            "Q": "What is the average value of Davies Group",
+            "A": "The average value of Davies Group is {68.6}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Davies Group in the radar chart, which dimensions have scores below 41? Please list the dimensions and corresponding scores.",
+            "A": "{Market Share Rate} is {29}"
+        },
+        {
+            "Q": "For Davies Group in the radar chart, which dimensions have scores above 78? Please list the dimensions and corresponding scores.",
+            "A": "{Net Profit Margin} is {80}, {Current Ratio} is {89}, {Operating Cost Ratio} is {90}"
+        },
+        {
+            "Q": "Which labels have scores below 55 for the Customer Retention Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Davies Group} is {55}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Davies Group, which dimension has a higher score: Net Profit Margin or Customer Retention Rate?",
+            "A": "{Net Profit Margin} has a higher score than Customer Retention Rate for Davies Group."
+        },
+        {
+            "Q": "For Davies Group, which dimension has a higher score: Customer Retention Rate or Net Profit Margin?",
+            "A": "{Net Profit Margin} has a higher score than Customer Retention Rate for Davies Group."
+        },
+        {
+            "Q": "For Davies Group, which dimension has a higher score: Operating Cost Ratio or Net Profit Margin or Current Ratio?",
+            "A": "{Operating Cost Ratio} has a higher score for Davies Group."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Davies Group, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Davies Group most needs to improve its {Market Share Rate}."
+        }
+    ],
+    "VA": []
+}

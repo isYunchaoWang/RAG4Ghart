@@ -1,0 +1,98 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Machine Learning in this treemap?",
+            "A": "There are {1} child rectangles under the category Machine Learning."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Traffic Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Multi-Point}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Traffic Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Uniform rectangle in this treemap?",
+            "A": "The value of the Uniform rectangle is {8.25}."
+        },
+        {
+            "Q": "What is the value of the Crossover Operators rectangle in this treemap?",
+            "A": "The value of the Crossover Operators rectangle is {15.41}."
+        },
+        {
+            "Q": "What is the value of the Machine Learning rectangle in this treemap?",
+            "A": "The value of the Machine Learning rectangle is {30.53}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {7.16}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Multi-Point and Velocity Update?",
+            "A": "The difference between Multi-Point and Velocity Update is {1.59}."
+        },
+        {
+            "Q": "What is the sum of the regions of Genetic Algorithms and Public Transit?",
+            "A": "The sum of Genetic Algorithms and Public Transit is {39.57}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Machine Learning category in the treemap, which rectangular labels have a value exceeded 30.52? Please list the labels and values.",
+            "A": "{Q-Learning} has {30.53}"
+        },
+        {
+            "Q": "Under the Machine Learning category in the treemap, which rectangular labels have a value below 30.54? Please list the labels and values.",
+            "A": "{Q-Learning} has {30.53}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Traffic Systems or Signal Control?",
+            "A": "The value of {Traffic Systems} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Signal Control, Adaptive Systems, or Fuzzy Logic?",
+            "A": "The value of {Fuzzy Logic} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Adaptive Systems or Membership Functions?",
+            "A": "The value of {Adaptive Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Traffic Systems, Signal Control, or Adaptive Systems?",
+            "A": "The value of {Traffic Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

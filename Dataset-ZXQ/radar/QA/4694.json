@@ -1,0 +1,135 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Renewable Energy Investment Ratio?",
+            "A": "The next dimension clockwise from Renewable Energy Investment Ratio is Patent Growth Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Market Share?",
+            "A": "The next dimension counterclockwise from Renewable Energy Investment Ratio is Market Share."
+        },
+        {
+            "Q": "On the Patent Growth Rate, is the point for Kennedy, Wong and Liu inside or outside the point for Davies-Snow?",
+            "A": "On the Patent Growth Rate, the point for Kennedy, Wong and Liu is inside the point for Davies-Snow."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Energy Conversion Efficiency} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Kennedy, Wong and Liu?",
+            "A": "The strongest aspect is {Energy Conversion Efficiency}, while the weakest aspect is{ Market Share}."
+        },
+        {
+            "Q": "On dimension Market Share, which label scores the highest?",
+            "A": "On Market Share, label {Davies-Snow} scores the highest."
+        },
+        {
+            "Q": "On dimension Market Share, which label scores the highest?",
+            "A": "On Market Share, label {Davies-Snow} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Davies-Snow on the Energy Conversion Efficiency in the radar chart?",
+            "A": "The value of Davies-Snow on the Safety dimension is {48}."
+        },
+        {
+            "Q": "What is the value of Davies-Snow on the Market Share in the radar chart?",
+            "A": "The value of Davies-Snow on the Safety dimension is {24}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Kennedy, Wong and Liu across all dimensions in the radar chart?",
+            "A": "The maximum value of Kennedy, Wong and Liu across all dimensions is {48}."
+        },
+        {
+            "Q": "What is the minimum value of label Alvarez, Lawson and Wood across all dimensions in the radar chart?",
+            "A": "The minimum value of Alvarez, Lawson and Wood across all dimensions is {68}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Energy Conversion Efficiency",
+            "A": "The average value of Energy Conversion Efficiency is {57.0}."
+        },
+        {
+            "Q": "What is the average value of Alvarez, Lawson and Wood",
+            "A": "The average value of Alvarez, Lawson and Wood is {56.0}."
+        },
+        {
+            "Q": "What is the difference in Renewable Energy Investment Ratio between Alvarez, Lawson and Wood and Kennedy, Wong and Liu?",
+            "A": "The difference in Renewable Energy Investment Ratio between Alvarez, Lawson and Wood and Kennedy, Wong and Liu is {18}."
+        },
+        {
+            "Q": "What is the difference in Patent Growth Rate between Alvarez, Lawson and Wood and Davies-Snow?",
+            "A": "The difference in Patent Growth Rate between Alvarez, Lawson and Wood and Davies-Snow is {33}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores above 66 for the Energy Conversion Efficiency dimension? Please list the labels and corresponding scores.",
+            "A": "{Kennedy, Wong and Liu} is {71}"
+        },
+        {
+            "Q": "For Alvarez, Lawson and Wood in the radar chart, which dimensions have scores between 37 and 64? Please list the dimensions and corresponding scores.",
+            "A": "{R&D Investment Ratio} is {63}, {Energy Conversion Efficiency} is {52}, {Market Share} is {57}, {Renewable Energy Investment Ratio} is {52}, {Patent Growth Rate} is {56}"
+        },
+        {
+            "Q": "Which labels have scores below 31 for the Market Share dimension? Please list the labels and corresponding scores.",
+            "A": "{Davies-Snow} is {24}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Davies-Snow, which dimension has a higher score: Energy Conversion Efficiency or Renewable Energy Investment Ratio?",
+            "A": "{Renewable Energy Investment Ratio} has a higher score than Energy Conversion Efficiency for Davies-Snow."
+        },
+        {
+            "Q": "On R&D Investment Ratio, which label has a higher score: Kennedy, Wong and Liu or the Alvarez, Lawson and Wood?",
+            "A": "{Kennedy, Wong and Liu} has a higher score on R&D Investment Ratio compared to Alvarez, Lawson and Wood."
+        },
+        {
+            "Q": "On Patent Growth Rate, which label has a higher score: Davies-Snow or the Kennedy, Wong and Liu?",
+            "A": "{Davies-Snow} has a higher score on Patent Growth Rate compared to Kennedy, Wong and Liu."
+        },
+        {
+            "Q": "For Davies-Snow, which dimension has a higher score: Patent Growth Rate or R&D Investment Ratio or Energy Conversion Efficiency?",
+            "A": "{Patent Growth Rate} has a higher score for Davies-Snow."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Davies-Snow, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Davies-Snow most needs to improve its {Market Share}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Kennedy, Wong and Liu}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Alvarez, Lawson and Wood}."
+        }
+    ],
+    "VA": []
+}

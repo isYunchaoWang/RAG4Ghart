@@ -1,0 +1,20 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1137.4 756 1217.4 756" fill="none" stroke="#000000"></polyline>
+<polyline points="1017.6 972.4 1097.6 972.4" fill="none" stroke="#000000"></polyline>
+<polyline points="962.3 1188.8 1042.3 1188.8" fill="none" stroke="#000000"></polyline>
+<polyline points="1410.8 323.2 1490.8 323.2" fill="none" stroke="#000000"></polyline>
+<polyline points="1272.6 539.6 1352.6 539.6" fill="none" stroke="#000000"></polyline>
+<polygon points="526.1 648.8 1201.9 648.8 1072.9 863.2 655.1 863.2" fill="#FFD27F" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="655.1 865.2 1072.9 865.2 962.3 1079.6 765.7 1079.6" fill="#FFC04A" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="765.7 1081.6 962.3 1081.6 962.3 1296 765.7 1296" fill="#FFAE14" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="249.6 216 1478.4 216 1343.2 430.4 384.8 430.4" fill="#FFF5E1" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="384.8 432.4 1343.2 432.4 1201.9 646.8 526.1 646.8" fill="#FFE4B5" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1222.4080000000001" y="756" fill="#000000">Complete the first lesson: 55%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1102.6000000000001" y="972.3999999999999" fill="#000000">Complete the assignment: 34%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1047.304" y="1188.8" fill="#000000">Pass the final test: 16%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1495.816" y="323.2" fill="#000000">Register Learning Platform: 100%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1357.576" y="539.5999999999999" fill="#000000">Register Courses: 78%</text>
+<path d="M-324.2539 -5l648.5078 0l0 58l-648.5078 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Online Learning Progression (%)</text>
+</svg>

@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Allergen-free options (%) dimension, what is the spatial relationship of Perry-Wood  Diner relative to Henderson Group  Steakhouse in terms of vertical (above/below) direction?",
+            "A": "{Perry-Wood  Diner} is {above} {Henderson Group  Steakhouse} on the Allergen-free options (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the fourth position to the left of dimension Shelf life (days)?",
+            "A": "The fourth position to the left of Shelf life (days) is {Organic content (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Nutritional value (1-10)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Organic content (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Shelf life (days)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Freshness score (1-10) and dimension Allergen-free options (%)",
+            "A": "There is {Clustering} between Freshness score (1-10) and Allergen-free options (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Rasmussen-Kelly  Brasserie on the Organic content (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Rasmussen-Kelly  Brasserie on the Organic content (%) dimension is {13.84}"
+        },
+        {
+            "Q": "What is the value of Perry-Wood  Diner on the Shelf life (days) dimension in the parallel-coordinates chart?",
+            "A": "The value of Perry-Wood  Diner on the Shelf life (days) dimension is {365.0}"
+        },
+        {
+            "Q": "What is the value of Rasmussen-Kelly  Brasserie on the Allergen-free options (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Rasmussen-Kelly  Brasserie on the Allergen-free options (%) dimension is {13.73}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Perry-Wood  Diner across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Perry-Wood  Diner across all dimensions is {365.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Henderson Group  Steakhouse across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Henderson Group  Steakhouse across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Taste rating (1-10)?",
+            "A": "The average value of Taste rating (1-10) is {7.55}"
+        },
+        {
+            "Q": "What is the difference in coding Shelf life (days) between label Rasmussen-Kelly  Brasserie and label Davenport and Sons  Café",
+            "A": "The difference in coding Shelf life (days) between Rasmussen-Kelly  Brasserie and Davenport and Sons  Café is {45.67}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Nutritional value (1-10) dimension in the parallel coordinates?",
+            "A": "{[10.0, 5.81, 5.07]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Shelf life (days) dimension in the parallel coordinates?",
+            "A": "{[1.0, 139.5, 238.84]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Allergen-free options (%), which label has a higher score: Rasmussen-Kelly  Brasserie or Brown-Moore  Brasserie?",
+            "A": "{Brown-Moore  Brasserie} has a higher score on Allergen-free options (%)."
+        },
+        {
+            "Q": "On Freshness score (1-10), which label has a higher score: Davenport and Sons  Café or Brown-Moore  Brasserie?",
+            "A": "{Brown-Moore  Brasserie} has a higher score on Freshness score (1-10)."
+        },
+        {
+            "Q": "On Nutritional value (1-10), which label has a higher score: Brown-Moore  Brasserie or Rasmussen-Kelly  Brasserie?",
+            "A": "{Rasmussen-Kelly  Brasserie} has a higher score on Nutritional value (1-10)."
+        },
+        {
+            "Q": "On Shelf life (days), which label has a higher score: Rasmussen-Kelly  Brasserie or Perry-Wood  Diner?",
+            "A": "{Perry-Wood  Diner} has a higher score on Shelf life (days)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Shelf life (days)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Taste rating (1-10) being greater than 6.79 and Organic content (%) being less than 43.47?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

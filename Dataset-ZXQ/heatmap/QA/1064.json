@@ -1,0 +1,97 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {81} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {9} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {9} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {uniform} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Tax and Liquidity in the heatmap?",
+            "A": "The heat value is {0.46}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Investments and Liabilities in the heatmap?",
+            "A": "The heat value is {0.46}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Financial Tech and Expenses in the heatmap?",
+            "A": "The heat value is {0.44}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.47}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.43}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Profit on the y-axis?",
+            "A": "The maximum heat value for Profit on the y-axis is {0.47}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Insurance on the x-axis?",
+            "A": "The maximum heat value of Insurance on the x-axis is {0.47}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Profit on the y-axis?",
+            "A": "The average heat value for Profit on the y-axis is {0.45}."
+        },
+        {
+            "Q": "What is the average heat value for label Liabilities on the y-axis?",
+            "A": "The average heat value for Liabilities on the y-axis is {0.45}."
+        },
+        {
+            "Q": "What is the average heat value for label Liquidity on the y-axis?",
+            "A": "The average heat value for Liquidity on the y-axis is {0.46}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Accounting and Assets or the cell corresponding to Financial Tech and Risk?",
+            "A": "The cell corresponding to {Financial Tech} and {Risk} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Banking and Expenses or the cell corresponding to Accounting and Profit?",
+            "A": "The cell corresponding to {Banking} and {Expenses} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Insurance and Liabilities or the cell corresponding to Financial Tech and Liquidity?",
+            "A": "The cell corresponding to {Insurance} and {Liabilities} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.45 to 0.46?",
+            "A": "The cells are: {(Accounting, Assets), (Real Estate, Assets), (Tax, Assets), (Accounting, Equity), (Banking, Equity), (Investments, Equity), (Tax, Equity), (Investments, Expenses), (Real Estate, Expenses), (Banking, Growth), (Consulting, Growth), (Tax, Growth), (Banking, Liabilities), (Insurance, Liabilities), (Investments, Liabilities), (Tax, Liabilities), (Insurance, Liquidity), (Tax, Liquidity), (Financial Tech, Market Share), (Insurance, Market Share), (Investments, Market Share), (Consulting, Risk)}."
+        }
+    ],
+    "VA": []
+}

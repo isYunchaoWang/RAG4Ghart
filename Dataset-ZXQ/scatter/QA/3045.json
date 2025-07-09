@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {94} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension GDP growth in the scatter plot?",
+            "A": "The maximum observed value in the GDP growth dimension is {10.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension GDP growth in the scatter plot?",
+            "A": "The minimum observed value in the GDP growth dimension is {-5.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Housing starts in the scatter plot?",
+            "A": "The maximum observed value in the Housing starts dimension is {200000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Housing starts in the scatter plot?",
+            "A": "The minimum observed value in the Housing starts dimension is {50000.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the GDP growth for all points?",
+            "A": "The average value of GDP growth for all points is {2.50}."
+        },
+        {
+            "Q": "What is the average value of the Housing starts for all points?",
+            "A": "The average value of Housing starts for all points is {143215.52}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Housing starts values corresponding to the top 3 GDP growth values in the scatter plot?",
+            "A": "{179179.87, 147880.75, 190941.84}."
+        },
+        {
+            "Q": "What are the Housing starts values corresponding to the bottom 3 GDP growth values in the scatter plot?",
+            "A": "{172344.31, 167376.36, 116296.78}."
+        },
+        {
+            "Q": "What are the GDP growth values corresponding to the top 3 Housing starts values in the scatter plot?",
+            "A": "{4.03, 8.06, 9.68}."
+        },
+        {
+            "Q": "What are the GDP growth values corresponding to the bottom 3 Housing starts values in the scatter plot?",
+            "A": "{1.13, -2.10, -3.87}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 5.33 and 8.54 and Y coordinates between 65376.97 and 108765.00?",
+            "A": "There are {1} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(1.13, 50000.00) and (4.03, 200000.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(1.61, 150900.95) and (5.16, 150902.42)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [-0.16, 143400.95, 6.94, 158402.42] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (1.61, 150900.95)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [2.00, 81972.63, 6.03, 110323.25]; Region B: [-2.12, 65921.17, 1.90, 94271.80]; Region C: [1.37, 136726.37, 5.40, 165077.00]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

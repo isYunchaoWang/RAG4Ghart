@@ -1,0 +1,8 @@
+Healthcare and Health, Medical Referral Flow, Patients, normal
+Source,Target,Value
+Specialist Hospital,Emergency Medical Center,100
+Emergency Medical Center,Specialist Hospital,280
+Specialist Hospital,Geriatric Care Hospital,525
+Geriatric Care Hospital,Specialist Hospital,670
+Geriatric Care Hospital,Emergency Medical Center,531
+Emergency Medical Center,Geriatric Care Hospital,281

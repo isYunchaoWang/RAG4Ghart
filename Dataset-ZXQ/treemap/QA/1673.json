@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Gallery Shows in this treemap?",
+            "A": "There are {2} child rectangles under the category Gallery Shows."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Cultural Activities}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Auction Houses}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Cultural Activities}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Art Funds rectangle in this treemap?",
+            "A": "The value of the Art Funds rectangle is {8.59}."
+        },
+        {
+            "Q": "What is the value of the Artwork Sales rectangle in this treemap?",
+            "A": "The value of the Artwork Sales rectangle is {31.18}."
+        },
+        {
+            "Q": "What is the value of the Art Fairs rectangle in this treemap?",
+            "A": "The value of the Art Fairs rectangle is {6.47}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {68.82}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.1}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Art Fairs and Art Collectives?",
+            "A": "The difference between Art Fairs and Art Collectives is {26.43}."
+        },
+        {
+            "Q": "What is the sum of the regions of Primary Market and Collaborative Projects?",
+            "A": "The sum of Primary Market and Collaborative Projects is {25.54}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Gallery Shows category in the treemap, which rectangular labels have a value exceeded 32.66? Please list the labels and values.",
+            "A": "{Group Exhibitions} has {40.95}"
+        },
+        {
+            "Q": "Under the Gallery Shows category in the treemap, which rectangular labels have a value below 16.07? Please list the labels and values.",
+            "A": "{Solo Exhibitions} has {7.77}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Cultural Activities, Art Exhibitions, or Gallery Shows?",
+            "A": "The value of {Cultural Activities} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Cultural Activities or Art Exhibitions?",
+            "A": "The value of {Cultural Activities} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {11} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

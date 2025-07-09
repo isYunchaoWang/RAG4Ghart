@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {78} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {no correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Checkout time in the scatter plot?",
+            "A": "The maximum observed value in the Checkout time dimension is {10.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Checkout time in the scatter plot?",
+            "A": "The minimum observed value in the Checkout time dimension is {0.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Return rate in the scatter plot?",
+            "A": "The maximum observed value in the Return rate dimension is {20.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Return rate in the scatter plot?",
+            "A": "The minimum observed value in the Return rate dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Checkout time for all points?",
+            "A": "The average value of Checkout time for all points is {5.00}."
+        },
+        {
+            "Q": "What is the average value of the Return rate for all points?",
+            "A": "The average value of Return rate for all points is {11.16}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Return rate values corresponding to the top 3 Checkout time values in the scatter plot?",
+            "A": "{6.73, 16.10, 16.36}."
+        },
+        {
+            "Q": "What are the Return rate values corresponding to the bottom 3 Checkout time values in the scatter plot?",
+            "A": "{12.38, 11.86, 9.46}."
+        },
+        {
+            "Q": "What are the Checkout time values corresponding to the top 3 Return rate values in the scatter plot?",
+            "A": "{0.91, 1.30, 9.09}."
+        },
+        {
+            "Q": "What are the Checkout time values corresponding to the bottom 3 Return rate values in the scatter plot?",
+            "A": "{5.84, 0.52, 6.23}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 5.13 and 7.22 and Y coordinates between 4.50 and 7.74?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(0.91, 20.00) and (5.84, 0.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(2.34, 13.09) and (2.60, 13.21)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [1.84, 12.09, 3.10, 14.21] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (2.34, 13.09)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [5.50, 9.42, 7.79, 15.40]; Region B: [3.38, 1.44, 5.67, 7.42]; Region C: [1.32, 10.16, 3.62, 16.14]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

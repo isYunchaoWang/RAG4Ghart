@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Overtime hours/month(hours) dimension, what is the spatial relationship of Anderson, Robinson and Little relative to Davis, Moon and Richards in terms of vertical (above/below) direction?",
+            "A": "{Anderson, Robinson and Little} is {above} {Davis, Moon and Richards} on the Overtime hours/month(hours) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Remote work allowance (days/week)?",
+            "A": "The first position to the left of Remote work allowance (days/week) is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Pay equity ratio (ratio)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Bonus percentage (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Benefits cost (USD/year) and dimension Remote work allowance (days/week)",
+            "A": "There is {No Correlation} between Benefits cost (USD/year) and Remote work allowance (days/week)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Hall-Williams on the Pay equity ratio (ratio) dimension in the parallel-coordinates chart?",
+            "A": "The value of Hall-Williams on the Pay equity ratio (ratio) dimension is {0.89}"
+        },
+        {
+            "Q": "What is the value of Anderson, Robinson and Little on the Overtime hours/month(hours) dimension in the parallel-coordinates chart?",
+            "A": "The value of Anderson, Robinson and Little on the Overtime hours/month(hours) dimension is {40.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Hall-Williams across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Hall-Williams across all dimensions is {4817.35}"
+        },
+        {
+            "Q": "What is the minimum value of label Cole, Murray and Henry across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Cole, Murray and Henry across all dimensions is {1.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Remote work allowance (days/week)?",
+            "A": "The average value of Remote work allowance (days/week) is {2.65}"
+        },
+        {
+            "Q": "What is the difference in coding Pay equity ratio (ratio) between label Hall-Williams and label Anderson, Robinson and Little",
+            "A": "The difference in coding Pay equity ratio (ratio) between Hall-Williams and Anderson, Robinson and Little is {0.31}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Overtime hours/month(hours) dimension in the parallel coordinates?",
+            "A": "{[40.0, 18.37, 10.04]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Benefits cost (USD/year) dimension in the parallel coordinates?",
+            "A": "{[1000.0, 4817.35, 7233.38]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Remote work allowance (days/week), which label has a higher score: Davis, Moon and Richards or Ortega-Wright?",
+            "A": "{Ortega-Wright} has a higher score on Remote work allowance (days/week)."
+        },
+        {
+            "Q": "On Bonus percentage (%), which label has a higher score: Davis, Moon and Richards or Ortega-Wright?",
+            "A": "{Davis, Moon and Richards} has a higher score on Bonus percentage (%)."
+        },
+        {
+            "Q": "On Bonus percentage (%), which label has a higher score: Anderson, Robinson and Little or Davis, Moon and Richards?",
+            "A": "{Davis, Moon and Richards} has a higher score on Bonus percentage (%)."
+        },
+        {
+            "Q": "On Remote work allowance (days/week), which label has a higher score: Davis, Moon and Richards or Anderson, Robinson and Little?",
+            "A": "{Anderson, Robinson and Little} has a higher score on Remote work allowance (days/week)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Bonus percentage (%) being greater than 18.99 and Overtime hours/month(hours) being less than 26.02?",
+            "A": "There are {3} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

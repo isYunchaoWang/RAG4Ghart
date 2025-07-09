@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Follower Growth Rate?",
+            "A": "The next dimension clockwise from Follower Growth Rate is Social Commerce Conversion Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Follower Growth Rate?",
+            "A": "The next dimension counterclockwise from Follower Growth Rate is Ad Click-Through Rate (CTR)."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Influencer Collaboration ROI Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Thomas Group Media?",
+            "A": "The strongest aspect is {Influencer Collaboration ROI Rate}, while the weakest aspect is{ Ad Click-Through Rate (CTR)}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Thomas Group Media on the Ad Click-Through Rate (CTR) in the radar chart?",
+            "A": "The value of Thomas Group Media on the Safety dimension is {39}."
+        },
+        {
+            "Q": "What is the value of Thomas Group Media on the Follower Growth Rate in the radar chart?",
+            "A": "The value of Thomas Group Media on the Safety dimension is {81}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Thomas Group Media across all dimensions in the radar chart?",
+            "A": "The maximum value of Thomas Group Media across all dimensions is {92}."
+        },
+        {
+            "Q": "What is the minimum value of label Thomas Group Media across all dimensions in the radar chart?",
+            "A": "The minimum value of Thomas Group Media across all dimensions is {92}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Social Commerce Conversion Rate",
+            "A": "The average value of Social Commerce Conversion Rate is {41.0}."
+        },
+        {
+            "Q": "What is the average value of Thomas Group Media",
+            "A": "The average value of Thomas Group Media is {63.25}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 41 for the Social Commerce Conversion Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Thomas Group Media} is {41}"
+        },
+        {
+            "Q": "For Thomas Group Media in the radar chart, which dimensions have scores below 50? Please list the dimensions and corresponding scores.",
+            "A": "{Ad Click-Through Rate (CTR)} is {39}, {Social Commerce Conversion Rate} is {41}"
+        },
+        {
+            "Q": "For Thomas Group Media in the radar chart, which dimensions have scores between 50 and 81? Please list the dimensions and corresponding scores.",
+            "A": "None is between 50 and 81"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Thomas Group Media, which dimension has a higher score: Influencer Collaboration ROI Rate or Social Commerce Conversion Rate?",
+            "A": "{Influencer Collaboration ROI Rate} has a higher score than Social Commerce Conversion Rate for Thomas Group Media."
+        },
+        {
+            "Q": "For Thomas Group Media, which dimension has a higher score: Follower Growth Rate or Social Commerce Conversion Rate?",
+            "A": "{Follower Growth Rate} has a higher score than Social Commerce Conversion Rate for Thomas Group Media."
+        },
+        {
+            "Q": "For Thomas Group Media, which dimension has a higher score: Follower Growth Rate or Ad Click-Through Rate (CTR) or Social Commerce Conversion Rate?",
+            "A": "{Follower Growth Rate} has a higher score for Thomas Group Media."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Thomas Group Media, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Thomas Group Media most needs to improve its {Ad Click-Through Rate (CTR)}."
+        }
+    ],
+    "VA": []
+}

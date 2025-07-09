@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {5} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {4} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Nuclear?",
+            "A": "The next arc clockwise from arc Nuclear is arc {Solar}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Solar?",
+            "A": "The next arc counterclockwise from arc Solar is arc {Nuclear}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Hydropower} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Nuclear} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Hydropower to Nuclear in the chord chart?",
+            "A": "The flow value is {477}."
+        },
+        {
+            "Q": "What is the flow value from Hydropower to Solar in the chord chart?",
+            "A": "The flow value is {158}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Nuclear and Biomass in the chord chart?",
+            "A": "The maximum flow value between Nuclear and Biomass is {94}."
+        },
+        {
+            "Q": "What is the minimum flow value between Biomass and Solar in the chord chart?",
+            "A": "The minimum flow value between Biomass and Solar is {59}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {477}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {49}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Solar?",
+            "A": "The total flow output from Solar is {229}."
+        },
+        {
+            "Q": "What is the total flow input by Nuclear?",
+            "A": "The total flow input by Nuclear is {620}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 139? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {477} from {Hydropower} to {Nuclear}, a flow of {247} from {Nuclear} to {Hydropower}, a flow of {158} from {Hydropower} to {Solar}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 63? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {59} from {Solar} to {Biomass}, a flow of {52} from {Nuclear} to {Solar}, a flow of {49} from {Solar} to {Nuclear}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 63 and 107? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {94} from {Biomass} to {Nuclear}, a flow of {77} from {Nuclear} to {Biomass}, a flow of {68} from {Biomass} to {Solar}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Nuclear to Biomass or from Solar to Hydropower?",
+            "A": "The flow from {Solar} to {Hydropower} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Biomass to Solar, from Solar to Nuclear, or from Hydropower to Solar?",
+            "A": "The flow from {Hydropower} to {Solar} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Hydropower}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Hydropower} and {Nuclear}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Nuclear, Arc Hydropower, Arc Solar, Arc Biomass}."
+        }
+    ]
+}

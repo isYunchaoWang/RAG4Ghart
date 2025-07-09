@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Zenith Logistics relative to Port of Aethelgard?",
+            "A": "Zenith Logistics is {above} Port of Aethelgard in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total agricultural exports?",
+            "A": "The series with the largest contribution is {Stellar Commodities Group}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total agricultural exports?",
+            "A": "The series with the smallest contribution is {Port of Silverhaven}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Zenith Logistics's Agricultural Exports in 1976?",
+            "A": "Zenith Logistics's agricultural exports in 1976 is {6230877.32} $."
+        },
+        {
+            "Q": "What is Azure Port Authority's Agricultural Exports in 1978?",
+            "A": "Azure Port Authority's agricultural exports in 1978 is {16389887.48} $."
+        },
+        {
+            "Q": "What is Port of Silverhaven's Agricultural Exports in 1991?",
+            "A": "Port of Silverhaven's agricultural exports in 1991 is {100000} $."
+        },
+        {
+            "Q": "What are the agricultural exports of Port of Silverhaven, Zenith Logistics, and Stellar Commodities Group in 1991?",
+            "A": "Port of Silverhaven's agricultural exports is {100000} $, Zenith Logistics's agricultural exports is {100000} $, Stellar Commodities Group's agricultural exports is {67386152.78} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Agricultural Exports in the area chart?",
+            "A": "The global minimum agricultural exports is {100000.00} $."
+        },
+        {
+            "Q": "What is the global maximum Agricultural Exports in the area chart?",
+            "A": "The global maximum agricultural exports is {81226759.95} $."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Azure Port Authority?",
+            "A": "Azure Port Authority reached approximately {27421280.26} $ in {1993}."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Azure Port Authority?",
+            "A": "Azure Port Authority's lowest recorded level is approximately {9613318.68} $ in {1971}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Agricultural Exports?",
+            "A": "The average total agricultural exports is {78048983.35} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Agricultural Exports fall between 71233890.57 and 78732194.84 $? Please list the years and corresponding total values.",
+            "A": "{74989418.08} $ in {1985}, {73162373.51} $ in {1983}, {73691474.62} $ in {1984}."
+        },
+        {
+            "Q": "Which years did the total Agricultural Exports exceed 83682953.01 $? Please list the years and corresponding total values.",
+            "A": "{105652619.25} $ in {1991}, {95363133.27} $ in {1989}, {116574114.59} $ in {1992}."
+        },
+        {
+            "Q": "Which years did the total Agricultural Exports go below 66283132.40 $? Please list the years and corresponding total values.",
+            "A": "{58444720.83} $ in {1971}, {61804125.32} $ in {1976}, {61710150.72} $ in {1973}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Agricultural Exports in 1971 higher or lower than in 1976?",
+            "A": "The total agricultural exports in 1971 was {lower} than in 1976."
+        },
+        {
+            "Q": "Between 1974 and 1984, did the total Agricultural Exports experience a larger or smaller change than between 1973 and 1991?",
+            "A": "The change in total agricultural exports between 1974 and 1984 was {smaller} than between 1973 and 1991."
+        },
+        {
+            "Q": "Was the total Agricultural Exports in 1976 higher or lower than in 1987?",
+            "A": "The total agricultural exports in 1976 was {lower} than in 1987."
+        },
+        {
+            "Q": "Between 1981 and 1986, was the average total Agricultural Exports higher or lower than between 1972 and 1979?",
+            "A": "The average total agricultural exports between 1981 and 1986 was {higher} than between 1972 and 1979."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Stellar Commodities Group} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Zenith Logistics, Port of Silverhaven, Port of Aethelgard, Borealis Shipping Co., Azure Port Authority, Stellar Commodities Group}."
+        }
+    ]
+}

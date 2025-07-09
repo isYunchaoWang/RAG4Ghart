@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Riverbend Plantation, what is the spatial relationship of the data point in 1991 relative to that in 1994 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Riverbend Plantation, the data point in 1991 is {below} and to the {left} of the data point in 1994."
+        },
+        {
+            "Q": "In 1988, what is the vertical (above/below) relationship of the line representing Sunstone Farms relative to Riverbend Plantation?",
+            "A": "In 1988, Sunstone Farms is {above} Riverbend Plantation in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Sunstone Farms's Organic Farming Area levels?",
+            "A": "Sunstone Farms's organic farming area levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Starfall Organics's Organic Farming Area levels?",
+            "A": "Starfall Organics's organic farming area levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Whispering Willows Estate's Organic Farming Area levels?",
+            "A": "Whispering Willows Estate's organic farming area levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Ranch's Organic Farming Area levels?",
+            "A": "Ironwood Ranch's organic farming area levels show a {periodic stable} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Ironwood Ranch's Organic Farming Area in 1994?",
+            "A": "Ironwood Ranch's organic farming area in 1994 is {1369.52} hectares."
+        },
+        {
+            "Q": "What is Whispering Willows Estate's Organic Farming Area in 1993?",
+            "A": "Whispering Willows Estate's organic farming area in 1993 is {916.42} hectares."
+        },
+        {
+            "Q": "What is Sunstone Farms's Organic Farming Area in 1994?",
+            "A": "Sunstone Farms's organic farming area in 1994 is {690.58} hectares."
+        },
+        {
+            "Q": "What are the organic farming area of Golden Harvest Cooperative, Starfall Organics, and Ironwood Ranch in 1990?",
+            "A": "Golden Harvest Cooperative's organic farming area is {1684.08} hectares, Starfall Organics's organic farming area is {1475.58} hectares, Ironwood Ranch's organic farming area is {1274.45} hectares."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Organic Farming Area in the line chart?",
+            "A": "The global minimum organic farming area is {574.56} hectares."
+        },
+        {
+            "Q": "What is the global maximum Organic Farming Area in the line chart?",
+            "A": "The global maximum organic farming area is {2147.14} hectares."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {2147.14} hectares in {1994}."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {1498.26} hectares in {1988}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Starfall Organics's Organic Farming Area?",
+            "A": "The average value of Starfall Organics's organic farming area is {1550.02} hectares."
+        },
+        {
+            "Q": "What is the average value of Sunstone Farms's Organic Farming Area?",
+            "A": "The average value of Sunstone Farms's organic farming area is {983.02} hectares."
+        },
+        {
+            "Q": "What is the rate of change in Starfall Organics's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of growth in Starfall Organics's organic farming area is {28.38}%."
+        },
+        {
+            "Q": "What is the rate of change in Sunstone Farms's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of decline in Sunstone Farms's organic farming area is {-47.85}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1993, which lines had Organic Farming Area between 878 and 1467 hectares? Please list the lines and corresponding values.",
+            "A": "{Ironwood Ranch} had {1074} hectares, {Whispering Willows Estate} had {916} hectares."
+        },
+        {
+            "Q": "In the year 1988, which lines had Organic Farming Area between 1146 and 1320 hectares? Please list the lines and corresponding values.",
+            "A": "{Whispering Willows Estate} had {1297} hectares."
+        },
+        {
+            "Q": "In the year 1990, which lines had Organic Farming Area between 1138 and 1393 hectares? Please list the lines and corresponding values.",
+            "A": "{Whispering Willows Estate} had {1142} hectares, {Ironwood Ranch} had {1274} hectares."
+        },
+        {
+            "Q": "Which years did Golden Harvest Cooperative's Organic Farming Area between 1679 and 1943 hectares? Please list the years and corresponding values.",
+            "A": "{1684.08} hectares in {1990} year, {1911.14} hectares in {1992} year, {1857.37} hectares in {1991} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1988, which line had the highest Organic Farming Area, Whispering Willows Estate, Sunstone Farms, Starfall Organics, or Riverbend Plantation?",
+            "A": "In 1988, {Starfall Organics} had the highest organic farming area."
+        },
+        {
+            "Q": "Between 1988 and 1994, which line had the highest average Organic Farming Area, Starfall Organics, Riverbend Plantation, or Sunstone Farms?",
+            "A": "{Starfall Organics} had the highest average organic farming area."
+        },
+        {
+            "Q": "Was Riverbend Plantation's Organic Farming Area in 1990 higher or lower than in 1991?",
+            "A": "The organic farming area in 1990 was {higher} than in 1991."
+        },
+        {
+            "Q": "Was Ironwood Ranch's Organic Farming Area in 1989 higher or lower than in 1990?",
+            "A": "The organic farming area in 1989 was {higher} than in 1990."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Golden Harvest Cooperative}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1992 and 1994?",
+            "A": "{Ironwood Ranch} has the fastest average growth rate between 1992 and 1994."
+        },
+        {
+            "Q": "In which year did Riverbend Plantation first surpass Whispering Willows Estate?",
+            "A": "Riverbend Plantation first surpassed Whispering Willows Estate in the year {1994}."
+        },
+        {
+            "Q": "Which label had the leading organic farming area since 1989?",
+            "A": "Since 1989, {Golden Harvest Cooperative} had the leading organic farming area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Ironwood Ranch. List the x-coordinates of data points to be preserved.(4 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1988, 1989, 1992, 1994}."
+        }
+    ]
+}

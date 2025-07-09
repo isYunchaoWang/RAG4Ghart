@@ -1,0 +1,20 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1299.1 539.6 1379.1 539.6" fill="none" stroke="#000000"></polyline>
+<polyline points="1420.1 323.2 1500.1 323.2" fill="none" stroke="#000000"></polyline>
+<polyline points="1176.7 756 1256.7 756" fill="none" stroke="#000000"></polyline>
+<polyline points="1065.1 972.4 1145.1 972.4" fill="none" stroke="#000000"></polyline>
+<polyline points="1013.3 1188.8 1093.3 1188.8" fill="none" stroke="#000000"></polyline>
+<polygon points="366.2 432.4 1361.8 432.4 1236.4 646.8 491.6 646.8" fill="#D98481" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="249.6 216 1478.4 216 1361.8 430.4 366.2 430.4" fill="#E9B9AA" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="491.6 648.8 1236.4 648.8 1116.9 863.2 611.1 863.2" fill="#7892B5" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="611.1 865.2 1116.9 865.2 1013.3 1079.6 714.7 1079.6" fill="#8CB9C0" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="714.7 1081.6 1013.3 1081.6 1013.3 1296 714.7 1296" fill="#91B5A9" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1384.1438750342559" y="539.5999999999999" fill="#000000">Filtered by Quality Inspection: 11827</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1505.121238695533" y="323.2" fill="#000000">Post-Processing: 14596</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1261.6932310221978" y="756" fill="#000000">Packaged for Distribution: 8848</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1150.1027678816115" y="972.3999999999999" fill="#000000">Delivered to Retail: 6009</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1098.2643463962731" y="1188.8" fill="#000000">Purchased by Consumers: 3546</text>
+<path d="M-327.9453 -5l655.8906 0l0 58l-655.8906 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Agricultural Supply Chain (Tons)</text>
+</svg>

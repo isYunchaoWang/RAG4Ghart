@@ -1,0 +1,9 @@
+﻿Sports and Entertainment,Athlete Statistics
+Pattern,Strong Correlation,Strong Correlation,Clustering,No Correlation,Strong Correlation,Weak Correlation
+labels,Injury frequency (per year),Recovery time (hours),Endurance (minutes),Accuracy (%),Training hours/week (hours),Speed (km/h),Performance rating (1-10)
+Pamela Ruiz,5.0,72.0,120.0,72.93,40.0,40.0,8.09
+Christine Moon,2.34,43.0,78.36,50.0,36.14,35.51,7.3
+Luke Fox,2.65,41.54,68.46,64.63,28.25,25.38,5.32
+Shelia Bryan,2.02,38.12,72.59,76.74,18.98,19.85,8.13
+Jennifer Lewis,4.51,52.05,68.57,88.7,36.27,25.93,4.0
+April Cruz,0.0,12.0,30.0,100.0,10.0,15.0,10.0

@@ -1,0 +1,17 @@
+Energy and Utilities,Energy Distribution by Category (2020),%
+parent,child,value
+Root,Energy Sources,29.06
+Energy Sources,Fossil Fuels,15.42
+Fossil Fuels,Oil,9.96
+Fossil Fuels,Coal,5.46
+Energy Sources,Renewables,13.64
+Renewables,Wind,8.47
+Renewables,Solar,5.17
+Root,Energy Infrastructure,47.6
+Energy Infrastructure,Generation,37.92
+Generation,Thermal Plants,37.92
+Thermal Plants,Gas Turbines,17.4
+Thermal Plants,Steam Boilers,20.52
+Energy Infrastructure,Transmission,9.68
+Root,Energy Consumption,23.33
+Energy Consumption,Industrial,23.33

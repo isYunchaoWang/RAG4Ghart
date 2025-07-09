@@ -1,0 +1,22 @@
+Transportation and Logistics,Manufacturing Supply Transportation Chain,Goods,random,Distribution Center,Warehouse,Retail
+Source,Target,Value
+East Hub,Regional Warehouse A,258
+East Hub,Bulk Storage,36
+East Hub,Cold Storage,118
+East Hub,Spare Parts Depot,153
+South Hub,Regional Warehouse A,280
+South Hub,Bulk Storage,248
+South Hub,Cold Storage,46
+South Hub,Spare Parts Depot,188
+Regional Warehouse A,City Supermarket,243
+Regional Warehouse A,Neighborhood Store,174
+Regional Warehouse A,Outlet Mall,121
+Bulk Storage,City Supermarket,59
+Bulk Storage,Neighborhood Store,125
+Bulk Storage,Outlet Mall,100
+Cold Storage,City Supermarket,46
+Cold Storage,Neighborhood Store,60
+Cold Storage,Outlet Mall,58
+Spare Parts Depot,City Supermarket,170
+Spare Parts Depot,Neighborhood Store,58
+Spare Parts Depot,Outlet Mall,113

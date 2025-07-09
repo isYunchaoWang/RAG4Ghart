@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {4} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Verdant Distribution relative to AgriFlow Solutions?",
+            "A": "Verdant Distribution is {below} AgriFlow Solutions in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total food waste?",
+            "A": "The series with the largest contribution is {TerraTrade Network}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total food waste?",
+            "A": "The series with the smallest contribution is {AgriFlow Solutions}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is AgriFlow Solutions's Food Waste in 1980?",
+            "A": "AgriFlow Solutions's food waste in 1980 is {7410.32} tons."
+        },
+        {
+            "Q": "What is AgriFlow Solutions's Food Waste in 1977?",
+            "A": "AgriFlow Solutions's food waste in 1977 is {9597.81} tons."
+        },
+        {
+            "Q": "What is AgriFlow Solutions's Food Waste in 1979?",
+            "A": "AgriFlow Solutions's food waste in 1979 is {7839.10} tons."
+        },
+        {
+            "Q": "What are the food waste of AgriFlow Solutions, TerraTrade Network, and Verdant Distribution in 1984?",
+            "A": "AgriFlow Solutions's food waste is {5338.47} tons, TerraTrade Network's food waste is {13899.27} tons, Verdant Distribution's food waste is {8582.86} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Food Waste in the area chart?",
+            "A": "The global minimum food waste is {4520.17} tons."
+        },
+        {
+            "Q": "What is the global maximum Food Waste in the area chart?",
+            "A": "The global maximum food waste is {14459.05} tons."
+        },
+        {
+            "Q": "What is the highest Food Waste level recorded for AgriFlow Solutions?",
+            "A": "AgriFlow Solutions reached approximately {10293.45} tons in {1976}."
+        },
+        {
+            "Q": "What is the lowest Food Waste level recorded for AgriFlow Solutions?",
+            "A": "AgriFlow Solutions's lowest recorded level is approximately {4520.17} tons in {1985}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Food Waste?",
+            "A": "The average total food waste is {38153.31} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Food Waste exceed 39972.43 tons? Please list the years and corresponding total values.",
+            "A": "{40215.55} tons in {1978}, {40252.83} tons in {1976}, {41941.56} tons in {1977}."
+        },
+        {
+            "Q": "Which years did the total Food Waste fall between 36396.45 and 40227.65 tons? Please list the years and corresponding total values.",
+            "A": "{39868.24} tons in {1982}, {40215.55} tons in {1978}, {37030.06} tons in {1979}."
+        },
+        {
+            "Q": "Which years did the total Food Waste go below 36651.66 tons? Please list the years and corresponding total values.",
+            "A": "{35768.74} tons in {1980}, {35388.14} tons in {1984}, {34094.87} tons in {1985}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Food Waste in 1979 higher or lower than in 1983?",
+            "A": "The total food waste in 1979 was {lower} than in 1983."
+        },
+        {
+            "Q": "Between 1977 and 1985, was the average total Food Waste higher or lower than between 1976 and 1978?",
+            "A": "The average total food waste between 1977 and 1985 was {lower} than between 1976 and 1978."
+        },
+        {
+            "Q": "Between 1978 and 1980, was the average total Food Waste higher or lower than between 1976 and 1977?",
+            "A": "The average total food waste between 1978 and 1980 was {lower} than between 1976 and 1977."
+        },
+        {
+            "Q": "Was the total Food Waste in 1976 higher or lower than in 1980?",
+            "A": "The total food waste in 1976 was {higher} than in 1980."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{TerraTrade Network} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {AgriFlow Solutions, AgroChain Management, Verdant Distribution, TerraTrade Network}."
+        }
+    ]
+}

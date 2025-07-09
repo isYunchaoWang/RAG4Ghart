@@ -1,0 +1,132 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {fill bubble} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this fill bubble chart?",
+            "A": "There are {5} bubbles."
+        },
+        {
+            "Q": "How many bubbles are in layer 2 of this fill bubble chart?",
+            "A": "There are {1} bubbles in layer 2."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Bubble Arts and Culture positioned deeper, shallower or on the same depth as Bubble Exhibitions?",
+            "A": "Bubble Arts and Culture is positioned {shallower than} Bubble Exhibitions."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the maximum depth in this fill bubble chart?",
+            "A": "The maximum depth is {3}."
+        },
+        {
+            "Q": "Which bubble contains bubble Exhibitions in the fill bubble chart?",
+            "A": "Bubble Exhibitions is contained by bubble {Museums and Galleries}."
+        },
+        {
+            "Q": "Which bubbles are contained within bubble Museums and Galleries in the fill bubble chart?",
+            "A": "Bubble Museums and Galleries contains bubbles {Exhibitions, Curatorial Studies, Collections}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the size value of bubble Museums and Galleries?",
+            "A": "The size value of bubble Museums and Galleries is {39.57}."
+        },
+        {
+            "Q": "What is the size value of bubble Exhibitions?",
+            "A": "The size value of bubble Exhibitions is {10.49}."
+        },
+        {
+            "Q": "What is the size value of bubble Arts and Culture?",
+            "A": "The size value of bubble Arts and Culture is {77.21}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum size value in the fill bubble chart?",
+            "A": "The global maximum size value is {77.21}."
+        },
+        {
+            "Q": "What is the global minimum size value in the fill bubble chart?",
+            "A": "The global minimum size value is {6.71}."
+        },
+        {
+            "Q": "What is the maximum value under category Museums and Galleries?",
+            "A": "The maximum value under category Museums and Galleries is {11.06}."
+        },
+        {
+            "Q": "What is the minimum value under category Museums and Galleries?",
+            "A": "The minimum value under category Museums and Galleries is {6.71}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of layer 3 of bubbles?",
+            "A": "The total value of layer 3 of bubbles is {28.26}."
+        },
+        {
+            "Q": "What is the total value of layer 2 of bubbles?",
+            "A": "The total value of layer 2 of bubbles is {39.57}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 size values in the fill bubble chart?",
+            "A": "{77.21, 39.57, 11.06}."
+        },
+        {
+            "Q": "What are the bottom 3 size values in the fill bubble chart?",
+            "A": "{6.71, 10.49, 11.06}."
+        },
+        {
+            "Q": "Which bubbles have size values exceed 32.98? Please list the bubbles and corresponding values.",
+            "A": "Arts and Culture has {77.21}, and Museums and Galleries has {39.57}."
+        },
+        {
+            "Q": "Which bubbles have size values between 13.73 and 67.35? Please list the bubbles and corresponding values.",
+            "A": "Museums and Galleries has {39.57}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the size value of Arts and Culture or Collections in the fill bubble chart?",
+            "A": "The size value of {Arts and Culture} is larger."
+        },
+        {
+            "Q": "Which is larger, the size value of Arts and Culture or Exhibitions in the fill bubble chart?",
+            "A": "The size value of {Arts and Culture} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the fill bubble chart, which subcategory in the level 3 has the largest bubble area?",
+            "A": "The subcategory with the largest bubble area in the level 3 is {Collections}."
+        },
+        {
+            "Q": "In the fill bubble chart, which subcategory in the level 3 has the smallest bubble area?",
+            "A": "The subcategory with the smallest bubble area in the level 3 is {Curatorial Studies}."
+        },
+        {
+            "Q": "How many bubbles have values above the average size across all categories?",
+            "A": "There are {2} bubbles with values above the average size."
+        },
+        {
+            "Q": "How many bubbles have values below the average oil storage across all categories?",
+            "A": "There are {3} bubbles with values below the average size."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual clutter caused by overlapping labels in the bubble chart, sample the labels and list the top 2 labels recommended for removal.",
+            "A": "The top 2 labels recommended for removal to reduce label overlap are: {Curatorial Studies}, {Collections}."
+        }
+    ]
+}

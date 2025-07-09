@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of column Cultural Origins of this sankey chart?",
+            "A": "There are {12} links flow out of column Cultural Origins."
+        },
+        {
+            "Q": "How many links flow into column Cultural Origins of this sankey chart?",
+            "A": "There are {6} links flow into column Cultural Origins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Impact Areas}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Art Forms}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Innovation} and {Asia}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Workshops} and {Music}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Workshops to the node Painting?",
+            "A": "The flow value from the node Workshops to the node Painting is {63}."
+        },
+        {
+            "Q": "What is the flow value from the node Tourists to the node Theaters?",
+            "A": "The flow value from the node Tourists to the node Theaters is {45}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Digital Platforms to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Digital Platforms to the next stage is {141}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Scholars to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Scholars to the next stage is {60}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Innovation?",
+            "A": "The total flow output from node Innovation is {1907}."
+        },
+        {
+            "Q": "What is the total flow input by node Local Communities?",
+            "A": "The total flow input by node Local Communities is {544}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Impact Areas of the sankey chart, which nodes have an outflow exceeded 780? Please list the node labels and their corresponding outflow values.",
+            "A": "{Innovation} has an outflow of {837}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Audience Types and column Cultural Mediums is the flow between 111 and 118? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {113} from node {Local Communities} to {Digital Platforms}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 111 and 120? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {114} from node {Africa} to {Local Communities}, a flow of {113} from node {Local Communities} to {Digital Platforms}, a flow of {116} from node {Theaters} to {Music}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Scholars to node Theaters and from node Theaters to node Sculpture, which path has a larger flow?",
+            "A": "The flow from node {Scholars} to node {Theaters} is larger."
+        },
+        {
+            "Q": "Between the flows from node Scholars to node Theaters and from node Africa to node Tourists, which path has a larger flow?",
+            "A": "The flow from node {Scholars} to node {Theaters} is larger."
+        },
+        {
+            "Q": "Among the flows from node Digital Platforms to node Painting, from node Education to node Asia, and from node Digital Platforms to node Sculpture, which path has the largest flow?",
+            "A": "The flow from node {Education} to node {Asia} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Cultural Origins of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Cultural Origins is {Oceania}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Education to target node Literature? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Education to node Literature is: {Education, Oceania, Artists, Festivals, Literature}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,112 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Stellar Commodities Group relative to Port of Silverhaven?",
+            "A": "Stellar Commodities Group is {above} Port of Silverhaven in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total agricultural exports?",
+            "A": "The series with the largest contribution is {Borealis Shipping Co.}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total agricultural exports?",
+            "A": "The series with the smallest contribution is {Stellar Commodities Group}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Port of Silverhaven's Agricultural Exports in 2018?",
+            "A": "Port of Silverhaven's agricultural exports in 2018 is {11649967.18} $."
+        },
+        {
+            "Q": "What is Borealis Shipping Co.'s Agricultural Exports in 2017?",
+            "A": "Borealis Shipping Co.'s agricultural exports in 2017 is {10863811.09} $."
+        },
+        {
+            "Q": "What is Port of Silverhaven's Agricultural Exports in 2017?",
+            "A": "Port of Silverhaven's agricultural exports in 2017 is {9720089.54} $."
+        },
+        {
+            "Q": "What are the agricultural exports of Port of Silverhaven, Stellar Commodities Group, and Borealis Shipping Co. in 2019?",
+            "A": "Port of Silverhaven's agricultural exports is {12200355.34} $, Stellar Commodities Group's agricultural exports is {8946569.16} $, Borealis Shipping Co.'s agricultural exports is {11741934.48} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Agricultural Exports in the area chart?",
+            "A": "The global minimum agricultural exports is {8946569.16} $."
+        },
+        {
+            "Q": "What is the global maximum Agricultural Exports in the area chart?",
+            "A": "The global maximum agricultural exports is {12646083.41} $."
+        },
+        {
+            "Q": "What is the highest Agricultural Exports level recorded for Borealis Shipping Co.?",
+            "A": "Borealis Shipping Co. reached approximately {11741934.48} $ in {2019}."
+        },
+        {
+            "Q": "What is the lowest Agricultural Exports level recorded for Borealis Shipping Co.?",
+            "A": "Borealis Shipping Co.'s lowest recorded level is approximately {10171609.00} $ in {2016}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Agricultural Exports?",
+            "A": "The average total agricultural exports is {32583719.64} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Agricultural Exports go below 32588407.80 $? Please list the years and corresponding total values.",
+            "A": "{29884347.21} $ in {2016}."
+        },
+        {
+            "Q": "Which years did the total Agricultural Exports exceed 33340154.47 $? Please list the years and corresponding total values.",
+            "A": "{34331688.31} $ in {2018}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 2016 and 2019, did the total Agricultural Exports experience a larger or smaller change than between 2017 and 2018?",
+            "A": "The change in total agricultural exports between 2016 and 2019 was {larger} than between 2017 and 2018."
+        },
+        {
+            "Q": "Between 2017 and 2019, was the average total Agricultural Exports higher or lower than between 2017 and 2018?",
+            "A": "The average total agricultural exports between 2017 and 2019 was {lower} than between 2017 and 2018."
+        },
+        {
+            "Q": "Between 2018 and 2019, was the average total Agricultural Exports higher or lower than between 2016 and 2017?",
+            "A": "The average total agricultural exports between 2018 and 2019 was {higher} than between 2016 and 2017."
+        },
+        {
+            "Q": "Between 2018 and 2019, did the total Agricultural Exports experience a larger or smaller change than between 2016 and 2019?",
+            "A": "The change in total agricultural exports between 2018 and 2019 was {smaller} than between 2016 and 2019."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Borealis Shipping Co.} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Stellar Commodities Group, Borealis Shipping Co., Port of Silverhaven}."
+        }
+    ]
+}

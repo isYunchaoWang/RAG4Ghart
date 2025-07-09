@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Market growth rate (%) dimension, what is the spatial relationship of Thomas, Schultz and Golden relative to Ramos, Caldwell and Curry in terms of vertical (above/below) direction?",
+            "A": "{Thomas, Schultz and Golden} is {below} {Ramos, Caldwell and Curry} on the Market growth rate (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Brand recognition (%)?",
+            "A": "The second position to the left of Brand recognition (%) is {Competitor count (number)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Brand recognition (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Price elasticity (unitless)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Brand recognition (%)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Market growth rate (%) and dimension Brand recognition (%)",
+            "A": "There is {Strong Correlation} between Market growth rate (%) and Brand recognition (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Ramos, Caldwell and Curry on the Price elasticity (unitless) dimension in the parallel-coordinates chart?",
+            "A": "The value of Ramos, Caldwell and Curry on the Price elasticity (unitless) dimension is {0.79}"
+        },
+        {
+            "Q": "What is the value of Thomas, Schultz and Golden on the Competitor count (number) dimension in the parallel-coordinates chart?",
+            "A": "The value of Thomas, Schultz and Golden on the Competitor count (number) dimension is {7.43}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Saunders and Sons across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Saunders and Sons across all dimensions is {48.54}"
+        },
+        {
+            "Q": "What is the minimum value of label Saunders and Sons across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Saunders and Sons across all dimensions is {-5.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Brand recognition (%)?",
+            "A": "The average value of Brand recognition (%) is {51.18}"
+        },
+        {
+            "Q": "What is the difference in coding Brand recognition (%) between label Ramos, Caldwell and Curry and label Thomas, Schultz and Golden",
+            "A": "The difference in coding Brand recognition (%) between Ramos, Caldwell and Curry and Thomas, Schultz and Golden is {85.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Market growth rate (%) dimension in the parallel coordinates?",
+            "A": "{[30.0, -3.22, -5.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Brand recognition (%) dimension in the parallel coordinates?",
+            "A": "{[10.0, 48.54, 95.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Brand recognition (%), which label has a higher score: Saunders and Sons or Thomas, Schultz and Golden?",
+            "A": "{Saunders and Sons} has a higher score on Brand recognition (%)."
+        },
+        {
+            "Q": "On Competitor count (number), which label has a higher score: Saunders and Sons or Ramos, Caldwell and Curry?",
+            "A": "{Saunders and Sons} has a higher score on Competitor count (number)."
+        },
+        {
+            "Q": "On Market growth rate (%), which label has a higher score: Saunders and Sons or Thomas, Schultz and Golden?",
+            "A": "{Thomas, Schultz and Golden} has a higher score on Market growth rate (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Brand recognition (%)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Brand recognition (%) being greater than 43.23 and Market growth rate (%) being less than 9.43?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

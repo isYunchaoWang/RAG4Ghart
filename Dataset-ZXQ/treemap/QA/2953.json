@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Learning Systems in this treemap?",
+            "A": "There are {2} child rectangles under the category Learning Systems."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Learning Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {LMS Integration}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Learning Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Decentralized IDs rectangle in this treemap?",
+            "A": "The value of the Decentralized IDs rectangle is {8.32}."
+        },
+        {
+            "Q": "What is the value of the Active Learning rectangle in this treemap?",
+            "A": "The value of the Active Learning rectangle is {56.28}."
+        },
+        {
+            "Q": "What is the value of the Lab Simulations rectangle in this treemap?",
+            "A": "The value of the Lab Simulations rectangle is {11.49}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.05}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Lab Simulations and Decentralized IDs?",
+            "A": "The difference between Lab Simulations and Decentralized IDs is {3.17}."
+        },
+        {
+            "Q": "What is the sum of the regions of Collaborative Tools and LMS Integration?",
+            "A": "The sum of Collaborative Tools and LMS Integration is {47.77}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value exceeded 66.59? Please list the labels and values.",
+            "A": "{Pedagogy} has {83.17}"
+        },
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value below 33.42? Please list the labels and values.",
+            "A": "{Experiential} has {16.83}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Learning Systems, Pedagogy, or Active Learning?",
+            "A": "The value of {Learning Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Learning Systems or Pedagogy?",
+            "A": "The value of {Learning Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {8} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

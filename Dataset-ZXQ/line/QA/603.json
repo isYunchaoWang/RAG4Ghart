@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Ironwood Ranch, what is the spatial relationship of the data point in 1989 relative to that in 1997 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Ironwood Ranch, the data point in 1989 is {above} and to the {left} of the data point in 1997."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Ironwood Ranch's Organic Farming Area levels?",
+            "A": "Ironwood Ranch's organic farming area levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Organic Farming Area levels?",
+            "A": "{Ironwood Ranch}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Ironwood Ranch's Organic Farming Area in 1996?",
+            "A": "Ironwood Ranch's organic farming area in 1996 is {11.92} hectares."
+        },
+        {
+            "Q": "What is Ironwood Ranch's Organic Farming Area in 1994?",
+            "A": "Ironwood Ranch's organic farming area in 1994 is {11.92} hectares."
+        },
+        {
+            "Q": "What is Ironwood Ranch's Organic Farming Area in 1995?",
+            "A": "Ironwood Ranch's organic farming area in 1995 is {11.92} hectares."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Organic Farming Area in the line chart?",
+            "A": "The global minimum organic farming area is {11.92} hectares."
+        },
+        {
+            "Q": "What is the global maximum Organic Farming Area in the line chart?",
+            "A": "The global maximum organic farming area is {482.56} hectares."
+        },
+        {
+            "Q": "What is the highest Organic Farming Area level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch reached approximately {482.56} hectares in {1987}."
+        },
+        {
+            "Q": "What is the lowest Organic Farming Area level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch's lowest recorded level is approximately {11.92} hectares in {1992}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Ironwood Ranch's Organic Farming Area?",
+            "A": "The average value of Ironwood Ranch's organic farming area is {134.44} hectares."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Ranch's Organic Farming Area from the starting year to the final year?",
+            "A": "The rate of decline in Ironwood Ranch's organic farming area is {-25.61}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Ironwood Ranch's Organic Farming Area below 13 hectares? Please list the years and corresponding values.",
+            "A": "{11.92} hectares in {1993} year, {11.92} hectares in {1996} year, {11.92} hectares in {1995} year."
+        },
+        {
+            "Q": "Which years did Ironwood Ranch's Organic Farming Area between 35 and 217 hectares? Please list the years and corresponding values.",
+            "A": "{67.79} hectares in {1999} year, {143.21} hectares in {2000} year, {150.05} hectares in {1990} year."
+        },
+        {
+            "Q": "Which years did Ironwood Ranch's Organic Farming Area exceed 239 hectares? Please list the years and corresponding values.",
+            "A": "{364.83} hectares in {1988} year, {252.99} hectares in {2001} year, {359} hectares in {2002} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Ironwood Ranch's Organic Farming Area in 1987 higher or lower than in 1990?",
+            "A": "The organic farming area in 1987 was {higher} than in 1990."
+        },
+        {
+            "Q": "Was Ironwood Ranch's Organic Farming Area in 1994 higher or lower than in 1997?",
+            "A": "The organic farming area in 1994 was {the same} than in 1997."
+        },
+        {
+            "Q": "Was Ironwood Ranch's Organic Farming Area in 1993 higher or lower than in 1999?",
+            "A": "The organic farming area in 1993 was {lower} than in 1999."
+        },
+        {
+            "Q": "Was Ironwood Ranch's Organic Farming Area in 1991 higher or lower than in 1999?",
+            "A": "The organic farming area in 1991 was {lower} than in 1999."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Ironwood Ranch. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1987, 1992, 2002}."
+        }
+    ]
+}

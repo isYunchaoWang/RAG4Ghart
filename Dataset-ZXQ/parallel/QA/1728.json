@@ -1,0 +1,115 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {3} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Benefits cost (USD/year) dimension, what is the spatial relationship of Taylor, Miller and Jackson relative to Humphrey, Nichols and Waller in terms of vertical (above/below) direction?",
+            "A": "{Taylor, Miller and Jackson} is {below} {Humphrey, Nichols and Waller} on the Benefits cost (USD/year) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Benefits cost (USD/year)?",
+            "A": "The first position to the left of Benefits cost (USD/year) is {Pay equity ratio (ratio)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Remote work allowance (days/week)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Pay equity ratio (ratio)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Pay equity ratio (ratio) and dimension Benefits cost (USD/year)",
+            "A": "There is {Weak Correlation} between Pay equity ratio (ratio) and Benefits cost (USD/year)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Obrien, Patton and Mcdowell on the Remote work allowance (days/week) dimension in the parallel-coordinates chart?",
+            "A": "The value of Obrien, Patton and Mcdowell on the Remote work allowance (days/week) dimension is {2.31}"
+        },
+        {
+            "Q": "What is the value of Hill, Mathews and Maynard on the Pay equity ratio (ratio) dimension in the parallel-coordinates chart?",
+            "A": "The value of Hill, Mathews and Maynard on the Pay equity ratio (ratio) dimension is {0.92}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Page-Allen across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Page-Allen across all dimensions is {1000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label Hill, Mathews and Maynard across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Hill, Mathews and Maynard across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Benefits cost (USD/year)?",
+            "A": "The average value of Benefits cost (USD/year) is {12300.75}"
+        },
+        {
+            "Q": "What is the difference in coding Pay equity ratio (ratio) between label Humphrey, Nichols and Waller and label Hill, Mathews and Maynard",
+            "A": "The difference in coding Pay equity ratio (ratio) between Humphrey, Nichols and Waller and Hill, Mathews and Maynard is {0.18}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Remote work allowance (days/week) dimension in the parallel coordinates?",
+            "A": "{[5.0, 3.99, 2.31]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Remote work allowance (days/week) dimension in the parallel coordinates?",
+            "A": "{[0.0, 1.09, 2.31]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Pay equity ratio (ratio), which label has a higher score: Taylor, Miller and Jackson or Page-Allen?",
+            "A": "{Taylor, Miller and Jackson} has a higher score on Pay equity ratio (ratio)."
+        },
+        {
+            "Q": "On Pay equity ratio (ratio), which label has a higher score: Hill, Mathews and Maynard or Humphrey, Nichols and Waller?",
+            "A": "{Humphrey, Nichols and Waller} has a higher score on Pay equity ratio (ratio)."
+        },
+        {
+            "Q": "On Remote work allowance (days/week), which label has a higher score: Taylor, Miller and Jackson or Obrien, Patton and Mcdowell?",
+            "A": "{Taylor, Miller and Jackson} has a higher score on Remote work allowance (days/week)."
+        },
+        {
+            "Q": "On Benefits cost (USD/year), which label has a higher score: Obrien, Patton and Mcdowell or Hill, Mathews and Maynard?",
+            "A": "{Hill, Mathews and Maynard} has a higher score on Benefits cost (USD/year)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Benefits cost (USD/year) being greater than 11460.98 and Pay equity ratio (ratio) being less than 0.96?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

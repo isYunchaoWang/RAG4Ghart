@@ -1,0 +1,148 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {2} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1971, what is the vertical (above/below) relationship of the line representing Lumina Energy Market relative to GeoHeat Commodity?",
+            "A": "In 1971, Lumina Energy Market is {below} GeoHeat Commodity in the vertical direction."
+        },
+        {
+            "Q": "On GeoHeat Commodity, what is the spatial relationship of the data point in 1970 relative to that in 1974 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On GeoHeat Commodity, the data point in 1970 is {below} and to the {left} of the data point in 1974."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Lumina Energy Market's Natural Gas Prices levels?",
+            "A": "Lumina Energy Market's natural gas prices levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of GeoHeat Commodity's Natural Gas Prices levels?",
+            "A": "GeoHeat Commodity's natural gas prices levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Natural Gas Prices levels?",
+            "A": "{Lumina Energy Market}."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Natural Gas Prices levels?",
+            "A": "{GeoHeat Commodity}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Lumina Energy Market's Natural Gas Prices in 1973?",
+            "A": "Lumina Energy Market's natural gas prices in 1973 is {1.08} $/cubic meter."
+        },
+        {
+            "Q": "What is Lumina Energy Market's Natural Gas Prices in 1971?",
+            "A": "Lumina Energy Market's natural gas prices in 1971 is {1.33} $/cubic meter."
+        },
+        {
+            "Q": "What is GeoHeat Commodity's Natural Gas Prices in 1975?",
+            "A": "GeoHeat Commodity's natural gas prices in 1975 is {2.59} $/cubic meter."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Natural Gas Prices in the line chart?",
+            "A": "The global minimum natural gas prices is {0.87} $/cubic meter."
+        },
+        {
+            "Q": "What is the global maximum Natural Gas Prices in the line chart?",
+            "A": "The global maximum natural gas prices is {2.59} $/cubic meter."
+        },
+        {
+            "Q": "What is the highest Natural Gas Prices level recorded for GeoHeat Commodity?",
+            "A": "GeoHeat Commodity reached approximately {2.59} $/cubic meter in {1975}."
+        },
+        {
+            "Q": "What is the lowest Natural Gas Prices level recorded for GeoHeat Commodity?",
+            "A": "GeoHeat Commodity's lowest recorded level is approximately {2.08} $/cubic meter in {1967}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Lumina Energy Market's Natural Gas Prices?",
+            "A": "The average value of Lumina Energy Market's natural gas prices is {1.40} $/cubic meter."
+        },
+        {
+            "Q": "What is the rate of change in GeoHeat Commodity's Natural Gas Prices from the starting year to the final year?",
+            "A": "The rate of growth in GeoHeat Commodity's natural gas prices is {24.52}%."
+        },
+        {
+            "Q": "What is the average value of GeoHeat Commodity's Natural Gas Prices?",
+            "A": "The average value of GeoHeat Commodity's natural gas prices is {2.34} $/cubic meter."
+        },
+        {
+            "Q": "What is the rate of change in Lumina Energy Market's Natural Gas Prices from the starting year to the final year?",
+            "A": "The rate of decline in Lumina Energy Market's natural gas prices is {-57.56}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did GeoHeat Commodity's Natural Gas Prices between 2 and 2 $/cubic meter? Please list the years and corresponding values.",
+            "A": "{2.42} $/cubic meter in {1972} year, {2.30} $/cubic meter in {1970} year, {2.34} $/cubic meter in {1971} year."
+        },
+        {
+            "Q": "In the year 1972, which lines had Natural Gas Prices below 2 $/cubic meter? Please list the lines and corresponding values.",
+            "A": "{Lumina Energy Market} had {1} $/cubic meter."
+        },
+        {
+            "Q": "Which years did GeoHeat Commodity's Natural Gas Prices exceed 2 $/cubic meter? Please list the years and corresponding values.",
+            "A": "{2.42} $/cubic meter in {1972} year, {2.34} $/cubic meter in {1971} year, {2.53} $/cubic meter in {1974} year."
+        },
+        {
+            "Q": "Which years did Lumina Energy Market's Natural Gas Prices below 1 $/cubic meter? Please list the years and corresponding values.",
+            "A": "{0.87} $/cubic meter in {1975} year, {0.99} $/cubic meter in {1974} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1970 and 1974, which line experienced a larger change in Natural Gas Prices, Lumina Energy Market or GeoHeat Commodity?",
+            "A": "{Lumina Energy Market} experienced a larger change in natural gas prices."
+        },
+        {
+            "Q": "In 1967, which line had a higher Natural Gas Prices, {GeoHeat Commodity} or {Lumina Energy Market}?",
+            "A": "In 1967, {GeoHeat Commodity} had a higher natural gas prices."
+        },
+        {
+            "Q": "Between 1971 and 1974, which line had a higher average Natural Gas Prices, Lumina Energy Market or GeoHeat Commodity?",
+            "A": "{GeoHeat Commodity} had a higher average natural gas prices."
+        },
+        {
+            "Q": "Was Lumina Energy Market's Natural Gas Prices in 1968 higher or lower than in 1973?",
+            "A": "The natural gas prices in 1968 was {higher} than in 1973."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Lumina Energy Market}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1970 and 1974?",
+            "A": "{GeoHeat Commodity} has the fastest average growth rate between 1970 and 1974."
+        },
+        {
+            "Q": "Which label had the leading natural gas prices since 1970?",
+            "A": "Since 1970, {GeoHeat Commodity} had the leading natural gas prices."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the GeoHeat Commodity. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1967, 1975}."
+        }
+    ]
+}

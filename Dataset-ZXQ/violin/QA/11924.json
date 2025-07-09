@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {4} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Glimpr}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {MoviQ}."
+        },
+        {
+            "Q": "Which violin is the first position to the right of the violin Glimpr?",
+            "A": "The first position to the right of the violin Glimpr is {Tubeo}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Glimpr relative to the violin Tubeo in terms of horizontal (left/right) direction?",
+            "A": "violin Glimpr is to the {left} of the violin Tubeo."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Tubeo}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Tubeo}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Reelix?",
+            "A": "The density distribution pattern of the Reelix shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Glimpr in the violin plot?",
+            "A": "The median of Glimpr is {5892.00} viewers."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Reelix in the violin plot?",
+            "A": "The lower quartile (Q1) of Reelix is {5852.75} viewers."
+        },
+        {
+            "Q": "What is the upper whisker limit of Tubeo in the violin plot?",
+            "A": "The upper whisker limit of Tubeo is {33590.00} viewers."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Tubeo in the violin plot?",
+            "A": "The largest upper outlier value in Tubeo is {36080.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum viewers value in the violin plot?",
+            "A": "The global maximum viewers value in the violin plot is {36080.00} viewers."
+        },
+        {
+            "Q": "What is the global minimum viewers value in the violin plot?",
+            "A": "The global minimum viewers value in the violin plot is {2360.00} viewers."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between violin Glimpr and Tubeo?",
+            "A": "The Median difference between violin Glimpr and Tubeo is {15666.00} viewers."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin Reelix and Tubeo?",
+            "A": "The total Q3 value of violin Reelix and MoviQ is {33933.75} viewers."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Tubeo and MoviQ?",
+            "A": "The average Q1 value of violin Tubeo and MoviQ is {17008.00} viewers."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 19714.25 viewers? Please list the violins and corresponding values.",
+            "A": "{Tubeo} has {21558.00} viewers "
+        },
+        {
+            "Q": "Which violins have median values below 12495.50 viewers? Please list the violins and corresponding values.",
+            "A": "{Glimpr} has {5892.00} viewers , {Reelix} has {7120.50} viewers "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 5032.75 viewers and the upper quartile (Q3) below 23179.75 viewers?",
+            "A": "Violin {Reelix},{MoviQ} has the Q1 above 5032.75 viewers and the Q3 below 23179.75 viewers."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 11280.83 viewers?",
+            "A": "Violin {Tubeo} has {19736.08} viewers ,{MoviQ} has {16596.80} viewers have their highest density peak exceed 11280.83 viewers."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 18166.44 viewers?",
+            "A": "Violin {Glimpr} has {4516.04} viewers ,{Reelix} has {5964.86} viewers ,{MoviQ} has {16596.80} viewers have their highest density peak below 18166.44 viewers."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of MoviQ or Glimpr ",
+            "A": "The median value of the {MoviQ} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Reelix, Tubeo or Glimpr ",
+            "A": "The median value of the {Tubeo} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Reelix, MoviQ, Tubeo or Glimpr ",
+            "A": "The median value of the {Tubeo} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Tubeo}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,12 @@
+Human Resources and Employee Management, HR Department Flow, Employees, long_tail
+Source,Target,Value
+Sales Department,Finance Department,1242
+Finance Department,Sales Department,573
+Finance Department,Operations Department,412
+Operations Department,Finance Department,299
+IT Department,Operations Department,239
+Operations Department,IT Department,191
+Sales Department,Operations Department,174
+Operations Department,Sales Department,144
+IT Department,Finance Department,128
+Finance Department,IT Department,115

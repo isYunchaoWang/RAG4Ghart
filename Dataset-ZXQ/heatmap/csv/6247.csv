@@ -1,0 +1,91 @@
+Retail and E-commerce,the Trajectory of Retail and E-commerce,9x10,random
+Apparel,Brick&Mortar,0.22
+Books,Brick&Mortar,0.92
+Electronics,Brick&Mortar,1.0
+Furniture,Brick&Mortar,0.22
+Home Goods,Brick&Mortar,0.46
+Jewelry,Brick&Mortar,0.76
+Pet Supplies,Brick&Mortar,0.54
+Sports,Brick&Mortar,0.75
+Toys,Brick&Mortar,0.28
+Apparel,Customer Service,0.97
+Books,Customer Service,0.07
+Electronics,Customer Service,0.19
+Furniture,Customer Service,0.19
+Home Goods,Customer Service,0.25
+Jewelry,Customer Service,0.9
+Pet Supplies,Customer Service,0.81
+Sports,Customer Service,0.58
+Toys,Customer Service,0.93
+Apparel,DTC,0.94
+Books,DTC,0.59
+Electronics,DTC,0.91
+Furniture,DTC,0.66
+Home Goods,DTC,0.93
+Jewelry,DTC,0.97
+Pet Supplies,DTC,0.61
+Sports,DTC,0.93
+Toys,DTC,0.15
+Apparel,Inventory,0.54
+Books,Inventory,0.86
+Electronics,Inventory,0.92
+Furniture,Inventory,0.44
+Home Goods,Inventory,0.22
+Jewelry,Inventory,0.38
+Pet Supplies,Inventory,0.8
+Sports,Inventory,0.33
+Toys,Inventory,0.93
+Apparel,Logistics,0.22
+Books,Logistics,0.25
+Electronics,Logistics,0.95
+Furniture,Logistics,0.36
+Home Goods,Logistics,0.64
+Jewelry,Logistics,0.81
+Pet Supplies,Logistics,0.31
+Sports,Logistics,0.6
+Toys,Logistics,0.61
+Apparel,Marketing,0.1
+Books,Marketing,0.92
+Electronics,Marketing,0.64
+Furniture,Marketing,0.21
+Home Goods,Marketing,0.22
+Jewelry,Marketing,0.24
+Pet Supplies,Marketing,0.29
+Sports,Marketing,0.73
+Toys,Marketing,0.93
+Apparel,Marketplace,0.07
+Books,Marketplace,0.65
+Electronics,Marketplace,0.34
+Furniture,Marketplace,0.68
+Home Goods,Marketplace,0.07
+Jewelry,Marketplace,0.09
+Pet Supplies,Marketplace,0.11
+Sports,Marketplace,0.49
+Toys,Marketplace,0.58
+Apparel,Omnichannel,0.55
+Books,Omnichannel,0.35
+Electronics,Omnichannel,0.54
+Furniture,Omnichannel,0.26
+Home Goods,Omnichannel,0.78
+Jewelry,Omnichannel,0.42
+Pet Supplies,Omnichannel,0.02
+Sports,Omnichannel,0.88
+Toys,Omnichannel,0.03
+Apparel,Online,0.91
+Books,Online,0.32
+Electronics,Online,0.79
+Furniture,Online,0.49
+Home Goods,Online,0.15
+Jewelry,Online,0.68
+Pet Supplies,Online,0.35
+Sports,Online,0.99
+Toys,Online,0.39
+Apparel,Subscription,0.29
+Books,Subscription,0.7
+Electronics,Subscription,0.8
+Furniture,Subscription,0.79
+Home Goods,Subscription,0.75
+Jewelry,Subscription,0.51
+Pet Supplies,Subscription,0.25
+Sports,Subscription,0.83
+Toys,Subscription,0.99

@@ -1,0 +1,76 @@
+Education and Academics,Education System Framework,Students,random,Institution Types,Enrollment Channels,Support Services,Student Backgrounds,Post-Education Paths
+Source,Target,Value
+Online Institution,Direct Admission,14279
+Online Institution,Online Applications,2892
+Online Institution,Exchange Programs,6197
+Community College,Direct Admission,2450
+Community College,Online Applications,6397
+Community College,Exchange Programs,2450
+University,Direct Admission,2711
+University,Online Applications,3592
+University,Exchange Programs,4994
+Direct Admission,Tutoring Centers,7633
+Direct Admission,Financial Aid,4244
+Direct Admission,Academic Advising,1766
+Direct Admission,Counseling,4031
+Direct Admission,Career Services,1766
+Online Applications,Tutoring Centers,3274
+Online Applications,Financial Aid,3649
+Online Applications,Academic Advising,1221
+Online Applications,Counseling,3052
+Online Applications,Career Services,1685
+Exchange Programs,Tutoring Centers,4764
+Exchange Programs,Financial Aid,3285
+Exchange Programs,Academic Advising,490
+Exchange Programs,Counseling,490
+Exchange Programs,Career Services,4612
+Tutoring Centers,Rural,4933
+Tutoring Centers,Transfer Students,4249
+Tutoring Centers,Low-Income,890
+Tutoring Centers,First-Generation,867
+Tutoring Centers,International,4732
+Financial Aid,Rural,2879
+Financial Aid,Transfer Students,2510
+Financial Aid,Low-Income,980
+Financial Aid,First-Generation,1980
+Financial Aid,International,2829
+Academic Advising,Rural,131
+Academic Advising,Transfer Students,824
+Academic Advising,Low-Income,441
+Academic Advising,First-Generation,790
+Academic Advising,International,1291
+Counseling,Rural,663
+Counseling,Transfer Students,2322
+Counseling,Low-Income,304
+Counseling,First-Generation,1687
+Counseling,International,2597
+Career Services,Rural,2169
+Career Services,Transfer Students,1932
+Career Services,Low-Income,383
+Career Services,First-Generation,2007
+Career Services,International,1572
+Rural,Employment,2468
+Rural,Gap Year,842
+Rural,Certification Programs,842
+Rural,Entrepreneurship,1643
+Rural,Graduate Studies,4980
+Transfer Students,Employment,895
+Transfer Students,Gap Year,4353
+Transfer Students,Certification Programs,532
+Transfer Students,Entrepreneurship,4423
+Transfer Students,Graduate Studies,1634
+Low-Income,Employment,160
+Low-Income,Gap Year,559
+Low-Income,Certification Programs,599
+Low-Income,Entrepreneurship,843
+Low-Income,Graduate Studies,837
+First-Generation,Employment,1435
+First-Generation,Gap Year,1104
+First-Generation,Certification Programs,1215
+First-Generation,Entrepreneurship,2390
+First-Generation,Graduate Studies,1187
+International,Employment,2696
+International,Gap Year,2333
+International,Certification Programs,3214
+International,Entrepreneurship,1215
+International,Graduate Studies,3563

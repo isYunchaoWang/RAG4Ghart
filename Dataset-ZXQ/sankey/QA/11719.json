@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of column Platform Types of this sankey chart?",
+            "A": "There are {8} links flow out of column Platform Types."
+        },
+        {
+            "Q": "How many nodes are in the column Platform Types of this sankey chart?",
+            "A": "There are {2} nodes in the column Platform Types."
+        },
+        {
+            "Q": "How many links flow into the node News Aggregators in this sankey chart?",
+            "A": "There are {6} links flowing into the node News Aggregators."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Engagement Methods}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Content Formats}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Pay-Per-View} and {Teens}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Live Chats} and {Social Networks}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Donations to the node News Aggregators?",
+            "A": "The flow value from the node Donations to the node News Aggregators is {363212}."
+        },
+        {
+            "Q": "What is the flow value from the node Social Networks to the node Pay-Per-View?",
+            "A": "The flow value from the node Social Networks to the node Pay-Per-View is {385632}."
+        },
+        {
+            "Q": "What is the flow value from the node Live Chats to the node Social Networks?",
+            "A": "The flow value from the node Live Chats to the node Social Networks is {39539}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Teens to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Teens to the next stage is {618193}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Live Chats to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Live Chats to the next stage is {39539}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Live Chats?",
+            "A": "The total flow output from node Live Chats is {84705}."
+        },
+        {
+            "Q": "What is the total flow input by node Podcasts?",
+            "A": "The total flow input by node Podcasts is {412885}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Monetization Models of the sankey chart, which nodes have an outflow exceeded 346832? Please list the node labels and their corresponding outflow values.",
+            "A": "{Ad Revenue} has an outflow of {441878}, {Virtual Gifts} has an outflow of {395828}, {Pay-Per-View} has an outflow of {714042}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Platform Types and column Monetization Models is the flow between 239741 and 286619? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {274291} from node {News Aggregators} to {Sponsorships}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 239803 and 256318? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {243003} from node {Adults} to {Podcasts}, a flow of {253168} from node {Teens} to {Music Tracks}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Teens to node Articles and from node Social Networks to node Virtual Gifts, which path has a larger flow?",
+            "A": "The flow from node {Teens} to node {Articles} is larger."
+        },
+        {
+            "Q": "Among the flows from node News Aggregators to node Sponsorships, from node Teens to node Articles, and from node Social Networks to node Pay-Per-View, which path has the largest flow?",
+            "A": "The flow from node {Teens} to node {Articles} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Monetization Models of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Monetization Models is {Pay-Per-View}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Shares to target node Livestreams? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Shares to node Livestreams is: {Shares, News Aggregators, Ad Revenue, Adults, Livestreams}."
+        }
+    ],
+    "VA": []
+}

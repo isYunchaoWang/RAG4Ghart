@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Glenhaven}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Springfield}."
+        },
+        {
+            "Q": "Which violin is the first position to the left of the violin Quarryville?",
+            "A": "The first position to the left of the violin Quarryville is {Glenhaven}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Glenhaven relative to the violin Springfield in terms of horizontal (left/right) direction?",
+            "A": "violin Glenhaven is to the {left} of the violin Springfield."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Springfield}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Quarryville}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Springfield?",
+            "A": "The density distribution pattern of the Springfield shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Springfield in the violin plot?",
+            "A": "The median of Springfield is {485.50} million USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Quarryville in the violin plot?",
+            "A": "The lower quartile (Q1) of Quarryville is {320.50} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Springfield in the violin plot?",
+            "A": "The upper whisker limit of Springfield is {1105.00} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Glenhaven in the violin plot?",
+            "A": "The largest upper outlier value in Glenhaven is {1161.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the violin plot?",
+            "A": "The global maximum million USD value in the violin plot is {1382.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the violin plot?",
+            "A": "The global minimum million USD value in the violin plot is {124.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Glenhaven and Springfield?",
+            "A": "The Q1 difference between violin Glenhaven and Springfield is {45.50} million USD."
+        },
+        {
+            "Q": "What is the toal Median value of violin Glenhaven and Quarryville?",
+            "A": "The total Median value of violin Glenhaven and Springfield is {908.50} million USD."
+        },
+        {
+            "Q": "What is the average Q3 value of violin Quarryville and Glenhaven?",
+            "A": "The average Q3 value of violin Quarryville and Glenhaven is {666.50} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 454.25 million USD? Please list the violins and corresponding values.",
+            "A": "{Quarryville} has {481.50} million USD , {Springfield} has {485.50} million USD "
+        },
+        {
+            "Q": "Which violins have median values below 454.25 million USD? Please list the violins and corresponding values.",
+            "A": "{Glenhaven} has {427.00} million USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 296.50 million USD and the upper quartile (Q3) below 690.75 million USD?",
+            "A": "Violin {Springfield} has the Q1 above 296.50 million USD and the Q3 below 690.75 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 344.15 million USD?",
+            "A": "Violin {Quarryville} has {397.01} million USD ,{Springfield} has {349.42} million USD have their highest density peak exceed 344.15 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 344.15 million USD?",
+            "A": "Violin {Glenhaven} has {338.87} million USD have their highest density peak below 344.15 million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Quarryville or Glenhaven ",
+            "A": "The median value of the {Quarryville} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Quarryville, Springfield or Glenhaven ",
+            "A": "The median value of the {Springfield} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Quarryville}."
+        }
+    ],
+    "VA": []
+}

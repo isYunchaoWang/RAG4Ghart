@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {4} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Brookfield}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Ironwood}."
+        },
+        {
+            "Q": "Which violin is the third position to the right of the violin Brookfield?",
+            "A": "The third position to the right of the violin Brookfield is {Ironwood}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Lakeview relative to the violin Glenhaven in terms of horizontal (left/right) direction?",
+            "A": "violin Lakeview is to the {right} of the violin Glenhaven."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Glenhaven}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Glenhaven}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Lakeview?",
+            "A": "The density distribution pattern of the Lakeview shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Glenhaven in the violin plot?",
+            "A": "The median of Glenhaven is {51069.50} tons."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Ironwood in the violin plot?",
+            "A": "The upper quartile (Q3) of Ironwood is {52080.00} tons."
+        },
+        {
+            "Q": "What is the upper whisker limit of Ironwood in the violin plot?",
+            "A": "The upper whisker limit of Ironwood is {70198.00} tons."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Brookfield in the violin plot?",
+            "A": "The largest upper outlier value in Brookfield is {68267.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum tons value in the violin plot?",
+            "A": "The global maximum tons value in the violin plot is {75205.00} tons."
+        },
+        {
+            "Q": "What is the global minimum tons value in the violin plot?",
+            "A": "The global minimum tons value in the violin plot is {17385.00} tons."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Ironwood and Brookfield?",
+            "A": "The Q1 difference between violin Ironwood and Brookfield is {197.00} tons."
+        },
+        {
+            "Q": "What is the toal Q1 value of violin Ironwood and Brookfield?",
+            "A": "The total Q1 value of violin Ironwood and Ironwood is {79340.00} tons."
+        },
+        {
+            "Q": "What is the average Q3 value of violin Brookfield and Lakeview?",
+            "A": "The average Q3 value of violin Brookfield and Lakeview is {50341.12} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 49918.75 tons? Please list the violins and corresponding values.",
+            "A": "{Glenhaven} has {51069.50} tons "
+        },
+        {
+            "Q": "Which violins have median values below 44267.00 tons? Please list the violins and corresponding values.",
+            "A": "{Brookfield} has {43623.50} tons "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 39670.00 tons and the upper quartile (Q3) below 54513.62 tons?",
+            "A": "Violin {Lakeview},{Ironwood} has the Q1 above 39670.00 tons and the Q3 below 54513.625 tons."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 45924.17 tons?",
+            "A": "Violin {Glenhaven} has {51786.79} tons ,{Lakeview} has {48090.37} tons have their highest density peak exceed 45924.17 tons."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 43550.06 tons?",
+            "A": "Violin {Ironwood} has {43342.14} tons have their highest density peak below 43550.06 tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Brookfield or Ironwood ",
+            "A": "The median value of the {Ironwood} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Ironwood, Glenhaven or Brookfield ",
+            "A": "The median value of the {Glenhaven} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Brookfield, Ironwood, Glenhaven or Lakeview ",
+            "A": "The median value of the {Glenhaven} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Glenhaven}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,81 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {3} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Cotton?",
+            "A": "The next slice clockwise from slice Cotton is {Corn}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Cotton?",
+            "A": "The next slice counterclockwise from slice Cotton is {Rice}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which crop has the largest proportion in this pie chart?",
+            "A": "The crop with the largest proportion is {Rice}."
+        },
+        {
+            "Q": "Which crop has the smallest proportion in this pie chart?",
+            "A": "The crop with the smallest proportion is {Cotton}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Cotton slice in this pie chart?",
+            "A": "The value of the Cotton slice is {32}%."
+        },
+        {
+            "Q": "What is the value of the Rice slice in this pie chart?",
+            "A": "The value of the Rice slice is {34}%."
+        },
+        {
+            "Q": "What is the value of the Corn slice in this pie chart?",
+            "A": "The value of the Corn slice is {34}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {34}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {32}%."
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 33.33%? Please list the category names and corresponding percentages.",
+            "A": "{Rice} accounts for {34}% and {Corn} accounts for {34}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 33.0%? Please list the category names and corresponding percentages.",
+            "A": "{Cotton} accounts for {32}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Rice, Corn, or Cotton?",
+            "A": "The value of {Rice} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Rice or Corn?",
+            "A": "The value of {Rice} is larger."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

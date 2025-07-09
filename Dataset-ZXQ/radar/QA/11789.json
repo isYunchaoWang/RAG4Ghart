@@ -1,0 +1,135 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Citation Rate?",
+            "A": "The next dimension clockwise from Citation Rate is Green Technology Adoption Rate Technology Transfer Success Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from R&D ROI (Return on Investment)?",
+            "A": "The next dimension counterclockwise from Citation Rate is R&D ROI (Return on Investment)."
+        },
+        {
+            "Q": "On the Green Technology Adoption Rate Technology Transfer Success Rate, is the point for Ward, Hernandez and Hughes Biotech inside or outside the point for Flynn, Owens and Velasquez Energy?",
+            "A": "On the Green Technology Adoption Rate Technology Transfer Success Rate, the point for Ward, Hernandez and Hughes Biotech is inside the point for Flynn, Owens and Velasquez Energy."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Patent Commercialization Rate } encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Ward, Hernandez and Hughes Biotech?",
+            "A": "The strongest aspect is {Patent Commercialization Rate }, while the weakest aspect is{ Green Technology Adoption Rate Technology Transfer Success Rate}."
+        },
+        {
+            "Q": "On dimension Green Technology Adoption Rate Technology Transfer Success Rate, which label scores the highest?",
+            "A": "On Green Technology Adoption Rate Technology Transfer Success Rate, label {Ward, Hernandez and Hughes Biotech} scores the highest."
+        },
+        {
+            "Q": "On dimension Interdisciplinary Collaboration Rate , which label scores the highest?",
+            "A": "On Interdisciplinary Collaboration Rate , label {Webster-Conner Quantum} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Flynn, Owens and Velasquez Energy on the Patent Commercialization Rate  in the radar chart?",
+            "A": "The value of Flynn, Owens and Velasquez Energy on the Safety dimension is {76}."
+        },
+        {
+            "Q": "What is the value of Webster-Conner Quantum on the Innovation Rate in the radar chart?",
+            "A": "The value of Webster-Conner Quantum on the Safety dimension is {97}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Webster-Conner Quantum across all dimensions in the radar chart?",
+            "A": "The maximum value of Webster-Conner Quantum across all dimensions is {76}."
+        },
+        {
+            "Q": "What is the minimum value of label Flynn, Owens and Velasquez Energy across all dimensions in the radar chart?",
+            "A": "The minimum value of Flynn, Owens and Velasquez Energy across all dimensions is {22}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Interdisciplinary Collaboration Rate ",
+            "A": "The average value of Interdisciplinary Collaboration Rate  is {32.0}."
+        },
+        {
+            "Q": "What is the average value of Webster-Conner Quantum",
+            "A": "The average value of Webster-Conner Quantum is {54.43}."
+        },
+        {
+            "Q": "What is the difference in Research Growth Rate between Flynn, Owens and Velasquez Energy and Webster-Conner Quantum?",
+            "A": "The difference in Research Growth Rate between Flynn, Owens and Velasquez Energy and Webster-Conner Quantum is {36}."
+        },
+        {
+            "Q": "What is the difference in R&D ROI (Return on Investment) between Ward, Hernandez and Hughes Biotech and Webster-Conner Quantum?",
+            "A": "The difference in R&D ROI (Return on Investment) between Ward, Hernandez and Hughes Biotech and Webster-Conner Quantum is {11}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Ward, Hernandez and Hughes Biotech in the radar chart, which dimensions have scores below 37? Please list the dimensions and corresponding scores.",
+            "A": "{Interdisciplinary Collaboration Rate } is {22}, {Research Growth Rate} is {36}"
+        },
+        {
+            "Q": "Which labels have scores below 48 for the R&D ROI (Return on Investment) dimension? Please list the labels and corresponding scores.",
+            "A": "{Flynn, Owens and Velasquez Energy} is {45}"
+        },
+        {
+            "Q": "Which labels have scores above 67 for the Green Technology Adoption Rate Technology Transfer Success Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Flynn, Owens and Velasquez Energy} is {78}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Flynn, Owens and Velasquez Energy, which dimension has a higher score: R&D ROI (Return on Investment) or Citation Rate?",
+            "A": "{Citation Rate} has a higher score than R&D ROI (Return on Investment) for Flynn, Owens and Velasquez Energy."
+        },
+        {
+            "Q": "For Ward, Hernandez and Hughes Biotech, which dimension has a higher score: Interdisciplinary Collaboration Rate  or Green Technology Adoption Rate Technology Transfer Success Rate?",
+            "A": "{Interdisciplinary Collaboration Rate } has a higher score than Green Technology Adoption Rate Technology Transfer Success Rate for Ward, Hernandez and Hughes Biotech."
+        },
+        {
+            "Q": "On Green Technology Adoption Rate Technology Transfer Success Rate, which label has a higher score: Flynn, Owens and Velasquez Energy or the Ward, Hernandez and Hughes Biotech?",
+            "A": "{Flynn, Owens and Velasquez Energy} has a higher score on Green Technology Adoption Rate Technology Transfer Success Rate compared to Ward, Hernandez and Hughes Biotech."
+        },
+        {
+            "Q": "On Interdisciplinary Collaboration Rate , which label has a higher score: Webster-Conner Quantum or the Ward, Hernandez and Hughes Biotech?",
+            "A": "{Ward, Hernandez and Hughes Biotech} has a higher score on Interdisciplinary Collaboration Rate  compared to Webster-Conner Quantum."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Webster-Conner Quantum, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Webster-Conner Quantum most needs to improve its {Interdisciplinary Collaboration Rate }."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Flynn, Owens and Velasquez Energy}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Ward, Hernandez and Hughes Biotech}."
+        }
+    ],
+    "VA": []
+}

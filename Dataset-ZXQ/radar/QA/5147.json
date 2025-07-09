@@ -1,0 +1,139 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Recycling Material Utilization Rate?",
+            "A": "The next dimension clockwise from Recycling Material Utilization Rate is Waste-to-Energy Conversion Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Recycling Material Utilization Rate?",
+            "A": "The next dimension counterclockwise from Recycling Material Utilization Rate is Green Building Certification Rate."
+        },
+        {
+            "Q": "On the Water Conservation Efficiency Rate, is the point for Lee, Burns and Bryan Sustainability Initiative inside or outside the point for Bowman-Roy Sustainability Initiative?",
+            "A": "On the Water Conservation Efficiency Rate, the point for Lee, Burns and Bryan Sustainability Initiative is outside the point for Bowman-Roy Sustainability Initiative."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Green Building Certification Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Bowman-Roy Sustainability Initiative?",
+            "A": "The strongest aspect is {Green Building Certification Rate}, while the weakest aspect is{ Water Conservation Efficiency Rate}."
+        },
+        {
+            "Q": "On dimension Water Conservation Efficiency Rate, which label scores the highest?",
+            "A": "On Water Conservation Efficiency Rate, label {Bowman-Roy Sustainability Initiative} scores the highest."
+        },
+        {
+            "Q": "On dimension Water Conservation Efficiency Rate, which label scores the highest?",
+            "A": "On Water Conservation Efficiency Rate, label {Bowman-Roy Sustainability Initiative} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Bowman-Roy Sustainability Initiative on the Sustainable Packaging Adoption Rate in the radar chart?",
+            "A": "The value of Bowman-Roy Sustainability Initiative on the Safety dimension is {41}."
+        },
+        {
+            "Q": "What is the value of Lee, Burns and Bryan Sustainability Initiative on the Water Conservation Efficiency Rate in the radar chart?",
+            "A": "The value of Lee, Burns and Bryan Sustainability Initiative on the Safety dimension is {37}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Bowman-Roy Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The maximum value of Bowman-Roy Sustainability Initiative across all dimensions is {89}."
+        },
+        {
+            "Q": "What is the minimum value of label Bowman-Roy Sustainability Initiative across all dimensions in the radar chart?",
+            "A": "The minimum value of Bowman-Roy Sustainability Initiative across all dimensions is {64}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Sustainable Packaging Adoption Rate",
+            "A": "The average value of Sustainable Packaging Adoption Rate is {51.67}."
+        },
+        {
+            "Q": "What is the average value of Lopez, Bell and Garcia Sustainability Initiative",
+            "A": "The average value of Lopez, Bell and Garcia Sustainability Initiative is {55.8}."
+        },
+        {
+            "Q": "What is the difference in Water Conservation Efficiency Rate between Bowman-Roy Sustainability Initiative and Lee, Burns and Bryan Sustainability Initiative?",
+            "A": "The difference in Water Conservation Efficiency Rate between Bowman-Roy Sustainability Initiative and Lee, Burns and Bryan Sustainability Initiative is {10}."
+        },
+        {
+            "Q": "What is the difference in Recycling Material Utilization Rate between Bowman-Roy Sustainability Initiative and Lee, Burns and Bryan Sustainability Initiative?",
+            "A": "The difference in Recycling Material Utilization Rate between Bowman-Roy Sustainability Initiative and Lee, Burns and Bryan Sustainability Initiative is {5}."
+        },
+        {
+            "Q": "What is the difference in Water Conservation Efficiency Rate between Lopez, Bell and Garcia Sustainability Initiative and Bowman-Roy Sustainability Initiative?",
+            "A": "The difference in Water Conservation Efficiency Rate between Lopez, Bell and Garcia Sustainability Initiative and Bowman-Roy Sustainability Initiative is {0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 29 for the Water Conservation Efficiency Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Bowman-Roy Sustainability Initiative} is {27}, {Lopez, Bell and Garcia Sustainability Initiative} is {27}"
+        },
+        {
+            "Q": "For Lee, Burns and Bryan Sustainability Initiative in the radar chart, which dimensions have scores above 77? Please list the dimensions and corresponding scores.",
+            "A": "{Green Building Certification Rate} is {89}, {Recycling Material Utilization Rate} is {85}"
+        },
+        {
+            "Q": "Which labels have scores above 59 for the Sustainable Packaging Adoption Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Lee, Burns and Bryan Sustainability Initiative} is {64}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Lee, Burns and Bryan Sustainability Initiative, which dimension has a higher score: Water Conservation Efficiency Rate or Green Building Certification Rate?",
+            "A": "{Green Building Certification Rate} has a higher score than Water Conservation Efficiency Rate for Lee, Burns and Bryan Sustainability Initiative."
+        },
+        {
+            "Q": "On Water Conservation Efficiency Rate, which label has a higher score: Lee, Burns and Bryan Sustainability Initiative or the Lopez, Bell and Garcia Sustainability Initiative?",
+            "A": "{Lee, Burns and Bryan Sustainability Initiative} has a higher score on Water Conservation Efficiency Rate compared to Lopez, Bell and Garcia Sustainability Initiative."
+        },
+        {
+            "Q": "On Sustainable Packaging Adoption Rate, which label has a higher score: Lee, Burns and Bryan Sustainability Initiative or the Lopez, Bell and Garcia Sustainability Initiative?",
+            "A": "{Lee, Burns and Bryan Sustainability Initiative} has a higher score on Sustainable Packaging Adoption Rate compared to Lopez, Bell and Garcia Sustainability Initiative."
+        },
+        {
+            "Q": "For Lopez, Bell and Garcia Sustainability Initiative, which dimension has a higher score: Sustainable Packaging Adoption Rate or Water Conservation Efficiency Rate or Recycling Material Utilization Rate?",
+            "A": "{Recycling Material Utilization Rate} has a higher score for Lopez, Bell and Garcia Sustainability Initiative."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Lee, Burns and Bryan Sustainability Initiative, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Lee, Burns and Bryan Sustainability Initiative most needs to improve its {Water Conservation Efficiency Rate}."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Lee, Burns and Bryan Sustainability Initiative}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Bowman-Roy Sustainability Initiative}."
+        }
+    ],
+    "VA": []
+}

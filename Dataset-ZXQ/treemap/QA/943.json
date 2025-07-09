@@ -1,0 +1,98 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Depth Control in this treemap?",
+            "A": "There are {2} child rectangles under the category Depth Control."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Crop Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Nozzle Plates}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Crop Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Venturi Injectors rectangle in this treemap?",
+            "A": "The value of the Venturi Injectors rectangle is {9.58}."
+        },
+        {
+            "Q": "What is the value of the Crop Systems rectangle in this treemap?",
+            "A": "The value of the Crop Systems rectangle is {100.0}."
+        },
+        {
+            "Q": "What is the value of the Seeders rectangle in this treemap?",
+            "A": "The value of the Seeders rectangle is {13.57}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {6.05}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Fertigation Systems and Precision Planting?",
+            "A": "The difference between Fertigation Systems and Precision Planting is {13.57}."
+        },
+        {
+            "Q": "What is the sum of the regions of Emitter Design and Dosing Mechanisms?",
+            "A": "The sum of Emitter Design and Dosing Mechanisms is {32.96}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Depth Control category in the treemap, which rectangular labels have a value exceeded 7.06? Please list the labels and values.",
+            "A": "{Pressure Sensors} has {7.34}"
+        },
+        {
+            "Q": "Under the Depth Control category in the treemap, which rectangular labels have a value below 6.51? Please list the labels and values.",
+            "A": "{Parallel Linkages} has {6.23}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Crop Systems or Irrigation Tech?",
+            "A": "The value of {Crop Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Pivot Systems or Water Flow?",
+            "A": "The value of {Pivot Systems} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Irrigation Tech, Pivot Systems, or Control Modules?",
+            "A": "The value of {Control Modules} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Crop Systems, Irrigation Tech, or Pivot Systems?",
+            "A": "The value of {Crop Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

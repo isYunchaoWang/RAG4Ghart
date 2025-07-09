@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {5} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Patent applications (patents) dimension, what is the spatial relationship of Roberts-Goodwin  Research Institute relative to Davis PLC  Research Institute in terms of vertical (above/below) direction?",
+            "A": "{Roberts-Goodwin  Research Institute} is {below} {Davis PLC  Research Institute} on the Patent applications (patents) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Collaboration index (1-10)?",
+            "A": "The first position to the left of Collaboration index (1-10) is {Lab efficiency (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Patent applications (patents)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Lab efficiency (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Citation index (citations/paper)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Collaboration index (1-10) and dimension Citation index (citations/paper)",
+            "A": "There is {Strong Correlation} between Collaboration index (1-10) and Citation index (citations/paper)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Lopez-Brown  Research Center on the Patent applications (patents) dimension in the parallel-coordinates chart?",
+            "A": "The value of Lopez-Brown  Research Center on the Patent applications (patents) dimension is {50.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Brown-Conway  Lab across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Brown-Conway  Lab across all dimensions is {382.02}"
+        },
+        {
+            "Q": "What is the minimum value of label Brown-Conway  Lab across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Brown-Conway  Lab across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Patent applications (patents)?",
+            "A": "The average value of Patent applications (patents) is {23.35}"
+        },
+        {
+            "Q": "What is the difference in coding Citation index (citations/paper) between label Brown-Conway  Lab and label Davis PLC  Research Institute",
+            "A": "The difference in coding Citation index (citations/paper) between Brown-Conway  Lab and Davis PLC  Research Institute is {382.02}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Publication count (papers) dimension in the parallel coordinates?",
+            "A": "{[100.0, 59.31, 54.44]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Patent applications (patents) dimension in the parallel coordinates?",
+            "A": "{[0.0, 6.5, 10.57]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Lab efficiency (%), which label has a higher score: Lopez-Brown  Research Center or Davis PLC  Research Institute?",
+            "A": "{Lopez-Brown  Research Center} has a higher score on Lab efficiency (%)."
+        },
+        {
+            "Q": "On Publication count (papers), which label has a higher score: Wilson and Sons  Research Institute or Lopez-Brown  Research Center?",
+            "A": "{Lopez-Brown  Research Center} has a higher score on Publication count (papers)."
+        },
+        {
+            "Q": "On Lab efficiency (%), which label has a higher score: Wilson and Sons  Research Institute or Brown-Conway  Lab?",
+            "A": "{Brown-Conway  Lab} has a higher score on Lab efficiency (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Citation index (citations/paper)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Publication count (papers) being greater than 45.28 and Citation index (citations/paper) being less than 352.53?",
+            "A": "There are {0} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

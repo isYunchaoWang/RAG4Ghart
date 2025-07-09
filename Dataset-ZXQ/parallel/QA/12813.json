@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Cart abandonment rate (%) dimension, what is the spatial relationship of Weaver-Church relative to Campbell Ltd in terms of vertical (above/below) direction?",
+            "A": "{Weaver-Church} is {above} {Campbell Ltd} on the Cart abandonment rate (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Conversion rate (%)?",
+            "A": "The second position to the left of Conversion rate (%) is {Gross margin (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Customer retention rate (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Return rate (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Average order value (USD)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Conversion rate (%) and dimension Inventory accuracy (%)",
+            "A": "There is {No Correlation} between Conversion rate (%) and Inventory accuracy (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Weaver-Church on the Customer retention rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Weaver-Church on the Customer retention rate (%) dimension is {5.93}"
+        },
+        {
+            "Q": "What is the value of Massey-Simpson on the Customer retention rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Massey-Simpson on the Customer retention rate (%) dimension is {18.83}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Knight, Bell and Anderson across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Knight, Bell and Anderson across all dimensions is {272.44}"
+        },
+        {
+            "Q": "What is the minimum value of label Massey-Simpson across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Massey-Simpson across all dimensions is {2.53}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Average order value (USD)?",
+            "A": "The average value of Average order value (USD) is {277.27}"
+        },
+        {
+            "Q": "What is the difference in coding Conversion rate (%) between label Jackson-Dawson and label Knight, Bell and Anderson",
+            "A": "The difference in coding Conversion rate (%) between Jackson-Dawson and Knight, Bell and Anderson is {3.67}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Cart abandonment rate (%) dimension in the parallel coordinates?",
+            "A": "{[90.0, 85.08, 84.46]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Gross margin (%) dimension in the parallel coordinates?",
+            "A": "{[10.0, 47.22, 50.86]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Inventory accuracy (%), which label has a higher score: Campbell Ltd or Jackson-Dawson?",
+            "A": "{Jackson-Dawson} has a higher score on Inventory accuracy (%)."
+        },
+        {
+            "Q": "On Conversion rate (%), which label has a higher score: Knight, Bell and Anderson or Campbell Ltd?",
+            "A": "{Knight, Bell and Anderson} has a higher score on Conversion rate (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Average order value (USD)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Average order value (USD) being greater than 333.27 and Customer retention rate (%) being less than 24.74?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

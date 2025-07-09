@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in the column Factory of this sankey chart?",
+            "A": "There are {5} nodes in the column Factory."
+        },
+        {
+            "Q": "How many links flow into the node Packaging Line in this sankey chart?",
+            "A": "There are {5} links flowing into the node Packaging Line."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Distribution Center}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Retail}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {South Hub} and {Chemical Plant}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Food Processing Plant} and {Test Facility}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Food Processing Plant to the node Labeling?",
+            "A": "The flow value from the node Food Processing Plant to the node Labeling is {29}."
+        },
+        {
+            "Q": "What is the flow value from the node South Hub to the node Textile Mill?",
+            "A": "The flow value from the node South Hub to the node Textile Mill is {448}."
+        },
+        {
+            "Q": "What is the flow value from the node Electronics Plant to the node Test Facility?",
+            "A": "The flow value from the node Electronics Plant to the node Test Facility is {314}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Packaging Line to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Packaging Line to the next stage is {298}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Chemical Plant to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Chemical Plant to the next stage is {73}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Packaging Line?",
+            "A": "The total flow output from node Packaging Line is {567}."
+        },
+        {
+            "Q": "What is the total flow input by node Chemical Plant?",
+            "A": "The total flow input by node Chemical Plant is {991}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Distribution Center of the sankey chart, which nodes have an outflow exceeded 301? Please list the node labels and their corresponding outflow values.",
+            "A": "{South Hub} has an outflow of {366}, {South Hub} has an outflow of {824}, {South Hub} has an outflow of {448}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Distribution Center and column Factory is the flow between 167 and 174? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {167} from node {North Hub} to {Chemical Plant}, a flow of {167} from node {North Hub} to {Textile Mill}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 127 and 167? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {127} from node {Electronics Plant} to {Component Assembly}, a flow of {157} from node {Chemical Plant} to {Test Facility}, a flow of {127} from node {Textile Mill} to {Labeling}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Component Assembly to node Outlet Mall and from node Chemical Plant to node Packaging Line, which path has a larger flow?",
+            "A": "The flow from node {Chemical Plant} to node {Packaging Line} is larger."
+        },
+        {
+            "Q": "Among the flows from node Electronics Plant to node Component Assembly, from node Chemical Plant to node Component Assembly, and from node Food Processing Plant to node Labeling, which path has the largest flow?",
+            "A": "The flow from node {Chemical Plant} to node {Component Assembly} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Distribution Center of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Distribution Center is {South Hub}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node North Hub to target node Outlet Mall? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node North Hub to node Outlet Mall is: {North Hub, Chemical Plant, Component Assembly, Outlet Mall}."
+        }
+    ],
+    "VA": []
+}

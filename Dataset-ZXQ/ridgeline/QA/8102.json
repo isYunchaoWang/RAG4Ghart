@@ -1,0 +1,73 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {3} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of Pediatric Care relative to the peak of Chronic Disease Management in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  Pediatric Care is to the {left} of the peak of Chronic Disease Management."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Pediatric Care show?",
+            "A": "The ridgeline representing Pediatric Care shows a {Random fluctuation}."
+        },
+        {
+            "Q": "At what value do  Pediatric Care reach its peaks?",
+            "A": "At {7147.15}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Elective Procedures} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =4857.9?",
+            "A": "At X =4857.9,the label with the highest density is {Elective Procedures}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 3639? Please list the countries and corresponding peak values.",
+            "A": "{Elective Procedures}'s peak at {5345},{Chronic Disease Management}'s peak at {8739},{Pediatric Care}'s peak at {7147}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 2868? Please list the countries and corresponding peak values.",
+            "A": "No matching label."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Pediatric Care or Elective Procedures?",
+            "A": "{Pediatric Care} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Pediatric Care or Chronic Disease Management?",
+            "A": "{Chronic Disease Management} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {3} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {Elective Procedures}"
+        }
+    ],
+    "VA": []
+}

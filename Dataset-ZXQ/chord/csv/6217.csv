@@ -1,0 +1,12 @@
+Healthcare and Health, Medical Referral Flow, Patients, long_tail
+Source,Target,Value
+Commdata_unity Health Center,Specialist Hospital,527
+Specialist Hospital,Commdata_unity Health Center,268
+Rehabilitation Center,Emergency Medical Center,190
+Emergency Medical Center,Rehabilitation Center,142
+Specialist Hospital,Rural Township Clinic,110
+Rural Township Clinic,Specialist Hospital,92
+Rehabilitation Center,Commdata_unity Health Center,79
+Commdata_unity Health Center,Rehabilitation Center,67
+Emergency Medical Center,Rural Township Clinic,60
+Rural Township Clinic,Emergency Medical Center,53

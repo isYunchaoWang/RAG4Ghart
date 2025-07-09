@@ -1,0 +1,95 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {5} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Travel to Destination stage positioned above or below the Make Reservation stage?",
+            "A": "The Travel to Destination stage is positioned {below} the Make Reservation stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {linear} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Travel to Destination?",
+            "A": "The value of stage Travel to Destination is {472}."
+        },
+        {
+            "Q": "What is the value of stage Book Flight?",
+            "A": "The value of stage Book Flight is {1380}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Search Travel Packages, with a value of {2376}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Travel to Destination, with a value of {472}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Search Travel Packages to stage Select Accommodation?",
+            "A": "Decreased by {506} Thousand Tourists from stage Search Travel Packages to stage Select Accommodation."
+        },
+        {
+            "Q": "How much did it decrease from stage Make Reservation to stage Travel to Destination?",
+            "A": "Decreased by {397} Thousand Tourists from stage Make Reservation to stage Travel to Destination."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 2123? Please list the stage labels and corresponding values.",
+            "A": "The {Search Travel Packages} stage has {2376}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 670? Please list the stage labels and corresponding values.",
+            "A": "The {Travel to Destination} stage has {472}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 670 and 2123? Please list the stage labels and corresponding values.",
+            "A": "The {Select Accommodation} stage has {1870}, the {Book Flight} stage has {1380}, the {Make Reservation} stage has {869}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Make Reservation to Travel to Destination, or from stage Book Flight to Make Reservation?",
+            "A": "The reduction from stage {Book Flight} to {Make Reservation} is greater."
+        },
+        {
+            "Q": "Which reduction is greater: from stage Book Flight to Make Reservation, or from stage Search Travel Packages to Select Accommodation?",
+            "A": "The reduction from stage {Book Flight} to {Make Reservation} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Select Accommodation to Book Flight, from stage Book Flight to Make Reservation, or from stage Search Travel Packages to Select Accommodation?",
+            "A": "The reduction from stage {Book Flight} to stage {Make Reservation} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Book Flight} and {Make Reservation} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Make Reservation} and {Travel to Destination} stages."
+        }
+    ],
+    "VA": []
+}

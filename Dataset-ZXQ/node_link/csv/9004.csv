@@ -1,0 +1,17 @@
+Tourism and Hospitality,Regional Tourist Flow Connections
+Source Node Index,Source Node Name,Target Node Index,Target Node Name,Relation Type
+0,Paris Historical Spot,7,London Royal Garden,tourism_package_link
+0,Paris Historical Spot,4,Santorini Scenic Viewpoint,tour_route
+0,Paris Historical Spot,3,Rome Ancient Ruins,shared_transport
+0,Paris Historical Spot,5,Bali Beach Resort,shared_transport
+0,Paris Historical Spot,6,Beijing Forbidden Site,tourism_package_link
+1,Kyoto Temple Area,5,Bali Beach Resort,shared_transport
+1,Kyoto Temple Area,8,Cairo Pyramid Zone,hotel_chain_membership
+1,Kyoto Temple Area,4,Santorini Scenic Viewpoint,shared_transport
+1,Kyoto Temple Area,7,London Royal Garden,shared_transport
+1,Kyoto Temple Area,2,New York City Landmark,hotel_chain_membership
+2,New York City Landmark,0,Paris Historical Spot,tourism_package_link
+2,New York City Landmark,9,Venice Canal District,tour_route
+2,New York City Landmark,3,Rome Ancient Ruins,tourism_package_link
+2,New York City Landmark,4,Santorini Scenic Viewpoint,tour_route
+2,New York City Landmark,8,Cairo Pyramid Zone,tourism_package_link

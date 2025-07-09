@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Laminated Core in this treemap?",
+            "A": "There are {1} child rectangles under the category Laminated Core."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Physics Research}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Coil Designs}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Physics Research}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Quantum Computing rectangle in this treemap?",
+            "A": "The value of the Quantum Computing rectangle is {9.67}."
+        },
+        {
+            "Q": "What is the value of the Rotating Plasmas rectangle in this treemap?",
+            "A": "The value of the Rotating Plasmas rectangle is {8.05}."
+        },
+        {
+            "Q": "What is the value of the Coil Designs rectangle in this treemap?",
+            "A": "The value of the Coil Designs rectangle is {5.09}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {90.33}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.09}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Silicon Steel and Particle Accelerators?",
+            "A": "The difference between Silicon Steel and Particle Accelerators is {34.5}."
+        },
+        {
+            "Q": "What is the sum of the regions of Plasma Physics and Electrostatic Barriers?",
+            "A": "The sum of Plasma Physics and Electrostatic Barriers is {58.67}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Laminated Core category in the treemap, which rectangular labels have a value exceeded 46.55? Please list the labels and values.",
+            "A": "{Eddy Current} has {46.56}"
+        },
+        {
+            "Q": "Under the Laminated Core category in the treemap, which rectangular labels have a value below 46.57? Please list the labels and values.",
+            "A": "{Eddy Current} has {46.56}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Physics Research, Particle Accelerators, or Magnet Systems?",
+            "A": "The value of {Physics Research} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Particle Accelerators, Magnet Systems, or Normal Conducting?",
+            "A": "The value of {Normal Conducting} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category nan in this treemap?",
+            "A": "There are {1} child rectangles under the category nan."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Valuation Models}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Pedestrian Paths}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Valuation Models}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Centroid Mapping rectangle in this treemap?",
+            "A": "The value of the Centroid Mapping rectangle is {48.66}."
+        },
+        {
+            "Q": "What is the value of the Hedonic Pricing rectangle in this treemap?",
+            "A": "The value of the Hedonic Pricing rectangle is {21.58}."
+        },
+        {
+            "Q": "What is the value of the Valuation Models rectangle in this treemap?",
+            "A": "The value of the Valuation Models rectangle is {100.0}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.04}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Walking Accessibility and Amenity Scoring?",
+            "A": "The difference between Walking Accessibility and Amenity Scoring is {68.3}."
+        },
+        {
+            "Q": "What is the sum of the regions of APIs Integration and Pedestrian Paths?",
+            "A": "The sum of APIs Integration and Pedestrian Paths is {19.48}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the nan category in the treemap, which rectangular labels have a value exceeded 99.99? Please list the labels and values.",
+            "A": "{Valuation Models} has {100.00}"
+        },
+        {
+            "Q": "Under the nan category in the treemap, which rectangular labels have a value below 100.01? Please list the labels and values.",
+            "A": "{Valuation Models} has {100.00}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of School Districts or Voronoi Diagrams?",
+            "A": "The value of {School Districts} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Amenity Scoring, School Districts, or Catchment Areas?",
+            "A": "The value of {Catchment Areas} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Valuation Models or Amenity Scoring?",
+            "A": "The value of {Valuation Models} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {8} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

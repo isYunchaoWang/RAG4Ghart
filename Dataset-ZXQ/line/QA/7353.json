@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On EchoWave, what is the spatial relationship of the data point in 1967 relative to that in 1966 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On EchoWave, the data point in 1967 is {above} and to the {right} of the data point in 1966."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of EchoWave's Daily Active Users levels?",
+            "A": "EchoWave's daily active users levels show a {stable falling} trend."
+        },
+        {
+            "Q": "Which line shows a stable falling trend in Daily Active Users levels?",
+            "A": "{EchoWave}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is EchoWave's Daily Active Users in 1968?",
+            "A": "EchoWave's daily active users in 1968 is {1323464957.46} users."
+        },
+        {
+            "Q": "What is EchoWave's Daily Active Users in 1966?",
+            "A": "EchoWave's daily active users in 1966 is {1285699076.30} users."
+        },
+        {
+            "Q": "What is EchoWave's Daily Active Users in 1967?",
+            "A": "EchoWave's daily active users in 1967 is {1312154010.12} users."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Daily Active Users in the line chart?",
+            "A": "The global minimum daily active users is {1285699076.30} users."
+        },
+        {
+            "Q": "What is the global maximum Daily Active Users in the line chart?",
+            "A": "The global maximum daily active users is {1323464957.46} users."
+        },
+        {
+            "Q": "What is the highest Daily Active Users level recorded for EchoWave?",
+            "A": "EchoWave reached approximately {1323464957.46} users in {1968}."
+        },
+        {
+            "Q": "What is the lowest Daily Active Users level recorded for EchoWave?",
+            "A": "EchoWave's lowest recorded level is approximately {1285699076.30} users in {1966}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in EchoWave's Daily Active Users from the starting year to the final year?",
+            "A": "The rate of growth in EchoWave's daily active users is {2.94}%."
+        },
+        {
+            "Q": "What is the average value of EchoWave's Daily Active Users?",
+            "A": "The average value of EchoWave's daily active users is {1307106014.63} users."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did EchoWave's Daily Active Users between 1300814837 and 1315921190 users? Please list the years and corresponding values.",
+            "A": "{1312154010.12} users in {1967} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was EchoWave's Daily Active Users in 1967 higher or lower than in 1968?",
+            "A": "The daily active users in 1967 was {lower} than in 1968."
+        },
+        {
+            "Q": "Was EchoWave's Daily Active Users in 1966 higher or lower than in 1968?",
+            "A": "The daily active users in 1966 was {lower} than in 1968."
+        },
+        {
+            "Q": "Was EchoWave's Daily Active Users in 1966 higher or lower than in 1967?",
+            "A": "The daily active users in 1966 was {lower} than in 1967."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

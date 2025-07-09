@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1970, what is the vertical (above/below) relationship of the line representing Veridian Vipers relative to Golden Griffins?",
+            "A": "In 1970, Veridian Vipers is {below} Golden Griffins in the vertical direction."
+        },
+        {
+            "Q": "On Crimson Comets, what is the spatial relationship of the data point in 1963 relative to that in 1976 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Crimson Comets, the data point in 1963 is {above} and to the {left} of the data point in 1976."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Shadowfen Spectres's Sponsorship Revenue levels?",
+            "A": "Shadowfen Spectres's sponsorship revenue levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Veridian Vipers's Sponsorship Revenue levels?",
+            "A": "Veridian Vipers's sponsorship revenue levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Golden Griffins's Sponsorship Revenue levels?",
+            "A": "Golden Griffins's sponsorship revenue levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Crimson Comets's Sponsorship Revenue levels?",
+            "A": "Crimson Comets's sponsorship revenue levels show a {single peak} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Veridian Vipers's Sponsorship Revenue in 1971?",
+            "A": "Veridian Vipers's sponsorship revenue in 1971 is {180424.11} $."
+        },
+        {
+            "Q": "What is Golden Griffins's Sponsorship Revenue in 1971?",
+            "A": "Golden Griffins's sponsorship revenue in 1971 is {904398.55} $."
+        },
+        {
+            "Q": "What is Veridian Vipers's Sponsorship Revenue in 1973?",
+            "A": "Veridian Vipers's sponsorship revenue in 1973 is {228182.59} $."
+        },
+        {
+            "Q": "What are the sponsorship revenue of Crimson Comets, Shadowfen Spectres, and Veridian Vipers in 1972?",
+            "A": "Crimson Comets's sponsorship revenue is {927807.59} $, Shadowfen Spectres's sponsorship revenue is {659500.51} $, Veridian Vipers's sponsorship revenue is {210267.30} $."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Sponsorship Revenue in the line chart?",
+            "A": "The global minimum sponsorship revenue is {76469.98} $."
+        },
+        {
+            "Q": "What is the global maximum Sponsorship Revenue in the line chart?",
+            "A": "The global maximum sponsorship revenue is {1242111.20} $."
+        },
+        {
+            "Q": "What is the highest Sponsorship Revenue level recorded for Crimson Comets?",
+            "A": "Crimson Comets reached approximately {1242111.20} $ in {1965}."
+        },
+        {
+            "Q": "What is the lowest Sponsorship Revenue level recorded for Crimson Comets?",
+            "A": "Crimson Comets's lowest recorded level is approximately {735218.98} $ in {1956}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Veridian Vipers's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of growth in Veridian Vipers's sponsorship revenue is {0.38}%."
+        },
+        {
+            "Q": "What is the average value of Crimson Comets's Sponsorship Revenue?",
+            "A": "The average value of Crimson Comets's sponsorship revenue is {1015665.96} $."
+        },
+        {
+            "Q": "What is the rate of change in Crimson Comets's Sponsorship Revenue from the starting year to the final year?",
+            "A": "The rate of growth in Crimson Comets's sponsorship revenue is {6.16}%."
+        },
+        {
+            "Q": "What is the average value of Shadowfen Spectres's Sponsorship Revenue?",
+            "A": "The average value of Shadowfen Spectres's sponsorship revenue is {593701.60} $."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Shadowfen Spectres's Sponsorship Revenue exceed 659501 $? Please list the years and corresponding values.",
+            "A": "{722350.40} $ in {1975} year, {670975.91} $ in {1971} year, {734720.70} $ in {1976} year."
+        },
+        {
+            "Q": "In the year 1969, which lines had Sponsorship Revenue below 498974 $? Please list the lines and corresponding values.",
+            "A": "{Veridian Vipers} had {126754} $."
+        },
+        {
+            "Q": "Which years did Veridian Vipers's Sponsorship Revenue between 139321 and 245027 $? Please list the years and corresponding values.",
+            "A": "{228182.59} $ in {1973} year, {180424.11} $ in {1971} year, {210267.30} $ in {1972} year."
+        },
+        {
+            "Q": "In the year 1961, which line had Sponsorship Revenue exceed 755459 $? Please list the lines and corresponding values.",
+            "A": "{Crimson Comets} had {1039565} $."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 1970, which line had the highest Sponsorship Revenue, Golden Griffins, Crimson Comets, Shadowfen Spectres, or Veridian Vipers?",
+            "A": "In 1970, {Crimson Comets} had the highest sponsorship revenue."
+        },
+        {
+            "Q": "In 1959, which line had the highest Sponsorship Revenue, Golden Griffins, Shadowfen Spectres, or Crimson Comets?",
+            "A": "In 1959, {Crimson Comets} had the highest sponsorship revenue."
+        },
+        {
+            "Q": "Was Shadowfen Spectres's Sponsorship Revenue in 1962 higher or lower than in 1971?",
+            "A": "The sponsorship revenue in 1962 was {lower} than in 1971."
+        },
+        {
+            "Q": "Between 1971 and 1972, which line had a higher average Sponsorship Revenue, Shadowfen Spectres or Golden Griffins?",
+            "A": "{Golden Griffins} had a higher average sponsorship revenue."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Crimson Comets}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1965 and 1969?",
+            "A": "{Golden Griffins} has the fastest average growth rate between 1965 and 1969."
+        },
+        {
+            "Q": "In which year did Golden Griffins first surpass Crimson Comets?",
+            "A": "Golden Griffins first surpassed Crimson Comets in the year {1973}."
+        },
+        {
+            "Q": "Which label had the leading sponsorship revenue since 1962?",
+            "A": "Since 1962, {Crimson Comets} had the leading sponsorship revenue."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Veridian Vipers. List the x-coordinates of data points to be preserved.(3 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1956, 1967, 1976}."
+        }
+    ]
+}

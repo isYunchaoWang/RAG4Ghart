@@ -1,0 +1,97 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {56} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {7} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {random} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Movies and Attendance in the heatmap?",
+            "A": "The heat value is {0.46}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Movies and Revenue in the heatmap?",
+            "A": "The heat value is {0.95}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Publishing and Sponsorship in the heatmap?",
+            "A": "The heat value is {0.93}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Publishing and Royalties in the heatmap?",
+            "A": "The heat value is {0.85}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.95}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.02}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Attendance on the y-axis?",
+            "A": "The maximum heat value for Attendance on the y-axis is {0.79}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Movies on the x-axis?",
+            "A": "The maximum heat value of Movies on the x-axis is {0.95}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Events on the x-axis?",
+            "A": "The average heat value for Events on the x-axis is {0.31}."
+        },
+        {
+            "Q": "What is the average heat value for label Publishing on the x-axis?",
+            "A": "The average heat value for Publishing on the x-axis is {0.68}."
+        },
+        {
+            "Q": "What is the average heat value for label Revenue on the y-axis?",
+            "A": "The average heat value for Revenue on the y-axis is {0.52}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Streaming and Revenue or the cell corresponding to Movies and Sponsorship?",
+            "A": "The cell corresponding to {Streaming} and {Revenue} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Football and Sponsorship or the cell corresponding to Streaming and Sponsorship?",
+            "A": "The cell corresponding to {Streaming} and {Sponsorship} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.19 to 0.36?",
+            "A": "The cells are: {(Events, Attendance), (Streaming, Attendance), (Events, Fan Engagement), (Movies, Fan Engagement), (Football, Ratings), (Basketball, Revenue), (Streaming, Revenue), (Basketball, Royalties), (Events, Royalties), (Events, Social Media), (Events, Sponsorship), (Music, Sponsorship)}."
+        }
+    ],
+    "VA": []
+}

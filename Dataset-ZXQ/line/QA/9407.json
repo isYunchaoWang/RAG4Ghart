@@ -1,0 +1,152 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 2009, what is the vertical (above/below) relationship of the line representing Long-Haul Operators relative to Last-Mile Couriers?",
+            "A": "In 2009, Long-Haul Operators is {below} Last-Mile Couriers in the vertical direction."
+        },
+        {
+            "Q": "On Long-Haul Operators, what is the spatial relationship of the data point in 2010 relative to that in 2002 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Long-Haul Operators, the data point in 2010 is {above} and to the {right} of the data point in 2002."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Long-Haul Operators's Driver Satisfaction levels?",
+            "A": "Long-Haul Operators's driver satisfaction levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Freight Train's Driver Satisfaction levels?",
+            "A": "Freight Train's driver satisfaction levels show a {periodic stable} trend."
+        },
+        {
+            "Q": "What is the trend of Last-Mile Couriers's Driver Satisfaction levels?",
+            "A": "Last-Mile Couriers's driver satisfaction levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "Which line shows a bimodal valley trend in Driver Satisfaction levels?",
+            "A": "{Long-Haul Operators}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Last-Mile Couriers's Driver Satisfaction in 2008?",
+            "A": "Last-Mile Couriers's driver satisfaction in 2008 is {43.81} index."
+        },
+        {
+            "Q": "What is Freight Train's Driver Satisfaction in 2009?",
+            "A": "Freight Train's driver satisfaction in 2009 is {86.33} index."
+        },
+        {
+            "Q": "What is Long-Haul Operators's Driver Satisfaction in 2010?",
+            "A": "Long-Haul Operators's driver satisfaction in 2010 is {2.18} index."
+        },
+        {
+            "Q": "What are the driver satisfaction of Freight Train, Last-Mile Couriers, and Long-Haul Operators in 2004?",
+            "A": "Freight Train's driver satisfaction is {87.14} index, Last-Mile Couriers's driver satisfaction is {68.35} index, Long-Haul Operators's driver satisfaction is {1.05} index."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Driver Satisfaction in the line chart?",
+            "A": "The global minimum driver satisfaction is {1.05} index."
+        },
+        {
+            "Q": "What is the global maximum Driver Satisfaction in the line chart?",
+            "A": "The global maximum driver satisfaction is {126.72} index."
+        },
+        {
+            "Q": "What is the highest Driver Satisfaction level recorded for Freight Train?",
+            "A": "Freight Train reached approximately {126.72} index in {2007}."
+        },
+        {
+            "Q": "What is the lowest Driver Satisfaction level recorded for Freight Train?",
+            "A": "Freight Train's lowest recorded level is approximately {75.79} index in {2005}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Last-Mile Couriers's Driver Satisfaction?",
+            "A": "The average value of Last-Mile Couriers's driver satisfaction is {61.01} index."
+        },
+        {
+            "Q": "What is the rate of change in Freight Train's Driver Satisfaction from the starting year to the final year?",
+            "A": "The rate of decline in Freight Train's driver satisfaction is {-23.47}%."
+        },
+        {
+            "Q": "What is the average value of Long-Haul Operators's Driver Satisfaction?",
+            "A": "The average value of Long-Haul Operators's driver satisfaction is {1.30} index."
+        },
+        {
+            "Q": "What is the rate of change in Last-Mile Couriers's Driver Satisfaction from the starting year to the final year?",
+            "A": "The rate of decline in Last-Mile Couriers's driver satisfaction is {-61.90}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 2009, which lines had Driver Satisfaction below 21 index? Please list the lines and corresponding values.",
+            "A": "{Long-Haul Operators} had {1} index."
+        },
+        {
+            "Q": "In the year 2004, which lines had Driver Satisfaction between 39 and 73 index? Please list the lines and corresponding values.",
+            "A": "{Last-Mile Couriers} had {68} index."
+        },
+        {
+            "Q": "In the year 2008, which line had Driver Satisfaction exceed 79 index? Please list the lines and corresponding values.",
+            "A": "{Freight Train} had {115} index."
+        },
+        {
+            "Q": "Which years did Last-Mile Couriers's Driver Satisfaction exceed 74 index? Please list the years and corresponding values.",
+            "A": "{84.22} index in {2002} year, {76.27} index in {2003} year, {93.64} index in {2001} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 2005 and 2007, which line experienced a larger change in Driver Satisfaction, Long-Haul Operators or Last-Mile Couriers?",
+            "A": "{Last-Mile Couriers} experienced a larger change in driver satisfaction."
+        },
+        {
+            "Q": "In 2010, which line had the highest Driver Satisfaction, Last-Mile Couriers, Freight Train, or Long-Haul Operators?",
+            "A": "In 2010, {Freight Train} had the highest driver satisfaction."
+        },
+        {
+            "Q": "Was Last-Mile Couriers's Driver Satisfaction in 2006 higher or lower than in 2007?",
+            "A": "The driver satisfaction in 2006 was {higher} than in 2007."
+        },
+        {
+            "Q": "Was Long-Haul Operators's Driver Satisfaction in 2003 higher or lower than in 2005?",
+            "A": "The driver satisfaction in 2003 was {the same} than in 2005."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Last-Mile Couriers}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2009 and 2010?",
+            "A": "{Long-Haul Operators} has the fastest average growth rate between 2009 and 2010."
+        },
+        {
+            "Q": "Which label had the leading driver satisfaction since 2007?",
+            "A": "Since 2007, {Freight Train} had the leading driver satisfaction."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Freight Train. List the x-coordinates of data points to be preserved.(5 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {2001, 2002, 2005, 2007, 2010}."
+        }
+    ]
+}

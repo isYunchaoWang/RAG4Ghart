@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {7} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Vizzle}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {SceneX}."
+        },
+        {
+            "Q": "Which violin is the first position to the right of the violin Flicksy?",
+            "A": "The first position to the right of the violin Flicksy is {Tubeo}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Viewly relative to the violin SnapPlay in terms of horizontal (left/right) direction?",
+            "A": "violin Viewly is to the {left} of the violin SnapPlay."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {SceneX}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {SceneX}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Flicksy?",
+            "A": "The density distribution pattern of the Flicksy shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Streamo in the violin plot?",
+            "A": "The median of Streamo is {14368.00} viewers."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of SceneX in the violin plot?",
+            "A": "The lower quartile (Q1) of SceneX is {24749.00} viewers."
+        },
+        {
+            "Q": "What is the upper whisker limit of Viewly in the violin plot?",
+            "A": "The upper whisker limit of Viewly is {34019.00} viewers."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Vizzle in the violin plot?",
+            "A": "The largest upper outlier value in Vizzle is {12031.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum viewers value in the violin plot?",
+            "A": "The global maximum viewers value in the violin plot is {54284.00} viewers."
+        },
+        {
+            "Q": "What is the global minimum viewers value in the violin plot?",
+            "A": "The global minimum viewers value in the violin plot is {4659.00} viewers."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin SceneX and Streamo?",
+            "A": "The Q1 difference between violin SceneX and Streamo is {12616.00} viewers."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin SceneX and SnapPlay?",
+            "A": "The total Q3 value of violin SceneX and SceneX is {62501.50} viewers."
+        },
+        {
+            "Q": "What is the average Q3 value of violin SnapPlay and Vizzle?",
+            "A": "The average Q3 value of violin SnapPlay and Vizzle is {17321.88} viewers."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 24347.50 viewers? Please list the violins and corresponding values.",
+            "A": "{Viewly} has {24530.00} viewers , {SceneX} has {29818.00} viewers "
+        },
+        {
+            "Q": "Which violins have median values below 15956.25 viewers? Please list the violins and corresponding values.",
+            "A": "{Vizzle} has {6863.00} viewers , {Streamo} has {14368.00} viewers "
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 24576.63 viewers?",
+            "A": "Violin {SnapPlay} has {25386.50} viewers ,{SceneX} has {26763.04} viewers have their highest density peak exceed 24576.63 viewers."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 17648.91 viewers?",
+            "A": "Violin {Vizzle} has {5706.87} viewers ,{Tubeo} has {16675.59} viewers ,{Streamo} has {12539.35} viewers have their highest density peak below 17648.91 viewers."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Viewly or Streamo ",
+            "A": "The median value of the {Viewly} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Tubeo, Vizzle or SnapPlay ",
+            "A": "The median value of the {SnapPlay} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Flicksy, Viewly, Tubeo or SnapPlay ",
+            "A": "The median value of the {Viewly} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {SceneX}."
+        }
+    ],
+    "VA": []
+}

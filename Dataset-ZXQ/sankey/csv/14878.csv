@@ -1,0 +1,40 @@
+Transportation and Logistics,Manufacturing Supply Transportation Chain,Goods,random,Warehouse,Factory,Retail,Assembly,Distribution Center
+Source,Target,Value
+Bulk Storage,Textile Mill,284
+Bulk Storage,Electronics Plant,465
+Bulk Storage,Chemical Plant,440
+Bulk Storage,Food Processing Plant,350
+Cold Storage,Textile Mill,93
+Cold Storage,Electronics Plant,9
+Cold Storage,Chemical Plant,37
+Cold Storage,Food Processing Plant,24
+Textile Mill,Outlet Mall,25
+Textile Mill,Convenience Store,47
+Textile Mill,City Supermarket,202
+Textile Mill,Neighborhood Store,103
+Electronics Plant,Outlet Mall,230
+Electronics Plant,Convenience Store,46
+Electronics Plant,City Supermarket,107
+Electronics Plant,Neighborhood Store,91
+Chemical Plant,Outlet Mall,153
+Chemical Plant,Convenience Store,104
+Chemical Plant,City Supermarket,116
+Chemical Plant,Neighborhood Store,104
+Food Processing Plant,Outlet Mall,143
+Food Processing Plant,Convenience Store,107
+Food Processing Plant,City Supermarket,94
+Food Processing Plant,Neighborhood Store,30
+Outlet Mall,Component Assembly,293
+Outlet Mall,Quality Check,258
+Convenience Store,Component Assembly,270
+Convenience Store,Quality Check,34
+City Supermarket,Component Assembly,123
+City Supermarket,Quality Check,396
+Neighborhood Store,Component Assembly,130
+Neighborhood Store,Quality Check,198
+Component Assembly,South Hub,199
+Component Assembly,North Hub,376
+Component Assembly,East Hub,241
+Quality Check,South Hub,394
+Quality Check,North Hub,405
+Quality Check,East Hub,87

@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category ML Models in this treemap?",
+            "A": "There are {2} child rectangles under the category ML Models."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Platform Architecture}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Exactly-Once Semantics}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Platform Architecture}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the GPU Acceleration rectangle in this treemap?",
+            "A": "The value of the GPU Acceleration rectangle is {20.49}."
+        },
+        {
+            "Q": "What is the value of the Real-Time Prediction rectangle in this treemap?",
+            "A": "The value of the Real-Time Prediction rectangle is {15.96}."
+        },
+        {
+            "Q": "What is the value of the Session Tracking rectangle in this treemap?",
+            "A": "The value of the Session Tracking rectangle is {14.46}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.61}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Tokenization and Session Tracking?",
+            "A": "The difference between Tokenization and Session Tracking is {5.84}."
+        },
+        {
+            "Q": "What is the sum of the regions of Real-Time Prediction and Matrix Factorization?",
+            "A": "The sum of Real-Time Prediction and Matrix Factorization is {45.18}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the ML Models category in the treemap, which rectangular labels have a value exceeded 28.81? Please list the labels and values.",
+            "A": "{Behavior Analysis} has {34.52}"
+        },
+        {
+            "Q": "Under the ML Models category in the treemap, which rectangular labels have a value below 17.39? Please list the labels and values.",
+            "A": "{Anomaly Detection} has {11.68}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Payment Systems, Fraud Detection, or ML Models?",
+            "A": "The value of {ML Models} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Platform Architecture, Payment Systems, or Fraud Detection?",
+            "A": "The value of {Platform Architecture} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {9} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

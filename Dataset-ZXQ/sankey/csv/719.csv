@@ -1,0 +1,31 @@
+Agriculture and Food Production,Agricultural Value Chain,Crops,random,Farming,Processing,Distribution,Consumption,Import & Export
+Source,Target,Value
+Seeding,Packaging,13901
+Seeding,Cleaning,7720
+Seeding,Sorting,8332
+Fertilization,Packaging,4678
+Fertilization,Cleaning,5433
+Fertilization,Sorting,9102
+Soil Preparation,Packaging,13035
+Soil Preparation,Cleaning,4931
+Soil Preparation,Sorting,1510
+Pest Control,Packaging,1841
+Pest Control,Cleaning,5319
+Pest Control,Sorting,10692
+Harvesting,Packaging,1951
+Harvesting,Cleaning,5119
+Harvesting,Sorting,4694
+Packaging,Storage,7402
+Packaging,Retail Delivery,28004
+Cleaning,Storage,21553
+Cleaning,Retail Delivery,6969
+Sorting,Storage,17288
+Sorting,Retail Delivery,17042
+Storage,Food Waste,11169
+Storage,Food Preparation,35074
+Retail Delivery,Food Waste,27826
+Retail Delivery,Food Preparation,24189
+Food Waste,Import Inspection,33008
+Food Waste,Trade Agreements,5987
+Food Preparation,Import Inspection,11150
+Food Preparation,Trade Agreements,48113

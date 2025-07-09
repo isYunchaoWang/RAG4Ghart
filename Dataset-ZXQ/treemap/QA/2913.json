@@ -1,0 +1,86 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Learning Systems in this treemap?",
+            "A": "There are {2} child rectangles under the category Learning Systems."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Learning Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {LMS Integration}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Learning Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Competency-Based rectangle in this treemap?",
+            "A": "The value of the Competency-Based rectangle is {18.32}."
+        },
+        {
+            "Q": "What is the value of the Blockchain Issuance rectangle in this treemap?",
+            "A": "The value of the Blockchain Issuance rectangle is {18.32}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.37}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Video Analytics and IoT Kits?",
+            "A": "The difference between Video Analytics and IoT Kits is {11.57}."
+        },
+        {
+            "Q": "What is the sum of the regions of Collaborative Tools and Competency-Based?",
+            "A": "The sum of Collaborative Tools and Competency-Based is {58.77}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value exceeded 59.86? Please list the labels and values.",
+            "A": "{Pedagogy} has {69.71}"
+        },
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value below 40.14? Please list the labels and values.",
+            "A": "{Experiential} has {30.29}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Pedagogy, Active Learning, or Project-Based?",
+            "A": "The value of {Project-Based} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Active Learning or Collaborative Tools?",
+            "A": "The value of {Active Learning} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {9} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

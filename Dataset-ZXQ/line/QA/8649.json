@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {7} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Theme Parks, what is the spatial relationship of the data point in 2005 relative to that in 1995 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Theme Parks, the data point in 2005 is {below} and to the {right} of the data point in 1995."
+        },
+        {
+            "Q": "In 1994, what is the vertical (above/below) relationship of the line representing Art Museums relative to Historic Forts?",
+            "A": "In 1994, Art Museums is {below} Historic Forts in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Mountain Peaks Park's Tourist Attraction Visits levels?",
+            "A": "Mountain Peaks Park's tourist attraction visits levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Adventure Zones's Tourist Attraction Visits levels?",
+            "A": "Adventure Zones's tourist attraction visits levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "What is the trend of Historic Forts's Tourist Attraction Visits levels?",
+            "A": "Historic Forts's tourist attraction visits levels show a {bimodal peak} trend."
+        },
+        {
+            "Q": "What is the trend of Crystal Caves's Tourist Attraction Visits levels?",
+            "A": "Crystal Caves's tourist attraction visits levels show a {bimodal valley} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Mountain Peaks Park's Tourist Attraction Visits in 2002?",
+            "A": "Mountain Peaks Park's tourist attraction visits in 2002 is {93927.77} visitors."
+        },
+        {
+            "Q": "What is Adventure Zones's Tourist Attraction Visits in 2000?",
+            "A": "Adventure Zones's tourist attraction visits in 2000 is {133518.02} visitors."
+        },
+        {
+            "Q": "What is Theme Parks's Tourist Attraction Visits in 1995?",
+            "A": "Theme Parks's tourist attraction visits in 1995 is {23895.26} visitors."
+        },
+        {
+            "Q": "What are the tourist attraction visits of Historic Forts, Wildlife Sanctuaries, and Theme Parks in 2004?",
+            "A": "Historic Forts's tourist attraction visits is {144223.56} visitors, Wildlife Sanctuaries's tourist attraction visits is {21576.47} visitors, Theme Parks's tourist attraction visits is {9661.25} visitors."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Tourist Attraction Visits in the line chart?",
+            "A": "The global minimum tourist attraction visits is {405.15} visitors."
+        },
+        {
+            "Q": "What is the global maximum Tourist Attraction Visits in the line chart?",
+            "A": "The global maximum tourist attraction visits is {208506.91} visitors."
+        },
+        {
+            "Q": "What is the highest Tourist Attraction Visits level recorded for Adventure Zones?",
+            "A": "Adventure Zones reached approximately {208506.91} visitors in {2005}."
+        },
+        {
+            "Q": "What is the lowest Tourist Attraction Visits level recorded for Adventure Zones?",
+            "A": "Adventure Zones's lowest recorded level is approximately {78669.23} visitors in {1994}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Mountain Peaks Park's Tourist Attraction Visits?",
+            "A": "The average value of Mountain Peaks Park's tourist attraction visits is {89006.73} visitors."
+        },
+        {
+            "Q": "What is the average value of Adventure Zones's Tourist Attraction Visits?",
+            "A": "The average value of Adventure Zones's tourist attraction visits is {133209.72} visitors."
+        },
+        {
+            "Q": "What is the rate of change in Crystal Caves's Tourist Attraction Visits from the starting year to the final year?",
+            "A": "The rate of decline in Crystal Caves's tourist attraction visits is {-49.60}%."
+        },
+        {
+            "Q": "What is the rate of change in Wildlife Sanctuaries's Tourist Attraction Visits from the starting year to the final year?",
+            "A": "The rate of growth in Wildlife Sanctuaries's tourist attraction visits is {10.18}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Historic Forts's Tourist Attraction Visits between 142343 and 154916 visitors? Please list the years and corresponding values.",
+            "A": "{144223.56} visitors in {2004} year, {150294.04} visitors in {1997} year, {150768.13} visitors in {2003} year."
+        },
+        {
+            "Q": "Which years did Art Museums's Tourist Attraction Visits below 69419 visitors? Please list the years and corresponding values.",
+            "A": "{57461.99} visitors in {1995} year, {55020.55} visitors in {1994} year, {64712.45} visitors in {1996} year."
+        },
+        {
+            "Q": "In the year 1999, which line had Tourist Attraction Visits exceed 107847 visitors? Please list the lines and corresponding values.",
+            "A": "{Adventure Zones} had {119823} visitors, {Historic Forts} had {158569} visitors."
+        },
+        {
+            "Q": "In the year 1994, which line had Tourist Attraction Visits exceed 77567 visitors? Please list the lines and corresponding values.",
+            "A": "{Historic Forts} had {126388} visitors, {Adventure Zones} had {78669} visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1994 and 1996, which line experienced the largest change in Tourist Attraction Visits, Crystal Caves, Mountain Peaks Park, or Theme Parks?",
+            "A": "{Mountain Peaks Park} experienced the largest change in tourist attraction visits."
+        },
+        {
+            "Q": "In 2004, which line had the highest Tourist Attraction Visits, Wildlife Sanctuaries, Adventure Zones, or Theme Parks?",
+            "A": "In 2004, {Adventure Zones} had the highest tourist attraction visits."
+        },
+        {
+            "Q": "Between 1996 and 2004, which line experienced the largest change in Tourist Attraction Visits, Wildlife Sanctuaries, Art Museums, or Crystal Caves?",
+            "A": "{Art Museums} experienced the largest change in tourist attraction visits."
+        },
+        {
+            "Q": "In 1998, which line had the highest Tourist Attraction Visits, Adventure Zones, Mountain Peaks Park, Historic Forts, or Crystal Caves?",
+            "A": "In 1998, {Historic Forts} had the highest tourist attraction visits."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Adventure Zones}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1995 and 1997?",
+            "A": "{Historic Forts} has the fastest average growth rate between 1995 and 1997."
+        },
+        {
+            "Q": "In which year did Wildlife Sanctuaries first surpass Theme Parks?",
+            "A": "Wildlife Sanctuaries first surpassed Theme Parks in the year {2002}."
+        },
+        {
+            "Q": "Which label had the leading tourist attraction visits since 2002?",
+            "A": "Since 2002, {Adventure Zones} had the leading tourist attraction visits."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Adventure Zones. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1994, 2005}."
+        }
+    ]
+}

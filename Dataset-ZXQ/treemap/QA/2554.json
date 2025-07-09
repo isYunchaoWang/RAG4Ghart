@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Learning Systems in this treemap?",
+            "A": "There are {2} child rectangles under the category Learning Systems."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Learning Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Haptic Feedback}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Learning Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Cloud Anchoring rectangle in this treemap?",
+            "A": "The value of the Cloud Anchoring rectangle is {6.65}."
+        },
+        {
+            "Q": "What is the value of the Mobile Sensing rectangle in this treemap?",
+            "A": "The value of the Mobile Sensing rectangle is {16.14}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {6.52}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Fieldwork Tech and Collaborative Tools?",
+            "A": "The difference between Fieldwork Tech and Collaborative Tools is {8.56}."
+        },
+        {
+            "Q": "What is the sum of the regions of Learning Systems and VR Environments?",
+            "A": "The sum of Learning Systems and VR Environments is {106.52}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value exceeded 55.16? Please list the labels and values.",
+            "A": "{Pedagogy} has {60.32}"
+        },
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value below 44.84? Please list the labels and values.",
+            "A": "{Experiential} has {39.68}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Experiential or Competency-Based?",
+            "A": "The value of {Experiential} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Pedagogy, Experiential, or Active Learning?",
+            "A": "The value of {Active Learning} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Learning Systems or Pedagogy?",
+            "A": "The value of {Learning Systems} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {10} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

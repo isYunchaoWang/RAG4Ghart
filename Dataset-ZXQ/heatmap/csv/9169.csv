@@ -1,0 +1,82 @@
+Tourism and Hospitality,the Trends of Tourism and Hospitality,9x9,radial_gradient
+Attractions,Adventure,0.43
+Cruises,Adventure,0.44
+Destinations,Adventure,0.41
+Events,Adventure,0.35
+Hotels,Adventure,0.24
+Marketing,Adventure,0.24
+Restaurants,Adventure,0.16
+Service Quality,Adventure,0.16
+Tour Operators,Adventure,0.15
+Attractions,Business,0.59
+Cruises,Business,0.62
+Destinations,Business,0.59
+Events,Business,0.51
+Hotels,Business,0.43
+Marketing,Business,0.28
+Restaurants,Business,0.18
+Service Quality,Business,0.17
+Tour Operators,Business,0.12
+Attractions,Eco-tourism,0.72
+Cruises,Eco-tourism,0.77
+Destinations,Eco-tourism,0.7
+Events,Eco-tourism,0.72
+Hotels,Eco-tourism,0.53
+Marketing,Eco-tourism,0.38
+Restaurants,Eco-tourism,0.23
+Service Quality,Eco-tourism,0.17
+Tour Operators,Eco-tourism,0.16
+Attractions,Family,0.82
+Cruises,Family,0.85
+Destinations,Family,0.81
+Events,Family,0.77
+Hotels,Family,0.69
+Marketing,Family,0.45
+Restaurants,Family,0.29
+Service Quality,Family,0.22
+Tour Operators,Family,0.17
+Attractions,Luxury,0.85
+Cruises,Luxury,0.87
+Destinations,Luxury,0.86
+Events,Luxury,0.81
+Hotels,Luxury,0.7
+Marketing,Luxury,0.51
+Restaurants,Luxury,0.33
+Service Quality,Luxury,0.2
+Tour Operators,Luxury,0.13
+Attractions,Rural,0.87
+Cruises,Rural,0.82
+Destinations,Rural,0.86
+Events,Rural,0.79
+Hotels,Rural,0.76
+Marketing,Rural,0.54
+Restaurants,Rural,0.29
+Service Quality,Rural,0.19
+Tour Operators,Rural,0.17
+Attractions,Seasonal,0.85
+Cruises,Seasonal,0.84
+Destinations,Seasonal,0.85
+Events,Seasonal,0.78
+Hotels,Seasonal,0.65
+Marketing,Seasonal,0.47
+Restaurants,Seasonal,0.31
+Service Quality,Seasonal,0.19
+Tour Operators,Seasonal,0.19
+Attractions,Urban,0.77
+Cruises,Urban,0.76
+Destinations,Urban,0.78
+Events,Urban,0.7
+Hotels,Urban,0.56
+Marketing,Urban,0.38
+Restaurants,Urban,0.23
+Service Quality,Urban,0.18
+Tour Operators,Urban,0.15
+Attractions,Wellness,0.62
+Cruises,Wellness,0.63
+Destinations,Wellness,0.63
+Events,Wellness,0.53
+Hotels,Wellness,0.42
+Marketing,Wellness,0.26
+Restaurants,Wellness,0.2
+Service Quality,Wellness,0.19
+Tour Operators,Wellness,0.15

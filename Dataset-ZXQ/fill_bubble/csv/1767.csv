@@ -1,0 +1,11 @@
+Education and Academics,the Hierarchy of Education and Academics,9
+size,father,depth,label
+80.07,0,1,Education and Academics
+31.97,1,2,Engineering
+34.59,1,2,Social Sciences
+7.98,3,3,Psychology
+10.59,3,3,Political Science
+11.9,2,3,Chemical Engineering
+13.98,2,3,Electrical Engineering
+14.08,2,3,Mechanical Engineering
+8.49,3,3,Economics

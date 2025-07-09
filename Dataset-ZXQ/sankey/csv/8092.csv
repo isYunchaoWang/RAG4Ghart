@@ -1,0 +1,16 @@
+Real Estate and Housing Market,Real Estate Transaction Ecosystem,Properties,random,Financing Options,Market Conditions,Property Types
+Source,Target,Value
+Cash Purchase,Buyer's Market,408
+Cash Purchase,Seller's Market,323
+Mortgage,Buyer's Market,176
+Mortgage,Seller's Market,513
+Lease-to-Own,Buyer's Market,59
+Lease-to-Own,Seller's Market,110
+Buyer's Market,Condo,133
+Buyer's Market,Townhouse,69
+Buyer's Market,Commercial Property,304
+Buyer's Market,Single Family Home,137
+Seller's Market,Condo,197
+Seller's Market,Townhouse,83
+Seller's Market,Commercial Property,562
+Seller's Market,Single Family Home,104

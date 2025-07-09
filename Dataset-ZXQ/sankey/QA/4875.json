@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow into column Final Disposition of this sankey chart?",
+            "A": "There are {6} links flow into column Final Disposition."
+        },
+        {
+            "Q": "How many nodes are in this sankey chart?",
+            "A": "There are {5} nodes."
+        },
+        {
+            "Q": "How many nodes are in the column Final Disposition of this sankey chart?",
+            "A": "There are {2} nodes in the column Final Disposition."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Emission Sources}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Final Disposition}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Coal Combustion} and {Atmosphere}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Livestock} and {Atmosphere}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Natural Gas to the node Atmosphere?",
+            "A": "The flow value from the node Natural Gas to the node Atmosphere is {47717}."
+        },
+        {
+            "Q": "What is the flow value from the node Coal Combustion to the node Carbon Trading?",
+            "A": "The flow value from the node Coal Combustion to the node Carbon Trading is {116579}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Coal Combustion to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Coal Combustion to the next stage is {142702}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Livestock to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Livestock to the next stage is {32454}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Coal Combustion?",
+            "A": "The total flow output from node Coal Combustion is {259281}."
+        },
+        {
+            "Q": "What is the total flow input by node Carbon Trading?",
+            "A": "The total flow input by node Carbon Trading is {234214}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Emission Sources of the sankey chart, which nodes have an outflow exceeded 129640? Please list the node labels and their corresponding outflow values.",
+            "A": "{Coal Combustion} has an outflow of {142702}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Emission Sources and column Final Disposition is the flow between 48682 and 92283? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {67987} from node {Livestock} to {Carbon Trading}, a flow of {49648} from node {Natural Gas} to {Carbon Trading}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 40085 and 92283? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {67987} from node {Livestock} to {Carbon Trading}, a flow of {49648} from node {Natural Gas} to {Carbon Trading}, a flow of {47717} from node {Natural Gas} to {Atmosphere}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Livestock to node Carbon Trading and from node Coal Combustion to node Carbon Trading, which path has a larger flow?",
+            "A": "The flow from node {Coal Combustion} to node {Carbon Trading} is larger."
+        },
+        {
+            "Q": "Between the flows from node Coal Combustion to node Carbon Trading and from node Coal Combustion to node Atmosphere, which path has a larger flow?",
+            "A": "The flow from node {Coal Combustion} to node {Atmosphere} is larger."
+        },
+        {
+            "Q": "Among the flows from node Natural Gas to node Atmosphere, from node Coal Combustion to node Atmosphere, and from node Livestock to node Atmosphere, which path has the largest flow?",
+            "A": "The flow from node {Coal Combustion} to node {Atmosphere} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Emission Sources of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Emission Sources is {Coal Combustion}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Livestock to target node Carbon Trading? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Livestock to node Carbon Trading is: {Livestock, Carbon Trading}."
+        }
+    ],
+    "VA": []
+}

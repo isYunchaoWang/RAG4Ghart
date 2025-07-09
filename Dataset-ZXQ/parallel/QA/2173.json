@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Share rate (%) dimension, what is the spatial relationship of FaceLink relative to GhostPic in terms of vertical (above/below) direction?",
+            "A": "{FaceLink} is {above} {GhostPic} on the Share rate (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the fourth position to the left of dimension Sentiment score (-1 to 1)?",
+            "A": "The fourth position to the left of Sentiment score (-1 to 1) is {Daily active users (millions)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Time spent (minutes/day)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Daily active users (millions)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Daily active users (millions)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Daily active users (millions) and dimension Click-through rate (%)",
+            "A": "There is {Strong Correlation} between Daily active users (millions) and Click-through rate (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of GhostPic on the Sentiment score (-1 to 1) dimension in the parallel-coordinates chart?",
+            "A": "The value of GhostPic on the Sentiment score (-1 to 1) dimension is {-0.07}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label FaceLink across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of FaceLink across all dimensions is {2000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label FaceLink across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of FaceLink across all dimensions is {-1.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Click-through rate (%)?",
+            "A": "The average value of Click-through rate (%) is {5.22}"
+        },
+        {
+            "Q": "What is the difference in coding Virality coefficient (shares/view) between label GhostPic and label FaceLink",
+            "A": "The difference in coding Virality coefficient (shares/view) between GhostPic and FaceLink is {4.9}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Sentiment score (-1 to 1) dimension in the parallel coordinates?",
+            "A": "{[1.0, -0.07, -1.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Daily active users (millions) dimension in the parallel coordinates?",
+            "A": "{[0.1, 896.98, 2000.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Daily active users (millions), which label has a higher score: FaceLink or GhostPic?",
+            "A": "{FaceLink} has a higher score on Daily active users (millions)."
+        },
+        {
+            "Q": "On Virality coefficient (shares/view), which label has a higher score: GhostPic or FaceLink?",
+            "A": "{FaceLink} has a higher score on Virality coefficient (shares/view)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Daily active users (millions)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Sentiment score (-1 to 1) being greater than 0.39 and Share rate (%) being less than 13.92?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

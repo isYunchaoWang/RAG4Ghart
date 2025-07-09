@@ -1,0 +1,12 @@
+Agriculture and Food Production, Crops Production Transfer Flow, Thousand Tons, random
+Source,Target,Value
+Rice,Sugarcane,707
+Sugarcane,Rice,319
+Oats,Sugarcane,870
+Sugarcane,Oats,644
+Rice,Potatoes,792
+Potatoes,Rice,487
+Oats,Potatoes,454
+Potatoes,Oats,127
+Oats,Rice,187
+Rice,Oats,258

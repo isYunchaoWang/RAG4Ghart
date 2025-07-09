@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {6} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Buffet Restaurants}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Cafeterias}."
+        },
+        {
+            "Q": "Which violin is the second position to the right of the violin Vegetarian Restaurants?",
+            "A": "The second position to the right of the violin Vegetarian Restaurants is {Asian Cuisine}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Cafeterias relative to the violin Buffet Restaurants in terms of horizontal (left/right) direction?",
+            "A": "violin Cafeterias is to the {right} of the violin Buffet Restaurants."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Buffet Restaurants}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Buffet Restaurants}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Buffet Restaurants?",
+            "A": "The density distribution pattern of the Buffet Restaurants shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Vegetarian Restaurants in the violin plot?",
+            "A": "The median of Vegetarian Restaurants is {501.00} million USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Asian Cuisine in the violin plot?",
+            "A": "The lower quartile (Q1) of Asian Cuisine is {454.00} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Asian Cuisine in the violin plot?",
+            "A": "The upper whisker limit of Asian Cuisine is {743.00} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Cafeterias in the violin plot?",
+            "A": "The largest upper outlier value in Cafeterias is {814.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the violin plot?",
+            "A": "The global maximum million USD value in the violin plot is {943.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the violin plot?",
+            "A": "The global minimum million USD value in the violin plot is {66.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Food Trucks and Asian Cuisine?",
+            "A": "The Q1 difference between violin Food Trucks and Asian Cuisine is {21.00} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin Cafeterias and Vegetarian Restaurants?",
+            "A": "The total Q3 value of violin Cafeterias and Cafeterias is {1147.00} million USD."
+        },
+        {
+            "Q": "What is the average Q3 value of violin Vegetarian Restaurants and Buffet Restaurants?",
+            "A": "The average Q3 value of violin Vegetarian Restaurants and Buffet Restaurants is {621.00} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 550.50 million USD? Please list the violins and corresponding values.",
+            "A": "{Buffet Restaurants} has {601.00} million USD , {Italian Restaurants} has {557.00} million USD "
+        },
+        {
+            "Q": "Which violins have median values below 525.00 million USD? Please list the violins and corresponding values.",
+            "A": "{Vegetarian Restaurants} has {501.00} million USD , {Asian Cuisine} has {515.00} million USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 473.50 million USD and the upper quartile (Q3) below 594.50 million USD?",
+            "A": "Violin {Food Trucks} has the Q1 above 473.50 million USD and the Q3 below 594.5 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 530.78 million USD?",
+            "A": "Violin {Buffet Restaurants} has {595.70} million USD ,{Italian Restaurants} has {567.76} million USD ,{Cafeterias} has {537.01} million USD have their highest density peak exceed 530.78 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 515.27 million USD?",
+            "A": "Violin {Vegetarian Restaurants} has {503.63} million USD ,{Asian Cuisine} has {506.00} million USD have their highest density peak below 515.27 million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Buffet Restaurants or Asian Cuisine ",
+            "A": "The median value of the {Buffet Restaurants} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Asian Cuisine, Cafeterias or Buffet Restaurants ",
+            "A": "The median value of the {Buffet Restaurants} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Asian Cuisine, Buffet Restaurants, Food Trucks or Vegetarian Restaurants ",
+            "A": "The median value of the {Buffet Restaurants} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Buffet Restaurants}."
+        }
+    ],
+    "VA": []
+}

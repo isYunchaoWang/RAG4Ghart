@@ -1,0 +1,65 @@
+Healthcare and Health,the Correlations of Healthcare and Health,8x8,central_cluster
+Clinics,Access,0.16
+Hospitals,Access,0.15
+Insurance,Access,0.16
+Patient Care,Access,0.15
+Pharmaceuticals,Access,0.16
+Public Health,Access,0.17
+Research,Access,0.16
+Telemedicine,Access,0.13
+Clinics,Epidemiology,0.2
+Hospitals,Epidemiology,0.17
+Insurance,Epidemiology,0.18
+Patient Care,Epidemiology,0.18
+Pharmaceuticals,Epidemiology,0.21
+Public Health,Epidemiology,0.14
+Research,Epidemiology,0.19
+Telemedicine,Epidemiology,0.19
+Clinics,Funding,0.21
+Hospitals,Funding,0.21
+Insurance,Funding,0.23
+Patient Care,Funding,0.22
+Pharmaceuticals,Funding,0.27
+Public Health,Funding,0.21
+Research,Funding,0.24
+Telemedicine,Funding,0.17
+Clinics,Outcomes,0.23
+Hospitals,Outcomes,0.24
+Insurance,Outcomes,0.26
+Patient Care,Outcomes,0.27
+Pharmaceuticals,Outcomes,0.26
+Public Health,Outcomes,0.27
+Research,Outcomes,0.24
+Telemedicine,Outcomes,0.22
+Clinics,Patient Satisfaction,0.27
+Hospitals,Patient Satisfaction,0.3
+Insurance,Patient Satisfaction,0.32
+Patient Care,Patient Satisfaction,0.33
+Pharmaceuticals,Patient Satisfaction,0.35
+Public Health,Patient Satisfaction,0.33
+Research,Patient Satisfaction,0.31
+Telemedicine,Patient Satisfaction,0.3
+Clinics,Prevention,0.33
+Hospitals,Prevention,0.32
+Insurance,Prevention,0.38
+Patient Care,Prevention,0.39
+Pharmaceuticals,Prevention,0.39
+Public Health,Prevention,0.38
+Research,Prevention,0.35
+Telemedicine,Prevention,0.35
+Clinics,Regulations,0.37
+Hospitals,Regulations,0.44
+Insurance,Regulations,0.45
+Patient Care,Regulations,0.48
+Pharmaceuticals,Regulations,0.47
+Public Health,Regulations,0.5
+Research,Regulations,0.46
+Telemedicine,Regulations,0.35
+Clinics,Technology Adoption,0.39
+Hospitals,Technology Adoption,0.48
+Insurance,Technology Adoption,0.52
+Patient Care,Technology Adoption,0.61
+Pharmaceuticals,Technology Adoption,0.6
+Public Health,Technology Adoption,0.56
+Research,Technology Adoption,0.47
+Telemedicine,Technology Adoption,0.44

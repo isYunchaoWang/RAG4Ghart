@@ -1,0 +1,50 @@
+Transportation and Logistics,the Trends of Transportation and Logistics,7x7,random
+Customs,Capacity,0.72
+Intermodal,Capacity,0.06
+Last Mile,Capacity,0.92
+Maritime,Capacity,0.03
+Pipeline,Capacity,0.58
+Planning,Capacity,0.71
+Warehousing,Capacity,0.29
+Customs,Compliance,0.99
+Intermodal,Compliance,0.07
+Last Mile,Compliance,0.6
+Maritime,Compliance,0.31
+Pipeline,Compliance,0.85
+Planning,Compliance,0.14
+Warehousing,Compliance,0.77
+Customs,Cost,0.78
+Intermodal,Cost,0.42
+Last Mile,Cost,0.24
+Maritime,Cost,0.56
+Pipeline,Cost,0.18
+Planning,Cost,0.11
+Warehousing,Cost,0.59
+Customs,Efficiency,0.03
+Intermodal,Efficiency,0.99
+Last Mile,Efficiency,0.85
+Maritime,Efficiency,0.24
+Pipeline,Efficiency,0.24
+Planning,Efficiency,0.09
+Warehousing,Efficiency,0.51
+Customs,Reliability,0.4
+Intermodal,Reliability,0.72
+Last Mile,Reliability,0.12
+Maritime,Reliability,0.42
+Pipeline,Reliability,0.14
+Planning,Reliability,0.08
+Warehousing,Reliability,0.96
+Customs,Speed,0.51
+Intermodal,Speed,0.75
+Last Mile,Speed,0.8
+Maritime,Speed,0.84
+Pipeline,Speed,0.33
+Planning,Speed,0.41
+Warehousing,Speed,0.72
+Customs,Sustainability,0.05
+Intermodal,Sustainability,0.96
+Last Mile,Sustainability,0.8
+Maritime,Sustainability,0.38
+Pipeline,Sustainability,0.04
+Planning,Sustainability,0.93
+Warehousing,Sustainability,0.93

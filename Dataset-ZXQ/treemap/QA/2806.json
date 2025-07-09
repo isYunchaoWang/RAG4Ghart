@@ -1,0 +1,98 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Learning Systems in this treemap?",
+            "A": "There are {2} child rectangles under the category Learning Systems."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Learning Systems}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Force Gloves}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Learning Systems}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the AR Labs rectangle in this treemap?",
+            "A": "The value of the AR Labs rectangle is {5.17}."
+        },
+        {
+            "Q": "What is the value of the Flipped Classroom rectangle in this treemap?",
+            "A": "The value of the Flipped Classroom rectangle is {24.81}."
+        },
+        {
+            "Q": "What is the value of the Blockchain Issuance rectangle in this treemap?",
+            "A": "The value of the Blockchain Issuance rectangle is {9.48}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.1}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of Haptic Feedback and Motion Capture?",
+            "A": "The difference between Haptic Feedback and Motion Capture is {5.1}."
+        },
+        {
+            "Q": "What is the sum of the regions of Spatial Anchors and Video Analytics?",
+            "A": "The sum of Spatial Anchors and Video Analytics is {14.42}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value exceeded 50.56? Please list the labels and values.",
+            "A": "{Pedagogy} has {51.11}"
+        },
+        {
+            "Q": "Under the Learning Systems category in the treemap, which rectangular labels have a value below 49.44? Please list the labels and values.",
+            "A": "{Experiential} has {48.89}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Learning Systems or Pedagogy?",
+            "A": "The value of {Learning Systems} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Experiential or Fieldwork Tech?",
+            "A": "The value of {Experiential} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Learning Systems, Pedagogy, or Experiential?",
+            "A": "The value of {Learning Systems} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Pedagogy, Experiential, or Active Learning?",
+            "A": "The value of {Active Learning} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {10} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

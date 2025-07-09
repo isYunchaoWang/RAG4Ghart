@@ -1,0 +1,160 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {4} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Misty Meadow Acres, what is the spatial relationship of the data point in 2013 relative to that in 1995 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Misty Meadow Acres, the data point in 2013 is {above} and to the {right} of the data point in 1995."
+        },
+        {
+            "Q": "In 1995, what is the vertical (above/below) relationship of the line representing Golden Harvest Cooperative relative to Whispering Willows Estate?",
+            "A": "In 1995, Golden Harvest Cooperative is {above} Whispering Willows Estate in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Whispering Willows Estate's Livestock Production levels?",
+            "A": "Whispering Willows Estate's livestock production levels show a {bimodal valley} trend."
+        },
+        {
+            "Q": "What is the trend of Golden Harvest Cooperative's Livestock Production levels?",
+            "A": "Golden Harvest Cooperative's livestock production levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of Misty Meadow Acres's Livestock Production levels?",
+            "A": "Misty Meadow Acres's livestock production levels show a {stable falling} trend."
+        },
+        {
+            "Q": "What is the trend of Ironwood Ranch's Livestock Production levels?",
+            "A": "Ironwood Ranch's livestock production levels show a {exponential falling} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Golden Harvest Cooperative's Livestock Production in 1994?",
+            "A": "Golden Harvest Cooperative's livestock production in 1994 is {51992.36} tons."
+        },
+        {
+            "Q": "What is Golden Harvest Cooperative's Livestock Production in 2009?",
+            "A": "Golden Harvest Cooperative's livestock production in 2009 is {47090.39} tons."
+        },
+        {
+            "Q": "What is Ironwood Ranch's Livestock Production in 1989?",
+            "A": "Ironwood Ranch's livestock production in 1989 is {45830.09} tons."
+        },
+        {
+            "Q": "What are the livestock production of Ironwood Ranch, Whispering Willows Estate, and Misty Meadow Acres in 1994?",
+            "A": "Ironwood Ranch's livestock production is {27147.11} tons, Whispering Willows Estate's livestock production is {14742.15} tons, Misty Meadow Acres's livestock production is {69811.17} tons."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Livestock Production in the line chart?",
+            "A": "The global minimum livestock production is {2689.61} tons."
+        },
+        {
+            "Q": "What is the global maximum Livestock Production in the line chart?",
+            "A": "The global maximum livestock production is {105616.28} tons."
+        },
+        {
+            "Q": "What is the highest Livestock Production level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative reached approximately {64711.99} tons in {1989}."
+        },
+        {
+            "Q": "What is the lowest Livestock Production level recorded for Golden Harvest Cooperative?",
+            "A": "Golden Harvest Cooperative's lowest recorded level is approximately {15968.81} tons in {2002}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Whispering Willows Estate's Livestock Production from the starting year to the final year?",
+            "A": "The rate of growth in Whispering Willows Estate's livestock production is {1.42}%."
+        },
+        {
+            "Q": "What is the average value of Golden Harvest Cooperative's Livestock Production?",
+            "A": "The average value of Golden Harvest Cooperative's livestock production is {43340.26} tons."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Ranch's Livestock Production from the starting year to the final year?",
+            "A": "The rate of decline in Ironwood Ranch's livestock production is {-94.13}%."
+        },
+        {
+            "Q": "What is the average value of Misty Meadow Acres's Livestock Production?",
+            "A": "The average value of Misty Meadow Acres's livestock production is {83299.99} tons."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1993, which lines had Livestock Production below 27414 tons? Please list the lines and corresponding values.",
+            "A": "{Whispering Willows Estate} had {17244} tons."
+        },
+        {
+            "Q": "In the year 2014, which line had Livestock Production exceed 73520 tons? Please list the lines and corresponding values.",
+            "A": "{Misty Meadow Acres} had {104052} tons."
+        },
+        {
+            "Q": "In the year 1992, which line had Livestock Production exceed 59515 tons? Please list the lines and corresponding values.",
+            "A": "{Misty Meadow Acres} had {66127} tons."
+        },
+        {
+            "Q": "In the year 1993, which lines had Livestock Production between 30590 and 56001 tons? Please list the lines and corresponding values.",
+            "A": "{Ironwood Ranch} had {30804} tons."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Ironwood Ranch's Livestock Production in 2000 higher or lower than in 2005?",
+            "A": "The livestock production in 2000 was {higher} than in 2005."
+        },
+        {
+            "Q": "Between 2000 and 2011, which line experienced a larger change in Livestock Production, Whispering Willows Estate or Misty Meadow Acres?",
+            "A": "{Misty Meadow Acres} experienced a larger change in livestock production."
+        },
+        {
+            "Q": "Between 1998 and 2000, which line experienced the largest change in Livestock Production, Whispering Willows Estate, Ironwood Ranch, Misty Meadow Acres, or Golden Harvest Cooperative?",
+            "A": "{Golden Harvest Cooperative} experienced the largest change in livestock production."
+        },
+        {
+            "Q": "Between 1996 and 2006, which line had the highest average Livestock Production, Whispering Willows Estate, Misty Meadow Acres, Golden Harvest Cooperative, or Ironwood Ranch?",
+            "A": "{Misty Meadow Acres} had the highest average livestock production."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Golden Harvest Cooperative}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1999 and 2003?",
+            "A": "{Misty Meadow Acres} has the fastest average growth rate between 1999 and 2003."
+        },
+        {
+            "Q": "In which year did Whispering Willows Estate first surpass Golden Harvest Cooperative?",
+            "A": "Whispering Willows Estate first surpassed Golden Harvest Cooperative in the year {2000}."
+        },
+        {
+            "Q": "In which year did Golden Harvest Cooperative first surpass Whispering Willows Estate?",
+            "A": "Golden Harvest Cooperative first surpassed Whispering Willows Estate in the year {2005}."
+        },
+        {
+            "Q": "Which label had the leading livestock production since 2003?",
+            "A": "Since 2003, {Misty Meadow Acres} had the leading livestock production."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Misty Meadow Acres. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1989, 2015}."
+        }
+    ]
+}

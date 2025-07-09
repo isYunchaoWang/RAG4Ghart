@@ -1,0 +1,19 @@
+Transportation and Logistics,Transportation Distribution by Category (2023),%
+parent,child,value
+,Traffic Systems,100.0
+Traffic Systems,Signal Control,14.16
+Signal Control,Adaptive Systems,14.16
+Adaptive Systems,Machine Learning,9.15
+Machine Learning,Q-Learning,9.15
+Adaptive Systems,Fuzzy Logic,5.01
+Fuzzy Logic,Membership Functions,5.01
+Traffic Systems,Public Transit,85.84
+Public Transit,Scheduling,85.84
+Scheduling,Genetic Algorithms,44.43
+Genetic Algorithms,Crossover Operators,44.43
+Crossover Operators,Multi-Point,5.62
+Crossover Operators,Uniform,38.81
+Scheduling,Particle Swarm,41.41
+Particle Swarm,Velocity Update,41.41
+Velocity Update,Inertia Weight,5.26
+Velocity Update,Constriction Factor,36.15

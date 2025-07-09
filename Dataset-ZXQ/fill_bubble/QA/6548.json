@@ -1,0 +1,128 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {fill bubble} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bubbles are in this fill bubble chart?",
+            "A": "There are {4} bubbles."
+        },
+        {
+            "Q": "How many bubbles are in layer 2 of this fill bubble chart?",
+            "A": "There are {3} bubbles in layer 2."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Bubble Construction Phases positioned deeper, shallower or on the same depth as Bubble Property Types?",
+            "A": "Bubble Construction Phases is positioned {on the same depth as} Bubble Property Types."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the maximum depth in this fill bubble chart?",
+            "A": "The maximum depth is {2}."
+        },
+        {
+            "Q": "Which bubble contains bubble Construction Phases in the fill bubble chart?",
+            "A": "Bubble Construction Phases is contained by bubble {Real Estate and Construction}."
+        },
+        {
+            "Q": "Which bubbles are contained within bubble Real Estate and Construction in the fill bubble chart?",
+            "A": "Bubble Real Estate and Construction contains bubbles {Construction Phases, Building Materials, Property Types}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the size value of bubble Property Types?",
+            "A": "The size value of bubble Property Types is {33.49}."
+        },
+        {
+            "Q": "What is the size value of bubble Real Estate and Construction?",
+            "A": "The size value of bubble Real Estate and Construction is {52.47}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum size value in the fill bubble chart?",
+            "A": "The global maximum size value is {52.47}."
+        },
+        {
+            "Q": "What is the global minimum size value in the fill bubble chart?",
+            "A": "The global minimum size value is {16.22}."
+        },
+        {
+            "Q": "What is the maximum value under category Real Estate and Construction?",
+            "A": "The maximum value under category Real Estate and Construction is {33.49}."
+        },
+        {
+            "Q": "What is the maximum value under category General?",
+            "A": "The maximum value under category {General} is {100.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of layer 2 of bubbles?",
+            "A": "The total value of layer 2 of bubbles is {69.15}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 size values in the fill bubble chart?",
+            "A": "{52.47, 33.49, 19.44}."
+        },
+        {
+            "Q": "What are the bottom 3 size values in the fill bubble chart?",
+            "A": "{16.22, 19.44, 33.49}."
+        },
+        {
+            "Q": "Which bubbles have size values exceed 35.77? Please list the bubbles and corresponding values.",
+            "A": "Real Estate and Construction has {52.47}."
+        },
+        {
+            "Q": "Which bubbles have size values between 29.25 and 49.21? Please list the bubbles and corresponding values.",
+            "A": "Property Types has {33.49}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the size value of Real Estate and Construction or Construction Phases in the fill bubble chart?",
+            "A": "The size value of {Real Estate and Construction} is larger."
+        },
+        {
+            "Q": "Which is larger, the size value of Real Estate and Construction or Building Materials in the fill bubble chart?",
+            "A": "The size value of {Real Estate and Construction} is larger."
+        },
+        {
+            "Q": "Which is larger, the size value of Real Estate and Construction or Property Types in the fill bubble chart?",
+            "A": "The size value of {Real Estate and Construction} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the fill bubble chart, which subcategory in the level 2 has the largest bubble area?",
+            "A": "The subcategory with the largest bubble area in the level 2 is {Property Types}."
+        },
+        {
+            "Q": "In the fill bubble chart, which subcategory in the level 2 has the smallest bubble area?",
+            "A": "The subcategory with the smallest bubble area in the level 2 is {Building Materials}."
+        },
+        {
+            "Q": "How many bubbles have values above the average size across all categories?",
+            "A": "There are {2} bubbles with values above the average size."
+        },
+        {
+            "Q": "How many bubbles have values below the average oil storage across all categories?",
+            "A": "There are {2} bubbles with values below the average size."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual clutter caused by overlapping labels in the bubble chart, sample the labels and list the top 2 labels recommended for removal.",
+            "A": "The top 2 labels recommended for removal to reduce label overlap are: {Real Estate and Construction}, {Construction Phases}."
+        }
+    ]
+}

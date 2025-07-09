@@ -1,0 +1,65 @@
+Tourism and Hospitality,the Trajectory of Tourism and Hospitality,8x8,horizontal_gradient
+Cruises,Adventure,0.87
+Destinations,Adventure,0.7
+Events,Adventure,0.53
+Hotels,Adventure,0.42
+Marketing,Adventure,0.34
+Online Booking,Adventure,0.28
+Service Quality,Adventure,0.24
+Tour Operators,Adventure,0.23
+Cruises,Budget,0.86
+Destinations,Budget,0.67
+Events,Budget,0.56
+Hotels,Budget,0.44
+Marketing,Budget,0.32
+Online Booking,Budget,0.24
+Service Quality,Budget,0.23
+Tour Operators,Budget,0.19
+Cruises,Business,0.84
+Destinations,Business,0.68
+Events,Business,0.53
+Hotels,Business,0.41
+Marketing,Business,0.34
+Online Booking,Business,0.27
+Service Quality,Business,0.22
+Tour Operators,Business,0.22
+Cruises,Cultural,0.81
+Destinations,Cultural,0.7
+Events,Cultural,0.56
+Hotels,Cultural,0.45
+Marketing,Cultural,0.33
+Online Booking,Cultural,0.24
+Service Quality,Cultural,0.22
+Tour Operators,Cultural,0.21
+Cruises,Eco-tourism,0.83
+Destinations,Eco-tourism,0.72
+Events,Eco-tourism,0.56
+Hotels,Eco-tourism,0.41
+Marketing,Eco-tourism,0.33
+Online Booking,Eco-tourism,0.26
+Service Quality,Eco-tourism,0.25
+Tour Operators,Eco-tourism,0.22
+Cruises,Rural,0.89
+Destinations,Rural,0.7
+Events,Rural,0.56
+Hotels,Rural,0.4
+Marketing,Rural,0.35
+Online Booking,Rural,0.22
+Service Quality,Rural,0.25
+Tour Operators,Rural,0.22
+Cruises,Seasonal,0.87
+Destinations,Seasonal,0.69
+Events,Seasonal,0.54
+Hotels,Seasonal,0.44
+Marketing,Seasonal,0.34
+Online Booking,Seasonal,0.27
+Service Quality,Seasonal,0.21
+Tour Operators,Seasonal,0.22
+Cruises,Urban,0.85
+Destinations,Urban,0.7
+Events,Urban,0.56
+Hotels,Urban,0.42
+Marketing,Urban,0.35
+Online Booking,Urban,0.26
+Service Quality,Urban,0.24
+Tour Operators,Urban,0.2

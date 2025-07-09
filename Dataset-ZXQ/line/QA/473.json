@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 1978, what is the vertical (above/below) relationship of the line representing Starfall Organics relative to Riverbend Plantation?",
+            "A": "In 1978, Starfall Organics is {above} Riverbend Plantation in the vertical direction."
+        },
+        {
+            "Q": "On Riverbend Plantation, what is the spatial relationship of the data point in 1982 relative to that in 1981 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Riverbend Plantation, the data point in 1982 is {above} and to the {right} of the data point in 1981."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Ironwood Ranch's Crop Yield levels?",
+            "A": "Ironwood Ranch's crop yield levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "What is the trend of Riverbend Plantation's Crop Yield levels?",
+            "A": "Riverbend Plantation's crop yield levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Starfall Organics's Crop Yield levels?",
+            "A": "Starfall Organics's crop yield levels show a {single peak} trend."
+        },
+        {
+            "Q": "Which line shows a exponential falling trend in Crop Yield levels?",
+            "A": "{Ironwood Ranch}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Starfall Organics's Crop Yield in 1980?",
+            "A": "Starfall Organics's crop yield in 1980 is {217232.69} tons/hectare."
+        },
+        {
+            "Q": "What is Riverbend Plantation's Crop Yield in 1983?",
+            "A": "Riverbend Plantation's crop yield in 1983 is {115442.12} tons/hectare."
+        },
+        {
+            "Q": "What is Starfall Organics's Crop Yield in 1982?",
+            "A": "Starfall Organics's crop yield in 1982 is {217935.88} tons/hectare."
+        },
+        {
+            "Q": "What are the crop yield of Riverbend Plantation, Ironwood Ranch, and Starfall Organics in 1983?",
+            "A": "Riverbend Plantation's crop yield is {115442.12} tons/hectare, Ironwood Ranch's crop yield is {82622.58} tons/hectare, Starfall Organics's crop yield is {211935.85} tons/hectare."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Crop Yield in the line chart?",
+            "A": "The global minimum crop yield is {65765.18} tons/hectare."
+        },
+        {
+            "Q": "What is the global maximum Crop Yield in the line chart?",
+            "A": "The global maximum crop yield is {219215.70} tons/hectare."
+        },
+        {
+            "Q": "What is the highest Crop Yield level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch reached approximately {139689.46} tons/hectare in {1978}."
+        },
+        {
+            "Q": "What is the lowest Crop Yield level recorded for Ironwood Ranch?",
+            "A": "Ironwood Ranch's lowest recorded level is approximately {65765.18} tons/hectare in {1985}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Riverbend Plantation's Crop Yield?",
+            "A": "The average value of Riverbend Plantation's crop yield is {108512.18} tons/hectare."
+        },
+        {
+            "Q": "What is the rate of change in Starfall Organics's Crop Yield from the starting year to the final year?",
+            "A": "The rate of decline in Starfall Organics's crop yield is {-5.76}%."
+        },
+        {
+            "Q": "What is the rate of change in Ironwood Ranch's Crop Yield from the starting year to the final year?",
+            "A": "The rate of decline in Ironwood Ranch's crop yield is {-52.92}%."
+        },
+        {
+            "Q": "What is the rate of change in Riverbend Plantation's Crop Yield from the starting year to the final year?",
+            "A": "The rate of growth in Riverbend Plantation's crop yield is {34.77}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the year 1979, which lines had Crop Yield below 111500 tons/hectare? Please list the lines and corresponding values.",
+            "A": "{Riverbend Plantation} had {96851} tons/hectare."
+        },
+        {
+            "Q": "Which years did Ironwood Ranch's Crop Yield exceed 116734 tons/hectare? Please list the years and corresponding values.",
+            "A": "{139689.46} tons/hectare in {1978} year, {126147.95} tons/hectare in {1979} year."
+        },
+        {
+            "Q": "Which years did Starfall Organics's Crop Yield between 206018 and 216143 tons/hectare? Please list the years and corresponding values.",
+            "A": "{212755.18} tons/hectare in {1979} year, {211935.85} tons/hectare in {1983} year."
+        },
+        {
+            "Q": "Which years did Starfall Organics's Crop Yield below 211532 tons/hectare? Please list the years and corresponding values.",
+            "A": "{204061.79} tons/hectare in {1978} year, {192302} tons/hectare in {1985} year, {204982.70} tons/hectare in {1984} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Riverbend Plantation's Crop Yield in 1983 higher or lower than in 1985?",
+            "A": "The crop yield in 1983 was {lower} than in 1985."
+        },
+        {
+            "Q": "In 1982, which line had the highest Crop Yield, Riverbend Plantation, Starfall Organics, or Ironwood Ranch?",
+            "A": "In 1982, {Starfall Organics} had the highest crop yield."
+        },
+        {
+            "Q": "Between 1981 and 1984, which line experienced the largest change in Crop Yield, Ironwood Ranch, Riverbend Plantation, or Starfall Organics?",
+            "A": "{Ironwood Ranch} experienced the largest change in crop yield."
+        },
+        {
+            "Q": "Was Riverbend Plantation's Crop Yield in 1978 higher or lower than in 1985?",
+            "A": "The crop yield in 1978 was {lower} than in 1985."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Ironwood Ranch}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1983 and 1985?",
+            "A": "{Riverbend Plantation} has the fastest average growth rate between 1983 and 1985."
+        },
+        {
+            "Q": "In which year did Riverbend Plantation first surpass Ironwood Ranch?",
+            "A": "Riverbend Plantation first surpassed Ironwood Ranch in the year {1981}."
+        },
+        {
+            "Q": "Which label had the leading crop yield since 1983?",
+            "A": "Since 1983, {Starfall Organics} had the leading crop yield."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Ironwood Ranch. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1978, 1985}."
+        }
+    ]
+}

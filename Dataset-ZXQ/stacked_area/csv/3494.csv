@@ -1,0 +1,12 @@
+Food and Beverage Industry,Table Turnover Rate,tables/hour
+trend,exponential_rising,volatile_falling,volatile_falling,exponential_falling
+Year,Sky High Cafe,The Rusty Kettle,Stellar Bistro,Crimson Plate
+1961,1.99,1.99,2.04,2.01
+1962,2.21,1.92,1.94,1.79
+1963,2.42,1.77,1.67,1.61
+1964,2.65,1.62,1.67,1.47
+1965,2.95,1.57,1.5,1.33
+1966,3.22,1.38,1.37,1.22
+1967,3.52,1.31,1.29,1.03
+1968,3.9,1.14,1.21,0.96
+1969,4.31,1.08,1.0,0.87

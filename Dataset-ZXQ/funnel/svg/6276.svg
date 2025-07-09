@@ -1,0 +1,26 @@
+<svg width="1920" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1920 1440">
+<rect width="1920" height="1440" x="0" y="0" id="0" fill="#ffffff"></rect>
+<polyline points="1199.3 756 1279.3 756" fill="none" stroke="#000000"></polyline>
+<polyline points="1119.9 910.6 1199.9 910.6" fill="none" stroke="#000000"></polyline>
+<polyline points="1277.6 601.4 1357.6 601.4" fill="none" stroke="#000000"></polyline>
+<polyline points="1359.4 446.9 1439.4 446.9" fill="none" stroke="#000000"></polyline>
+<polyline points="1045.7 1065.1 1125.7 1065.1" fill="none" stroke="#000000"></polyline>
+<polyline points="1012.7 1219.7 1092.7 1219.7" fill="none" stroke="#000000"></polyline>
+<polyline points="1439.7 292.3 1519.7 292.3" fill="none" stroke="#000000"></polyline>
+<polygon points="490.5 679.7 1237.5 679.7 1161.2 832.3 566.8 832.3" fill="#A3B3C8" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="566.8 834.3 1161.2 834.3 1078.7 986.9 649.3 986.9" fill="#B6CAD7" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="410.3 525.1 1317.7 525.1 1237.5 677.7 490.5 677.7" fill="#84709B" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="327 370.6 1401 370.6 1317.7 523.1 410.3 523.1" fill="#5D7DB3" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="649.3 988.9 1078.7 988.9 1012.7 1141.4 715.3 1141.4" fill="#D2C3D5" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="715.3 1143.4 1012.7 1143.4 1012.7 1296 715.3 1296" fill="#E1E4EA" stroke="#000000" stroke-linejoin="round"></polygon>
+<polygon points="249.6 216 1478.4 216 1401 368.6 327 368.6" fill="#464879" stroke="#000000" stroke-linejoin="round"></polygon>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1284.3329732383993" y="756" fill="#000000">Treatment Recommended: 2476</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1204.9120058924627" y="910.5714285714284" fill="#000000">Treatment Initiated: 1970</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1362.6225877731404" y="601.4285714285713" fill="#000000">Diagnosis Confirmed: 3008</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1444.3816842622145" y="446.85714285714283" fill="#000000">Diagnostic Testing: 3560</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1130.6952614780262" y="1065.142857142857" fill="#000000">Treatment Completed: 1423</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1097.7351829118586" y="1219.7142857142858" fill="#000000">Post-Treatment Assessment: 986</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:32px;font-family:Times New Roman;" xml:space="preserve" x="1524.707733857108" y="292.2857142857143" fill="#000000">Initial Consultation: 4073</text>
+<path d="M-309.5937 -5l619.1875 0l0 58l-619.1875 0Z" transform="translate(960 77)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:48px;font-family:Times New Roman;" xml:space="preserve" y="24" transform="translate(960 77)" fill="#000000">Patient Referral Flow (Patients)</text>
+</svg>

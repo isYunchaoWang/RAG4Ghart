@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {18} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {5} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Applied Sciences positioned outside, inside or on the same side as Learning and Memory?",
+            "A": "Applied Sciences is positioned {inside} Learning and Memory."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Life Sciences}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Ecosystems segment in this sunburst chart?",
+            "A": "The value of the Ecosystems segment is {8.25}."
+        },
+        {
+            "Q": "What is the value of the Conservation segment in this sunburst chart?",
+            "A": "The value of the Conservation segment is {5.87}."
+        },
+        {
+            "Q": "What is the value of the Emotion segment in this sunburst chart?",
+            "A": "The value of the Emotion segment is {13.03}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {47.08}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {20.56}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {13.03}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.16}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Life Sciences exceed 55%? Please list the category names and corresponding percentages.",
+            "A": "{Biology} accounts for {60.2}%"
+        },
+        {
+            "Q": "Which categories in the segment Life Sciences are below 45%? Please list the category names and corresponding percentages.",
+            "A": "{Neuroscience} accounts for {39.8}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Physical Sciences, Physics, or Biology?",
+            "A": "The value of {Biology} is smaller."
+        },
+        {
+            "Q": "Which has the largest value: Life Sciences, Physical Sciences, Physics, or Applied Sciences?",
+            "A": "The value of {Life Sciences} is the largest."
+        },
+        {
+            "Q": "Which is larger, the value of Life Sciences, Physical Sciences, or Physics?",
+            "A": "The value of {Life Sciences} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Life Sciences to Neuroscience to Brain Function to Emotion}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Days on market (days) dimension, what is the spatial relationship of sure Villa relative to drive Cottage in terms of vertical (above/below) direction?",
+            "A": "{sure Villa} is {above} {drive Cottage} on the Days on market (days) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Days on market (days)?",
+            "A": "The first position to the left of Days on market (days) is {Square footage (sq ft)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Bathroom count (units)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Energy efficiency rating (1-10)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Square footage (sq ft)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Energy efficiency rating (1-10) and dimension Square footage (sq ft)",
+            "A": "There is {Weak Correlation} between Energy efficiency rating (1-10) and Square footage (sq ft)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of sometimes Mansion on the Days on market (days) dimension in the parallel-coordinates chart?",
+            "A": "The value of sometimes Mansion on the Days on market (days) dimension is {129.37}"
+        },
+        {
+            "Q": "What is the value of drive Cottage on the Energy efficiency rating (1-10) dimension in the parallel-coordinates chart?",
+            "A": "The value of drive Cottage on the Energy efficiency rating (1-10) dimension is {3.14}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label rather Cottage across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of rather Cottage across all dimensions is {10000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label sure Villa across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of sure Villa across all dimensions is {3.27}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Energy efficiency rating (1-10)?",
+            "A": "The average value of Energy efficiency rating (1-10) is {4.87}"
+        },
+        {
+            "Q": "What is the difference in coding Days on market (days) between label drive Cottage and label sure Villa",
+            "A": "The difference in coding Days on market (days) between drive Cottage and sure Villa is {134.52}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Days on market (days) dimension in the parallel coordinates?",
+            "A": "{[365.0, 172.08, 160.07]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Days on market (days) dimension in the parallel coordinates?",
+            "A": "{[1.0, 37.56, 129.37]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Square footage (sq ft), which label has a higher score: drive Cottage or rather Cottage?",
+            "A": "{rather Cottage} has a higher score on Square footage (sq ft)."
+        },
+        {
+            "Q": "On Square footage (sq ft), which label has a higher score: drive Cottage or sure Villa?",
+            "A": "{drive Cottage} has a higher score on Square footage (sq ft)."
+        },
+        {
+            "Q": "On Bathroom count (units), which label has a higher score: peace Cottage or drive Cottage?",
+            "A": "{peace Cottage} has a higher score on Bathroom count (units)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Square footage (sq ft)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Days on market (days) being greater than 142.53 and Energy efficiency rating (1-10) being less than 5.52?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

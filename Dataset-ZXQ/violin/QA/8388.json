@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Penthouse}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Co-op}."
+        },
+        {
+            "Q": "Which violin is the first position to the right of the violin Beach House?",
+            "A": "The first position to the right of the violin Beach House is {Co-op}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Co-op relative to the violin Penthouse in terms of horizontal (left/right) direction?",
+            "A": "violin Co-op is to the {right} of the violin Penthouse."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Beach House}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Beach House}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Penthouse?",
+            "A": "The density distribution pattern of the Penthouse shows a {t} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Co-op in the violin plot?",
+            "A": "The median of Co-op is {557.00} thousand USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Penthouse in the violin plot?",
+            "A": "The lower quartile (Q1) of Penthouse is {529.25} thousand USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Co-op in the violin plot?",
+            "A": "The upper whisker limit of Co-op is {889.00} thousand USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Penthouse in the violin plot?",
+            "A": "The largest upper outlier value in Penthouse is {988.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum thousand USD value in the violin plot?",
+            "A": "The global maximum thousand USD value in the violin plot is {988.00} thousand USD."
+        },
+        {
+            "Q": "What is the global minimum thousand USD value in the violin plot?",
+            "A": "The global minimum thousand USD value in the violin plot is {78.00} thousand USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Penthouse and Co-op?",
+            "A": "The Q1 difference between violin Penthouse and Co-op is {67.00} thousand USD."
+        },
+        {
+            "Q": "What is the toal Median value of violin Co-op and Beach House?",
+            "A": "The total Median value of violin Co-op and Co-op is {1152.00} thousand USD."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Penthouse and Beach House?",
+            "A": "The average Q1 value of violin Penthouse and Beach House is {503.00} thousand USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 573.50 thousand USD? Please list the violins and corresponding values.",
+            "A": "{Penthouse} has {590.00} thousand USD , {Beach House} has {595.00} thousand USD "
+        },
+        {
+            "Q": "Which violins have median values below 592.50 thousand USD? Please list the violins and corresponding values.",
+            "A": "{Penthouse} has {590.00} thousand USD , {Co-op} has {557.00} thousand USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 469.50 thousand USD and the upper quartile (Q3) below 683.00 thousand USD?",
+            "A": "Violin {Penthouse} has the Q1 above 469.50 thousand USD and the Q3 below 683.0 thousand USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 566.73 thousand USD?",
+            "A": "Violin {Penthouse} has {581.13} thousand USD ,{Beach House} has {613.07} thousand USD have their highest density peak exceed 566.73 thousand USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 566.73 thousand USD?",
+            "A": "Violin {Co-op} has {552.33} thousand USD have their highest density peak below 566.73 thousand USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Beach House or Co-op ",
+            "A": "The median value of the {Beach House} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Co-op, Penthouse or Beach House ",
+            "A": "The median value of the {Beach House} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Penthouse}."
+        }
+    ],
+    "VA": []
+}

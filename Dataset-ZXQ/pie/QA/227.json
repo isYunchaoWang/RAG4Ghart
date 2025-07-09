@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {5} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Oats?",
+            "A": "The next slice clockwise from slice Oats is {Barley}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Oats?",
+            "A": "The next slice counterclockwise from slice Oats is {Rice}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which crop has the largest proportion in this pie chart?",
+            "A": "The crop with the largest proportion is {Oats}."
+        },
+        {
+            "Q": "Which crop has the smallest proportion in this pie chart?",
+            "A": "The crop with the smallest proportion is {Barley}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Corn slice in this pie chart?",
+            "A": "The value of the Corn slice is {15}%."
+        },
+        {
+            "Q": "What is the value of the Rice slice in this pie chart?",
+            "A": "The value of the Rice slice is {20}%."
+        },
+        {
+            "Q": "What is the value of the Barley slice in this pie chart?",
+            "A": "The value of the Barley slice is {13}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {28}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {13}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of Corn and Barley in this pie chart?",
+            "A": "The difference between Corn and Barley is {2}%."
+        },
+        {
+            "Q": "What is the sum of the values of Rice and Oats in this pie chart?",
+            "A": "The sum of Rice and Oats is {48}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 24.0%? Please list the category names and corresponding percentages.",
+            "A": "{Oats} accounts for {28}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 15.0%? Please list the category names and corresponding percentages.",
+            "A": "{Barley} accounts for {13}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Soybeans, Rice, or Corn?",
+            "A": "The value of {Corn} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Oats, Soybeans, or Rice?",
+            "A": "The value of {Oats} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Oats or Soybeans?",
+            "A": "The value of {Oats} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 10% and 20%?",
+            "A": "There are {3} sectors that have a percentage between 10% and 20%."
+        }
+    ],
+    "VA": []
+}

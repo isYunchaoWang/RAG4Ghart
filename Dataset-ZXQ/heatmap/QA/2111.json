@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {90} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {10} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {9} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {random} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to History and Freshman in the heatmap?",
+            "A": "The heat value is {0.13}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Chemistry and Junior in the heatmap?",
+            "A": "The heat value is {1.00}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Biology and Researcher in the heatmap?",
+            "A": "The heat value is {0.19}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {1.00}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.01}."
+        },
+        {
+            "Q": "What is the maximum heat value of label History on the x-axis?",
+            "A": "The maximum heat value of History on the x-axis is {0.88}."
+        },
+        {
+            "Q": "What is the maximum heat value for label PhD on the y-axis?",
+            "A": "The maximum heat value for PhD on the y-axis is {0.97}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Faculty on the y-axis?",
+            "A": "The average heat value for Faculty on the y-axis is {0.38}."
+        },
+        {
+            "Q": "What is the average heat value for label Admin on the y-axis?",
+            "A": "The average heat value for Admin on the y-axis is {0.42}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Computer Science and Junior or the cell corresponding to Chemistry and Staff?",
+            "A": "The cell corresponding to {Chemistry} and {Staff} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Computer Science and Faculty or the cell corresponding to Computer Science and Senior?",
+            "A": "The cell corresponding to {Computer Science} and {Senior} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Chemistry and PhD or the cell corresponding to Arts and Senior?",
+            "A": "The cell corresponding to {Chemistry} and {PhD} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.65 to 0.72?",
+            "A": "The cells are: {(Computer Science, Admin), (History, Admin), (Chemistry, Freshman), (Literature, Junior), (Chemistry, PhD), (Literature, PhD), (Physics, PhD), (Biology, Postdoc), (Computer Science, Researcher), (Mathematics, Researcher)}."
+        }
+    ],
+    "VA": []
+}

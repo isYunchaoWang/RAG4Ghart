@@ -1,0 +1,91 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {4} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the Event Reattendance stage positioned above or below the Fan Engagement stage?",
+            "A": "The Event Reattendance stage is positioned {below} the Fan Engagement stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {logarithmic} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Fan Engagement?",
+            "A": "The value of stage Fan Engagement is {1859}."
+        },
+        {
+            "Q": "What is the value of stage Post-Event Feedback?",
+            "A": "The value of stage Post-Event Feedback is {929}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Fan Engagement, with a value of {1859}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Event Reattendance, with a value of {317}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "How much did it decrease from stage Merchandise Purchase to stage Event Reattendance?",
+            "A": "Decreased by {68} Participants from stage Merchandise Purchase to stage Event Reattendance."
+        },
+        {
+            "Q": "How much did it decrease from stage Fan Engagement to stage Post-Event Feedback?",
+            "A": "Decreased by {930} Participants from stage Fan Engagement to stage Post-Event Feedback."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 351? Please list the stage labels and corresponding values.",
+            "A": "The {Fan Engagement} stage has {1859}, the {Post-Event Feedback} stage has {929}, the {Merchandise Purchase} stage has {385}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 1394? Please list the stage labels and corresponding values.",
+            "A": "The {Post-Event Feedback} stage has {929}, the {Merchandise Purchase} stage has {385}, the {Event Reattendance} stage has {317}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 351 and 657? Please list the stage labels and corresponding values.",
+            "A": "The {Merchandise Purchase} stage has {385}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Post-Event Feedback to Merchandise Purchase, or from stage Merchandise Purchase to Event Reattendance?",
+            "A": "The reduction from stage {Post-Event Feedback} to {Merchandise Purchase} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Merchandise Purchase to Event Reattendance, from stage Fan Engagement to Post-Event Feedback, or from stage Post-Event Feedback to Merchandise Purchase?",
+            "A": "The reduction from stage {Fan Engagement} to stage {Post-Event Feedback} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Fan Engagement} and {Post-Event Feedback} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Merchandise Purchase} and {Event Reattendance} stages."
+        }
+    ],
+    "VA": []
+}

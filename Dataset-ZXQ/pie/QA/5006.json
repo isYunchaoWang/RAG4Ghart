@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {7} slices in this pie chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the pie chart, what is the next slice in the clockwise direction from slice Freelancers?",
+            "A": "The next slice clockwise from slice Freelancers is {Executive}."
+        },
+        {
+            "Q": "In the pie chart, what is the next slice in the counterclockwise direction from slice Freelancers?",
+            "A": "The next slice counterclockwise from slice Freelancers is {Contractors}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which income has the largest proportion in this pie chart?",
+            "A": "The income with the largest proportion is {Senior-Level}."
+        },
+        {
+            "Q": "Which income has the smallest proportion in this pie chart?",
+            "A": "The income with the smallest proportion is {Mid-Level}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Contractors slice in this pie chart?",
+            "A": "The value of the Contractors slice is {16}%."
+        },
+        {
+            "Q": "What is the value of the Freelancers slice in this pie chart?",
+            "A": "The value of the Freelancers slice is {12}%."
+        },
+        {
+            "Q": "What is the value of the Internships slice in this pie chart?",
+            "A": "The value of the Internships slice is {14}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {20}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {12}%."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the values of Executive and Mid-Level in this pie chart?",
+            "A": "The difference between Executive and Mid-Level is {2}%."
+        },
+        {
+            "Q": "What is the sum of the values of Freelancers and Contractors in this pie chart?",
+            "A": "The sum of Freelancers and Contractors is {28}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 15.0%? Please list the category names and corresponding percentages.",
+            "A": "{Senior-Level} accounts for {20}% and {Contractors} accounts for {16}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 14.29%? Please list the category names and corresponding percentages.",
+            "A": "{Internships} accounts for {14}% and {Executive} accounts for {14}% and {Entry-Level} accounts for {12}% and {Freelancers} accounts for {12}% and {Mid-Level} accounts for {12}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has the largest value: Senior-Level, Contractors, Internships, or Entry-Level?",
+            "A": "The value of {Senior-Level} is the largest."
+        },
+        {
+            "Q": "Which is larger, the value of Senior-Level, Contractors, or Internships?",
+            "A": "The value of {Senior-Level} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many sectors have a percentage between 5% and 20%?",
+            "A": "There are {7} sectors that have a percentage between 5% and 20%."
+        },
+        {
+            "Q": "Which three sectors have a sum of percentage less than 40%? List all possible combinations.",
+            "A": "The possible combinations are: {(Internships, Entry-Level, Freelancers), (Internships, Entry-Level, Mid-Level), (Internships, Freelancers, Mid-Level), (Executive, Entry-Level, Freelancers), (Executive, Entry-Level, Mid-Level), (Executive, Freelancers, Mid-Level), (Entry-Level, Freelancers, Mid-Level)}."
+        }
+    ],
+    "VA": []
+}

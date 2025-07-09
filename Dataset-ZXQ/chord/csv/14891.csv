@@ -1,0 +1,8 @@
+Transportation and Logistics, Passenger Station Transfer Flow, Thousand Passengers, long_tail
+Source,Target,Value
+East Junction,Metro Center,468
+Metro Center,East Junction,215
+East Junction,Skyline Station,154
+Skyline Station,East Junction,107
+Metro Center,Skyline Station,92
+Skyline Station,Metro Center,75

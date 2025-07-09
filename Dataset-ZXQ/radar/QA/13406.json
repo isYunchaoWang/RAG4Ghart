@@ -1,0 +1,135 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Live Comment Engagement Rate ?",
+            "A": "The next dimension clockwise from Live Comment Engagement Rate  is User Retention Rate "
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Live Comment Engagement Rate ?",
+            "A": "The next dimension counterclockwise from Live Comment Engagement Rate  is Sponsorship Revenue Ratio ."
+        },
+        {
+            "Q": "On the TV/Streaming Viewership Rating , is the point for leverage plug-and-play synergies inside or outside the point for transform visionary infrastructures?",
+            "A": "On the TV/Streaming Viewership Rating , the point for leverage plug-and-play synergies is inside the point for transform visionary infrastructures."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Stadium Occupancy Rate } encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of transform visionary infrastructures?",
+            "A": "The strongest aspect is {Stadium Occupancy Rate }, while the weakest aspect is{ User Retention Rate }."
+        },
+        {
+            "Q": "On dimension Streaming Play Rate , which label scores the highest?",
+            "A": "On Streaming Play Rate , label {engage sticky e-markets} scores the highest."
+        },
+        {
+            "Q": "On dimension Stadium Occupancy Rate , which label scores the highest?",
+            "A": "On Stadium Occupancy Rate , label {leverage plug-and-play synergies} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of transform visionary infrastructures on the User Retention Rate  in the radar chart?",
+            "A": "The value of transform visionary infrastructures on the Safety dimension is {51}."
+        },
+        {
+            "Q": "What is the value of engage sticky e-markets on the Live Comment Engagement Rate  in the radar chart?",
+            "A": "The value of engage sticky e-markets on the Safety dimension is {76}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label engage sticky e-markets across all dimensions in the radar chart?",
+            "A": "The maximum value of engage sticky e-markets across all dimensions is {84}."
+        },
+        {
+            "Q": "What is the minimum value of label transform visionary infrastructures across all dimensions in the radar chart?",
+            "A": "The minimum value of transform visionary infrastructures across all dimensions is {85}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Sponsorship Revenue Ratio ",
+            "A": "The average value of Sponsorship Revenue Ratio  is {82.67}."
+        },
+        {
+            "Q": "What is the average value of engage sticky e-markets",
+            "A": "The average value of engage sticky e-markets is {75.0}."
+        },
+        {
+            "Q": "What is the difference in User Retention Rate  between transform visionary infrastructures and engage sticky e-markets?",
+            "A": "The difference in User Retention Rate  between transform visionary infrastructures and engage sticky e-markets is {33}."
+        },
+        {
+            "Q": "What is the difference in TV/Streaming Viewership Rating  between engage sticky e-markets and transform visionary infrastructures?",
+            "A": "The difference in TV/Streaming Viewership Rating  between engage sticky e-markets and transform visionary infrastructures is {30}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which labels have scores below 63 for the TV/Streaming Viewership Rating  dimension? Please list the labels and corresponding scores.",
+            "A": "{leverage plug-and-play synergies} is {56}, {transform visionary infrastructures} is {63}"
+        },
+        {
+            "Q": "For leverage plug-and-play synergies in the radar chart, which dimensions have scores below 37? Please list the dimensions and corresponding scores.",
+            "A": "{Streaming Play Rate } is {23}"
+        },
+        {
+            "Q": "Which labels have scores above 67 for the Streaming Play Rate  dimension? Please list the labels and corresponding scores.",
+            "A": "{transform visionary infrastructures} is {78}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For leverage plug-and-play synergies, which dimension has a higher score: Sponsorship Revenue Ratio  or Live Comment Engagement Rate ?",
+            "A": "{Sponsorship Revenue Ratio } has a higher score than Live Comment Engagement Rate  for leverage plug-and-play synergies."
+        },
+        {
+            "Q": "On Stadium Occupancy Rate , which label has a higher score: transform visionary infrastructures or the engage sticky e-markets?",
+            "A": "{engage sticky e-markets} has a higher score on Stadium Occupancy Rate  compared to transform visionary infrastructures."
+        },
+        {
+            "Q": "On Streaming Play Rate , which label has a higher score: transform visionary infrastructures or the engage sticky e-markets?",
+            "A": "{transform visionary infrastructures} has a higher score on Streaming Play Rate  compared to engage sticky e-markets."
+        },
+        {
+            "Q": "For transform visionary infrastructures, which dimension has a higher score: Live Comment Engagement Rate  or User Retention Rate  or TV/Streaming Viewership Rating ?",
+            "A": "{Live Comment Engagement Rate } has a higher score for transform visionary infrastructures."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For transform visionary infrastructures, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "transform visionary infrastructures most needs to improve its {User Retention Rate }."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {engage sticky e-markets}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {leverage plug-and-play synergies}."
+        }
+    ],
+    "VA": []
+}

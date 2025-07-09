@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {5} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Springfield}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Creston}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box Highvale?",
+            "A": "The first position to the left of the box Highvale is {Springfield}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Creston relative to the box Highvale in terms of horizontal (left/right) direction?",
+            "A": "Box Creston is to the {right} of the box Highvale."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Oakridge}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Oakridge}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Highvale}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Oakridge in the box plot?",
+            "A": "The median of Oakridge is {2271.0} number."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Springfield in the box plot?",
+            "A": "The upper quartile (Q3) of Springfield is {2262.5} number."
+        },
+        {
+            "Q": "What is the upper whisker limit of Oakridge in the box plot?",
+            "A": "The upper whisker limit of Oakridge is {2576} number."
+        },
+        {
+            "Q": "What is the lowest upper outlier value in Highvale in the box plot?",
+            "A": "The lowest upper outlier value in Highvale is {1686}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum number value in the box plot?",
+            "A": "The global maximum number value in the box plot is {2576.00} number."
+        },
+        {
+            "Q": "What is the global minimum number value in the box plot?",
+            "A": "The global minimum number value in the box plot is {221.00} number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Creston and Springfield?",
+            "A": "The Q3 difference between box Creston and Springfield is {1443.0} number."
+        },
+        {
+            "Q": "What is the toal Q1 value of box Ironwood and Highvale?",
+            "A": "The total Q1 value of box Ironwood and Highvale is {3704.5} number."
+        },
+        {
+            "Q": "What is the average Q1 value of box Springfield and Highvale?",
+            "A": "The average Q1 value of box Springfield and Highvale is {2046.375} number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 976.5 number?",
+            "A": "Box{Creston} have the outliers exceed 976.5 number."
+        },
+        {
+            "Q": "Which boxes have median values exceed 2112.00 number? Please list the boxes and corresponding values.",
+            "A": "{Springfield} has {2176.0} number , {Oakridge} has {2271.0} number "
+        },
+        {
+            "Q": "Which boxes have median values below 2112.00 number? Please list the boxes and corresponding values.",
+            "A": "{Highvale} has {2048.0} number , {Ironwood} has {1820.5} number , {Creston} has {751.5} number "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Oakridge or Creston ",
+            "A": "The median value of the {Oakridge} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Springfield, Oakridge or Highvale ",
+            "A": "The median value of the {Oakridge} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Oakridge, Creston, Highvale or Ironwood ",
+            "A": "The median value of the {Oakridge} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Ironwood}."
+        }
+    ],
+    "VA": []
+}

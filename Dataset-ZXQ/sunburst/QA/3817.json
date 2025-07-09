@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {15} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {2} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Ready Meals positioned outside, inside or on the same side as Marine Farming?",
+            "A": "Ready Meals is positioned {outside} Marine Farming."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Food Distribution}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Packaged Snacks segment in this sunburst chart?",
+            "A": "The value of the Packaged Snacks segment is {6.81}."
+        },
+        {
+            "Q": "What is the value of the Crop Farming segment in this sunburst chart?",
+            "A": "The value of the Crop Farming segment is {9.03}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {40.19}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {24.89}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {14.99}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {6.81}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Food Distribution exceed 52%? Please list the category names and corresponding percentages.",
+            "A": "{Retail} accounts for {54.24}%"
+        },
+        {
+            "Q": "Which categories in the segment Food Distribution are below 48%? Please list the category names and corresponding percentages.",
+            "A": "{Wholesale} accounts for {45.76}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Food Processing, Meat Processing, or Food Production?",
+            "A": "The value of {Food Production} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Food Distribution or Food Processing?",
+            "A": "The value of {Food Distribution} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Food Distribution to Retail to Convenience Stores to Ready Meals}."
+        }
+    ],
+    "VA": []
+}

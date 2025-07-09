@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {62} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative exponential correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension School funding in the scatter plot?",
+            "A": "The maximum observed value in the School funding dimension is {25000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension School funding in the scatter plot?",
+            "A": "The minimum observed value in the School funding dimension is {5000.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Graduation rate in the scatter plot?",
+            "A": "The maximum observed value in the Graduation rate dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Graduation rate in the scatter plot?",
+            "A": "The minimum observed value in the Graduation rate dimension is {50.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the School funding for all points?",
+            "A": "The average value of School funding for all points is {15000.00}."
+        },
+        {
+            "Q": "What is the average value of the Graduation rate for all points?",
+            "A": "The average value of Graduation rate for all points is {62.02}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Graduation rate values corresponding to the top 3 School funding values in the scatter plot?",
+            "A": "{56.04, 59.96, 59.31}."
+        },
+        {
+            "Q": "What are the Graduation rate values corresponding to the bottom 3 School funding values in the scatter plot?",
+            "A": "{100.00, 97.21, 85.15}."
+        },
+        {
+            "Q": "What are the School funding values corresponding to the top 3 Graduation rate values in the scatter plot?",
+            "A": "{5000.00, 5327.87, 5983.61}."
+        },
+        {
+            "Q": "What are the School funding values corresponding to the bottom 3 Graduation rate values in the scatter plot?",
+            "A": "{18770.49, 20409.84, 19098.36}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 15000.31 and 18690.16 and Y coordinates between 72.98 and 78.53?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(5000.00, 100.00) and (25000.00, 56.04)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(17786.89, 57.80) and (18114.75, 57.25)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [16786.89, 54.75, 19114.75, 60.30] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (17786.89, 57.80)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [11818.49, 53.59, 15768.69, 68.45]; Region B: [15975.72, 50.09, 19925.92, 64.96]; Region C: [5501.78, 68.78, 9451.98, 83.65]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region B."
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {18} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {5} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Higher Education positioned outside, inside or on the same side as Digital Literacy?",
+            "A": "Higher Education is positioned {inside} Digital Literacy."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Informal Learning}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Vocational Schools segment in this sunburst chart?",
+            "A": "The value of the Vocational Schools segment is {15.63}."
+        },
+        {
+            "Q": "What is the value of the High Schools segment in this sunburst chart?",
+            "A": "The value of the High Schools segment is {7.15}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {43.87}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {28.04}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {8.98}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {6.43}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Informal Learning exceed 65%? Please list the category names and corresponding percentages.",
+            "A": "{Community Learning} accounts for {79.44}%"
+        },
+        {
+            "Q": "Which categories in the segment Informal Learning are below 35%? Please list the category names and corresponding percentages.",
+            "A": "{Online Education} accounts for {20.56}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Community Learning, Higher Education, or Postgraduate?",
+            "A": "The value of {Postgraduate} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Informal Learning, Community Learning, or Higher Education?",
+            "A": "The value of {Informal Learning} is larger."
+        },
+        {
+            "Q": "Which has the largest value: Informal Learning, Community Learning, Higher Education, or Doctoral Programs?",
+            "A": "The value of {Informal Learning} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Formal Education to Secondary Education to Vocational Schools to Technical Training}."
+        }
+    ],
+    "VA": []
+}

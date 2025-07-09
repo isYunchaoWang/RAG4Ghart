@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Natural Sciences?",
+            "A": "The next arc clockwise from arc Natural Sciences is arc {Health Sciences}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Natural Sciences?",
+            "A": "The next arc counterclockwise from arc Natural Sciences is arc {Computer Science}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Natural Sciences} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Health Sciences} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Computer Science to Natural Sciences in the chord chart?",
+            "A": "The flow value is {477}."
+        },
+        {
+            "Q": "What is the flow value from Health Sciences to Computer Science in the chord chart?",
+            "A": "The flow value is {302}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Natural Sciences and Computer Science in the chord chart?",
+            "A": "The maximum flow value between Natural Sciences and Computer Science is {477}."
+        },
+        {
+            "Q": "What is the minimum flow value between Computer Science and Natural Sciences in the chord chart?",
+            "A": "The minimum flow value between Computer Science and Natural Sciences is {140}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {597}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {140}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Natural Sciences?",
+            "A": "The total flow output from Natural Sciences is {737}."
+        },
+        {
+            "Q": "What is the total flow input by Natural Sciences?",
+            "A": "The total flow input by Natural Sciences is {722}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 537? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {597} from {Natural Sciences} to {Health Sciences}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 203? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {161} from {Computer Science} to {Health Sciences}, a flow of {140} from {Natural Sciences} to {Computer Science}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 203 and 273? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {245} from {Health Sciences} to {Natural Sciences}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Natural Sciences to Health Sciences or from Computer Science to Natural Sciences?",
+            "A": "The flow from {Natural Sciences} to {Health Sciences} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Computer Science to Natural Sciences, from Natural Sciences to Health Sciences, or from Health Sciences to Natural Sciences?",
+            "A": "The flow from {Natural Sciences} to {Health Sciences} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Computer Science}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Health Sciences} and {Natural Sciences}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Computer Science, Arc Natural Sciences, Arc Health Sciences}."
+        }
+    ]
+}

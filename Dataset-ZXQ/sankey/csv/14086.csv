@@ -1,0 +1,17 @@
+Transportation and Logistics,Manufacturing Supply Transportation Chain,Goods,random,Assembly,Retail
+Source,Target,Value
+Quality Check,Convenience Store,227
+Quality Check,Online Fulfillment,563
+Quality Check,Neighborhood Store,57
+Quality Check,City Supermarket,548
+Quality Check,Outlet Mall,205
+Packaging Line,Convenience Store,322
+Packaging Line,Online Fulfillment,104
+Packaging Line,Neighborhood Store,636
+Packaging Line,City Supermarket,712
+Packaging Line,Outlet Mall,126
+Labeling,Convenience Store,251
+Labeling,Online Fulfillment,49
+Labeling,Neighborhood Store,49
+Labeling,City Supermarket,227
+Labeling,Outlet Mall,104

@@ -1,0 +1,77 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {3} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of Mental Health relative to the peak of Elective Procedures in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  Mental Health is to the {right} of the peak of Elective Procedures."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Mental Health show?",
+            "A": "The ridgeline representing Mental Health shows a {Single Peak Distribution}."
+        },
+        {
+            "Q": "At what value do  Mental Health reach its peaks?",
+            "A": "At {1681.68}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Mental Health} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =5966.5?",
+            "A": "At X =5966.5,the label with the highest density is {Preventive Care}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 5485? Please list the countries and corresponding peak values.",
+            "A": "No matching label."
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 4617? Please list the countries and corresponding peak values.",
+            "A": "{Elective Procedures}'s peak at {1161},{Mental Health}'s peak at {1682}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Preventive Care or Mental Health?",
+            "A": "{Preventive Care} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Elective Procedures or Preventive Care?",
+            "A": "{Preventive Care} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Elective Procedures or Mental Health?",
+            "A": "{Mental Health} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {1} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {Mental Health}"
+        }
+    ],
+    "VA": []
+}

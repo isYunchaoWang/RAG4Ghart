@@ -1,0 +1,97 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {72} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {8} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {9} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {diagonal} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Customs and Compliance in the heatmap?",
+            "A": "The heat value is {0.74}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Intermodal and Capacity in the heatmap?",
+            "A": "The heat value is {0.73}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Warehousing and Reliability in the heatmap?",
+            "A": "The heat value is {0.35}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Intermodal and Sustainability in the heatmap?",
+            "A": "The heat value is {0.90}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.94}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.21}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Planning on the x-axis?",
+            "A": "The maximum heat value of Planning on the x-axis is {0.89}."
+        },
+        {
+            "Q": "What is the maximum heat value for label Sustainability on the y-axis?",
+            "A": "The maximum heat value for Sustainability on the y-axis is {0.90}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Intermodal on the x-axis?",
+            "A": "The average heat value for Intermodal on the x-axis is {0.68}."
+        },
+        {
+            "Q": "What is the average heat value for label Compliance on the y-axis?",
+            "A": "The average heat value for Compliance on the y-axis is {0.68}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Last Mile and Cost or the cell corresponding to Last Mile and Efficiency?",
+            "A": "The cell corresponding to {Last Mile} and {Cost} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Intermodal and Cost or the cell corresponding to Rail and Labor?",
+            "A": "The cell corresponding to {Rail} and {Labor} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Road and Efficiency or the cell corresponding to Customs and Sustainability?",
+            "A": "The heat values are {equal}."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.51 to 0.73?",
+            "A": "The cells are: {(Last Mile, Capacity), (Road, Capacity), (Last Mile, Compliance), (Maritime, Compliance), (Rail, Compliance), (Road, Compliance), (Customs, Cost), (Intermodal, Cost), (Maritime, Cost), (Planning, Cost), (Rail, Cost), (Tracking, Cost), (Warehousing, Cost), (Intermodal, Efficiency), (Last Mile, Efficiency), (Road, Efficiency), (Tracking, Efficiency), (Last Mile, Labor), (Road, Labor), (Intermodal, Reliability), (Last Mile, Reliability), (Road, Reliability), (Tracking, Reliability), (Customs, Speed), (Intermodal, Speed), (Maritime, Speed), (Planning, Speed), (Rail, Speed), (Tracking, Speed), (Warehousing, Speed), (Customs, Sustainability), (Maritime, Sustainability), (Rail, Sustainability), (Warehousing, Sustainability)}."
+        }
+    ],
+    "VA": []
+}

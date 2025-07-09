@@ -1,0 +1,6 @@
+﻿Education and Academics,HEIs Performance
+Pattern,Clustering,Weak Correlation,Weak Correlation,Strong Correlation,No Correlation
+labels,Student-teacher ratio (ratio),Research funding (USD millions),Facility utilization (%),Graduation rate (%),Alumni donation rate (%),Test scores (percentile)
+"Brock, Williams and Patterson  School",7.43,170.27,30.0,100.0,50.0,34.74
+Hughes-Fox  Institute,5.0,500.0,51.66,50.0,1.0,99.0
+"Taylor, Holden and Davis  School",30.0,0.1,100.0,67.5,11.79,1.0

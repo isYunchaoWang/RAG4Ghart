@@ -1,0 +1,73 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {6} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of Energy Drinks relative to the peak of Soft Drinks in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  Energy Drinks is to the {left} of the peak of Soft Drinks."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Kombucha show?",
+            "A": "The ridgeline representing Kombucha shows a {Random fluctuation}."
+        },
+        {
+            "Q": "At what value do  Energy Drinks reach its peaks?",
+            "A": "At {36136.14}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Kombucha} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =82071.6?",
+            "A": "At X =82071.6,the label with the highest density is {Soft Drinks}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 73043? Please list the countries and corresponding peak values.",
+            "A": "{Soft Drinks}'s peak at {80480},{Bottled Water}'s peak at {83884},{Coffee}'s peak at {78879},{Alcoholic Beverages}'s peak at {82683}"
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 48076? Please list the countries and corresponding peak values.",
+            "A": "{Kombucha}'s peak at {46446},{Energy Drinks}'s peak at {36136}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Alcoholic Beverages or Coffee?",
+            "A": "{Alcoholic Beverages} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Kombucha or Energy Drinks?",
+            "A": "{Kombucha} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {4} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {Kombucha}"
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {4} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Casual Dining}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Food Trucks}."
+        },
+        {
+            "Q": "Which violin is the first position to the left of the violin Food Trucks?",
+            "A": "The first position to the left of the violin Food Trucks is {Bakeries}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Casual Dining relative to the violin Bakeries in terms of horizontal (left/right) direction?",
+            "A": "violin Casual Dining is to the {left} of the violin Bakeries."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Asian Cuisine}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Asian Cuisine}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Asian Cuisine?",
+            "A": "The density distribution pattern of the Asian Cuisine shows a {normal} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Asian Cuisine in the violin plot?",
+            "A": "The median of Asian Cuisine is {627.50} million USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Food Trucks in the violin plot?",
+            "A": "The upper quartile (Q3) of Food Trucks is {720.25} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Casual Dining in the violin plot?",
+            "A": "The upper whisker limit of Casual Dining is {949.00} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Food Trucks in the violin plot?",
+            "A": "The largest upper outlier value in Food Trucks is {1128.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the violin plot?",
+            "A": "The global maximum million USD value in the violin plot is {1133.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the violin plot?",
+            "A": "The global minimum million USD value in the violin plot is {37.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between violin Food Trucks and Bakeries?",
+            "A": "The Q3 difference between violin Food Trucks and Bakeries is {4.50} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin Bakeries and Casual Dining?",
+            "A": "The total Q3 value of violin Bakeries and Food Trucks is {1392.50} million USD."
+        },
+        {
+            "Q": "What is the average Median value of violin Asian Cuisine and Casual Dining?",
+            "A": "The average Median value of violin Asian Cuisine and Casual Dining is {605.00} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 590.00 million USD? Please list the violins and corresponding values.",
+            "A": "{Asian Cuisine} has {627.50} million USD , {Bakeries} has {597.50} million USD , {Food Trucks} has {616.00} million USD "
+        },
+        {
+            "Q": "Which violins have median values below 590.00 million USD? Please list the violins and corresponding values.",
+            "A": "{Casual Dining} has {582.50} million USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 423.75 million USD and the upper quartile (Q3) below 776.38 million USD?",
+            "A": "Violin {Casual Dining},{Food Trucks} has the Q1 above 423.75 million USD and the Q3 below 776.375 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 605.41 million USD?",
+            "A": "Violin {Bakeries} has {674.72} million USD ,{Food Trucks} has {621.90} million USD have their highest density peak exceed 605.41 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 578.09 million USD?",
+            "A": "Violin {Asian Cuisine} has {567.26} million USD have their highest density peak below 578.09 million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Food Trucks or Asian Cuisine ",
+            "A": "The median value of the {Asian Cuisine} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Bakeries, Casual Dining or Food Trucks ",
+            "A": "The median value of the {Food Trucks} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Food Trucks, Casual Dining, Bakeries or Asian Cuisine ",
+            "A": "The median value of the {Asian Cuisine} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Casual Dining}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {6} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On The Golden Spoon, what is the spatial relationship of the data point in 1998 relative to that in 1993 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On The Golden Spoon, the data point in 1998 is {above} and to the {right} of the data point in 1993."
+        },
+        {
+            "Q": "In 1995, what is the vertical (above/below) relationship of the line representing Stellar Bistro relative to The Rusty Kettle?",
+            "A": "In 1995, Stellar Bistro is {below} The Rusty Kettle in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Crimson Plate's Food Cost Percentage levels?",
+            "A": "Crimson Plate's food cost percentage levels show a {single valley} trend."
+        },
+        {
+            "Q": "What is the trend of The Rusty Kettle's Food Cost Percentage levels?",
+            "A": "The Rusty Kettle's food cost percentage levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Sky High Cafe's Food Cost Percentage levels?",
+            "A": "Sky High Cafe's food cost percentage levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of The Golden Spoon's Food Cost Percentage levels?",
+            "A": "The Golden Spoon's food cost percentage levels show a {stable falling} trend."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Crimson Plate's Food Cost Percentage in 1993?",
+            "A": "Crimson Plate's food cost percentage in 1993 is {13.37} %."
+        },
+        {
+            "Q": "What is The Golden Spoon's Food Cost Percentage in 1990?",
+            "A": "The Golden Spoon's food cost percentage in 1990 is {52.78} %."
+        },
+        {
+            "Q": "What is The Rusty Kettle's Food Cost Percentage in 1986?",
+            "A": "The Rusty Kettle's food cost percentage in 1986 is {40.23} %."
+        },
+        {
+            "Q": "What are the food cost percentage of Crimson Plate, The Rusty Kettle, and Stellar Bistro in 1988?",
+            "A": "Crimson Plate's food cost percentage is {16.14} %, The Rusty Kettle's food cost percentage is {43.56} %, Stellar Bistro's food cost percentage is {45.28} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Food Cost Percentage in the line chart?",
+            "A": "The global minimum food cost percentage is {0.29} %."
+        },
+        {
+            "Q": "What is the global maximum Food Cost Percentage in the line chart?",
+            "A": "The global maximum food cost percentage is {100.00} %."
+        },
+        {
+            "Q": "What is the highest Food Cost Percentage level recorded for Crimson Plate?",
+            "A": "Crimson Plate reached approximately {36.89} % in {1982}."
+        },
+        {
+            "Q": "What is the lowest Food Cost Percentage level recorded for Crimson Plate?",
+            "A": "Crimson Plate's lowest recorded level is approximately {10.98} % in {1991}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Crimson Plate's Food Cost Percentage from the starting year to the final year?",
+            "A": "The rate of decline in Crimson Plate's food cost percentage is {-0.22}%."
+        },
+        {
+            "Q": "What is the average value of The Rusty Kettle's Food Cost Percentage?",
+            "A": "The average value of The Rusty Kettle's food cost percentage is {48.60} %."
+        },
+        {
+            "Q": "What is the average value of Crimson Plate's Food Cost Percentage?",
+            "A": "The average value of Crimson Plate's food cost percentage is {23.13} %."
+        },
+        {
+            "Q": "What is the rate of change in The Rusty Kettle's Food Cost Percentage from the starting year to the final year?",
+            "A": "The rate of growth in The Rusty Kettle's food cost percentage is {88.05}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Sky High Cafe's Food Cost Percentage between 7 and 19 %? Please list the years and corresponding values.",
+            "A": "{16.82} % in {1989} year, {7.97} % in {1994} year, {11.49} % in {1992} year."
+        },
+        {
+            "Q": "In the year 1998, which lines had Food Cost Percentage between 40 and 60 %? Please list the lines and corresponding values.",
+            "A": "{Stellar Bistro} had {56} %."
+        },
+        {
+            "Q": "In the year 1993, which lines had Food Cost Percentage between 26 and 52 %? Please list the lines and corresponding values.",
+            "A": "{The Rusty Kettle} had {52} %, {Stellar Bistro} had {50} %."
+        },
+        {
+            "Q": "In the year 1996, which lines had Food Cost Percentage between 34 and 57 %? Please list the lines and corresponding values.",
+            "A": "{Stellar Bistro} had {53} %."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1985 and 1987, which line experienced the largest change in Food Cost Percentage, The Rusty Kettle, Sky High Cafe, or Emerald Diner?",
+            "A": "{Emerald Diner} experienced the largest change in food cost percentage."
+        },
+        {
+            "Q": "Was Sky High Cafe's Food Cost Percentage in 1987 higher or lower than in 2000?",
+            "A": "The food cost percentage in 1987 was {higher} than in 2000."
+        },
+        {
+            "Q": "In 1999, which line had the highest Food Cost Percentage, Stellar Bistro, The Golden Spoon, or Sky High Cafe?",
+            "A": "In 1999, {The Golden Spoon} had the highest food cost percentage."
+        },
+        {
+            "Q": "Between 1991 and 1996, which line experienced the largest change in Food Cost Percentage, The Golden Spoon, The Rusty Kettle, or Emerald Diner?",
+            "A": "{Emerald Diner} experienced the largest change in food cost percentage."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Emerald Diner}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1994 and 1995?",
+            "A": "{Emerald Diner} has the fastest average growth rate between 1994 and 1995."
+        },
+        {
+            "Q": "In which year did The Rusty Kettle first surpass Crimson Plate?",
+            "A": "The Rusty Kettle first surpassed Crimson Plate in the year {1983}."
+        },
+        {
+            "Q": "Which label had the leading food cost percentage since 1991?",
+            "A": "Since 1991, {Emerald Diner} had the leading food cost percentage."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the The Rusty Kettle. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1982, 2000}."
+        }
+    ]
+}

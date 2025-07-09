@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category ML Models in this treemap?",
+            "A": "There are {2} child rectangles under the category ML Models."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Platform Architecture}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Feature Importance}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Platform Architecture}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Matrix Factorization rectangle in this treemap?",
+            "A": "The value of the Matrix Factorization rectangle is {25.8}."
+        },
+        {
+            "Q": "What is the value of the Anomaly Detection rectangle in this treemap?",
+            "A": "The value of the Anomaly Detection rectangle is {11.56}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.05}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of PCI Compliance and Gateway APIs?",
+            "A": "The difference between PCI Compliance and Gateway APIs is {0.0}."
+        },
+        {
+            "Q": "What is the sum of the regions of Kafka Pipelines and SVD Algorithms?",
+            "A": "The sum of Kafka Pipelines and SVD Algorithms is {46.72}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the ML Models category in the treemap, which rectangular labels have a value exceeded 14.70? Please list the labels and values.",
+            "A": "{Behavior Analysis} has {15.74}"
+        },
+        {
+            "Q": "Under the ML Models category in the treemap, which rectangular labels have a value below 12.60? Please list the labels and values.",
+            "A": "{Anomaly Detection} has {11.56}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Recommendation Engines or ML Models?",
+            "A": "The value of {Recommendation Engines} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Payment Systems, Recommendation Engines, or Fraud Detection?",
+            "A": "The value of {Fraud Detection} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Platform Architecture, Payment Systems, or Recommendation Engines?",
+            "A": "The value of {Platform Architecture} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Platform Architecture or Payment Systems?",
+            "A": "The value of {Platform Architecture} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {10} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

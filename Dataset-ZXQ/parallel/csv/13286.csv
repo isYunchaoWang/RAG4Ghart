@@ -1,0 +1,6 @@
+﻿Transportation and Logistics,Transportation Efficiency Metrics
+Pattern,Strong Correlation,Clustering,Strong Correlation,Clustering
+labels,Loading/unloading time (hours),Idling time (minutes),Total transit time (hours),Max speed (km/h),Moving time (hours)
+adult train,0.5,5.0,72.0,120.0,48.0
+window ship,8.0,60.0,33.33,108.19,14.07
+method train,7.33,53.33,2.0,60.0,1.0

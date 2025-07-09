@@ -1,0 +1,76 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stream chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stream chart?",
+            "A": "There are {2} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Echo Dynamics relative to Aether Corp?",
+            "A": "Echo Dynamics is {above} Aether Corp in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Aether Corp relative to Echo Dynamics?",
+            "A": "Aether Corp is {below} Echo Dynamics in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total r&d investment?",
+            "A": "The series with the largest contribution is {Echo Dynamics}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total r&d investment?",
+            "A": "The series with the smallest contribution is {Aether Corp}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which year is Echo Dynamics's maximum R&D Investment in the streamgraph?",
+            "A": "Echo Dynamics's maximum R&D Investment is in {2012}."
+        },
+        {
+            "Q": "Which year is Echo Dynamics's minimum R&D Investment in the streamgraph?",
+            "A": "Echo Dynamics's minimum R&D Investment is in {1989}."
+        }
+    ],
+    "SC": [],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Between 1994 and 1996, did the total R&D Investment experience a larger or smaller change than between 1998 and 2012?",
+            "A": "The change in total r&d investment between 1994 and 1996 was {smaller} than between 1998 and 2012."
+        },
+        {
+            "Q": "Between 1987 and 1989, did the total R&D Investment experience a larger or smaller change than between 2009 and 2011?",
+            "A": "The change in total r&d investment between 1987 and 1989 was {smaller} than between 2009 and 2011."
+        },
+        {
+            "Q": "Between 1990 and 2004, was the average total R&D Investment higher or lower than between 1987 and 1994?",
+            "A": "The average total r&d investment between 1990 and 2004 was {higher} than between 1987 and 1994."
+        },
+        {
+            "Q": "Between 1992 and 2012, was the average total R&D Investment higher or lower than between 1991 and 2010?",
+            "A": "The average total r&d investment between 1992 and 2012 was {higher} than between 1991 and 2010."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In this streamgraph, which one held the dominant position for the longest period of time?",
+            "A": "{Echo Dynamics} held the dominant position for the longest period of time."
+        },
+        {
+            "Q": "In this streamgraph, in which year did Aether Corp and Echo Dynamics first exchange dominant positions?",
+            "A": "Aether Corp and Echo Dynamics did not exchange leading positions."
+        }
+    ],
+    "VA": []
+}

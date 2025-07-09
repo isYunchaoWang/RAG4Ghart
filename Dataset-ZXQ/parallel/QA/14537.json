@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {4} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Customer satisfaction (1-10) dimension, what is the spatial relationship of New Kyle relative to Johnfurt in terms of vertical (above/below) direction?",
+            "A": "{New Kyle} is {below} {Johnfurt} on the Customer satisfaction (1-10) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Booking lead time (days)?",
+            "A": "The first position to the left of Booking lead time (days) is {Accessibility score (1-5)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Customer satisfaction (1-10)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Repeat visitor rate (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Booking lead time (days)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Booking lead time (days) and dimension Customer satisfaction (1-10)",
+            "A": "There is {Clustering} between Booking lead time (days) and Customer satisfaction (1-10)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Port Megan on the Accessibility score (1-5) dimension in the parallel-coordinates chart?",
+            "A": "The value of Port Megan on the Accessibility score (1-5) dimension is {1.0}"
+        },
+        {
+            "Q": "What is the value of Port Joshua on the Repeat visitor rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Port Joshua on the Repeat visitor rate (%) dimension is {23.09}"
+        },
+        {
+            "Q": "What is the value of Johnfurt on the Booking lead time (days) dimension in the parallel-coordinates chart?",
+            "A": "The value of Johnfurt on the Booking lead time (days) dimension is {292.44}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Johnfurt across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Johnfurt across all dimensions is {292.44}"
+        },
+        {
+            "Q": "What is the minimum value of label Port Joshua across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Port Joshua across all dimensions is {2.04}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Customer satisfaction (1-10)?",
+            "A": "The average value of Customer satisfaction (1-10) is {6.67}"
+        },
+        {
+            "Q": "What is the difference in coding Accessibility score (1-5) between label New Kyle and label Port Megan",
+            "A": "The difference in coding Accessibility score (1-5) between New Kyle and Port Megan is {4.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Customer satisfaction (1-10) dimension in the parallel coordinates?",
+            "A": "{[10.0, 7.39, 5.3]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Repeat visitor rate (%) dimension in the parallel coordinates?",
+            "A": "{[5.0, 23.09, 43.22]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Accessibility score (1-5), which label has a higher score: New Kyle or Port Megan?",
+            "A": "{New Kyle} has a higher score on Accessibility score (1-5)."
+        },
+        {
+            "Q": "On Accessibility score (1-5), which label has a higher score: Port Joshua or Port Megan?",
+            "A": "{Port Joshua} has a higher score on Accessibility score (1-5)."
+        },
+        {
+            "Q": "On Accessibility score (1-5), which label has a higher score: New Kyle or Port Megan?",
+            "A": "{New Kyle} has a higher score on Accessibility score (1-5)."
+        },
+        {
+            "Q": "On Booking lead time (days), which label has a higher score: Port Megan or Johnfurt?",
+            "A": "{Johnfurt} has a higher score on Booking lead time (days)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Booking lead time (days)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Accessibility score (1-5) being greater than 2.72 and Repeat visitor rate (%) being less than 26.49?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,7 @@
+﻿Tourism and Hospitality,Travel Experience Metrics In Different City
+Pattern,Clustering,No Correlation,No Correlation,No Correlation,Strong Correlation
+labels,Repeat visitor rate (%),Accessibility score (1-5),Customer satisfaction (1-10),Cultural immersion index (1-10),Booking lead time (days),Average stay duration (nights)
+Shawnland,13.64,4.38,4.0,1.0,365.0,14.0
+Shepardchester,59.59,5.0,8.1,9.83,82.97,3.93
+Port Olivia,5.0,1.0,10.0,7.58,329.68,10.18
+South Phillip,60.0,3.88,6.01,10.0,0.0,1.0

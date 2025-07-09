@@ -1,0 +1,9 @@
+﻿Energy and Utilities,Production Metrics of Different Energy
+Pattern,Strong Correlation,Weak Correlation,Weak Correlation,Strong Correlation,Strong Correlation,Strong Correlation
+labels,Downtime (%),Renewable percentage (%),Output (MWh),Capacity factor (%),Carbon intensity (kgCO2/MWh),Maintenance cost (USD/MWh),Fuel efficiency (%)
+Brown-Green  Energy Facility,13.69,71.59,10000.0,95.0,1000.0,100.0,62.56
+Powell-Jensen  Power Plant,0.1,0.0,1.0,10.0,0.0,3.85,20.0
+Lowery Group  Energy Facility,9.72,51.26,7213.98,69.98,706.85,72.65,50.95
+Lynch Ltd  Power Plant,14.9,70.29,3078.98,33.78,604.82,89.41,90.0
+Dean PLC  Power Plant,20.0,100.0,3847.67,28.64,265.44,35.89,82.5
+Sanchez Group  Energy Facility,13.24,77.31,4572.58,22.46,144.24,1.0,63.02

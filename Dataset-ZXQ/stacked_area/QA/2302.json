@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Borealis Graduate School relative to Silverhaven Polytechnic?",
+            "A": "Borealis Graduate School is {above} Silverhaven Polytechnic in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total student-teacher ratio?",
+            "A": "The series with the largest contribution is {Meridian Academy}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total student-teacher ratio?",
+            "A": "The series with the smallest contribution is {Silverhaven Polytechnic}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Borealis Graduate School's Student-Teacher Ratio in 1954?",
+            "A": "Borealis Graduate School's student-teacher ratio in 1954 is {18.83} ratio."
+        },
+        {
+            "Q": "What is Meridian Academy's Student-Teacher Ratio in 1956?",
+            "A": "Meridian Academy's student-teacher ratio in 1956 is {24.08} ratio."
+        },
+        {
+            "Q": "What is Silverhaven Polytechnic's Student-Teacher Ratio in 1956?",
+            "A": "Silverhaven Polytechnic's student-teacher ratio in 1956 is {13.22} ratio."
+        },
+        {
+            "Q": "What are the student-teacher ratio of Zenith Institute of Technology, Meridian Academy, and Silverhaven Polytechnic in 1953?",
+            "A": "Zenith Institute of Technology's student-teacher ratio is {20.89} ratio, Meridian Academy's student-teacher ratio is {20.79} ratio, Silverhaven Polytechnic's student-teacher ratio is {17.81} ratio."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Student-Teacher Ratio in the area chart?",
+            "A": "The global minimum student-teacher ratio is {6.97} ratio."
+        },
+        {
+            "Q": "What is the global maximum Student-Teacher Ratio in the area chart?",
+            "A": "The global maximum student-teacher ratio is {30.10} ratio."
+        },
+        {
+            "Q": "What is the highest Student-Teacher Ratio level recorded for Aethelgard School of Arts?",
+            "A": "Aethelgard School of Arts reached approximately {20.03} ratio in {1952}."
+        },
+        {
+            "Q": "What is the lowest Student-Teacher Ratio level recorded for Aethelgard School of Arts?",
+            "A": "Aethelgard School of Arts's lowest recorded level is approximately {8.16} ratio in {1962}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Student-Teacher Ratio?",
+            "A": "The average total student-teacher ratio is {105.88} ratio."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Student-Teacher Ratio fall between 100.09 and 110.62 ratio? Please list the years and corresponding total values.",
+            "A": "{106.76} ratio in {1956}, {110.07} ratio in {1955}, {100.64} ratio in {1959}."
+        },
+        {
+            "Q": "Which years did the total Student-Teacher Ratio exceed 110.07 ratio? Please list the years and corresponding total values.",
+            "A": "{119.79} ratio in {1952}, {112.52} ratio in {1954}, {115.52} ratio in {1953}."
+        },
+        {
+            "Q": "Which years did the total Student-Teacher Ratio go below 100.64 ratio? Please list the years and corresponding total values.",
+            "A": "{98.77} ratio in {1960}, {96.08} ratio in {1962}, {97.52} ratio in {1961}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1958 and 1962, was the average total Student-Teacher Ratio higher or lower than between 1956 and 1959?",
+            "A": "The average total student-teacher ratio between 1958 and 1962 was {lower} than between 1956 and 1959."
+        },
+        {
+            "Q": "Between 1953 and 1958, was the average total Student-Teacher Ratio higher or lower than between 1956 and 1961?",
+            "A": "The average total student-teacher ratio between 1953 and 1958 was {higher} than between 1956 and 1961."
+        },
+        {
+            "Q": "Between 1954 and 1959, was the average total Student-Teacher Ratio higher or lower than between 1955 and 1960?",
+            "A": "The average total student-teacher ratio between 1954 and 1959 was {higher} than between 1955 and 1960."
+        },
+        {
+            "Q": "Between 1958 and 1961, was the average total Student-Teacher Ratio higher or lower than between 1960 and 1962?",
+            "A": "The average total student-teacher ratio between 1958 and 1961 was {higher} than between 1960 and 1962."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Meridian Academy} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Silverhaven Polytechnic, Celestial College, Aethelgard School of Arts, Borealis Graduate School, Zenith Institute of Technology, Meridian Academy}."
+        }
+    ]
+}

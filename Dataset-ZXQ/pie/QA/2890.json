@@ -1,0 +1,64 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {pie chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many slices are there in this pie chart?",
+            "A": "There are {2} slices in this pie chart."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which student has the largest proportion in this pie chart?",
+            "A": "The student with the largest proportion is {Charter Schools}."
+        },
+        {
+            "Q": "Which student has the smallest proportion in this pie chart?",
+            "A": "The student with the smallest proportion is {International Schools}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the International Schools slice in this pie chart?",
+            "A": "The value of the International Schools slice is {33}%."
+        },
+        {
+            "Q": "What is the value of the Charter Schools slice in this pie chart?",
+            "A": "The value of the Charter Schools slice is {67}%."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in this pie chart?",
+            "A": "The maximum value is {67}%."
+        },
+        {
+            "Q": "What is the minimum value in this pie chart?",
+            "A": "The minimum value is {33}%."
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which categories in the pie chart exceed 58.5%? Please list the category names and corresponding percentages.",
+            "A": "{Charter Schools} accounts for {67}%"
+        },
+        {
+            "Q": "Which categories in the pie chart are below 41.5%? Please list the category names and corresponding percentages.",
+            "A": "{International Schools} accounts for {33}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Charter Schools or International Schools?",
+            "A": "The value of {Charter Schools} is larger."
+        }
+    ],
+    "MSR": [],
+    "VA": []
+}

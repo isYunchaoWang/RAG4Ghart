@@ -1,0 +1,15 @@
+Retail and E-commerce,E-commerce Distribution by Category (2022),%
+parent,child,value
+,Platform Architecture,100.0
+Platform Architecture,Payment Systems,5.4
+Platform Architecture,Recommendation Engines,94.6
+Recommendation Engines,Collaborative Filtering,48.8
+Collaborative Filtering,Matrix Factorization,48.8
+Matrix Factorization,SVD Algorithms,48.8
+SVD Algorithms,Parallel Computing,35.67
+SVD Algorithms,GPU Acceleration,13.13
+Recommendation Engines,Real-Time Prediction,45.8
+Real-Time Prediction,Stream Processing,45.8
+Stream Processing,Kafka Pipelines,45.8
+Kafka Pipelines,Exactly-Once Semantics,18.85
+Kafka Pipelines,Stateful Operators,26.95

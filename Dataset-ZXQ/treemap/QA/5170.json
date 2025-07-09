@@ -1,0 +1,90 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category Contrast Weighting in this treemap?",
+            "A": "There are {2} child rectangles under the category Contrast Weighting."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Medical Tech}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {T2 Relaxometry}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Medical Tech}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the CNN Architectures rectangle in this treemap?",
+            "A": "The value of the CNN Architectures rectangle is {40.95}."
+        },
+        {
+            "Q": "What is the value of the TE Optimization rectangle in this treemap?",
+            "A": "The value of the TE Optimization rectangle is {26.72}."
+        },
+        {
+            "Q": "What is the value of the T1 Mapping rectangle in this treemap?",
+            "A": "The value of the T1 Mapping rectangle is {5.87}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.27}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of U-Net Variants and Imaging Systems?",
+            "A": "The difference between U-Net Variants and Imaging Systems is {58.46}."
+        },
+        {
+            "Q": "What is the sum of the regions of Pulse Sequences and Deep Learning?",
+            "A": "The sum of Pulse Sequences and Deep Learning is {84.34}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the Contrast Weighting category in the treemap, which rectangular labels have a value exceeded 5.72? Please list the labels and values.",
+            "A": "{T1 Mapping} has {5.87}"
+        },
+        {
+            "Q": "Under the Contrast Weighting category in the treemap, which rectangular labels have a value below 5.42? Please list the labels and values.",
+            "A": "{T2 Relaxometry} has {5.27}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of CT Scanners or MRI Machines?",
+            "A": "The value of {CT Scanners} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Medical Tech or Imaging Systems?",
+            "A": "The value of {Medical Tech} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

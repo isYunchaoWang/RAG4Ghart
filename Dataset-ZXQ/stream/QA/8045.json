@@ -1,0 +1,80 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stream chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this stream chart?",
+            "A": "There are {6} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing EchoWave relative to Luminara?",
+            "A": "EchoWave is {below} Luminara in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing AetherNet relative to Luminara?",
+            "A": "AetherNet is {below} Luminara in the vertical direction."
+        },
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Luminara relative to AetherNet?",
+            "A": "Luminara is {above} AetherNet in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total platform traffic?",
+            "A": "The series with the largest contribution is {Luminara}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total platform traffic?",
+            "A": "The series with the smallest contribution is {NovaStream}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which year is CrimsonLink's minimum Platform Traffic in the streamgraph?",
+            "A": "CrimsonLink's minimum Platform Traffic is in {1995}."
+        },
+        {
+            "Q": "Which year is AetherNet's minimum Platform Traffic in the streamgraph?",
+            "A": "AetherNet's minimum Platform Traffic is in {2003}."
+        }
+    ],
+    "SC": [],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Between 1995 and 2000, was the average total Platform Traffic higher or lower than between 1996 and 2003?",
+            "A": "The average total platform traffic between 1995 and 2000 was {lower} than between 1996 and 2003."
+        },
+        {
+            "Q": "Was the total Platform Traffic in 2004 higher or lower than in 2009?",
+            "A": "The total platform traffic in 2004 was {lower} than in 2009."
+        },
+        {
+            "Q": "Between 2004 and 2006, did the total Platform Traffic experience a larger or smaller change than between 1998 and 2002?",
+            "A": "The change in total platform traffic between 2004 and 2006 was {smaller} than between 1998 and 2002."
+        },
+        {
+            "Q": "Between 2010 and 2011, did the total Platform Traffic experience a larger or smaller change than between 2000 and 2010?",
+            "A": "The change in total platform traffic between 2010 and 2011 was {smaller} than between 2000 and 2010."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In this streamgraph, which one held the dominant position for the longest period of time?",
+            "A": "{Luminara} held the dominant position for the longest period of time."
+        },
+        {
+            "Q": "In this streamgraph, in which year did Starburst Online and Luminara first exchange dominant positions?",
+            "A": "Starburst Online and Luminara first exchanged leading positions in {1997}."
+        }
+    ],
+    "VA": []
+}

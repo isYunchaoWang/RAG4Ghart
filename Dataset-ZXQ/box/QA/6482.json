@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {7} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Oakridge}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Westport}."
+        },
+        {
+            "Q": "Which box is the first position to the right of the box Mapleton?",
+            "A": "The first position to the right of the box Mapleton is {Glenhaven}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Glenhaven relative to the box Westport in terms of horizontal (left/right) direction?",
+            "A": "Box Glenhaven is to the {left} of the box Westport."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Mapleton}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Lakeview}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Elmhurst}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Mapleton in the box plot?",
+            "A": "The median of Mapleton is {1211.5} Number."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Westport in the box plot?",
+            "A": "The lower quartile (Q1) of Westport is {967.5} Number."
+        },
+        {
+            "Q": "What is the lower whisker limit of Lakeview in the box plot?",
+            "A": "The lower whisker limit of Lakeview is {886} Number."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Brookfield in the box plot?",
+            "A": "The largest upper outlier value in Brookfield is {1847} Number."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Number value in the box plot?",
+            "A": "The global maximum Number value in the box plot is {2130.00} Number."
+        },
+        {
+            "Q": "What is the global minimum Number value in the box plot?",
+            "A": "The global minimum Number value in the box plot is {740.00} Number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between box Oakridge and Westport?",
+            "A": "The Median difference between box Oakridge and Westport is {3.0} Number."
+        },
+        {
+            "Q": "What is the toal Q1 value of box Glenhaven and Brookfield?",
+            "A": "The total Q1 value of box Glenhaven and Brookfield is {1816.25} Number."
+        },
+        {
+            "Q": "What is the average Median value of box Mapleton and Lakeview?",
+            "A": "The average Median value of box Mapleton and Lakeview is {1196.5} Number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 1767.6000000000001 Number?",
+            "A": "Box{Oakridge},{Elmhurst},{Lakeview},{Brookfield},{Mapleton},{Glenhaven},{Westport} have the outliers exceed 1767.6000000000001 Number."
+        },
+        {
+            "Q": "Which boxes have median values exceed 1097.00 Number? Please list the boxes and corresponding values.",
+            "A": "{Oakridge} has {1098.5} Number , {Lakeview} has {1181.5} Number , {Mapleton} has {1211.5} Number "
+        },
+        {
+            "Q": "Which boxes have median values below 1029.75 Number? Please list the boxes and corresponding values.",
+            "A": "{Glenhaven} has {1005.0} Number "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Lakeview or Mapleton ",
+            "A": "The median value of the {Mapleton} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Mapleton, Westport or Oakridge ",
+            "A": "The median value of the {Mapleton} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Glenhaven, Mapleton, Westport or Brookfield ",
+            "A": "The median value of the {Mapleton} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Oakridge}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,45 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Impact Areas,Funding Sources,Research Outcomes,Institution Types
+Source,Target,Value
+Defense,Corporate Sponsorship,4
+Defense,University Budget,18
+Defense,Crowdfunding,20
+Defense,Private Investment,26
+Defense,Federal Grants,19
+Healthcare,Corporate Sponsorship,25
+Healthcare,University Budget,4
+Healthcare,Crowdfunding,32
+Healthcare,Private Investment,23
+Healthcare,Federal Grants,30
+Industrial Automation,Corporate Sponsorship,9
+Industrial Automation,University Budget,17
+Industrial Automation,Crowdfunding,5
+Industrial Automation,Private Investment,7
+Industrial Automation,Federal Grants,2
+Education,Corporate Sponsorship,47
+Education,University Budget,10
+Education,Crowdfunding,19
+Education,Private Investment,62
+Education,Federal Grants,39
+Environment,Corporate Sponsorship,41
+Environment,University Budget,42
+Environment,Crowdfunding,9
+Environment,Private Investment,10
+Environment,Federal Grants,56
+Corporate Sponsorship,Commercial Products,39
+Corporate Sponsorship,Published Papers,87
+University Budget,Commercial Products,39
+University Budget,Published Papers,52
+Crowdfunding,Commercial Products,47
+Crowdfunding,Published Papers,38
+Private Investment,Commercial Products,94
+Private Investment,Published Papers,34
+Federal Grants,Commercial Products,57
+Federal Grants,Published Papers,89
+Commercial Products,Corporate Labs,108
+Commercial Products,Non-profit Organizations,88
+Commercial Products,Research Universities,44
+Commercial Products,Startups,36
+Published Papers,Corporate Labs,108
+Published Papers,Non-profit Organizations,37
+Published Papers,Research Universities,138
+Published Papers,Startups,17

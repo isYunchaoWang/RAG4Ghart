@@ -1,0 +1,65 @@
+Agriculture and Food Production,the Trends of Agriculture and Food Production,8x8,horizontal_gradient
+Dairy,Cost,0.71
+Farming Techniques,Cost,0.73
+Fisheries,Cost,0.7
+Forestry,Cost,0.56
+Livestock,Cost,0.39
+Pest Control,Cost,0.28
+Soil Health,Cost,0.22
+Water Usage,Cost,0.21
+Dairy,Demand,0.72
+Farming Techniques,Demand,0.73
+Fisheries,Demand,0.69
+Forestry,Demand,0.54
+Livestock,Demand,0.36
+Pest Control,Demand,0.28
+Soil Health,Demand,0.23
+Water Usage,Demand,0.24
+Dairy,Export,0.75
+Farming Techniques,Export,0.76
+Fisheries,Export,0.67
+Forestry,Export,0.56
+Livestock,Export,0.38
+Pest Control,Export,0.25
+Soil Health,Export,0.26
+Water Usage,Export,0.22
+Dairy,Market Price,0.74
+Farming Techniques,Market Price,0.73
+Fisheries,Market Price,0.74
+Forestry,Market Price,0.56
+Livestock,Market Price,0.41
+Pest Control,Market Price,0.29
+Soil Health,Market Price,0.22
+Water Usage,Market Price,0.23
+Dairy,Quality,0.75
+Farming Techniques,Quality,0.75
+Fisheries,Quality,0.67
+Forestry,Quality,0.6
+Livestock,Quality,0.41
+Pest Control,Quality,0.3
+Soil Health,Quality,0.23
+Water Usage,Quality,0.24
+Dairy,Sustainability,0.75
+Farming Techniques,Sustainability,0.75
+Fisheries,Sustainability,0.67
+Forestry,Sustainability,0.62
+Livestock,Sustainability,0.42
+Pest Control,Sustainability,0.26
+Soil Health,Sustainability,0.24
+Water Usage,Sustainability,0.2
+Dairy,Technology Adoption,0.79
+Farming Techniques,Technology Adoption,0.7
+Fisheries,Technology Adoption,0.67
+Forestry,Technology Adoption,0.56
+Livestock,Technology Adoption,0.4
+Pest Control,Technology Adoption,0.28
+Soil Health,Technology Adoption,0.24
+Water Usage,Technology Adoption,0.23
+Dairy,Yield,0.75
+Farming Techniques,Yield,0.75
+Fisheries,Yield,0.7
+Forestry,Yield,0.58
+Livestock,Yield,0.4
+Pest Control,Yield,0.29
+Soil Health,Yield,0.24
+Water Usage,Yield,0.26

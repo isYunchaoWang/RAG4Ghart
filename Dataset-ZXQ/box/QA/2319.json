@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {5} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Zephyr}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Dunvale}."
+        },
+        {
+            "Q": "Which box is the third position to the right of the box Lakeview?",
+            "A": "The third position to the right of the box Lakeview is {Dunvale}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Zephyr relative to the box Northgate in terms of horizontal (left/right) direction?",
+            "A": "Box Zephyr is to the {left} of the box Northgate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Zephyr}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Zephyr}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Westport}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Westport in the box plot?",
+            "A": "The median of Westport is {658.5} number."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of Zephyr in the box plot?",
+            "A": "The upper quartile (Q3) of Zephyr is {3117.5} number."
+        },
+        {
+            "Q": "What is the lower whisker limit of Northgate in the box plot?",
+            "A": "The lower whisker limit of Northgate is {2499} number."
+        },
+        {
+            "Q": "What is the lowest upper outlier value in Northgate in the box plot?",
+            "A": "The lowest upper outlier value in Northgate is {2404}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum number value in the box plot?",
+            "A": "The global maximum number value in the box plot is {3404.00} number."
+        },
+        {
+            "Q": "What is the global minimum number value in the box plot?",
+            "A": "The global minimum number value in the box plot is {3.00} number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between box Lakeview and Westport?",
+            "A": "The Q3 difference between box Lakeview and Westport is {889.25} number."
+        },
+        {
+            "Q": "What is the toal Median value of box Zephyr and Westport?",
+            "A": "The total Median value of box Zephyr and Westport is {3624.0} number."
+        },
+        {
+            "Q": "What is the average Median value of box Zephyr and Lakeview?",
+            "A": "The average Median value of box Zephyr and Lakeview is {2221.75} number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 2933.1 number?",
+            "A": "Box{Northgate} have the outliers exceed 2933.1 number."
+        },
+        {
+            "Q": "Which boxes have median values exceed 2912.25 number? Please list the boxes and corresponding values.",
+            "A": "{Zephyr} has {2965.5} number "
+        },
+        {
+            "Q": "Which boxes have median values below 2716.75 number? Please list the boxes and corresponding values.",
+            "A": "{Lakeview} has {1478.0} number , {Westport} has {658.5} number , {Dunvale} has {2574.5} number "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Westport or Northgate ",
+            "A": "The median value of the {Northgate} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Northgate, Lakeview or Dunvale ",
+            "A": "The median value of the {Northgate} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Westport, Zephyr, Northgate or Dunvale ",
+            "A": "The median value of the {Zephyr} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Lakeview}."
+        }
+    ],
+    "VA": []
+}

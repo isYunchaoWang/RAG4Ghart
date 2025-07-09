@@ -1,0 +1,15 @@
+Business and Finance,Business Distribution by Category (2021),%
+parent,child,value
+Root,Digital Transformation,28.17
+Digital Transformation,Technology Adoption,13.09
+Technology Adoption,AI Integration,6.01
+Technology Adoption,Cloud Computing,7.08
+Digital Transformation,Data Strategy,15.08
+Data Strategy,Data Governance,9.49
+Data Strategy,Business Intelligence,5.59
+Root,Financial Management,37.45
+Financial Management,Investment Strategy,10.58
+Investment Strategy,Risk Management,10.58
+Financial Management,Budgeting & Planning,26.87
+Root,Corporate Strategy,34.38
+Corporate Strategy,Innovation Strategy,34.38

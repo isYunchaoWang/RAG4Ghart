@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this bar chart?",
+            "A": "There are {4} bars in this bar chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this bar chart a horizontal bar chart or a vertical bar chart?",
+            "A": "The bar chart is a {horizontal} bar chart."
+        },
+        {
+            "Q": "Which category does the bottom bar represent?",
+            "A": "The bottom bar represents {Oakridge}."
+        },
+        {
+            "Q": "Which category does the topmost bar represent?",
+            "A": "The topmost bar represents {Ashford}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar Oakridge relative to the bar Lakeview in terms of vetical (above/below) direction??",
+            "A": "Bar Oakridge is  {below} the bar Lakeview."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which category has the highest bar in this bar chart?",
+            "A": "The category with the highest bar is {Lakeview}."
+        },
+        {
+            "Q": "Which category has the lowest bar in this bar chart?",
+            "A": "The category with the lowest bar is {Fairmont}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of bar Fairmont?",
+            "A": "The value of Fairmont is {1314} thousand students."
+        },
+        {
+            "Q": "What is the value of bar Lakeview?",
+            "A": "The value of Lakeview is {2355} thousand students."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum thousand students in the bar chart?",
+            "A": "The maximum thousand students is {2355} thousand students."
+        },
+        {
+            "Q": "What is the minimum thousand students in the bar chart?",
+            "A": "The minimum thousand students is {1314} thousand students."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of Ashford and Oakridge?",
+            "A": "The total value of Ashford and Oakridge is {3590} thousand students."
+        },
+        {
+            "Q": "What is the average value of Lakeview and Oakridge?",
+            "A": "The average value of Lakeview and Oakridge is {1976.0} thousand students."
+        },
+        {
+            "Q": "What is the difference between Oakridge and Fairmont?",
+            "A": "The difference between Oakridge and Fairmont is {283} thousand students."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have thousand students values exceed 2174.00 thousand students? Please list the bars and corresponding thousand students values?",
+            "A": "{Lakeview} has {2355} thousand students."
+        },
+        {
+            "Q": "Which bars have {thousand students} values below 2174.00 thousand students? Please list the bars and corresponding thousand students values?",
+            "A": "{Fairmont} has {1314} thousand students, {Oakridge} has {1597} thousand students, {Ashford} has {1993} thousand students."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, Lakeview or Ashford ",
+            "A": "The value of the {Lakeview} is larger?"
+        },
+        {
+            "Q": "Which is larger, Oakridge, Lakeview or Fairmont ",
+            "A": "The value of the {Lakeview} is larger?"
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many bars in the bar chart have values above the overall average?",
+            "A": "There are {2} bars with values above the average."
+        },
+        {
+            "Q": "Which pair of adjacent bars has the largest difference in values?",
+            "A": "The pair of adjacent bars with the largest difference is between {Lakeview} and {Fairmont}."
+        },
+        {
+            "Q": "Which three categories have the highest combined values?",
+            "A": "The three categories with the highest combined values are: {Lakeview}, {Ashford}, and {Oakridge}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Sort the bars by thousand students values in descending order and list the labels from left to right.",
+            "A": "Sorted by thousand students value descending: {Lakeview}, {Ashford}, {Oakridge}, and {Fairmont}."
+        },
+        {
+            "Q": "Sort the bars by thousand students values in ascending order and list the labels from left to right.",
+            "A": "Sorted by thousand students value ascending: {Fairmont}, {Oakridge}, {Ashford}, and {Lakeview}."
+        }
+    ]
+}

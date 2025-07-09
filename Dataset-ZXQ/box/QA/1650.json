@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {5} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {NovaEdge}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {BrightWave}."
+        },
+        {
+            "Q": "Which box is the first position to the left of the box BrightEdge?",
+            "A": "The first position to the left of the box BrightEdge is {QuantumX}."
+        },
+        {
+            "Q": "What is the spatial relationship of box SmartHub relative to the box QuantumX in terms of horizontal (left/right) direction?",
+            "A": "Box SmartHub is to the {right} of the box QuantumX."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {BrightWave}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {BrightEdge}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {BrightWave}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of BrightEdge in the box plot?",
+            "A": "The median of BrightEdge is {61151.5} USD."
+        },
+        {
+            "Q": "What is the upper quartile (Q3) of SmartHub in the box plot?",
+            "A": "The upper quartile (Q3) of SmartHub is {79559.5} USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of QuantumX in the box plot?",
+            "A": "The upper whisker limit of QuantumX is {132708} USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in BrightEdge in the box plot?",
+            "A": "The largest upper outlier value in BrightEdge is {196826} USD."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum USD value in the box plot?",
+            "A": "The global maximum USD value in the box plot is {228975.00} USD."
+        },
+        {
+            "Q": "What is the global minimum USD value in the box plot?",
+            "A": "The global minimum USD value in the box plot is {16153.00} USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between box BrightWave and SmartHub?",
+            "A": "The Q1 difference between box BrightWave and SmartHub is {7416.5} USD."
+        },
+        {
+            "Q": "What is the toal Median value of box NovaEdge and BrightEdge?",
+            "A": "The total Median value of box NovaEdge and BrightEdge is {112929.0} USD."
+        },
+        {
+            "Q": "What is the average Q1 value of box BrightEdge and NovaEdge?",
+            "A": "The average Q1 value of box BrightEdge and NovaEdge is {39547.5} USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 140037.30000000002 USD?",
+            "A": "Box{NovaEdge},{QuantumX},{BrightEdge},{SmartHub},{BrightWave} have the outliers exceed 140037.30000000002 USD."
+        },
+        {
+            "Q": "Which boxes have median values exceed 59707.75 USD? Please list the boxes and corresponding values.",
+            "A": "{BrightEdge} has {61151.5} USD , {BrightWave} has {65547.5} USD "
+        },
+        {
+            "Q": "Which boxes have median values below 53994.25 USD? Please list the boxes and corresponding values.",
+            "A": "{NovaEdge} has {51777.5} USD "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of NovaEdge or QuantumX ",
+            "A": "The median value of the {QuantumX} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of SmartHub, BrightEdge or BrightWave ",
+            "A": "The median value of the {BrightWave} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of SmartHub, QuantumX, BrightWave or NovaEdge ",
+            "A": "The median value of the {BrightWave} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {BrightEdge}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Fuel efficiency (%) dimension, what is the spatial relationship of Church-Roberts  Energy Facility relative to Murray Ltd  Generation Station in terms of vertical (above/below) direction?",
+            "A": "{Church-Roberts  Energy Facility} is {below} {Murray Ltd  Generation Station} on the Fuel efficiency (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the third position to the left of dimension Maintenance cost (USD/MWh)?",
+            "A": "The third position to the left of Maintenance cost (USD/MWh) is {Downtime (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Carbon intensity (kgCO2/MWh)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Renewable percentage (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Output (MWh)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Renewable percentage (%) and dimension Downtime (%)",
+            "A": "There is {No Correlation} between Renewable percentage (%) and Downtime (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Church-Roberts  Energy Facility on the Carbon intensity (kgCO2/MWh) dimension in the parallel-coordinates chart?",
+            "A": "The value of Church-Roberts  Energy Facility on the Carbon intensity (kgCO2/MWh) dimension is {85.76}"
+        },
+        {
+            "Q": "What is the value of Murray Ltd  Generation Station on the Maintenance cost (USD/MWh) dimension in the parallel-coordinates chart?",
+            "A": "The value of Murray Ltd  Generation Station on the Maintenance cost (USD/MWh) dimension is {100.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Blackwell Inc  Power Plant across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Blackwell Inc  Power Plant across all dimensions is {7381.78}"
+        },
+        {
+            "Q": "What is the minimum value of label Zamora LLC  Generation Station across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Zamora LLC  Generation Station across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Fuel efficiency (%)?",
+            "A": "The average value of Fuel efficiency (%) is {60.2}"
+        },
+        {
+            "Q": "What is the difference in coding Downtime (%) between label Church-Roberts  Energy Facility and label Murray Ltd  Generation Station",
+            "A": "The difference in coding Downtime (%) between Church-Roberts  Energy Facility and Murray Ltd  Generation Station is {19.9}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Downtime (%) dimension in the parallel coordinates?",
+            "A": "{[20.0, 10.26, 7.2]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Fuel efficiency (%) dimension in the parallel coordinates?",
+            "A": "{[20.0, 61.08, 69.71]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Downtime (%), which label has a higher score: Church-Roberts  Energy Facility or Zamora LLC  Generation Station?",
+            "A": "{Church-Roberts  Energy Facility} has a higher score on Downtime (%)."
+        },
+        {
+            "Q": "On Fuel efficiency (%), which label has a higher score: Zamora LLC  Generation Station or Church-Roberts  Energy Facility?",
+            "A": "{Church-Roberts  Energy Facility} has a higher score on Fuel efficiency (%)."
+        },
+        {
+            "Q": "On Maintenance cost (USD/MWh), which label has a higher score: Church-Roberts  Energy Facility or Murray Ltd  Generation Station?",
+            "A": "{Murray Ltd  Generation Station} has a higher score on Maintenance cost (USD/MWh)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Output (MWh)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Renewable percentage (%) being greater than 52.43 and Maintenance cost (USD/MWh) being less than 63.53?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

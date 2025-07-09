@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In 2023, what is the vertical (above/below) relationship of the line representing Aethelgard Art Library relative to Meridian Academy Collection?",
+            "A": "In 2023, Aethelgard Art Library is {below} Meridian Academy Collection in the vertical direction."
+        },
+        {
+            "Q": "On Meridian Academy Collection, what is the spatial relationship of the data point in 2019 relative to that in 2021 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Meridian Academy Collection, the data point in 2019 is {below} and to the {left} of the data point in 2021."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Aethelgard Art Library's Library Visits levels?",
+            "A": "Aethelgard Art Library's library visits levels show a {single peak} trend."
+        },
+        {
+            "Q": "What is the trend of Zenith Tech Library's Library Visits levels?",
+            "A": "Zenith Tech Library's library visits levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "What is the trend of Meridian Academy Collection's Library Visits levels?",
+            "A": "Meridian Academy Collection's library visits levels show a {exponential rising} trend."
+        },
+        {
+            "Q": "Which line shows a single peak trend in Library Visits levels?",
+            "A": "{Aethelgard Art Library}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Aethelgard Art Library's Library Visits in 2019?",
+            "A": "Aethelgard Art Library's library visits in 2019 is {84369.27} visits/year."
+        },
+        {
+            "Q": "What is Zenith Tech Library's Library Visits in 2020?",
+            "A": "Zenith Tech Library's library visits in 2020 is {107748.19} visits/year."
+        },
+        {
+            "Q": "What is Zenith Tech Library's Library Visits in 2023?",
+            "A": "Zenith Tech Library's library visits in 2023 is {132662.43} visits/year."
+        },
+        {
+            "Q": "What are the library visits of Meridian Academy Collection, Zenith Tech Library, and Aethelgard Art Library in 2022?",
+            "A": "Meridian Academy Collection's library visits is {84756.53} visits/year, Zenith Tech Library's library visits is {122960.20} visits/year, Aethelgard Art Library's library visits is {88455.87} visits/year."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Library Visits in the line chart?",
+            "A": "The global minimum library visits is {62427.23} visits/year."
+        },
+        {
+            "Q": "What is the global maximum Library Visits in the line chart?",
+            "A": "The global maximum library visits is {132662.43} visits/year."
+        },
+        {
+            "Q": "What is the highest Library Visits level recorded for Aethelgard Art Library?",
+            "A": "Aethelgard Art Library reached approximately {88645.23} visits/year in {2020}."
+        },
+        {
+            "Q": "What is the lowest Library Visits level recorded for Aethelgard Art Library?",
+            "A": "Aethelgard Art Library's lowest recorded level is approximately {84369.27} visits/year in {2019}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Aethelgard Art Library's Library Visits from the starting year to the final year?",
+            "A": "The rate of growth in Aethelgard Art Library's library visits is {2.06}%."
+        },
+        {
+            "Q": "What is the average value of Meridian Academy Collection's Library Visits?",
+            "A": "The average value of Meridian Academy Collection's library visits is {76800.06} visits/year."
+        },
+        {
+            "Q": "What is the average value of Aethelgard Art Library's Library Visits?",
+            "A": "The average value of Aethelgard Art Library's library visits is {87155.38} visits/year."
+        },
+        {
+            "Q": "What is the rate of change in Zenith Tech Library's Library Visits from the starting year to the final year?",
+            "A": "The rate of growth in Zenith Tech Library's library visits is {31.77}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Meridian Academy Collection's Library Visits exceed 81431 visits/year? Please list the years and corresponding values.",
+            "A": "{90479.20} visits/year in {2023} year, {84756.53} visits/year in {2022} year."
+        },
+        {
+            "Q": "In the year 2021, which lines had Library Visits below 84059 visits/year? Please list the lines and corresponding values.",
+            "A": "{Meridian Academy Collection} had {76417} visits/year."
+        },
+        {
+            "Q": "In the year 2023, which lines had Library Visits below 94720 visits/year? Please list the lines and corresponding values.",
+            "A": "{Meridian Academy Collection} had {90479} visits/year, {Aethelgard Art Library} had {86109} visits/year."
+        },
+        {
+            "Q": "Which years did Zenith Tech Library's Library Visits exceed 119396 visits/year? Please list the years and corresponding values.",
+            "A": "{132662.43} visits/year in {2023} year, {122960.20} visits/year in {2022} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "In 2019, which line had a higher Library Visits, {Zenith Tech Library} or {Meridian Academy Collection}?",
+            "A": "In 2019, {Zenith Tech Library} had a higher library visits."
+        },
+        {
+            "Q": "In 2019, which line had the highest Library Visits, Aethelgard Art Library, Meridian Academy Collection, or Zenith Tech Library?",
+            "A": "In 2019, {Zenith Tech Library} had the highest library visits."
+        },
+        {
+            "Q": "In 2021, which line had the highest Library Visits, Zenith Tech Library, Aethelgard Art Library, or Meridian Academy Collection?",
+            "A": "In 2021, {Zenith Tech Library} had the highest library visits."
+        },
+        {
+            "Q": "In 2020, which line had a higher Library Visits, {Aethelgard Art Library} or {Meridian Academy Collection}?",
+            "A": "In 2020, {Aethelgard Art Library} had a higher library visits."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Zenith Tech Library}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 2020 and 2023?",
+            "A": "{Zenith Tech Library} has the fastest average growth rate between 2020 and 2023."
+        },
+        {
+            "Q": "In which year did Meridian Academy Collection first surpass Aethelgard Art Library?",
+            "A": "Meridian Academy Collection first surpassed Aethelgard Art Library in the year {2023}."
+        },
+        {
+            "Q": "Which label had the leading library visits since 2020?",
+            "A": "Since 2020, {Zenith Tech Library} had the leading library visits."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Zenith Tech Library. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {2019, 2023}."
+        }
+    ]
+}

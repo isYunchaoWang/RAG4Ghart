@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {38} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a positive linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Energy consumption in the scatter plot?",
+            "A": "The maximum observed value in the Energy consumption dimension is {1000000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Energy consumption in the scatter plot?",
+            "A": "The minimum observed value in the Energy consumption dimension is {1000.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Energy efficiency in the scatter plot?",
+            "A": "The maximum observed value in the Energy efficiency dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Energy efficiency in the scatter plot?",
+            "A": "The minimum observed value in the Energy efficiency dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Energy consumption for all points?",
+            "A": "The average value of Energy consumption for all points is {500500.00}."
+        },
+        {
+            "Q": "What is the average value of the Energy efficiency for all points?",
+            "A": "The average value of Energy efficiency for all points is {48.03}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Energy efficiency values corresponding to the top 3 Energy consumption values in the scatter plot?",
+            "A": "{85.13, 68.45, 87.39}."
+        },
+        {
+            "Q": "What are the Energy efficiency values corresponding to the bottom 3 Energy consumption values in the scatter plot?",
+            "A": "{1.14, 0.00, 31.73}."
+        },
+        {
+            "Q": "What are the Energy consumption values corresponding to the top 3 Energy efficiency values in the scatter plot?",
+            "A": "{703000.00, 946000.00, 1000000.00}."
+        },
+        {
+            "Q": "What are the Energy consumption values corresponding to the bottom 3 Energy efficiency values in the scatter plot?",
+            "A": "{28000.00, 1000.00, 271000.00}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 825103.33 and 967551.30 and Y coordinates between 35.12 and 59.96?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(1000.00, 1.14) and (1000000.00, 85.13)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(811000.00, 69.22) and (838000.00, 68.46)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [761050.00, 63.46, 887950.00, 74.22] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (811000.00, 69.22)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [302821.60, 48.32, 549499.18, 69.01]; Region B: [573798.38, 28.09, 820475.96, 48.77]; Region C: [701161.21, 58.50, 947838.79, 79.18]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

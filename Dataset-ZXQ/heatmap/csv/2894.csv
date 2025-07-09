@@ -1,0 +1,101 @@
+Energy and Utilities,the Metrics of Energy and Utilities,10x10,central_cluster
+Coal,Consumption,0.21
+Distribution,Consumption,0.28
+Electricity,Consumption,0.36
+Exploration,Consumption,0.41
+Gas,Consumption,0.46
+Nuclear,Consumption,0.53
+Oil,Consumption,0.52
+Transmission,Consumption,0.63
+Waste Management,Consumption,0.62
+Water,Consumption,0.68
+Coal,Efficiency,0.28
+Distribution,Efficiency,0.37
+Electricity,Efficiency,0.42
+Exploration,Efficiency,0.5
+Gas,Efficiency,0.55
+Nuclear,Efficiency,0.58
+Oil,Efficiency,0.59
+Transmission,Efficiency,0.63
+Waste Management,Efficiency,0.71
+Water,Efficiency,0.71
+Coal,Emissions,0.33
+Distribution,Emissions,0.4
+Electricity,Emissions,0.47
+Exploration,Emissions,0.5
+Gas,Emissions,0.57
+Nuclear,Emissions,0.62
+Oil,Emissions,0.69
+Transmission,Emissions,0.7
+Waste Management,Emissions,0.76
+Water,Emissions,0.72
+Coal,Infrastructure,0.38
+Distribution,Infrastructure,0.46
+Electricity,Infrastructure,0.5
+Exploration,Infrastructure,0.58
+Gas,Infrastructure,0.66
+Nuclear,Infrastructure,0.68
+Oil,Infrastructure,0.72
+Transmission,Infrastructure,0.78
+Waste Management,Infrastructure,0.76
+Water,Infrastructure,0.82
+Coal,Investment,0.41
+Distribution,Investment,0.47
+Electricity,Investment,0.55
+Exploration,Investment,0.64
+Gas,Investment,0.63
+Nuclear,Investment,0.71
+Oil,Investment,0.77
+Transmission,Investment,0.8
+Waste Management,Investment,0.83
+Water,Investment,0.85
+Coal,Policy,0.43
+Distribution,Policy,0.52
+Electricity,Policy,0.58
+Exploration,Policy,0.62
+Gas,Policy,0.69
+Nuclear,Policy,0.72
+Oil,Policy,0.78
+Transmission,Policy,0.83
+Waste Management,Policy,0.86
+Water,Policy,0.88
+Coal,Prices,0.47
+Distribution,Prices,0.53
+Electricity,Prices,0.6
+Exploration,Prices,0.65
+Gas,Prices,0.68
+Nuclear,Prices,0.79
+Oil,Prices,0.85
+Transmission,Prices,0.81
+Waste Management,Prices,0.86
+Water,Prices,0.88
+Coal,Production,0.49
+Distribution,Production,0.53
+Electricity,Production,0.56
+Exploration,Production,0.67
+Gas,Production,0.71
+Nuclear,Production,0.78
+Oil,Production,0.85
+Transmission,Production,0.86
+Waste Management,Production,0.87
+Water,Production,0.89
+Coal,Reliability,0.46
+Distribution,Reliability,0.54
+Electricity,Reliability,0.61
+Exploration,Reliability,0.66
+Gas,Reliability,0.72
+Nuclear,Reliability,0.76
+Oil,Reliability,0.8
+Transmission,Reliability,0.87
+Waste Management,Reliability,0.88
+Water,Reliability,0.89
+Coal,Technology,0.43
+Distribution,Technology,0.52
+Electricity,Technology,0.6
+Exploration,Technology,0.65
+Gas,Technology,0.71
+Nuclear,Technology,0.75
+Oil,Technology,0.79
+Transmission,Technology,0.82
+Waste Management,Technology,0.89
+Water,Technology,0.87

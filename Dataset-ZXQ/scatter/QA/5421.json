@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {49} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {no correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Customer acquisition cost in the scatter plot?",
+            "A": "The maximum observed value in the Customer acquisition cost dimension is {500.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Customer acquisition cost in the scatter plot?",
+            "A": "The minimum observed value in the Customer acquisition cost dimension is {10.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Conversion rate in the scatter plot?",
+            "A": "The maximum observed value in the Conversion rate dimension is {10.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Conversion rate in the scatter plot?",
+            "A": "The minimum observed value in the Conversion rate dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Customer acquisition cost for all points?",
+            "A": "The average value of Customer acquisition cost for all points is {255.00}."
+        },
+        {
+            "Q": "What is the average value of the Conversion rate for all points?",
+            "A": "The average value of Conversion rate for all points is {5.17}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Conversion rate values corresponding to the top 3 Customer acquisition cost values in the scatter plot?",
+            "A": "{0.01, 4.82, 4.14}."
+        },
+        {
+            "Q": "What are the Conversion rate values corresponding to the bottom 3 Customer acquisition cost values in the scatter plot?",
+            "A": "{10.00, 5.93, 6.69}."
+        },
+        {
+            "Q": "What are the Customer acquisition cost values corresponding to the top 3 Conversion rate values in the scatter plot?",
+            "A": "{10.00, 367.29, 234.58}."
+        },
+        {
+            "Q": "What are the Customer acquisition cost values corresponding to the bottom 3 Conversion rate values in the scatter plot?",
+            "A": "{418.33, 500.00, 81.46}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 262.69 and 383.47 and Y coordinates between 2.27 and 4.09?",
+            "A": "There are {3} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(10.00, 10.00) and (500.00, 0.01)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(285.63, 3.80) and (295.83, 3.78)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [261.13, 3.28, 320.33, 4.30] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (285.63, 3.80)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [225.66, 5.41, 365.28, 7.74]; Region B: [195.95, 0.25, 335.58, 2.58]; Region C: [220.92, 2.62, 360.54, 4.96]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

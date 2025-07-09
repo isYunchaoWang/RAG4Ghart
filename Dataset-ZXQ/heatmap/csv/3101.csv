@@ -1,0 +1,82 @@
+Energy and Utilities,the Risk Assessment of Energy and Utilities,9x9,diagonal
+Coal,Consumption,0.18
+Distribution,Consumption,0.26
+Electricity,Consumption,0.37
+Gas,Consumption,0.47
+Nuclear,Consumption,0.57
+Oil,Consumption,0.68
+Renewables,Consumption,0.79
+Transmission,Consumption,0.87
+Waste Management,Consumption,0.97
+Coal,Efficiency,0.27
+Distribution,Efficiency,0.36
+Electricity,Efficiency,0.46
+Gas,Efficiency,0.57
+Nuclear,Efficiency,0.67
+Oil,Efficiency,0.77
+Renewables,Efficiency,0.85
+Transmission,Efficiency,0.94
+Waste Management,Efficiency,0.87
+Coal,Emissions,0.37
+Distribution,Emissions,0.46
+Electricity,Emissions,0.57
+Gas,Emissions,0.67
+Nuclear,Emissions,0.77
+Oil,Emissions,0.85
+Renewables,Emissions,0.94
+Transmission,Emissions,0.86
+Waste Management,Emissions,0.79
+Coal,Infrastructure,0.47
+Distribution,Infrastructure,0.57
+Electricity,Infrastructure,0.67
+Gas,Infrastructure,0.77
+Nuclear,Infrastructure,0.87
+Oil,Infrastructure,0.94
+Renewables,Infrastructure,0.86
+Transmission,Infrastructure,0.77
+Waste Management,Infrastructure,0.67
+Coal,Investment,0.58
+Distribution,Investment,0.67
+Electricity,Investment,0.77
+Gas,Investment,0.85
+Nuclear,Investment,0.94
+Oil,Investment,0.86
+Renewables,Investment,0.78
+Transmission,Investment,0.67
+Waste Management,Investment,0.58
+Coal,Production,0.68
+Distribution,Production,0.78
+Electricity,Production,0.86
+Gas,Production,0.94
+Nuclear,Production,0.86
+Oil,Production,0.77
+Renewables,Production,0.67
+Transmission,Production,0.57
+Waste Management,Production,0.47
+Coal,Reliability,0.79
+Distribution,Reliability,0.86
+Electricity,Reliability,0.94
+Gas,Reliability,0.86
+Nuclear,Reliability,0.77
+Oil,Reliability,0.66
+Renewables,Reliability,0.57
+Transmission,Reliability,0.46
+Waste Management,Reliability,0.37
+Coal,Storage,0.87
+Distribution,Storage,0.94
+Electricity,Storage,0.86
+Gas,Storage,0.77
+Nuclear,Storage,0.67
+Oil,Storage,0.57
+Renewables,Storage,0.46
+Transmission,Storage,0.36
+Waste Management,Storage,0.26
+Coal,Technology,0.97
+Distribution,Technology,0.87
+Electricity,Technology,0.79
+Gas,Technology,0.68
+Nuclear,Technology,0.59
+Oil,Technology,0.47
+Renewables,Technology,0.37
+Transmission,Technology,0.27
+Waste Management,Technology,0.17

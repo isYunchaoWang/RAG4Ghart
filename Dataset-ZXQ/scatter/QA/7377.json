@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {30} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {no correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Posting frequency in the scatter plot?",
+            "A": "The maximum observed value in the Posting frequency dimension is {20.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Posting frequency in the scatter plot?",
+            "A": "The minimum observed value in the Posting frequency dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Shares in the scatter plot?",
+            "A": "The maximum observed value in the Shares dimension is {100000.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Shares in the scatter plot?",
+            "A": "The minimum observed value in the Shares dimension is {10.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Posting frequency for all points?",
+            "A": "The average value of Posting frequency for all points is {10.50}."
+        },
+        {
+            "Q": "What is the average value of the Shares for all points?",
+            "A": "The average value of Shares for all points is {49044.44}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Shares values corresponding to the top 3 Posting frequency values in the scatter plot?",
+            "A": "{72320.55, 30409.95, 33097.71}."
+        },
+        {
+            "Q": "What are the Shares values corresponding to the bottom 3 Posting frequency values in the scatter plot?",
+            "A": "{45795.37, 63681.45, 100000.00}."
+        },
+        {
+            "Q": "What are the Posting frequency values corresponding to the top 3 Shares values in the scatter plot?",
+            "A": "{2.31, 5.59, 18.03}."
+        },
+        {
+            "Q": "What are the Posting frequency values corresponding to the bottom 3 Shares values in the scatter plot?",
+            "A": "{11.48, 17.38, 14.76}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 3.32 and 7.58 and Y coordinates between 27225.56 and 43011.30?",
+            "A": "There are {3} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(2.31, 100000.00) and (11.48, 10.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(8.86, 40715.48) and (12.79, 41276.64)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [6.89, 35715.98, 14.75, 46276.14] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (8.86, 40715.48)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [12.18, 72888.98, 18.14, 94947.41]; Region B: [1.03, 11471.19, 6.98, 33529.61]; Region C: [7.85, 29966.85, 13.80, 52025.27]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region C."
+        }
+    ]
+}

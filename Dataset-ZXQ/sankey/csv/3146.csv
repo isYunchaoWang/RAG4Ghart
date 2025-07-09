@@ -1,0 +1,52 @@
+Education and Academics,Education System Framework,Students,random,Support Services,Enrollment Channels,Student Backgrounds,Institution Types
+Source,Target,Value
+Academic Advising,Exchange Programs,1915
+Academic Advising,Scholarships,704
+Academic Advising,Direct Admission,2664
+Academic Advising,Online Applications,896
+Academic Advising,Entrance Exams,1180
+Tutoring Centers,Exchange Programs,1360
+Tutoring Centers,Scholarships,3274
+Tutoring Centers,Direct Admission,5578
+Tutoring Centers,Online Applications,6350
+Tutoring Centers,Entrance Exams,2794
+Financial Aid,Exchange Programs,434
+Financial Aid,Scholarships,787
+Financial Aid,Direct Admission,745
+Financial Aid,Online Applications,118
+Financial Aid,Entrance Exams,79
+Career Services,Exchange Programs,751
+Career Services,Scholarships,4012
+Career Services,Direct Admission,4966
+Career Services,Online Applications,7020
+Career Services,Entrance Exams,4313
+Exchange Programs,Urban,1028
+Exchange Programs,International,1286
+Exchange Programs,Low-Income,2146
+Scholarships,Urban,2214
+Scholarships,International,3883
+Scholarships,Low-Income,2680
+Direct Admission,Urban,4767
+Direct Admission,International,4873
+Direct Admission,Low-Income,4313
+Online Applications,Urban,4207
+Online Applications,International,4534
+Online Applications,Low-Income,5643
+Entrance Exams,Urban,1722
+Entrance Exams,International,1492
+Entrance Exams,Low-Income,5152
+Urban,Online Institution,3045
+Urban,Community College,4232
+Urban,Private School,1781
+Urban,Public School,4155
+Urban,University,725
+International,Online Institution,3081
+International,Community College,2039
+International,Private School,4283
+International,Public School,2421
+International,University,4244
+Low-Income,Online Institution,4927
+Low-Income,Community College,4868
+Low-Income,Private School,4397
+Low-Income,Public School,4354
+Low-Income,University,1388

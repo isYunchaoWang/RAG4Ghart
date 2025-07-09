@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Health Insurance Coverage Rate?",
+            "A": "The next dimension clockwise from Health Insurance Coverage Rate is Outpatient Satisfaction Rate "
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Health Insurance Coverage Rate?",
+            "A": "The next dimension counterclockwise from Health Insurance Coverage Rate is Vaccination Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Vaccination Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Ukraine?",
+            "A": "The strongest aspect is {Vaccination Rate}, while the weakest aspect is{ Primary Healthcare Institutions Ratio}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Ukraine on the Outpatient Satisfaction Rate  in the radar chart?",
+            "A": "The value of Ukraine on the Safety dimension is {48}."
+        },
+        {
+            "Q": "What is the value of Ukraine on the Health Insurance Coverage Rate in the radar chart?",
+            "A": "The value of Ukraine on the Safety dimension is {52}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Ukraine across all dimensions in the radar chart?",
+            "A": "The maximum value of Ukraine across all dimensions is {88}."
+        },
+        {
+            "Q": "What is the minimum value of label Ukraine across all dimensions in the radar chart?",
+            "A": "The minimum value of Ukraine across all dimensions is {88}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Vaccination Rate",
+            "A": "The average value of Vaccination Rate is {90.0}."
+        },
+        {
+            "Q": "What is the average value of Ukraine",
+            "A": "The average value of Ukraine is {61.2}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Ukraine in the radar chart, which dimensions have scores between 40 and 78? Please list the dimensions and corresponding scores.",
+            "A": "{Health Insurance Coverage Rate} is {52}, {Outpatient Satisfaction Rate } is {48}"
+        },
+        {
+            "Q": "Which labels have scores above 28 for the Primary Healthcare Institutions Ratio dimension? Please list the labels and corresponding scores.",
+            "A": "{Ukraine} is {28}"
+        },
+        {
+            "Q": "For Ukraine in the radar chart, which dimensions have scores above 78? Please list the dimensions and corresponding scores.",
+            "A": "{Disease Incidence Rate} is {88}, {Vaccination Rate} is {90}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Ukraine, which dimension has a higher score: Primary Healthcare Institutions Ratio or Disease Incidence Rate?",
+            "A": "{Disease Incidence Rate} has a higher score than Primary Healthcare Institutions Ratio for Ukraine."
+        },
+        {
+            "Q": "For Ukraine, which dimension has a higher score: Vaccination Rate or Disease Incidence Rate or Primary Healthcare Institutions Ratio?",
+            "A": "{Vaccination Rate} has a higher score for Ukraine."
+        },
+        {
+            "Q": "For Ukraine, which dimension has a higher score: Primary Healthcare Institutions Ratio or Disease Incidence Rate or Health Insurance Coverage Rate?",
+            "A": "{Disease Incidence Rate} has a higher score for Ukraine."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Ukraine, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Ukraine most needs to improve its {Primary Healthcare Institutions Ratio}."
+        }
+    ],
+    "VA": []
+}

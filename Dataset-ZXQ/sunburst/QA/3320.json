@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {15} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {2} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Appliances positioned outside, inside or on the same side as Energy Sources?",
+            "A": "Appliances is positioned {outside} Energy Sources."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Energy Sources}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Residential segment in this sunburst chart?",
+            "A": "The value of the Residential segment is {23.1}."
+        },
+        {
+            "Q": "What is the value of the Appliances segment in this sunburst chart?",
+            "A": "The value of the Appliances segment is {13.73}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {43.24}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {21.21}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {7.95}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.78}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Energy Sources exceed 100%? Please list the category names and corresponding percentages.",
+            "A": "None."
+        },
+        {
+            "Q": "Which categories in the segment Energy Sources are below 100%? Please list the category names and corresponding percentages.",
+            "A": "None."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Fossil Fuels, Energy Consumption, or Residential?",
+            "A": "The value of {Residential} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Energy Sources, Fossil Fuels, or Energy Consumption?",
+            "A": "The value of {Energy Sources} is larger."
+        },
+        {
+            "Q": "Which has the largest value: Energy Sources, Fossil Fuels, Energy Consumption, or Energy Infrastructure?",
+            "A": "The value of {Energy Sources} is the largest."
+        },
+        {
+            "Q": "Which is larger, the value of Energy Sources or Fossil Fuels?",
+            "A": "The value of {Energy Sources} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Energy Consumption to Residential to Appliances to Washing Machines}."
+        }
+    ],
+    "VA": []
+}

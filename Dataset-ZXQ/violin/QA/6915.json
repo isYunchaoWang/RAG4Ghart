@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Zephyr}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Creston}."
+        },
+        {
+            "Q": "Which violin is the first position to the left of the violin Rosewood?",
+            "A": "The first position to the left of the violin Rosewood is {Zephyr}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Rosewood relative to the violin Zephyr in terms of horizontal (left/right) direction?",
+            "A": "violin Rosewood is to the {right} of the violin Zephyr."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Creston}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Creston}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Zephyr?",
+            "A": "The density distribution pattern of the Zephyr shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Zephyr in the violin plot?",
+            "A": "The median of Zephyr is {1131.50} Number."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Rosewood in the violin plot?",
+            "A": "The lower quartile (Q1) of Rosewood is {1064.25} Number."
+        },
+        {
+            "Q": "What is the upper whisker limit of Creston in the violin plot?",
+            "A": "The upper whisker limit of Creston is {2023.00} Number."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Rosewood in the violin plot?",
+            "A": "The largest upper outlier value in Rosewood is {2073.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Number value in the violin plot?",
+            "A": "The global maximum Number value in the violin plot is {2456.00} Number."
+        },
+        {
+            "Q": "What is the global minimum Number value in the violin plot?",
+            "A": "The global minimum Number value in the violin plot is {882.00} Number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q1 difference between violin Creston and Zephyr?",
+            "A": "The Q1 difference between violin Creston and Zephyr is {89.50} Number."
+        },
+        {
+            "Q": "What is the toal Median value of violin Zephyr and Rosewood?",
+            "A": "The total Median value of violin Zephyr and Creston is {2336.50} Number."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Rosewood and Creston?",
+            "A": "The average Q1 value of violin Rosewood and Creston is {1073.00} Number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 1168.25 Number? Please list the violins and corresponding values.",
+            "A": "{Rosewood} has {1205.00} Number , {Creston} has {1211.00} Number "
+        },
+        {
+            "Q": "Which violins have median values below 1168.25 Number? Please list the violins and corresponding values.",
+            "A": "{Zephyr} has {1131.50} Number "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 1028.25 Number and the upper quartile (Q3) below 1464.38 Number?",
+            "A": "Violin {Rosewood} has the Q1 above 1028.25 Number and the Q3 below 1464.375 Number."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 1057.13 Number?",
+            "A": "Violin {Rosewood} has {1097.43} Number ,{Creston} has {1142.01} Number have their highest density peak exceed 1057.13 Number."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 1057.13 Number?",
+            "A": "Violin {Zephyr} has {1016.83} Number have their highest density peak below 1057.13 Number."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Rosewood or Creston ",
+            "A": "The median value of the {Creston} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Creston, Zephyr or Rosewood ",
+            "A": "The median value of the {Creston} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Creston}."
+        }
+    ],
+    "VA": []
+}

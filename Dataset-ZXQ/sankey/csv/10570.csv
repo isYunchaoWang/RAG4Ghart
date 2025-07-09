@@ -1,0 +1,38 @@
+Science and Engineering,Research and Development Ecosystem,Projects,random,Institution Types,Impact Areas,Research Outcomes,Research Fields,Funding Sources
+Source,Target,Value
+Non-profit Organizations,Defense,77
+Non-profit Organizations,Healthcare,53
+Non-profit Organizations,Education,93
+Research Universities,Defense,100
+Research Universities,Healthcare,54
+Research Universities,Education,89
+Government Agencies,Defense,170
+Government Agencies,Healthcare,197
+Government Agencies,Education,164
+Corporate Labs,Defense,177
+Corporate Labs,Healthcare,141
+Corporate Labs,Education,204
+Defense,Open-source Projects,58
+Defense,Prototypes,186
+Defense,Patents,163
+Defense,Commercial Products,117
+Healthcare,Open-source Projects,95
+Healthcare,Prototypes,170
+Healthcare,Patents,97
+Healthcare,Commercial Products,83
+Education,Open-source Projects,143
+Education,Prototypes,118
+Education,Patents,93
+Education,Commercial Products,196
+Open-source Projects,Quantum Computing,238
+Open-source Projects,Artificial Intelligence,58
+Prototypes,Quantum Computing,172
+Prototypes,Artificial Intelligence,302
+Patents,Quantum Computing,144
+Patents,Artificial Intelligence,209
+Commercial Products,Quantum Computing,342
+Commercial Products,Artificial Intelligence,54
+Quantum Computing,Private Investment,89
+Quantum Computing,Federal Grants,807
+Artificial Intelligence,Private Investment,344
+Artificial Intelligence,Federal Grants,279

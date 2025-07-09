@@ -1,0 +1,16 @@
+Healthcare and Health,Healthcare Service Ecosystem,Patients,random,Patient Demographics,Outcomes,Medical Specialties
+Source,Target,Value
+Chronic Patients,Deceased,1389
+Chronic Patients,Full Recovery,1231
+Children,Deceased,845
+Children,Full Recovery,2681
+Pregnant Women,Deceased,210
+Pregnant Women,Full Recovery,1913
+Seniors,Deceased,1960
+Seniors,Full Recovery,1248
+Deceased,Orthopedics,2465
+Deceased,Oncology,370
+Deceased,Pediatrics,1569
+Full Recovery,Orthopedics,3239
+Full Recovery,Oncology,1367
+Full Recovery,Pediatrics,2467

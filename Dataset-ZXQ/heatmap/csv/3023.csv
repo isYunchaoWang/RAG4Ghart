@@ -1,0 +1,73 @@
+Energy and Utilities,the Risk Assessment of Energy and Utilities,9x8,random
+Coal,Consumption,0.08
+Exploration,Consumption,0.91
+Gas,Consumption,0.29
+Nuclear,Consumption,0.39
+Oil,Consumption,0.05
+Renewables,Consumption,0.84
+Transmission,Consumption,0.29
+Waste Management,Consumption,0.08
+Water,Consumption,0.84
+Coal,Emissions,0.79
+Exploration,Emissions,0.09
+Gas,Emissions,0.45
+Nuclear,Emissions,0.82
+Oil,Emissions,0.45
+Renewables,Emissions,0.23
+Transmission,Emissions,0.09
+Waste Management,Emissions,1.0
+Water,Emissions,0.28
+Coal,Infrastructure,0.3
+Exploration,Infrastructure,0.61
+Gas,Infrastructure,0.18
+Nuclear,Infrastructure,0.61
+Oil,Infrastructure,0.37
+Renewables,Infrastructure,0.8
+Transmission,Infrastructure,0.41
+Waste Management,Infrastructure,0.95
+Water,Infrastructure,0.92
+Coal,Investment,0.5
+Exploration,Investment,0.91
+Gas,Investment,0.41
+Nuclear,Investment,0.7
+Oil,Investment,0.86
+Renewables,Investment,0.94
+Transmission,Investment,0.03
+Waste Management,Investment,0.79
+Water,Investment,0.22
+Coal,Policy,0.23
+Exploration,Policy,0.17
+Gas,Policy,0.29
+Nuclear,Policy,0.22
+Oil,Policy,0.67
+Renewables,Policy,0.67
+Transmission,Policy,0.61
+Waste Management,Policy,0.87
+Water,Policy,0.69
+Coal,Prices,0.58
+Exploration,Prices,0.8
+Gas,Prices,0.94
+Nuclear,Prices,0.02
+Oil,Prices,0.43
+Renewables,Prices,0.65
+Transmission,Prices,0.2
+Waste Management,Prices,0.05
+Water,Prices,0.7
+Coal,Production,0.33
+Exploration,Production,0.03
+Gas,Production,0.73
+Nuclear,Production,0.5
+Oil,Production,0.12
+Renewables,Production,0.61
+Transmission,Production,0.33
+Waste Management,Production,0.62
+Water,Production,0.2
+Coal,Technology,0.78
+Exploration,Technology,0.05
+Gas,Technology,0.74
+Nuclear,Technology,0.64
+Oil,Technology,0.05
+Renewables,Technology,0.36
+Transmission,Technology,0.79
+Waste Management,Technology,0.43
+Water,Technology,0.69

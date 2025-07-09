@@ -1,0 +1,112 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {3} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Crimson Quill Publishing relative to Zenith Imprints?",
+            "A": "Crimson Quill Publishing is {above} Zenith Imprints in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total book sales?",
+            "A": "The series with the largest contribution is {Zenith Imprints}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total book sales?",
+            "A": "The series with the smallest contribution is {Crimson Quill Publishing}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Crimson Quill Publishing's Book Sales in 1974?",
+            "A": "Crimson Quill Publishing's book sales in 1974 is {93279.28} copies."
+        },
+        {
+            "Q": "What is Crimson Quill Publishing's Book Sales in 1977?",
+            "A": "Crimson Quill Publishing's book sales in 1977 is {81482.36} copies."
+        },
+        {
+            "Q": "What is Zenith Imprints's Book Sales in 1982?",
+            "A": "Zenith Imprints's book sales in 1982 is {182089.72} copies."
+        },
+        {
+            "Q": "What are the book sales of Zenith Imprints, Azure Ink Works, and Crimson Quill Publishing in 1980?",
+            "A": "Zenith Imprints's book sales is {243845.88} copies, Azure Ink Works's book sales is {5000} copies, Crimson Quill Publishing's book sales is {5000} copies."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Book Sales in the area chart?",
+            "A": "The global minimum book sales is {5000.00} copies."
+        },
+        {
+            "Q": "What is the global maximum Book Sales in the area chart?",
+            "A": "The global maximum book sales is {530630.76} copies."
+        },
+        {
+            "Q": "What is the highest Book Sales level recorded for Azure Ink Works?",
+            "A": "Azure Ink Works reached approximately {530630.76} copies in {1964}."
+        },
+        {
+            "Q": "What is the lowest Book Sales level recorded for Azure Ink Works?",
+            "A": "Azure Ink Works's lowest recorded level is approximately {5000.00} copies in {1978}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Book Sales?",
+            "A": "The average total book sales is {707591.41} copies."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Book Sales exceed 966355.32 copies? Please list the years and corresponding total values.",
+            "A": "{1497470.43} copies in {1963}, {1079378.99} copies in {1969}, {1360643.61} copies in {1964}."
+        },
+        {
+            "Q": "Which years did the total Book Sales go below 369960.65 copies? Please list the years and corresponding total values.",
+            "A": "{160902.85} copies in {1986}, {253845.88} copies in {1980}, {200008.93} copies in {1983}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Book Sales in 1974 higher or lower than in 1981?",
+            "A": "The total book sales in 1974 was {higher} than in 1981."
+        },
+        {
+            "Q": "Between 1966 and 1968, was the average total Book Sales higher or lower than between 1973 and 1983?",
+            "A": "The average total book sales between 1966 and 1968 was {higher} than between 1973 and 1983."
+        },
+        {
+            "Q": "Between 1979 and 1984, did the total Book Sales experience a larger or smaller change than between 1966 and 1976?",
+            "A": "The change in total book sales between 1979 and 1984 was {smaller} than between 1966 and 1976."
+        },
+        {
+            "Q": "Between 1967 and 1970, was the average total Book Sales higher or lower than between 1965 and 1973?",
+            "A": "The average total book sales between 1967 and 1970 was {higher} than between 1965 and 1973."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Zenith Imprints} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Azure Ink Works, Crimson Quill Publishing, Zenith Imprints}."
+        }
+    ]
+}

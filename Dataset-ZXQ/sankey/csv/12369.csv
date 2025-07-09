@@ -1,0 +1,31 @@
+Sports and Entertainment,Sports Event Framework,Events,random,Event Types,Audience Segments,Revenue Streams,Sports Types
+Source,Target,Value
+Playoffs,Corporate Groups,61559
+Playoffs,International Fans,58027
+Friendly Match,Corporate Groups,36289
+Friendly Match,International Fans,24853
+Corporate Groups,Ticket Sales,35504
+Corporate Groups,Concessions,27086
+Corporate Groups,Sponsorships,13256
+Corporate Groups,Broadcast Rights,9891
+Corporate Groups,Merchandise,12111
+International Fans,Ticket Sales,9240
+International Fans,Concessions,20382
+International Fans,Sponsorships,36412
+International Fans,Broadcast Rights,9296
+International Fans,Merchandise,7550
+Ticket Sales,Basketball,26806
+Ticket Sales,Golf,12320
+Ticket Sales,Cricket,5618
+Concessions,Basketball,3698
+Concessions,Golf,23501
+Concessions,Cricket,20269
+Sponsorships,Basketball,18911
+Sponsorships,Golf,7304
+Sponsorships,Cricket,23453
+Broadcast Rights,Basketball,6613
+Broadcast Rights,Golf,11105
+Broadcast Rights,Cricket,1469
+Merchandise,Basketball,5123
+Merchandise,Golf,6728
+Merchandise,Cricket,7810

@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {1} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Further Education Rate?",
+            "A": "The next dimension clockwise from Further Education Rate is Employment Rate"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Employment Rate?",
+            "A": "The next dimension counterclockwise from Further Education Rate is Paper Publication Rate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Citation Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Jeffreymouth College?",
+            "A": "The strongest aspect is {Citation Rate}, while the weakest aspect is{ Paper Publication Rate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Jeffreymouth College on the Further Education Rate in the radar chart?",
+            "A": "The value of Jeffreymouth College on the Safety dimension is {43}."
+        },
+        {
+            "Q": "What is the value of Jeffreymouth College on the Citation Rate in the radar chart?",
+            "A": "The value of Jeffreymouth College on the Safety dimension is {96}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Jeffreymouth College across all dimensions in the radar chart?",
+            "A": "The maximum value of Jeffreymouth College across all dimensions is {60}."
+        },
+        {
+            "Q": "What is the minimum value of label Jeffreymouth College across all dimensions in the radar chart?",
+            "A": "The minimum value of Jeffreymouth College across all dimensions is {60}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Discipline Coverage Rate",
+            "A": "The average value of Discipline Coverage Rate is {44.0}."
+        },
+        {
+            "Q": "What is the average value of Jeffreymouth College",
+            "A": "The average value of Jeffreymouth College is {55.86}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Jeffreymouth College in the radar chart, which dimensions have scores between 42 and 82? Please list the dimensions and corresponding scores.",
+            "A": "{Graduation Rate} is {60}, {Further Education Rate} is {43}, {Discipline Coverage Rate} is {44}"
+        },
+        {
+            "Q": "Which labels have scores below 35 for the Employment Rate dimension? Please list the labels and corresponding scores.",
+            "A": "{Jeffreymouth College} is {35}"
+        },
+        {
+            "Q": "For Jeffreymouth College in the radar chart, which dimensions have scores below 42? Please list the dimensions and corresponding scores.",
+            "A": "{Paper Publication Rate} is {28}, {Employment Rate} is {35}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For Jeffreymouth College, which dimension has a higher score: Employment Rate or Discipline Coverage Rate?",
+            "A": "{Discipline Coverage Rate} has a higher score than Employment Rate for Jeffreymouth College."
+        },
+        {
+            "Q": "For Jeffreymouth College, which dimension has a higher score: Further Education Rate or Citation Rate or Paper Publication Rate?",
+            "A": "{Citation Rate} has a higher score for Jeffreymouth College."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For Jeffreymouth College, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "Jeffreymouth College most needs to improve its {Paper Publication Rate}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,18 @@
+Human Resources and Employee Management ,Employee Distribution by Category (2021),%
+parent,child,value
+Root,Workplace Wellbeing,33.02
+Workplace Wellbeing,Health & Safety,16.86
+Health & Safety,Ergonomics,7.31
+Health & Safety,Emergency Response,9.55
+Workplace Wellbeing,Work-Life Balance,16.16
+Work-Life Balance,Flexible Scheduling,6.03
+Work-Life Balance,Employee Assistance,10.13
+Root,Employee Development,27.51
+Employee Development,Performance Management,15.01
+Performance Management,Goal Setting,15.01
+Goal Setting,Team Objectives,5.0
+Goal Setting,OKRs,5.0
+Goal Setting,SMART Goals,5.01
+Employee Development,Training Programs,12.5
+Root,Employee Lifecycle,39.47
+Employee Lifecycle,Onboarding,39.47

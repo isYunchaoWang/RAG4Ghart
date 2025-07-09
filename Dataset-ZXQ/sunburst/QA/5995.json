@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {18} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {5} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Feedback positioned outside, inside or on the same side as Employee Lifecycle?",
+            "A": "Feedback is positioned {outside} Employee Lifecycle."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Workplace Wellbeing}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Employee Assistance segment in this sunburst chart?",
+            "A": "The value of the Employee Assistance segment is {20.42}."
+        },
+        {
+            "Q": "What is the value of the Skill Workshops segment in this sunburst chart?",
+            "A": "The value of the Skill Workshops segment is {6.88}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {45.17}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {26.14}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {14.92}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.11}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.01}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Workplace Wellbeing exceed 67%? Please list the category names and corresponding percentages.",
+            "A": "{Work-Life Balance} accounts for {83.15}%"
+        },
+        {
+            "Q": "Which categories in the segment Workplace Wellbeing are below 33%? Please list the category names and corresponding percentages.",
+            "A": "{Health & Safety} accounts for {16.85}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has the largest value: Workplace Wellbeing, Work-Life Balance, Employee Lifecycle, or Employee Development?",
+            "A": "The value of {Workplace Wellbeing} is the largest."
+        },
+        {
+            "Q": "Which is smaller, the value of Work-Life Balance, Employee Lifecycle, or Onboarding?",
+            "A": "The value of {Onboarding} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Workplace Wellbeing, Work-Life Balance, or Employee Lifecycle?",
+            "A": "The value of {Workplace Wellbeing} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Workplace Wellbeing or Work-Life Balance?",
+            "A": "The value of {Workplace Wellbeing} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Workplace Wellbeing to Work-Life Balance to Employee Assistance to Mental Health Days}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {3} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {13} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {5} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Suburban Offices positioned outside, inside or on the same side as Commercial Real Estate?",
+            "A": "Suburban Offices is positioned {outside} Commercial Real Estate."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Commercial Real Estate}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Short-Term Rentals segment in this sunburst chart?",
+            "A": "The value of the Short-Term Rentals segment is {17.67}."
+        },
+        {
+            "Q": "What is the value of the Retail Spaces segment in this sunburst chart?",
+            "A": "The value of the Retail Spaces segment is {33.48}."
+        },
+        {
+            "Q": "What is the value of the Apartments segment in this sunburst chart?",
+            "A": "The value of the Apartments segment is {5.01}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {45.7}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {26.44}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {12.22}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.01}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Commercial Real Estate exceed 62%? Please list the category names and corresponding percentages.",
+            "A": "{Retail Spaces} accounts for {73.26}%"
+        },
+        {
+            "Q": "Which categories in the segment Commercial Real Estate are below 38%? Please list the category names and corresponding percentages.",
+            "A": "{Office Buildings} accounts for {26.74}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which has the largest value: Commercial Real Estate, Retail Spaces, Rental Market, or Multi-Family Homes?",
+            "A": "The value of {Commercial Real Estate} is the largest."
+        },
+        {
+            "Q": "Which is larger, the value of Commercial Real Estate or Retail Spaces?",
+            "A": "The value of {Commercial Real Estate} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Commercial Real Estate, Retail Spaces, or Rental Market?",
+            "A": "The value of {Commercial Real Estate} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Retail Spaces, Rental Market, or Residential Property?",
+            "A": "The value of {Residential Property} is smaller."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Commercial Real Estate to Office Buildings to Suburban Offices}."
+        }
+    ],
+    "VA": []
+}

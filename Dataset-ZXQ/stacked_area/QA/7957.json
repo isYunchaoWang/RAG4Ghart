@@ -1,0 +1,112 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Starburst Online relative to NovaStream?",
+            "A": "Starburst Online is {above} NovaStream in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total content uploads?",
+            "A": "The series with the largest contribution is {Luminara}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total content uploads?",
+            "A": "The series with the smallest contribution is {Starburst Online}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Starburst Online's Content Uploads in 1952?",
+            "A": "Starburst Online's content uploads in 1952 is {10366746.11} uploads/day."
+        },
+        {
+            "Q": "What is EchoWave's Content Uploads in 1954?",
+            "A": "EchoWave's content uploads in 1954 is {9571516.75} uploads/day."
+        },
+        {
+            "Q": "What is NovaStream's Content Uploads in 1953?",
+            "A": "NovaStream's content uploads in 1953 is {12515367.12} uploads/day."
+        },
+        {
+            "Q": "What are the content uploads of NovaStream, OracleFeed, and Starburst Online in 1955?",
+            "A": "NovaStream's content uploads is {8257642.06} uploads/day, OracleFeed's content uploads is {8213875.89} uploads/day, Starburst Online's content uploads is {7723392.05} uploads/day."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Content Uploads in the area chart?",
+            "A": "The global minimum content uploads is {7089529.92} uploads/day."
+        },
+        {
+            "Q": "What is the global maximum Content Uploads in the area chart?",
+            "A": "The global maximum content uploads is {13197533.74} uploads/day."
+        },
+        {
+            "Q": "What is the highest Content Uploads level recorded for EchoWave?",
+            "A": "EchoWave reached approximately {10183155.93} uploads/day in {1952}."
+        },
+        {
+            "Q": "What is the lowest Content Uploads level recorded for EchoWave?",
+            "A": "EchoWave's lowest recorded level is approximately {9020274.84} uploads/day in {1956}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Content Uploads?",
+            "A": "The average total content uploads is {47838767.65} uploads/day."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Content Uploads exceed 49830161.53 uploads/day? Please list the years and corresponding total values.",
+            "A": "{50219970.18} uploads/day in {1952}, {50060495.13} uploads/day in {1954}."
+        },
+        {
+            "Q": "Which years did the total Content Uploads go below 46048929.60 uploads/day? Please list the years and corresponding total values.",
+            "A": "{44670590.60} uploads/day in {1956}, {45333955.22} uploads/day in {1955}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between 1954 and 1956, was the average total Content Uploads higher or lower than between 1953 and 1956?",
+            "A": "The average total content uploads between 1954 and 1956 was {lower} than between 1953 and 1956."
+        },
+        {
+            "Q": "Was the total Content Uploads in 1954 higher or lower than in 1956?",
+            "A": "The total content uploads in 1954 was {higher} than in 1956."
+        },
+        {
+            "Q": "Was the total Content Uploads in 1952 higher or lower than in 1955?",
+            "A": "The total content uploads in 1952 was {higher} than in 1955."
+        },
+        {
+            "Q": "Between 1952 and 1953, did the total Content Uploads experience a larger or smaller change than between 1953 and 1955?",
+            "A": "The change in total content uploads between 1952 and 1953 was {smaller} than between 1953 and 1955."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Luminara} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Starburst Online, NovaStream, OracleFeed, EchoWave, Luminara}."
+        }
+    ]
+}

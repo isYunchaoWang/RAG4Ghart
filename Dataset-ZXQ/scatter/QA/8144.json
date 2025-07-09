@@ -1,0 +1,93 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {scatter} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many points are in this scatter plot?",
+            "A": "There are {66} points."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What pattern does the correlation in the scatter plot show?",
+            "A": "The scatter plot shows {a negative linear correlation}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "What is the maximum observed value in dimension Training hours in the scatter plot?",
+            "A": "The maximum observed value in the Training hours dimension is {40.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Training hours in the scatter plot?",
+            "A": "The minimum observed value in the Training hours dimension is {1.00}."
+        },
+        {
+            "Q": "What is the maximum observed value in dimension Endurance level in the scatter plot?",
+            "A": "The maximum observed value in the Endurance level dimension is {100.00}."
+        },
+        {
+            "Q": "What is the minimum observed value in dimension Endurance level in the scatter plot?",
+            "A": "The minimum observed value in the Endurance level dimension is {0.00}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of the Training hours for all points?",
+            "A": "The average value of Training hours for all points is {20.50}."
+        },
+        {
+            "Q": "What is the average value of the Endurance level for all points?",
+            "A": "The average value of Endurance level for all points is {52.11}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the Endurance level values corresponding to the top 3 Training hours values in the scatter plot?",
+            "A": "{0.00, 22.57, 50.51}."
+        },
+        {
+            "Q": "What are the Endurance level values corresponding to the bottom 3 Training hours values in the scatter plot?",
+            "A": "{84.49, 53.31, 71.11}."
+        },
+        {
+            "Q": "What are the Training hours values corresponding to the top 3 Endurance level values in the scatter plot?",
+            "A": "{6.40, 8.20, 4.60}."
+        },
+        {
+            "Q": "What are the Training hours values corresponding to the bottom 3 Endurance level values in the scatter plot?",
+            "A": "{40.00, 39.40, 34.60}."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "How many points in the scatter plot have X coordinates between 24.63 and 34.66 and Y coordinates between 71.13 and 92.38?",
+            "A": "There are {0} points."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are farthest from each other in terms of Euclidean distance?",
+            "A": "The pair of points with the largest Euclidean distance has coordinates {(6.40, 100.00) and (40.00, 0.00)}."
+        },
+        {
+            "Q": "What are the coordinates of the pair of points that are closest to each other in terms of Euclidean distance?",
+            "A": "The pair of points with the smallest Euclidean distance has coordinates {(37.00, 43.19) and (37.60, 42.42)}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce visual occlusion caused by overlapping points in the region [35.05, 37.42, 39.55, 48.19] (i.e. bounding coordinates [x1, y1, x2, y2]), list the coordinates of the top 1 points that are recommended for removal.",
+            "A": "The coordinates of the top 1 points recommended for removal are: (37.00, 43.19)."
+        },
+        {
+            "Q": "The scatter plot contains three regions (bounding coordinates [x1, y1, x2, y2]) : Region A: [30.30, 31.33, 40.00, 54.28]; Region B: [21.85, 1.56, 31.55, 24.52]; Region C: [2.93, 30.10, 12.63, 53.06]. Based on point density and clustering tendency, select the most likely region that contains clusters.",
+            "A": "The most likely to contain clusters is region A."
+        }
+    ]
+}

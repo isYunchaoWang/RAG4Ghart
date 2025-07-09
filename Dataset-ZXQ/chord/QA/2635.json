@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {3} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {3} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Luxury Fashion?",
+            "A": "The next arc clockwise from arc Luxury Fashion is arc {Sustainable Fashion}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Fast Fashion?",
+            "A": "The next arc counterclockwise from arc Fast Fashion is arc {Sustainable Fashion}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Sustainable Fashion} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Fast Fashion} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Luxury Fashion to Sustainable Fashion in the chord chart?",
+            "A": "The flow value is {255}."
+        },
+        {
+            "Q": "What is the flow value from Sustainable Fashion to Fast Fashion in the chord chart?",
+            "A": "The flow value is {862}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Sustainable Fashion and Fast Fashion in the chord chart?",
+            "A": "The maximum flow value between Sustainable Fashion and Fast Fashion is {862}."
+        },
+        {
+            "Q": "What is the minimum flow value between Luxury Fashion and Sustainable Fashion in the chord chart?",
+            "A": "The minimum flow value between Luxury Fashion and Sustainable Fashion is {255}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {862}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {255}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Sustainable Fashion?",
+            "A": "The total flow output from Sustainable Fashion is {1223}."
+        },
+        {
+            "Q": "What is the total flow input by Fast Fashion?",
+            "A": "The total flow input by Fast Fashion is {1472}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 559? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {862} from {Sustainable Fashion} to {Fast Fashion}, a flow of {752} from {Fast Fashion} to {Sustainable Fashion}, a flow of {610} from {Luxury Fashion} to {Fast Fashion}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 559? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {509} from {Fast Fashion} to {Luxury Fashion}, a flow of {361} from {Sustainable Fashion} to {Luxury Fashion}, a flow of {255} from {Luxury Fashion} to {Sustainable Fashion}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 308 and 681? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {610} from {Luxury Fashion} to {Fast Fashion}, a flow of {509} from {Fast Fashion} to {Luxury Fashion}, a flow of {361} from {Sustainable Fashion} to {Luxury Fashion}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Luxury Fashion to Fast Fashion or from Sustainable Fashion to Luxury Fashion?",
+            "A": "The flow from {Luxury Fashion} to {Fast Fashion} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Sustainable Fashion to Luxury Fashion, from Fast Fashion to Luxury Fashion, or from Sustainable Fashion to Fast Fashion?",
+            "A": "The flow from {Sustainable Fashion} to {Fast Fashion} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Sustainable Fashion}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Fast Fashion} and {Sustainable Fashion}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Fast Fashion, Arc Sustainable Fashion, Arc Luxury Fashion}."
+        }
+    ]
+}

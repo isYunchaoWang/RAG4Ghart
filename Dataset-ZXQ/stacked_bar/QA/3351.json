@@ -1,0 +1,147 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {stacked bar chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many bars are in this stacked bar chart?",
+            "A": "There are {3} bars."
+        },
+        {
+            "Q": "How many stacked segments are in bar 2012 of this stacked bar chart?",
+            "A": "There are {5} stacked bars."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this stacked bar chart a horizontal stacked bar chart or a vertical stacked bar chart?",
+            "A": "The stacked bar chart is a {vertical} stacked bar chart."
+        },
+        {
+            "Q": "Which category does the leftmost bar represent?",
+            "A": "The leftmost bar represents {2012}"
+        },
+        {
+            "Q": "Which category does the rightmost bar represent?",
+            "A": "The leftmost bar represents {2022}."
+        },
+        {
+            "Q": "What is the spatial relationship of bar 2012 relative to the bar 2022 in terms of horizontal (left/right) direction?",
+            "A": "Bar 2012 is to the {left} of the bar 2022."
+        },
+        {
+            "Q": "In the stacked bar of 2012, What is the spatial relationship of segment Pinecrest Institute relative to the segment Silverton High in terms of vertical (above/below) direction?",
+            "A": "Pinecrest Institute segment is positioned {below} the Silverton High segment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which Year has the highest bar in this stacked bar chart?",
+            "A": "The Year with the highest bar is {2022}."
+        },
+        {
+            "Q": "Which Year has the lowest bar in this stacked bar chart?",
+            "A": "The Year with the lowest bar is {2018}."
+        },
+        {
+            "Q": "In the stacked bar representing 2022, which segment has the highest value?",
+            "A": "The segment with the highest value is {Pinecrest Institute}."
+        },
+        {
+            "Q": "In the stacked bar representing 2012, which segment has the lowest value?",
+            "A": "The segment with the lowest value is {Silverton High}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Lakewood Institute segment within the 2022 bar in the stacked bar chart?",
+            "A": "The value of the Lakewood Institute segment is {4414.00} students."
+        },
+        {
+            "Q": "What is the value of the Silverton High segment within the 2018 bar in the stacked bar chart?",
+            "A": "The value of the Silverton High segment is {4237.00} students."
+        },
+        {
+            "Q": "What is the value of the Pinecrest Institute segment within the 2012 bar in the stacked bar chart?",
+            "A": "The value of the Pinecrest Institute segment is {4761.00} students."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum students among the stacked segments of bar 2022?",
+            "A": "The maximum students among the stacked segments of bar 2022 is {4521} students."
+        },
+        {
+            "Q": "What is the minimum students among the stacked segments of bar 2012?",
+            "A": "The minimum students among the stacked segments of bar 2012 is {1614} students."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the maximum students of the segment Pinecrest Institute among the bars?",
+            "A": "The maximum students among the bars of segment Pinecrest Institute is {4761} students."
+        },
+        {
+            "Q": "In the stacked bar chart, what is the minimum students of the segment Greenwood Academy among the bars?",
+            "A": "The minimum students among the bars of segment Greenwood Academy is {1134} students."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the bar 2012?",
+            "A": "The total value of bar 2012 is {15507.00} students."
+        },
+        {
+            "Q": "What is the total value of the bar 2018?",
+            "A": "The total value of bar 2018 is {12609.00} students."
+        },
+        {
+            "Q": "What is the total value of all columns?",
+            "A": "The total value of columns is {45740} students."
+        },
+        {
+            "Q": "What is the difference between total value of bar 2022 and 2012?",
+            "A": "The difference between between total value of bar 2022 and 2012 is {2117} students."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which bars have total students values exceed 16565.50 students? Please list the bar and corresponding values.",
+            "A": "{2022} has {17624} students"
+        },
+        {
+            "Q": "Which bars have total students values below 16565.50 students? Please list the bar and corresponding values.",
+            "A": "{2018} has {12609} students, {2012} has {15507} students"
+        },
+        {
+            "Q": "For bar 2012 in the stacked bar chart, which segment have students value between 807.0 and 3573.5? Please list the segment and corresponding values.",
+            "A": "{Silverton High} has {1614} students, {Lakewood Institute} has {1985} students, {Eastwood Prep} has {3482} students."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the total students of 2018 or 2022?",
+            "A": "The total students of the {2022} is larger."
+        },
+        {
+            "Q": "Which is larger, the total students of 2012, 2018 or 2022?",
+            "A": "The total students of the {2022} is larger."
+        },
+        {
+            "Q": "In the bar 2022, which has a larger students value: Greenwood Academy or Silverton High?",
+            "A": "{Silverton High} has the larger students value."
+        },
+        {
+            "Q": "In the bar 2022, which has a larger students value: Pinecrest Institute, Silverton High or Eastwood Prep?",
+            "A": "{Pinecrest Institute} has the larger students value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Ranking bar by the value of segment Pinecrest Institute in descending order, which are the top three countries(if the number of bars is less 3,list the existing bars in descending order)?",
+            "A": "The top three bar ranked by the value of segment Pinecrest Institute are: {2012}, {2022}, {2018}."
+        }
+    ],
+    "VA": []
+}

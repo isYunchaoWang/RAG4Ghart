@@ -1,0 +1,77 @@
+Transportation and Logistics,Manufacturing Supply Transportation Chain,Goods,random,Distribution Center,Warehouse,Retail,Factory
+Source,Target,Value
+West Hub,Spare Parts Depot,226
+West Hub,Central Warehouse,44
+West Hub,Cold Storage,243
+West Hub,Regional Warehouse A,25
+West Hub,Bulk Storage,238
+East Hub,Spare Parts Depot,45
+East Hub,Central Warehouse,60
+East Hub,Cold Storage,45
+East Hub,Regional Warehouse A,29
+East Hub,Bulk Storage,65
+North Hub,Spare Parts Depot,157
+North Hub,Central Warehouse,41
+North Hub,Cold Storage,184
+North Hub,Regional Warehouse A,65
+North Hub,Bulk Storage,165
+Express Sorting Center,Spare Parts Depot,101
+Express Sorting Center,Central Warehouse,175
+Express Sorting Center,Cold Storage,54
+Express Sorting Center,Regional Warehouse A,268
+Express Sorting Center,Bulk Storage,207
+South Hub,Spare Parts Depot,97
+South Hub,Central Warehouse,35
+South Hub,Cold Storage,40
+South Hub,Regional Warehouse A,54
+South Hub,Bulk Storage,111
+Spare Parts Depot,Outlet Mall,41
+Spare Parts Depot,City Supermarket,189
+Spare Parts Depot,Neighborhood Store,195
+Spare Parts Depot,Online Fulfillment,172
+Spare Parts Depot,Convenience Store,29
+Central Warehouse,Outlet Mall,26
+Central Warehouse,City Supermarket,85
+Central Warehouse,Neighborhood Store,59
+Central Warehouse,Online Fulfillment,142
+Central Warehouse,Convenience Store,43
+Cold Storage,Outlet Mall,70
+Cold Storage,City Supermarket,177
+Cold Storage,Neighborhood Store,103
+Cold Storage,Online Fulfillment,79
+Cold Storage,Convenience Store,137
+Regional Warehouse A,Outlet Mall,13
+Regional Warehouse A,City Supermarket,116
+Regional Warehouse A,Neighborhood Store,111
+Regional Warehouse A,Online Fulfillment,67
+Regional Warehouse A,Convenience Store,134
+Bulk Storage,Outlet Mall,94
+Bulk Storage,City Supermarket,321
+Bulk Storage,Neighborhood Store,136
+Bulk Storage,Online Fulfillment,202
+Bulk Storage,Convenience Store,33
+Outlet Mall,Auto Factory,39
+Outlet Mall,Textile Mill,48
+Outlet Mall,Food Processing Plant,45
+Outlet Mall,Chemical Plant,69
+Outlet Mall,Electronics Plant,43
+City Supermarket,Auto Factory,167
+City Supermarket,Textile Mill,116
+City Supermarket,Food Processing Plant,203
+City Supermarket,Chemical Plant,167
+City Supermarket,Electronics Plant,235
+Neighborhood Store,Auto Factory,45
+Neighborhood Store,Textile Mill,201
+Neighborhood Store,Food Processing Plant,25
+Neighborhood Store,Chemical Plant,166
+Neighborhood Store,Electronics Plant,167
+Online Fulfillment,Auto Factory,69
+Online Fulfillment,Textile Mill,123
+Online Fulfillment,Food Processing Plant,268
+Online Fulfillment,Chemical Plant,51
+Online Fulfillment,Electronics Plant,151
+Convenience Store,Auto Factory,88
+Convenience Store,Textile Mill,59
+Convenience Store,Food Processing Plant,68
+Convenience Store,Chemical Plant,54
+Convenience Store,Electronics Plant,107

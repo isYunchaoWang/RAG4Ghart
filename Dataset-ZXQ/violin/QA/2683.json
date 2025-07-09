@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {6} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Oakridge}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Fairmont}."
+        },
+        {
+            "Q": "Which violin is the first position to the left of the violin Glenhaven?",
+            "A": "The first position to the left of the violin Glenhaven is {Oakridge}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Glenhaven relative to the violin Lakeview in terms of horizontal (left/right) direction?",
+            "A": "violin Glenhaven is to the {left} of the violin Lakeview."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Highvale}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Highvale}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Fairmont?",
+            "A": "The density distribution pattern of the Fairmont shows a {normal} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Lakeview in the violin plot?",
+            "A": "The median of Lakeview is {1035.00} number."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Oakridge in the violin plot?",
+            "A": "The lower quartile (Q1) of Oakridge is {567.50} number."
+        },
+        {
+            "Q": "What is the upper whisker limit of Pinehaven in the violin plot?",
+            "A": "The upper whisker limit of Pinehaven is {1772.00} number."
+        },
+        {
+            "Q": "What is the lowest lower outlier value in Highvale in the violin plot?",
+            "A": "The lowest upper outlier value in Highvale is {750.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum number value in the violin plot?",
+            "A": "The global maximum number value in the violin plot is {4274.00} number."
+        },
+        {
+            "Q": "What is the global minimum number value in the violin plot?",
+            "A": "The global minimum number value in the violin plot is {22.00} number."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between violin Oakridge and Glenhaven?",
+            "A": "The Median difference between violin Oakridge and Glenhaven is {799.00} number."
+        },
+        {
+            "Q": "What is the toal Q1 value of violin Oakridge and Lakeview?",
+            "A": "The total Q1 value of violin Oakridge and Fairmont is {1270.25} number."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Fairmont and Glenhaven?",
+            "A": "The average Q1 value of violin Fairmont and Glenhaven is {959.88} number."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 987.50 number? Please list the violins and corresponding values.",
+            "A": "{Glenhaven} has {1628.50} number , {Lakeview} has {1035.00} number , {Highvale} has {2881.00} number "
+        },
+        {
+            "Q": "Which violins have median values below 892.25 number? Please list the violins and corresponding values.",
+            "A": "{Oakridge} has {829.50} number , {Pinehaven} has {844.50} number "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 670.88 number and the upper quartile (Q3) below 1355.00 number?",
+            "A": "Violin {Lakeview} has the Q1 above 670.88 number and the Q3 below 1355.0 number."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 990.12 number?",
+            "A": "Violin {Glenhaven} has {1411.21} number ,{Lakeview} has {1035.84} number ,{Highvale} has {2781.86} number have their highest density peak exceed 990.12 number."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 990.12 number?",
+            "A": "Violin {Oakridge} has {703.54} number ,{Pinehaven} has {761.26} number ,{Fairmont} has {944.39} number have their highest density peak below 990.12 number."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Oakridge or Highvale ",
+            "A": "The median value of the {Highvale} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Glenhaven, Oakridge or Fairmont ",
+            "A": "The median value of the {Glenhaven} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Fairmont, Lakeview, Pinehaven or Glenhaven ",
+            "A": "The median value of the {Glenhaven} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Highvale}."
+        }
+    ],
+    "VA": []
+}

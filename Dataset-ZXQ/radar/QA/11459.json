@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Radar Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many labels are in this radar chart?",
+            "A": "There are {3} labels"
+        },
+        {
+            "Q": "How many dimensions are in this radar chart?",
+            "A": "There are {5} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the radar chart, what is the next dimension in the clockwise direction from Green Technology Adoption Rate Technology Transfer Success Rate?",
+            "A": "The next dimension clockwise from Green Technology Adoption Rate Technology Transfer Success Rate is R&D ROI (Return on Investment)"
+        },
+        {
+            "Q": "In the radar chart, what is the next dimension in the counterclockwise direction from Green Technology Adoption Rate Technology Transfer Success Rate?",
+            "A": "The next dimension counterclockwise from Green Technology Adoption Rate Technology Transfer Success Rate is Research Growth Rate."
+        },
+        {
+            "Q": "On the Research Growth Rate, is the point for King Ltd AI inside or outside the point for Hayes Inc Neuroscience?",
+            "A": "On the Research Growth Rate, the point for King Ltd AI is inside the point for Hayes Inc Neuroscience."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which label encloses the largest score in the radar chart?",
+            "A": "label {Green Technology Adoption Rate Technology Transfer Success Rate} encloses the largest score"
+        },
+        {
+            "Q": "What are the strongest and weakest dimension of Gonzalez, Carey and Young AI?",
+            "A": "The strongest aspect is {Green Technology Adoption Rate Technology Transfer Success Rate}, while the weakest aspect is{ Patent Commercialization Rate }."
+        },
+        {
+            "Q": "On dimension Research Growth Rate, which label scores the highest?",
+            "A": "On Research Growth Rate, label {Gonzalez, Carey and Young AI} scores the highest."
+        },
+        {
+            "Q": "On dimension R&D ROI (Return on Investment), which label scores the highest?",
+            "A": "On R&D ROI (Return on Investment), label {King Ltd AI} scores the lowest."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Gonzalez, Carey and Young AI on the Citation Rate in the radar chart?",
+            "A": "The value of Gonzalez, Carey and Young AI on the Safety dimension is {86}."
+        },
+        {
+            "Q": "What is the value of Hayes Inc Neuroscience on the Patent Commercialization Rate  in the radar chart?",
+            "A": "The value of Hayes Inc Neuroscience on the Safety dimension is {39}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Hayes Inc Neuroscience across all dimensions in the radar chart?",
+            "A": "The maximum value of Hayes Inc Neuroscience across all dimensions is {68}."
+        },
+        {
+            "Q": "What is the minimum value of label King Ltd AI across all dimensions in the radar chart?",
+            "A": "The minimum value of King Ltd AI across all dimensions is {39}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Green Technology Adoption Rate Technology Transfer Success Rate",
+            "A": "The average value of Green Technology Adoption Rate Technology Transfer Success Rate is {87.0}."
+        },
+        {
+            "Q": "What is the average value of King Ltd AI",
+            "A": "The average value of King Ltd AI is {71.0}."
+        },
+        {
+            "Q": "What is the difference in Green Technology Adoption Rate Technology Transfer Success Rate between Gonzalez, Carey and Young AI and King Ltd AI?",
+            "A": "The difference in Green Technology Adoption Rate Technology Transfer Success Rate between Gonzalez, Carey and Young AI and King Ltd AI is {7}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "For Hayes Inc Neuroscience in the radar chart, which dimensions have scores below 48? Please list the dimensions and corresponding scores.",
+            "A": "{Patent Commercialization Rate } is {39}, {Citation Rate} is {37}"
+        },
+        {
+            "Q": "Which labels have scores below 67 for the R&D ROI (Return on Investment) dimension? Please list the labels and corresponding scores.",
+            "A": "{Hayes Inc Neuroscience} is {67}, {King Ltd AI} is {65}"
+        },
+        {
+            "Q": "For Gonzalez, Carey and Young AI in the radar chart, which dimensions have scores between 48 and 79? Please list the dimensions and corresponding scores.",
+            "A": "{Patent Commercialization Rate } is {61}, {Research Growth Rate} is {68}, {R&D ROI (Return on Investment)} is {77}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "For King Ltd AI, which dimension has a higher score: Citation Rate or Patent Commercialization Rate ?",
+            "A": "{Citation Rate} has a higher score than Patent Commercialization Rate  for King Ltd AI."
+        },
+        {
+            "Q": "For Hayes Inc Neuroscience, which dimension has a higher score: R&D ROI (Return on Investment) or Patent Commercialization Rate ?",
+            "A": "{R&D ROI (Return on Investment)} has a higher score than Patent Commercialization Rate  for Hayes Inc Neuroscience."
+        },
+        {
+            "Q": "On Green Technology Adoption Rate Technology Transfer Success Rate, which label has a higher score: King Ltd AI or the Hayes Inc Neuroscience?",
+            "A": "{King Ltd AI} has a higher score on Green Technology Adoption Rate Technology Transfer Success Rate compared to Hayes Inc Neuroscience."
+        },
+        {
+            "Q": "For King Ltd AI, which dimension has a higher score: Research Growth Rate or Citation Rate or Green Technology Adoption Rate Technology Transfer Success Rate?",
+            "A": "{Research Growth Rate} has a higher score for King Ltd AI."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "For King Ltd AI, based on the data shown in the radar chart, which dimension does it most need to improve?",
+            "A": "King Ltd AI most needs to improve its {Patent Commercialization Rate }."
+        },
+        {
+            "Q": "In the radar chart, which label has the strongest overall capability across all labels?",
+            "A": "The label with the strongest overall capability is {Gonzalez, Carey and Young AI}."
+        },
+        {
+            "Q": "In the radar chart, which label has the weaknest overall capability across all labels?",
+            "A": "The label with the weaknest overall capability is {Hayes Inc Neuroscience}."
+        }
+    ],
+    "VA": []
+}

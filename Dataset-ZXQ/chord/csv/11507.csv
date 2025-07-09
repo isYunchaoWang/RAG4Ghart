@@ -1,0 +1,12 @@
+Social Media and Digital Media and Streaming, Digital Platform User Migration, Million Users, normal
+Source,Target,Value
+StreamSphere,PictoGram,76
+PictoGram,StreamSphere,148
+GameCast,PictoGram,271
+PictoGram,GameCast,406
+StreamSphere,VidVault,497
+VidVault,StreamSphere,533
+GameCast,VidVault,492
+VidVault,GameCast,408
+VidVault,PictoGram,273
+PictoGram,VidVault,155

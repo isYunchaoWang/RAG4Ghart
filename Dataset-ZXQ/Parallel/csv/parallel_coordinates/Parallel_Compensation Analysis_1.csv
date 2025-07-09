@@ -1,7 +1,0 @@
-﻿Human Resources and Employee Management,Compensation Analysis
-labels,Stock options (%),Overtime hours/month(hours),Benefits cost (USD/year),Pay equity ratio (ratio),Bonus percentage (%),Salary range (USD thousands),Remote work allowance (days/week)
-Pattern,Weak Correlation,Clustering,No Correlation,No Correlation,No Correlation,Strong Correlation
-Jackson PLC,20.0,40.0,13424.03,1.04,27.2,29.8,0.11
-"Stone, Salas and Mitchell",18.96,0.0,12395.27,1.2,50.0,20.0,0.0
-"Galvan, Smith and Ortega",18.96,34.07,1000.0,0.8,0.0,500.0,5.0
-"Cortez, Lin and Ortiz",0.0,23.08,20000.0,0.86,9.28,389.41,3.07

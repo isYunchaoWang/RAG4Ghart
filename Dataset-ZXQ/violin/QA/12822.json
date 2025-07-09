@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Empty Roads}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Deep Waters}."
+        },
+        {
+            "Q": "Which violin is the first position to the right of the violin Hidden Truth?",
+            "A": "The first position to the right of the violin Hidden Truth is {Deep Waters}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Deep Waters relative to the violin Hidden Truth in terms of horizontal (left/right) direction?",
+            "A": "violin Deep Waters is to the {right} of the violin Hidden Truth."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Empty Roads}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Empty Roads}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Deep Waters?",
+            "A": "The density distribution pattern of the Deep Waters shows a {skewed} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Empty Roads in the violin plot?",
+            "A": "The median of Empty Roads is {618.50} million USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Deep Waters in the violin plot?",
+            "A": "The lower quartile (Q1) of Deep Waters is {400.00} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Empty Roads in the violin plot?",
+            "A": "The upper whisker limit of Empty Roads is {1433.00} million USD."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Deep Waters in the violin plot?",
+            "A": "The largest upper outlier value in Deep Waters is {1502.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the violin plot?",
+            "A": "The global maximum million USD value in the violin plot is {1507.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the violin plot?",
+            "A": "The global minimum million USD value in the violin plot is {140.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between violin Deep Waters and Empty Roads?",
+            "A": "The Median difference between violin Deep Waters and Empty Roads is {41.50} million USD."
+        },
+        {
+            "Q": "What is the toal Q3 value of violin Empty Roads and Hidden Truth?",
+            "A": "The total Q3 value of violin Empty Roads and Deep Waters is {1709.25} million USD."
+        },
+        {
+            "Q": "What is the average Median value of violin Hidden Truth and Deep Waters?",
+            "A": "The average Median value of violin Hidden Truth and Deep Waters is {556.50} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 597.75 million USD? Please list the violins and corresponding values.",
+            "A": "{Empty Roads} has {618.50} million USD "
+        },
+        {
+            "Q": "Which violins have median values below 597.75 million USD? Please list the violins and corresponding values.",
+            "A": "{Hidden Truth} has {536.00} million USD , {Deep Waters} has {577.00} million USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 383.25 million USD and the upper quartile (Q3) below 854.62 million USD?",
+            "A": "Violin {Deep Waters} has the Q1 above 383.25 million USD and the Q3 below 854.625 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 421.43 million USD?",
+            "A": "Violin {Hidden Truth} has {428.46} million USD ,{Deep Waters} has {556.85} million USD have their highest density peak exceed 421.43 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 492.66 million USD?",
+            "A": "Violin {Empty Roads} has {414.39} million USD ,{Hidden Truth} has {428.46} million USD have their highest density peak below 492.66 million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Empty Roads or Deep Waters ",
+            "A": "The median value of the {Empty Roads} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Deep Waters, Empty Roads or Hidden Truth ",
+            "A": "The median value of the {Empty Roads} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Hidden Truth}."
+        }
+    ],
+    "VA": []
+}

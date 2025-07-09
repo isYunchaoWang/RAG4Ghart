@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {4} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {3} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Student-teacher ratio (ratio) dimension, what is the spatial relationship of Johnson and Sons  College relative to Hernandez-Morgan  University in terms of vertical (above/below) direction?",
+            "A": "{Johnson and Sons  College} is {above} {Hernandez-Morgan  University} on the Student-teacher ratio (ratio) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Student-teacher ratio (ratio)?",
+            "A": "The first position to the left of Student-teacher ratio (ratio) is {Alumni donation rate (%)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Test scores (percentile)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Alumni donation rate (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Test scores (percentile)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Student-teacher ratio (ratio) and dimension Test scores (percentile)",
+            "A": "There is {Weak Correlation} between Student-teacher ratio (ratio) and Test scores (percentile)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Torres-Garcia  School on the Alumni donation rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Torres-Garcia  School on the Alumni donation rate (%) dimension is {1.0}"
+        },
+        {
+            "Q": "What is the value of Hernandez-Morgan  University on the Alumni donation rate (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Hernandez-Morgan  University on the Alumni donation rate (%) dimension is {21.61}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Craig Ltd  Institute across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Craig Ltd  Institute across all dimensions is {64.64}"
+        },
+        {
+            "Q": "What is the minimum value of label Craig Ltd  Institute across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Craig Ltd  Institute across all dimensions is {5.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Alumni donation rate (%)?",
+            "A": "The average value of Alumni donation rate (%) is {22.02}"
+        },
+        {
+            "Q": "What is the difference in coding Student-teacher ratio (ratio) between label Johnson and Sons  College and label Torres-Garcia  School",
+            "A": "The difference in coding Student-teacher ratio (ratio) between Johnson and Sons  College and Torres-Garcia  School is {7.29}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Alumni donation rate (%) dimension in the parallel coordinates?",
+            "A": "{[50.0, 21.61, 15.46]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Student-teacher ratio (ratio) dimension in the parallel coordinates?",
+            "A": "{[5.0, 9.92, 22.71]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Alumni donation rate (%), which label has a higher score: Craig Ltd  Institute or Hernandez-Morgan  University?",
+            "A": "{Hernandez-Morgan  University} has a higher score on Alumni donation rate (%)."
+        },
+        {
+            "Q": "On Alumni donation rate (%), which label has a higher score: Craig Ltd  Institute or Torres-Garcia  School?",
+            "A": "{Craig Ltd  Institute} has a higher score on Alumni donation rate (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Test scores (percentile)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Student-teacher ratio (ratio) being greater than 18.95 and Student-teacher ratio (ratio) being less than 15.34?",
+            "A": "There are {0} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sunburst chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ring layers are in this sunburst chart?",
+            "A": "There are {4} ring layers."
+        },
+        {
+            "Q": "How many segments are in this sunburst chart?",
+            "A": "There are {18} segments."
+        },
+        {
+            "Q": "How many segments are in the innermost ring of this sunburst chart?",
+            "A": "There are {3} segments in the innermost ring."
+        },
+        {
+            "Q": "How many segments are in the outermost ring of this sunburst chart?",
+            "A": "There are {5} segments in the outermost ring."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is Rapid Prototyping positioned outside, inside or on the same side as R&D Investment?",
+            "A": "Rapid Prototyping is positioned {on the same side} R&D Investment."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which top-level category has the highest proportion in this sunburst chart?",
+            "A": "The top-level category with the highest proportion is {Corporate Strategy}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the R&D Investment segment in this sunburst chart?",
+            "A": "The value of the R&D Investment segment is {7.67}."
+        },
+        {
+            "Q": "What is the value of the Lean Operations segment in this sunburst chart?",
+            "A": "The value of the Lean Operations segment is {5.06}."
+        },
+        {
+            "Q": "What is the value of the Innovation Strategy segment in this sunburst chart?",
+            "A": "The value of the Innovation Strategy segment is {40.11}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of the innermost layer in this sunburst chart?",
+            "A": "The maximum value of the innermost layer is {49.87}."
+        },
+        {
+            "Q": "What is the minimum value of the innermost layer in this sunburst chart?",
+            "A": "The minimum value of the innermost layer is {22.9}."
+        },
+        {
+            "Q": "What is the maximum value of the outermost layer in this sunburst chart?",
+            "A": "The maximum value of the outermost layer is {14.69}."
+        },
+        {
+            "Q": "What is the minimum value of the outermost layer in this sunburst chart?",
+            "A": "The minimum value of the outermost layer is {5.06}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total value of the second layer?",
+            "A": "The total value of the second layer is {100.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which categories in the segment Corporate Strategy exceed 65%? Please list the category names and corresponding percentages.",
+            "A": "{Innovation Strategy} accounts for {80.43}%"
+        },
+        {
+            "Q": "Which categories in the segment Corporate Strategy are below 35%? Please list the category names and corresponding percentages.",
+            "A": "{Growth Models} accounts for {19.57}%"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is smaller, the value of Innovation Strategy, Financial Management, or Digital Transformation?",
+            "A": "The value of {Digital Transformation} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Corporate Strategy or Innovation Strategy?",
+            "A": "The value of {Corporate Strategy} is larger."
+        },
+        {
+            "Q": "Which has the largest value: Corporate Strategy, Innovation Strategy, Financial Management, or Technology Adoption?",
+            "A": "The value of {Corporate Strategy} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which hierarchical path in the sunburst chart makes the largest contribution to the total?",
+            "A": "The path that contributes the most to the total is: {Corporate Strategy to Innovation Strategy to Process Innovation to Automation Systems}."
+        }
+    ],
+    "VA": []
+}

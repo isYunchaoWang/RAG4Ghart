@@ -1,0 +1,120 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {chord} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many chords are in this chord chart?",
+            "A": "There are {6} chords."
+        },
+        {
+            "Q": "How many outer arcs are in this chord chart?",
+            "A": "There are {5} outer arcs."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "In the chord chart, what is the next arc in the clockwise direction from arc Christopherport?",
+            "A": "The next arc clockwise from arc Christopherport is arc {Williamhaven}."
+        },
+        {
+            "Q": "In the chord chart, what is the next arc in the counterclockwise direction from arc Christopherport?",
+            "A": "The next arc counterclockwise from arc Christopherport is arc {Burtonville}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which arc has the largest output flow in this chord chart?",
+            "A": "{Hannah} has the largest output flow."
+        },
+        {
+            "Q": "Which arc has the largest input flow in this chord chart?",
+            "A": "{Burtonville} has the largest input flow."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from Christopherport to Hannah in the chord chart?",
+            "A": "The flow value is {198}."
+        },
+        {
+            "Q": "What is the flow value from Hannah to Christopherport in the chord chart?",
+            "A": "The flow value is {191}."
+        },
+        {
+            "Q": "What is the flow value from Williamhaven to Christopherport in the chord chart?",
+            "A": "The flow value is {96}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value between Burtonville and Williamhaven in the chord chart?",
+            "A": "The maximum flow value between Burtonville and Williamhaven is {173}."
+        },
+        {
+            "Q": "What is the minimum flow value between Christopherport and Hannah in the chord chart?",
+            "A": "The minimum flow value between Christopherport and Hannah is {191}."
+        },
+        {
+            "Q": "What is the maximum flow value in the chord chart?",
+            "A": "The maximum flow value is {238}."
+        },
+        {
+            "Q": "What is the minimum flow value in the chord chart?",
+            "A": "The minimum flow value is {68}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from Williamhaven?",
+            "A": "The total flow output from Williamhaven is {256}."
+        },
+        {
+            "Q": "What is the total flow input by Hannah?",
+            "A": "The total flow input by Hannah is {419}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow greater than 194? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {238} from {Hannah} to {Burtonville}, a flow of {221} from {Burtonville} to {Hannah}, a flow of {198} from {Christopherport} to {Hannah}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow less than 90? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {85} from {Christopherport} to {Burtonville}, a flow of {68} from {Burtonville} to {Christopherport}."
+        },
+        {
+            "Q": "Which pairs of nodes in the chord chart have a flow between 136 and 166? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {160} from {Williamhaven} to {Burtonville}, a flow of {144} from {Christopherport} to {Quinnview}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which flow is larger: from Christopherport to Hannah or from Burtonville to Williamhaven?",
+            "A": "The flow from {Christopherport} to {Hannah} is larger."
+        },
+        {
+            "Q": "Which flow is the largest: from Christopherport to Hannah, from Quinnview to Christopherport, or from Williamhaven to Burtonville?",
+            "A": "The flow from {Christopherport} to {Hannah} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which category has the highest proportion of outgoing flow relative to its total flow?",
+            "A": "The category with the highest proportion of outgoing flow relative to its total flow is {Christopherport}."
+        },
+        {
+            "Q": "Which pair has the strongest chord connection in this chord chart?",
+            "A": "The strongest chord connection is between {Burtonville} and {Hannah}."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To minimize the crossings between chords, please reorder the outer arcs and list the reorder arc order in clockwise direction.",
+            "A": "The reordered arc order in clockwise direction is: {Arc Williamhaven, Arc Burtonville, Arc Hannah, Arc Christopherport, Arc Quinnview}."
+        }
+    ]
+}

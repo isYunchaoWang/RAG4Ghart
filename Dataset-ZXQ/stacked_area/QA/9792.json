@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Automotive Parts relative to E-Commerce Parcels?",
+            "A": "Automotive Parts is {below} E-Commerce Parcels in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total on-time delivery rate?",
+            "A": "The series with the largest contribution is {Automotive Parts}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total on-time delivery rate?",
+            "A": "The series with the smallest contribution is {Same-Day Couriers}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is E-Commerce Parcels's On-Time Delivery Rate in 1995?",
+            "A": "E-Commerce Parcels's on-time delivery rate in 1995 is {89.44} %."
+        },
+        {
+            "Q": "What is Same-Day Couriers's On-Time Delivery Rate in 2000?",
+            "A": "Same-Day Couriers's on-time delivery rate in 2000 is {48.48} %."
+        },
+        {
+            "Q": "What is E-Commerce Parcels's On-Time Delivery Rate in 1998?",
+            "A": "E-Commerce Parcels's on-time delivery rate in 1998 is {80.10} %."
+        },
+        {
+            "Q": "What are the on-time delivery rate of Refrigerated Transport, Same-Day Couriers, and Automotive Parts in 2000?",
+            "A": "Refrigerated Transport's on-time delivery rate is {53.69} %, Same-Day Couriers's on-time delivery rate is {48.48} %, Automotive Parts's on-time delivery rate is {100} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum On-Time Delivery Rate in the area chart?",
+            "A": "The global minimum on-time delivery rate is {46.25} %."
+        },
+        {
+            "Q": "What is the global maximum On-Time Delivery Rate in the area chart?",
+            "A": "The global maximum on-time delivery rate is {100.00} %."
+        },
+        {
+            "Q": "What is the highest On-Time Delivery Rate level recorded for Automotive Parts?",
+            "A": "Automotive Parts reached approximately {100.00} % in {1997}."
+        },
+        {
+            "Q": "What is the lowest On-Time Delivery Rate level recorded for Automotive Parts?",
+            "A": "Automotive Parts's lowest recorded level is approximately {93.55} % in {1995}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total On-Time Delivery Rate?",
+            "A": "The average total on-time delivery rate is {391.75} %."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total On-Time Delivery Rate go below 361.55 %? Please list the years and corresponding total values.",
+            "A": "{332.46} % in {2001}, {343.41} % in {2000}."
+        },
+        {
+            "Q": "Which years did the total On-Time Delivery Rate exceed 415.86 %? Please list the years and corresponding total values.",
+            "A": "{435.93} % in {1996}, {463.45} % in {1995}."
+        },
+        {
+            "Q": "Which years did the total On-Time Delivery Rate fall between 369.27 and 408.14 %? Please list the years and corresponding total values.",
+            "A": "{390.10} % in {1998}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total On-Time Delivery Rate in 1995 higher or lower than in 2001?",
+            "A": "The total on-time delivery rate in 1995 was {higher} than in 2001."
+        },
+        {
+            "Q": "Between 2000 and 2001, was the average total On-Time Delivery Rate higher or lower than between 1996 and 1999?",
+            "A": "The average total on-time delivery rate between 2000 and 2001 was {lower} than between 1996 and 1999."
+        },
+        {
+            "Q": "Between 1996 and 1997, was the average total On-Time Delivery Rate higher or lower than between 1995 and 2000?",
+            "A": "The average total on-time delivery rate between 1996 and 1997 was {higher} than between 1995 and 2000."
+        },
+        {
+            "Q": "Between 1999 and 2000, was the average total On-Time Delivery Rate higher or lower than between 1998 and 2001?",
+            "A": "The average total on-time delivery rate between 1999 and 2000 was {lower} than between 1998 and 2001."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Automotive Parts} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {Same-Day Couriers, Refrigerated Transport, Pharmaceuticals, E-Commerce Parcels, Automotive Parts}."
+        }
+    ]
+}

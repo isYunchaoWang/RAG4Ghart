@@ -1,0 +1,77 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {ridgeline}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many ridgelines are in this ridgeline chart?",
+            "A": "There are {5} slices in this chart."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the spatial relationship of the peak of Venture Capital relative to the peak of Stock Market in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "The peak of  Venture Capital is to the {right} of the peak of Stock Market."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What distribution pattern does the ridgeline representing Venture Capital show?",
+            "A": "The ridgeline representing Venture Capital shows a {Random fluctuation}."
+        },
+        {
+            "Q": "At what value do  Stock Market reach its peaks?",
+            "A": "At {-4.35}."
+        }
+    ],
+    "VE": [],
+    "EVJ": [
+        {
+            "Q": "Which ridgeline has the highest peak",
+            "A": "The ridgeline representing {Commodities} has the highest peak."
+        },
+        {
+            "Q": "Which label has the highest density at X =-8.4?",
+            "A": "At X =-8.4,the label with the highest density is {Commodities}"
+        }
+    ],
+    "SC": [],
+    "NF": [
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks exceed 20? Please list the countries and corresponding peak values.",
+            "A": "No matching label."
+        },
+        {
+            "Q": "Which countries in the ridgeline chart have ridgeline peaks below 7? Please list the countries and corresponding peak values.",
+            "A": "{Stock Market}'s peak at {-4},{Commodities}'s peak at {-5},{Angel Investments}'s peak at {-5}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Angel Investments or Venture Capital?",
+            "A": "{Venture Capital} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Venture Capital or Angel Investments?",
+            "A": "{Venture Capital} has a larger X value at the peak of its ridgeline."
+        },
+        {
+            "Q": "Which one has a larger X value at the peak of its ridgeline: Stock Market or Commodities?",
+            "A": "{Stock Market} has a larger X value at the peak of its ridgeline."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many ridges have their peak located to the right of the average X value across all ridges?",
+            "A": "There are {0} ridges whose peaks are located to the right of the average X value."
+        },
+        {
+            "Q": "What is the label of the ridge with the largest span along the mountain height?",
+            "A": "The ridge with the largest span in the mountain height is {Commodities}"
+        }
+    ],
+    "VA": []
+}

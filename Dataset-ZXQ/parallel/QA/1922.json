@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {7} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Overtime hours/month(hours) dimension, what is the spatial relationship of Morton, Francis and Alvarez relative to Cooper-Martinez in terms of vertical (above/below) direction?",
+            "A": "{Morton, Francis and Alvarez} is {above} {Cooper-Martinez} on the Overtime hours/month(hours) dimension."
+        },
+        {
+            "Q": "Which dimension is the fourth position to the left of dimension Benefits cost (USD/year)?",
+            "A": "The fourth position to the left of Benefits cost (USD/year) is {Remote work allowance (days/week)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Pay equity ratio (ratio)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Remote work allowance (days/week)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Stock options (%) and dimension Benefits cost (USD/year)",
+            "A": "There is {No Correlation} between Stock options (%) and Benefits cost (USD/year)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Walker, Miller and Cooper on the Overtime hours/month(hours) dimension in the parallel-coordinates chart?",
+            "A": "The value of Walker, Miller and Cooper on the Overtime hours/month(hours) dimension is {18.03}"
+        },
+        {
+            "Q": "What is the value of Morton, Francis and Alvarez on the Pay equity ratio (ratio) dimension in the parallel-coordinates chart?",
+            "A": "The value of Morton, Francis and Alvarez on the Pay equity ratio (ratio) dimension is {1.2}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Jenkins, Webster and Luna across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Jenkins, Webster and Luna across all dimensions is {8398.92}"
+        },
+        {
+            "Q": "What is the minimum value of label Jenkins, Webster and Luna across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Jenkins, Webster and Luna across all dimensions is {1.2}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Bonus percentage (%)?",
+            "A": "The average value of Bonus percentage (%) is {21.05}"
+        },
+        {
+            "Q": "What is the difference in coding Remote work allowance (days/week) between label Cooper-Martinez and label Walker, Miller and Cooper",
+            "A": "The difference in coding Remote work allowance (days/week) between Cooper-Martinez and Walker, Miller and Cooper is {5.0}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Remote work allowance (days/week) dimension in the parallel coordinates?",
+            "A": "{[5.0, 4.61, 2.22]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Bonus percentage (%) dimension in the parallel coordinates?",
+            "A": "{[0.0, 9.85, 11.26]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Overtime hours/month(hours), which label has a higher score: Jenkins, Webster and Luna or Cooper-Martinez?",
+            "A": "{Jenkins, Webster and Luna} has a higher score on Overtime hours/month(hours)."
+        },
+        {
+            "Q": "On Pay equity ratio (ratio), which label has a higher score: Lucas Inc or Morton, Francis and Alvarez?",
+            "A": "{Morton, Francis and Alvarez} has a higher score on Pay equity ratio (ratio)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Pay equity ratio (ratio) being greater than 0.98 and Stock options (%) being less than 6.67?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

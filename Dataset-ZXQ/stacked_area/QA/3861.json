@@ -1,0 +1,116 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {area chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many series are represented in this area chart?",
+            "A": "There are {5} series."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "What is the vertical (above/below) relationship of the area representing Sky High Cafe relative to The Golden Spoon?",
+            "A": "Sky High Cafe is {above} The Golden Spoon in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which series contributes the largest portion to the total customer traffic?",
+            "A": "The series with the largest contribution is {Emerald Diner}."
+        },
+        {
+            "Q": "Which series contributes the smallest portion to the total customer traffic?",
+            "A": "The series with the smallest contribution is {The Golden Spoon}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is The Golden Spoon's Customer Traffic in 1970?",
+            "A": "The Golden Spoon's customer traffic in 1970 is {501.88} customers/day."
+        },
+        {
+            "Q": "What is The Rusty Kettle's Customer Traffic in 1972?",
+            "A": "The Rusty Kettle's customer traffic in 1972 is {590.80} customers/day."
+        },
+        {
+            "Q": "What is The Golden Spoon's Customer Traffic in 1975?",
+            "A": "The Golden Spoon's customer traffic in 1975 is {347.38} customers/day."
+        },
+        {
+            "Q": "What are the customer traffic of Sky High Cafe, The Rusty Kettle, and Emerald Diner in 1971?",
+            "A": "Sky High Cafe's customer traffic is {504.31} customers/day, The Rusty Kettle's customer traffic is {617.22} customers/day, Emerald Diner's customer traffic is {559.09} customers/day."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Customer Traffic in the area chart?",
+            "A": "The global minimum customer traffic is {199.94} customers/day."
+        },
+        {
+            "Q": "What is the global maximum Customer Traffic in the area chart?",
+            "A": "The global maximum customer traffic is {1170.17} customers/day."
+        },
+        {
+            "Q": "What is the highest Customer Traffic level recorded for Emerald Diner?",
+            "A": "Emerald Diner reached approximately {1170.17} customers/day in {1979}."
+        },
+        {
+            "Q": "What is the lowest Customer Traffic level recorded for Emerald Diner?",
+            "A": "Emerald Diner's lowest recorded level is approximately {474.82} customers/day in {1970}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average total Customer Traffic?",
+            "A": "The average total customer traffic is {2575.02} customers/day."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did the total Customer Traffic exceed 2713.67 customers/day? Please list the years and corresponding total values.",
+            "A": "{2760.30} customers/day in {1971}, {2788.53} customers/day in {1977}, {2807.66} customers/day in {1976}."
+        },
+        {
+            "Q": "Which years did the total Customer Traffic go below 2487.34 customers/day? Please list the years and corresponding total values.",
+            "A": "{2466.28} customers/day in {1970}, {2357.63} customers/day in {1973}, {2336.28} customers/day in {1974}."
+        },
+        {
+            "Q": "Which years did the total Customer Traffic fall between 2470.48 and 2730.53 customers/day? Please list the years and corresponding total values.",
+            "A": "{2496.37} customers/day in {1978}, {2535.62} customers/day in {1975}, {2693.68} customers/day in {1972}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was the total Customer Traffic in 1976 higher or lower than in 1979?",
+            "A": "The total customer traffic in 1976 was {higher} than in 1979."
+        },
+        {
+            "Q": "Was the total Customer Traffic in 1971 higher or lower than in 1974?",
+            "A": "The total customer traffic in 1971 was {higher} than in 1974."
+        },
+        {
+            "Q": "Between 1973 and 1976, was the average total Customer Traffic higher or lower than between 1975 and 1978?",
+            "A": "The average total customer traffic between 1973 and 1976 was {lower} than between 1975 and 1978."
+        },
+        {
+            "Q": "Between 1971 and 1973, did the total Customer Traffic experience a larger or smaller change than between 1974 and 1979?",
+            "A": "The change in total customer traffic between 1971 and 1973 was {larger} than between 1974 and 1979."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which series has the largest cumulative area in this area chart?",
+            "A": "{Emerald Diner} has the largest cumulative area."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "To reduce the 'waving' visual effect in the area chart, reorder the layers by end value and list the labels from top to bottom after sorting.",
+            "A": "The reordered layer order from top to bottom is: {The Golden Spoon, Sky High Cafe, The Rusty Kettle, Stellar Bistro, Emerald Diner}."
+        }
+    ]
+}

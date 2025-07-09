@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {sankey} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many links flow out of the node Index Fund Investing in this sankey chart?",
+            "A": "There are {2} links flowing out of the node Index Fund Investing."
+        },
+        {
+            "Q": "How many links flow out of column Investment Types of this sankey chart?",
+            "A": "There are {8} links flow out of column Investment Types."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which category does the leftmost axis represent in this sankey chart?",
+            "A": "The leftmost axis represents {Investment Types}."
+        },
+        {
+            "Q": "Which category does the rightmost axis represent in this sankey chart?",
+            "A": "The rightmost axis represents {Market Segments}."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which pair of nodes shows the largest flow in this sankey chart?",
+            "A": "The largest flow is between {Index Fund Investing} and {Low Risk}."
+        },
+        {
+            "Q": "Which pair of nodes shows the smallest flow in this sankey chart?",
+            "A": "The smallest flow is between {Moderate Risk} and {Institutional Investors}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the flow value from the node Moderate Risk to the node Institutional Investors?",
+            "A": "The flow value from the node Moderate Risk to the node Institutional Investors is {4847}."
+        },
+        {
+            "Q": "What is the flow value from the node Low Risk to the node Retail Investors?",
+            "A": "The flow value from the node Low Risk to the node Retail Investors is {15109}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum flow value from the node Low Risk to the next stage in the sankey chart?",
+            "A": "The maximum flow value from the node Low Risk to the next stage is {26495}."
+        },
+        {
+            "Q": "What is the minimum flow value from the node Real Estate to the next stage in the sankey chart?",
+            "A": "The minimum flow value from the node Real Estate to the next stage is {6669}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the total flow output from node Cryptocurrency?",
+            "A": "The total flow output from node Cryptocurrency is {26769}."
+        },
+        {
+            "Q": "What is the total flow input by node Hedge Funds?",
+            "A": "The total flow input by node Hedge Funds is {32801}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In the column Risk Levels of the sankey chart, which nodes have an outflow exceeded 24069? Please list the node labels and their corresponding outflow values.",
+            "A": "{Low Risk} has an outflow of {26495}."
+        },
+        {
+            "Q": "Between which pairs of nodes in column Investment Types and column Investment Strategies is the flow between 8478 and 13012? Please list the source node, target node, and the corresponding flow value.",
+            "A": "There is a flow of {12406} from node {Cryptocurrency} to {Index Fund Investing}, a flow of {10331} from node {Bonds} to {Index Fund Investing}, a flow of {9697} from node {Bonds} to {Growth Investing}."
+        },
+        {
+            "Q": "In the sankey chart, which links have a flow between 10650 and 13012? Please list the source node, target node, and their corresponding flow values.",
+            "A": "There is a flow of {12406} from node {Cryptocurrency} to {Index Fund Investing}, a flow of {10969} from node {Low Risk} to {Institutional Investors}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Between the flows from node Index Fund Investing to node Low Risk and from node Stocks to node Index Fund Investing, which path has a larger flow?",
+            "A": "The flow from node {Index Fund Investing} to node {Low Risk} is larger."
+        },
+        {
+            "Q": "Among the flows from node Moderate Risk to node Pension Funds, from node Cryptocurrency to node Index Fund Investing, and from node Bonds to node Index Fund Investing, which path has the largest flow?",
+            "A": "The flow from node {Cryptocurrency} to node {Index Fund Investing} is the largest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which node in the column Risk Levels of the sankey chart is the most critical?",
+            "A": "The most critical node in the column Risk Levels is {Low Risk}."
+        },
+        {
+            "Q": "What is the path with the highest total flow from source node Cryptocurrency to target node Institutional Investors? Please list all node labels along this path.",
+            "A": "The path with the highest total flow from node Cryptocurrency to node Institutional Investors is: {Cryptocurrency, Index Fund Investing, Low Risk, Institutional Investors}."
+        }
+    ],
+    "VA": []
+}

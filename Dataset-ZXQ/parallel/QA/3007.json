@@ -1,0 +1,119 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {3} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {3} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Equipment utilization (%) dimension, what is the spatial relationship of read  Cotton relative to serious  Cotton in terms of vertical (above/below) direction?",
+            "A": "{read  Cotton} is {above} {serious  Cotton} on the Equipment utilization (%) dimension."
+        },
+        {
+            "Q": "Which dimension is the second position to the left of dimension Harvest frequency (per year)?",
+            "A": "The second position to the left of Harvest frequency (per year) is {Labor efficiency (acres/worker)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Harvest frequency (per year)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Labor efficiency (acres/worker)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Labor efficiency (acres/worker)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Labor efficiency (acres/worker) and dimension Equipment utilization (%)",
+            "A": "There is {Weak Correlation} between Labor efficiency (acres/worker) and Equipment utilization (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of attorney  Barley on the Labor efficiency (acres/worker) dimension in the parallel-coordinates chart?",
+            "A": "The value of attorney  Barley on the Labor efficiency (acres/worker) dimension is {1.0}"
+        },
+        {
+            "Q": "What is the value of read  Cotton on the Labor efficiency (acres/worker) dimension in the parallel-coordinates chart?",
+            "A": "The value of read  Cotton on the Labor efficiency (acres/worker) dimension is {1000.0}"
+        },
+        {
+            "Q": "What is the value of serious  Cotton on the Harvest frequency (per year) dimension in the parallel-coordinates chart?",
+            "A": "The value of serious  Cotton on the Harvest frequency (per year) dimension is {4.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label read  Cotton across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of read  Cotton across all dimensions is {1000.0}"
+        },
+        {
+            "Q": "What is the minimum value of label attorney  Barley across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of attorney  Barley across all dimensions is {1.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Harvest frequency (per year)?",
+            "A": "The average value of Harvest frequency (per year) is {2.18}"
+        },
+        {
+            "Q": "What is the difference in coding Equipment utilization (%) between label attorney  Barley and label serious  Cotton",
+            "A": "The difference in coding Equipment utilization (%) between attorney  Barley and serious  Cotton is {33.75}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Labor efficiency (acres/worker) dimension in the parallel coordinates?",
+            "A": "{[1000.0, 562.3, 1.0]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Labor efficiency (acres/worker) dimension in the parallel coordinates?",
+            "A": "{[1.0, 562.3, 1000.0]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Harvest frequency (per year), which label has a higher score: attorney  Barley or serious  Cotton?",
+            "A": "{serious  Cotton} has a higher score on Harvest frequency (per year)."
+        },
+        {
+            "Q": "On Labor efficiency (acres/worker), which label has a higher score: serious  Cotton or read  Cotton?",
+            "A": "{read  Cotton} has a higher score on Labor efficiency (acres/worker)."
+        },
+        {
+            "Q": "On Labor efficiency (acres/worker), which label has a higher score: read  Cotton or attorney  Barley?",
+            "A": "{read  Cotton} has a higher score on Labor efficiency (acres/worker)."
+        },
+        {
+            "Q": "On Harvest frequency (per year), which label has a higher score: serious  Cotton or attorney  Barley?",
+            "A": "{serious  Cotton} has a higher score on Harvest frequency (per year)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Labor efficiency (acres/worker)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Labor efficiency (acres/worker) being greater than 311.12 and Harvest frequency (per year) being less than 2.47?",
+            "A": "There are {1} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

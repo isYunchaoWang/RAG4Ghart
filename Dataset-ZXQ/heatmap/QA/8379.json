@@ -1,0 +1,97 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {heatmap} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many cells are in this heatmap?",
+            "A": "There are {56} cells."
+        },
+        {
+            "Q": "How many rows are in this heatmap?",
+            "A": "There are {7} rows."
+        },
+        {
+            "Q": "How many columns are in this heatmap?",
+            "A": "There are {8} columns."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "What is the overall spatial distribution pattern shown in the heatmap?",
+            "A": "The heatmap shows a {horizontal gradient} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the heat value of the cell corresponding to Streaming and Streaming Hours in the heatmap?",
+            "A": "The heat value is {0.35}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Movies and Fan Engagement in the heatmap?",
+            "A": "The heat value is {0.61}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Football and Merchandise in the heatmap?",
+            "A": "The heat value is {0.87}."
+        },
+        {
+            "Q": "What is the heat value of the cell corresponding to Theater and Ratings in the heatmap?",
+            "A": "The heat value is {0.26}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum heat value in the heatmap?",
+            "A": "The global maximum heat value is {0.88}."
+        },
+        {
+            "Q": "What is the global minimum heat value in the heatmap?",
+            "A": "The global minimum heat value is {0.23}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Music on the x-axis?",
+            "A": "The maximum heat value of Music on the x-axis is {0.54}."
+        },
+        {
+            "Q": "What is the maximum heat value of label Theater on the x-axis?",
+            "A": "The maximum heat value of Theater on the x-axis is {0.29}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average heat value for label Football on the x-axis?",
+            "A": "The average heat value for Football on the x-axis is {0.87}."
+        }
+    ],
+    "NF": [],
+    "NC": [
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Gaming and Royalties or the cell corresponding to Streaming and Social Media?",
+            "A": "The cell corresponding to {Gaming} and {Royalties} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Gaming and Merchandise or the cell corresponding to Movies and Social Media?",
+            "A": "The cell corresponding to {Gaming} and {Merchandise} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Publishing and Merchandise or the cell corresponding to Streaming and Merchandise?",
+            "A": "The cell corresponding to {Publishing} and {Merchandise} has a higher heat value."
+        },
+        {
+            "Q": "Which has the higher heat value: the cell corresponding to Football and Fan Engagement or the cell corresponding to Streaming and Royalties?",
+            "A": "The cell corresponding to {Football} and {Fan Engagement} has a higher heat value."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the heatmap, what are the row and column labels for all cells whose heat values fall within the range of 0.67 to 0.85?",
+            "A": "The cells are: {(Gaming, Fan Engagement), (Media Rights, Fan Engagement), (Gaming, Merchandise), (Media Rights, Merchandise), (Gaming, Ratings), (Gaming, Royalties), (Media Rights, Royalties), (Gaming, Social Media), (Media Rights, Social Media), (Football, Streaming Hours), (Gaming, Streaming Hours), (Media Rights, Streaming Hours), (Gaming, Ticket Sales)}."
+        }
+    ],
+    "VA": []
+}

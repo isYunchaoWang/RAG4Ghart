@@ -1,0 +1,99 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {funnel} chart."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many stages are there in this funnel chart?",
+            "A": "There are {6} stages."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is the HR Interview stage positioned above or below the Technical Interview stage?",
+            "A": "The HR Interview stage is positioned {above} the Technical Interview stage."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What pattern does the data reduction follow in this funnel chart?",
+            "A": "The data reduction follows a {exponential} pattern."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of stage Application Submitted?",
+            "A": "The value of stage Application Submitted is {100%}."
+        },
+        {
+            "Q": "What is the value of stage Phone Screen?",
+            "A": "The value of stage Phone Screen is {73%}."
+        },
+        {
+            "Q": "What is the value of stage HR Interview?",
+            "A": "The value of stage HR Interview is {59%}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value in the funnel chart?",
+            "A": "The stage with the highest value is Application Submitted, with a value of {100%}."
+        },
+        {
+            "Q": "What is the minimum value in the funnel chart?",
+            "A": "The stage with the lowest value is Offer Accepted, with a value of {20%}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the percentage reduction from stage HR Interview to stage Technical Interview?",
+            "A": "The percentage reduction from stage HR Interview to stage Technical Interview is {15%}."
+        },
+        {
+            "Q": "What is the percentage reduction from stage Offer Extended to stage Offer Accepted?",
+            "A": "The percentage reduction from stage Offer Extended to stage Offer Accepted is {3%}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "In which stages of the funnel chart does the value exceed 66%? Please list the stage labels and corresponding values.",
+            "A": "The {Application Submitted} stage has {100%}, the {Phone Screen} stage has {73%}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall below 21%? Please list the stage labels and corresponding values.",
+            "A": "The {Offer Accepted} stage has {20%}."
+        },
+        {
+            "Q": "In which stages of the funnel chart does the value fall between 33% and 66%? Please list the stage labels and corresponding values.",
+            "A": "The {HR Interview} stage has {59%}, the {Technical Interview} stage has {44%}."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which reduction is greater: from stage Technical Interview to Offer Extended, or from stage HR Interview to Technical Interview?",
+            "A": "The reduction from stage {Technical Interview} to {Offer Extended} is greater."
+        },
+        {
+            "Q": "Which reduction is greater: from stage HR Interview to Technical Interview, or from stage Phone Screen to HR Interview?",
+            "A": "The reduction from stage {HR Interview} to {Technical Interview} is greater."
+        },
+        {
+            "Q": "Which reduction is the greatest: from stage Offer Extended to Offer Accepted, from stage Application Submitted to Phone Screen, or from stage Technical Interview to Offer Extended?",
+            "A": "The reduction from stage {Application Submitted} to stage {Phone Screen} is the greatest."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the largest?",
+            "A": "The largest drop in conversion rate occurs between the {Application Submitted} and {Phone Screen} stages."
+        },
+        {
+            "Q": "Between which two consecutive stages in the funnel chart is the conversion rate drop the smallest?",
+            "A": "The smallest drop in conversion rate occurs between the {Offer Extended} and {Offer Accepted} stages."
+        }
+    ],
+    "VA": []
+}

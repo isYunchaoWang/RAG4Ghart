@@ -1,0 +1,131 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {5} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Misty Trail}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Willow Grove}."
+        },
+        {
+            "Q": "Which violin is the second position to the left of the violin Moon Cavern?",
+            "A": "The second position to the left of the violin Moon Cavern is {Whisper Reef}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Willow Grove relative to the violin Whisper Reef in terms of horizontal (left/right) direction?",
+            "A": "violin Willow Grove is to the {right} of the violin Whisper Reef."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Whisper Reef}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Misty Trail}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Golden Dunes?",
+            "A": "The density distribution pattern of the Golden Dunes shows a {normal} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Golden Dunes in the violin plot?",
+            "A": "The median of Golden Dunes is {7590.00} Visitors."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Misty Trail in the violin plot?",
+            "A": "The lower quartile (Q1) of Misty Trail is {5904.50} Visitors."
+        },
+        {
+            "Q": "What is the upper whisker limit of Golden Dunes in the violin plot?",
+            "A": "The upper whisker limit of Golden Dunes is {13572.00} Visitors."
+        },
+        {
+            "Q": "What is the lowest lower outlier value in Willow Grove in the violin plot?",
+            "A": "The lowest upper outlier value in Willow Grove is {396.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum Visitors value in the violin plot?",
+            "A": "The global maximum Visitors value in the violin plot is {17913.00} Visitors."
+        },
+        {
+            "Q": "What is the global minimum Visitors value in the violin plot?",
+            "A": "The global minimum Visitors value in the violin plot is {34.00} Visitors."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between violin Willow Grove and Whisper Reef?",
+            "A": "The Median difference between violin Willow Grove and Whisper Reef is {646.00} Visitors."
+        },
+        {
+            "Q": "What is the toal Median value of violin Whisper Reef and Willow Grove?",
+            "A": "The total Median value of violin Whisper Reef and Willow Grove is {16086.00} Visitors."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Whisper Reef and Willow Grove?",
+            "A": "The average Q1 value of violin Whisper Reef and Willow Grove is {6436.50} Visitors."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 8043.00 Visitors? Please list the violins and corresponding values.",
+            "A": "{Whisper Reef} has {8366.00} Visitors "
+        },
+        {
+            "Q": "Which violins have median values below 7705.50 Visitors? Please list the violins and corresponding values.",
+            "A": "{Misty Trail} has {7691.00} Visitors , {Golden Dunes} has {7590.00} Visitors , {Moon Cavern} has {6531.00} Visitors "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 5923.50 Visitors and the upper quartile (Q3) below 10208.25 Visitors?",
+            "A": "Violin {Golden Dunes},{Willow Grove} has the Q1 above 5923.50 Visitors and the Q3 below 10208.25 Visitors."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 7437.75 Visitors?",
+            "A": "Violin {Whisper Reef} has {8291.32} Visitors ,{Golden Dunes} has {7498.78} Visitors have their highest density peak exceed 7437.75 Visitors."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 7199.07 Visitors?",
+            "A": "Violin {Misty Trail} has {7021.41} Visitors ,{Moon Cavern} has {5727.84} Visitors have their highest density peak below 7199.07 Visitors."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Golden Dunes or Moon Cavern ",
+            "A": "The median value of the {Golden Dunes} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Willow Grove, Moon Cavern or Misty Trail ",
+            "A": "The median value of the {Willow Grove} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Golden Dunes, Moon Cavern, Whisper Reef or Misty Trail ",
+            "A": "The median value of the {Whisper Reef} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Misty Trail}."
+        }
+    ],
+    "VA": []
+}

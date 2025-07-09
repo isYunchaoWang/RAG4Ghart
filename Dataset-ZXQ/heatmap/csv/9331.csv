@@ -1,0 +1,82 @@
+Tourism and Hospitality,the Factors of Tourism and Hospitality,9x9,uniform
+Attractions,Adventure,0.5
+Cruises,Adventure,0.48
+Destinations,Adventure,0.48
+Events,Adventure,0.47
+Online Booking,Adventure,0.49
+Restaurants,Adventure,0.49
+Service Quality,Adventure,0.49
+Tour Operators,Adventure,0.48
+Transport,Adventure,0.49
+Attractions,Budget,0.49
+Cruises,Budget,0.5
+Destinations,Budget,0.49
+Events,Budget,0.48
+Online Booking,Budget,0.48
+Restaurants,Budget,0.47
+Service Quality,Budget,0.48
+Tour Operators,Budget,0.47
+Transport,Budget,0.46
+Attractions,Cultural,0.48
+Cruises,Cultural,0.48
+Destinations,Cultural,0.5
+Events,Cultural,0.49
+Online Booking,Cultural,0.48
+Restaurants,Cultural,0.48
+Service Quality,Cultural,0.48
+Tour Operators,Cultural,0.49
+Transport,Cultural,0.49
+Attractions,Eco-tourism,0.46
+Cruises,Eco-tourism,0.48
+Destinations,Eco-tourism,0.48
+Events,Eco-tourism,0.5
+Online Booking,Eco-tourism,0.48
+Restaurants,Eco-tourism,0.47
+Service Quality,Eco-tourism,0.47
+Tour Operators,Eco-tourism,0.48
+Transport,Eco-tourism,0.49
+Attractions,Family,0.47
+Cruises,Family,0.49
+Destinations,Family,0.48
+Events,Family,0.49
+Online Booking,Family,0.49
+Restaurants,Family,0.5
+Service Quality,Family,0.48
+Tour Operators,Family,0.48
+Transport,Family,0.47
+Attractions,Luxury,0.49
+Cruises,Luxury,0.46
+Destinations,Luxury,0.48
+Events,Luxury,0.47
+Online Booking,Luxury,0.48
+Restaurants,Luxury,0.5
+Service Quality,Luxury,0.48
+Tour Operators,Luxury,0.48
+Transport,Luxury,0.49
+Attractions,Rural,0.49
+Cruises,Rural,0.47
+Destinations,Rural,0.47
+Events,Rural,0.49
+Online Booking,Rural,0.48
+Restaurants,Rural,0.47
+Service Quality,Rural,0.49
+Tour Operators,Rural,0.48
+Transport,Rural,0.48
+Attractions,Seasonal,0.49
+Cruises,Seasonal,0.48
+Destinations,Seasonal,0.49
+Events,Seasonal,0.47
+Online Booking,Seasonal,0.5
+Restaurants,Seasonal,0.49
+Service Quality,Seasonal,0.48
+Tour Operators,Seasonal,0.48
+Transport,Seasonal,0.48
+Attractions,Wellness,0.47
+Cruises,Wellness,0.5
+Destinations,Wellness,0.49
+Events,Wellness,0.48
+Online Booking,Wellness,0.48
+Restaurants,Wellness,0.49
+Service Quality,Wellness,0.48
+Tour Operators,Wellness,0.48
+Transport,Wellness,0.48

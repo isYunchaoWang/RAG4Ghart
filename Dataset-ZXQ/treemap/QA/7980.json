@@ -1,0 +1,94 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {treemap}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many child rectangles are under the category ML Models in this treemap?",
+            "A": "There are {2} child rectangles under the category ML Models."
+        }
+    ],
+    "SRP": [],
+    "VPR": [
+        {
+            "Q": "Which rectangle has the largest area in this treemap?",
+            "A": "The rectangle with the largest area is {Platform Architecture}."
+        },
+        {
+            "Q": "Which rectangle has the smallest area in this treemap?",
+            "A": "The rectangle with the smallest area is {Behavior Analysis}."
+        },
+        {
+            "Q": "Which top-level category has the highest proportion in this treemap?",
+            "A": "The top-level category with the highest proportion is {Platform Architecture}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of the Real-Time Prediction rectangle in this treemap?",
+            "A": "The value of the Real-Time Prediction rectangle is {9.98}."
+        },
+        {
+            "Q": "What is the value of the ML Models rectangle in this treemap?",
+            "A": "The value of the ML Models rectangle is {22.36}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value among the partitions in the treemap?",
+            "A": "The maximum value is {100.0}."
+        },
+        {
+            "Q": "What is the minimum value among the partitions in the treemap?",
+            "A": "The minimum value is {5.23}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the difference between the regions of GPU Acceleration and PCI Compliance?",
+            "A": "The difference between GPU Acceleration and PCI Compliance is {7.95}."
+        },
+        {
+            "Q": "What is the sum of the regions of Isolation Forest and Behavior Analysis?",
+            "A": "The sum of Isolation Forest and Behavior Analysis is {22.36}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under the ML Models category in the treemap, which rectangular labels have a value exceeded 14.16? Please list the labels and values.",
+            "A": "{Anomaly Detection} has {17.13}"
+        },
+        {
+            "Q": "Under the ML Models category in the treemap, which rectangular labels have a value below 8.20? Please list the labels and values.",
+            "A": "{Behavior Analysis} has {5.23}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the value of Platform Architecture, Recommendation Engines, or Collaborative Filtering?",
+            "A": "The value of {Platform Architecture} is larger."
+        },
+        {
+            "Q": "Which is smaller, the value of Recommendation Engines, Collaborative Filtering, or Matrix Factorization?",
+            "A": "The value of {Matrix Factorization} is smaller."
+        },
+        {
+            "Q": "Which is larger, the value of Platform Architecture or Recommendation Engines?",
+            "A": "The value of {Platform Architecture} is larger."
+        },
+        {
+            "Q": "Which is larger, the value of Collaborative Filtering or SVD Algorithms?",
+            "A": "The value of {Collaborative Filtering} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "How many leaf nodes' value below the global average in the treemap?",
+            "A": "There are {7} leaf nodes below the global average."
+        }
+    ],
+    "VA": []
+}

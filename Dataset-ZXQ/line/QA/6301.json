@@ -1,0 +1,156 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {3} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On International Freight, what is the spatial relationship of the data point in 1968 relative to that in 1964 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On International Freight, the data point in 1968 is {below} and to the {right} of the data point in 1964."
+        },
+        {
+            "Q": "In 1955, what is the vertical (above/below) relationship of the line representing Drone Delivery relative to International Freight?",
+            "A": "In 1955, Drone Delivery is {above} International Freight in the vertical direction."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of International Freight's Delivery Time levels?",
+            "A": "International Freight's delivery time levels show a {volatile falling} trend."
+        },
+        {
+            "Q": "What is the trend of Drone Delivery's Delivery Time levels?",
+            "A": "Drone Delivery's delivery time levels show a {stable rising} trend."
+        },
+        {
+            "Q": "What is the trend of Autonomous Vehicles's Delivery Time levels?",
+            "A": "Autonomous Vehicles's delivery time levels show a {exponential falling} trend."
+        },
+        {
+            "Q": "Which line shows a volatile falling trend in Delivery Time levels?",
+            "A": "{International Freight}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is International Freight's Delivery Time in 1955?",
+            "A": "International Freight's delivery time in 1955 is {1.26} days."
+        },
+        {
+            "Q": "What is Drone Delivery's Delivery Time in 1955?",
+            "A": "Drone Delivery's delivery time in 1955 is {3.04} days."
+        },
+        {
+            "Q": "What is Autonomous Vehicles's Delivery Time in 1965?",
+            "A": "Autonomous Vehicles's delivery time in 1965 is {0.83} days."
+        },
+        {
+            "Q": "What are the delivery time of International Freight, Autonomous Vehicles, and Drone Delivery in 1955?",
+            "A": "International Freight's delivery time is {1.26} days, Autonomous Vehicles's delivery time is {2.18} days, Drone Delivery's delivery time is {3.04} days."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Delivery Time in the line chart?",
+            "A": "The global minimum delivery time is {0.02} days."
+        },
+        {
+            "Q": "What is the global maximum Delivery Time in the line chart?",
+            "A": "The global maximum delivery time is {5.94} days."
+        },
+        {
+            "Q": "What is the highest Delivery Time level recorded for Autonomous Vehicles?",
+            "A": "Autonomous Vehicles reached approximately {3.03} days in {1952}."
+        },
+        {
+            "Q": "What is the lowest Delivery Time level recorded for Autonomous Vehicles?",
+            "A": "Autonomous Vehicles's lowest recorded level is approximately {0.21} days in {1977}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the rate of change in Drone Delivery's Delivery Time from the starting year to the final year?",
+            "A": "The rate of growth in Drone Delivery's delivery time is {122.47}%."
+        },
+        {
+            "Q": "What is the average value of International Freight's Delivery Time?",
+            "A": "The average value of International Freight's delivery time is {0.53} days."
+        },
+        {
+            "Q": "What is the average value of Autonomous Vehicles's Delivery Time?",
+            "A": "The average value of Autonomous Vehicles's delivery time is {1.09} days."
+        },
+        {
+            "Q": "What is the rate of change in International Freight's Delivery Time from the starting year to the final year?",
+            "A": "The rate of decline in International Freight's delivery time is {-98.69}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Drone Delivery's Delivery Time exceed 5 days? Please list the years and corresponding values.",
+            "A": "{5.94} days in {1977} year, {5.58} days in {1974} year, {5.43} days in {1973} year."
+        },
+        {
+            "Q": "In the year 1971, which lines had Delivery Time below 0 days? Please list the lines and corresponding values.",
+            "A": "{International Freight} had {0} days."
+        },
+        {
+            "Q": "Which years did International Freight's Delivery Time between 0 and 1 days? Please list the years and corresponding values.",
+            "A": "{0.53} days in {1963} year, {0.21} days in {1966} year, {0.72} days in {1961} year."
+        },
+        {
+            "Q": "In the year 1966, which line had Delivery Time exceed 3 days? Please list the lines and corresponding values.",
+            "A": "{Drone Delivery} had {4} days."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was International Freight's Delivery Time in 1962 higher or lower than in 1969?",
+            "A": "The delivery time in 1962 was {higher} than in 1969."
+        },
+        {
+            "Q": "In 1970, which line had a higher Delivery Time, {Drone Delivery} or {Autonomous Vehicles}?",
+            "A": "In 1970, {Drone Delivery} had a higher delivery time."
+        },
+        {
+            "Q": "Was Autonomous Vehicles's Delivery Time in 1959 higher or lower than in 1963?",
+            "A": "The delivery time in 1959 was {higher} than in 1963."
+        },
+        {
+            "Q": "In 1962, which line had a higher Delivery Time, {Drone Delivery} or {Autonomous Vehicles}?",
+            "A": "In 1962, {Drone Delivery} had a higher delivery time."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "Which label shows the largest fluctuation in the line chart?",
+            "A": "The label with the largest fluctuation is {Drone Delivery}."
+        },
+        {
+            "Q": "Which line shows the fastest average growth rate between 1953 and 1965?",
+            "A": "{Drone Delivery} has the fastest average growth rate between 1953 and 1965."
+        },
+        {
+            "Q": "In which year did Drone Delivery first surpass Autonomous Vehicles?",
+            "A": "Drone Delivery first surpassed Autonomous Vehicles in the year {1953}."
+        },
+        {
+            "Q": "Which label had the leading delivery time since 1958?",
+            "A": "Since 1958, {Drone Delivery} had the leading delivery time."
+        }
+    ],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the International Freight. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1952, 1977}."
+        }
+    ]
+}

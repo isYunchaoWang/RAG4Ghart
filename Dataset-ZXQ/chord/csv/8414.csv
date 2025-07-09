@@ -1,0 +1,12 @@
+Real Estate and Housing Market, Real Estate Investment Flow, Million $, normal
+Source,Target,Value
+Alexandrialand,Elizabethstad,144
+Elizabethstad,Alexandrialand,274
+Elizabethstad,Michaelchester,490
+Michaelchester,Elizabethstad,750
+Michaelchester,Jessestad,948
+Jessestad,Michaelchester,1026
+Alexandrialand,Michaelchester,930
+Michaelchester,Alexandrialand,736
+Alexandrialand,Jessestad,498
+Jessestad,Alexandrialand,276

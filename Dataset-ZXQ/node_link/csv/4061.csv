@@ -1,0 +1,20 @@
+Healthcare and Health,Inter-Clinic Referral Relationships
+Source Node Index,Source Node Name,Target Node Index,Target Node Name,Relation Type
+0,St. Mary's General Hospital,1,Evercare Medical Center,referral_path
+0,St. Mary's General Hospital,11,Trinity Orthopedic Hospital,medical_collaboration
+0,St. Mary's General Hospital,2,Cityview Children's Hospital,referral_path
+0,St. Mary's General Hospital,8,Northfield Emergency Center,referral_path
+0,St. Mary's General Hospital,3,Mercy Heart Institute,medical_collaboration
+1,Evercare Medical Center,4,Sunrise Rehabilitation Hospital,healthcare_network
+1,Evercare Medical Center,3,Mercy Heart Institute,medical_collaboration
+1,Evercare Medical Center,6,Global Health Clinic,referral_path
+1,Evercare Medical Center,12,Pinecrest Regional Hospital,patient_transfer
+1,Evercare Medical Center,10,Providence Women's Hospital,referral_path
+2,Cityview Children's Hospital,7,Hope Valley Hospital,healthcare_network
+2,Cityview Children's Hospital,3,Mercy Heart Institute,patient_transfer
+2,Cityview Children's Hospital,11,Trinity Orthopedic Hospital,healthcare_network
+2,Cityview Children's Hospital,12,Pinecrest Regional Hospital,patient_transfer
+2,Cityview Children's Hospital,8,Northfield Emergency Center,specialty_sharing
+5,Riverside Mental Health Center,3,Mercy Heart Institute,referral_path
+9,Oceanview Cancer Institute,6,Global Health Clinic,medical_collaboration
+13,Summit Neurology Center,7,Hope Valley Hospital,referral_path

@@ -1,0 +1,6 @@
+﻿Business and Finance,Market Analysis
+Pattern,Weak Correlation,Clustering,Clustering,Clustering,Clustering,Weak Correlation
+labels,Brand recognition (%),Competitor count (number),Market growth rate (%),Product differentiation score (1-10),Customer lifetime value (USD),Market share (%),Price elasticity (unitless)
+Crawford Ltd,73.16,7.3,17.16,10.0,10000.0,50.0,0.79
+White PLC,95.0,1.0,30.0,1.0,3373.17,0.1,0.5
+Brown Group,10.0,20.0,-5.0,3.96,100.0,30.53,3.0

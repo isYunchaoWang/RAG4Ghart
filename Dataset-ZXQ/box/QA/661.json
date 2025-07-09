@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {box plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many boxes are in this box plot?",
+            "A": "There are {5} boxes."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Is this box chart a horizontal box plot or a vertical box plot?",
+            "A": "The box plot is a {vertical} box plot."
+        },
+        {
+            "Q": "Which box does the leftmost box represent?",
+            "A": "The leftmost box represents {Potatoes}"
+        },
+        {
+            "Q": "Which box does the rightmost box represent?",
+            "A": "The rightmost box represents {Hemp}."
+        },
+        {
+            "Q": "Which box is the first position to the right of the box Barley?",
+            "A": "The first position to the right of the box Barley is {Hemp}."
+        },
+        {
+            "Q": "What is the spatial relationship of box Corn relative to the box Cotton in terms of horizontal (left/right) direction?",
+            "A": "Box Corn is to the {right} of the box Cotton."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which box has the largest median in this box plot?",
+            "A": "The box with the largest median is {Hemp}."
+        },
+        {
+            "Q": "Which box has the highest upper quartile (Q3) in this box plot?",
+            "A": "The box with the highest Q3 is {Hemp}."
+        },
+        {
+            "Q": "Which box has the Minimum IQR of data?",
+            "A": "The box with the Minimum IQR is {Barley}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Cotton in the box plot?",
+            "A": "The median of Cotton is {4401.0} kilograms per hectare."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Potatoes in the box plot?",
+            "A": "The lower quartile (Q1) of Potatoes is {5804.0} kilograms per hectare."
+        },
+        {
+            "Q": "What is the upper whisker limit of Barley in the box plot?",
+            "A": "The upper whisker limit of Barley is {7630} kilograms per hectare."
+        },
+        {
+            "Q": "What is the largest upper outlier value in Potatoes in the box plot?",
+            "A": "The largest upper outlier value in Potatoes is {8696} kilograms per hectare."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum kilograms per hectare value in the box plot?",
+            "A": "The global maximum kilograms per hectare value in the box plot is {8696.00} kilograms per hectare."
+        },
+        {
+            "Q": "What is the global minimum kilograms per hectare value in the box plot?",
+            "A": "The global minimum kilograms per hectare value in the box plot is {1915.00} kilograms per hectare."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Median difference between box Potatoes and Hemp?",
+            "A": "The Median difference between box Potatoes and Hemp is {1300.0} kilograms per hectare."
+        },
+        {
+            "Q": "What is the toal Q1 value of box Corn and Hemp?",
+            "A": "The total Q1 value of box Corn and Hemp is {11084.0} kilograms per hectare."
+        },
+        {
+            "Q": "What is the average Median value of box Cotton and Potatoes?",
+            "A": "The average Median value of box Cotton and Potatoes is {5249.5} kilograms per hectare."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which boxes in the box plot have outliers that exceed 5162.400000000001 kilograms per hectare?",
+            "A": "Box{Potatoes},{Corn} have the outliers exceed 5162.400000000001 kilograms per hectare."
+        },
+        {
+            "Q": "Which boxes have median values exceed 5249.50 kilograms per hectare? Please list the boxes and corresponding values.",
+            "A": "{Potatoes} has {6098.0} kilograms per hectare , {Barley} has {6894.0} kilograms per hectare , {Hemp} has {7398.0} kilograms per hectare "
+        },
+        {
+            "Q": "Which boxes have median values below 4340.00 kilograms per hectare? Please list the boxes and corresponding values.",
+            "A": "{Corn} has {4279.0} kilograms per hectare "
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Potatoes or Hemp ",
+            "A": "The median value of the {Hemp} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Potatoes, Cotton or Hemp ",
+            "A": "The median value of the {Hemp} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Corn, Cotton, Barley or Potatoes ",
+            "A": "The median value of the {Barley} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the box plot, which group has the largest difference between the maximum non-outlier value (upper whisker) and the minimum non-outlier value (lower whisker)?",
+            "A": "The group with the largest whisker span is {Cotton}."
+        }
+    ],
+    "VA": []
+}

@@ -1,0 +1,103 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {6} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Maintenance cost (USD/MWh) dimension, what is the spatial relationship of Ryan Inc  Energy Facility relative to Pena PLC  Generation Station in terms of vertical (above/below) direction?",
+            "A": "{Ryan Inc  Energy Facility} is {below} {Pena PLC  Generation Station} on the Maintenance cost (USD/MWh) dimension."
+        },
+        {
+            "Q": "Which dimension is the fourth position to the left of dimension Carbon intensity (kgCO2/MWh)?",
+            "A": "The fourth position to the left of Carbon intensity (kgCO2/MWh) is {Maintenance cost (USD/MWh)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Carbon intensity (kgCO2/MWh)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Capacity factor (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Output (MWh)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Maintenance cost (USD/MWh) and dimension Fuel efficiency (%)",
+            "A": "There is {No Correlation} between Maintenance cost (USD/MWh) and Fuel efficiency (%)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Ryan Inc  Energy Facility on the Downtime (%) dimension in the parallel-coordinates chart?",
+            "A": "The value of Ryan Inc  Energy Facility on the Downtime (%) dimension is {20.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Pena PLC  Generation Station across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Pena PLC  Generation Station across all dimensions is {6586.9}"
+        },
+        {
+            "Q": "What is the minimum value of label Schmidt LLC  Power Plant across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Schmidt LLC  Power Plant across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Capacity factor (%)?",
+            "A": "The average value of Capacity factor (%) is {72.36}"
+        },
+        {
+            "Q": "What is the difference in coding Capacity factor (%) between label Whitaker, Kelley and Davis  Energy Facility and label Ryan Inc  Energy Facility",
+            "A": "The difference in coding Capacity factor (%) between Whitaker, Kelley and Davis  Energy Facility and Ryan Inc  Energy Facility is {9.21}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Fuel efficiency (%) dimension in the parallel coordinates?",
+            "A": "{[90.0, 44.44, 43.82]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Maintenance cost (USD/MWh) dimension in the parallel coordinates?",
+            "A": "{[1.0, 62.68, 68.75]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Capacity factor (%), which label has a higher score: Barrett, Fernandez and Patel  Energy Facility or Whitaker, Kelley and Davis  Energy Facility?",
+            "A": "{Whitaker, Kelley and Davis  Energy Facility} has a higher score on Capacity factor (%)."
+        },
+        {
+            "Q": "On Fuel efficiency (%), which label has a higher score: Murray, Lane and Smith  Generation Station or Pena PLC  Generation Station?",
+            "A": "{Pena PLC  Generation Station} has a higher score on Fuel efficiency (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Output (MWh)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Capacity factor (%) being greater than 66.58 and Fuel efficiency (%) being less than 50.55?",
+            "A": "There are {4} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

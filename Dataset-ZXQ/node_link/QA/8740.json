@@ -1,0 +1,71 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {node_link chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many nodes are in this node-link chart?",
+            "A": "There are {10} nodes."
+        },
+        {
+            "Q": "How many links are in this node-link chart?",
+            "A": "There are {16} links."
+        },
+        {
+            "Q": "How many nodes link with node Cairo Pyramid Zone?",
+            "A": "There are {3} nodes link with node Cairo Pyramid Zone."
+        }
+    ],
+    "SRP": [],
+    "VPR": [],
+    "VE": [
+        {
+            "Q": "What is the relationship between node Paris Historical Spot and node Kyoto Temple Area in this node-link chart?",
+            "A": "The relationship between node Paris Historical Spot and node Kyoto Temple Area is {hotel_chain_membership}."
+        },
+        {
+            "Q": "What is the relationship between node Paris Historical Spot and node Santorini Scenic Viewpoint in this node-link chart?",
+            "A": "The relationship between node Paris Historical Spot and node Santorini Scenic Viewpoint is {tourism_package_link}."
+        }
+    ],
+    "EVJ": [],
+    "SC": [
+        {
+            "Q": "How many links have the relation type tourism_package_link?",
+            "A": "There are {2} links with the relation type tourism_package_link."
+        },
+        {
+            "Q": "How many links have the relation type hotel_chain_membership?",
+            "A": "There are {4} links with the relation type hotel_chain_membership."
+        },
+        {
+            "Q": "How many links have the relation type tour_route?",
+            "A": "There are {2} links with the relation type tour_route."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Under node Beijing Forbidden Site, how many links are of type hotel_chain_membership?",
+            "A": "Node Beijing Forbidden Site has {1} links of type hotel_chain_membership."
+        }
+    ],
+    "NC": [],
+    "MSR": [
+        {
+            "Q": "Which node is considered the most important in the node link chart?",
+            "A": "The most important node is {Kyoto Temple Area}."
+        },
+        {
+            "Q": "Please list the top three nodes by degree and their corresponding degrees.",
+            "A": "The top three nodes by degree are: {node Kyoto Temple Area with a degree of 6}, {node New York City Landmark with a degree of 6}, {node Paris Historical Spot with a degree of 5}."
+        },
+        {
+            "Q": "What is the shortest path from node Paris Historical Spot to node Cairo Pyramid Zone in the node link diagram? Please list all nodes along this path in sequence.",
+            "A": "The shortest path from node Paris Historical Spot to node Cairo Pyramid Zone is: {Paris Historical Spot to Cairo Pyramid Zone}."
+        }
+    ],
+    "VA": []
+}

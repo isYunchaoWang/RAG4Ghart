@@ -1,0 +1,28 @@
+Energy and Utilities,Energy Distribution by Category (2024),%
+parent,child,value
+,Power Generation,100.0
+Power Generation,Nuclear Plants,30.61
+Nuclear Plants,Reactor Types,30.61
+Reactor Types,Pressurized Water,12.18
+Pressurized Water,Coolant Systems,12.18
+Coolant Systems,Steam Generators,6.16
+Coolant Systems,Pressurizers,6.02
+Reactor Types,Boiling Water,18.43
+Boiling Water,Containment,18.43
+Containment,Suppression Pool,10.19
+Containment,Drywell Venting,8.24
+Power Generation,Renewable Farms,69.39
+Renewable Farms,Solar Arrays,43.67
+Solar Arrays,Tracking Systems,43.67
+Tracking Systems,Single-Axis,35.38
+Single-Axis,Drivetrain,35.38
+Drivetrain,AC Motors,8.55
+Drivetrain,PLC Controllers,26.83
+Tracking Systems,Dual-Axis,8.29
+Dual-Axis,Azimuth Control,8.29
+Renewable Farms,Wind Turbines,25.72
+Wind Turbines,Blade Design,25.72
+Blade Design,Composite Materials,25.72
+Composite Materials,Aerodynamic Testing,25.72
+Aerodynamic Testing,Wind Tunnel,6.34
+Aerodynamic Testing,CFD Simulation,19.38

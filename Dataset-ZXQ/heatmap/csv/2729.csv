@@ -1,0 +1,57 @@
+Energy and Utilities,the Comparison of Energy and Utilities,8x7,vertical_gradient
+Coal,Consumption,0.13
+Distribution,Consumption,0.16
+Electricity,Consumption,0.19
+Gas,Consumption,0.2
+Nuclear,Consumption,0.15
+Oil,Consumption,0.17
+Transmission,Consumption,0.15
+Waste Management,Consumption,0.19
+Coal,Efficiency,0.27
+Distribution,Efficiency,0.28
+Electricity,Efficiency,0.29
+Gas,Efficiency,0.28
+Nuclear,Efficiency,0.28
+Oil,Efficiency,0.26
+Transmission,Efficiency,0.25
+Waste Management,Efficiency,0.26
+Coal,Emissions,0.4
+Distribution,Emissions,0.39
+Electricity,Emissions,0.39
+Gas,Emissions,0.41
+Nuclear,Emissions,0.38
+Oil,Emissions,0.41
+Transmission,Emissions,0.37
+Waste Management,Emissions,0.42
+Coal,Infrastructure,0.51
+Distribution,Infrastructure,0.5
+Electricity,Infrastructure,0.51
+Gas,Infrastructure,0.48
+Nuclear,Infrastructure,0.48
+Oil,Infrastructure,0.5
+Transmission,Infrastructure,0.49
+Waste Management,Infrastructure,0.49
+Coal,Prices,0.59
+Distribution,Prices,0.61
+Electricity,Prices,0.59
+Gas,Prices,0.61
+Nuclear,Prices,0.62
+Oil,Prices,0.62
+Transmission,Prices,0.62
+Waste Management,Prices,0.62
+Coal,Production,0.71
+Distribution,Production,0.7
+Electricity,Production,0.73
+Gas,Production,0.72
+Nuclear,Production,0.7
+Oil,Production,0.73
+Transmission,Production,0.68
+Waste Management,Production,0.71
+Coal,Reliability,0.86
+Distribution,Reliability,0.83
+Electricity,Reliability,0.81
+Gas,Reliability,0.82
+Nuclear,Reliability,0.84
+Oil,Reliability,0.85
+Transmission,Reliability,0.84
+Waste Management,Reliability,0.79

@@ -1,0 +1,20 @@
+Human Resources and Employee Management ,Employee Distribution by Category (2021),%
+parent,child,value
+Root,Workplace Wellbeing,44.04
+Workplace Wellbeing,Work-Life Balance,14.14
+Work-Life Balance,Flexible Scheduling,7.82
+Work-Life Balance,Employee Assistance,6.32
+Workplace Wellbeing,Health & Safety,29.9
+Health & Safety,Emergency Response,23.68
+Emergency Response,First Aid Training,7.31
+Emergency Response,Evacuation Drills,9.48
+Emergency Response,Fire Safety,6.9
+Health & Safety,Ergonomics,6.22
+Root,Employee Lifecycle,21.67
+Employee Lifecycle,Onboarding,11.69
+Onboarding,Orientation,11.69
+Orientation,Policy Training,5.44
+Orientation,Welcome Sessions,6.25
+Employee Lifecycle,Recruitment,9.98
+Root,Employee Development,34.29
+Employee Development,Performance Management,34.29

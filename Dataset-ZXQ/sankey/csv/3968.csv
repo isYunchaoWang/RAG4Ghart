@@ -1,0 +1,24 @@
+Education and Academics,Education System Framework,Students,random,Post-Education Paths,Support Services,Enrollment Channels,Institution Types
+Source,Target,Value
+Gap Year,Academic Advising,6018
+Gap Year,Counseling,697
+Certification Programs,Academic Advising,5523
+Certification Programs,Counseling,2089
+Employment,Academic Advising,423
+Employment,Counseling,526
+Graduate Studies,Academic Advising,1482
+Graduate Studies,Counseling,1470
+Entrepreneurship,Academic Advising,2294
+Entrepreneurship,Counseling,509
+Academic Advising,Scholarships,8055
+Academic Advising,Exchange Programs,1596
+Academic Advising,Entrance Exams,6089
+Counseling,Scholarships,389
+Counseling,Exchange Programs,3071
+Counseling,Entrance Exams,1831
+Scholarships,Community College,3497
+Scholarships,Private School,4947
+Exchange Programs,Community College,1654
+Exchange Programs,Private School,3013
+Entrance Exams,Community College,1206
+Entrance Exams,Private School,6714

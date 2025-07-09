@@ -1,0 +1,111 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {line chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this lines chart?",
+            "A": "There are {1} lines."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On Seasonal Goods, what is the spatial relationship of the data point in 1998 relative to that in 1983 in terms of vertical (above/below) and horizontal (left/right) directions?",
+            "A": "On Seasonal Goods, the data point in 1998 is {above} and to the {right} of the data point in 1983."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "What is the trend of Seasonal Goods's Return Rate levels?",
+            "A": "Seasonal Goods's return rate levels show a {volatile rising} trend."
+        },
+        {
+            "Q": "Which line shows a volatile rising trend in Return Rate levels?",
+            "A": "{Seasonal Goods}."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is Seasonal Goods's Return Rate in 1995?",
+            "A": "Seasonal Goods's return rate in 1995 is {13.41} %."
+        },
+        {
+            "Q": "What is Seasonal Goods's Return Rate in 1993?",
+            "A": "Seasonal Goods's return rate in 1993 is {12.56} %."
+        },
+        {
+            "Q": "What is Seasonal Goods's Return Rate in 1976?",
+            "A": "Seasonal Goods's return rate in 1976 is {5.90} %."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global minimum Return Rate in the line chart?",
+            "A": "The global minimum return rate is {4.96} %."
+        },
+        {
+            "Q": "What is the global maximum Return Rate in the line chart?",
+            "A": "The global maximum return rate is {15.06} %."
+        },
+        {
+            "Q": "What is the highest Return Rate level recorded for Seasonal Goods?",
+            "A": "Seasonal Goods reached approximately {15.06} % in {1999}."
+        },
+        {
+            "Q": "What is the lowest Return Rate level recorded for Seasonal Goods?",
+            "A": "Seasonal Goods's lowest recorded level is approximately {4.96} % in {1974}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Seasonal Goods's Return Rate?",
+            "A": "The average value of Seasonal Goods's return rate is {10.04} %."
+        },
+        {
+            "Q": "What is the rate of change in Seasonal Goods's Return Rate from the starting year to the final year?",
+            "A": "The rate of growth in Seasonal Goods's return rate is {203.63}%."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which years did Seasonal Goods's Return Rate between 8 and 12 %? Please list the years and corresponding values.",
+            "A": "{9.01} % in {1984} year, {11.77} % in {1991} year, {8.33} % in {1982} year."
+        },
+        {
+            "Q": "Which years did Seasonal Goods's Return Rate below 8 %? Please list the years and corresponding values.",
+            "A": "{5.39} % in {1975} year, {6.60} % in {1978} year, {6.38} % in {1977} year."
+        },
+        {
+            "Q": "Which years did Seasonal Goods's Return Rate exceed 12 %? Please list the years and corresponding values.",
+            "A": "{13.07} % in {1994} year, {14.37} % in {1997} year, {15.06} % in {1999} year."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Was Seasonal Goods's Return Rate in 1977 higher or lower than in 1997?",
+            "A": "The return rate in 1977 was {lower} than in 1997."
+        },
+        {
+            "Q": "Was Seasonal Goods's Return Rate in 1977 higher or lower than in 1990?",
+            "A": "The return rate in 1977 was {lower} than in 1990."
+        },
+        {
+            "Q": "Was Seasonal Goods's Return Rate in 1985 higher or lower than in 1992?",
+            "A": "The return rate in 1985 was {lower} than in 1992."
+        },
+        {
+            "Q": "Was Seasonal Goods's Return Rate in 1974 higher or lower than in 1995?",
+            "A": "The return rate in 1974 was {lower} than in 1995."
+        }
+    ],
+    "MSR": [],
+    "VA": [
+        {
+            "Q": "Perform the Douglas-Peucker algorithm to simplify the line representing the Seasonal Goods. List the x-coordinates of data points to be preserved.(2 points need to be provided)",
+            "A": "The x-coordinates of the data points to be preserved are: {1974, 1999}."
+        }
+    ]
+}

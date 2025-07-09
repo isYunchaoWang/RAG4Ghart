@@ -1,0 +1,107 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of chart is this?",
+            "A": "This chart is a {Parallel Chart}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many lines are in this parallel-coordinates chart",
+            "A": "There are {7} lines."
+        },
+        {
+            "Q": "How many dimensions are in this parallel-coordinates chart?",
+            "A": "There are {6} dimensions."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "On the Salary range (USD thousands) dimension, what is the spatial relationship of Osborne-Hill relative to Miller Ltd in terms of vertical (above/below) direction?",
+            "A": "{Osborne-Hill} is {below} {Miller Ltd} on the Salary range (USD thousands) dimension."
+        },
+        {
+            "Q": "Which dimension is the first position to the left of dimension Remote work allowance (days/week)?",
+            "A": "The first position to the left of Remote work allowance (days/week) is {Salary range (USD thousands)}."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the rightmost of the parallel chart?",
+            "A": "The {Stock options (%)} axis is positioned at the rightmost of the parallel chart."
+        },
+        {
+            "Q": "Which dimension axis is positioned at the leftmost of the parallel chart?",
+            "A": "The {Bonus percentage (%)} axis is positioned at the leftmost of the parallel chart."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which dimension has the highest variability in the parallel-coordinates chart?",
+            "A": " {Benefits cost (USD/year)} shows the highest variability."
+        },
+        {
+            "Q": "What kind of correlation exists between Salary range (USD thousands) and dimension Remote work allowance (days/week)",
+            "A": "There is {Strong Correlation} between Salary range (USD thousands) and Remote work allowance (days/week)."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the value of Miller Ltd on the Remote work allowance (days/week) dimension in the parallel-coordinates chart?",
+            "A": "The value of Miller Ltd on the Remote work allowance (days/week) dimension is {5.0}"
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the maximum value of label Miller Ltd across all dimensions in the parallel-coordinates chart?",
+            "A": "The maximum value of Miller Ltd across all dimensions is {4506.29}"
+        },
+        {
+            "Q": "What is the minimum value of label Mcdonald, Sanchez and Johnson across all dimensions in the parallel-coordinates chart?",
+            "A": "The minimum value of Mcdonald, Sanchez and Johnson across all dimensions is {0.0}."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the average value of Benefits cost (USD/year)?",
+            "A": "The average value of Benefits cost (USD/year) is {12800.36}"
+        },
+        {
+            "Q": "What is the difference in coding Pay equity ratio (ratio) between label Thompson-Thomas and label Gibbs and Sons",
+            "A": "The difference in coding Pay equity ratio (ratio) between Thompson-Thomas and Gibbs and Sons is {0.24}."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "What are the top 3 values for Pay equity ratio (ratio) dimension in the parallel coordinates?",
+            "A": "{[1.2, 0.97, 0.96]}"
+        },
+        {
+            "Q": "What are the bottom 3 values for Remote work allowance (days/week) dimension in the parallel coordinates?",
+            "A": "{[0.0, 0.98, 0.99]}"
+        }
+    ],
+    "NC": [
+        {
+            "Q": "On Benefits cost (USD/year), which label has a higher score: Mora, Ortega and Howard or Gibbs and Sons?",
+            "A": "{Mora, Ortega and Howard} has a higher score on Benefits cost (USD/year)."
+        },
+        {
+            "Q": "On Pay equity ratio (ratio), which label has a higher score: Osborne-Hill or Mcdonald, Sanchez and Johnson?",
+            "A": "{Mcdonald, Sanchez and Johnson} has a higher score on Pay equity ratio (ratio)."
+        },
+        {
+            "Q": "On Bonus percentage (%), which label has a higher score: Thompson-Thomas or Mcdonald, Sanchez and Johnson?",
+            "A": "{Thompson-Thomas} has a higher score on Bonus percentage (%)."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the parallel coordinates plot, which dimension has the highest degree of dispersion?",
+            "A": "The dimension with the highest degree of dispersion is {Benefits cost (USD/year)}."
+        },
+        {
+            "Q": "How many labels satisfy both the conditions of Stock options (%) being greater than 12.49 and Pay equity ratio (ratio) being less than 1.08?",
+            "A": "There are {2} label(s) that satisfy both conditions."
+        }
+    ],
+    "VA": []
+}

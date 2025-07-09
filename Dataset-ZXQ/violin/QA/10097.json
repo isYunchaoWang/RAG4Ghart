@@ -1,0 +1,127 @@
+{
+    "CTR": [
+        {
+            "Q": "What type of plot is this?",
+            "A": "This chart is a {violin plot}."
+        }
+    ],
+    "VEC": [
+        {
+            "Q": "How many violins are in this violin plot?",
+            "A": "There are {3} violins."
+        }
+    ],
+    "SRP": [
+        {
+            "Q": "Which violin does the leftmost violin represent?",
+            "A": "The leftmost violin represents {Rosewood}."
+        },
+        {
+            "Q": "Which violin does the rightmost violin represent?",
+            "A": "The rightmost violin represents {Elmhurst}."
+        },
+        {
+            "Q": "Which violin is the second position to the left of the violin Elmhurst?",
+            "A": "The second position to the left of the violin Elmhurst is {Rosewood}."
+        },
+        {
+            "Q": "What is the spatial relationship of violin Highvale relative to the violin Elmhurst in terms of horizontal (left/right) direction?",
+            "A": "violin Highvale is to the {left} of the violin Elmhurst."
+        }
+    ],
+    "VPR": [
+        {
+            "Q": "Which violin has the largest median in this violin plot?",
+            "A": "The violin with the largest median is {Highvale}."
+        },
+        {
+            "Q": "Which violin has the highest upper quartile (Q3) in this violin plot?",
+            "A": "The violin with the highest Q3 is {Highvale}."
+        },
+        {
+            "Q": "What is the density distribution pattern of the violin representing Elmhurst?",
+            "A": "The density distribution pattern of the Elmhurst shows a {normal} distribution."
+        }
+    ],
+    "VE": [
+        {
+            "Q": "What is the median of Elmhurst in the violin plot?",
+            "A": "The median of Elmhurst is {428.00} million USD."
+        },
+        {
+            "Q": "What is the lower quartile (Q1) of Highvale in the violin plot?",
+            "A": "The lower quartile (Q1) of Highvale is {566.25} million USD."
+        },
+        {
+            "Q": "What is the upper whisker limit of Elmhurst in the violin plot?",
+            "A": "The upper whisker limit of Elmhurst is {705.00} million USD."
+        },
+        {
+            "Q": "What is the lowest lower outlier value in Rosewood in the violin plot?",
+            "A": "The lowest upper outlier value in Rosewood is {111.00}."
+        }
+    ],
+    "EVJ": [
+        {
+            "Q": "What is the global maximum million USD value in the violin plot?",
+            "A": "The global maximum million USD value in the violin plot is {1055.00} million USD."
+        },
+        {
+            "Q": "What is the global minimum million USD value in the violin plot?",
+            "A": "The global minimum million USD value in the violin plot is {107.00} million USD."
+        }
+    ],
+    "SC": [
+        {
+            "Q": "What is the Q3 difference between violin Highvale and Elmhurst?",
+            "A": "The Q3 difference between violin Highvale and Elmhurst is {266.00} million USD."
+        },
+        {
+            "Q": "What is the toal Median value of violin Rosewood and Elmhurst?",
+            "A": "The total Median value of violin Rosewood and Elmhurst is {975.50} million USD."
+        },
+        {
+            "Q": "What is the average Q1 value of violin Highvale and Rosewood?",
+            "A": "The average Q1 value of violin Highvale and Rosewood is {499.12} million USD."
+        }
+    ],
+    "NF": [
+        {
+            "Q": "Which violins have median values exceed 487.75 million USD? Please list the violins and corresponding values.",
+            "A": "{Rosewood} has {547.50} million USD , {Highvale} has {665.50} million USD "
+        },
+        {
+            "Q": "Which violins have median values below 606.50 million USD? Please list the violins and corresponding values.",
+            "A": "{Rosewood} has {547.50} million USD , {Elmhurst} has {428.00} million USD "
+        },
+        {
+            "Q": "Which violins in the violin plot have both the lower quartile (Q1) above 383.75 million USD and the upper quartile (Q3) below 708.25 million USD?",
+            "A": "Violin {Rosewood} has the Q1 above 383.75 million USD and the Q3 below 708.25 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak exceed 497.34 million USD?",
+            "A": "Violin {Rosewood} has {561.45} million USD ,{Highvale} has {655.73} million USD have their highest density peak exceed 497.34 million USD."
+        },
+        {
+            "Q": "Which violins in the violin plot have their highest density peak below 497.34 million USD?",
+            "A": "Violin {Elmhurst} has {433.24} million USD have their highest density peak below 497.34 million USD."
+        }
+    ],
+    "NC": [
+        {
+            "Q": "Which is larger, the median value of Elmhurst or Rosewood ",
+            "A": "The median value of the {Rosewood} is larger."
+        },
+        {
+            "Q": "Which is larger, the median value of Rosewood, Elmhurst or Highvale ",
+            "A": "The median value of the {Highvale} is larger."
+        }
+    ],
+    "MSR": [
+        {
+            "Q": "In the violin plot, which group has the widest range of data distribution (from minimum to maximum)?",
+            "A": "The group with the widest range of data distribution is {Highvale}."
+        }
+    ],
+    "VA": []
+}
