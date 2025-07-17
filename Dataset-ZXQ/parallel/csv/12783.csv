@@ -1,7 +1,0 @@
-﻿Retail and E-commerce,Sales Performance of Different Company
-Pattern,Weak Correlation,Weak Correlation,Strong Correlation,No Correlation,Strong Correlation,Weak Correlation
-labels,Return rate (%),Average order value (USD),Customer retention rate (%),Conversion rate (%),Cart abandonment rate (%),Gross margin (%),Inventory accuracy (%)
-Daniel Group,25.5,500.0,50.0,10.0,40.0,10.0,80.0
-"Saunders, Kennedy and Hunt",30.0,204.32,34.2,6.34,90.0,60.0,87.56
-"Joyce, Porter and Hall",1.0,10.0,5.0,0.91,64.31,45.0,96.67
-Curry Inc,22.49,79.69,6.49,0.5,53.76,30.15,100.0

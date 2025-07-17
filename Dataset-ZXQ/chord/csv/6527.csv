@@ -1,8 +1,0 @@
-Healthcare and Health, Medical Referral Flow, Patients, linear
-Source,Target,Value
-Rural Township Clinic,TCM Hospital,555
-TCM Hospital,Rural Township Clinic,464
-Emergency Medical Center,TCM Hospital,377
-TCM Hospital,Emergency Medical Center,306
-Rural Township Clinic,Emergency Medical Center,244
-Emergency Medical Center,Rural Township Clinic,162

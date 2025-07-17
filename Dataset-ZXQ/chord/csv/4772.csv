@@ -1,8 +1,0 @@
-Energy and Utilities, Energy Production and Consumption Flow, Gigawatt-hours, normal
-Source,Target,Value
-Hydropower,Solar,51
-Solar,Hydropower,153
-Natural Gas,Solar,289
-Solar,Natural Gas,358
-Hydropower,Natural Gas,307
-Natural Gas,Hydropower,151

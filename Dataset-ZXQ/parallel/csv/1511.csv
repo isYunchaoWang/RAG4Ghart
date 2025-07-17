@@ -1,9 +1,0 @@
-﻿Human Resources and Employee Management,Compensation Analysis
-Pattern,No Correlation,Weak Correlation,Clustering,Clustering,No Correlation,Weak Correlation
-labels,Overtime hours/month(hours),Stock options (%),Bonus percentage (%),Pay equity ratio (ratio),Salary range (USD thousands),Benefits cost (USD/year),Remote work allowance (days/week)
-"Nelson, Richard and Hogan",0.0,20.0,10.09,1.18,258.11,18949.25,3.1
-Shaw Group,30.63,19.25,50.0,0.86,426.64,4735.05,2.48
-"Peters, Garcia and Copeland",4.82,6.82,43.61,0.8,423.73,1000.0,3.5
-Black-Jackson,22.66,7.44,0.75,1.2,262.14,20000.0,5.0
-King-Gonzales,13.62,14.07,34.39,0.9,500.0,11440.13,4.59
-"Hill, Walker and Jones",40.0,0.0,0.0,1.0,20.0,8046.35,0.0

@@ -1,8 +1,0 @@
-﻿Agriculture and Food Production,Farm Productivity
-Pattern,Strong Correlation,No Correlation
-labels,Yield per acre (tons),Harvest frequency (per year),Pesticide use (kg/ha)
-address  Potato,50.0,4.0,20.0
-animal  Soybean,8.89,1.0,0.0
-young  Oats,8.63,2.76,6.75
-stay  Tomato,0.5,1.96,6.77
-letter  Potato,5.69,3.37,19.12

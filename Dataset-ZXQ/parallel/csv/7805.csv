@@ -1,9 +1,0 @@
-﻿Healthcare and Health,Patient Care Metrics In Different Hostpital
-Pattern,No Correlation,Clustering,Strong Correlation,Weak Correlation
-labels,Patient satisfaction (1-10),Average length of stay (days),Wait time (minutes),Readmission rate (%),Preventive care rate (%)
-"Davis, Johnson and Hicks  Clinic",3.0,6.13,137.8,14.62,90.0
-Cox PLC  Medical Center,9.42,4.43,77.66,7.93,46.76
-Douglas-Smith  Hospital,7.22,14.0,240.0,25.0,45.52
-Carter Ltd  Medical Center,8.72,1.0,75.59,8.42,70.78
-Banks-Hicks  Hospital,10.0,12.09,5.0,1.0,10.0
-"Jackson, Kim and Ibarra  Clinic",7.37,1.79,190.11,21.38,50.19

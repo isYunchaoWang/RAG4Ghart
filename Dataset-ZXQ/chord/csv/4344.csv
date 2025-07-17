@@ -1,8 +1,0 @@
-Energy and Utilities, Energy Production and Consumption Flow, Gigawatt-hours, random
-Source,Target,Value
-Coal,Wind,270
-Wind,Coal,155
-Wind,Geothermal,108
-Geothermal,Wind,254
-Coal,Geothermal,19
-Geothermal,Coal,298

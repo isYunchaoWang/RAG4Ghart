@@ -1,8 +1,0 @@
-Healthcare and Health, Medical Referral Flow, Patients, long_tail
-Source,Target,Value
-TCM Hospital,Tertiary General Hospital,1133
-Tertiary General Hospital,TCM Hospital,557
-Tertiary General Hospital,Rehabilitation Center,368
-Rehabilitation Center,Tertiary General Hospital,270
-TCM Hospital,Rehabilitation Center,225
-Rehabilitation Center,TCM Hospital,188
