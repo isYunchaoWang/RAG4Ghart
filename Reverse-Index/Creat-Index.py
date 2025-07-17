@@ -1,6 +1,7 @@
 import re
 import os
 import csv
+import nltk
 from collections import defaultdict
 
 # 根目录
@@ -9,9 +10,12 @@ root_dir = "../Dataset-ZXQ/sample100"
 # 倒排索引结构：词语 -> 出现的图表类型集合
 inverted_index = defaultdict(set)
 
+
+# nltk.download('punkt')
 # 正则表达式匹配词（可根据实际需要调整）
 def tokenize(text):
-    return re.findall(r'\b\w+\b', text.lower())
+    return nltk.word_tokenize(text.lower())
+
 
 # 遍历图表类型目录
 for chart_type in os.listdir(root_dir):
@@ -49,5 +53,6 @@ final_index = {word: sorted(list(types)) for word, types in inverted_index.items
 
 # 输出到文件
 import json
+
 with open("word2chart_index.json", "w", encoding="utf-8") as f:
     json.dump(final_index, f, ensure_ascii=False, indent=2)

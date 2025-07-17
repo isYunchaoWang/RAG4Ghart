@@ -1,5 +1,5 @@
 import json
-import re
+import nltk
 from collections import defaultdict, Counter
 
 # 加载已有倒排索引（词 → 图表类型列表）
@@ -7,9 +7,8 @@ with open("word2chart_index.json", "r", encoding="utf-8") as f:
     inverted_index = json.load(f)
 
 
-# 分词函数（简单英文、数字分词）
 def tokenize(text):
-    return re.findall(r'\b\w+\b', text.lower())
+    return nltk.word_tokenize(text.lower())
 
 
 # 推荐函数：输入一段描述，返回匹配度最高的 top_k 个图表类型

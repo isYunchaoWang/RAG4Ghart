@@ -9,10 +9,7 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
-    "radar",
-    "ridgeline",
     "sankey",
     "scatter",
     "stacked_area",
@@ -69,6 +66,30 @@
     "treemap_D3",
     "violin"
   ],
+  ",": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
   "data": [
     "bar",
     "box",
@@ -79,23 +100,36 @@
   "on": [
     "bar",
     "box",
-    "bubble",
     "radar",
     "ridgeline",
-    "scatter",
     "stacked_bar",
     "violin"
   ],
   "r": [
     "bar",
+    "line",
     "radar",
     "scatter",
     "stacked_area",
     "stacked_bar",
     "stream"
   ],
+  "&": [
+    "bar",
+    "box",
+    "heatmap",
+    "line",
+    "radar",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
   "d": [
     "bar",
+    "line",
     "radar",
     "scatter",
     "stacked_area",
@@ -107,6 +141,7 @@
     "box",
     "bubble",
     "chord",
+    "line",
     "radar",
     "ridgeline",
     "sankey",
@@ -134,7 +169,6 @@
     "box",
     "chord",
     "funnel",
-    "line",
     "sankey",
     "stacked_bar",
     "stream",
@@ -144,16 +178,16 @@
     "bar",
     "box",
     "ridgeline",
-    "scatter",
     "stacked_bar",
     "violin"
   ],
-  "normal": [
+  "random": [
     "bar",
-    "box",
     "bubble",
     "chord",
-    "violin"
+    "heatmap",
+    "ridgeline",
+    "sankey"
   ],
   "horizontal": [
     "bar",
@@ -165,101 +199,19 @@
     "parallel",
     "stacked_bar"
   ],
-  "random": [
-    "bar",
-    "bubble",
-    "chord",
-    "heatmap",
-    "ridgeline",
-    "sankey"
+  "step": [
+    "bar"
   ],
   "vertical": [
     "bar",
     "box",
     "stacked_bar"
   ],
-  "business": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "finance": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "company": [
-    "bar",
-    "bubble",
-    "node_link",
-    "parallel",
-    "pie"
-  ],
-  "s": [
-    "bar"
-  ],
-  "annual": [
-    "bar"
-  ],
-  "revenue": [
-    "bar",
-    "box",
-    "bubble",
-    "line",
-    "pie",
-    "radar",
-    "sankey",
-    "scatter",
-    "stacked_bar",
-    "stream",
-    "violin"
-  ],
   "long_tail": [
     "bar",
     "chord"
   ],
   "leptokurtic": [
-    "bar"
-  ],
-  "step": [
     "bar"
   ],
   "social": [
@@ -271,7 +223,6 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
     "radar",
     "ridgeline",
@@ -342,7 +293,6 @@
     "line",
     "node_link",
     "parallel",
-    "pie",
     "radar",
     "ridgeline",
     "sankey",
@@ -422,6 +372,7 @@
   ],
   "views": [
     "bar",
+    "line",
     "sankey",
     "stacked_area",
     "stacked_bar",
@@ -431,7 +382,28 @@
     "bar",
     "radar"
   ],
-  "sports": [
+  "business": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "pie",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "finance": [
     "bar",
     "box",
     "bubble",
@@ -455,6 +427,63 @@
     "treemap_D3",
     "violin"
   ],
+  "company": [
+    "bar",
+    "bubble",
+    "node_link",
+    "parallel",
+    "pie"
+  ],
+  "'s": [
+    "bar"
+  ],
+  "annual": [
+    "bar"
+  ],
+  "revenue": [
+    "bar",
+    "box",
+    "bubble",
+    "line",
+    "pie",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "normal": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "violin"
+  ],
+  "bimodal": [
+    "bar"
+  ],
+  "sports": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "pie",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
   "entertainment": [
     "bar",
     "box",
@@ -465,7 +494,6 @@
     "line",
     "node_link",
     "parallel",
-    "pie",
     "radar",
     "ridgeline",
     "sankey",
@@ -496,8 +524,153 @@
     "box",
     "violin"
   ],
-  "bimodal": [
+  "tourism": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "pie",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap_D3",
+    "violin"
+  ],
+  "hospitality": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap_D3",
+    "violin"
+  ],
+  "famous": [
+    "bar",
+    "stacked_bar"
+  ],
+  "attractions": [
+    "bar",
+    "box",
+    "heatmap",
+    "sankey",
+    "stacked_bar",
+    "violin"
+  ],
+  "visitors": [
+    "bar",
+    "box",
+    "line",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "attraction": [
+    "bar",
+    "radar",
+    "scatter",
+    "stream"
+  ],
+  "transportation_and": [
     "bar"
+  ],
+  "logistics": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "fruit": [
+    "bar",
+    "box",
+    "violin"
+  ],
+  "transportation": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "flow": [
+    "bar",
+    "chord",
+    "funnel",
+    "node_link",
+    "sankey"
+  ],
+  "farms": [
+    "bar"
+  ],
+  "tons": [
+    "bar",
+    "box",
+    "chord",
+    "funnel",
+    "line",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
   ],
   "agriculture": [
     "bar",
@@ -508,10 +681,7 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
-    "radar",
-    "ridgeline",
     "sankey",
     "scatter",
     "stacked_area",
@@ -584,9 +754,7 @@
     "node_link",
     "parallel",
     "pie",
-    "stacked_area",
     "stacked_bar",
-    "stream",
     "violin"
   ],
   "an": [
@@ -594,29 +762,14 @@
   ],
   "area": [
     "bar",
-    "line",
     "stream"
   ],
   "metric": [
     "bar"
   ],
-  "tons": [
-    "bar",
-    "box",
-    "chord",
-    "funnel",
-    "line",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stream",
-    "violin"
-  ],
   "crop": [
     "bar",
     "box",
-    "bubble",
     "pie",
     "radar",
     "ridgeline",
@@ -633,147 +786,6 @@
     "treemap",
     "treemap_D3",
     "violin"
-  ],
-  "tourism": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "hospitality": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "famous": [
-    "bar",
-    "stacked_bar"
-  ],
-  "attractions": [
-    "bar",
-    "box",
-    "heatmap",
-    "sankey",
-    "stacked_bar",
-    "violin"
-  ],
-  "visitors": [
-    "bar",
-    "box",
-    "line",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "violin"
-  ],
-  "attraction": [
-    "bar",
-    "line",
-    "radar",
-    "stream"
-  ],
-  "transportation_and": [
-    "bar"
-  ],
-  "logistics": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "fruit": [
-    "bar",
-    "box",
-    "violin"
-  ],
-  "transportation": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "flow": [
-    "bar",
-    "chord",
-    "funnel",
-    "node_link",
-    "sankey"
-  ],
-  "farms": [
-    "bar"
   ],
   "cultural": [
     "bar",
@@ -854,10 +866,8 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
     "radar",
-    "ridgeline",
     "sankey",
     "scatter",
     "stacked_area",
@@ -905,7 +915,6 @@
     "chord",
     "line",
     "sankey",
-    "scatter",
     "stacked_area",
     "stacked_bar",
     "stream"
@@ -961,7 +970,7 @@
     "box",
     "bubble",
     "chord",
-    "heatmap",
+    "line",
     "pie",
     "radar",
     "sankey",
@@ -1019,7 +1028,6 @@
     "line",
     "node_link",
     "parallel",
-    "pie",
     "radar",
     "ridgeline",
     "sankey",
@@ -1064,7 +1072,6 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
     "radar",
     "ridgeline",
@@ -1123,12 +1130,7 @@
   ],
   "year": [
     "bar",
-    "bubble",
-    "line",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream"
+    "stacked_bar"
   ],
   "towns": [
     "bar",
@@ -1147,10 +1149,7 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
-    "radar",
-    "ridgeline",
     "sankey",
     "scatter",
     "stacked_area",
@@ -1236,7 +1235,6 @@
     "chord",
     "line",
     "sankey",
-    "stream",
     "violin"
   ],
   "companies": [
@@ -1254,10 +1252,7 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
-    "radar",
-    "ridgeline",
     "sankey",
     "scatter",
     "stacked_area",
@@ -1304,7 +1299,6 @@
     "radar",
     "ridgeline",
     "sankey",
-    "scatter",
     "stacked_area",
     "stacked_bar",
     "stream",
@@ -1378,10 +1372,7 @@
     "heatmap",
     "line",
     "node_link",
-    "parallel",
     "pie",
-    "radar",
-    "ridgeline",
     "sankey",
     "scatter",
     "stacked_area",
@@ -1392,7 +1383,7 @@
     "treemap_D3",
     "violin"
   ],
-  "e": [
+  "e-commerce": [
     "bar",
     "box",
     "bubble",
@@ -1403,31 +1394,6 @@
     "line",
     "node_link",
     "parallel",
-    "pie",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "sunburst",
-    "treemap",
-    "treemap_D3",
-    "violin"
-  ],
-  "commerce": [
-    "bar",
-    "box",
-    "bubble",
-    "chord",
-    "fill_bubble",
-    "funnel",
-    "heatmap",
-    "line",
-    "node_link",
-    "parallel",
-    "pie",
     "radar",
     "ridgeline",
     "sankey",
@@ -1450,8 +1416,6 @@
     "bar",
     "bubble",
     "funnel",
-    "line",
-    "stacked_area",
     "stacked_bar",
     "stream"
   ],
@@ -1464,20 +1428,15 @@
   "platform": [
     "bar",
     "chord",
+    "line",
     "node_link",
     "sankey",
-    "stacked_area",
     "stacked_bar",
     "stream"
   ],
   "month": [
     "bar",
-    "bubble",
-    "line",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream"
+    "stacked_bar"
   ],
   "research": [
     "box",
@@ -1491,12 +1450,12 @@
     "ridgeline",
     "sankey",
     "stacked_area",
-    "stream",
     "violin"
   ],
   "development": [
     "box",
     "sankey",
+    "scatter",
     "violin"
   ],
   "by": [
@@ -1518,23 +1477,33 @@
     "box",
     "violin"
   ],
-  "dunvale": [
+  "northgate": [
     "box",
-    "violin"
-  ],
-  "lakeview": [
-    "box",
-    "violin"
-  ],
-  "mapleton": [
-    "box",
-    "violin"
-  ],
-  "highvale": [
-    "box",
+    "stacked_bar",
     "violin"
   ],
   "zephyr": [
+    "box",
+    "violin"
+  ],
+  "t": [
+    "box",
+    "violin"
+  ],
+  "quarryville": [
+    "box",
+    "violin"
+  ],
+  "oakridge": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "pinehaven": [
+    "box",
+    "violin"
+  ],
+  "elmhurst": [
     "box",
     "violin"
   ],
@@ -1542,85 +1511,7 @@
     "box",
     "violin"
   ],
-  "ecocore": [
-    "box",
-    "stacked_bar"
-  ],
-  "urbanflow": [
-    "box",
-    "stacked_bar"
-  ],
-  "smarthub": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "kilograms": [
-    "box",
-    "violin"
-  ],
-  "per": [
-    "box",
-    "bubble",
-    "line",
-    "stacked_area",
-    "stream",
-    "violin"
-  ],
-  "hectare": [
-    "box",
-    "ridgeline",
-    "scatter",
-    "stacked_area",
-    "stream",
-    "violin"
-  ],
-  "rice": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "cotton": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "cocoa": [
-    "box",
-    "violin"
-  ],
-  "corn": [
-    "box",
-    "stacked_bar"
-  ],
-  "flax": [
-    "box",
-    "violin"
-  ],
-  "barley": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "t": [
-    "box",
-    "violin"
-  ],
-  "springfield": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "northgate": [
-    "box",
-    "violin"
-  ],
-  "glenhaven": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "oakridge": [
+  "brookfield": [
     "box",
     "stacked_bar",
     "violin"
@@ -1633,7 +1524,11 @@
     "box",
     "violin"
   ],
-  "brookfield": [
+  "ironwood": [
+    "box",
+    "violin"
+  ],
+  "westport": [
     "box",
     "stacked_bar",
     "violin"
@@ -1642,45 +1537,70 @@
     "box",
     "violin"
   ],
-  "pinehaven": [
+  "mapleton": [
     "box",
+    "stacked_bar",
     "violin"
   ],
-  "quarryville": [
+  "springfield": [
     "box",
+    "stacked_bar",
     "violin"
   ],
-  "yorkton": [
+  "novaedge": [
     "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "puresync": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "ecocore": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "urbanflow": [
+    "box",
+    "stacked_bar",
     "violin"
   ],
   "daily": [
     "box",
     "bubble",
     "line",
-    "stream",
+    "stacked_area",
     "violin"
   ],
   "viewers": [
     "box",
     "bubble",
-    "line",
     "stream",
+    "violin"
+  ],
+  "zoomo": [
+    "box"
+  ],
+  "clipio": [
+    "box"
+  ],
+  "streamo": [
+    "box",
     "violin"
   ],
   "videx": [
     "box",
     "violin"
   ],
-  "vido": [
-    "box",
-    "violin"
+  "snapplay": [
+    "box"
   ],
-  "flowvid": [
-    "box",
-    "violin"
+  "viewly": [
+    "box"
   ],
-  "moviq": [
+  "vizzle": [
     "box",
     "violin"
   ],
@@ -1688,105 +1608,62 @@
     "box",
     "violin"
   ],
-  "playbit": [
-    "box",
-    "violin"
-  ],
-  "viewly": [
-    "box",
-    "violin"
-  ],
-  "streamo": [
-    "box",
-    "violin"
-  ],
   "showio": [
     "box",
     "violin"
   ],
-  "glimpr": [
+  "vido": [
     "box",
     "violin"
   ],
-  "vizzle": [
+  "tubeo": [
+    "box",
+    "violin"
+  ],
+  "reelix": [
+    "box",
+    "violin"
+  ],
+  "flowvid": [
     "box"
-  ],
-  "flicksy": [
-    "box",
-    "violin"
   ],
   "scenex": [
     "box",
     "violin"
   ],
-  "zoomo": [
+  "moviq": [
     "box",
     "violin"
-  ],
-  "tubeo": [
-    "box"
-  ],
-  "clipio": [
-    "box"
-  ],
-  "pixelx": [
-    "box",
-    "violin"
-  ],
-  "watchit": [
-    "box"
   ],
   "projected": [
     "box",
     "violin"
   ],
-  "true": [
+  "shadow": [
     "box",
-    "stacked_bar",
+    "stacked_bar"
+  ],
+  "line": [
+    "box",
+    "stacked_bar"
+  ],
+  "last": [
+    "box",
     "violin"
   ],
-  "edge": [
+  "ember": [
     "box",
-    "stacked_bar",
     "violin"
   ],
   "broken": [
     "box",
-    "stacked_bar"
+    "stacked_bar",
+    "violin"
   ],
   "mirror": [
     "box",
-    "stacked_bar"
-  ],
-  "fading": [
-    "box",
+    "stacked_bar",
     "violin"
-  ],
-  "light": [
-    "box",
-    "violin"
-  ],
-  "wild": [
-    "box"
-  ],
-  "bloom": [
-    "box"
-  ],
-  "starlight": [
-    "box",
-    "stacked_bar"
-  ],
-  "lost": [
-    "box",
-    "stacked_bar"
-  ],
-  "signal": [
-    "box",
-    "stacked_bar"
-  ],
-  "nightfall": [
-    "box",
-    "stacked_bar"
   ],
   "plain": [
     "box",
@@ -1798,43 +1675,47 @@
     "stacked_bar",
     "violin"
   ],
-  "hidden": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "truth": [
-    "box",
-    "stacked_bar"
-  ],
-  "frozen": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "time": [
-    "box",
-    "bubble",
-    "line",
-    "radar",
-    "ridgeline",
-    "scatter",
-    "stacked_area",
-    "stream",
-    "violin"
-  ],
-  "deep": [
+  "fading": [
     "box"
   ],
-  "waters": [
+  "light": [
     "box"
   ],
-  "dark": [
+  "wild": [
+    "box"
+  ],
+  "bloom": [
+    "box"
+  ],
+  "silent": [
     "box",
     "stacked_bar",
     "violin"
   ],
-  "horizon": [
+  "echo": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "twin": [
+    "box",
+    "violin"
+  ],
+  "souls": [
+    "box",
+    "violin"
+  ],
+  "lost": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "signal": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "echoes": [
     "box",
     "stacked_bar",
     "violin"
@@ -1850,29 +1731,34 @@
     "stacked_bar",
     "violin"
   ],
-  "last": [
-    "box"
-  ],
-  "ember": [
-    "box"
-  ],
-  "silent": [
+  "dark": [
     "box",
     "stacked_bar",
     "violin"
   ],
-  "echo": [
+  "horizon": [
     "box",
     "stacked_bar",
     "violin"
   ],
-  "twin": [
-    "box"
+  "iron": [
+    "box",
+    "violin"
   ],
-  "souls": [
-    "box"
+  "heart": [
+    "box",
+    "violin"
   ],
-  "brightedge": [
+  "nightfall": [
+    "box",
+    "violin"
+  ],
+  "true": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "edge": [
     "box",
     "stacked_bar",
     "violin"
@@ -1883,36 +1769,101 @@
     "stacked_bar",
     "violin"
   ],
-  "one": [
+  "one-day": [
     "box",
-    "violin"
-  ],
-  "day": [
-    "box",
-    "bubble",
-    "line",
-    "ridgeline",
-    "scatter",
-    "stacked_area",
-    "stream",
     "violin"
   ],
   "to": [
     "box",
     "line",
-    "radar",
-    "stacked_area",
-    "stream",
+    "violin"
+  ],
+  "celestial": [
+    "box",
+    "violin"
+  ],
+  "arch": [
+    "box",
+    "violin"
+  ],
+  "crystal": [
+    "box"
+  ],
+  "falls": [
+    "box"
+  ],
+  "willow": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "grove": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "dragon": [
+    "box"
+  ],
+  "ruins": [
+    "box"
+  ],
+  "golden": [
+    "box"
+  ],
+  "dunes": [
+    "box"
+  ],
+  "sun": [
+    "box"
+  ],
+  "harbor": [
+    "box"
+  ],
+  "hidden": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "valley": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "coral": [
+    "box",
+    "stacked_bar"
+  ],
+  "lookout": [
+    "box",
+    "stacked_bar"
+  ],
+  "rainbow": [
+    "box"
+  ],
+  "gorge": [
+    "box"
+  ],
+  "silver": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "lotus": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "temple": [
+    "box",
+    "stacked_bar",
     "violin"
   ],
   "emerald": [
-    "box",
-    "stacked_bar",
-    "violin"
+    "box"
   ],
   "beach": [
     "box",
-    "stacked_bar",
     "violin"
   ],
   "misty": [
@@ -1925,42 +1876,38 @@
     "stacked_bar",
     "violin"
   ],
-  "willow": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "grove": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "rainbow": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "gorge": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
   "sunset": [
     "box",
+    "stacked_bar",
     "violin"
   ],
   "cliff": [
     "box",
-    "violin"
-  ],
-  "moon": [
-    "box",
     "stacked_bar",
     "violin"
   ],
-  "cavern": [
+  "maple": [
     "box",
-    "stacked_bar",
+    "violin"
+  ],
+  "arbor": [
+    "box",
+    "violin"
+  ],
+  "spring": [
+    "box",
+    "stacked_bar"
+  ],
+  "spa": [
+    "box",
+    "stacked_bar"
+  ],
+  "star": [
+    "box",
+    "violin"
+  ],
+  "plateau": [
+    "box",
     "violin"
   ],
   "whisper": [
@@ -1973,35 +1920,51 @@
     "stacked_bar",
     "violin"
   ],
-  "celestial": [
+  "thunder": [
     "box",
     "violin"
   ],
-  "arch": [
+  "canyon": [
     "box",
     "violin"
   ],
-  "dragon": [
+  "volume": [
+    "box",
+    "bubble",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "dunvale": [
+    "box",
+    "violin"
+  ],
+  "primevue": [
     "box",
     "stacked_bar",
     "violin"
   ],
-  "ruins": [
+  "smarthub": [
     "box",
     "stacked_bar",
     "violin"
   ],
-  "sun": [
+  "yorkton": [
     "box",
-    "stacked_bar",
     "violin"
   ],
-  "harbor": [
+  "lakeview": [
     "box",
-    "stacked_bar",
     "violin"
   ],
-  "silver": [
+  "glenhaven": [
+    "box",
+    "violin"
+  ],
+  "swiftlink": [
     "box",
     "stacked_bar",
     "violin"
@@ -2011,117 +1974,14 @@
     "stacked_bar",
     "violin"
   ],
-  "quantumx": [
-    "box",
-    "stacked_bar"
-  ],
-  "puresync": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "brightwave": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
   "peakpoint": [
     "box",
     "stacked_bar"
   ],
-  "coral": [
+  "datapulse": [
     "box",
     "stacked_bar",
     "violin"
-  ],
-  "lookout": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "golden": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "dunes": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "maple": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "arbor": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "crystal": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "falls": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "spring": [
-    "box",
-    "stacked_bar"
-  ],
-  "spa": [
-    "box",
-    "stacked_bar"
-  ],
-  "thunder": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "canyon": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "primevue": [
-    "box"
-  ],
-  "novaedge": [
-    "box",
-    "stacked_bar"
-  ],
-  "volume": [
-    "box",
-    "bubble",
-    "line",
-    "radar",
-    "ridgeline",
-    "scatter",
-    "stacked_area",
-    "stacked_bar",
-    "stream",
-    "violin"
-  ],
-  "westport": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "ironwood": [
-    "box",
-    "violin"
-  ],
-  "swiftlink": [
-    "box",
-    "stacked_bar"
-  ],
-  "nextgen": [
-    "box",
-    "stacked_bar"
   ],
   "people": [
     "box",
@@ -2146,11 +2006,7 @@
     "sankey",
     "violin"
   ],
-  "sorghum": [
-    "box",
-    "violin"
-  ],
-  "elmhurst": [
+  "highvale": [
     "box",
     "violin"
   ],
@@ -2168,15 +2024,20 @@
     "stacked_bar",
     "violin"
   ],
-  "silverton": [
+  "%": [
     "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "high": [
-    "box",
+    "bubble",
+    "funnel",
+    "line",
+    "pie",
     "radar",
-    "stacked_bar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
     "violin"
   ],
   "school": [
@@ -2192,37 +2053,7 @@
     "stacked_bar",
     "violin"
   ],
-  "riverdale": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "lakewood": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "institute": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "meadowbrook": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "pinecrest": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "fairview": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "redwood": [
+  "elmwood": [
     "box",
     "stacked_bar",
     "violin"
@@ -2232,7 +2063,65 @@
     "stacked_bar",
     "violin"
   ],
-  "sunnyvale": [
+  "greenwood": [
+    "box",
+    "stacked_bar"
+  ],
+  "silverton": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "high": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "redwood": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "riverdale": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "pinecrest": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "institute": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "kilograms": [
+    "box",
+    "violin"
+  ],
+  "per": [
+    "box",
+    "bubble",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "hectare": [
+    "box",
+    "violin"
+  ],
+  "barley": [
+    "box",
+    "stacked_bar"
+  ],
+  "rye": [
+    "box",
+    "violin"
+  ],
+  "crestview": [
     "box",
     "stacked_bar",
     "violin"
@@ -2242,22 +2131,14 @@
     "stacked_bar",
     "violin"
   ],
-  "college": [
+  "sunnyvale": [
     "box",
-    "scatter",
-    "stacked_bar",
     "violin"
   ],
-  "hillcrest": [
-    "box",
-    "stacked_bar"
+  "jute": [
+    "box"
   ],
-  "maplewood": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "greenwood": [
+  "wheat": [
     "box",
     "stacked_bar",
     "violin"
@@ -2274,61 +2155,68 @@
     "stream",
     "violin"
   ],
-  "millet": [
-    "box",
-    "violin"
-  ],
-  "soybeans": [
-    "box",
-    "violin"
-  ],
-  "jute": [
-    "box",
-    "violin"
-  ],
-  "rubber": [
-    "box",
-    "violin"
-  ],
   "tobacco": [
     "box",
     "violin"
   ],
-  "rye": [
+  "rubber": [
+    "box"
+  ],
+  "sugarcane": [
     "box",
+    "stacked_bar"
+  ],
+  "corn": [
+    "box",
+    "stacked_bar",
     "violin"
   ],
   "sectors": [
     "box",
     "violin"
   ],
-  "cafeterias": [
+  "coffee": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "shops": [
     "box",
     "violin"
   ],
-  "sushi": [
+  "cafeterias": [
+    "box"
+  ],
+  "bakeries": [
+    "box",
+    "violin"
+  ],
+  "asian": [
+    "box"
+  ],
+  "cuisine": [
+    "box",
+    "heatmap"
+  ],
+  "steak": [
+    "box",
+    "violin"
+  ],
+  "houses": [
+    "box",
+    "violin"
+  ],
+  "trucks": [
+    "box"
+  ],
+  "pizza": [
     "box"
   ],
   "restaurants": [
     "box",
     "violin"
   ],
-  "casual": [
-    "box",
-    "violin"
-  ],
-  "dining": [
-    "box",
-    "violin"
-  ],
-  "coffee": [
-    "box",
-    "stacked_bar"
-  ],
-  "shops": [
-    "box"
-  ],
-  "mexican": [
+  "italian": [
     "box",
     "violin"
   ],
@@ -2344,11 +2232,11 @@
     "box",
     "violin"
   ],
-  "courts": [
+  "sushi": [
     "box",
     "violin"
   ],
-  "buffet": [
+  "courts": [
     "box",
     "violin"
   ],
@@ -2360,33 +2248,57 @@
     "box",
     "violin"
   ],
-  "pizza": [
+  "vegetarian": [
     "box",
     "violin"
   ],
-  "steak": [
+  "dessert": [
     "box",
     "violin"
   ],
-  "houses": [
+  "cafes": [
     "box",
     "violin"
   ],
-  "italian": [
+  "fine": [
+    "box"
+  ],
+  "dining": [
     "box",
     "violin"
   ],
-  "trucks": [
+  "casual": [
     "box",
+    "violin"
+  ],
+  "mexican": [
+    "box",
+    "violin"
+  ],
+  "flax": [
+    "box"
+  ],
+  "sorghum": [
+    "box",
+    "violin"
+  ],
+  "tea": [
+    "box",
+    "violin"
+  ],
+  "cotton": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "seafood": [
+    "box",
+    "stacked_bar",
     "violin"
   ],
   "outpatient": [
     "box",
     "radar",
-    "violin"
-  ],
-  "tea": [
-    "box",
     "violin"
   ],
   "salary": [
@@ -2401,62 +2313,50 @@
   ],
   "prices": [
     "box",
-    "line",
     "stacked_area",
     "stacked_bar",
     "stream",
     "violin"
   ],
-  "duplex": [
+  "co-op": [
+    "box",
+    "violin"
+  ],
+  "townhouse": [
     "box",
     "stacked_bar",
-    "violin"
-  ],
-  "studio": [
-    "box",
-    "violin"
-  ],
-  "penthouse": [
-    "box"
-  ],
-  "mobile": [
-    "box",
-    "violin"
-  ],
-  "home": [
-    "box",
-    "stacked_bar",
-    "stream",
-    "violin"
-  ],
-  "co": [
-    "box"
-  ],
-  "op": [
-    "box"
-  ],
-  "loft": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "farmhouse": [
-    "box",
     "violin"
   ],
   "mansion": [
     "box",
     "violin"
   ],
+  "penthouse": [
+    "box"
+  ],
+  "duplex": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
   "triplex": [
     "box",
     "violin"
   ],
-  "mountain": [
-    "box"
+  "urban": [
+    "box",
+    "pie",
+    "violin"
   ],
-  "cabin": [
-    "box"
+  "loft": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "studio": [
+    "box",
+    "stacked_bar",
+    "violin"
   ],
   "single": [
     "box",
@@ -2467,143 +2367,187 @@
     "box",
     "violin"
   ],
-  "cottage": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "condo": [
-    "box"
-  ],
-  "apartment": [
-    "box",
-    "violin"
-  ],
-  "sugarcane": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "hemp": [
-    "box",
-    "violin"
-  ],
-  "potatoes": [
-    "box",
-    "violin"
-  ],
-  "tiny": [
-    "box",
-    "violin"
-  ],
-  "bungalow": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "luxury": [
-    "box",
-    "violin"
-  ],
-  "villa": [
-    "box",
-    "violin"
-  ],
-  "urban": [
-    "box",
-    "pie",
-    "violin"
-  ],
-  "townhouse": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
   "product": [
     "box",
+    "bubble",
     "parallel",
     "radar",
     "sankey",
     "scatter",
     "violin"
   ],
-  "clothing": [
+  "music": [
     "box",
+    "line",
+    "stacked_area",
     "stacked_bar",
+    "stream",
     "violin"
+  ],
+  "pet": [
+    "box"
+  ],
+  "supplies": [
+    "box",
+    "stacked_bar"
+  ],
+  "automotive": [
+    "box",
+    "stacked_bar"
+  ],
+  "jewelry": [
+    "box",
+    "stacked_bar"
+  ],
+  "baby": [
+    "box"
+  ],
+  "garden": [
+    "box",
+    "stacked_bar"
+  ],
+  "furniture": [
+    "box",
+    "stacked_bar"
   ],
   "art": [
     "box",
     "heatmap",
     "line",
     "sankey",
-    "violin"
-  ],
-  "music": [
-    "box",
     "stacked_area",
-    "stacked_bar",
+    "stream"
+  ],
+  "home": [
+    "box",
+    "line",
+    "stacked_area",
     "stream",
     "violin"
   ],
-  "toys": [
-    "box",
-    "violin"
-  ],
-  "garden": [
+  "decor": [
     "box"
   ],
-  "automotive": [
-    "box",
-    "stacked_bar",
-    "violin"
+  "books": [
+    "box"
   ],
-  "electronics": [
+  "clothing": [
     "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "jewelry": [
-    "box",
-    "stacked_bar",
-    "violin"
-  ],
-  "supplies": [
-    "box",
-    "stacked_bar",
     "violin"
   ],
   "beauty": [
     "box",
-    "heatmap",
-    "stacked_bar",
+    "stacked_bar"
+  ],
+  "toys": [
+    "box"
+  ],
+  "tools": [
+    "box",
     "violin"
   ],
-  "overview": [
+  "pattern": [
     "bubble",
-    "fill_bubble",
-    "heatmap",
+    "parallel",
     "scatter"
   ],
-  "long": [
+  "linear": [
+    "bubble",
+    "chord",
+    "funnel",
+    "scatter"
+  ],
+  "traffic": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "(": [
+    "bubble",
+    "pie",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "vehicles/hour": [
     "bubble"
   ],
-  "tail": [
-    "bubble"
+  ")": [
+    "bubble",
+    "pie",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "on-time": [
+    "bubble",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "rate": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "age": [
+    "bubble",
+    "scatter"
+  ],
+  "vehicle": [
+    "bubble",
+    "line",
+    "radar",
+    "stream"
+  ],
+  "years": [
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "correlation": [
+    "bubble",
+    "parallel",
+    "scatter"
+  ],
+  "interaction": [
+    "bubble",
+    "scatter"
+  ],
+  "$": [
+    "bubble",
+    "chord",
+    "line",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream"
   ],
   "profit": [
     "bubble",
     "line",
-    "radar",
-    "stacked_area",
-    "stream"
+    "radar"
   ],
   "margin": [
     "bubble",
     "line",
-    "radar",
-    "stacked_area",
-    "stream"
+    "radar"
   ],
   "total": [
     "bubble"
@@ -2615,56 +2559,9 @@
     "stacked_area",
     "stream"
   ],
-  "linear": [
-    "bubble",
-    "chord",
-    "funnel",
-    "scatter"
-  ],
-  "distance": [
+  "relationship": [
     "bubble",
     "scatter"
-  ],
-  "traveled": [
-    "bubble",
-    "scatter"
-  ],
-  "miles": [
-    "bubble",
-    "scatter"
-  ],
-  "fuel": [
-    "bubble",
-    "radar",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "efficiency": [
-    "bubble",
-    "heatmap",
-    "parallel",
-    "radar",
-    "scatter"
-  ],
-  "mpg": [
-    "bubble",
-    "scatter"
-  ],
-  "size": [
-    "bubble",
-    "fill_bubble",
-    "scatter"
-  ],
-  "shipment": [
-    "bubble",
-    "stacked_bar"
-  ],
-  "units": [
-    "bubble",
-    "line",
-    "scatter",
-    "stream"
   ],
   "distribution": [
     "bubble",
@@ -2680,94 +2577,59 @@
     "treemap",
     "treemap_D3"
   ],
-  "traffic": [
-    "bubble",
-    "line",
-    "radar",
-    "stacked_area",
-    "stream"
-  ],
-  "vehicles": [
-    "bubble",
-    "stacked_bar"
-  ],
-  "hour": [
-    "bubble",
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "rate": [
-    "bubble",
-    "line",
-    "radar",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "age": [
-    "bubble",
-    "heatmap",
-    "scatter"
-  ],
-  "vehicle": [
-    "bubble",
-    "line",
-    "radar",
-    "stacked_area"
-  ],
-  "years": [
-    "bubble",
-    "scatter",
-    "stacked_bar"
-  ],
-  "pattern": [
-    "bubble",
-    "parallel",
-    "scatter"
-  ],
-  "mentions": [
+  "long": [
     "bubble"
   ],
-  "adoption": [
-    "bubble",
-    "heatmap",
-    "line",
-    "radar",
-    "stacked_area",
-    "stream"
+  "tail": [
+    "bubble"
   ],
-  "event": [
+  "amount": [
     "bubble",
-    "funnel",
+    "scatter"
+  ],
+  "roi": [
+    "bubble",
+    "radar",
+    "ridgeline"
+  ],
+  "size": [
+    "bubble",
+    "fill_bubble",
+    "scatter"
+  ],
+  "customer": [
+    "bubble",
+    "chord",
+    "line",
     "radar",
     "ridgeline",
     "sankey",
-    "stacked_area"
-  ],
-  "attendees": [
-    "bubble",
+    "scatter",
     "stacked_area",
     "stream"
   ],
-  "analysis": [
+  "base": [
+    "bubble"
+  ],
+  "overview": [
     "bubble",
     "fill_bubble",
     "heatmap",
-    "parallel",
     "scatter"
   ],
   "artist": [
     "bubble"
   ],
   "popularity": [
-    "bubble"
+    "bubble",
+    "scatter"
   ],
   "rank": [
     "bubble"
   ],
   "commercial": [
-    "bubble"
+    "bubble",
+    "heatmap"
   ],
   "impact": [
     "bubble",
@@ -2777,29 +2639,65 @@
     "bubble",
     "chord",
     "funnel",
-    "radar",
     "sankey",
     "scatter",
+    "stream",
     "sunburst",
     "treemap",
     "treemap_D3"
   ],
-  "involved": [
+  "involved/influenced": [
     "bubble"
   ],
-  "influenced": [
+  "fertilizer": [
+    "bubble",
+    "scatter",
+    "stream"
+  ],
+  "use": [
+    "bubble",
+    "radar"
+  ],
+  "kg/acre": [
     "bubble"
+  ],
+  "acre": [
+    "bubble"
+  ],
+  "produced": [
+    "bubble"
+  ],
+  "units/season": [
+    "bubble"
+  ],
+  "mentions": [
+    "bubble"
+  ],
+  "count/day": [
+    "bubble"
+  ],
+  "adoption": [
+    "bubble",
+    "line",
+    "radar",
+    "stream"
+  ],
+  "event": [
+    "bubble",
+    "funnel",
+    "line",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stream"
+  ],
+  "attendees": [
+    "bubble",
+    "line",
+    "stacked_area",
+    "stream"
   ],
   "dynamics": [
-    "bubble",
-    "scatter"
-  ],
-  "correlation": [
-    "bubble",
-    "parallel",
-    "scatter"
-  ],
-  "relationship": [
     "bubble",
     "scatter"
   ],
@@ -2810,53 +2708,19 @@
     "sankey",
     "scatter"
   ],
-  "land": [
-    "bubble",
-    "radar"
-  ],
-  "acres": [
-    "bubble"
-  ],
-  "yield": [
-    "bubble",
-    "line",
-    "radar",
-    "ridgeline",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "kg": [
+  "study": [
     "bubble",
     "scatter"
   ],
-  "acre": [
-    "bubble"
-  ],
-  "weekly": [
-    "bubble"
-  ],
-  "labor": [
-    "bubble"
-  ],
   "hours": [
     "bubble",
-    "chord",
     "funnel",
     "line",
-    "ridgeline",
     "scatter",
     "stacked_area",
     "stream"
   ],
-  "week": [
-    "bubble",
-    "line",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "study": [
+  "hours/week": [
     "bubble",
     "scatter"
   ],
@@ -2879,15 +2743,14 @@
     "chord",
     "radar",
     "ridgeline",
-    "scatter",
-    "stacked_area"
+    "scatter"
   ],
   "class": [
-    "bubble",
-    "scatter"
+    "bubble"
   ],
   "funding": [
     "bubble",
+    "line",
     "radar",
     "ridgeline",
     "sankey",
@@ -2901,7 +2764,6 @@
     "line",
     "pie",
     "sankey",
-    "scatter",
     "stacked_area",
     "stacked_bar",
     "stream"
@@ -2909,6 +2771,7 @@
   "graduation": [
     "bubble",
     "radar",
+    "scatter",
     "stream"
   ],
   "enrollment": [
@@ -2916,15 +2779,22 @@
     "line",
     "sankey",
     "stacked_area",
-    "stacked_bar"
+    "stacked_bar",
+    "stream"
+  ],
+  "analysis": [
+    "bubble",
+    "fill_bubble",
+    "heatmap",
+    "parallel",
+    "scatter"
   ],
   "infrastructure": [
     "bubble",
     "scatter"
   ],
   "reliability": [
-    "bubble",
-    "scatter"
+    "bubble"
   ],
   "average": [
     "bubble",
@@ -2934,30 +2804,56 @@
     "stacked_area",
     "stream"
   ],
-  "kwh": [
+  "kwh/month": [
     "bubble",
     "scatter"
   ],
   "capacity": [
     "bubble",
-    "heatmap",
     "radar"
   ],
   "mw": [
     "bubble"
+  ],
+  "efficiency": [
+    "bubble",
+    "parallel",
+    "radar",
+    "scatter"
   ],
   "utility": [
     "bubble"
   ],
   "customers": [
     "bubble",
-    "chord",
+    "chord"
+  ],
+  "ingredient": [
+    "bubble",
+    "radar"
+  ],
+  "cost": [
+    "bubble",
     "line",
+    "radar",
+    "scatter",
+    "stacked_area",
     "stream"
   ],
-  "interaction": [
+  "unit": [
+    "bubble"
+  ],
+  "order": [
+    "bubble",
+    "funnel",
+    "stream"
+  ],
+  "frequency": [
     "bubble",
     "scatter"
+  ],
+  "times/week": [
+    "bubble"
   ],
   "menu": [
     "bubble"
@@ -2971,55 +2867,17 @@
     "stacked_area",
     "stream"
   ],
+  "units/day": [
+    "bubble"
+  ],
   "restaurant": [
     "bubble",
     "chord",
     "line",
-    "stacked_area",
-    "stream"
+    "stacked_area"
   ],
   "locations": [
     "bubble"
-  ],
-  "ingredient": [
-    "bubble",
-    "radar"
-  ],
-  "cost": [
-    "bubble",
-    "heatmap",
-    "line",
-    "radar",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "unit": [
-    "bubble"
-  ],
-  "customer": [
-    "bubble",
-    "chord",
-    "line",
-    "radar",
-    "ridgeline",
-    "sankey",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "order": [
-    "bubble",
-    "funnel"
-  ],
-  "frequency": [
-    "bubble",
-    "scatter"
-  ],
-  "times": [
-    "bubble",
-    "line",
-    "stacked_area"
   ],
   "medical": [
     "bubble",
@@ -3037,18 +2895,21 @@
   "stays": [
     "bubble"
   ],
-  "days": [
+  "days/year": [
+    "bubble",
+    "scatter"
+  ],
+  "life": [
     "bubble",
     "line",
-    "scatter",
     "stacked_area",
     "stream"
   ],
-  "life": [
-    "bubble"
-  ],
   "expectancy": [
-    "bubble"
+    "bubble",
+    "line",
+    "stacked_area",
+    "stream"
   ],
   "patients": [
     "bubble",
@@ -3059,15 +2920,28 @@
   "treated": [
     "bubble"
   ],
+  "experience": [
+    "bubble",
+    "parallel",
+    "scatter"
+  ],
+  "team": [
+    "bubble",
+    "chord",
+    "scatter"
+  ],
   "training": [
     "bubble",
     "line",
     "scatter",
-    "stream"
+    "stacked_area"
+  ],
+  "hours/year": [
+    "bubble",
+    "scatter"
   ],
   "productivity": [
     "bubble",
-    "line",
     "parallel",
     "scatter",
     "stream"
@@ -3082,15 +2956,14 @@
     "stacked_area",
     "stream"
   ],
-  "experience": [
+  "conversion": [
     "bubble",
-    "parallel",
+    "radar",
     "scatter"
   ],
-  "team": [
+  "transactions": [
     "bubble",
-    "chord",
-    "scatter"
+    "chord"
   ],
   "marketing": [
     "bubble",
@@ -3112,35 +2985,11 @@
   "quantity": [
     "bubble"
   ],
-  "publication": [
-    "bubble",
-    "line",
-    "radar",
-    "stacked_area",
-    "stream"
-  ],
-  "fertilizer": [
-    "bubble",
-    "line",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "use": [
-    "bubble",
-    "radar",
-    "scatter"
-  ],
-  "produced": [
+  "units": [
     "bubble"
-  ],
-  "season": [
-    "bubble",
-    "scatter"
   ],
   "innovation": [
     "bubble",
-    "line",
     "radar",
     "scatter",
     "stream"
@@ -3155,21 +3004,16 @@
     "funnel"
   ],
   "budget": [
-    "bubble",
-    "scatter"
+    "bubble"
   ],
-  "ad": [
+  "publication": [
     "bubble",
     "line",
     "radar",
-    "scatter"
+    "stacked_area",
+    "stream"
   ],
-  "conversion": [
-    "bubble",
-    "radar",
-    "scatter"
-  ],
-  "subscribers": [
+  "count/year": [
     "bubble"
   ],
   "follower": [
@@ -3181,9 +3025,11 @@
     "bubble",
     "funnel",
     "heatmap",
+    "line",
     "parallel",
     "radar",
     "sankey",
+    "scatter",
     "stacked_area",
     "sunburst"
   ],
@@ -3191,22 +3037,26 @@
     "bubble",
     "scatter"
   ],
-  "sponsorship": [
+  "ad": [
     "bubble",
     "line",
     "radar",
+    "stacked_area",
     "stream"
   ],
-  "amount": [
+  "subscribers": [
+    "bubble"
+  ],
+  "sponsorship": [
     "bubble",
-    "scatter"
+    "radar",
+    "stream"
   ],
   "player": [
     "bubble"
   ],
   "win": [
-    "bubble",
-    "scatter"
+    "bubble"
   ],
   "attending": [
     "bubble"
@@ -3214,29 +3064,9 @@
   "game": [
     "bubble"
   ],
-  "night": [
-    "bubble",
-    "scatter"
-  ],
-  "occupancy": [
-    "bubble",
-    "line",
-    "radar",
-    "scatter",
-    "stacked_area"
-  ],
-  "rooms": [
-    "bubble"
-  ],
-  "hotel": [
-    "bubble",
-    "radar",
-    "stacked_area"
-  ],
   "tourist": [
     "bubble",
     "funnel",
-    "line",
     "node_link",
     "radar",
     "stream"
@@ -3261,16 +3091,53 @@
   ],
   "booking": [
     "bubble",
-    "funnel",
+    "funnel"
+  ],
+  "night": [
+    "bubble"
+  ],
+  "occupancy": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area"
+  ],
+  "rooms": [
+    "bubble"
+  ],
+  "hotel": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area"
+  ],
+  "distance": [
+    "bubble",
     "scatter"
   ],
-  "roi": [
+  "traveled": [
     "bubble",
-    "radar",
-    "ridgeline"
+    "scatter"
   ],
-  "base": [
-    "bubble"
+  "miles": [
+    "bubble",
+    "scatter"
+  ],
+  "fuel": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter"
+  ],
+  "mpg": [
+    "bubble",
+    "scatter"
+  ],
+  "shipment": [
+    "bubble",
+    "stacked_bar"
   ],
   "institution": [
     "chord",
@@ -3278,7 +3145,6 @@
   ],
   "collaboration": [
     "chord",
-    "heatmap",
     "node_link",
     "radar"
   ],
@@ -3296,21 +3162,9 @@
     "node_link",
     "sankey"
   ],
-  "global": [
+  "transfer": [
     "chord",
-    "node_link",
-    "pie",
-    "sankey"
-  ],
-  "hub": [
-    "chord"
-  ],
-  "transactions": [
-    "chord"
-  ],
-  "billion": [
-    "chord",
-    "stacked_bar"
+    "radar"
   ],
   "user": [
     "chord",
@@ -3327,8 +3181,7 @@
     "chord",
     "funnel",
     "line",
-    "stacked_area",
-    "stream"
+    "stacked_area"
   ],
   "basketball": [
     "chord",
@@ -3336,6 +3189,19 @@
   ],
   "fans": [
     "chord"
+  ],
+  "global": [
+    "chord",
+    "node_link",
+    "pie",
+    "sankey"
+  ],
+  "hub": [
+    "chord"
+  ],
+  "billion": [
+    "chord",
+    "stacked_bar"
   ],
   "transit": [
     "chord",
@@ -3355,16 +3221,11 @@
   "station": [
     "chord"
   ],
-  "transfer": [
-    "chord",
-    "radar"
-  ],
   "passengers": [
     "chord"
   ],
   "fashion": [
-    "chord",
-    "heatmap"
+    "chord"
   ],
   "trend": [
     "chord",
@@ -3379,7 +3240,7 @@
   "changes": [
     "chord"
   ],
-  "gigawatt": [
+  "gigawatt-hours": [
     "chord"
   ],
   "referral": [
@@ -3393,11 +3254,10 @@
   "department": [
     "chord"
   ],
-  "map": [
-    "fill_bubble",
-    "node_link"
+  "hierarchy": [
+    "fill_bubble"
   ],
-  "7": [
+  "finance,4": [
     "fill_bubble"
   ],
   "father": [
@@ -3409,23 +3269,23 @@
   "label": [
     "fill_bubble"
   ],
-  "5": [
+  "map": [
     "fill_bubble",
-    "heatmap"
+    "node_link"
   ],
-  "landscape": [
+  "logistics,8": [
     "fill_bubble"
   ],
-  "6": [
+  "logistics,4": [
     "fill_bubble"
   ],
-  "4": [
+  "finance,7": [
     "fill_bubble"
   ],
-  "composition": [
+  "finance,6": [
     "fill_bubble"
   ],
-  "11": [
+  "finance,5": [
     "fill_bubble"
   ],
   "arts": [
@@ -3435,34 +3295,74 @@
   "culture": [
     "fill_bubble"
   ],
+  "breakdown": [
+    "fill_bubble"
+  ],
+  "culture,5": [
+    "fill_bubble"
+  ],
+  "landscape": [
+    "fill_bubble"
+  ],
+  "academics,8": [
+    "fill_bubble"
+  ],
   "structure": [
     "fill_bubble"
   ],
-  "8": [
+  "academics,7": [
     "fill_bubble"
   ],
-  "hierarchy": [
+  "composition": [
     "fill_bubble"
   ],
-  "10": [
+  "academics,4": [
     "fill_bubble"
   ],
   "classification": [
     "fill_bubble"
   ],
-  "9": [
+  "academics,9": [
     "fill_bubble"
-  ],
-  "segments": [
-    "fill_bubble",
-    "sankey"
   ],
   "environmental": [
     "fill_bubble",
-    "radar",
     "scatter"
   ],
-  "breakdown": [
+  "science,6": [
+    "fill_bubble"
+  ],
+  "science,4": [
+    "fill_bubble"
+  ],
+  "culture,8": [
+    "fill_bubble"
+  ],
+  "science,9": [
+    "fill_bubble"
+  ],
+  "science,8": [
+    "fill_bubble"
+  ],
+  "science,11": [
+    "fill_bubble"
+  ],
+  "beverage,9": [
+    "fill_bubble"
+  ],
+  "beverage,10": [
+    "fill_bubble"
+  ],
+  "beverage,8": [
+    "fill_bubble"
+  ],
+  "beverage,6": [
+    "fill_bubble"
+  ],
+  "beverage,4": [
+    "fill_bubble"
+  ],
+  "beverage,11": [
     "fill_bubble"
   ],
   "government": [
@@ -3471,25 +3371,121 @@
   "politics": [
     "fill_bubble"
   ],
+  "politics,6": [
+    "fill_bubble"
+  ],
+  "politics,7": [
+    "fill_bubble"
+  ],
+  "culture,6": [
+    "fill_bubble"
+  ],
+  "politics,5": [
+    "fill_bubble"
+  ],
   "medicine": [
     "fill_bubble",
     "scatter"
+  ],
+  "medicine,10": [
+    "fill_bubble"
+  ],
+  "medicine,6": [
+    "fill_bubble"
+  ],
+  "medicine,7": [
+    "fill_bubble"
+  ],
+  "medicine,5": [
+    "fill_bubble"
+  ],
+  "segments": [
+    "fill_bubble",
+    "sankey"
+  ],
+  "medicine,9": [
+    "fill_bubble"
+  ],
+  "medicine,8": [
+    "fill_bubble"
+  ],
+  "medicine,4": [
+    "fill_bubble"
   ],
   "manufacturing": [
     "fill_bubble",
     "sankey",
     "stacked_bar"
   ],
+  "industry,6": [
+    "fill_bubble"
+  ],
+  "industry,7": [
+    "fill_bubble"
+  ],
+  "industry,8": [
+    "fill_bubble"
+  ],
+  "industry,4": [
+    "fill_bubble"
+  ],
+  "industry,10": [
+    "fill_bubble"
+  ],
   "communication": [
+    "fill_bubble"
+  ],
+  "communication,9": [
+    "fill_bubble"
+  ],
+  "communication,6": [
+    "fill_bubble"
+  ],
+  "communication,7": [
+    "fill_bubble"
+  ],
+  "communication,10": [
     "fill_bubble"
   ],
   "construction": [
     "fill_bubble",
     "line",
     "scatter",
-    "stacked_bar"
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "construction,7": [
+    "fill_bubble"
+  ],
+  "construction,10": [
+    "fill_bubble"
+  ],
+  "construction,6": [
+    "fill_bubble"
+  ],
+  "construction,9": [
+    "fill_bubble"
+  ],
+  "e-commerce,8": [
+    "fill_bubble"
+  ],
+  "e-commerce,6": [
+    "fill_bubble"
+  ],
+  "e-commerce,5": [
+    "fill_bubble"
+  ],
+  "e-commerce,7": [
+    "fill_bubble"
+  ],
+  "e-commerce,4": [
+    "fill_bubble"
   ],
   "recreation": [
+    "fill_bubble"
+  ],
+  "recreation,9": [
     "fill_bubble"
   ],
   "technology": [
@@ -3497,34 +3493,62 @@
     "line",
     "radar",
     "scatter",
-    "stacked_area",
     "stacked_bar",
     "stream"
   ],
   "software": [
     "fill_bubble"
   ],
-  "lifecycle": [
-    "funnel"
+  "software,4": [
+    "fill_bubble"
   ],
-  "phase": [
+  "software,7": [
+    "fill_bubble"
+  ],
+  "software,8": [
+    "fill_bubble"
+  ],
+  "finance,8": [
+    "fill_bubble"
+  ],
+  "software,9": [
+    "fill_bubble"
+  ],
+  "software,6": [
+    "fill_bubble"
+  ],
+  "hospitality,7": [
+    "fill_bubble"
+  ],
+  "hospitality,5": [
+    "fill_bubble"
+  ],
+  "hospitality,4": [
+    "fill_bubble"
+  ],
+  "hospitality,6": [
+    "fill_bubble"
+  ],
+  "hospitality,11": [
+    "fill_bubble"
+  ],
+  "logistics,11": [
+    "fill_bubble"
+  ],
+  "logistics,7": [
+    "fill_bubble"
+  ],
+  "logistics,6": [
+    "fill_bubble"
+  ],
+  "lifecycle": [
     "funnel"
   ],
   "exponential": [
     "funnel",
     "scatter"
   ],
-  "client": [
-    "funnel"
-  ],
-  "acquisition": [
-    "funnel",
-    "line",
-    "scatter",
-    "stacked_area",
-    "stream"
-  ],
-  "clients": [
+  "phase": [
     "funnel"
   ],
   "logarithmic": [
@@ -3544,6 +3568,18 @@
     "pie",
     "sankey"
   ],
+  "client": [
+    "funnel"
+  ],
+  "acquisition": [
+    "funnel",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "clients": [
+    "funnel"
+  ],
   "freight": [
     "funnel",
     "ridgeline"
@@ -3554,7 +3590,8 @@
   ],
   "shipments": [
     "funnel",
-    "line"
+    "line",
+    "stacked_area"
   ],
   "artwork": [
     "funnel",
@@ -3564,12 +3601,6 @@
   "exhibitions": [
     "funnel"
   ],
-  "learning": [
-    "funnel"
-  ],
-  "progression": [
-    "funnel"
-  ],
   "agricultural": [
     "funnel",
     "line",
@@ -3577,7 +3608,8 @@
     "radar",
     "sankey",
     "stacked_area",
-    "stacked_bar"
+    "stacked_bar",
+    "stream"
   ],
   "supply": [
     "funnel",
@@ -3586,6 +3618,12 @@
   "chain": [
     "funnel",
     "sankey"
+  ],
+  "learning": [
+    "funnel"
+  ],
+  "progression": [
+    "funnel"
   ],
   "generation": [
     "funnel"
@@ -3624,98 +3662,150 @@
   "correlations": [
     "heatmap"
   ],
-  "8x8": [
-    "heatmap"
-  ],
-  "central_cluster": [
-    "heatmap"
-  ],
-  "accounting": [
-    "heatmap"
-  ],
-  "assets": [
-    "heatmap"
-  ],
-  "0": [
-    "heatmap"
-  ],
-  "17": [
-    "heatmap"
-  ],
-  "metrics": [
-    "heatmap",
-    "parallel"
-  ],
-  "8x9": [
-    "heatmap"
-  ],
-  "horizontal_gradient": [
-    "heatmap"
-  ],
-  "intermodal": [
-    "heatmap"
-  ],
-  "84": [
-    "heatmap"
-  ],
-  "10x10": [
-    "heatmap"
-  ],
-  "radial_gradient": [
+  "logistics,9x8": [
     "heatmap"
   ],
   "air": [
     "heatmap",
     "scatter"
   ],
-  "59": [
+  "compliance,0.4": [
     "heatmap"
   ],
-  "factors": [
+  "logistics,9x9": [
     "heatmap"
   ],
-  "vertical_gradient": [
+  "radial_gradient": [
     "heatmap"
   ],
-  "auditing": [
-    "heatmap"
-  ],
-  "68": [
-    "heatmap"
-  ],
-  "8x7": [
-    "heatmap"
-  ],
-  "expenses": [
-    "heatmap",
-    "line",
-    "stream"
-  ],
-  "15": [
+  "capacity,0.23": [
     "heatmap"
   ],
   "patterns": [
     "heatmap"
   ],
+  "finance,9x8": [
+    "heatmap"
+  ],
+  "accounting": [
+    "heatmap"
+  ],
+  "equity,0.79": [
+    "heatmap"
+  ],
+  "influences,8x8": [
+    "heatmap"
+  ],
   "uniform": [
     "heatmap"
   ],
-  "46": [
+  "adoption,0.46": [
+    "heatmap"
+  ],
+  "trajectory": [
+    "heatmap"
+  ],
+  "influences,10x9": [
+    "heatmap"
+  ],
+  "central_cluster": [
+    "heatmap"
+  ],
+  "accessibility,0.31": [
+    "heatmap"
+  ],
+  "influences,7x8": [
+    "heatmap"
+  ],
+  "vertical_gradient": [
+    "heatmap"
+  ],
+  "accessibility,0.14": [
+    "heatmap"
+  ],
+  "accessibility,0.51": [
+    "heatmap"
+  ],
+  "influences,8x9": [
     "heatmap"
   ],
   "diagonal": [
     "heatmap"
   ],
-  "accessibility": [
+  "accessibility,0.95": [
     "heatmap"
   ],
-  "94": [
+  "academics,9x8": [
     "heatmap"
   ],
-  "9x8": [
+  "biology": [
     "heatmap"
   ],
-  "25": [
+  "faculty,0.57": [
+    "heatmap"
+  ],
+  "academics,9x10": [
+    "heatmap"
+  ],
+  "admin,0.51": [
+    "heatmap"
+  ],
+  "factors": [
+    "heatmap"
+  ],
+  "academics,7x7": [
+    "heatmap"
+  ],
+  "faculty,0.92": [
+    "heatmap"
+  ],
+  "academics,9x9": [
+    "heatmap"
+  ],
+  "admin,0.71": [
+    "heatmap"
+  ],
+  "admin,0.19": [
+    "heatmap"
+  ],
+  "utilities,10x9": [
+    "heatmap"
+  ],
+  "coal": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "efficiency,0.38": [
+    "heatmap"
+  ],
+  "utilities,8x7": [
+    "heatmap"
+  ],
+  "consumption,0.87": [
+    "heatmap"
+  ],
+  "utilities,7x8": [
+    "heatmap"
+  ],
+  "consumption,0.76": [
+    "heatmap"
+  ],
+  "emissions,0.89": [
+    "heatmap"
+  ],
+  "consumption,0.66": [
+    "heatmap"
+  ],
+  "horizontal_gradient": [
+    "heatmap"
+  ],
+  "consumption,0.77": [
+    "heatmap"
+  ],
+  "utilities,8x9": [
+    "heatmap"
+  ],
+  "consumption,0.92": [
     "heatmap"
   ],
   "risk": [
@@ -3725,160 +3815,199 @@
   "assessment": [
     "heatmap"
   ],
-  "54": [
+  "consumption,0.27": [
     "heatmap"
   ],
-  "cuisine": [
+  "utilities,9x9": [
     "heatmap"
   ],
-  "74": [
+  "utilities,8x8": [
     "heatmap"
   ],
-  "7x7": [
+  "consumption,0.6": [
     "heatmap"
   ],
-  "trajectory": [
-    "heatmap"
-  ],
-  "faculty": [
-    "heatmap",
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "97": [
-    "heatmap"
-  ],
-  "dairy": [
-    "heatmap",
-    "stacked_bar"
-  ],
-  "71": [
-    "heatmap"
-  ],
-  "93": [
-    "heatmap"
-  ],
-  "9x9": [
-    "heatmap"
-  ],
-  "admin": [
-    "heatmap"
-  ],
-  "23": [
-    "heatmap"
-  ],
-  "coal": [
-    "heatmap",
-    "stacked_bar"
-  ],
-  "13": [
-    "heatmap"
-  ],
-  "21": [
-    "heatmap"
-  ],
-  "9x10": [
-    "heatmap"
-  ],
-  "88": [
-    "heatmap"
-  ],
-  "08": [
-    "heatmap"
-  ],
-  "18": [
-    "heatmap"
-  ],
-  "04": [
-    "heatmap"
-  ],
-  "beverages": [
-    "heatmap",
-    "stacked_bar"
-  ],
-  "06": [
+  "industry,8x9": [
     "heatmap"
   ],
   "bakery": [
     "heatmap",
     "stacked_bar"
   ],
-  "73": [
+  "consumption,0.5": [
     "heatmap"
   ],
-  "14": [
+  "metrics": [
+    "heatmap",
+    "parallel"
+  ],
+  "industry,8x8": [
     "heatmap"
   ],
-  "41": [
+  "consumption,0.16": [
     "heatmap"
   ],
-  "42": [
+  "confectionery": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "consumption,0.9": [
     "heatmap"
   ],
-  "33": [
+  "consumption,0.51": [
+    "heatmap"
+  ],
+  "industry,10x10": [
+    "heatmap"
+  ],
+  "consumption,0.48": [
+    "heatmap"
+  ],
+  "consumption,0.85": [
+    "heatmap"
+  ],
+  "industry,9x9": [
+    "heatmap"
+  ],
+  "consumption,0.49": [
+    "heatmap"
+  ],
+  "health,8x7": [
+    "heatmap"
+  ],
+  "insurance": [
+    "heatmap",
+    "radar"
+  ],
+  "cost,0.3": [
+    "heatmap"
+  ],
+  "health,9x9": [
     "heatmap"
   ],
   "clinics": [
     "heatmap"
   ],
-  "access": [
+  "access,0.17": [
     "heatmap"
   ],
-  "83": [
-    "heatmap"
-  ],
-  "85": [
-    "heatmap"
-  ],
-  "7x8": [
-    "heatmap"
-  ],
-  "16": [
+  "cost,0.88": [
     "heatmap"
   ],
   "hospitals": [
     "heatmap"
   ],
-  "96": [
+  "access,0.18": [
+    "heatmap"
+  ],
+  "production,7x7": [
+    "heatmap"
+  ],
+  "cost,0.91": [
+    "heatmap"
+  ],
+  "health,8x8": [
+    "heatmap"
+  ],
+  "access,0.93": [
+    "heatmap"
+  ],
+  "health,9x10": [
+    "heatmap"
+  ],
+  "access,0.3": [
+    "heatmap"
+  ],
+  "access,0.46": [
+    "heatmap"
+  ],
+  "health,9x8": [
+    "heatmap"
+  ],
+  "access,0.2": [
+    "heatmap"
+  ],
+  "management,8x8": [
+    "heatmap"
+  ],
+  "compensation": [
+    "heatmap",
+    "parallel"
+  ],
+  "culture,0.75": [
+    "heatmap"
+  ],
+  "management,7x7": [
+    "heatmap"
+  ],
+  "diversity": [
+    "heatmap",
+    "scatter"
+  ],
+  "inclusion": [
+    "heatmap"
+  ],
+  "culture,0.92": [
+    "heatmap"
+  ],
+  "management,8x9": [
     "heatmap"
   ],
   "benefits": [
     "heatmap"
   ],
-  "absenteeism": [
-    "heatmap",
-    "line"
-  ],
-  "64": [
+  "culture,0.08": [
     "heatmap"
   ],
-  "48": [
+  "management,9x10": [
     "heatmap"
   ],
-  "52": [
+  "absenteeism,0.13": [
     "heatmap"
   ],
-  "69": [
+  "absenteeism,0.46": [
     "heatmap"
   ],
-  "76": [
+  "management,9x9": [
     "heatmap"
   ],
-  "35": [
+  "absenteeism,0.27": [
+    "heatmap"
+  ],
+  "culture,0.47": [
+    "heatmap"
+  ],
+  "absenteeism,0.69": [
+    "heatmap"
+  ],
+  "culture,0.17": [
+    "heatmap"
+  ],
+  "market,10x9": [
     "heatmap"
   ],
   "appraisal": [
     "heatmap"
   ],
-  "affordability": [
-    "heatmap",
-    "stacked_area"
-  ],
-  "26": [
+  "affordability,0.28": [
     "heatmap"
   ],
-  "29": [
+  "market,8x8": [
+    "heatmap"
+  ],
+  "affordability,0.6": [
+    "heatmap"
+  ],
+  "affordability,0.86": [
+    "heatmap"
+  ],
+  "market,10x10": [
+    "heatmap"
+  ],
+  "affordability,0.91": [
+    "heatmap"
+  ],
+  "e-commerce,9x8": [
     "heatmap"
   ],
   "apparel": [
@@ -3888,124 +4017,263 @@
   "brick": [
     "heatmap"
   ],
-  "mortar": [
+  "mortar,0.51": [
     "heatmap"
   ],
-  "22": [
+  "production,9x8": [
     "heatmap"
   ],
-  "10x9": [
+  "cost,0.89": [
     "heatmap"
   ],
-  "55": [
+  "e-commerce,9x9": [
+    "heatmap"
+  ],
+  "mortar,0.76": [
+    "heatmap"
+  ],
+  "e-commerce,8x8": [
+    "heatmap"
+  ],
+  "mortar,0.22": [
+    "heatmap"
+  ],
+  "engineering,9x9": [
     "heatmap"
   ],
   "aerospace": [
     "heatmap",
     "stacked_bar"
   ],
-  "95": [
+  "collaboration,0.83": [
     "heatmap"
   ],
-  "91": [
+  "assets,0.71": [
+    "heatmap"
+  ],
+  "engineering,8x8": [
+    "heatmap"
+  ],
+  "commercialization,0.35": [
+    "heatmap"
+  ],
+  "engineering,9x10": [
+    "heatmap"
+  ],
+  "commercialization,0.27": [
+    "heatmap"
+  ],
+  "collaboration,0.73": [
     "heatmap"
   ],
   "biomedical": [
     "heatmap"
   ],
-  "24": [
+  "collaboration,0.16": [
     "heatmap"
   ],
-  "commercialization": [
-    "heatmap",
-    "radar"
-  ],
-  "37": [
+  "engineering,7x7": [
     "heatmap"
   ],
-  "28": [
+  "development,0.09": [
+    "heatmap"
+  ],
+  "engineering,9x8": [
+    "heatmap"
+  ],
+  "collaboration,0.94": [
+    "heatmap"
+  ],
+  "engineering,8x7": [
+    "heatmap"
+  ],
+  "collaboration,0.52": [
+    "heatmap"
+  ],
+  "engineering,7x8": [
+    "heatmap"
+  ],
+  "commercialization,0.47": [
+    "heatmap"
+  ],
+  "commercialization,0.77": [
+    "heatmap"
+  ],
+  "engineering,8x9": [
+    "heatmap"
+  ],
+  "engineering,10x9": [
+    "heatmap"
+  ],
+  "collaboration,0.12": [
+    "heatmap"
+  ],
+  "streaming,8x8": [
     "heatmap"
   ],
   "blogs": [
     "heatmap"
   ],
-  "advertising": [
-    "heatmap",
-    "scatter"
+  "algorithms,0.92": [
+    "heatmap"
   ],
-  "82": [
+  "streaming,9x9": [
+    "heatmap"
+  ],
+  "advertising,0.16": [
+    "heatmap"
+  ],
+  "streaming,8x7": [
+    "heatmap"
+  ],
+  "advertising,0.81": [
+    "heatmap"
+  ],
+  "advertising,0.69": [
+    "heatmap"
+  ],
+  "finance,8x8": [
+    "heatmap"
+  ],
+  "assets,0.18": [
     "heatmap"
   ],
   "facebook": [
     "heatmap"
   ],
-  "99": [
+  "advertising,0.52": [
     "heatmap"
   ],
-  "attendance": [
+  "streaming,7x8": [
+    "heatmap"
+  ],
+  "advertising,0.17": [
+    "heatmap"
+  ],
+  "streaming,7x7": [
+    "heatmap"
+  ],
+  "content,0.61": [
+    "heatmap"
+  ],
+  "streaming,8x9": [
+    "heatmap"
+  ],
+  "advertising,0.07": [
+    "heatmap"
+  ],
+  "finance,8x9": [
+    "heatmap"
+  ],
+  "auditing": [
+    "heatmap"
+  ],
+  "assets,0.13": [
+    "heatmap"
+  ],
+  "entertainment,7x7": [
+    "heatmap"
+  ],
+  "attendance,0.11": [
+    "heatmap"
+  ],
+  "assets,0.62": [
+    "heatmap"
+  ],
+  "entertainment,10x10": [
+    "heatmap"
+  ],
+  "attendance,0.28": [
+    "heatmap"
+  ],
+  "entertainment,9x9": [
+    "heatmap"
+  ],
+  "attendance,0.16": [
+    "heatmap"
+  ],
+  "entertainment,8x8": [
+    "heatmap"
+  ],
+  "events": [
     "heatmap",
+    "node_link",
+    "sankey"
+  ],
+  "attendance,0.24": [
+    "heatmap"
+  ],
+  "attendance,0.71": [
+    "heatmap"
+  ],
+  "attendance,0.92": [
+    "heatmap"
+  ],
+  "hospitality,9x9": [
+    "heatmap"
+  ],
+  "adventure,0.93": [
+    "heatmap"
+  ],
+  "hospitality,9x8": [
+    "heatmap"
+  ],
+  "adventure,0.8": [
+    "heatmap"
+  ],
+  "hospitality,8x8": [
+    "heatmap"
+  ],
+  "adventure,0.45": [
+    "heatmap"
+  ],
+  "hospitality,10x9": [
+    "heatmap"
+  ],
+  "adventure,0.46": [
+    "heatmap"
+  ],
+  "hospitality,10x10": [
+    "heatmap"
+  ],
+  "adventure,0.94": [
+    "heatmap"
+  ],
+  "adventure,0.08": [
+    "heatmap"
+  ],
+  "logistics,8x9": [
+    "heatmap"
+  ],
+  "capacity,0.93": [
+    "heatmap"
+  ],
+  "logistics,10x10": [
+    "heatmap"
+  ],
+  "capacity,0.92": [
+    "heatmap"
+  ],
+  "logistics,10x9": [
+    "heatmap"
+  ],
+  "capacity,0.17": [
+    "heatmap"
+  ],
+  "logistics,8x8": [
+    "heatmap"
+  ],
+  "capacity,0.12": [
+    "heatmap"
+  ],
+  "capacity,0.65": [
+    "heatmap"
+  ],
+  "net": [
     "line",
-    "ridgeline",
-    "stacked_area",
-    "stream"
+    "radar"
   ],
-  "51": [
-    "heatmap"
-  ],
-  "fan": [
-    "heatmap",
-    "stacked_area"
-  ],
-  "destinations": [
-    "heatmap"
-  ],
-  "adventure": [
-    "heatmap"
-  ],
-  "cruises": [
-    "heatmap"
-  ],
-  "43": [
-    "heatmap"
-  ],
-  "87": [
-    "heatmap"
-  ],
-  "89": [
-    "heatmap"
-  ],
-  "customs": [
-    "heatmap"
-  ],
-  "72": [
-    "heatmap"
-  ],
-  "3": [
-    "heatmap"
-  ],
-  "92": [
-    "heatmap"
-  ],
-  "single_valley": [
-    "line"
-  ],
-  "periodic_stable": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "stable_rising": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "bimodal_peak": [
-    "line"
-  ],
-  "bimodal_valley": [
-    "line"
-  ],
-  "volatile_rising": [
+  "volatile_falling": [
     "line",
     "stacked_area",
     "stream"
@@ -4016,30 +4284,17 @@
     "stream"
   ],
   "debt": [
-    "line",
-    "stacked_area",
-    "stream"
+    "line"
   ],
   "equity": [
     "line",
-    "radar",
-    "stacked_area",
-    "stream"
+    "radar"
   ],
   "ratio": [
     "line",
     "radar",
     "stacked_area",
     "stream"
-  ],
-  "exponential_rising": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "interest": [
-    "line",
-    "scatter"
   ],
   "single_peak": [
     "line"
@@ -4049,35 +4304,56 @@
     "stacked_area",
     "stream"
   ],
-  "net": [
-    "line",
-    "radar",
-    "stacked_area",
-    "stream"
-  ],
-  "volatile_falling": [
+  "volatile_rising": [
     "line",
     "stacked_area",
     "stream"
   ],
-  "share": [
+  "bimodal_valley": [
+    "line"
+  ],
+  "bimodal_peak": [
+    "line"
+  ],
+  "growth": [
     "line",
-    "pie",
     "radar",
-    "ridgeline",
     "scatter",
     "stacked_area"
   ],
-  "ton": [
+  "festival": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "attendance": [
+    "line",
+    "ridgeline",
+    "stacked_area",
+    "stream"
+  ],
+  "stable_rising": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "exponential_rising": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "museum": [
+    "line",
+    "stream"
+  ],
+  "visits/month": [
     "line",
     "scatter",
     "stacked_area",
     "stream"
   ],
-  "waste": [
+  "gallery": [
     "line",
-    "radar",
-    "sankey",
     "stacked_area",
     "stream"
   ],
@@ -4086,67 +4362,55 @@
   ],
   "tickets": [
     "line",
+    "stacked_area"
+  ],
+  "single_valley": [
+    "line"
+  ],
+  "periodic_stable": [
+    "line",
     "stacked_area",
     "stream"
   ],
-  "gallery": [
+  "book": [
     "line",
-    "radar"
+    "stacked_area"
   ],
-  "cinema": [
+  "copies": [
     "line",
+    "stacked_area"
+  ],
+  "alumni": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "giving": [
+    "line",
+    "stacked_area",
     "stream"
   ],
   "library": [
     "line",
     "stream"
   ],
-  "teacher": [
+  "visits/year": [
     "line",
     "stream"
   ],
-  "electricity": [
+  "livestock": [
     "line",
     "scatter",
-    "stacked_bar",
+    "stacked_area"
+  ],
+  "faculty": [
+    "line",
+    "stacked_area",
     "stream"
   ],
-  "demand": [
+  "waste": [
     "line",
-    "stream"
-  ],
-  "recycled": [
-    "line",
-    "stream"
-  ],
-  "carbon": [
-    "line",
-    "radar",
     "sankey",
-    "scatter",
-    "stacked_area"
-  ],
-  "emissions": [
-    "line",
-    "stacked_area"
-  ],
-  "natural": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "gas": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "cubic": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "meter": [
-    "line",
     "stacked_area",
     "stream"
   ],
@@ -4155,29 +4419,46 @@
     "pie",
     "radar",
     "ridgeline",
+    "scatter"
+  ],
+  "water": [
+    "line",
+    "radar",
     "scatter",
     "stacked_area",
     "stream"
+  ],
+  "usage": [
+    "line",
+    "pie",
+    "ridgeline",
+    "scatter"
+  ],
+  "cubic": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "meters": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "recycled": [
+    "line",
+    "stacked_area"
   ],
   "percentage": [
     "line",
+    "stream"
+  ],
+  "customers/day": [
+    "line",
     "stacked_area",
     "stream"
   ],
-  "livestock": [
-    "line",
-    "scatter",
-    "stacked_area"
-  ],
-  "treatment": [
-    "line",
-    "sankey",
-    "scatter",
-    "stacked_area"
-  ],
-  "exports": [
-    "line",
-    "stacked_area"
+  "safety": [
+    "line"
   ],
   "bed": [
     "line",
@@ -4186,42 +4467,72 @@
   "vaccination": [
     "line",
     "radar",
+    "stacked_area",
     "stream"
   ],
   "turnover": [
     "line",
     "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "hours/employee": [
+    "line",
     "stacked_area"
   ],
-  "hire": [
-    "line"
-  ],
-  "starts": [
+  "exports": [
     "line",
-    "scatter"
-  ],
-  "organic": [
-    "line",
+    "stacked_area",
     "stream"
   ],
-  "farming": [
+  "units/month": [
     "line",
-    "radar",
-    "sankey",
-    "stream"
-  ],
-  "hectares": [
-    "line",
-    "scatter",
-    "stream"
-  ],
-  "rental": [
-    "line",
-    "pie",
-    "radar",
     "scatter",
     "stacked_area",
     "stream"
+  ],
+  "starts": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "units/year": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "mortgage": [
+    "line",
+    "radar",
+    "stacked_area"
+  ],
+  "affordability": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "inventory": [
+    "line",
+    "radar",
+    "stream"
+  ],
+  "times/year": [
+    "line",
+    "stream"
+  ],
+  "in-store": [
+    "line",
+    "stacked_area"
+  ],
+  "foot": [
+    "line",
+    "ridgeline",
+    "scatter",
+    "stacked_area"
+  ],
+  "visitors/day": [
+    "line",
+    "stacked_area"
   ],
   "delivery": [
     "line",
@@ -4230,15 +4541,33 @@
     "stacked_area",
     "stream"
   ],
-  "inventory": [
+  "time": [
+    "line",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "days": [
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "return": [
     "line",
     "radar",
-    "stacked_area"
+    "ridgeline"
   ],
   "papers": [
     "line",
     "stacked_area",
     "stream"
+  ],
+  "graduates": [
+    "line",
+    "stacked_area"
   ],
   "patent": [
     "line",
@@ -4252,27 +4581,13 @@
     "stacked_area",
     "stream"
   ],
-  "graduates": [
-    "line",
-    "stream"
-  ],
   "grants": [
     "line",
-    "stacked_area",
-    "stream"
+    "stacked_area"
   ],
   "awarded": [
     "line",
-    "stacked_area",
-    "stream"
-  ],
-  "subscription": [
-    "line",
-    "stream"
-  ],
-  "active": [
-    "line",
-    "stream"
+    "stacked_area"
   ],
   "watch": [
     "line",
@@ -4285,34 +4600,25 @@
     "stacked_area",
     "stream"
   ],
-  "tv": [
+  "subscription": [
     "line",
-    "radar",
-    "stream"
+    "stacked_area"
   ],
-  "ratings": [
+  "active": [
     "line",
-    "sankey",
-    "stream"
+    "stacked_area"
+  ],
+  "fan": [
+    "line",
+    "stacked_area"
   ],
   "followers": [
     "line",
-    "scatter",
-    "stacked_area",
     "stream"
   ],
-  "loyalty": [
+  "views/month": [
     "line",
     "stacked_area",
-    "stream"
-  ],
-  "program": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "members": [
-    "line",
     "stream"
   ],
   "room": [
@@ -4320,44 +4626,38 @@
     "stacked_area",
     "stream"
   ],
-  "flight": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "bookings": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
   "reservations": [
-    "line",
-    "stacked_area",
-    "stream"
-  ],
-  "warehouse": [
-    "line",
-    "sankey",
-    "stacked_area",
-    "stream"
-  ],
-  "utilization": [
-    "line",
-    "radar",
-    "stacked_area",
-    "stream"
-  ],
-  "maintenance": [
     "line",
     "stacked_area"
   ],
-  "operating": [
+  "reservations/week": [
     "line",
-    "radar",
+    "stacked_area"
+  ],
+  "maintenance": [
+    "line",
+    "stream"
+  ],
+  "/month": [
+    "line",
+    "scatter",
+    "stream"
+  ],
+  "l/100km": [
+    "line"
+  ],
+  "driver": [
+    "line",
+    "stacked_area",
     "stream"
   ],
   "cargo": [
-    "line"
+    "line",
+    "stacked_area"
+  ],
+  "tons/month": [
+    "line",
+    "stacked_area"
   ],
   "institutions": [
     "node_link",
@@ -4378,13 +4678,13 @@
   "relation": [
     "node_link"
   ],
+  "partnership": [
+    "node_link"
+  ],
   "trade": [
     "node_link"
   ],
   "relationships": [
-    "node_link"
-  ],
-  "partnership": [
     "node_link"
   ],
   "firms": [
@@ -4405,10 +4705,7 @@
   "distributors": [
     "node_link"
   ],
-  "inter": [
-    "node_link"
-  ],
-  "clinic": [
+  "inter-clinic": [
     "node_link"
   ],
   "transfers": [
@@ -4449,17 +4746,11 @@
   "universities": [
     "node_link"
   ],
-  "cross": [
-    "node_link",
-    "stacked_area",
-    "stream"
+  "cross-platform": [
+    "node_link"
   ],
   "stakeholders": [
     "node_link"
-  ],
-  "events": [
-    "node_link",
-    "sankey"
   ],
   "regional": [
     "node_link"
@@ -4467,9 +4758,8 @@
   "connections": [
     "node_link"
   ],
-  "wise": [
-    "node_link",
-    "pie"
+  "company-wise": [
+    "node_link"
   ],
   "transport": [
     "node_link",
@@ -4478,17 +4768,10 @@
   "routes": [
     "node_link"
   ],
-  "compensation": [
-    "parallel"
-  ],
-  "no": [
-    "parallel"
-  ],
-  "clustering": [
-    "parallel"
-  ],
-  "strong": [
-    "parallel"
+  "﻿real": [
+    "parallel",
+    "radar",
+    "ridgeline"
   ],
   "characteristics": [
     "parallel"
@@ -4496,18 +4779,87 @@
   "weak": [
     "parallel"
   ],
+  "clustering": [
+    "parallel"
+  ],
+  "no": [
+    "parallel"
+  ],
+  "strong": [
+    "parallel"
+  ],
+  "﻿human": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "﻿science": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
   "lab": [
     "parallel"
   ],
+  "﻿retail": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "﻿transportation": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "﻿tourism": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "﻿social": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "﻿sports": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
   "athlete": [
-    "parallel"
+    "parallel",
+    "scatter"
+  ],
+  "﻿agriculture": [
+    "parallel",
+    "radar",
+    "ridgeline"
   ],
   "farm": [
     "parallel",
     "scatter"
   ],
+  "﻿education": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
   "heis": [
     "parallel"
+  ],
+  "﻿cultural": [
+    "parallel",
+    "radar"
+  ],
+  "﻿business": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "﻿healthcare": [
+    "parallel",
+    "radar",
+    "ridgeline"
   ],
   "care": [
     "parallel"
@@ -4515,9 +4867,26 @@
   "hostpital": [
     "parallel"
   ],
+  "﻿food": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
   "quality": [
     "parallel",
     "scatter"
+  ],
+  "﻿energy": [
+    "parallel",
+    "radar",
+    "ridgeline"
+  ],
+  "share": [
+    "pie",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stream"
   ],
   "2023": [
     "pie",
@@ -4531,6 +4900,9 @@
   "activity": [
     "pie",
     "radar"
+  ],
+  "industry,2023": [
+    "pie"
   ],
   "disease": [
     "pie",
@@ -4553,135 +4925,62 @@
     "pie",
     "scatter"
   ],
-  "2024": [
+  "rental": [
     "pie",
-    "sunburst",
-    "treemap",
-    "treemap_D3"
+    "radar",
+    "scatter",
+    "stacked_area"
+  ],
+  "e-commerce,2024": [
+    "pie"
   ],
   "consumer": [
     "pie",
     "ridgeline",
     "scatter"
   ],
-  "discipline": [
-    "pie",
-    "radar"
+  "discipline-wise": [
+    "pie"
   ],
   "output": [
     "pie"
   ],
-  "2020": [
-    "pie",
-    "sunburst",
-    "treemap_D3"
+  "2020–2024": [
+    "pie"
+  ],
+  "streaming,2024": [
+    "pie"
+  ],
+  "entertainment,2024": [
+    "pie"
   ],
   "competition": [
     "pie"
   ],
-  "usage": [
-    "pie",
-    "ridgeline",
-    "scatter",
-    "stream"
-  ],
   "labels": [
-    "radar"
-  ],
-  "return": [
-    "radar",
-    "ridgeline",
-    "scatter",
-    "stream"
-  ],
-  "self": [
-    "radar"
-  ],
-  "service": [
-    "radar",
-    "sankey",
-    "scatter"
-  ],
-  "resolution": [
-    "radar"
-  ],
-  "gross": [
-    "radar"
-  ],
-  "repurchase": [
     "radar"
   ],
   "member": [
     "radar"
   ],
-  "growth": [
+  "gross": [
+    "radar"
+  ],
+  "land": [
+    "radar"
+  ],
+  "utilization": [
     "radar",
+    "stream"
+  ],
+  "yield": [
+    "radar",
+    "ridgeline",
     "scatter",
     "stacked_area",
     "stream"
   ],
-  "interdisciplinary": [
-    "radar"
-  ],
-  "green": [
-    "radar"
-  ],
-  "citation": [
-    "radar"
-  ],
-  "content": [
-    "radar",
-    "sankey",
-    "scatter",
-    "stacked_area"
-  ],
-  "live": [
-    "radar"
-  ],
-  "stream": [
-    "radar"
-  ],
-  "viewer": [
-    "radar"
-  ],
-  "retention": [
-    "radar",
-    "scatter"
-  ],
-  "click": [
-    "radar",
-    "scatter"
-  ],
-  "through": [
-    "radar",
-    "scatter"
-  ],
-  "ctr": [
-    "radar"
-  ],
-  "completion": [
-    "radar"
-  ],
-  "influencer": [
-    "radar"
-  ],
-  "p": [
-    "radar"
-  ],
-  "vs": [
-    "radar"
-  ],
-  "ticket": [
-    "radar"
-  ],
-  "comment": [
-    "radar"
-  ],
-  "viewership": [
-    "radar",
-    "stacked_bar"
-  ],
-  "marginsustainable": [
+  "high-value": [
     "radar"
   ],
   "cultivation": [
@@ -4696,19 +4995,77 @@
   "coverage": [
     "radar"
   ],
-  "irrigation": [
+  "marginsustainable": [
+    "radar"
+  ],
+  "farming": [
+    "radar",
+    "sankey",
+    "stream"
+  ],
+  "repurchase": [
+    "radar"
+  ],
+  "self-service": [
+    "radar"
+  ],
+  "resolution": [
+    "radar"
+  ],
+  "interdisciplinary": [
+    "radar"
+  ],
+  "citation": [
+    "radar"
+  ],
+  "commercialization": [
+    "radar"
+  ],
+  "green": [
+    "radar"
+  ],
+  "retention": [
     "radar",
     "scatter"
   ],
-  "water": [
+  "operating": [
     "radar",
-    "scatter",
-    "stacked_area",
-    "stream"
+    "stacked_area"
   ],
-  "stadium": [
+  "p/e": [
+    "radar"
+  ],
+  "vs.": [
+    "radar"
+  ],
+  "influencer": [
+    "radar"
+  ],
+  "click-through": [
+    "radar"
+  ],
+  "ctr": [
+    "radar"
+  ],
+  "commerce": [
+    "radar"
+  ],
+  "live": [
+    "radar"
+  ],
+  "stream": [
+    "radar"
+  ],
+  "viewer": [
+    "radar"
+  ],
+  "completion": [
+    "radar"
+  ],
+  "content": [
     "radar",
-    "stacked_area",
+    "sankey",
+    "scatter",
     "stream"
   ],
   "impression": [
@@ -4717,21 +5074,32 @@
   "play": [
     "radar"
   ],
-  "local": [
+  "tv/streaming": [
     "radar"
   ],
-  "community": [
+  "viewership": [
+    "radar",
+    "stacked_bar"
+  ],
+  "stadium": [
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "comment": [
+    "radar"
+  ],
+  "ticket": [
     "radar"
   ],
   "revisit": [
     "radar"
   ],
-  "damage": [
+  "local": [
     "radar"
   ],
-  "loss": [
-    "radar",
-    "stacked_area"
+  "community": [
+    "radar"
   ],
   "route": [
     "radar"
@@ -4740,6 +5108,14 @@
     "radar"
   ],
   "as": [
+    "radar"
+  ],
+  "service": [
+    "radar",
+    "sankey",
+    "scatter"
+  ],
+  "damage/loss": [
     "radar"
   ],
   "heritage": [
@@ -4752,19 +5128,25 @@
     "radar",
     "stacked_bar"
   ],
-  "museum": [
-    "radar",
-    "stacked_area"
+  "museum/gallery": [
+    "radar"
   ],
   "visitor": [
     "radar"
   ],
-  "further": [
-    "radar"
+  "irrigation": [
+    "radar",
+    "scatter"
   ],
   "paper": [
     "radar",
     "stacked_bar"
+  ],
+  "further": [
+    "radar"
+  ],
+  "discipline": [
+    "radar"
   ],
   "power": [
     "radar"
@@ -4772,19 +5154,29 @@
   "transmission": [
     "radar"
   ],
+  "loss": [
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "﻿environmental": [
+    "radar"
+  ],
   "sustainability": [
     "radar"
   ],
-  "eco": [
-    "radar"
+  "carbon": [
+    "radar",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream"
   ],
-  "friendly": [
-    "radar"
+  "footprint": [
+    "radar",
+    "scatter"
   ],
-  "sustainable": [
-    "radar"
-  ],
-  "packaging": [
+  "reduction": [
     "radar"
   ],
   "conservation": [
@@ -4796,11 +5188,16 @@
   "material": [
     "radar"
   ],
-  "footprint": [
-    "radar",
-    "scatter"
+  "sustainable": [
+    "radar"
   ],
-  "reduction": [
+  "packaging": [
+    "radar"
+  ],
+  "waste-to-energy": [
+    "radar"
+  ],
+  "eco-friendly": [
     "radar"
   ],
   "building": [
@@ -4817,9 +5214,12 @@
   ],
   "table": [
     "radar",
-    "stacked_area"
+    "stream"
   ],
   "seat": [
+    "radar"
+  ],
+  "primary": [
     "radar"
   ],
   "chronic": [
@@ -4828,35 +5228,13 @@
   "compliance": [
     "radar"
   ],
-  "primary": [
-    "radar"
-  ],
-  "insurance": [
-    "radar"
-  ],
-  "incidence": [
-    "radar"
-  ],
   "electronic": [
     "radar"
   ],
   "record": [
     "radar"
   ],
-  "pay": [
-    "radar"
-  ],
-  "fill": [
-    "radar"
-  ],
-  "promotion": [
-    "radar",
-    "scatter"
-  ],
-  "skill": [
-    "radar"
-  ],
-  "proficiency": [
+  "incidence": [
     "radar"
   ],
   "offer": [
@@ -4865,13 +5243,31 @@
   "acceptance": [
     "radar"
   ],
+  "promotion": [
+    "radar"
+  ],
+  "pay": [
+    "radar"
+  ],
+  "time-to-fill": [
+    "radar"
+  ],
+  "skill": [
+    "radar"
+  ],
+  "proficiency": [
+    "radar"
+  ],
   "capital": [
     "radar"
   ],
   "appreciation": [
     "radar"
   ],
-  "yearly": [
+  "volatility": [
+    "radar"
+  ],
+  "price-to-income": [
     "radar"
   ],
   "newly": [
@@ -4883,10 +5279,7 @@
   "homes": [
     "radar"
   ],
-  "volatility": [
-    "radar"
-  ],
-  "mortgage": [
+  "yearly": [
     "radar"
   ],
   "payment": [
@@ -4894,8 +5287,10 @@
   ],
   "transaction": [
     "radar",
-    "sankey",
-    "scatter"
+    "sankey"
+  ],
+  "periodic": [
+    "ridgeline"
   ],
   "fluctuation": [
     "ridgeline"
@@ -4903,8 +5298,9 @@
   "peak": [
     "ridgeline"
   ],
-  "periodic": [
-    "ridgeline"
+  "hours/day": [
+    "ridgeline",
+    "scatter"
   ],
   "spending": [
     "ridgeline",
@@ -4914,51 +5310,47 @@
   "preferences": [
     "ridgeline"
   ],
-  "person": [
+  "tons/hectare": [
     "ridgeline",
+    "scatter",
     "stacked_area",
     "stream"
   ],
-  "square": [
+  "usd/person": [
     "ridgeline"
   ],
-  "foot": [
-    "ridgeline",
-    "stacked_area",
-    "stream"
+  "usd/square": [
+    "ridgeline"
   ],
   "ecosystem": [
-    "sankey"
-  ],
-  "outcomes": [
-    "sankey"
-  ],
-  "areas": [
-    "sankey"
-  ],
-  "sources": [
     "sankey"
   ],
   "fields": [
     "sankey",
     "stacked_bar"
   ],
-  "decision": [
+  "outcomes": [
     "sankey"
   ],
-  "making": [
+  "sources": [
+    "sankey"
+  ],
+  "areas": [
+    "sankey"
+  ],
+  "decision-making": [
     "sankey"
   ],
   "routine": [
     "sankey"
   ],
-  "returns": [
-    "sankey"
-  ],
   "strategies": [
     "sankey"
   ],
-  "demographics": [
+  "levels": [
+    "sankey"
+  ],
+  "returns": [
     "sankey"
   ],
   "monetization": [
@@ -4967,31 +5359,31 @@
   "models": [
     "sankey"
   ],
-  "methods": [
-    "sankey"
-  ],
-  "levels": [
-    "sankey"
-  ],
   "formats": [
+    "sankey"
+  ],
+  "demographics": [
+    "sankey"
+  ],
+  "methods": [
     "sankey"
   ],
   "framework": [
     "sankey"
   ],
-  "audience": [
+  "streams": [
     "sankey"
   ],
   "channels": [
     "sankey"
   ],
-  "streams": [
-    "sankey"
-  ],
-  "purposes": [
+  "audience": [
     "sankey"
   ],
   "continents": [
+    "sankey"
+  ],
+  "purposes": [
     "sankey"
   ],
   "hotels": [
@@ -5000,13 +5392,17 @@
   "goods": [
     "sankey"
   ],
+  "assembly": [
+    "sankey"
+  ],
   "center": [
     "sankey"
   ],
-  "factory": [
-    "sankey"
+  "warehouse": [
+    "sankey",
+    "stream"
   ],
-  "assembly": [
+  "factory": [
     "sankey"
   ],
   "products": [
@@ -5031,6 +5427,12 @@
   "system": [
     "sankey"
   ],
+  "post-education": [
+    "sankey"
+  ],
+  "paths": [
+    "sankey"
+  ],
   "support": [
     "sankey"
   ],
@@ -5040,20 +5442,10 @@
   "backgrounds": [
     "sankey"
   ],
-  "post": [
-    "sankey",
-    "scatter"
-  ],
-  "paths": [
-    "sankey"
-  ],
   "emission": [
     "sankey"
   ],
   "disposition": [
-    "sankey"
-  ],
-  "sector": [
     "sankey"
   ],
   "mitigation": [
@@ -5062,17 +5454,30 @@
   "measures": [
     "sankey"
   ],
-  "venues": [
+  "sector": [
     "sankey"
   ],
   "facilities": [
     "sankey"
   ],
-  "specialties": [
+  "venues": [
     "sankey"
   ],
   "providers": [
     "sankey"
+  ],
+  "specialties": [
+    "sankey"
+  ],
+  "treatment": [
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "ratings": [
+    "sankey",
+    "stream"
   ],
   "onboarding": [
     "sankey"
@@ -5086,14 +5491,13 @@
   "stages": [
     "sankey"
   ],
-  "location": [
-    "sankey",
-    "scatter"
-  ],
   "buyer": [
     "sankey"
   ],
   "conditions": [
+    "sankey"
+  ],
+  "location": [
     "sankey"
   ],
   "financing": [
@@ -5102,10 +5506,7 @@
   "options": [
     "sankey"
   ],
-  "omni": [
-    "sankey"
-  ],
-  "channel": [
+  "omni-channel": [
     "sankey"
   ],
   "purchases": [
@@ -5114,28 +5515,24 @@
   "campaigns": [
     "sankey"
   ],
-  "none": [
-    "scatter"
-  ],
-  "u_shape": [
-    "scatter"
-  ],
   "positive": [
     "scatter"
   ],
-  "gallon": [
+  "/gallon": [
     "scatter"
   ],
-  "negative": [
+  "none": [
     "scatter"
   ],
-  "household": [
+  "/student": [
     "scatter"
+  ],
+  "college": [
+    "scatter",
+    "stacked_bar",
+    "violin"
   ],
   "admission": [
-    "scatter"
-  ],
-  "literacy": [
     "scatter"
   ],
   "parental": [
@@ -5147,79 +5544,13 @@
   "scores": [
     "scatter"
   ],
-  "outage": [
+  "u_shape": [
     "scatter"
   ],
-  "duration": [
+  "negative": [
     "scatter"
   ],
-  "grid": [
-    "scatter"
-  ],
-  "stability": [
-    "scatter"
-  ],
-  "co2e": [
-    "scatter"
-  ],
-  "ecology": [
-    "scatter"
-  ],
-  "rainfall": [
-    "scatter"
-  ],
-  "mm": [
-    "scatter"
-  ],
-  "pollution": [
-    "scatter"
-  ],
-  "species": [
-    "scatter"
-  ],
-  "diversity": [
-    "scatter"
-  ],
-  "economics": [
-    "scatter"
-  ],
-  "gdp": [
-    "scatter"
-  ],
-  "exchange": [
-    "scatter"
-  ],
-  "currency": [
-    "scatter"
-  ],
-  "inflation": [
-    "scatter"
-  ],
-  "confidence": [
-    "scatter"
-  ],
-  "bmi": [
-    "scatter"
-  ],
-  "m²": [
-    "scatter"
-  ],
-  "time_healthcare": [
-    "scatter"
-  ],
-  "dosage": [
-    "scatter"
-  ],
-  "mg": [
-    "scatter"
-  ],
-  "readmission": [
-    "scatter"
-  ],
-  "survival": [
-    "scatter"
-  ],
-  "workplace": [
+  "mm/season": [
     "scatter"
   ],
   "pest": [
@@ -5228,10 +5559,142 @@
   "control": [
     "scatter"
   ],
-  "commute": [
+  "/hectare": [
+    "scatter"
+  ],
+  "freshness": [
+    "scatter"
+  ],
+  "grid": [
+    "scatter"
+  ],
+  "stability": [
+    "scatter"
+  ],
+  "outage": [
+    "scatter"
+  ],
+  "duration": [
+    "scatter"
+  ],
+  "co2e/year": [
+    "scatter"
+  ],
+  "hectares": [
+    "scatter",
+    "stream"
+  ],
+  "ecology": [
+    "scatter"
+  ],
+  "pollution": [
+    "scatter"
+  ],
+  "glacier": [
+    "scatter"
+  ],
+  "km²": [
+    "scatter"
+  ],
+  "temperature": [
+    "scatter"
+  ],
+  "°c": [
+    "scatter"
+  ],
+  "kg/hectare": [
+    "scatter"
+  ],
+  "/ton": [
+    "scatter",
+    "stream"
+  ],
+  "forest": [
+    "scatter"
+  ],
+  "cover": [
+    "scatter"
+  ],
+  "co2": [
+    "scatter"
+  ],
+  "emissions": [
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "tons/year": [
+    "scatter"
+  ],
+  "species": [
+    "scatter"
+  ],
+  "rainfall": [
+    "scatter"
+  ],
+  "mm/year": [
+    "scatter"
+  ],
+  "economics": [
+    "scatter"
+  ],
+  "exchange": [
+    "scatter"
+  ],
+  "currency/usd": [
+    "scatter"
+  ],
+  "interest": [
+    "scatter",
+    "stacked_area"
+  ],
+  "gdp": [
     "scatter"
   ],
   "soil": [
+    "scatter"
+  ],
+  "unemployment": [
+    "scatter"
+  ],
+  "confidence": [
+    "scatter"
+  ],
+  "inflation": [
+    "scatter"
+  ],
+  "dosage": [
+    "scatter"
+  ],
+  "mg": [
+    "scatter"
+  ],
+  "survival": [
+    "scatter"
+  ],
+  "blood": [
+    "scatter"
+  ],
+  "pressure": [
+    "scatter"
+  ],
+  "mmhg": [
+    "scatter"
+  ],
+  "readmission": [
+    "scatter"
+  ],
+  "workplace": [
+    "scatter"
+  ],
+  "absenteeism": [
+    "scatter",
+    "stacked_area"
+  ],
+  "/year": [
+    "scatter"
+  ],
+  "commute": [
     "scatter"
   ],
   "email": [
@@ -5240,67 +5703,85 @@
   "open": [
     "scatter"
   ],
+  "bounce": [
+    "scatter"
+  ],
+  "website": [
+    "scatter"
+  ],
+  "lifetime": [
+    "scatter"
+  ],
+  "advertising": [
+    "scatter"
+  ],
+  "sunlight": [
+    "scatter"
+  ],
   "months": [
     "scatter"
   ],
-  "vacancy": [
-    "scatter",
-    "stacked_area"
+  "density": [
+    "scatter"
+  ],
+  "units/acre": [
+    "scatter"
   ],
   "behavior": [
     "scatter"
   ],
+  "promotional": [
+    "scatter"
+  ],
   "store": [
-    "scatter",
-    "stacked_area",
-    "stream"
+    "scatter"
   ],
   "m³": [
+    "scatter"
+  ],
+  "people/day": [
+    "scatter"
+  ],
+  "checkout": [
+    "scatter"
+  ],
+  "household": [
+    "scatter"
+  ],
+  "literacy": [
     "scatter"
   ],
   "length": [
     "scatter"
   ],
-  "view": [
-    "scatter"
-  ],
   "posting": [
     "scatter"
   ],
-  "posts": [
+  "posts/day": [
     "scatter"
   ],
-  "new": [
-    "scatter"
-  ],
-  "hashtag": [
+  "view": [
     "scatter"
   ],
   "fitness": [
     "scatter"
   ],
-  "injury": [
+  "nutrition": [
     "scatter"
   ],
-  "injuries": [
+  "intake": [
+    "scatter"
+  ],
+  "calories/day": [
+    "scatter"
+  ],
+  "endurance": [
     "scatter"
   ],
   "time_sports": [
     "scatter"
   ],
-  "sleep": [
-    "scatter"
-  ],
-  "startup": [
-    "scatter"
-  ],
-  "smartphone": [
-    "scatter"
-  ],
-  "penetration": [
-    "scatter"
-  ],
-  "gb": [
+  "gb/month": [
     "scatter"
   ],
   "internet": [
@@ -5312,39 +5793,56 @@
   "mbps": [
     "scatter"
   ],
+  "startup": [
+    "scatter"
+  ],
+  "visitors/year": [
+    "scatter"
+  ],
   "seasonality": [
     "scatter"
   ],
-  "book": [
+  "/night": [
+    "scatter"
+  ],
+  "mile": [
+    "scatter"
+  ],
+  "vehicles/day": [
+    "scatter"
+  ],
+  "expenses": [
     "stacked_area"
   ],
-  "copies": [
+  "cinema": [
     "stacked_area"
   ],
-  "festival": [
+  "student-teacher": [
     "stacked_area",
     "stream"
   ],
-  "alumni": [
+  "natural": [
     "stacked_area",
     "stream"
   ],
-  "giving": [
+  "gas": [
     "stacked_area",
     "stream"
   ],
-  "meters": [
+  "/cubic": [
     "stacked_area",
     "stream"
   ],
-  "capita": [
+  "meter": [
     "stacked_area",
     "stream"
   ],
-  "tables": [
-    "stacked_area"
+  "electricity": [
+    "stacked_area",
+    "stacked_bar",
+    "stream"
   ],
-  "safety": [
+  "demand": [
     "stacked_area",
     "stream"
   ],
@@ -5352,46 +5850,40 @@
     "stacked_area",
     "stream"
   ],
-  "uploads": [
-    "stacked_area"
-  ],
-  "session": [
+  "hire": [
     "stacked_area",
     "stream"
+  ],
+  "vacancy": [
+    "stacked_area"
+  ],
+  "loyalty": [
+    "stacked_area"
+  ],
+  "program": [
+    "stacked_area"
   ],
   "merchandise": [
-    "stacked_area",
-    "stream"
-  ],
-  "luggage": [
     "stacked_area"
   ],
-  "driver": [
+  "tickets/session": [
     "stacked_area",
     "stream"
   ],
-  "l": [
+  "members": [
+    "stacked_area"
+  ],
+  "luggage": [
     "stacked_area",
     "stream"
   ],
-  "100km": [
-    "stacked_area",
-    "stream"
-  ],
-  "border": [
+  "cross-border": [
     "stacked_area",
     "stream"
   ],
   "delays": [
     "stacked_area",
     "stream"
-  ],
-  "bluepeak": [
-    "stacked_bar",
-    "violin"
-  ],
-  "truenorth": [
-    "stacked_bar"
   ],
   "among": [
     "stacked_bar"
@@ -5405,76 +5897,72 @@
   "ai": [
     "stacked_bar"
   ],
+  "marketzen": [
+    "stacked_bar",
+    "violin"
+  ],
   "nanotech": [
-    "stacked_bar"
-  ],
-  "materials": [
-    "stacked_bar"
-  ],
-  "photonics": [
-    "stacked_bar"
-  ],
-  "computing": [
     "stacked_bar"
   ],
   "robotics": [
     "stacked_bar"
   ],
-  "datapulse": [
-    "stacked_bar",
-    "violin"
+  "photonics": [
+    "stacked_bar"
   ],
-  "technova": [
+  "materials": [
     "stacked_bar"
   ],
   "numbers": [
     "stacked_bar"
   ],
-  "documentary": [
+  "news": [
+    "stacked_bar"
+  ],
+  "nextgen": [
+    "stacked_bar",
+    "violin"
+  ],
+  "comedy": [
     "stacked_bar"
   ],
   "gaming": [
     "stacked_bar"
   ],
-  "comedy": [
+  "tutorials": [
     "stacked_bar"
   ],
   "vlogs": [
     "stacked_bar"
   ],
-  "tutorials": [
-    "stacked_bar"
+  "quantumx": [
+    "stacked_bar",
+    "violin"
   ],
-  "news": [
-    "stacked_bar"
+  "brightedge": [
+    "stacked_bar",
+    "violin"
   ],
-  "marketzen": [
-    "stacked_bar"
+  "technova": [
+    "stacked_bar",
+    "violin"
   ],
   "movie": [
     "stacked_bar"
   ],
-  "shadow": [
+  "truth": [
+    "stacked_bar",
+    "violin"
+  ],
+  "starlight": [
+    "stacked_bar",
+    "violin"
+  ],
+  "moon": [
     "stacked_bar"
   ],
-  "line": [
+  "cavern": [
     "stacked_bar"
-  ],
-  "echoes": [
-    "stacked_bar",
-    "violin"
-  ],
-  "valley": [
-    "stacked_bar",
-    "violin"
-  ],
-  "star": [
-    "stacked_bar",
-    "violin"
-  ],
-  "plateau": [
-    "stacked_bar",
-    "violin"
   ],
   "commodities": [
     "stacked_bar"
@@ -5482,16 +5970,7 @@
   "tonnes": [
     "stacked_bar"
   ],
-  "plastics": [
-    "stacked_bar"
-  ],
-  "steel": [
-    "stacked_bar"
-  ],
   "grain": [
-    "stacked_bar"
-  ],
-  "chemicals": [
     "stacked_bar"
   ],
   "machinery": [
@@ -5500,99 +5979,95 @@
   "parts": [
     "stacked_bar"
   ],
+  "steel": [
+    "stacked_bar"
+  ],
+  "electronics": [
+    "stacked_bar",
+    "violin"
+  ],
+  "oil": [
+    "stacked_bar"
+  ],
   "textiles": [
     "stacked_bar"
   ],
-  "corelogic": [
+  "pharmaceuticals": [
     "stacked_bar"
   ],
-  "soybean": [
+  "plastics": [
     "stacked_bar"
+  ],
+  "vehicles": [
+    "stacked_bar"
+  ],
+  "chemicals": [
+    "stacked_bar"
+  ],
+  "brightwave": [
+    "stacked_bar",
+    "violin"
+  ],
+  "alphanet": [
+    "stacked_bar"
+  ],
+  "corelogic": [
+    "stacked_bar",
+    "violin"
+  ],
+  "bluepeak": [
+    "stacked_bar",
+    "violin"
   ],
   "counts": [
-    "stacked_bar"
-  ],
-  "mural": [
-    "stacked_bar"
-  ],
-  "installation": [
-    "stacked_bar"
-  ],
-  "textile": [
-    "stacked_bar"
-  ],
-  "metalwork": [
-    "stacked_bar"
-  ],
-  "sculpture": [
-    "stacked_bar"
-  ],
-  "digitalart": [
-    "stacked_bar"
-  ],
-  "glassware": [
-    "stacked_bar"
-  ],
-  "photography": [
     "stacked_bar"
   ],
   "ceramics": [
     "stacked_bar"
   ],
+  "mural": [
+    "stacked_bar"
+  ],
+  "photography": [
+    "stacked_bar"
+  ],
+  "textile": [
+    "stacked_bar"
+  ],
+  "installation": [
+    "stacked_bar"
+  ],
+  "glassware": [
+    "stacked_bar"
+  ],
   "painting": [
+    "stacked_bar"
+  ],
+  "digitalart": [
+    "stacked_bar"
+  ],
+  "sculpture": [
+    "stacked_bar"
+  ],
+  "metalwork": [
     "stacked_bar"
   ],
   "historical": [
     "stacked_bar"
   ],
-  "elmwood": [
+  "lakewood": [
     "stacked_bar",
     "violin"
   ],
-  "crestview": [
+  "hillcrest": [
     "stacked_bar",
     "violin"
   ],
-  "nuclear": [
-    "stacked_bar"
+  "maplewood": [
+    "stacked_bar",
+    "violin"
   ],
-  "naturalgas": [
-    "stacked_bar"
-  ],
-  "biomass": [
-    "stacked_bar"
-  ],
-  "geothermal": [
-    "stacked_bar"
-  ],
-  "hydro": [
-    "stacked_bar"
-  ],
-  "wind": [
-    "stacked_bar"
-  ],
-  "oil": [
-    "stacked_bar"
-  ],
-  "solar": [
-    "stacked_bar"
-  ],
-  "confectionery": [
-    "stacked_bar"
-  ],
-  "snacks": [
-    "stacked_bar"
-  ],
-  "vegetables": [
-    "stacked_bar"
-  ],
-  "meat": [
-    "stacked_bar"
-  ],
-  "fruits": [
-    "stacked_bar"
-  ],
-  "seafood": [
+  "fairview": [
     "stacked_bar",
     "violin"
   ],
@@ -5603,16 +6078,85 @@
     "stacked_bar",
     "violin"
   ],
-  "brookhaven": [
+  "rice": [
+    "stacked_bar",
+    "violin"
+  ],
+  "soybean": [
     "stacked_bar"
+  ],
+  "biomass": [
+    "stacked_bar"
+  ],
+  "geothermal": [
+    "stacked_bar"
+  ],
+  "wind": [
+    "stacked_bar"
+  ],
+  "solar": [
+    "stacked_bar"
+  ],
+  "naturalgas": [
+    "stacked_bar"
+  ],
+  "hydro": [
+    "stacked_bar"
+  ],
+  "nuclear": [
+    "stacked_bar"
+  ],
+  "meat": [
+    "stacked_bar"
+  ],
+  "fruits": [
+    "stacked_bar"
+  ],
+  "snacks": [
+    "stacked_bar"
+  ],
+  "vegetables": [
+    "stacked_bar"
+  ],
+  "beverages": [
+    "stacked_bar"
+  ],
+  "dairy": [
+    "stacked_bar"
+  ],
+  "frozen": [
+    "stacked_bar",
+    "violin"
   ],
   "redstone": [
     "stacked_bar"
   ],
-  "riverton": [
+  "clearview": [
+    "stacked_bar"
+  ],
+  "cedarburg": [
+    "stacked_bar"
+  ],
+  "northfield": [
     "stacked_bar"
   ],
   "springvale": [
+    "stacked_bar"
+  ],
+  "brookhaven": [
+    "stacked_bar"
+  ],
+  "stonehill": [
+    "stacked_bar"
+  ],
+  "meadowbrook": [
+    "stacked_bar",
+    "violin"
+  ],
+  "riverton": [
+    "stacked_bar"
+  ],
+  "glenwood": [
     "stacked_bar"
   ],
   "working": [
@@ -5624,13 +6168,28 @@
   "telecom": [
     "stacked_bar"
   ],
-  "semi": [
+  "apartment": [
+    "stacked_bar",
+    "violin"
+  ],
+  "condominium": [
     "stacked_bar"
   ],
   "detached": [
     "stacked_bar"
   ],
-  "books": [
+  "semi-detached": [
+    "stacked_bar"
+  ],
+  "bungalow": [
+    "stacked_bar",
+    "violin"
+  ],
+  "villa": [
+    "stacked_bar",
+    "violin"
+  ],
+  "cottage": [
     "stacked_bar",
     "violin"
   ],
@@ -5641,14 +6200,40 @@
     "stacked_bar",
     "violin"
   ],
-  "kitchen": [
-    "stacked_bar"
-  ],
   "random_on_off_rising": [
     "stream"
   ],
   "random_on_off_stable": [
     "stream"
+  ],
+  "capita": [
+    "stream"
+  ],
+  "mwh/person": [
+    "stream"
+  ],
+  "tables/hour": [
+    "stream"
+  ],
+  "units/hour": [
+    "stream"
+  ],
+  "organic": [
+    "stream"
+  ],
+  "uploads": [
+    "stream"
+  ],
+  "uploads/day": [
+    "stream"
+  ],
+  "tv": [
+    "stream"
+  ],
+  "2024": [
+    "sunburst",
+    "treemap",
+    "treemap_D3"
   ],
   "parent": [
     "sunburst",
@@ -5658,6 +6243,10 @@
   "child": [
     "sunburst",
     "treemap",
+    "treemap_D3"
+  ],
+  "2020": [
+    "sunburst",
     "treemap_D3"
   ],
   "2022": [
@@ -5670,7 +6259,19 @@
     "treemap",
     "treemap_D3"
   ],
-  "reelix": [
+  "pixelx": [
+    "violin"
+  ],
+  "glimpr": [
+    "violin"
+  ],
+  "watchit": [
+    "violin"
+  ],
+  "deep": [
+    "violin"
+  ],
+  "waters": [
     "violin"
   ],
   "empty": [
@@ -5679,13 +6280,7 @@
   "roads": [
     "violin"
   ],
-  "lotus": [
-    "violin"
-  ],
-  "temple": [
-    "violin"
-  ],
-  "fine": [
+  "truenorth": [
     "violin"
   ],
   "fast": [
@@ -5694,34 +6289,28 @@
   "chains": [
     "violin"
   ],
-  "vegetarian": [
+  "buffet": [
     "violin"
   ],
-  "dessert": [
+  "cocoa": [
     "violin"
   ],
-  "cafes": [
+  "potatoes": [
     "violin"
   ],
-  "bakeries": [
+  "hemp": [
     "violin"
   ],
-  "wheat": [
+  "farmhouse": [
     "violin"
   ],
-  "pet": [
+  "mobile": [
     "violin"
   ],
-  "tools": [
+  "tiny": [
     "violin"
   ],
-  "baby": [
-    "violin"
-  ],
-  "decor": [
-    "violin"
-  ],
-  "furniture": [
+  "luxury": [
     "violin"
   ]
 }
