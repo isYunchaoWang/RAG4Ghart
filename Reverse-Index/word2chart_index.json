@@ -1,0 +1,5727 @@
+{
+  "science": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "and": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "engineering": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "data": [
+    "bar",
+    "box",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "on": [
+    "bar",
+    "box",
+    "bubble",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "r": [
+    "bar",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "d": [
+    "bar",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "investment": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "across": [
+    "bar",
+    "box",
+    "node_link",
+    "pie",
+    "violin"
+  ],
+  "cities": [
+    "bar",
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "million": [
+    "bar",
+    "box",
+    "chord",
+    "funnel",
+    "line",
+    "sankey",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "usd": [
+    "bar",
+    "box",
+    "ridgeline",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "normal": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "violin"
+  ],
+  "horizontal": [
+    "bar",
+    "box",
+    "stacked_bar"
+  ],
+  "city": [
+    "bar",
+    "parallel",
+    "stacked_bar"
+  ],
+  "random": [
+    "bar",
+    "bubble",
+    "chord",
+    "heatmap",
+    "ridgeline",
+    "sankey"
+  ],
+  "vertical": [
+    "bar",
+    "box",
+    "stacked_bar"
+  ],
+  "business": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "finance": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "company": [
+    "bar",
+    "bubble",
+    "node_link",
+    "parallel",
+    "pie"
+  ],
+  "s": [
+    "bar"
+  ],
+  "annual": [
+    "bar"
+  ],
+  "revenue": [
+    "bar",
+    "box",
+    "bubble",
+    "line",
+    "pie",
+    "radar",
+    "sankey",
+    "scatter",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "long_tail": [
+    "bar",
+    "chord"
+  ],
+  "leptokurtic": [
+    "bar"
+  ],
+  "step": [
+    "bar"
+  ],
+  "social": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "media": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "digital": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "streaming": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "the": [
+    "bar",
+    "box",
+    "bubble",
+    "fill_bubble",
+    "heatmap",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "number": [
+    "bar",
+    "box",
+    "bubble",
+    "stacked_bar",
+    "violin"
+  ],
+  "of": [
+    "bar",
+    "box",
+    "bubble",
+    "fill_bubble",
+    "heatmap",
+    "parallel",
+    "pie",
+    "radar",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "plays": [
+    "bar"
+  ],
+  "a": [
+    "bar",
+    "box",
+    "violin"
+  ],
+  "video": [
+    "bar",
+    "box",
+    "radar",
+    "stacked_bar",
+    "violin"
+  ],
+  "different": [
+    "bar",
+    "box",
+    "parallel",
+    "stacked_bar",
+    "violin"
+  ],
+  "platforms": [
+    "bar",
+    "box",
+    "violin"
+  ],
+  "thousand": [
+    "bar",
+    "box",
+    "chord",
+    "funnel",
+    "stacked_bar",
+    "violin"
+  ],
+  "views": [
+    "bar",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "sharing": [
+    "bar",
+    "radar"
+  ],
+  "sports": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "entertainment": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "box": [
+    "bar",
+    "box",
+    "radar",
+    "stacked_bar",
+    "violin"
+  ],
+  "office": [
+    "bar",
+    "box",
+    "radar",
+    "stacked_bar",
+    "violin"
+  ],
+  "movies": [
+    "bar",
+    "box",
+    "violin"
+  ],
+  "bimodal": [
+    "bar"
+  ],
+  "agriculture": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "food": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "production": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "crops": [
+    "bar",
+    "chord",
+    "heatmap",
+    "sankey",
+    "stacked_bar"
+  ],
+  "in": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "node_link",
+    "parallel",
+    "pie",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "an": [
+    "bar"
+  ],
+  "area": [
+    "bar",
+    "line",
+    "stream"
+  ],
+  "metric": [
+    "bar"
+  ],
+  "tons": [
+    "bar",
+    "box",
+    "chord",
+    "funnel",
+    "line",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "crop": [
+    "bar",
+    "box",
+    "bubble",
+    "pie",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "category": [
+    "bar",
+    "box",
+    "pie",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "tourism": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "hospitality": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "famous": [
+    "bar",
+    "stacked_bar"
+  ],
+  "attractions": [
+    "bar",
+    "box",
+    "heatmap",
+    "sankey",
+    "stacked_bar",
+    "violin"
+  ],
+  "visitors": [
+    "bar",
+    "box",
+    "line",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "attraction": [
+    "bar",
+    "line",
+    "radar",
+    "stream"
+  ],
+  "transportation_and": [
+    "bar"
+  ],
+  "logistics": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "fruit": [
+    "bar",
+    "box",
+    "violin"
+  ],
+  "transportation": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "flow": [
+    "bar",
+    "chord",
+    "funnel",
+    "node_link",
+    "sankey"
+  ],
+  "farms": [
+    "bar"
+  ],
+  "cultural": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "trends": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "influences": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "artworks": [
+    "bar"
+  ],
+  "created": [
+    "bar"
+  ],
+  "education": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "academics": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "comparison": [
+    "bar",
+    "bubble",
+    "heatmap",
+    "scatter",
+    "stacked_bar"
+  ],
+  "students": [
+    "bar",
+    "bubble",
+    "chord",
+    "line",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "energy": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "utilities": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "consumption": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "heatmap",
+    "pie",
+    "radar",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "given": [
+    "bar"
+  ],
+  "region": [
+    "bar",
+    "box",
+    "node_link",
+    "pie",
+    "violin"
+  ],
+  "twh": [
+    "bar",
+    "stacked_bar"
+  ],
+  "beverage": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "industry": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "sales": [
+    "bar",
+    "box",
+    "bubble",
+    "funnel",
+    "line",
+    "parallel",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "figures": [
+    "bar",
+    "stacked_bar"
+  ],
+  "categories": [
+    "bar",
+    "sankey"
+  ],
+  "healthcare": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "health": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "hospital": [
+    "bar",
+    "bubble",
+    "line",
+    "radar",
+    "stacked_bar"
+  ],
+  "visits": [
+    "bar",
+    "box",
+    "line",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "within": [
+    "bar",
+    "stacked_bar"
+  ],
+  "year": [
+    "bar",
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "towns": [
+    "bar",
+    "stacked_bar"
+  ],
+  "town": [
+    "bar",
+    "stacked_bar"
+  ],
+  "human": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "resources": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "employee": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "management": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "employees": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "line",
+    "sankey",
+    "stream",
+    "violin"
+  ],
+  "companies": [
+    "bar",
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "real": [
+    "bar",
+    "box",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "estate": [
+    "bar",
+    "box",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "housing": [
+    "bar",
+    "box",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "market": [
+    "bar",
+    "box",
+    "chord",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "house": [
+    "bar",
+    "box",
+    "parallel",
+    "stacked_bar",
+    "violin"
+  ],
+  "types": [
+    "bar",
+    "pie",
+    "sankey",
+    "stacked_bar"
+  ],
+  "particular": [
+    "bar",
+    "box",
+    "violin"
+  ],
+  "property": [
+    "bar",
+    "box",
+    "parallel",
+    "sankey",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "type": [
+    "bar",
+    "box",
+    "node_link",
+    "pie",
+    "violin"
+  ],
+  "retail": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "e": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "commerce": [
+    "bar",
+    "box",
+    "bubble",
+    "chord",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "monthly": [
+    "bar",
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "online": [
+    "bar",
+    "bubble",
+    "funnel",
+    "line",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "for": [
+    "bar",
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "platform": [
+    "bar",
+    "chord",
+    "node_link",
+    "sankey",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "month": [
+    "bar",
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "research": [
+    "box",
+    "bubble",
+    "chord",
+    "line",
+    "node_link",
+    "parallel",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "development": [
+    "box",
+    "sankey",
+    "violin"
+  ],
+  "by": [
+    "box",
+    "node_link",
+    "pie",
+    "stacked_bar",
+    "sunburst",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "country": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "skewed": [
+    "box",
+    "violin"
+  ],
+  "dunvale": [
+    "box",
+    "violin"
+  ],
+  "lakeview": [
+    "box",
+    "violin"
+  ],
+  "mapleton": [
+    "box",
+    "violin"
+  ],
+  "highvale": [
+    "box",
+    "violin"
+  ],
+  "zephyr": [
+    "box",
+    "violin"
+  ],
+  "creston": [
+    "box",
+    "violin"
+  ],
+  "ecocore": [
+    "box",
+    "stacked_bar"
+  ],
+  "urbanflow": [
+    "box",
+    "stacked_bar"
+  ],
+  "smarthub": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "kilograms": [
+    "box",
+    "violin"
+  ],
+  "per": [
+    "box",
+    "bubble",
+    "line",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "hectare": [
+    "box",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "rice": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "cotton": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "cocoa": [
+    "box",
+    "violin"
+  ],
+  "corn": [
+    "box",
+    "stacked_bar"
+  ],
+  "flax": [
+    "box",
+    "violin"
+  ],
+  "barley": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "t": [
+    "box",
+    "violin"
+  ],
+  "springfield": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "northgate": [
+    "box",
+    "violin"
+  ],
+  "glenhaven": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "oakridge": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "ashford": [
+    "box",
+    "violin"
+  ],
+  "fairmont": [
+    "box",
+    "violin"
+  ],
+  "brookfield": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "rosewood": [
+    "box",
+    "violin"
+  ],
+  "pinehaven": [
+    "box",
+    "violin"
+  ],
+  "quarryville": [
+    "box",
+    "violin"
+  ],
+  "yorkton": [
+    "box",
+    "violin"
+  ],
+  "daily": [
+    "box",
+    "bubble",
+    "line",
+    "stream",
+    "violin"
+  ],
+  "viewers": [
+    "box",
+    "bubble",
+    "line",
+    "stream",
+    "violin"
+  ],
+  "videx": [
+    "box",
+    "violin"
+  ],
+  "vido": [
+    "box",
+    "violin"
+  ],
+  "flowvid": [
+    "box",
+    "violin"
+  ],
+  "moviq": [
+    "box",
+    "violin"
+  ],
+  "castio": [
+    "box",
+    "violin"
+  ],
+  "playbit": [
+    "box",
+    "violin"
+  ],
+  "viewly": [
+    "box",
+    "violin"
+  ],
+  "streamo": [
+    "box",
+    "violin"
+  ],
+  "showio": [
+    "box",
+    "violin"
+  ],
+  "glimpr": [
+    "box",
+    "violin"
+  ],
+  "vizzle": [
+    "box"
+  ],
+  "flicksy": [
+    "box",
+    "violin"
+  ],
+  "scenex": [
+    "box",
+    "violin"
+  ],
+  "zoomo": [
+    "box",
+    "violin"
+  ],
+  "tubeo": [
+    "box"
+  ],
+  "clipio": [
+    "box"
+  ],
+  "pixelx": [
+    "box",
+    "violin"
+  ],
+  "watchit": [
+    "box"
+  ],
+  "projected": [
+    "box",
+    "violin"
+  ],
+  "true": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "edge": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "broken": [
+    "box",
+    "stacked_bar"
+  ],
+  "mirror": [
+    "box",
+    "stacked_bar"
+  ],
+  "fading": [
+    "box",
+    "violin"
+  ],
+  "light": [
+    "box",
+    "violin"
+  ],
+  "wild": [
+    "box"
+  ],
+  "bloom": [
+    "box"
+  ],
+  "starlight": [
+    "box",
+    "stacked_bar"
+  ],
+  "lost": [
+    "box",
+    "stacked_bar"
+  ],
+  "signal": [
+    "box",
+    "stacked_bar"
+  ],
+  "nightfall": [
+    "box",
+    "stacked_bar"
+  ],
+  "plain": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "sight": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "hidden": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "truth": [
+    "box",
+    "stacked_bar"
+  ],
+  "frozen": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "time": [
+    "box",
+    "bubble",
+    "line",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "deep": [
+    "box"
+  ],
+  "waters": [
+    "box"
+  ],
+  "dark": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "horizon": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "final": [
+    "box",
+    "sankey",
+    "stacked_bar",
+    "violin"
+  ],
+  "reckoning": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "last": [
+    "box"
+  ],
+  "ember": [
+    "box"
+  ],
+  "silent": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "echo": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "twin": [
+    "box"
+  ],
+  "souls": [
+    "box"
+  ],
+  "brightedge": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "statistics": [
+    "box",
+    "parallel",
+    "stacked_bar",
+    "violin"
+  ],
+  "one": [
+    "box",
+    "violin"
+  ],
+  "day": [
+    "box",
+    "bubble",
+    "line",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "to": [
+    "box",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "emerald": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "beach": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "misty": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "trail": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "willow": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "grove": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "rainbow": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "gorge": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "sunset": [
+    "box",
+    "violin"
+  ],
+  "cliff": [
+    "box",
+    "violin"
+  ],
+  "moon": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "cavern": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "whisper": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "reef": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "celestial": [
+    "box",
+    "violin"
+  ],
+  "arch": [
+    "box",
+    "violin"
+  ],
+  "dragon": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "ruins": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "sun": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "harbor": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "silver": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "skybound": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "quantumx": [
+    "box",
+    "stacked_bar"
+  ],
+  "puresync": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "brightwave": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "peakpoint": [
+    "box",
+    "stacked_bar"
+  ],
+  "coral": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "lookout": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "golden": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "dunes": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "maple": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "arbor": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "crystal": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "falls": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "spring": [
+    "box",
+    "stacked_bar"
+  ],
+  "spa": [
+    "box",
+    "stacked_bar"
+  ],
+  "thunder": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "canyon": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "primevue": [
+    "box"
+  ],
+  "novaedge": [
+    "box",
+    "stacked_bar"
+  ],
+  "volume": [
+    "box",
+    "bubble",
+    "line",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "westport": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "ironwood": [
+    "box",
+    "violin"
+  ],
+  "swiftlink": [
+    "box",
+    "stacked_bar"
+  ],
+  "nextgen": [
+    "box",
+    "stacked_bar"
+  ],
+  "people": [
+    "box",
+    "bubble",
+    "ridgeline",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "participating": [
+    "box",
+    "violin"
+  ],
+  "activities": [
+    "box",
+    "treemap",
+    "treemap_D3",
+    "violin"
+  ],
+  "regions": [
+    "box",
+    "sankey",
+    "violin"
+  ],
+  "sorghum": [
+    "box",
+    "violin"
+  ],
+  "elmhurst": [
+    "box",
+    "violin"
+  ],
+  "employment": [
+    "box",
+    "radar",
+    "violin"
+  ],
+  "rates": [
+    "box",
+    "violin"
+  ],
+  "schools": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "silverton": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "high": [
+    "box",
+    "radar",
+    "stacked_bar",
+    "violin"
+  ],
+  "school": [
+    "box",
+    "bubble",
+    "pie",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "academy": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "riverdale": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "lakewood": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "institute": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "meadowbrook": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "pinecrest": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "fairview": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "redwood": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "prep": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "sunnyvale": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "eastwood": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "college": [
+    "box",
+    "scatter",
+    "stacked_bar",
+    "violin"
+  ],
+  "hillcrest": [
+    "box",
+    "stacked_bar"
+  ],
+  "maplewood": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "greenwood": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "accross": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "mwh": [
+    "box",
+    "line",
+    "stacked_area",
+    "stream",
+    "violin"
+  ],
+  "millet": [
+    "box",
+    "violin"
+  ],
+  "soybeans": [
+    "box",
+    "violin"
+  ],
+  "jute": [
+    "box",
+    "violin"
+  ],
+  "rubber": [
+    "box",
+    "violin"
+  ],
+  "tobacco": [
+    "box",
+    "violin"
+  ],
+  "rye": [
+    "box",
+    "violin"
+  ],
+  "sectors": [
+    "box",
+    "violin"
+  ],
+  "cafeterias": [
+    "box",
+    "violin"
+  ],
+  "sushi": [
+    "box"
+  ],
+  "restaurants": [
+    "box",
+    "violin"
+  ],
+  "casual": [
+    "box",
+    "violin"
+  ],
+  "dining": [
+    "box",
+    "violin"
+  ],
+  "coffee": [
+    "box",
+    "stacked_bar"
+  ],
+  "shops": [
+    "box"
+  ],
+  "mexican": [
+    "box",
+    "violin"
+  ],
+  "ice": [
+    "box",
+    "violin"
+  ],
+  "cream": [
+    "box",
+    "violin"
+  ],
+  "parlors": [
+    "box",
+    "violin"
+  ],
+  "courts": [
+    "box",
+    "violin"
+  ],
+  "buffet": [
+    "box",
+    "violin"
+  ],
+  "bars": [
+    "box",
+    "violin"
+  ],
+  "pubs": [
+    "box",
+    "violin"
+  ],
+  "pizza": [
+    "box",
+    "violin"
+  ],
+  "steak": [
+    "box",
+    "violin"
+  ],
+  "houses": [
+    "box",
+    "violin"
+  ],
+  "italian": [
+    "box",
+    "violin"
+  ],
+  "trucks": [
+    "box",
+    "violin"
+  ],
+  "outpatient": [
+    "box",
+    "radar",
+    "violin"
+  ],
+  "tea": [
+    "box",
+    "violin"
+  ],
+  "salary": [
+    "box",
+    "bubble",
+    "scatter",
+    "violin"
+  ],
+  "virtual": [
+    "box",
+    "violin"
+  ],
+  "prices": [
+    "box",
+    "line",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "duplex": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "studio": [
+    "box",
+    "violin"
+  ],
+  "penthouse": [
+    "box"
+  ],
+  "mobile": [
+    "box",
+    "violin"
+  ],
+  "home": [
+    "box",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "co": [
+    "box"
+  ],
+  "op": [
+    "box"
+  ],
+  "loft": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "farmhouse": [
+    "box",
+    "violin"
+  ],
+  "mansion": [
+    "box",
+    "violin"
+  ],
+  "triplex": [
+    "box",
+    "violin"
+  ],
+  "mountain": [
+    "box"
+  ],
+  "cabin": [
+    "box"
+  ],
+  "single": [
+    "box",
+    "ridgeline",
+    "violin"
+  ],
+  "family": [
+    "box",
+    "violin"
+  ],
+  "cottage": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "condo": [
+    "box"
+  ],
+  "apartment": [
+    "box",
+    "violin"
+  ],
+  "sugarcane": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "hemp": [
+    "box",
+    "violin"
+  ],
+  "potatoes": [
+    "box",
+    "violin"
+  ],
+  "tiny": [
+    "box",
+    "violin"
+  ],
+  "bungalow": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "luxury": [
+    "box",
+    "violin"
+  ],
+  "villa": [
+    "box",
+    "violin"
+  ],
+  "urban": [
+    "box",
+    "pie",
+    "violin"
+  ],
+  "townhouse": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "product": [
+    "box",
+    "parallel",
+    "radar",
+    "sankey",
+    "scatter",
+    "violin"
+  ],
+  "clothing": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "art": [
+    "box",
+    "heatmap",
+    "line",
+    "sankey",
+    "violin"
+  ],
+  "music": [
+    "box",
+    "stacked_area",
+    "stacked_bar",
+    "stream",
+    "violin"
+  ],
+  "toys": [
+    "box",
+    "violin"
+  ],
+  "garden": [
+    "box"
+  ],
+  "automotive": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "electronics": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "jewelry": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "supplies": [
+    "box",
+    "stacked_bar",
+    "violin"
+  ],
+  "beauty": [
+    "box",
+    "heatmap",
+    "stacked_bar",
+    "violin"
+  ],
+  "overview": [
+    "bubble",
+    "fill_bubble",
+    "heatmap",
+    "scatter"
+  ],
+  "long": [
+    "bubble"
+  ],
+  "tail": [
+    "bubble"
+  ],
+  "profit": [
+    "bubble",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "margin": [
+    "bubble",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "total": [
+    "bubble"
+  ],
+  "count": [
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "linear": [
+    "bubble",
+    "chord",
+    "funnel",
+    "scatter"
+  ],
+  "distance": [
+    "bubble",
+    "scatter"
+  ],
+  "traveled": [
+    "bubble",
+    "scatter"
+  ],
+  "miles": [
+    "bubble",
+    "scatter"
+  ],
+  "fuel": [
+    "bubble",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "efficiency": [
+    "bubble",
+    "heatmap",
+    "parallel",
+    "radar",
+    "scatter"
+  ],
+  "mpg": [
+    "bubble",
+    "scatter"
+  ],
+  "size": [
+    "bubble",
+    "fill_bubble",
+    "scatter"
+  ],
+  "shipment": [
+    "bubble",
+    "stacked_bar"
+  ],
+  "units": [
+    "bubble",
+    "line",
+    "scatter",
+    "stream"
+  ],
+  "distribution": [
+    "bubble",
+    "fill_bubble",
+    "funnel",
+    "heatmap",
+    "pie",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "traffic": [
+    "bubble",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "vehicles": [
+    "bubble",
+    "stacked_bar"
+  ],
+  "hour": [
+    "bubble",
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "rate": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "age": [
+    "bubble",
+    "heatmap",
+    "scatter"
+  ],
+  "vehicle": [
+    "bubble",
+    "line",
+    "radar",
+    "stacked_area"
+  ],
+  "years": [
+    "bubble",
+    "scatter",
+    "stacked_bar"
+  ],
+  "pattern": [
+    "bubble",
+    "parallel",
+    "scatter"
+  ],
+  "mentions": [
+    "bubble"
+  ],
+  "adoption": [
+    "bubble",
+    "heatmap",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "event": [
+    "bubble",
+    "funnel",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "stacked_area"
+  ],
+  "attendees": [
+    "bubble",
+    "stacked_area",
+    "stream"
+  ],
+  "analysis": [
+    "bubble",
+    "fill_bubble",
+    "heatmap",
+    "parallel",
+    "scatter"
+  ],
+  "artist": [
+    "bubble"
+  ],
+  "popularity": [
+    "bubble"
+  ],
+  "rank": [
+    "bubble"
+  ],
+  "commercial": [
+    "bubble"
+  ],
+  "impact": [
+    "bubble",
+    "sankey"
+  ],
+  "value": [
+    "bubble",
+    "chord",
+    "funnel",
+    "radar",
+    "sankey",
+    "scatter",
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "involved": [
+    "bubble"
+  ],
+  "influenced": [
+    "bubble"
+  ],
+  "dynamics": [
+    "bubble",
+    "scatter"
+  ],
+  "correlation": [
+    "bubble",
+    "parallel",
+    "scatter"
+  ],
+  "relationship": [
+    "bubble",
+    "scatter"
+  ],
+  "influence": [
+    "bubble",
+    "chord",
+    "parallel",
+    "sankey",
+    "scatter"
+  ],
+  "land": [
+    "bubble",
+    "radar"
+  ],
+  "acres": [
+    "bubble"
+  ],
+  "yield": [
+    "bubble",
+    "line",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "kg": [
+    "bubble",
+    "scatter"
+  ],
+  "acre": [
+    "bubble"
+  ],
+  "weekly": [
+    "bubble"
+  ],
+  "labor": [
+    "bubble"
+  ],
+  "hours": [
+    "bubble",
+    "chord",
+    "funnel",
+    "line",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "week": [
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "study": [
+    "bubble",
+    "scatter"
+  ],
+  "academic": [
+    "bubble",
+    "node_link",
+    "ridgeline",
+    "scatter"
+  ],
+  "performance": [
+    "bubble",
+    "heatmap",
+    "parallel",
+    "ridgeline",
+    "sankey",
+    "scatter"
+  ],
+  "score": [
+    "bubble",
+    "chord",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area"
+  ],
+  "class": [
+    "bubble",
+    "scatter"
+  ],
+  "funding": [
+    "bubble",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "student": [
+    "bubble",
+    "chord",
+    "line",
+    "pie",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "graduation": [
+    "bubble",
+    "radar",
+    "stream"
+  ],
+  "enrollment": [
+    "bubble",
+    "line",
+    "sankey",
+    "stacked_area",
+    "stacked_bar"
+  ],
+  "infrastructure": [
+    "bubble",
+    "scatter"
+  ],
+  "reliability": [
+    "bubble",
+    "scatter"
+  ],
+  "average": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "kwh": [
+    "bubble",
+    "scatter"
+  ],
+  "capacity": [
+    "bubble",
+    "heatmap",
+    "radar"
+  ],
+  "mw": [
+    "bubble"
+  ],
+  "utility": [
+    "bubble"
+  ],
+  "customers": [
+    "bubble",
+    "chord",
+    "line",
+    "stream"
+  ],
+  "interaction": [
+    "bubble",
+    "scatter"
+  ],
+  "menu": [
+    "bubble"
+  ],
+  "price": [
+    "bubble",
+    "line",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "restaurant": [
+    "bubble",
+    "chord",
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "locations": [
+    "bubble"
+  ],
+  "ingredient": [
+    "bubble",
+    "radar"
+  ],
+  "cost": [
+    "bubble",
+    "heatmap",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "unit": [
+    "bubble"
+  ],
+  "customer": [
+    "bubble",
+    "chord",
+    "line",
+    "radar",
+    "ridgeline",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "order": [
+    "bubble",
+    "funnel"
+  ],
+  "frequency": [
+    "bubble",
+    "scatter"
+  ],
+  "times": [
+    "bubble",
+    "line",
+    "stacked_area"
+  ],
+  "medical": [
+    "bubble",
+    "chord",
+    "radar",
+    "sankey"
+  ],
+  "costs": [
+    "bubble"
+  ],
+  "recovery": [
+    "bubble",
+    "scatter"
+  ],
+  "stays": [
+    "bubble"
+  ],
+  "days": [
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "life": [
+    "bubble"
+  ],
+  "expectancy": [
+    "bubble"
+  ],
+  "patients": [
+    "bubble",
+    "chord",
+    "funnel",
+    "sankey"
+  ],
+  "treated": [
+    "bubble"
+  ],
+  "training": [
+    "bubble",
+    "line",
+    "scatter",
+    "stream"
+  ],
+  "productivity": [
+    "bubble",
+    "line",
+    "parallel",
+    "scatter",
+    "stream"
+  ],
+  "index": [
+    "bubble",
+    "heatmap",
+    "line",
+    "node_link",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "experience": [
+    "bubble",
+    "parallel",
+    "scatter"
+  ],
+  "team": [
+    "bubble",
+    "chord",
+    "scatter"
+  ],
+  "marketing": [
+    "bubble",
+    "sankey",
+    "scatter"
+  ],
+  "spend": [
+    "bubble",
+    "scatter"
+  ],
+  "current": [
+    "bubble",
+    "radar"
+  ],
+  "stock": [
+    "bubble",
+    "scatter"
+  ],
+  "quantity": [
+    "bubble"
+  ],
+  "publication": [
+    "bubble",
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "fertilizer": [
+    "bubble",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "use": [
+    "bubble",
+    "radar",
+    "scatter"
+  ],
+  "produced": [
+    "bubble"
+  ],
+  "season": [
+    "bubble",
+    "scatter"
+  ],
+  "innovation": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stream"
+  ],
+  "success": [
+    "bubble",
+    "radar",
+    "scatter"
+  ],
+  "project": [
+    "bubble",
+    "funnel"
+  ],
+  "budget": [
+    "bubble",
+    "scatter"
+  ],
+  "ad": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter"
+  ],
+  "conversion": [
+    "bubble",
+    "radar",
+    "scatter"
+  ],
+  "subscribers": [
+    "bubble"
+  ],
+  "follower": [
+    "bubble",
+    "radar",
+    "scatter"
+  ],
+  "engagement": [
+    "bubble",
+    "funnel",
+    "heatmap",
+    "parallel",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "sunburst"
+  ],
+  "shares": [
+    "bubble",
+    "scatter"
+  ],
+  "sponsorship": [
+    "bubble",
+    "line",
+    "radar",
+    "stream"
+  ],
+  "amount": [
+    "bubble",
+    "scatter"
+  ],
+  "player": [
+    "bubble"
+  ],
+  "win": [
+    "bubble",
+    "scatter"
+  ],
+  "attending": [
+    "bubble"
+  ],
+  "game": [
+    "bubble"
+  ],
+  "night": [
+    "bubble",
+    "scatter"
+  ],
+  "occupancy": [
+    "bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area"
+  ],
+  "rooms": [
+    "bubble"
+  ],
+  "hotel": [
+    "bubble",
+    "radar",
+    "stacked_area"
+  ],
+  "tourist": [
+    "bubble",
+    "funnel",
+    "line",
+    "node_link",
+    "radar",
+    "stream"
+  ],
+  "reviews": [
+    "bubble",
+    "scatter"
+  ],
+  "rating": [
+    "bubble",
+    "radar",
+    "scatter"
+  ],
+  "satisfaction": [
+    "bubble",
+    "line",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "booking": [
+    "bubble",
+    "funnel",
+    "scatter"
+  ],
+  "roi": [
+    "bubble",
+    "radar",
+    "ridgeline"
+  ],
+  "base": [
+    "bubble"
+  ],
+  "institution": [
+    "chord",
+    "sankey"
+  ],
+  "collaboration": [
+    "chord",
+    "heatmap",
+    "node_link",
+    "radar"
+  ],
+  "collaborations": [
+    "chord"
+  ],
+  "source": [
+    "chord",
+    "node_link",
+    "pie",
+    "sankey"
+  ],
+  "target": [
+    "chord",
+    "node_link",
+    "sankey"
+  ],
+  "global": [
+    "chord",
+    "node_link",
+    "pie",
+    "sankey"
+  ],
+  "hub": [
+    "chord"
+  ],
+  "transactions": [
+    "chord"
+  ],
+  "billion": [
+    "chord",
+    "stacked_bar"
+  ],
+  "user": [
+    "chord",
+    "funnel",
+    "pie",
+    "radar",
+    "sankey",
+    "stacked_area"
+  ],
+  "migration": [
+    "chord"
+  ],
+  "users": [
+    "chord",
+    "funnel",
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "basketball": [
+    "chord",
+    "heatmap"
+  ],
+  "fans": [
+    "chord"
+  ],
+  "transit": [
+    "chord",
+    "pie"
+  ],
+  "hubs": [
+    "chord"
+  ],
+  "tourists": [
+    "chord",
+    "funnel",
+    "sankey"
+  ],
+  "passenger": [
+    "chord"
+  ],
+  "station": [
+    "chord"
+  ],
+  "transfer": [
+    "chord",
+    "radar"
+  ],
+  "passengers": [
+    "chord"
+  ],
+  "fashion": [
+    "chord",
+    "heatmap"
+  ],
+  "trend": [
+    "chord",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "major": [
+    "chord"
+  ],
+  "changes": [
+    "chord"
+  ],
+  "gigawatt": [
+    "chord"
+  ],
+  "referral": [
+    "chord",
+    "funnel",
+    "node_link"
+  ],
+  "hr": [
+    "chord"
+  ],
+  "department": [
+    "chord"
+  ],
+  "map": [
+    "fill_bubble",
+    "node_link"
+  ],
+  "7": [
+    "fill_bubble"
+  ],
+  "father": [
+    "fill_bubble"
+  ],
+  "depth": [
+    "fill_bubble"
+  ],
+  "label": [
+    "fill_bubble"
+  ],
+  "5": [
+    "fill_bubble",
+    "heatmap"
+  ],
+  "landscape": [
+    "fill_bubble"
+  ],
+  "6": [
+    "fill_bubble"
+  ],
+  "4": [
+    "fill_bubble"
+  ],
+  "composition": [
+    "fill_bubble"
+  ],
+  "11": [
+    "fill_bubble"
+  ],
+  "arts": [
+    "fill_bubble",
+    "heatmap"
+  ],
+  "culture": [
+    "fill_bubble"
+  ],
+  "structure": [
+    "fill_bubble"
+  ],
+  "8": [
+    "fill_bubble"
+  ],
+  "hierarchy": [
+    "fill_bubble"
+  ],
+  "10": [
+    "fill_bubble"
+  ],
+  "classification": [
+    "fill_bubble"
+  ],
+  "9": [
+    "fill_bubble"
+  ],
+  "segments": [
+    "fill_bubble",
+    "sankey"
+  ],
+  "environmental": [
+    "fill_bubble",
+    "radar",
+    "scatter"
+  ],
+  "breakdown": [
+    "fill_bubble"
+  ],
+  "government": [
+    "fill_bubble"
+  ],
+  "politics": [
+    "fill_bubble"
+  ],
+  "medicine": [
+    "fill_bubble",
+    "scatter"
+  ],
+  "manufacturing": [
+    "fill_bubble",
+    "sankey",
+    "stacked_bar"
+  ],
+  "communication": [
+    "fill_bubble"
+  ],
+  "construction": [
+    "fill_bubble",
+    "line",
+    "scatter",
+    "stacked_bar"
+  ],
+  "recreation": [
+    "fill_bubble"
+  ],
+  "technology": [
+    "fill_bubble",
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stacked_bar",
+    "stream"
+  ],
+  "software": [
+    "fill_bubble"
+  ],
+  "lifecycle": [
+    "funnel"
+  ],
+  "phase": [
+    "funnel"
+  ],
+  "exponential": [
+    "funnel",
+    "scatter"
+  ],
+  "client": [
+    "funnel"
+  ],
+  "acquisition": [
+    "funnel",
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "clients": [
+    "funnel"
+  ],
+  "logarithmic": [
+    "funnel"
+  ],
+  "participation": [
+    "funnel",
+    "pie",
+    "radar"
+  ],
+  "participants": [
+    "funnel"
+  ],
+  "travel": [
+    "funnel",
+    "parallel",
+    "pie",
+    "sankey"
+  ],
+  "freight": [
+    "funnel",
+    "ridgeline"
+  ],
+  "processing": [
+    "funnel",
+    "sankey"
+  ],
+  "shipments": [
+    "funnel",
+    "line"
+  ],
+  "artwork": [
+    "funnel",
+    "radar",
+    "stacked_bar"
+  ],
+  "exhibitions": [
+    "funnel"
+  ],
+  "learning": [
+    "funnel"
+  ],
+  "progression": [
+    "funnel"
+  ],
+  "agricultural": [
+    "funnel",
+    "line",
+    "node_link",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "stacked_bar"
+  ],
+  "supply": [
+    "funnel",
+    "sankey"
+  ],
+  "chain": [
+    "funnel",
+    "sankey"
+  ],
+  "generation": [
+    "funnel"
+  ],
+  "megawatt": [
+    "funnel"
+  ],
+  "process": [
+    "funnel"
+  ],
+  "bottles": [
+    "funnel",
+    "ridgeline"
+  ],
+  "patient": [
+    "funnel",
+    "parallel",
+    "sankey",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "recruitment": [
+    "funnel",
+    "sankey"
+  ],
+  "properties": [
+    "funnel",
+    "sankey"
+  ],
+  "purchase": [
+    "funnel",
+    "pie",
+    "sankey"
+  ],
+  "correlations": [
+    "heatmap"
+  ],
+  "8x8": [
+    "heatmap"
+  ],
+  "central_cluster": [
+    "heatmap"
+  ],
+  "accounting": [
+    "heatmap"
+  ],
+  "assets": [
+    "heatmap"
+  ],
+  "0": [
+    "heatmap"
+  ],
+  "17": [
+    "heatmap"
+  ],
+  "metrics": [
+    "heatmap",
+    "parallel"
+  ],
+  "8x9": [
+    "heatmap"
+  ],
+  "horizontal_gradient": [
+    "heatmap"
+  ],
+  "intermodal": [
+    "heatmap"
+  ],
+  "84": [
+    "heatmap"
+  ],
+  "10x10": [
+    "heatmap"
+  ],
+  "radial_gradient": [
+    "heatmap"
+  ],
+  "air": [
+    "heatmap",
+    "scatter"
+  ],
+  "59": [
+    "heatmap"
+  ],
+  "factors": [
+    "heatmap"
+  ],
+  "vertical_gradient": [
+    "heatmap"
+  ],
+  "auditing": [
+    "heatmap"
+  ],
+  "68": [
+    "heatmap"
+  ],
+  "8x7": [
+    "heatmap"
+  ],
+  "expenses": [
+    "heatmap",
+    "line",
+    "stream"
+  ],
+  "15": [
+    "heatmap"
+  ],
+  "patterns": [
+    "heatmap"
+  ],
+  "uniform": [
+    "heatmap"
+  ],
+  "46": [
+    "heatmap"
+  ],
+  "diagonal": [
+    "heatmap"
+  ],
+  "accessibility": [
+    "heatmap"
+  ],
+  "94": [
+    "heatmap"
+  ],
+  "9x8": [
+    "heatmap"
+  ],
+  "25": [
+    "heatmap"
+  ],
+  "risk": [
+    "heatmap",
+    "sankey"
+  ],
+  "assessment": [
+    "heatmap"
+  ],
+  "54": [
+    "heatmap"
+  ],
+  "cuisine": [
+    "heatmap"
+  ],
+  "74": [
+    "heatmap"
+  ],
+  "7x7": [
+    "heatmap"
+  ],
+  "trajectory": [
+    "heatmap"
+  ],
+  "faculty": [
+    "heatmap",
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "97": [
+    "heatmap"
+  ],
+  "dairy": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "71": [
+    "heatmap"
+  ],
+  "93": [
+    "heatmap"
+  ],
+  "9x9": [
+    "heatmap"
+  ],
+  "admin": [
+    "heatmap"
+  ],
+  "23": [
+    "heatmap"
+  ],
+  "coal": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "13": [
+    "heatmap"
+  ],
+  "21": [
+    "heatmap"
+  ],
+  "9x10": [
+    "heatmap"
+  ],
+  "88": [
+    "heatmap"
+  ],
+  "08": [
+    "heatmap"
+  ],
+  "18": [
+    "heatmap"
+  ],
+  "04": [
+    "heatmap"
+  ],
+  "beverages": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "06": [
+    "heatmap"
+  ],
+  "bakery": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "73": [
+    "heatmap"
+  ],
+  "14": [
+    "heatmap"
+  ],
+  "41": [
+    "heatmap"
+  ],
+  "42": [
+    "heatmap"
+  ],
+  "33": [
+    "heatmap"
+  ],
+  "clinics": [
+    "heatmap"
+  ],
+  "access": [
+    "heatmap"
+  ],
+  "83": [
+    "heatmap"
+  ],
+  "85": [
+    "heatmap"
+  ],
+  "7x8": [
+    "heatmap"
+  ],
+  "16": [
+    "heatmap"
+  ],
+  "hospitals": [
+    "heatmap"
+  ],
+  "96": [
+    "heatmap"
+  ],
+  "benefits": [
+    "heatmap"
+  ],
+  "absenteeism": [
+    "heatmap",
+    "line"
+  ],
+  "64": [
+    "heatmap"
+  ],
+  "48": [
+    "heatmap"
+  ],
+  "52": [
+    "heatmap"
+  ],
+  "69": [
+    "heatmap"
+  ],
+  "76": [
+    "heatmap"
+  ],
+  "35": [
+    "heatmap"
+  ],
+  "appraisal": [
+    "heatmap"
+  ],
+  "affordability": [
+    "heatmap",
+    "stacked_area"
+  ],
+  "26": [
+    "heatmap"
+  ],
+  "29": [
+    "heatmap"
+  ],
+  "apparel": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "brick": [
+    "heatmap"
+  ],
+  "mortar": [
+    "heatmap"
+  ],
+  "22": [
+    "heatmap"
+  ],
+  "10x9": [
+    "heatmap"
+  ],
+  "55": [
+    "heatmap"
+  ],
+  "aerospace": [
+    "heatmap",
+    "stacked_bar"
+  ],
+  "95": [
+    "heatmap"
+  ],
+  "91": [
+    "heatmap"
+  ],
+  "biomedical": [
+    "heatmap"
+  ],
+  "24": [
+    "heatmap"
+  ],
+  "commercialization": [
+    "heatmap",
+    "radar"
+  ],
+  "37": [
+    "heatmap"
+  ],
+  "28": [
+    "heatmap"
+  ],
+  "blogs": [
+    "heatmap"
+  ],
+  "advertising": [
+    "heatmap",
+    "scatter"
+  ],
+  "82": [
+    "heatmap"
+  ],
+  "facebook": [
+    "heatmap"
+  ],
+  "99": [
+    "heatmap"
+  ],
+  "attendance": [
+    "heatmap",
+    "line",
+    "ridgeline",
+    "stacked_area",
+    "stream"
+  ],
+  "51": [
+    "heatmap"
+  ],
+  "fan": [
+    "heatmap",
+    "stacked_area"
+  ],
+  "destinations": [
+    "heatmap"
+  ],
+  "adventure": [
+    "heatmap"
+  ],
+  "cruises": [
+    "heatmap"
+  ],
+  "43": [
+    "heatmap"
+  ],
+  "87": [
+    "heatmap"
+  ],
+  "89": [
+    "heatmap"
+  ],
+  "customs": [
+    "heatmap"
+  ],
+  "72": [
+    "heatmap"
+  ],
+  "3": [
+    "heatmap"
+  ],
+  "92": [
+    "heatmap"
+  ],
+  "single_valley": [
+    "line"
+  ],
+  "periodic_stable": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "stable_rising": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "bimodal_peak": [
+    "line"
+  ],
+  "bimodal_valley": [
+    "line"
+  ],
+  "volatile_rising": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "stable_falling": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "debt": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "equity": [
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "ratio": [
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "exponential_rising": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "interest": [
+    "line",
+    "scatter"
+  ],
+  "single_peak": [
+    "line"
+  ],
+  "exponential_falling": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "net": [
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "volatile_falling": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "share": [
+    "line",
+    "pie",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area"
+  ],
+  "ton": [
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "waste": [
+    "line",
+    "radar",
+    "sankey",
+    "stacked_area",
+    "stream"
+  ],
+  "theater": [
+    "line"
+  ],
+  "tickets": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "gallery": [
+    "line",
+    "radar"
+  ],
+  "cinema": [
+    "line",
+    "stream"
+  ],
+  "library": [
+    "line",
+    "stream"
+  ],
+  "teacher": [
+    "line",
+    "stream"
+  ],
+  "electricity": [
+    "line",
+    "scatter",
+    "stacked_bar",
+    "stream"
+  ],
+  "demand": [
+    "line",
+    "stream"
+  ],
+  "recycled": [
+    "line",
+    "stream"
+  ],
+  "carbon": [
+    "line",
+    "radar",
+    "sankey",
+    "scatter",
+    "stacked_area"
+  ],
+  "emissions": [
+    "line",
+    "stacked_area"
+  ],
+  "natural": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "gas": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "cubic": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "meter": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "renewable": [
+    "line",
+    "pie",
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "percentage": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "livestock": [
+    "line",
+    "scatter",
+    "stacked_area"
+  ],
+  "treatment": [
+    "line",
+    "sankey",
+    "scatter",
+    "stacked_area"
+  ],
+  "exports": [
+    "line",
+    "stacked_area"
+  ],
+  "bed": [
+    "line",
+    "radar"
+  ],
+  "vaccination": [
+    "line",
+    "radar",
+    "stream"
+  ],
+  "turnover": [
+    "line",
+    "radar",
+    "stacked_area"
+  ],
+  "hire": [
+    "line"
+  ],
+  "starts": [
+    "line",
+    "scatter"
+  ],
+  "organic": [
+    "line",
+    "stream"
+  ],
+  "farming": [
+    "line",
+    "radar",
+    "sankey",
+    "stream"
+  ],
+  "hectares": [
+    "line",
+    "scatter",
+    "stream"
+  ],
+  "rental": [
+    "line",
+    "pie",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "delivery": [
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "inventory": [
+    "line",
+    "radar",
+    "stacked_area"
+  ],
+  "papers": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "patent": [
+    "line",
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "applications": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "graduates": [
+    "line",
+    "stream"
+  ],
+  "grants": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "awarded": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "subscription": [
+    "line",
+    "stream"
+  ],
+  "active": [
+    "line",
+    "stream"
+  ],
+  "watch": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "minutes": [
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "tv": [
+    "line",
+    "radar",
+    "stream"
+  ],
+  "ratings": [
+    "line",
+    "sankey",
+    "stream"
+  ],
+  "followers": [
+    "line",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "loyalty": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "program": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "members": [
+    "line",
+    "stream"
+  ],
+  "room": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "flight": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "bookings": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "reservations": [
+    "line",
+    "stacked_area",
+    "stream"
+  ],
+  "warehouse": [
+    "line",
+    "sankey",
+    "stacked_area",
+    "stream"
+  ],
+  "utilization": [
+    "line",
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "maintenance": [
+    "line",
+    "stacked_area"
+  ],
+  "operating": [
+    "line",
+    "radar",
+    "stream"
+  ],
+  "cargo": [
+    "line"
+  ],
+  "institutions": [
+    "node_link",
+    "radar"
+  ],
+  "their": [
+    "node_link"
+  ],
+  "interactions": [
+    "node_link"
+  ],
+  "node": [
+    "node_link"
+  ],
+  "name": [
+    "node_link"
+  ],
+  "relation": [
+    "node_link"
+  ],
+  "trade": [
+    "node_link"
+  ],
+  "relationships": [
+    "node_link"
+  ],
+  "partnership": [
+    "node_link"
+  ],
+  "firms": [
+    "node_link"
+  ],
+  "culinary": [
+    "node_link"
+  ],
+  "supplier": [
+    "node_link"
+  ],
+  "relations": [
+    "node_link"
+  ],
+  "key": [
+    "node_link"
+  ],
+  "distributors": [
+    "node_link"
+  ],
+  "inter": [
+    "node_link"
+  ],
+  "clinic": [
+    "node_link"
+  ],
+  "transfers": [
+    "node_link"
+  ],
+  "departments": [
+    "node_link"
+  ],
+  "corporate": [
+    "node_link"
+  ],
+  "mergers": [
+    "node_link"
+  ],
+  "partnerships": [
+    "node_link"
+  ],
+  "interconnected": [
+    "node_link"
+  ],
+  "projects": [
+    "node_link",
+    "sankey"
+  ],
+  "collaborative": [
+    "node_link"
+  ],
+  "links": [
+    "node_link"
+  ],
+  "between": [
+    "node_link",
+    "stacked_bar"
+  ],
+  "labs": [
+    "node_link"
+  ],
+  "universities": [
+    "node_link"
+  ],
+  "cross": [
+    "node_link",
+    "stacked_area",
+    "stream"
+  ],
+  "stakeholders": [
+    "node_link"
+  ],
+  "events": [
+    "node_link",
+    "sankey"
+  ],
+  "regional": [
+    "node_link"
+  ],
+  "connections": [
+    "node_link"
+  ],
+  "wise": [
+    "node_link",
+    "pie"
+  ],
+  "transport": [
+    "node_link",
+    "scatter"
+  ],
+  "routes": [
+    "node_link"
+  ],
+  "compensation": [
+    "parallel"
+  ],
+  "no": [
+    "parallel"
+  ],
+  "clustering": [
+    "parallel"
+  ],
+  "strong": [
+    "parallel"
+  ],
+  "characteristics": [
+    "parallel"
+  ],
+  "weak": [
+    "parallel"
+  ],
+  "lab": [
+    "parallel"
+  ],
+  "athlete": [
+    "parallel"
+  ],
+  "farm": [
+    "parallel",
+    "scatter"
+  ],
+  "heis": [
+    "parallel"
+  ],
+  "care": [
+    "parallel"
+  ],
+  "hostpital": [
+    "parallel"
+  ],
+  "quality": [
+    "parallel",
+    "scatter"
+  ],
+  "2023": [
+    "pie",
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "proportion": [
+    "pie"
+  ],
+  "activity": [
+    "pie",
+    "radar"
+  ],
+  "disease": [
+    "pie",
+    "radar"
+  ],
+  "prevalence": [
+    "pie"
+  ],
+  "income": [
+    "pie",
+    "radar",
+    "scatter"
+  ],
+  "job": [
+    "pie",
+    "radar",
+    "scatter"
+  ],
+  "level": [
+    "pie",
+    "scatter"
+  ],
+  "2024": [
+    "pie",
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "consumer": [
+    "pie",
+    "ridgeline",
+    "scatter"
+  ],
+  "discipline": [
+    "pie",
+    "radar"
+  ],
+  "output": [
+    "pie"
+  ],
+  "2020": [
+    "pie",
+    "sunburst",
+    "treemap_D3"
+  ],
+  "competition": [
+    "pie"
+  ],
+  "usage": [
+    "pie",
+    "ridgeline",
+    "scatter",
+    "stream"
+  ],
+  "labels": [
+    "radar"
+  ],
+  "return": [
+    "radar",
+    "ridgeline",
+    "scatter",
+    "stream"
+  ],
+  "self": [
+    "radar"
+  ],
+  "service": [
+    "radar",
+    "sankey",
+    "scatter"
+  ],
+  "resolution": [
+    "radar"
+  ],
+  "gross": [
+    "radar"
+  ],
+  "repurchase": [
+    "radar"
+  ],
+  "member": [
+    "radar"
+  ],
+  "growth": [
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "interdisciplinary": [
+    "radar"
+  ],
+  "green": [
+    "radar"
+  ],
+  "citation": [
+    "radar"
+  ],
+  "content": [
+    "radar",
+    "sankey",
+    "scatter",
+    "stacked_area"
+  ],
+  "live": [
+    "radar"
+  ],
+  "stream": [
+    "radar"
+  ],
+  "viewer": [
+    "radar"
+  ],
+  "retention": [
+    "radar",
+    "scatter"
+  ],
+  "click": [
+    "radar",
+    "scatter"
+  ],
+  "through": [
+    "radar",
+    "scatter"
+  ],
+  "ctr": [
+    "radar"
+  ],
+  "completion": [
+    "radar"
+  ],
+  "influencer": [
+    "radar"
+  ],
+  "p": [
+    "radar"
+  ],
+  "vs": [
+    "radar"
+  ],
+  "ticket": [
+    "radar"
+  ],
+  "comment": [
+    "radar"
+  ],
+  "viewership": [
+    "radar",
+    "stacked_bar"
+  ],
+  "marginsustainable": [
+    "radar"
+  ],
+  "cultivation": [
+    "radar"
+  ],
+  "smart": [
+    "radar"
+  ],
+  "equipment": [
+    "radar"
+  ],
+  "coverage": [
+    "radar"
+  ],
+  "irrigation": [
+    "radar",
+    "scatter"
+  ],
+  "water": [
+    "radar",
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "stadium": [
+    "radar",
+    "stacked_area",
+    "stream"
+  ],
+  "impression": [
+    "radar"
+  ],
+  "play": [
+    "radar"
+  ],
+  "local": [
+    "radar"
+  ],
+  "community": [
+    "radar"
+  ],
+  "revisit": [
+    "radar"
+  ],
+  "damage": [
+    "radar"
+  ],
+  "loss": [
+    "radar",
+    "stacked_area"
+  ],
+  "route": [
+    "radar"
+  ],
+  "optimization": [
+    "radar"
+  ],
+  "as": [
+    "radar"
+  ],
+  "heritage": [
+    "radar"
+  ],
+  "awareness": [
+    "radar"
+  ],
+  "creation": [
+    "radar",
+    "stacked_bar"
+  ],
+  "museum": [
+    "radar",
+    "stacked_area"
+  ],
+  "visitor": [
+    "radar"
+  ],
+  "further": [
+    "radar"
+  ],
+  "paper": [
+    "radar",
+    "stacked_bar"
+  ],
+  "power": [
+    "radar"
+  ],
+  "transmission": [
+    "radar"
+  ],
+  "sustainability": [
+    "radar"
+  ],
+  "eco": [
+    "radar"
+  ],
+  "friendly": [
+    "radar"
+  ],
+  "sustainable": [
+    "radar"
+  ],
+  "packaging": [
+    "radar"
+  ],
+  "conservation": [
+    "radar"
+  ],
+  "recycling": [
+    "radar"
+  ],
+  "material": [
+    "radar"
+  ],
+  "footprint": [
+    "radar",
+    "scatter"
+  ],
+  "reduction": [
+    "radar"
+  ],
+  "building": [
+    "radar"
+  ],
+  "certification": [
+    "radar"
+  ],
+  "promoter": [
+    "radar"
+  ],
+  "nps": [
+    "radar"
+  ],
+  "table": [
+    "radar",
+    "stacked_area"
+  ],
+  "seat": [
+    "radar"
+  ],
+  "chronic": [
+    "radar"
+  ],
+  "compliance": [
+    "radar"
+  ],
+  "primary": [
+    "radar"
+  ],
+  "insurance": [
+    "radar"
+  ],
+  "incidence": [
+    "radar"
+  ],
+  "electronic": [
+    "radar"
+  ],
+  "record": [
+    "radar"
+  ],
+  "pay": [
+    "radar"
+  ],
+  "fill": [
+    "radar"
+  ],
+  "promotion": [
+    "radar",
+    "scatter"
+  ],
+  "skill": [
+    "radar"
+  ],
+  "proficiency": [
+    "radar"
+  ],
+  "offer": [
+    "radar"
+  ],
+  "acceptance": [
+    "radar"
+  ],
+  "capital": [
+    "radar"
+  ],
+  "appreciation": [
+    "radar"
+  ],
+  "yearly": [
+    "radar"
+  ],
+  "newly": [
+    "radar"
+  ],
+  "built": [
+    "radar"
+  ],
+  "homes": [
+    "radar"
+  ],
+  "volatility": [
+    "radar"
+  ],
+  "mortgage": [
+    "radar"
+  ],
+  "payment": [
+    "radar"
+  ],
+  "transaction": [
+    "radar",
+    "sankey",
+    "scatter"
+  ],
+  "fluctuation": [
+    "ridgeline"
+  ],
+  "peak": [
+    "ridgeline"
+  ],
+  "periodic": [
+    "ridgeline"
+  ],
+  "spending": [
+    "ridgeline",
+    "sankey",
+    "scatter"
+  ],
+  "preferences": [
+    "ridgeline"
+  ],
+  "person": [
+    "ridgeline",
+    "stacked_area",
+    "stream"
+  ],
+  "square": [
+    "ridgeline"
+  ],
+  "foot": [
+    "ridgeline",
+    "stacked_area",
+    "stream"
+  ],
+  "ecosystem": [
+    "sankey"
+  ],
+  "outcomes": [
+    "sankey"
+  ],
+  "areas": [
+    "sankey"
+  ],
+  "sources": [
+    "sankey"
+  ],
+  "fields": [
+    "sankey",
+    "stacked_bar"
+  ],
+  "decision": [
+    "sankey"
+  ],
+  "making": [
+    "sankey"
+  ],
+  "routine": [
+    "sankey"
+  ],
+  "returns": [
+    "sankey"
+  ],
+  "strategies": [
+    "sankey"
+  ],
+  "demographics": [
+    "sankey"
+  ],
+  "monetization": [
+    "sankey"
+  ],
+  "models": [
+    "sankey"
+  ],
+  "methods": [
+    "sankey"
+  ],
+  "levels": [
+    "sankey"
+  ],
+  "formats": [
+    "sankey"
+  ],
+  "framework": [
+    "sankey"
+  ],
+  "audience": [
+    "sankey"
+  ],
+  "channels": [
+    "sankey"
+  ],
+  "streams": [
+    "sankey"
+  ],
+  "purposes": [
+    "sankey"
+  ],
+  "continents": [
+    "sankey"
+  ],
+  "hotels": [
+    "sankey"
+  ],
+  "goods": [
+    "sankey"
+  ],
+  "center": [
+    "sankey"
+  ],
+  "factory": [
+    "sankey"
+  ],
+  "assembly": [
+    "sankey"
+  ],
+  "products": [
+    "sankey",
+    "stacked_bar"
+  ],
+  "mediums": [
+    "sankey"
+  ],
+  "origins": [
+    "sankey"
+  ],
+  "forms": [
+    "sankey"
+  ],
+  "import": [
+    "sankey"
+  ],
+  "export": [
+    "sankey"
+  ],
+  "system": [
+    "sankey"
+  ],
+  "support": [
+    "sankey"
+  ],
+  "services": [
+    "sankey"
+  ],
+  "backgrounds": [
+    "sankey"
+  ],
+  "post": [
+    "sankey",
+    "scatter"
+  ],
+  "paths": [
+    "sankey"
+  ],
+  "emission": [
+    "sankey"
+  ],
+  "disposition": [
+    "sankey"
+  ],
+  "sector": [
+    "sankey"
+  ],
+  "mitigation": [
+    "sankey"
+  ],
+  "measures": [
+    "sankey"
+  ],
+  "venues": [
+    "sankey"
+  ],
+  "facilities": [
+    "sankey"
+  ],
+  "specialties": [
+    "sankey"
+  ],
+  "providers": [
+    "sankey"
+  ],
+  "onboarding": [
+    "sankey"
+  ],
+  "steps": [
+    "sankey"
+  ],
+  "interview": [
+    "sankey"
+  ],
+  "stages": [
+    "sankey"
+  ],
+  "location": [
+    "sankey",
+    "scatter"
+  ],
+  "buyer": [
+    "sankey"
+  ],
+  "conditions": [
+    "sankey"
+  ],
+  "financing": [
+    "sankey"
+  ],
+  "options": [
+    "sankey"
+  ],
+  "omni": [
+    "sankey"
+  ],
+  "channel": [
+    "sankey"
+  ],
+  "purchases": [
+    "sankey"
+  ],
+  "campaigns": [
+    "sankey"
+  ],
+  "none": [
+    "scatter"
+  ],
+  "u_shape": [
+    "scatter"
+  ],
+  "positive": [
+    "scatter"
+  ],
+  "gallon": [
+    "scatter"
+  ],
+  "negative": [
+    "scatter"
+  ],
+  "household": [
+    "scatter"
+  ],
+  "admission": [
+    "scatter"
+  ],
+  "literacy": [
+    "scatter"
+  ],
+  "parental": [
+    "scatter"
+  ],
+  "test": [
+    "scatter"
+  ],
+  "scores": [
+    "scatter"
+  ],
+  "outage": [
+    "scatter"
+  ],
+  "duration": [
+    "scatter"
+  ],
+  "grid": [
+    "scatter"
+  ],
+  "stability": [
+    "scatter"
+  ],
+  "co2e": [
+    "scatter"
+  ],
+  "ecology": [
+    "scatter"
+  ],
+  "rainfall": [
+    "scatter"
+  ],
+  "mm": [
+    "scatter"
+  ],
+  "pollution": [
+    "scatter"
+  ],
+  "species": [
+    "scatter"
+  ],
+  "diversity": [
+    "scatter"
+  ],
+  "economics": [
+    "scatter"
+  ],
+  "gdp": [
+    "scatter"
+  ],
+  "exchange": [
+    "scatter"
+  ],
+  "currency": [
+    "scatter"
+  ],
+  "inflation": [
+    "scatter"
+  ],
+  "confidence": [
+    "scatter"
+  ],
+  "bmi": [
+    "scatter"
+  ],
+  "m²": [
+    "scatter"
+  ],
+  "time_healthcare": [
+    "scatter"
+  ],
+  "dosage": [
+    "scatter"
+  ],
+  "mg": [
+    "scatter"
+  ],
+  "readmission": [
+    "scatter"
+  ],
+  "survival": [
+    "scatter"
+  ],
+  "workplace": [
+    "scatter"
+  ],
+  "pest": [
+    "scatter"
+  ],
+  "control": [
+    "scatter"
+  ],
+  "commute": [
+    "scatter"
+  ],
+  "soil": [
+    "scatter"
+  ],
+  "email": [
+    "scatter"
+  ],
+  "open": [
+    "scatter"
+  ],
+  "months": [
+    "scatter"
+  ],
+  "vacancy": [
+    "scatter",
+    "stacked_area"
+  ],
+  "behavior": [
+    "scatter"
+  ],
+  "store": [
+    "scatter",
+    "stacked_area",
+    "stream"
+  ],
+  "m³": [
+    "scatter"
+  ],
+  "length": [
+    "scatter"
+  ],
+  "view": [
+    "scatter"
+  ],
+  "posting": [
+    "scatter"
+  ],
+  "posts": [
+    "scatter"
+  ],
+  "new": [
+    "scatter"
+  ],
+  "hashtag": [
+    "scatter"
+  ],
+  "fitness": [
+    "scatter"
+  ],
+  "injury": [
+    "scatter"
+  ],
+  "injuries": [
+    "scatter"
+  ],
+  "time_sports": [
+    "scatter"
+  ],
+  "sleep": [
+    "scatter"
+  ],
+  "startup": [
+    "scatter"
+  ],
+  "smartphone": [
+    "scatter"
+  ],
+  "penetration": [
+    "scatter"
+  ],
+  "gb": [
+    "scatter"
+  ],
+  "internet": [
+    "scatter"
+  ],
+  "speed": [
+    "scatter"
+  ],
+  "mbps": [
+    "scatter"
+  ],
+  "seasonality": [
+    "scatter"
+  ],
+  "book": [
+    "stacked_area"
+  ],
+  "copies": [
+    "stacked_area"
+  ],
+  "festival": [
+    "stacked_area",
+    "stream"
+  ],
+  "alumni": [
+    "stacked_area",
+    "stream"
+  ],
+  "giving": [
+    "stacked_area",
+    "stream"
+  ],
+  "meters": [
+    "stacked_area",
+    "stream"
+  ],
+  "capita": [
+    "stacked_area",
+    "stream"
+  ],
+  "tables": [
+    "stacked_area"
+  ],
+  "safety": [
+    "stacked_area",
+    "stream"
+  ],
+  "expenditure": [
+    "stacked_area",
+    "stream"
+  ],
+  "uploads": [
+    "stacked_area"
+  ],
+  "session": [
+    "stacked_area",
+    "stream"
+  ],
+  "merchandise": [
+    "stacked_area",
+    "stream"
+  ],
+  "luggage": [
+    "stacked_area"
+  ],
+  "driver": [
+    "stacked_area",
+    "stream"
+  ],
+  "l": [
+    "stacked_area",
+    "stream"
+  ],
+  "100km": [
+    "stacked_area",
+    "stream"
+  ],
+  "border": [
+    "stacked_area",
+    "stream"
+  ],
+  "delays": [
+    "stacked_area",
+    "stream"
+  ],
+  "bluepeak": [
+    "stacked_bar",
+    "violin"
+  ],
+  "truenorth": [
+    "stacked_bar"
+  ],
+  "among": [
+    "stacked_bar"
+  ],
+  "biotech": [
+    "stacked_bar"
+  ],
+  "quantum": [
+    "stacked_bar"
+  ],
+  "ai": [
+    "stacked_bar"
+  ],
+  "nanotech": [
+    "stacked_bar"
+  ],
+  "materials": [
+    "stacked_bar"
+  ],
+  "photonics": [
+    "stacked_bar"
+  ],
+  "computing": [
+    "stacked_bar"
+  ],
+  "robotics": [
+    "stacked_bar"
+  ],
+  "datapulse": [
+    "stacked_bar",
+    "violin"
+  ],
+  "technova": [
+    "stacked_bar"
+  ],
+  "numbers": [
+    "stacked_bar"
+  ],
+  "documentary": [
+    "stacked_bar"
+  ],
+  "gaming": [
+    "stacked_bar"
+  ],
+  "comedy": [
+    "stacked_bar"
+  ],
+  "vlogs": [
+    "stacked_bar"
+  ],
+  "tutorials": [
+    "stacked_bar"
+  ],
+  "news": [
+    "stacked_bar"
+  ],
+  "marketzen": [
+    "stacked_bar"
+  ],
+  "movie": [
+    "stacked_bar"
+  ],
+  "shadow": [
+    "stacked_bar"
+  ],
+  "line": [
+    "stacked_bar"
+  ],
+  "echoes": [
+    "stacked_bar",
+    "violin"
+  ],
+  "valley": [
+    "stacked_bar",
+    "violin"
+  ],
+  "star": [
+    "stacked_bar",
+    "violin"
+  ],
+  "plateau": [
+    "stacked_bar",
+    "violin"
+  ],
+  "commodities": [
+    "stacked_bar"
+  ],
+  "tonnes": [
+    "stacked_bar"
+  ],
+  "plastics": [
+    "stacked_bar"
+  ],
+  "steel": [
+    "stacked_bar"
+  ],
+  "grain": [
+    "stacked_bar"
+  ],
+  "chemicals": [
+    "stacked_bar"
+  ],
+  "machinery": [
+    "stacked_bar"
+  ],
+  "parts": [
+    "stacked_bar"
+  ],
+  "textiles": [
+    "stacked_bar"
+  ],
+  "corelogic": [
+    "stacked_bar"
+  ],
+  "soybean": [
+    "stacked_bar"
+  ],
+  "counts": [
+    "stacked_bar"
+  ],
+  "mural": [
+    "stacked_bar"
+  ],
+  "installation": [
+    "stacked_bar"
+  ],
+  "textile": [
+    "stacked_bar"
+  ],
+  "metalwork": [
+    "stacked_bar"
+  ],
+  "sculpture": [
+    "stacked_bar"
+  ],
+  "digitalart": [
+    "stacked_bar"
+  ],
+  "glassware": [
+    "stacked_bar"
+  ],
+  "photography": [
+    "stacked_bar"
+  ],
+  "ceramics": [
+    "stacked_bar"
+  ],
+  "painting": [
+    "stacked_bar"
+  ],
+  "historical": [
+    "stacked_bar"
+  ],
+  "elmwood": [
+    "stacked_bar",
+    "violin"
+  ],
+  "crestview": [
+    "stacked_bar",
+    "violin"
+  ],
+  "nuclear": [
+    "stacked_bar"
+  ],
+  "naturalgas": [
+    "stacked_bar"
+  ],
+  "biomass": [
+    "stacked_bar"
+  ],
+  "geothermal": [
+    "stacked_bar"
+  ],
+  "hydro": [
+    "stacked_bar"
+  ],
+  "wind": [
+    "stacked_bar"
+  ],
+  "oil": [
+    "stacked_bar"
+  ],
+  "solar": [
+    "stacked_bar"
+  ],
+  "confectionery": [
+    "stacked_bar"
+  ],
+  "snacks": [
+    "stacked_bar"
+  ],
+  "vegetables": [
+    "stacked_bar"
+  ],
+  "meat": [
+    "stacked_bar"
+  ],
+  "fruits": [
+    "stacked_bar"
+  ],
+  "seafood": [
+    "stacked_bar",
+    "violin"
+  ],
+  "potato": [
+    "stacked_bar"
+  ],
+  "oats": [
+    "stacked_bar",
+    "violin"
+  ],
+  "brookhaven": [
+    "stacked_bar"
+  ],
+  "redstone": [
+    "stacked_bar"
+  ],
+  "riverton": [
+    "stacked_bar"
+  ],
+  "springvale": [
+    "stacked_bar"
+  ],
+  "working": [
+    "stacked_bar"
+  ],
+  "industries": [
+    "stacked_bar"
+  ],
+  "telecom": [
+    "stacked_bar"
+  ],
+  "semi": [
+    "stacked_bar"
+  ],
+  "detached": [
+    "stacked_bar"
+  ],
+  "books": [
+    "stacked_bar",
+    "violin"
+  ],
+  "shoes": [
+    "stacked_bar"
+  ],
+  "grocery": [
+    "stacked_bar",
+    "violin"
+  ],
+  "kitchen": [
+    "stacked_bar"
+  ],
+  "random_on_off_rising": [
+    "stream"
+  ],
+  "random_on_off_stable": [
+    "stream"
+  ],
+  "parent": [
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "child": [
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "2022": [
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "2021": [
+    "sunburst",
+    "treemap",
+    "treemap_D3"
+  ],
+  "reelix": [
+    "violin"
+  ],
+  "empty": [
+    "violin"
+  ],
+  "roads": [
+    "violin"
+  ],
+  "lotus": [
+    "violin"
+  ],
+  "temple": [
+    "violin"
+  ],
+  "fine": [
+    "violin"
+  ],
+  "fast": [
+    "violin"
+  ],
+  "chains": [
+    "violin"
+  ],
+  "vegetarian": [
+    "violin"
+  ],
+  "dessert": [
+    "violin"
+  ],
+  "cafes": [
+    "violin"
+  ],
+  "bakeries": [
+    "violin"
+  ],
+  "wheat": [
+    "violin"
+  ],
+  "pet": [
+    "violin"
+  ],
+  "tools": [
+    "violin"
+  ],
+  "baby": [
+    "violin"
+  ],
+  "decor": [
+    "violin"
+  ],
+  "furniture": [
+    "violin"
+  ]
+}
