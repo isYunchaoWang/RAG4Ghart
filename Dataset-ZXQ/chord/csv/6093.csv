@@ -1,8 +1,0 @@
-Healthcare and Health, Medical Referral Flow, Patients, random
-Source,Target,Value
-Maternal and Child Health Center,Emergency Medical Center,166
-Emergency Medical Center,Maternal and Child Health Center,290
-Maternal and Child Health Center,TCM Hospital,533
-TCM Hospital,Maternal and Child Health Center,504
-TCM Hospital,Emergency Medical Center,111
-Emergency Medical Center,TCM Hospital,304

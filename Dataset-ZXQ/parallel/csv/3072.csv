@@ -1,7 +1,0 @@
-﻿Agriculture and Food Production,Farm Productivity
-Pattern,Strong Correlation,No Correlation,Clustering,Weak Correlation
-labels,Equipment utilization (%),Yield per acre (tons),Harvest frequency (per year),Soil health index (1-10),Labor efficiency (acres/worker)
-little  Potato,100.0,50.0,4.0,10.0,1000.0
-system  Cotton,63.87,26.91,3.93,6.41,809.61
-lot  Potato,30.0,0.5,1.0,1.0,1.0
-mention  Potato,31.59,4.82,1.67,8.62,155.3

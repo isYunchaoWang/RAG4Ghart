@@ -1,8 +1,0 @@
-﻿Agriculture and Food Production,Farm Productivity
-Pattern,Clustering,No Correlation
-labels,Harvest frequency (per year),Labor efficiency (acres/worker),Water usage (liters/kg)
-attention  Oats,2.75,1.0,989.48
-policy  Soybean,1.17,381.64,1000.0
-drug  Soybean,4.0,362.15,304.14
-little  Potato,1.0,202.0,1.0
-real  Cotton,2.14,1000.0,749.08

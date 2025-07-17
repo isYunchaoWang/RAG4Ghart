@@ -1,8 +1,0 @@
-﻿Transportation and Logistics,Transportation Efficiency Metrics
-Pattern,Strong Correlation,No Correlation,Clustering,Clustering,Strong Correlation,Clustering
-labels,Moving time (hours),Max speed (km/h),Loading/unloading time (hours),Route deviation rate (%),Total transit time (hours),Idling time (minutes),Average speed (km/h)
-name Tram,48.0,120.0,5.13,9.82,22.31,5.0,100.0
-exist Tram,1.0,60.0,3.34,15.55,50.98,60.0,52.22
-answer plane,12.93,70.8,8.0,0.0,2.0,47.68,83.1
-none plane,14.32,82.71,4.95,15.73,35.57,24.21,86.93
-television Cargo ship,5.18,66.94,0.5,20.0,72.0,42.56,30.0

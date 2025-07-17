@@ -1,9 +1,0 @@
-﻿Science and Engineering,Research Metrics of Different Lab
-Pattern,Strong Correlation,Weak Correlation,No Correlation,Clustering
-labels,Experiment success rate (%),Collaboration index (1-10),Lab efficiency (%),Citation index (citations/paper),Patent applications (patents)
-Velasquez-Santos  Research Center,68.03,6.09,52.73,184.18,28.19
-Mills Group  Research Center,40.44,3.99,32.21,262.23,0.0
-Peterson Inc  Research Center,67.85,6.31,30.0,0.0,1.48
-"Franklin, Davies and Nguyen  Lab",100.0,10.0,52.05,760.28,28.76
-Hill-James  Research Center,48.72,4.77,68.99,1000.0,37.19
-"Nichols, Lewis and Duffy  Lab",10.0,1.0,100.0,552.0,50.0

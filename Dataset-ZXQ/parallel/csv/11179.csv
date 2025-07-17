@@ -1,6 +1,0 @@
-﻿Science and Engineering,Research Metrics of Different Lab
-Pattern,No Correlation,No Correlation,No Correlation,Strong Correlation
-labels,Lab efficiency (%),Patent applications (patents),Experiment success rate (%),Publication count (papers),Research funding (USD millions)
-Hodges-Byrd  Lab,100.0,0.87,10.0,23.73,20.71
-Scott-Stevens  Research Institute,30.0,50.0,100.0,100.0,100.0
-Vazquez Ltd  Lab,59.96,0.0,13.22,0.0,0.1

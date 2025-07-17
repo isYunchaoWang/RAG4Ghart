@@ -1,7 +1,0 @@
-﻿Agriculture and Food Production,Farm Productivity
-Pattern,Strong Correlation,Clustering,No Correlation,Clustering
-labels,Pesticide use (kg/ha),Harvest frequency (per year),Labor efficiency (acres/worker),Equipment utilization (%),Water usage (liters/kg)
-cost  Oats,0.0,1.0,67.71,64.04,1.0
-offer  Barley,1.98,1.25,241.45,79.12,274.38
-range  Oats,9.5,2.41,1000.0,100.0,1000.0
-imagine  Cotton,20.0,4.0,1.0,30.0,30.88

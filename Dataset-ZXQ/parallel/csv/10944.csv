@@ -1,8 +1,0 @@
-﻿Real Estate and Housing Market,Property Characteristics of Different House
-Pattern,Clustering,No Correlation,Clustering,Strong Correlation,Strong Correlation,No Correlation
-labels,Bedroom count (units),Square footage (sq ft),Bathroom count (units),Year built (year),Days on market (days),Walk score (0-100),Energy efficiency rating (1-10)
-act Mansion,5.37,3109.78,2.87,1868.31,1.0,0.0,9.67
-eight Cottage,2.75,3645.87,4.16,2023.0,365.0,100.0,3.72
-minute Villa,6.0,6640.85,5.0,1965.13,196.67,49.34,4.52
-drop Villa,1.0,500.0,4.04,1886.12,106.26,5.38,10.0
-ready Mansion,5.01,10000.0,1.0,1800.0,171.14,2.14,1.0

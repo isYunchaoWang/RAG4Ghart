@@ -1,8 +1,0 @@
-﻿Food and Beverage Industry,Product Quality of Different Company
-Pattern,Clustering,Strong Correlation,Strong Correlation,Strong Correlation
-labels,Packaging efficiency (%),Freshness score (1-10),Allergen-free options (%),Shelf life (days),Taste rating (1-10)
-"Roman, Galloway and Fischer  Grill",50.0,10.0,50.0,365.0,10.0
-Bowers-Thompson  Café,54.82,7.45,29.53,203.35,6.92
-Cook-Miller  Diner,54.21,5.91,16.96,121.92,5.38
-Lyons LLC  Bistro,100.0,9.01,0.0,1.0,5.57
-"Williams, Vance and Perry  Restaurant",64.39,5.0,19.43,119.72,5.0

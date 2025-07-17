@@ -1,6 +1,0 @@
-﻿Energy and Utilities,Production Metrics of Different Energy
-Pattern,Weak Correlation,Weak Correlation,Clustering,Weak Correlation,Strong Correlation
-labels,Renewable percentage (%),Downtime (%),Fuel efficiency (%),Output (MWh),Maintenance cost (USD/MWh),Capacity factor (%)
-"Mullins, Martinez and Wright  Power Plant",77.73,8.9,69.73,4971.09,1.0,10.0
-Morrison Inc  Power Plant,0.0,0.1,20.0,10000.0,100.0,27.7
-Todd-Collins  Generation Station,100.0,20.0,90.0,1.0,84.67,95.0

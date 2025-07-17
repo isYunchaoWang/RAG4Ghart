@@ -1,7 +1,0 @@
-﻿Food and Beverage Industry,Product Quality of Different Company
-Pattern,Weak Correlation,Clustering,No Correlation,Clustering
-labels,Shelf life (days),Organic content (%),Freshness score (1-10),Allergen-free options (%),Nutritional value (1-10)
-"Bryan, Price and Pearson  Restaurant",365.0,100.0,5.0,50.0,7.16
-"Davis, King and Moore  Café",196.49,38.42,5.43,42.03,6.88
-Smith Inc  Brasserie,1.0,83.14,6.95,46.57,10.0
-Powell-Steele  Buffet,255.6,0.0,10.0,0.0,1.0

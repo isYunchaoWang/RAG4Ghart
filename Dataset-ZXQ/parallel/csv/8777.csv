@@ -1,7 +1,0 @@
-﻿Food and Beverage Industry,Product Quality of Different Company
-Pattern,Clustering,Weak Correlation,Strong Correlation,Strong Correlation,Weak Correlation,Clustering
-labels,Organic content (%),Allergen-free options (%),Taste rating (1-10),Nutritional value (1-10),Packaging efficiency (%),Shelf life (days),Freshness score (1-10)
-Aguilar-Mills  Restaurant,82.45,39.17,7.84,5.33,86.1,200.89,7.6
-Taylor Group  Bistro,0.0,50.0,10.0,10.0,100.0,365.0,5.0
-Wilkinson-Lopez  Café,71.45,0.0,5.0,1.0,60.57,191.87,10.0
-Butler LLC  Bistro,100.0,13.7,5.9,1.21,50.0,1.0,9.36
