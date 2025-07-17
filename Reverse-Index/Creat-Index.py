@@ -4,7 +4,7 @@ import csv
 from collections import defaultdict
 
 # 根目录
-root_dir = "../Dataset-ZXQ"
+root_dir = "../Dataset-ZXQ/sample100"
 
 # 倒排索引结构：词语 -> 出现的图表类型集合
 inverted_index = defaultdict(set)
