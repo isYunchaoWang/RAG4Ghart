@@ -18,13 +18,19 @@ def recommend_and_show_word_to_charttype(description, top_k=3):
     word_to_charttype_map = {}  # 存储每个词对应的图表类型
     chart_counter = Counter()  # 存储每个图表类型的匹配词频
 
+    # 计算文本中每个词的频率
+    word_frequency = Counter(tokens)
+
     # 遍历输入文本中的每个词，统计匹配的图表类型
-    for word in tokens:
+    for word in word_frequency:
         if word in inverted_index:
             word_to_charttype_map[word] = inverted_index[word]  # 映射词到图表类型
             chart_types = inverted_index[word]
+
+            # 将该词的频率与倒排索引中的频率结合
             for chart_type in chart_types:
-                chart_counter[chart_type] += 1
+                # 使用词频 * 倒排索引中的频率作为权重
+                chart_counter[chart_type] += word_frequency[word] * chart_types[chart_type]
 
     # 返回得分最高的 top_k 个图表类型
     top_k_recommendations = chart_counter.most_common(top_k)
