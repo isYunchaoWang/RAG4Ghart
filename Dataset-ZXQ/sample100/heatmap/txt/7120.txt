@@ -1,7 +1,0 @@
-The analysis of the distribution of science and engineering across various domains reveals significant insights. The maximum value observed is 0.93 in the "Innovation" category under "Software," while the minimum value is 0.16, present in both "Collaboration" and "Testing" within the "Biomedical" domain. The total cumulative value across all categories and domains is approximately 28.99, with an average value of around 0.49 per cell.
-
-The overall trend indicates a gradual increase across categories from left to right columns, with notable growth observed in "Mechanical" and "Software" areas. This growth can be characterized as non-linear, with significant advancements apparent after initial moderate increases.
-
-The most significant growth occurs in "Innovation" within the "Software" category, marking the highest level of advancement. A noticeable turning point is evident as levels rise distinctly in advanced engineering sectors, particularly from "Environmental" onwards.
-
-In conclusion, the data highlights a robust advancement in innovation, particularly in the software domain, suggesting a shift toward more technologically advanced fields. This trend is indicative of the increasing emphasis and resource allocation towards modern engineering domains.

@@ -1,9 +1,0 @@
-The provided chart illustrates the engagement levels across various science and engineering disciplines in several key areas. The maximum engagement level observed is 0.79, primarily in the categories of Innovation (Aerospace and Biomedical) and Collaboration (Biomedical). The minimum engagement levels, around 0.26, are identified in Innovation (Mechanical). 
-
-The total sum of engagement levels across all categories and disciplines is 47.57, with an average engagement level of approximately 0.47. 
-
-Overall, there is a decreasing trend in engagement from Aerospace and Biomedical to Mechanical disciplines. The trend depicts a decline with some minor fluctuations across different categories. 
-
-The most notable growth is in the Testing category, particularly in the transition from Chemical to Computer disciplines, with increases noted overall. However, notable turning points include the sharp decrease from Biomedical to Civil across several categories.
-
-In conclusion, while Aerospace and Biomedical disciplines demonstrate high engagement levels across most areas, there is a notable decline as disciplines transition towards Mechanical, reflecting a need for increased focus on engagement strategies in these areas.

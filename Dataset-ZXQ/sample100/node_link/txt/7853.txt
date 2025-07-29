@@ -1,5 +1,0 @@
-The Cross-Platform Media Collaboration Map consists of 10 nodes and 12 edges, highlighting key connections between various account types. Nodes are not categorized explicitly by type but rather by names. The graph is partially connected, featuring two distinct components. One component includes the UrbanTrend Member Account and Anderson Premium Account, connected via a Tag Mention. The other, larger component includes the remaining accounts, connected through various relation types such as Collab Post and Media Affiliation.
-
-Degree centrality analysis reveals that the most influential nodes, or hubs, are Quantum Trading Profile (5 connections), Evergreen Business Account (5 connections), and Velocity Pro Account (4 connections). These nodes play a central role in the connectivity of the network.
-
-Overall, the map illustrates significant collaborative interactions between selected accounts, with Quantum Trading Profile and Evergreen Business Account emerging as pivotal nodes within the connected component, while the Anderson Premium Account maintains a singular external link.

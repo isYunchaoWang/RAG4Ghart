@@ -1,2 +1,0 @@
-* (hypothetical):
-¡¾Final Summary¡¿The data shows a varied recovery time across different athlete ages, with no clear linear trend. The recovery time fluctuates between x and y days, with an average of z days. A notable peak occurs at a certain age, indicating a significant deviation in recovery time. Overall, recovery time appears relatively stable but with sporadic fluctuations.

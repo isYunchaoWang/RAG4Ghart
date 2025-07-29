@@ -1,3 +1,0 @@
-The chart illustrates the hierarchical structure of manufacturing and industry, with "Manufacturing and Industry" as the largest component at 65.34. Within this category, the main sub-component is "Production Processes" at 31.77, followed by other areas like "Lean Manufacturing" at 14.77 and "Quality Control" at 10.52. The smallest component is "Supply Chain Management" at 5.22.
-
-The data highlights that the focus is primarily on broader industry functions, while more specific processes and management aspects represent smaller portions of the hierarchy. This suggests an overall emphasis on macro-level industry capabilities, with nuanced areas like automation and assembly lines contributing to a more specialized focus.

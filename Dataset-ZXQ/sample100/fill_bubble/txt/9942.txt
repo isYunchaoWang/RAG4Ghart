@@ -1,3 +1,0 @@
-The chart provides an overview of the transportation and logistics sector, highlighting key components within this industry. The primary category, "Transportation and Logistics," has a value of 96.62, serving as the overarching category. Within this, "Vehicle Technology" is the largest subcategory at 36.83, followed by "Modes of Transport" at 18.85, and "Logistics Operations" at 16.01. 
-
-The values suggest a diverse allocation of focus, with "Vehicle Technology" having a significant emphasis. Although there are no specific growth rates provided, the values indicate a balanced distribution with no abrupt changes or turning points. This implies a stable structure with a consistent emphasis across the different components.

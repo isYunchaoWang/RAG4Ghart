@@ -1,5 +1,0 @@
-The Research and Development Ecosystem chart illustrates the flow of projects from various funding sources to their outcomes, impact areas, and types of institutions involved. Private investment is the largest funding source, with a total of 355 projects. The University budget follows, funneling a significant number of projects towards published papers and open-source projects. 
-
-Commercial products and open-source projects are key outcomes, receiving substantial input from different funding sources, particularly in the areas of environment and industrial automation. The distribution suggests a balance across impact areas, with neither sharply dominating. Corporate labs and non-profit organizations are prominent recipients of these projects, indicating a collaboration between commercial and altruistic objectives.
-
-The overall trend shows a robust flow towards industrial and educational advancements. Though there is no clear peak in terms of growth or drastic changes, continuous engagement in these areas reflects a stable and consistent trend in R&D project priorities, supporting a diverse range of institutions.

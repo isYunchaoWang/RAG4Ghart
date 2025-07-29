@@ -1,5 +1,0 @@
-The data on energy consumption for the region indicates a diverse energy portfolio with a maximum consumption of 3224 TWh for Diesel and a minimum of 1013 TWh for Oil. The total energy consumption across all sources amounts to 29,587 TWh, with an average consumption of approximately 1,975 TWh. 
-
-The overall trend in energy consumption shows variability across different energy types without a uniform increase or decrease, suggesting a stable yet diversified energy mix. The highest growth in consumption is observed in Diesel, followed closely by Biofuel and Oil, indicating significant reliance on these sources. There are no abrupt turning points, but the consumption pattern suggests a steady preference for certain energy types. 
-
-These findings underscore the region's strategic emphasis on varied energy sources, highlighting areas of high dependency and potential sustainability challenges.

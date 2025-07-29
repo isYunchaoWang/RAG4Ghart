@@ -1,5 +1,0 @@
-The chart illustrates the monthly shipment volumes of different commodities over three separate months: September, January, and August. The total shipment volume reached its maximum in January, slightly exceeding 3,000 tonnes, while the minimum was recorded in August at just above 2,500 tonnes. The average shipment volume across these months is around 2,833 tonnes.
-
-The overall trend exhibited a slight increase from September to January, followed by a decrease in August. This trend suggests a pattern of growth followed by decline. Notably, the shipment of Automotive Parts remained significantly higher compared to other commodities across all three months, helping to drive overall trends. The highest growth was seen between September and January, with a noticeable decline in August, which marks a turning point.
-
-In summary, while shipment volumes show variation, the most substantial increase occurs at the start of the year, driven primarily by Automotive Parts, before a decline occurs towards the end of summer.

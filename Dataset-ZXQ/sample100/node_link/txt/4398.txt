@@ -1,7 +1,0 @@
-The Inter-Clinic Referral Relationships graph illustrates connections among healthcare facilities through various types of collaborations and interactions. The network comprises 13 nodes and 15 edges. Different types of relationships include Healthcare Network, Medical Collaboration, Patient Transfer, and Specialty Sharing, as indicated by the color-coded edges.
-
-The graph is connected as a single component, indicating that all facilities are linked either directly or indirectly through one or more pathways, facilitating comprehensive network integration.
-
-In terms of influence, Cityview Children's Hospital, Northfield Emergency Center, and Global Health Clinic stand out as key hubs. These facilities demonstrate high degree centrality, with Cityview Children's Hospital being the most influential node in the network.
-
-Overall, the analysis highlights the interconnected nature of the healthcare facilities in this network and identifies critical hubs that play a significant role in maintaining the network's connectivity and operational coherence.

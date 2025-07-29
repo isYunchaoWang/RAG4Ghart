@@ -1,7 +1,0 @@
-The network graph depicting the collaborative links between research labs and universities consists of 11 nodes representing various institutes and 13 edges indicating different types of collaborations. The node types include these institutes: Cultural Heritage, Global Policy, Energy Innovation, Institute of Robotics and AI, Climate Research Center, Center for Data Ethics, Biomedical Research Institute, Neuroscience Research Group, Advanced Mathematics, and Ocean Studies. 
-
-The graph is fully connected, meaning all nodes are part of a single component. This connectivity highlights a cohesive collaborative environment among the institutes. 
-
-The three most influential nodes, determined by their degree centrality, are the Institute of Robotics and AI, Climate Research Center, and Global Policy Institute, each playing a central role in the network with the highest number of connections. 
-
-Overall, the network showcases a rich collaborative structure where key institutes maintain multiple partnerships across different collaboration types such as patent sharing, tech transfer, and research funding, fostering an integrated research ecosystem.

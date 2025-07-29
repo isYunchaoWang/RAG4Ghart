@@ -1,7 +1,0 @@
-The heatmap data illustrates the correlations between different academic roles and fields of study, using values ranging from 0.49 to 0.54. The maximum correlation value of 0.54 is observed in both "Senior" with "Engineering" and "Postdoc" with "Biology," while the minimum value of 0.49 is seen for "Senior" with "Computer Science" and "History."
-
-The overall correlations show a stable trend with slight fluctuations. There is no clear pattern of linear growth or decline; instead, the correlations are relatively consistent with some variations. 
-
-Notable events include slight peaks in correlation values, particularly in fields like "Biology" for "Postdoc" and "Engineering" for "Senior," which may suggest unique alignments in those areas. However, no major turning points or shifts are evident in the data. 
-
-The analysis suggests that while correlations exist between roles and academic fields, these relations are relatively stable, with only minor variances. This uniformity may indicate a balanced interrelation across the education spectrum.

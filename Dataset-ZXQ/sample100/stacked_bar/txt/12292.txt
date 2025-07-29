@@ -1,5 +1,0 @@
-The box office revenue across towns exhibits significant variation, with a notable peak observed in Pinecrest, where the revenue maxes out close to 1200 million USD. The lowest revenue is seen in Cedarburg. The total sum of revenues across all towns appears substantial, with an average centered around the mid-point, suggesting consistent earnings across different regions.
-
-Overall, the trend displays fluctuations rather than a linear pattern, with revenues increasing to a peak in the middle towns before slightly declining and stabilizing. The shape of the trend suggests a rise, peaking, and then a slight drop towards the later towns, indicating a mixed and dynamic box office performance.
-
-The highest growth rate is discerned between Elmwood and Pinecrest, highlighting a significant increase in revenue. Conversely, there is a discernible downward turning point after Oakvale. These insights reflect a competitive movie market where revenues peak notably in certain regions while being tempered in others.

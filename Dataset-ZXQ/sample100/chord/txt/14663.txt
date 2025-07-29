@@ -1,5 +1,0 @@
-The analysis of the passenger station transfer flow data indicates that the East Junction handles the highest number of passengers, peaking at approximately 165,000. In contrast, the South Gate processes the least, with around 110,000 passengers. The total transfer flow across all stations rounds to approximately 550,000 passengers, resulting in an average flow of roughly 110,000 per station.
-
-The data trend shows a relatively balanced distribution across the stations, without drastic fluctuations, suggesting a stable passenger flow pattern. However, a slight peak is observed at the Grand Terminal and Valley Terminal connections, indicating a potential focus for managing congestion or increasing capacity.
-
-This distribution portrays a need for resource allocation to areas with higher passenger interactions, ensuring efficient flow and operational efficiency.
