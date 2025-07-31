@@ -1,7 +1,7 @@
 import os
 
 # 设置路径
-base_path = "../Dataset-ZXQ/sample100/violin/"  # 你的根目录
+base_path = "../Dataset-ZXQ/sample100/line/"  # 你的根目录
 txt_folder = os.path.join(base_path, "png")  # 原始 txt 文件夹路径
 new_txt_folder = os.path.join(base_path, "txt")  # 新建的存储文件夹
 

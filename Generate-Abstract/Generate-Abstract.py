@@ -4,9 +4,13 @@ import os
 
 from openai import OpenAI
 
-client = OpenAI(
-    api_key='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')
+# client = OpenAI(
+#     api_key='')
 
+client = OpenAI(
+    base_url='https://az.gptplus5.com/v1',
+    api_key=''
+)
 
 def create_file(file_path):
     with open(file_path, "rb") as file_content:
@@ -110,7 +114,10 @@ def process_directory(root_dir):
     # Traverse the directory to find image files
     for subdir, _, files in os.walk(root_dir):
         for file in files:
-            if file.endswith(".png"):  # Add more file types if needed
+            if file.endswith(".png"):
+            # and 后面的条件控制生成顺序
+            # if file.endswith(".png") and int(os.path.splitext(os.path.basename(file))[0])>9000:
+
                 image_path = os.path.join(subdir, file)
                 output_file = os.path.splitext(image_path)[0] + ".txt"  # Output text file name
 
@@ -119,7 +126,7 @@ def process_directory(root_dir):
 
 
 # Specify the root directory of your dataset
-root_directory = r"D:\PycharmProjects\RAG4Ghart\Dataset-ZXQ\sample100\node_link"
+root_directory = r"D:\PycharmProjects\RAG4Ghart\Dataset-ZXQ\sample100\line"
 
 # Start processing the directory
 process_directory(root_directory)
