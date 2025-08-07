@@ -36,7 +36,7 @@ def tokenize(text):
     # 遍历每个token
     for token in doc:
         # 如果该token不是命名实体，添加到结果列表
-        if not token.ent_type_:  # 检查该token是否为实体
+        if not token.ent_type_ and not token.is_stop and not token.is_punct:
             result_tokens.append(token.text)
 
     return result_tokens

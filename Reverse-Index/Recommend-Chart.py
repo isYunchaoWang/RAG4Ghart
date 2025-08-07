@@ -4,7 +4,7 @@ from collections import defaultdict, Counter
 from Tokenizer import tokenize
 
 # 加载已有倒排索引（词 → 图表类型列表）
-with open("txt_index.json", "r", encoding="utf-8") as f:
+with open("txt_index_with_filenames.json", "r", encoding="utf-8") as f:
     inverted_index = json.load(f)
 
 
@@ -36,14 +36,14 @@ def recommend_and_show_word_to_charttype(description, top_k=3):
 
 
 # 示例调用
-query = "The chart illustrates the production of different crops in an area, measured in metric tons. Among the crops, rapeseed has the highest production at 20,000 metric tons, indicating its dominance in the dataset. The lowest production is apple, with 2,488 metric tons. The total production across all crops amounts to 32,755 metric tons, with an average production of approximately 8,189 metric tons per crop. The data does not indicate a consistent trend such as an increase or decrease since each crop's production level stands alone. No specific turning points or growth rates can be discerned from this static dataset; however, the significant observation is the substantial disparity in production levels, notably with rapeseed leading substantially."
-word_chart_map, top_k_recommendations = recommend_and_show_word_to_charttype(query, top_k=3)
+query = "From 1999 to 2003, the livestock production at Riverbend Plantation remained stable at approximately 410 tons annually. There is no indication of growth or decline during this period, suggesting consistent output in livestock production. The data demonstrates a flat trend, with no significant fluctuations or turning points, reflecting a strong consistency in production levels throughout these years."
+word_chart_map, top_k_recommendations = recommend_and_show_word_to_charttype(query, top_k=10)
 
 # 输出结果
 print(f"输入文本：{query}")
 print("词语对应的图表类型如下：")
-for word, chart_types in word_chart_map.items():
-    print(f"  {word} → {chart_types}")
+# for word, chart_types in word_chart_map.items():
+#     print(f"  {word} → {chart_types}")
 
 print(f"\n推荐的 top {len(top_k_recommendations)} 个图表类型：")
 for chart_type, score in top_k_recommendations:
