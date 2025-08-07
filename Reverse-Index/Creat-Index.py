@@ -7,7 +7,7 @@ from Tokenizer import tokenize
 import json
 
 # 根目录
-root_dir = "../Dataset-ZXQ/sample100"
+root_dir = "../Dataset-ZXQ/train80/"
 
 # 倒排索引结构：词语 -> {完整文件名 -> 频率}
 inverted_index = defaultdict(lambda: defaultdict(int))
@@ -43,6 +43,6 @@ final_index = {word: {file_name: freq for file_name, freq in sorted(files.items(
                for word, files in inverted_index.items()}
 
 # 输出到文件
-with open("txt_index_with_filenames.json", "w", encoding="utf-8") as f:
+with open("train80_index.json", "w", encoding="utf-8") as f:
     json.dump(final_index, f, ensure_ascii=False, indent=2)
 
