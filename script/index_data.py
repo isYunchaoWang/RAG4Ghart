@@ -217,18 +217,18 @@ def embed_data_so400m_long(data: list) -> list:
     """Requires transformers>=4.51.0"""
     from PIL import Image
     from modelscope import AutoProcessor
-    model = AutoModel.from_pretrained("/home/public/dkx/model/fancyfeast/so400m-long", torch_dtype=torch.float32, device_map="auto", attn_implementation="sdpa")
+    model = AutoModel.from_pretrained("/home/public/dkx/model/fancyfeast/so400m-long",
+                                      torch_dtype=torch.float32, device_map="auto", attn_implementation="sdpa")
 
     processor = AutoProcessor.from_pretrained("/home/public/dkx/model/fancyfeast/so400m-long")
 
     texts = [datum["text"] for datum in data]
-    print("loading images...")
-    images = [Image.open(datum["image_url"]).convert("RGB") for datum in data]
-    print("processing...")
-    inputs = processor(text=texts, images=images, padding="max_length", max_length=256, return_tensors="pt").to("cuda")
+    images = [Image.open(datum["image_url"]).convert("RGB") for datum in tqdm(data, desc="loading images")]
 
-    print("embedding...")
     with torch.no_grad():
+        print("processing...")
+        inputs = processor(text=texts, images=images, padding="max_length", max_length=309, return_tensors="pt").to("cuda")
+        print("embedding...")
         outputs = model(**inputs)
 
     for i in range(len(data)):
@@ -388,3 +388,8 @@ if __name__ == "__main__":
     # data = embed_data_BGE_VL_v1_5_zs(data)
     data = embed_data_so400m_long(data)
     insert_data_so400m_long(schema, data)
+
+"""
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.83 GiB. GPU 0 has a total capacity of 47.53 GiB of which 1.91 GiB is free. Process 11130 has 3.29 GiB memory in use. Including non-PyTorch memory, this process has 42.31 GiB memory in use. Of the allocated memory 41.99 GiB is allocated by PyTorch, and 10.34 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+"""
