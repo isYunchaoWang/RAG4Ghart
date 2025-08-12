@@ -4,7 +4,8 @@ from collections import Counter
 from Tokenizer import tokenize
 
 # 加载已有倒排索引（词 → 图表类型列表）
-with open("AUX_ADP_PART_PUNCT_lemma.json", "r", encoding="utf-8") as f:
+with open("ENT_STOP_AUX_ADP_PART_PUNCT_LEMMA.json", "r", encoding="utf-8") as f:
+    # 记得改tokenizer
     inverted_index = json.load(f)
 
 
@@ -67,13 +68,13 @@ def process_directory(directory_path):
                     content = f.read()
 
                 # 生成推荐结果
-                word_chart_map, top_k_recommendations = recommend_and_show_word_to_charttype(content, top_k=3)
+                word_chart_map, top_k_recommendations = recommend_and_show_word_to_charttype(content, top_k=10)
                 top_k = len(top_k_recommendations)
                 target_folder = get_charts_name(file_path)
 
                 if target_folder:
                     # 统计目标文件夹名在 top_k 中出现的次数
-                    folder_count = sum(1 for chart_file, _ in top_k_recommendations if target_folder in chart_file)
+                    folder_count = sum(1 for chart_file, _ in top_k_recommendations if target_folder == get_charts_name(chart_file))
 
                     # 将文件路径和推荐结果保存到字典中
                     file_results[file_path] = {

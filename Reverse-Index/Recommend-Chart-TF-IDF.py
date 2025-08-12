@@ -5,7 +5,7 @@ from Tokenizer import tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # 加载已有倒排索引（词 → 图表类型列表）
-with open("tfidf_ent_type_stop_punct.json", "r", encoding="utf-8") as f:
+with open("ENT_STOP_LEMMA_TFIDF.json", "r", encoding="utf-8") as f:
     inverted_index = json.load(f)
 
 
@@ -80,7 +80,7 @@ def process_directory(directory_path):
 
                 if target_folder:
                     # 统计目标文件夹名在 top_k 中出现的次数
-                    folder_count = sum(1 for chart_file, _ in top_k_recommendations if target_folder in chart_file)
+                    folder_count = sum(1 for chart_file, _ in top_k_recommendations if target_folder == get_charts_name(chart_file))
 
                     # 将文件路径和推荐结果保存到字典中
                     file_results[file_path] = {

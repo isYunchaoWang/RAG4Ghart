@@ -65,5 +65,5 @@ for idx, doc in enumerate(processed_documents):
             inverted_index[word][file_paths[idx]] = tfidf_score
 
 # 将倒排索引写入JSON文件
-with open("tfidf_lemma.json", "w", encoding="utf-8") as f:
+with open("ENT_STOP_LEMMA_TFIDF.json", "w", encoding="utf-8") as f:
     json.dump(inverted_index, f, ensure_ascii=False, indent=2)
