@@ -43,6 +43,6 @@ final_index = {word: {file_name: freq for file_name, freq in sorted(files.items(
                for word, files in inverted_index.items()}
 
 # 输出到文件
-with open("ENT_STOP_AUX_ADP_PART_PUNCT_LEMMA.json", "w", encoding="utf-8") as f:
+with open("ENT_STOP_AUX_ADP.json", "w", encoding="utf-8") as f:
     json.dump(final_index, f, ensure_ascii=False, indent=2)
 

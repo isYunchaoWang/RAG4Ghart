@@ -37,9 +37,10 @@ def tokenize(text):
     for token in doc:
         # 如果该token不是命名实体，添加到结果列表
         # if not token.ent_type_ and not token.is_stop and not token.is_punct:
-        if not token.ent_type_ and not token.is_stop:
-        # if not token.ent_type_ and not token.is_stop and token.pos_ not in ['AUX', 'ADP', 'PART', 'PUNCT']:
-            result_tokens.append(token.lemma_)
-            # result_tokens.append(token.text)
+        # if not token.ent_type_ and not token.is_stop:
+        # if not token.ent_type_ and token.pos_ not in ['AUX', 'ADP', 'PART', 'PUNCT']:
+        if not token.ent_type_ and token.pos_ not in ['AUX', 'ADP']:
+            # result_tokens.append(token.lemma_)
+            result_tokens.append(token.text)
 
     return result_tokens

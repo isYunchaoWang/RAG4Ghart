@@ -4,7 +4,7 @@ from collections import Counter
 from Tokenizer import tokenize
 
 # 加载已有倒排索引（词 → 图表类型列表）
-with open("ENT_STOP_AUX_ADP_PART_PUNCT_LEMMA.json", "r", encoding="utf-8") as f:
+with open("ENT_STOP_AUX_ADP.json", "r", encoding="utf-8") as f:
     # 记得改tokenizer
     inverted_index = json.load(f)
 
@@ -52,6 +52,7 @@ def process_directory(directory_path):
 
     # 遍历目录中的所有文件
     for root, dirs, files in os.walk(directory_path):
+        total_mrr = 0
         charts_count = 0
         one_chart_match = 0
         top_k = 0
@@ -74,18 +75,35 @@ def process_directory(directory_path):
 
                 if target_folder:
                     # 统计目标文件夹名在 top_k 中出现的次数
-                    folder_count = sum(1 for chart_file, _ in top_k_recommendations if target_folder == get_charts_name(chart_file))
+                    # folder_count = sum(1 for chart_file, _ in top_k_recommendations if target_folder == get_charts_name(chart_file))
+                    # 找到目标文件夹名在 top_k 中的位置
+                    rank = None
+                    for i, (chart_type, _) in enumerate(top_k_recommendations):
+                        if target_folder == get_charts_name(chart_type):
+                            rank = i + 1  # 排名从 1 开始
+                            break
+
+                    # 如果目标文件夹在推荐列表中有出现，计算 MRR
+                    if rank is not None:
+                        mrr = 1 / rank
+                    else:
+                        mrr = 0  # 如果没有出现，则 MRR 为 0
+
+                    total_mrr += mrr
 
                     # 将文件路径和推荐结果保存到字典中
                     file_results[file_path] = {
                         "word_chart_map": word_chart_map,
                         "top_k_recommendations": top_k_recommendations,
-                        "folder_count": folder_count  # 记录目标文件夹名出现次数
+                        # "folder_count": folder_count  # 记录目标文件夹名出现次数
+                        "mrr": mrr  # 记录每个文件的 MRR
                     }
-                    one_chart_match += folder_count
+                    # one_chart_match += folder_count
         if charts_count > 0:
-            percent = (one_chart_match / (charts_count * top_k)) * 100
-            print(f"{percent:.2f}%")
+        #     percent = (one_chart_match / (charts_count * top_k)) * 100
+        #     print(f"{percent:.2f}%")
+            avg_mrr = total_mrr / charts_count
+            print(f"{avg_mrr:.4f}")
 
     return file_results
 
@@ -101,6 +119,6 @@ results = process_directory(directory_path)
 #     for chart_type, score in result['top_k_recommendations']:
 #         print(f"  {chart_type}（匹配词数: {score}）")
 #
-#     # 输出目标文件夹名在推荐结果中出现的次数
-#     print(f"  '{get_charts_name(file_path)}' 文件夹名出现的次数: {result['folder_count']}")
+#     # 输出该文件的 MRR 值
+#     print(f"  MRR: {result['mrr']:.4f}")
 #     print()
