@@ -5,10 +5,10 @@ from pathlib import Path
 
 def split_dataset(seed=42):
     # 路径设置
-    base_dir = Path("/home/dukaixing/RAG4Ghart/Dataset-ZXQ")
-    source_dir = base_dir / "sample100"
-    train_dir = base_dir / "train80"
-    test_dir = base_dir / "test20"
+    base_dir = Path("/home/public/dataset-MegaCQA")
+    source_dir = base_dir / "all"
+    train_dir = base_dir / "train"
+    test_dir = base_dir / "test"
 
     # 设置随机种子，确保可复现划分结果
     random.seed(seed)
@@ -62,11 +62,11 @@ def split_dataset(seed=42):
                         if src_file.exists():
                             shutil.copy(src_file, tgt_subfolder / src_file.name)
 
-    print(f"\n✅ 数据划分完成（seed={seed}），train80 和 test20 已生成并保持目录结构一致。")
+    print(f"\n✅ 数据划分完成（seed={seed}），train 和 test 已生成并保持目录结构一致。")
 
 # 支持命令行参数传入随机种子
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="将 sample100 数据集按 8:2 划分为 train80/test20")
+    parser = argparse.ArgumentParser(description="将 all 数据集按 8:2 划分为 train/test")
     parser.add_argument("--seed", type=int, default=42, help="随机种子（默认 42）")
     args = parser.parse_args()
     split_dataset(seed=args.seed)
