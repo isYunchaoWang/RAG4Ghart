@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState, useRef } from 'react'
-import { Form, Input, Typography, theme, Button, Space, Select, Divider, InputNumber, message } from 'antd'
-import { VegaEmbed } from 'react-vega'
+import { Form, Input, Typography, theme, Button, Space, Select, Divider, InputNumber, message, ColorPicker } from 'antd'
+import ChartConfig from './ChartConfig'
+import StyleConfig from './StyleConfig'
+import ChartFactory from './charts/ChartFactory'
 
 const { Title } = Typography
 
@@ -17,12 +19,26 @@ const CHART_TYPES = [
   { label: '柱状图 bar', value: 'bar' },
   { label: '箱线图 box', value: 'box' },
   { label: '气泡图 bubble', value: 'bubble' },
+  { label: '填充气泡图 fill_bubble', value: 'fill_bubble' },
   { label: '和弦图 chord', value: 'chord' },
   { label: '漏斗图 funnel', value: 'funnel' },
   { label: '热力图 heatmap', value: 'heatmap' },
   { label: '折线图 line', value: 'line' },
   { label: '节点链接图 node_link', value: 'node_link' },
   { label: '平行坐标 parallel', value: 'parallel' },
+  { label: '饼图 pie', value: 'pie' },
+  { label: '散点图 scatter', value: 'scatter' },
+  { label: '点图 point', value: 'point' },
+  { label: '堆叠柱状图 stacked_bar', value: 'stacked_bar' },
+  { label: '堆叠面积图 stacked_area', value: 'stacked_area' },
+  { label: '流图 stream', value: 'stream' },
+  { label: '脊线图 ridgeline', value: 'ridgeline' },
+  { label: '小提琴图 violin', value: 'violin' },
+  { label: '雷达图 radar', value: 'radar' },
+  { label: '树状图 treemap', value: 'treemap' },
+  { label: '树状图D3 treemap_D3', value: 'treemap_D3' },
+  { label: '旭日图 sunburst', value: 'sunburst' },
+  { label: '桑基图 sankey', value: 'sankey' },
 ]
 
 const FIELD_TYPES = [
@@ -54,10 +70,36 @@ function mapChartTypeToVegaMark(chartType) {
     case 'line':
       return 'line'
     case 'point':
+      return 'point'
     case 'bubble':
+    case 'fill_bubble':
+      return 'circle'
     case 'box':
       return 'boxplot'
     case 'heatmap':
+      return 'rect'
+    case 'pie':
+      return 'arc'
+    case 'scatter':
+      return 'point'
+    case 'stacked_bar':
+      return 'bar'
+    case 'stacked_area':
+      return 'area'
+    case 'stream':
+      return 'area'
+    case 'ridgeline':
+      return 'area'
+    case 'violin':
+      return 'area'
+    case 'radar':
+      return 'line'
+    case 'treemap':
+    case 'treemap_D3':
+      return 'rect'
+    case 'sunburst':
+      return 'arc'
+    case 'sankey':
       return 'rect'
     // Unsupported types fallback to bar so that preview still works
     case 'chord':
@@ -69,63 +111,131 @@ function mapChartTypeToVegaMark(chartType) {
   }
 }
 
-function buildSpecFromForm({ chartType, title, description, width, height, xField, xType, yField, yType, aggregate, colorField, colorType, sizeField, dataValues }) {
-  const spec = {
-    $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-    description: description || undefined,
-    title: title || undefined,
-    width: width || undefined,
-    height: height || undefined,
-    data: { values: Array.isArray(dataValues) ? dataValues : [] },
-    mark: mapChartTypeToVegaMark(chartType || 'bar'),
-    encoding: {}
+function mapVegaMarkToChartType(mark, encoding) {
+  // 反向映射：从Vega-Lite mark类型映射回我们的图表类型
+  const markType = typeof mark === 'string' ? mark : mark?.type || 'bar'
+  
+  switch (markType) {
+    case 'bar':
+      // 检查是否是堆叠柱状图
+      if (encoding?.color) return 'stacked_bar'
+      return 'bar'
+    case 'line':
+      // 检查是否是雷达图 (需要更复杂的判断逻辑)
+      return 'line'
+    case 'point':
+      // 检查是否有size字段来区分point和scatter
+      if (encoding?.size) return 'scatter'
+      return 'point'
+    case 'circle':
+      // 气泡图
+      return 'bubble'
+    case 'boxplot':
+      return 'box'
+    case 'rect':
+      // 检查是否是热力图 (有x, y, color编码)
+      if (encoding?.x && encoding?.y && encoding?.color) return 'heatmap'
+      return 'treemap'
+    case 'arc':
+      // 检查是否是旭日图还是饼图
+      if (encoding?.theta) return 'pie'
+      return 'sunburst'
+    case 'area':
+      // 根据编码判断具体的面积图类型
+      if (encoding?.color) return 'stacked_area'
+      return 'ridgeline'
+    default:
+      return 'bar'
   }
-
-  if (xField) spec.encoding.x = { field: xField, type: xType || 'ordinal' }
-  if (yField) spec.encoding.y = { field: yField, type: yType || 'quantitative' }
-
-  if (aggregate && yField) {
-    spec.encoding.y = {
-      ...(spec.encoding.y || {}),
-      aggregate: aggregate,
-    }
-  }
-
-  if (colorField) {
-    spec.encoding.color = { field: colorField, type: colorType || 'nominal' }
-  }
-
-  if ((chartType === 'bubble' || chartType === 'fill_bubble' || chartType === 'point') && sizeField) {
-    spec.encoding.size = { field: sizeField, type: 'quantitative' }
-  }
-
-  return spec
 }
 
 function pickFormFromSpec(spec) {
   if (!spec) return null
   try {
-    const chartType = typeof spec.mark === 'string' ? spec.mark : spec.mark?.type || 'bar'
-    const x = spec.encoding?.x || {}
-    const y = spec.encoding?.y || {}
-    const color = spec.encoding?.color || {}
-    const size = spec.encoding?.size || {}
-    return {
+    const chartType = mapVegaMarkToChartType(spec.mark, spec.encoding)
+    const encoding = spec.encoding || {}
+    const mark = spec.mark || {}
+    
+    // 基础信息
+    const result = {
       chartType,
       title: spec.title || '',
       description: spec.description || '',
       width: spec.width || undefined,
       height: spec.height || undefined,
-      xField: x.field || '',
-      xType: x.type || undefined,
-      yField: y.field || '',
-      yType: y.type || undefined,
-      aggregate: y.aggregate || '',
-      colorField: color.field || '',
-      colorType: color.type || undefined,
-      sizeField: size.field || '',
       dataText: JSON.stringify(spec.data?.values ?? [], null, 2),
     }
+    
+    // 提取样式配置
+    if (mark.color) result.markColor = mark.color
+    if (mark.fill) result.fillColor = mark.fill
+    if (mark.opacity !== undefined) result.opacity = mark.opacity
+    if (mark.stroke) result.strokeColor = mark.stroke
+    if (mark.strokeWidth !== undefined) result.strokeWidth = mark.strokeWidth
+    if (mark.cornerRadius !== undefined) result.cornerRadius = mark.cornerRadius
+    if (mark.size !== undefined) result.pointSize = mark.size
+    if (mark.strokeDash) result.strokeDash = mark.strokeDash
+    if (mark.innerRadius !== undefined) result.innerRadius = mark.innerRadius
+    
+    // 提取配置信息
+    const config = spec.config || {}
+    if (config.axis) {
+      if (config.axis.x && config.axis.x.orient) result.xAxisPosition = config.axis.x.orient
+      if (config.axis.y && config.axis.y.orient) result.yAxisPosition = config.axis.y.orient
+      if (config.axis.grid === false) result.showGrid = false
+    }
+    if (config.legend) {
+      if (config.legend.disable) result.showLegend = false
+      if (config.legend.orient) result.legendPosition = config.legend.orient
+      if (config.legend.direction) result.legendOrientation = config.legend.direction
+    }
+    
+    // 提取字体配置
+    if (config.title) {
+      if (config.title.font) result.fontFamily = config.title.font
+      if (config.title.fontSize) result.fontSize = config.title.fontSize
+      if (config.title.color) result.fontColor = config.title.color
+    }
+    if (config.axis) {
+      if (config.axis.labelFont) result.fontFamily = config.axis.labelFont
+      if (config.axis.labelFontSize) result.fontSize = config.axis.labelFontSize
+      if (config.axis.labelColor) result.fontColor = config.axis.labelColor
+    }
+    if (config.legend) {
+      if (config.legend.labelFont) result.fontFamily = config.legend.labelFont
+      if (config.legend.labelFontSize) result.fontSize = config.legend.labelFontSize
+      if (config.legend.labelColor) result.fontColor = config.legend.labelColor
+    }
+    if (config.tooltip && config.tooltip.disable) result.enableTooltip = false
+    if (spec.selection) {
+      if (spec.selection.zoom) result.enableZoom = true
+      if (spec.selection.pan) result.enablePan = true
+      if (spec.selection.select) result.enableSelection = true
+    }
+    
+    // 根据编码提取字段信息
+    Object.entries(encoding).forEach(([key, value]) => {
+      if (value && value.field) {
+        // 将vega编码映射到我们的字段名
+        let fieldName = key
+        if (key === 'theta') fieldName = 'value' // 饼图的theta映射为value
+        
+        result[`${fieldName}Field`] = value.field
+        result[`${fieldName}Type`] = value.type
+        if (value.aggregate) result.aggregate = value.aggregate
+        
+        // 提取颜色配置
+        if (key === 'color' && value.scale) {
+          if (value.scale.scheme) {
+            result.colorScheme = value.scale.scheme
+          } else if (value.scale.range && value.scale.range.length === 1) {
+            result.markColor = value.scale.range[0]
+          }
+        }
+      }
+    })
+    
+    return result
   } catch {
     return null
   }
@@ -134,10 +244,12 @@ function pickFormFromSpec(spec) {
 function getDefaultData(chartType) {
   switch (chartType) {
     case 'line':
+    case 'radar':
       return [
         { x: 'A', y: 28 }, { x: 'B', y: 55 }, { x: 'C', y: 43 }, { x: 'D', y: 91 }
       ]
     case 'point':
+    case 'scatter':
     case 'bubble':
     case 'fill_bubble':
       return [
@@ -147,8 +259,51 @@ function getDefaultData(chartType) {
       return [
         { x: 'A', y: 'K', value: 10 }, { x: 'A', y: 'L', value: 20 }, { x: 'B', y: 'K', value: 5 }, { x: 'B', y: 'L', value: 15 }
       ]
-    case 'bar':
+    case 'pie':
+    case 'sunburst':
+      return [
+        { category: 'A', value: 28 }, { category: 'B', value: 55 }, { category: 'C', value: 43 }, { category: 'D', value: 91 }
+      ]
+    case 'stacked_bar':
+      return [
+        { x: 'A', y: 28, category: 'Type1' }, { x: 'A', y: 25, category: 'Type2' },
+        { x: 'B', y: 55, category: 'Type1' }, { x: 'B', y: 35, category: 'Type2' },
+        { x: 'C', y: 43, category: 'Type1' }, { x: 'C', y: 30, category: 'Type2' }
+      ]
+    case 'stacked_area':
+    case 'stream':
+      return [
+        { x: 1, y: 28, category: 'Type1' }, { x: 1, y: 25, category: 'Type2' },
+        { x: 2, y: 55, category: 'Type1' }, { x: 2, y: 35, category: 'Type2' },
+        { x: 3, y: 43, category: 'Type1' }, { x: 3, y: 30, category: 'Type2' },
+        { x: 4, y: 61, category: 'Type1' }, { x: 4, y: 40, category: 'Type2' }
+      ]
+    case 'ridgeline':
+    case 'violin':
+      return [
+        { group: 'A', value: 10 }, { group: 'A', value: 15 }, { group: 'A', value: 20 },
+        { group: 'B', value: 25 }, { group: 'B', value: 30 }, { group: 'B', value: 35 },
+        { group: 'C', value: 40 }, { group: 'C', value: 45 }, { group: 'C', value: 50 }
+      ]
+    case 'treemap':
+    case 'treemap_D3':
+      return [
+        { category: 'A', size: 100 }, { category: 'B', size: 200 }, 
+        { category: 'C', size: 150 }, { category: 'D', size: 80 }
+      ]
+    case 'sankey':
+      return [
+        { source: 'A', target: 'X', value: 10 },
+        { source: 'A', target: 'Y', value: 15 },
+        { source: 'B', target: 'X', value: 20 },
+        { source: 'B', target: 'Z', value: 25 }
+      ]
     case 'box':
+      return [
+        { group: 'A', value: 10 }, { group: 'A', value: 15 }, { group: 'A', value: 20 }, { group: 'A', value: 25 },
+        { group: 'B', value: 30 }, { group: 'B', value: 35 }, { group: 'B', value: 40 }, { group: 'B', value: 45 }
+      ]
+    case 'bar':
     case 'chord':
     case 'funnel':
     case 'node_link':
@@ -164,63 +319,40 @@ function ChartEditor({ specText, onChange, onSave }) {
   const { token } = theme.useToken()
   const [form] = Form.useForm()
 
-  // 内部受控的表单状态（用 AntD Form 管理）
-  const [chartType, setChartType] = useState('bar')
-  const [title, setTitle] = useState('')
-  const [description, setDescription] = useState('')
-  const [width, setWidth] = useState()
-  const [height, setHeight] = useState()
-  const [xField, setXField] = useState('x')
-  const [xType, setXType] = useState('ordinal')
-  const [yField, setYField] = useState('y')
-  const [yType, setYType] = useState('quantitative')
-  const [aggregate, setAggregate] = useState('')
-  const [colorField, setColorField] = useState('')
-  const [colorType, setColorType] = useState('nominal')
-  const [sizeField, setSizeField] = useState('')
-  const [dataText, setDataText] = useState(JSON.stringify(getDefaultData('bar'), null, 2))
+  // 简化的状态管理 - 初始状态为空
+  const [chartType, setChartType] = useState('')
+  const [formValues, setFormValues] = useState({})
+  const [dataText, setDataText] = useState('[]')
+  const [isInitialized, setIsInitialized] = useState(false)
 
   // 保存 Vega view 与容器引用以便截图
   const viewRef = useRef(null)
   const embedContainerRef = useRef(null)
 
-  // 当外部 specText 变化（例如从历史选中），尝试反填表单
+  // 防止循环更新的标志
+  const isUpdatingFromExternal = useRef(false)
+  const isInternalUpdate = useRef(false)
+  
+  // 只有外部传入有效的specText时才处理（从历史记录选择时）
   useEffect(() => {
-    const spec = safeParseJSON(specText)
-    const mapped = pickFormFromSpec(spec)
-    if (mapped) {
-      setChartType(mapped.chartType || 'bar')
-      setTitle(mapped.title || '')
-      setDescription(mapped.description || '')
-      setWidth(mapped.width)
-      setHeight(mapped.height)
-      setXField(mapped.xField || 'x')
-      setXType(mapped.xType || 'ordinal')
-      setYField(mapped.yField || 'y')
-      setYType(mapped.yType || 'quantitative')
-      setAggregate(mapped.aggregate || '')
-      setColorField(mapped.colorField || '')
-      setColorType(mapped.colorType || 'nominal')
-      setSizeField(mapped.sizeField || '')
-      setDataText(mapped.dataText || JSON.stringify(getDefaultData(mapped.chartType || 'bar'), null, 2))
-      form.setFieldsValue({
-        chartType: mapped.chartType,
-        title: mapped.title,
-        description: mapped.description,
-        width: mapped.width,
-        height: mapped.height,
-        xField: mapped.xField,
-        xType: mapped.xType,
-        yField: mapped.yField,
-        yType: mapped.yType,
-        aggregate: mapped.aggregate,
-        colorField: mapped.colorField,
-        colorType: mapped.colorType,
-        sizeField: mapped.sizeField,
-        dataText: mapped.dataText,
-      })
+    // 如果是内部更新导致的变化，忽略
+    if (isUpdatingFromExternal.current || isInternalUpdate.current) {
+      return
     }
-  }, [specText])
+    
+    // 只有当外部传入了非空的specText时才处理
+    if (specText && specText.trim() && specText !== '{}') {
+      const spec = safeParseJSON(specText)
+      const mapped = pickFormFromSpec(spec)
+      if (mapped && mapped.chartType) {
+        setChartType(mapped.chartType)
+        setFormValues(mapped)
+        setDataText(mapped.dataText || JSON.stringify(getDefaultData(mapped.chartType), null, 2))
+        setIsInitialized(true)
+        form.setFieldsValue(mapped)
+      }
+    }
+  }, [specText, form])
 
   // 基于表单字段构建规范
   const dataValues = useMemo(() => {
@@ -228,22 +360,40 @@ function ChartEditor({ specText, onChange, onSave }) {
     return Array.isArray(parsed) ? parsed : []
   }, [dataText])
 
-  const liveSpec = useMemo(() => {
-    return buildSpecFromForm({ chartType, title, description, width, height, xField, xType, yField, yType, aggregate, colorField, colorType, sizeField, dataValues })
-  }, [chartType, title, description, width, height, xField, xType, yField, yType, aggregate, colorField, colorType, sizeField, dataValues])
-
-  // 同步到外部 specText
+  // 同步到外部 specText - 现在由各个图表组件处理
   useEffect(() => {
-    onChange?.(JSON.stringify(liveSpec, null, 2))
-  }, [liveSpec])
+    // 只有在用户已经选择了图表类型后才同步
+    if (chartType && !isUpdatingFromExternal.current) {
+      isUpdatingFromExternal.current = true
+      // 这里可以添加同步逻辑，如果需要的话
+      setTimeout(() => {
+        isUpdatingFromExternal.current = false
+      }, 100)
+    }
+  }, [chartType])
 
-  const embedOptions = { actions: false, mode: 'vega-lite' }
-
-  const isBubbleLike = chartType === 'bubble' || chartType === 'fill_bubble' || chartType === 'point'
-  const isHeatmap = chartType === 'heatmap'
+  // 获取默认配置的辅助函数
+  const getDefaultConfig = (chartType) => {
+    const CHART_CONFIGS = {
+      pie: { categoryField: 'category', valueField: 'value' },
+      sunburst: { categoryField: 'category', valueField: 'value' },
+      heatmap: { xField: 'x', yField: 'y', valueField: 'value' },
+      box: { groupField: 'group', valueField: 'value' },
+      violin: { groupField: 'group', valueField: 'value' },
+      ridgeline: { groupField: 'group', valueField: 'value' },
+      treemap: { categoryField: 'category', sizeField: 'size' },
+      treemap_D3: { categoryField: 'category', sizeField: 'size' },
+      sankey: { sourceField: 'source', targetField: 'target', valueField: 'value' },
+      point: { xField: 'x', yField: 'y', sizeField: 'size' },
+      scatter: { xField: 'x', yField: 'y', sizeField: 'size' },
+      bubble: { xField: 'x', yField: 'y', sizeField: 'size' },
+      fill_bubble: { xField: 'x', yField: 'y', sizeField: 'size' },
+    }
+    return CHART_CONFIGS[chartType] || { xField: 'x', yField: 'y' }
+  }
 
   const handleSave = async () => {
-    const specStr = JSON.stringify(liveSpec, null, 2)
+    // 这里需要从图表组件获取当前的spec
     try {
       let dataUrl = ''
       const view = viewRef.current
@@ -283,9 +433,10 @@ function ChartEditor({ specText, onChange, onSave }) {
           }
         }
       }
-      onSave?.({ specText: specStr, thumbDataUrl: dataUrl })
+      // 暂时使用空字符串，后续可以从图表组件获取
+      onSave?.({ specText: '', thumbDataUrl: dataUrl })
     } catch (e) {
-      onSave?.({ specText: specStr, thumbDataUrl: '' })
+      onSave?.({ specText: '', thumbDataUrl: '' })
     }
   }
 
@@ -300,109 +451,129 @@ function ChartEditor({ specText, onChange, onSave }) {
         form={form}
         layout="vertical"
         initialValues={{
-          chartType: 'bar', xField: 'x', xType: 'ordinal', yField: 'y', yType: 'quantitative', aggregate: '', dataText
+          chartType: '',
+          dataText: '[]',
+          opacity: 1.0,
+          strokeWidth: 0,
+          cornerRadius: 0,
+          showLegend: true,
+          enableTooltip: true,
+          showGrid: true
         }}
         onValuesChange={(changed, all) => {
-          if ('chartType' in changed) {
+          // 设置内部更新标志
+          isInternalUpdate.current = true
+          
+          // 处理图表类型变化
+          if ('chartType' in changed && changed.chartType) {
             const next = changed.chartType
             setChartType(next)
-            // 如果当前数据字段仍为默认 x/y，自动切换默认数据
             setDataText(JSON.stringify(getDefaultData(next), null, 2))
-            if (next === 'point' || next === 'bubble' || next === 'fill_bubble') {
-              setXType('quantitative'); setYType('quantitative');
-              form.setFieldsValue({ xType: 'quantitative', yType: 'quantitative' })
-              setSizeField('size');
-              form.setFieldsValue({ sizeField: 'size' })
-            } else if (next === 'heatmap') {
-              setXType('ordinal'); setYType('ordinal');
-              form.setFieldsValue({ xType: 'ordinal', yType: 'ordinal' })
-              setColorType('quantitative');
-              form.setFieldsValue({ colorType: 'quantitative' })
-            } else {
-              setXType('ordinal'); setYType('quantitative');
-              form.setFieldsValue({ xType: 'ordinal', yType: 'quantitative' })
-              setSizeField('');
-              form.setFieldsValue({ sizeField: '' })
-              setColorType('nominal');
-              form.setFieldsValue({ colorType: 'nominal' })
+            setIsInitialized(true)
+            
+            // 根据图表类型设置默认字段配置
+            const defaultConfig = getDefaultConfig(next)
+            const updatedValues = { 
+              ...all, 
+              ...defaultConfig,
+              dataText: JSON.stringify(getDefaultData(next), null, 2)
             }
+            
+            // 设置表单值和状态
+            setTimeout(() => {
+              form.setFieldsValue(updatedValues)
+              setFormValues(updatedValues)
+              isInternalUpdate.current = false
+            }, 0)
+          } else {
+            // 其他字段变化
+            setFormValues(all)
+            
+            // 处理数据文本变化
+            if ('dataText' in changed) {
+              setDataText(all.dataText)
+            }
+            
+            setTimeout(() => {
+              isInternalUpdate.current = false
+            }, 0)
           }
-          if ('title' in changed) setTitle(all.title)
-          if ('description' in changed) setDescription(all.description)
-          if ('width' in changed) setWidth(all.width)
-          if ('height' in changed) setHeight(all.height)
-          if ('xField' in changed) setXField(all.xField)
-          if ('xType' in changed) setXType(all.xType)
-          if ('yField' in changed) setYField(all.yField)
-          if ('yType' in changed) setYType(all.yType)
-          if ('aggregate' in changed) setAggregate(all.aggregate)
-          if ('colorField' in changed) setColorField(all.colorField)
-          if ('colorType' in changed) setColorType(all.colorType)
-          if ('sizeField' in changed) setSizeField(all.sizeField)
-          if ('dataText' in changed) setDataText(all.dataText)
         }}
       >
+        {/* 基础配置 */}
         <Space size={12} wrap>
           <Form.Item label="图表类型" name="chartType" style={{ minWidth: 160 }}>
-            <Select options={CHART_TYPES} />
+            <Select 
+              id="chartType"
+              options={CHART_TYPES} 
+              placeholder="请选择图表类型"
+              allowClear
+            />
           </Form.Item>
-          <Form.Item label="标题" name="title" style={{ minWidth: 240 }}>
-            <Input placeholder="可选" />
-          </Form.Item>
-          <Form.Item label="描述" name="description" style={{ minWidth: 300 }}>
-            <Input placeholder="可选" />
-          </Form.Item>
-          <Form.Item label="宽度" name="width">
-            <InputNumber min={0} style={{ width: 120 }} placeholder="auto" />
-          </Form.Item>
-          <Form.Item label="高度" name="height">
-            <InputNumber min={0} style={{ width: 120 }} placeholder="auto" />
-          </Form.Item>
-        </Space>
-
-        <Divider style={{ margin: '8px 0' }} />
-
-        <Space size={12} wrap>
-          <Form.Item label="X 字段" name="xField">
-            <Input style={{ width: 160 }} />
-          </Form.Item>
-          <Form.Item label="X 类型" name="xType">
-            <Select options={FIELD_TYPES} style={{ width: 180 }} />
-          </Form.Item>
-          <Form.Item label="Y 字段" name="yField">
-            <Input style={{ width: 160 }} />
-          </Form.Item>
-          <Form.Item label="Y 类型" name="yType">
-            <Select options={FIELD_TYPES} style={{ width: 180 }} />
-          </Form.Item>
-          <Form.Item label="聚合" name="aggregate">
-            <Select options={AGG_FUNCS} style={{ width: 160 }} />
-          </Form.Item>
-          <Form.Item label="颜色字段" name="colorField">
-            <Input style={{ width: 160 }} placeholder="可选" />
-          </Form.Item>
-          {isHeatmap && (
-            <Form.Item label="颜色类型" name="colorType">
-              <Select options={COLOR_TYPES} style={{ width: 180 }} />
-            </Form.Item>
-          )}
-          {isBubbleLike && (
-            <Form.Item label="大小字段" name="sizeField">
-              <Input style={{ width: 160 }} placeholder="例如：size" />
-            </Form.Item>
+          
+          {chartType && (
+            <>
+              <Form.Item label="标题" name="title" style={{ minWidth: 240 }}>
+                <Input id="title" placeholder="可选" />
+              </Form.Item>
+              <Form.Item label="描述" name="description" style={{ minWidth: 300 }}>
+                <Input id="description" placeholder="可选" />
+              </Form.Item>
+              <Form.Item label="宽度" name="width">
+                <InputNumber id="width" min={0} style={{ width: 120 }} placeholder="auto" />
+              </Form.Item>
+              <Form.Item label="高度" name="height">
+                <InputNumber id="height" min={0} style={{ width: 120 }} placeholder="auto" />
+              </Form.Item>
+            </>
           )}
         </Space>
 
-        <Form.Item label="数据（JSON 数组）" name="dataText">
-          <Input.TextArea autoSize={{ minRows: 6, maxRows: 12 }} placeholder='例如:[{"x":"A","y":10}]' />
-        </Form.Item>
+        {/* 只有选择了图表类型才显示动态配置 */}
+        {chartType && (
+          <>
+            <ChartConfig 
+              chartType={chartType} 
+              form={form}
+              onFieldChange={(field, value) => {
+                setFormValues(prev => ({ ...prev, [field]: value }))
+              }}
+            />
+
+            {/* 样式配置 */}
+            <StyleConfig chartType={chartType} form={form} />
+
+            <Form.Item label="数据（JSON 数组）" name="dataText">
+              <Input.TextArea 
+                id="dataText"
+                autoSize={{ minRows: 6, maxRows: 12 }} 
+                placeholder='例如:[{"x":"A","y":10}]' 
+              />
+            </Form.Item>
+          </>
+        )}
       </Form>
 
       <div ref={embedContainerRef} style={{ flex: 1, minHeight: 200, border: `1px dashed ${token.colorBorder}`, borderRadius: 8, display: 'flex', alignItems: 'stretch', justifyContent: 'stretch', padding: 8, overflow: 'hidden' }}>
-        <VegaEmbed spec={liveSpec} options={embedOptions} style={{ width: '100%', height: '100%' }} onNewView={(view) => { viewRef.current = view }} />
+        {chartType ? (
+          <ChartFactory
+            chartType={chartType}
+            title={formValues.title}
+            description={formValues.description}
+            width={formValues.width}
+            height={formValues.height}
+            formValues={formValues}
+            dataValues={dataValues}
+            onEmbed={(result) => { viewRef.current = result.view }}
+          />
+        ) : (
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: token.colorTextSecondary }}>
+            请选择图表类型以开始配置
+          </div>
+        )}
       </div>
     </div>
   )
 }
 
-export default ChartEditor 
+export default ChartEditor       
