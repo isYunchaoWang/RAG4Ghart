@@ -80,32 +80,38 @@ def analyze_image(image_path, output_path):
             "role": "user",
             "content": [
                 {"type": "text", "text": """
-                    You are a top-tier data analyst. Your task is to analyze the provided chart data and generate a professional summary. Please follow the following thought process (Chain of Thought) for your analysis, and then provide the final summary:
-
-                    Step 1: Key Metrics Identification
-
-                    Calculate and list the maximum, minimum values.
-
-                    Calculate the total value and average value.
-
-                    Step 2: Overall Trend Analysis
-
-                    Compare the data to determine whether the overall trend is increasing, decreasing, or stable.
-
-                    Describe the trend's shape (e.g., linear growth, or growth after fluctuations?).
-
-                    Step 3: Significant Event Identification
-
-                    Identify the highest growth and the growth rate.
-
-                    Check if there are any turning points.
-
-                    Step 4: Synthesis & Summary
-
-                    Based on the insights from the previous steps, synthesize these findings into a smooth, concise final summary.
-
-                    Your output:
-                    【Final Summary】 (Here, only provide the final summary based on your analysis in Step 4).
+                You are a top-tier data analyst. Your task is to analyze the provided chart data and generate a professional summary. Please follow the following thought process (Chain of Thought) for your analysis, and then provide the final summary:
+                
+                Step 1: Key Metrics Identification
+                Calculate and list the maximum, minimum values if they exist.
+                Calculate the total value and average value if they exist.
+                Step 2: Pattern Analysis
+                If the chart shows data over time or has a sequential order:
+                
+                Identify whether the overall trend is increasing, decreasing, or stable
+                Describe the trend's shape (e.g., linear, exponential, fluctuating)
+                
+                If the chart shows categorical comparisons, distributions, or relationships:
+                
+                Identify the dominant categories or segments
+                Describe the distribution pattern (e.g., evenly distributed, concentrated, polarized)
+                
+                Step 3: Significant Event/Feature Identification
+                For time-series data:
+                
+                Identify the highest growth period and calculate the growth rate
+                Note any turning points or anomalies
+                
+                For other chart types:
+                
+                Identify significant outliers or standout data points
+                Note notable variations or patterns
+                
+                Step 4: Synthesis & Summary
+                Synthesize the key findings into a concise summary that includes the most important numerical data and factual observations.
+                Your output:
+                Only provide the Final Summary below. Do not show your analysis steps.
+                【Final Summary】(Provide a factual summary in exactly 150 words or fewer. STRICTLY enforce this word limit - count every word and ensure you do not exceed 150 words. Include key numerical metrics, specific data points, and primary patterns observed from your analysis in Step 4).
                 """},
                 {
                     "type": "image_url",
@@ -129,8 +135,8 @@ def process_directory(root_dir):
         files.sort()
         for file in files:
             if file.endswith(".png"):
-            # and 后面的条件控制生成顺序
-            # if file.endswith(".png") and int(os.path.splitext(os.path.basename(file))[0])>9000:
+                # and 后面的条件控制生成顺序
+                # if file.endswith(".png") and int(os.path.splitext(os.path.basename(file))[0])>9000:
                 txt_file_path = os.path.join(txt_folder, os.path.splitext(file)[0] + ".txt")
                 if os.path.exists(txt_file_path):
                     print(f"Skipping {file} as the corresponding .txt file already exists.")
@@ -144,7 +150,7 @@ def process_directory(root_dir):
 
 
 # Specify the root directory of your dataset
-root_directory = r"/home/public/dataset-MegaCQA/bubble"
+root_directory = r"D:\PycharmProjects\RAG4Ghart\Dataset-ZXQ\test20\chord"
 
 # Start processing the directory
 process_directory(root_directory)

@@ -38,11 +38,12 @@ def recommend_and_show_word_to_charttype(description, top_k=3):
 
 def get_charts_name(file_path):
     # 标准化文件路径
+    file_path = file_path.replace('\\', '/')
     file_path = os.path.normpath(file_path)
 
     path_parts = file_path.split(os.sep)
     if len(path_parts) > 2:
-        return path_parts[3]
+        return path_parts[-3]
     return None
 
 
@@ -52,6 +53,10 @@ def process_directory(directory_path):
 
     # 遍历目录中的所有文件
     for root, dirs, files in os.walk(directory_path):
+        # 对 dirs 和 files 列表进行排序，确保一致性
+        dirs.sort()  # 排序子目录
+        files.sort()  # 排序文件
+
         total_mrr = 0
         charts_count = 0
         one_chart_match = 0
@@ -109,7 +114,7 @@ def process_directory(directory_path):
 
 
 # 示例调用
-directory_path = "../Dataset-ZXQ/test20/"
+directory_path = "/home/fuzihang/work/RAG4Chart/Dataset-ZXQ/test20"
 results = process_directory(directory_path)
 
 # 输出结果
