@@ -42,21 +42,12 @@ const CHART_CONFIGS = {
     description: '折线图用于显示数据随时间或有序类别的变化趋势'
   },
   
-  point: {
-    fields: ['x', 'y', 'color', 'size'],
-    defaultTypes: { x: 'quantitative', y: 'quantitative', color: 'nominal', size: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y', color: '', size: 'size' },
-    showAggregate: false,
-    showSize: true,
-    description: '点图用于显示两个数值变量之间的关系'
-  },
-  
   scatter: {
-    fields: ['x', 'y', 'color', 'size'],
-    defaultTypes: { x: 'quantitative', y: 'quantitative', color: 'nominal', size: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y', color: '', size: 'size' },
+    fields: ['x', 'y', 'color'],
+    defaultTypes: { x: 'quantitative', y: 'quantitative', color: 'nominal' },
+    defaultFields: { x: 'x', y: 'y', color: '' },
     showAggregate: false,
-    showSize: true,
+    showSize: false,
     description: '散点图用于显示两个连续变量之间的相关关系'
   },
   
@@ -67,15 +58,6 @@ const CHART_CONFIGS = {
     showAggregate: false,
     showSize: true,
     description: '气泡图通过气泡大小展示第三个维度的数据'
-  },
-  
-  fill_bubble: {
-    fields: ['x', 'y', 'color', 'size'],
-    defaultTypes: { x: 'quantitative', y: 'quantitative', color: 'nominal', size: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y', color: '', size: 'size' },
-    showAggregate: false,
-    showSize: true,
-    description: '填充气泡图是带有填充颜色的气泡图'
   },
   
   pie: {
@@ -96,69 +78,6 @@ const CHART_CONFIGS = {
     description: '热力图用颜色深浅表示数值大小的矩阵图'
   },
   
-  box: {
-    fields: ['group', 'value'],
-    defaultTypes: { group: 'nominal', value: 'quantitative' },
-    defaultFields: { group: 'group', value: 'value' },
-    showAggregate: false,
-    showSize: false,
-    description: '箱线图显示数据的分布情况和异常值'
-  },
-  
-  violin: {
-    fields: ['group', 'value'],
-    defaultTypes: { group: 'nominal', value: 'quantitative' },
-    defaultFields: { group: 'group', value: 'value' },
-    showAggregate: false,
-    showSize: false,
-    description: '小提琴图结合了箱线图和密度图的特点'
-  },
-  
-  stacked_bar: {
-    fields: ['x', 'y', 'color'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
-    defaultFields: { x: 'x', y: 'y', color: 'category' },
-    showAggregate: false,
-    showSize: false,
-    description: '堆叠柱状图显示分类数据的组成结构'
-  },
-  
-  stacked_area: {
-    fields: ['x', 'y', 'color'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
-    defaultFields: { x: 'x', y: 'y', color: 'category' },
-    showAggregate: false,
-    showSize: false,
-    description: '堆叠面积图展示数据随时间的变化和组成'
-  },
-  
-  stream: {
-    fields: ['x', 'y', 'color'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
-    defaultFields: { x: 'x', y: 'y', color: 'category' },
-    showAggregate: false,
-    showSize: false,
-    description: '流图是围绕中轴线对称的堆叠面积图'
-  },
-  
-  ridgeline: {
-    fields: ['group', 'value'],
-    defaultTypes: { group: 'nominal', value: 'quantitative' },
-    defaultFields: { group: 'group', value: 'value' },
-    showAggregate: false,
-    showSize: false,
-    description: '脊线图显示多个分组的密度分布'
-  },
-  
-  radar: {
-    fields: ['dimension', 'value', 'group'],
-    defaultTypes: { dimension: 'nominal', value: 'quantitative', group: 'nominal' },
-    defaultFields: { dimension: 'x', value: 'y', group: '' },
-    showAggregate: false,
-    showSize: false,
-    description: '雷达图在极坐标系中显示多维数据'
-  },
-  
   treemap: {
     fields: ['category', 'size', 'color'],
     defaultTypes: { category: 'nominal', size: 'quantitative', color: 'nominal' },
@@ -168,33 +87,6 @@ const CHART_CONFIGS = {
     description: '树状图用嵌套矩形表示层次数据'
   },
   
-  treemap_D3: {
-    fields: ['category', 'size', 'color'],
-    defaultTypes: { category: 'nominal', size: 'quantitative', color: 'nominal' },
-    defaultFields: { category: 'category', size: 'size', color: 'category' },
-    showAggregate: false,
-    showSize: true,
-    description: 'D3样式的树状图'
-  },
-  
-  sunburst: {
-    fields: ['category', 'value', 'parent'],
-    defaultTypes: { category: 'nominal', value: 'quantitative', parent: 'nominal' },
-    defaultFields: { category: 'category', value: 'value', parent: '' },
-    showAggregate: false,
-    showSize: false,
-    description: '旭日图用同心圆环表示层次数据'
-  },
-  
-  sankey: {
-    fields: ['source', 'target', 'value'],
-    defaultTypes: { source: 'nominal', target: 'nominal', value: 'quantitative' },
-    defaultFields: { source: 'source', target: 'target', value: 'value' },
-    showAggregate: false,
-    showSize: false,
-    description: '桑基图显示流量在不同节点间的分布'
-  },
-  
   // 暂不支持的复杂图表类型，使用默认配置
   chord: {
     fields: ['x', 'y'],
@@ -202,7 +94,7 @@ const CHART_CONFIGS = {
     defaultFields: { x: 'x', y: 'y' },
     showAggregate: false,
     showSize: false,
-    description: '和弦图（暂未完全支持，显示为柱状图）'
+    description: '弦乐图（暂未完全支持，显示为柱状图）'
   },
   
   funnel: {
@@ -221,15 +113,6 @@ const CHART_CONFIGS = {
     showAggregate: false,
     showSize: false,
     description: '节点链接图（暂未完全支持，显示为柱状图）'
-  },
-  
-  parallel: {
-    fields: ['x', 'y'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y' },
-    showAggregate: false,
-    showSize: false,
-    description: '平行坐标图（暂未完全支持，显示为柱状图）'
   }
 }
 

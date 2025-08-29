@@ -20,32 +20,17 @@ export function buildGenericChartSpec({ chartType, title, description, width, he
   const getMarkType = (type) => {
     switch (type) {
       case 'bar':
-      case 'stacked_bar':
         return 'bar'
       case 'line':
-      case 'radar':
         return 'line'
-      case 'point':
       case 'scatter':
       case 'bubble':
-      case 'fill_bubble':
         return 'circle'
-      case 'box':
-        return 'boxplot'
       case 'heatmap':
         return 'rect'
       case 'pie':
-      case 'sunburst':
         return 'arc'
-      case 'stacked_area':
-      case 'stream':
-      case 'ridgeline':
-      case 'violin':
-        return 'area'
       case 'treemap':
-      case 'treemap_D3':
-        return 'rect'
-      case 'sankey':
         return 'rect'
       default:
         return 'bar'
@@ -56,7 +41,6 @@ export function buildGenericChartSpec({ chartType, title, description, width, he
   const setupEncoding = () => {
     switch (chartType) {
       case 'pie':
-      case 'sunburst':
         if (getField('value')) spec.encoding.theta = { field: getField('value'), type: getType('value') || 'quantitative' }
         if (getField('category')) spec.encoding.color = { field: getField('category'), type: getType('category') || 'nominal' }
         break
@@ -68,38 +52,8 @@ export function buildGenericChartSpec({ chartType, title, description, width, he
         break
       
       case 'treemap':
-      case 'treemap_D3':
         if (getField('size')) spec.encoding.size = { field: getField('size'), type: getType('size') || 'quantitative' }
         if (getField('color')) spec.encoding.color = { field: getField('color'), type: getType('color') || 'nominal' }
-        break
-      
-      case 'sankey':
-        if (getField('source')) spec.encoding.x = { field: getField('source'), type: getType('source') || 'nominal' }
-        if (getField('target')) spec.encoding.y = { field: getField('target'), type: getType('target') || 'nominal' }
-        if (getField('value')) spec.encoding.size = { field: getField('value'), type: getType('value') || 'quantitative' }
-        break
-      
-      case 'box':
-      case 'violin':
-      case 'ridgeline':
-        // 检查是否有group字段，如果没有则使用x字段作为分组
-        const groupField = getField('group') || getField('x')
-        const valueField = getField('value') || getField('y')
-        
-        if (groupField) {
-          spec.encoding.x = { 
-            field: groupField, 
-            type: getType('group') || getType('x') || 'nominal',
-            title: '分组'
-          }
-        }
-        if (valueField) {
-          spec.encoding.y = { 
-            field: valueField, 
-            type: getType('value') || getType('y') || 'quantitative',
-            title: '数值'
-          }
-        }
         break
       
       default:

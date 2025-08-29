@@ -86,11 +86,11 @@ const STROKE_DASH_OPTIONS = [
 ]
 
 function StyleConfig({ chartType, form }) {
-  const isBarChart = ['bar', 'stacked_bar'].includes(chartType)
-  const isLineChart = ['line', 'radar'].includes(chartType)
-  const isPointChart = ['point', 'scatter', 'bubble', 'fill_bubble'].includes(chartType)
-  const isAreaChart = ['stacked_area', 'stream', 'ridgeline'].includes(chartType)
-  const isPieChart = ['pie', 'sunburst'].includes(chartType)
+  const isBarChart = ['bar'].includes(chartType)
+  const isLineChart = ['line'].includes(chartType)
+  const isScatterChart = ['scatter'].includes(chartType)
+  const isBubbleChart = ['bubble'].includes(chartType)
+  const isPieChart = ['pie'].includes(chartType)
 
   return (
     <div>
@@ -173,8 +173,8 @@ function StyleConfig({ chartType, form }) {
              </Form.Item>
            )}
 
-           {/* 点图大小 */}
-           {isPointChart && (
+           {/* 气泡图大小（仅气泡图支持） */}
+           {isBubbleChart && (
              <Form.Item label="点大小" name="pointSize" style={{ marginBottom: 0 }}>
                <InputNumber 
                  id="pointSize"

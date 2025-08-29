@@ -14,17 +14,21 @@ function DataTableEditor({ value, onChange, chartType }) {
   const getDefaultData = (type) => {
     switch (type) {
       case 'bar':
-      case 'line':
-      case 'stacked_bar':
         return [
-          { category: '类别A', value: 10 },
-          { category: '类别B', value: 20 },
-          { category: '类别C', value: 15 },
-          { category: '类别D', value: 25 }
+          { x: 'A', y: 10 },
+          { x: 'B', y: 20 },
+          { x: 'C', y: 15 },
+          { x: 'D', y: 25 }
+        ]
+      case 'line':
+        return [
+          { x: '2023-01', y: 10 },
+          { x: '2023-02', y: 20 },
+          { x: '2023-03', y: 15 },
+          { x: '2023-04', y: 25 }
         ]
       case 'scatter':
       case 'bubble':
-      case 'point':
         return [
           { x: 10, y: 15, size: 20, category: 'A类' },
           { x: 20, y: 25, size: 35, category: 'A类' },
@@ -32,7 +36,6 @@ function DataTableEditor({ value, onChange, chartType }) {
           { x: 40, y: 45, size: 65, category: 'B类' }
         ]
       case 'pie':
-      case 'sunburst':
         return [
           { category: '分类A', value: 30 },
           { category: '分类B', value: 25 },
@@ -49,15 +52,10 @@ function DataTableEditor({ value, onChange, chartType }) {
           { x: 'C', y: 'X', value: 30 },
           { x: 'C', y: 'Y', value: 35 }
         ]
-      case 'area':
-      case 'stacked_area':
+      case 'treemap':
         return [
-          { time: '2023-01', value: 10, series: '系列A' },
-          { time: '2023-02', value: 20, series: '系列A' },
-          { time: '2023-03', value: 15, series: '系列A' },
-          { time: '2023-01', value: 5, series: '系列B' },
-          { time: '2023-02', value: 15, series: '系列B' },
-          { time: '2023-03', value: 25, series: '系列B' }
+          { category: 'A', size: 100 }, { category: 'B', size: 200 }, 
+          { category: 'C', size: 150 }, { category: 'D', size: 80 }
         ]
       default:
         return [
@@ -73,21 +71,18 @@ function DataTableEditor({ value, onChange, chartType }) {
   const getDataFormatDescription = (type) => {
     switch (type) {
       case 'bar':
+        return '格式：数组对象，每个对象包含 x（类别）和 y（数值）字段'
       case 'line':
-      case 'stacked_bar':
-        return '格式：数组对象，每个对象包含 category（类别）和 value（数值）字段'
+        return '格式：数组对象，每个对象包含 x（时间/类别）和 y（数值）字段'
       case 'scatter':
       case 'bubble':
-      case 'point':
         return '格式：数组对象，每个对象包含 x（X轴）、y（Y轴）、size（大小，可选）、category（分类，可选）字段'
       case 'pie':
-      case 'sunburst':
         return '格式：数组对象，每个对象包含 category（分类）和 value（数值）字段'
       case 'heatmap':
         return '格式：数组对象，每个对象包含 x（X轴）、y（Y轴）和 value（数值）字段'
-      case 'area':
-      case 'stacked_area':
-        return '格式：数组对象，每个对象包含 time（时间）、value（数值）和 series（系列）字段'
+      case 'treemap':
+        return '格式：数组对象，每个对象包含 category（分类）和 size（大小）字段'
       default:
         return '格式：数组对象，每个对象包含 x（X轴）和 y（Y轴）字段'
     }

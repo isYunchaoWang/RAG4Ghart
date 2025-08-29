@@ -8,9 +8,10 @@ import { buildBarChartSpec } from './charts/BarChart'
 import { buildLineChartSpec } from './charts/LineChart'
 import { buildPieChartSpec } from './charts/PieChart'
 import { buildScatterChartSpec } from './charts/ScatterChart'
+import { buildBubbleChartSpec } from './charts/BubbleChart'
 import { buildHeatmapChartSpec } from './charts/HeatmapChart'
 import { buildAreaChartSpec } from './charts/AreaChart'
-import { buildBoxChartSpec } from './charts/BoxChart'
+
 import { buildGenericChartSpec } from './charts/GenericChart'
 
 const { Title } = Typography
@@ -26,29 +27,21 @@ function safeParseJSON(text) {
 
 const CHART_TYPES = [
   { label: '柱状图 bar', value: 'bar' },
-  { label: '箱线图 box', value: 'box' },
   { label: '气泡图 bubble', value: 'bubble' },
-  { label: '填充气泡图 fill_bubble', value: 'fill_bubble' },
-  { label: '和弦图 chord', value: 'chord' },
+  { label: '弦乐图 chord', value: 'chord' },
   { label: '漏斗图 funnel', value: 'funnel' },
-  { label: '热力图 heatmap', value: 'heatmap' },
   { label: '折线图 line', value: 'line' },
   { label: '节点链接图 node_link', value: 'node_link' },
-  { label: '平行坐标 parallel', value: 'parallel' },
   { label: '饼图 pie', value: 'pie' },
   { label: '散点图 scatter', value: 'scatter' },
-  { label: '点图 point', value: 'point' },
-  { label: '堆叠柱状图 stacked_bar', value: 'stacked_bar' },
-  { label: '堆叠面积图 stacked_area', value: 'stacked_area' },
-  { label: '流图 stream', value: 'stream' },
-  { label: '脊线图 ridgeline', value: 'ridgeline' },
-  { label: '小提琴图 violin', value: 'violin' },
-  { label: '雷达图 radar', value: 'radar' },
   { label: '树状图 treemap', value: 'treemap' },
-  { label: '树状图D3 treemap_D3', value: 'treemap_D3' },
-  { label: '旭日图 sunburst', value: 'sunburst' },
-  { label: '桑基图 sankey', value: 'sankey' },
 ]
+
+// 获取图表类型的中文标签
+const getChartTypeLabel = (chartType) => {
+  const chartTypeObj = CHART_TYPES.find(item => item.value === chartType)
+  return chartTypeObj ? chartTypeObj.label.split(' ')[0] : chartType
+}
 
 const FIELD_TYPES = [
   { label: '定量 quantitative', value: 'quantitative' },
@@ -78,43 +71,20 @@ function mapChartTypeToVegaMark(chartType) {
       return 'bar'
     case 'line':
       return 'line'
-    case 'point':
+    case 'scatter':
       return 'point'
     case 'bubble':
-    case 'fill_bubble':
       return 'circle'
-    case 'box':
-      return 'boxplot'
     case 'heatmap':
       return 'rect'
     case 'pie':
       return 'arc'
-    case 'scatter':
-      return 'point'
-    case 'stacked_bar':
-      return 'bar'
-    case 'stacked_area':
-      return 'area'
-    case 'stream':
-      return 'area'
-    case 'ridgeline':
-      return 'area'
-    case 'violin':
-      return 'area'
-    case 'radar':
-      return 'line'
     case 'treemap':
-    case 'treemap_D3':
-      return 'rect'
-    case 'sunburst':
-      return 'arc'
-    case 'sankey':
       return 'rect'
     // Unsupported types fallback to bar so that preview still works
     case 'chord':
     case 'funnel':
     case 'node_link':
-    case 'parallel':
     default:
       return 'bar'
   }
@@ -126,33 +96,21 @@ function mapVegaMarkToChartType(mark, encoding) {
   
   switch (markType) {
     case 'bar':
-      // 柱状图：检查是否有stack属性来判断是否为堆叠柱状图
-      if (encoding?.y?.stack) return 'stacked_bar'
       return 'bar'
     case 'line':
-      // 检查是否是雷达图 (需要更复杂的判断逻辑)
       return 'line'
     case 'point':
-      // 检查是否有size字段来区分point和scatter
-      if (encoding?.size) return 'scatter'
-      return 'point'
+      // 散点图 - 没有size字段映射
+      return 'scatter'
     case 'circle':
-      // 气泡图
+      // 气泡图 - 有size字段映射
       return 'bubble'
-    case 'boxplot':
-      return 'box'
     case 'rect':
       // 检查是否是热力图 (有x, y, color编码)
       if (encoding?.x && encoding?.y && encoding?.color) return 'heatmap'
       return 'treemap'
     case 'arc':
-      // 检查是否是旭日图还是饼图
-      if (encoding?.theta) return 'pie'
-      return 'sunburst'
-    case 'area':
-      // 根据编码判断具体的面积图类型
-      if (encoding?.color) return 'stacked_area'
-      return 'ridgeline'
+      return 'pie'
     default:
       return 'bar'
   }
@@ -232,17 +190,27 @@ function pickFormFromSpec(spec) {
 function getDefaultData(chartType) {
   switch (chartType) {
     case 'bar':
-    case 'line':
-    case 'stacked_bar':
       return [
-        { category: '类别A', value: 10 },
-        { category: '类别B', value: 20 },
-        { category: '类别C', value: 15 },
-        { category: '类别D', value: 25 }
+        { x: 'A', y: 10 },
+        { x: 'B', y: 20 },
+        { x: 'C', y: 15 },
+        { x: 'D', y: 25 }
+      ]
+    case 'line':
+      return [
+        { x: '2023-01', y: 10 },
+        { x: '2023-02', y: 20 },
+        { x: '2023-03', y: 15 },
+        { x: '2023-04', y: 25 }
       ]
     case 'scatter':
+      return [
+        { x: 10, y: 15, category: 'A类' },
+        { x: 20, y: 25, category: 'A类' },
+        { x: 30, y: 35, category: 'B类' },
+        { x: 40, y: 45, category: 'B类' }
+      ]
     case 'bubble':
-    case 'point':
       return [
         { x: 10, y: 15, size: 20, category: 'A类' },
         { x: 20, y: 25, size: 35, category: 'A类' },
@@ -250,7 +218,6 @@ function getDefaultData(chartType) {
         { x: 40, y: 45, size: 65, category: 'B类' }
       ]
     case 'pie':
-    case 'sunburst':
       return [
         { category: '分类A', value: 30 },
         { category: '分类B', value: 25 },
@@ -267,50 +234,14 @@ function getDefaultData(chartType) {
         { x: 'C', y: 'X', value: 30 },
         { x: 'C', y: 'Y', value: 35 }
       ]
-    case 'area':
-    case 'stacked_area':
-    case 'stream':
-      return [
-        { time: '2023-01', value: 10, series: '系列A' },
-        { time: '2023-02', value: 20, series: '系列A' },
-        { time: '2023-03', value: 15, series: '系列A' },
-        { time: '2023-01', value: 5, series: '系列B' },
-        { time: '2023-02', value: 15, series: '系列B' },
-        { time: '2023-03', value: 25, series: '系列B' }
-      ]
-    case 'radar':
-      return [
-        { x: 'A', y: 28 }, { x: 'B', y: 55 }, { x: 'C', y: 43 }, { x: 'D', y: 91 }
-      ]
-    case 'ridgeline':
-    case 'violin':
-      return [
-        { group: 'A', value: 10 }, { group: 'A', value: 15 }, { group: 'A', value: 20 },
-        { group: 'B', value: 25 }, { group: 'B', value: 30 }, { group: 'B', value: 35 },
-        { group: 'C', value: 40 }, { group: 'C', value: 45 }, { group: 'C', value: 50 }
-      ]
     case 'treemap':
-    case 'treemap_D3':
       return [
         { category: 'A', size: 100 }, { category: 'B', size: 200 }, 
         { category: 'C', size: 150 }, { category: 'D', size: 80 }
       ]
-    case 'sankey':
-      return [
-        { source: 'A', target: 'X', value: 10 },
-        { source: 'A', target: 'Y', value: 15 },
-        { source: 'B', target: 'X', value: 20 },
-        { source: 'B', target: 'Z', value: 25 }
-      ]
-    case 'box':
-      return [
-        { group: 'A', value: 10 }, { group: 'A', value: 15 }, { group: 'A', value: 20 }, { group: 'A', value: 25 },
-        { group: 'B', value: 30 }, { group: 'B', value: 35 }, { group: 'B', value: 40 }, { group: 'B', value: 45 }
-      ]
     case 'chord':
     case 'funnel':
     case 'node_link':
-    case 'parallel':
     default:
       return [
         { x: 1, y: 10 },
@@ -366,7 +297,23 @@ function ChartEditor({ specText, onChange, onSave }) {
         
         setIsInitialized(true)
         form.setFieldsValue(mapped)
+        
+        // 更新全局变量，用于检测重复选择
+        window.lastSelectedChartType = mapped.chartType
+        console.log('从历史记录加载，更新lastSelectedChartType:', mapped.chartType)
       }
+    } else if (!specText || specText.trim() === '' || specText === '{}') {
+      // 如果外部清空了specText，重置状态
+      setChartType('')
+      setFormValues({})
+      setDataText('[]')
+      setTableData([])
+      setIsInitialized(false)
+      form.resetFields()
+      
+      // 清空全局变量
+      window.lastSelectedChartType = ''
+      console.log('清空specText，清空lastSelectedChartType')
     }
   }, [specText, form])
 
@@ -395,21 +342,48 @@ function ChartEditor({ specText, onChange, onSave }) {
   // 获取默认配置的辅助函数
   const getDefaultConfig = (chartType) => {
     const CHART_CONFIGS = {
-      pie: { categoryField: 'category', valueField: 'value' },
-      sunburst: { categoryField: 'category', valueField: 'value' },
-      heatmap: { xField: 'x', yField: 'y', valueField: 'value' },
-      box: { groupField: 'group', valueField: 'value' },
-      violin: { groupField: 'group', valueField: 'value' },
-      ridgeline: { groupField: 'group', valueField: 'value' },
-      treemap: { categoryField: 'category', sizeField: 'size' },
-      treemap_D3: { categoryField: 'category', sizeField: 'size' },
-      sankey: { sourceField: 'source', targetField: 'target', valueField: 'value' },
-      point: { xField: 'x', yField: 'y', sizeField: 'size' },
-      scatter: { xField: 'x', yField: 'y', sizeField: 'size' },
-      bubble: { xField: 'x', yField: 'y', sizeField: 'size' },
-      fill_bubble: { xField: 'x', yField: 'y', sizeField: 'size' },
+      bar: { 
+        xField: 'x', yField: 'y', colorField: '',
+        xType: 'ordinal', yType: 'quantitative', colorType: 'nominal'
+      },
+      line: { 
+        xField: 'x', yField: 'y', colorField: '',
+        xType: 'ordinal', yType: 'quantitative', colorType: 'nominal'
+      },
+      scatter: { 
+        xField: 'x', yField: 'y', colorField: '',
+        xType: 'quantitative', yType: 'quantitative', colorType: 'nominal'
+      },
+      bubble: { 
+        xField: 'x', yField: 'y', colorField: '', sizeField: 'size',
+        xType: 'quantitative', yType: 'quantitative', colorType: 'nominal', sizeType: 'quantitative'
+      },
+      pie: { 
+        categoryField: 'category', valueField: 'value',
+        categoryType: 'nominal', valueType: 'quantitative'
+      },
+      heatmap: { 
+        xField: 'x', yField: 'y', valueField: 'value',
+        xType: 'ordinal', yType: 'ordinal', valueType: 'quantitative'
+      },
+      treemap: { 
+        categoryField: 'category', sizeField: 'size', colorField: 'category',
+        categoryType: 'nominal', sizeType: 'quantitative', colorType: 'nominal'
+      },
+      chord: { 
+        xField: 'x', yField: 'y',
+        xType: 'ordinal', yType: 'quantitative'
+      },
+      funnel: { 
+        xField: 'x', yField: 'y',
+        xType: 'ordinal', yType: 'quantitative'
+      },
+      node_link: { 
+        xField: 'x', yField: 'y',
+        xType: 'ordinal', yType: 'quantitative'
+      }
     }
-    return CHART_CONFIGS[chartType] || { xField: 'x', yField: 'y' }
+    return CHART_CONFIGS[chartType] || CHART_CONFIGS.bar
   }
 
   // 根据表单值生成Vega-Lite规范的函数
@@ -435,39 +409,77 @@ function ChartEditor({ specText, onChange, onSave }) {
     switch (chartType) {
       case 'bar':
         return buildBarChartSpec(specParams)
-      case 'stacked_bar':
-        // 堆叠柱状图需要特殊的处理
-        const stackedParams = {
-          ...specParams,
-          formValues: {
-            ...specParams.formValues,
-            isStacked: true
-          }
-        }
-        return buildBarChartSpec(stackedParams)
       case 'line':
-      case 'radar':
         return buildLineChartSpec(specParams)
       case 'pie':
-      case 'sunburst':
         return buildPieChartSpec(specParams)
-      case 'point':
       case 'scatter':
-      case 'bubble':
-      case 'fill_bubble':
         return buildScatterChartSpec(specParams)
+      case 'bubble':
+        return buildBubbleChartSpec(specParams)
       case 'heatmap':
         return buildHeatmapChartSpec(specParams)
-      case 'stacked_area':
-      case 'stream':
-      case 'ridgeline':
-      case 'violin':
-        return buildAreaChartSpec(specParams)
-      case 'box':
-        return buildBoxChartSpec(specParams)
       default:
         return buildGenericChartSpec({ ...specParams, chartType })
     }
+  }
+
+
+
+  const handleCreateNewChart = (chartType) => {
+    console.log('创建新图表:', chartType)
+    
+    // 重置所有状态
+    setChartType(chartType)
+    setFormValues({})
+    setDataText('[]')
+    setTableData([])
+    setIsInitialized(false)
+    
+    // 获取默认数据和配置
+    const defaultData = getDefaultData(chartType)
+    const defaultConfig = getDefaultConfig(chartType)
+    
+    // 设置默认值
+    const resetValues = {
+      chartType: chartType,
+      title: '',
+      description: '',
+      width: undefined,
+      height: undefined,
+      opacity: 1.0,
+      strokeWidth: 0,
+      cornerRadius: 0,
+      pointSize: undefined,
+      strokeDash: [],
+      innerRadius: undefined,
+      showLegend: true,
+      showGrid: true,
+      legendPosition: 'right',
+      legendOrientation: 'vertical',
+      fontFamily: '',
+      fontSize: undefined,
+      dataText: JSON.stringify(defaultData, null, 2),
+      ...defaultConfig
+    }
+    
+    // 设置表单值和状态
+    setDataText(JSON.stringify(defaultData, null, 2))
+    setTableData(defaultData)
+    setIsInitialized(true)
+    
+    // 重置表单并设置新值
+    form.resetFields()
+    setTimeout(() => {
+      form.setFieldsValue(resetValues)
+      setFormValues(resetValues)
+    }, 0)
+    
+    // 更新全局变量，防止重复触发
+    window.lastSelectedChartType = chartType
+    console.log('创建新图表后，更新lastSelectedChartType:', chartType)
+    
+    message.info(`已创建新的${getChartTypeLabel(chartType)}`)
   }
 
   const handleSave = async () => {
@@ -537,39 +549,85 @@ function ChartEditor({ specText, onChange, onSave }) {
         initialValues={{
           chartType: '',
           dataText: '[]',
+          title: '',
+          description: '',
+          width: undefined,
+          height: undefined,
           opacity: 1.0,
           strokeWidth: 0,
           cornerRadius: 0,
+          pointSize: undefined,
+          strokeDash: [],
+          innerRadius: undefined,
           showLegend: true,
-          showGrid: true
+          showGrid: true,
+          legendPosition: 'right',
+          legendOrientation: 'vertical',
+          fontFamily: '',
+          fontSize: undefined
         }}
         onValuesChange={(changed, all) => {
           // 设置内部更新标志
           isInternalUpdate.current = true
           
-          // 处理图表类型变化
-          if ('chartType' in changed && changed.chartType) {
+          // 处理图表类型变化 - 无论是否相同类型都重新创建
+          if ('chartType' in changed) {
             const next = changed.chartType
-            setChartType(next)
-            const defaultData = getDefaultData(next)
-            setDataText(JSON.stringify(defaultData, null, 2))
-            setTableData(defaultData) // 同时设置表格数据
-            setIsInitialized(true)
-            
-            // 根据图表类型设置默认字段配置
-            const defaultConfig = getDefaultConfig(next)
-            const updatedValues = { 
-              ...all, 
-              ...defaultConfig,
-              dataText: JSON.stringify(defaultData, null, 2)
-            }
-            
-            // 设置表单值和状态
-            setTimeout(() => {
-              form.setFieldsValue(updatedValues)
-              setFormValues(updatedValues)
+            console.log('onValuesChange - chartType changed:', { next, previous: chartType })
+            if (next) {
+              setChartType(next)
+              const defaultData = getDefaultData(next)
+              setDataText(JSON.stringify(defaultData, null, 2))
+              setTableData(defaultData) // 同时设置表格数据
+              setIsInitialized(true)
+              
+              // 根据图表类型设置默认字段配置
+              const defaultConfig = getDefaultConfig(next)
+              
+              // 重置所有字段为默认值，而不是保留之前的值
+              const resetValues = {
+                // 基础配置
+                title: '',
+                description: '',
+                width: undefined,
+                height: undefined,
+                
+                // 样式配置 - 重置为默认值
+                opacity: 1.0,
+                strokeWidth: 0,
+                cornerRadius: 0,
+                pointSize: undefined,
+                strokeDash: [],
+                innerRadius: undefined,
+                showLegend: true,
+                showGrid: true,
+                legendPosition: 'right',
+                legendOrientation: 'vertical',
+                fontFamily: '',
+                fontSize: undefined,
+                
+                // 数据
+                dataText: JSON.stringify(defaultData, null, 2),
+                
+                // 字段配置 - 使用图表类型的默认配置
+                ...defaultConfig
+              }
+              
+              // 设置表单值和状态
+              setTimeout(() => {
+                form.setFieldsValue(resetValues)
+                setFormValues(resetValues)
+                isInternalUpdate.current = false
+              }, 0)
+            } else {
+              // 如果清空了图表类型，重置状态
+              setChartType('')
+              setFormValues({})
+              setDataText('[]')
+              setTableData([])
+              setIsInitialized(false)
               isInternalUpdate.current = false
-            }, 0)
+            }
           } else {
             // 其他字段变化
             setFormValues(all)
@@ -593,6 +651,26 @@ function ChartEditor({ specText, onChange, onSave }) {
               options={CHART_TYPES} 
               placeholder="请选择图表类型"
               allowClear
+              onDropdownVisibleChange={(open) => {
+                // 当下拉框打开时，记录当前值
+                if (open) {
+                  const currentValue = form.getFieldValue('chartType')
+                  console.log('下拉框打开，记录当前值:', currentValue)
+                  // 存储当前值，用于后续检测重复选择
+                  window.lastSelectedChartType = currentValue
+                }
+              }}
+              onSelect={(value, option) => {
+                // 使用onSelect事件，这个事件在选择选项时触发
+                const lastValue = window.lastSelectedChartType
+                console.log('Select onSelect:', { value, lastValue, isRepeat: value === lastValue })
+                
+                if (value && lastValue && value === lastValue) {
+                  // 重复选择相同类型，视为新建图表
+                  console.log('重复选择相同类型，视为新建图表')
+                  handleCreateNewChart(value)
+                }
+              }}
             />
           </Form.Item>
           

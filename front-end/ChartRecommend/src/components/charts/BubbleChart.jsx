@@ -1,7 +1,7 @@
 import React from 'react'
 import { VegaEmbed } from 'react-vega'
 
-export function buildScatterChartSpec({ title, description, width, height, formValues, dataValues }) {
+export function buildBubbleChartSpec({ title, description, width, height, formValues, dataValues }) {
   const spec = {
     $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
     description: description || undefined,
@@ -16,13 +16,14 @@ export function buildScatterChartSpec({ title, description, width, height, formV
   const getField = (fieldName) => formValues[`${fieldName}Field`]
   const getType = (fieldName) => formValues[`${fieldName}Type`]
 
-  // 基础编码 - 散点图只支持x, y, color字段，不支持size字段
+  // 基础编码 - 气泡图必须有x, y, size字段
   if (getField('x')) spec.encoding.x = { field: getField('x'), type: getType('x') || 'quantitative' }
   if (getField('y')) spec.encoding.y = { field: getField('y'), type: getType('y') || 'quantitative' }
+  if (getField('size')) spec.encoding.size = { field: getField('size'), type: getType('size') || 'quantitative' }
   if (getField('color')) spec.encoding.color = { field: getField('color'), type: getType('color') || 'nominal' }
 
-  // 构建mark配置
-  const markConfig = { type: 'point' }
+  // 构建mark配置 - 气泡图使用circle类型
+  const markConfig = { type: 'circle' }
   
   // 透明度配置
   if (formValues.opacity !== undefined && formValues.opacity !== 1) {
@@ -32,11 +33,6 @@ export function buildScatterChartSpec({ title, description, width, height, formV
   // 边框配置
   if (formValues.strokeWidth !== undefined && formValues.strokeWidth > 0) {
     markConfig.strokeWidth = formValues.strokeWidth
-  }
-  
-  // 点大小配置
-  if (formValues.pointSize !== undefined && formValues.pointSize > 0) {
-    markConfig.size = formValues.pointSize
   }
 
   spec.mark = markConfig
@@ -67,7 +63,7 @@ export function buildScatterChartSpec({ title, description, width, height, formV
     }
   }
 
-  // 添加字体配置 - 散点图特定的字体配置
+  // 添加字体配置 - 气泡图特定的字体配置
   if (formValues.fontFamily || formValues.fontSize) {
     spec.config = spec.config || {}
     spec.config.title = spec.config.title || {}
@@ -95,13 +91,11 @@ export function buildScatterChartSpec({ title, description, width, height, formV
     if (formValues.fontSize) spec.config.legend.titleFontSize = formValues.fontSize
   }
 
-
-
   return spec
 }
 
-function ScatterChart({ title, description, width, height, formValues, dataValues, onEmbed }) {
-  const spec = buildScatterChartSpec({ title, description, width, height, formValues, dataValues })
+function BubbleChart({ title, description, width, height, formValues, dataValues, onEmbed }) {
+  const spec = buildBubbleChartSpec({ title, description, width, height, formValues, dataValues })
   const embedOptions = { actions: false, mode: 'vega-lite' }
 
   return (
@@ -114,4 +108,4 @@ function ScatterChart({ title, description, width, height, formValues, dataValue
   )
 }
 
-export default ScatterChart
+export default BubbleChart 
