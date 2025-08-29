@@ -1,7 +1,7 @@
 import React from 'react'
 import { VegaEmbed } from 'react-vega'
 
-function buildAreaChartSpec({ title, description, width, height, formValues, dataValues }) {
+export function buildAreaChartSpec({ title, description, width, height, formValues, dataValues }) {
   const spec = {
     $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
     description: description || undefined,
@@ -15,20 +15,13 @@ function buildAreaChartSpec({ title, description, width, height, formValues, dat
   // 从表单值中提取字段和类型
   const getField = (fieldName) => formValues[`${fieldName}Field`]
   const getType = (fieldName) => formValues[`${fieldName}Type`]
-  const aggregate = formValues.aggregate
 
   // 基础编码
   if (getField('x')) spec.encoding.x = { field: getField('x'), type: getType('x') || 'ordinal' }
   if (getField('y')) spec.encoding.y = { field: getField('y'), type: getType('y') || 'quantitative' }
   if (getField('color')) spec.encoding.color = { field: getField('color'), type: getType('color') || 'nominal' }
 
-  // 聚合函数处理
-  if (aggregate && spec.encoding.y) {
-    spec.encoding.y = {
-      ...spec.encoding.y,
-      aggregate: aggregate,
-    }
-  }
+
 
   // 构建mark配置
   const markConfig = { type: 'area' }
@@ -40,51 +33,16 @@ function buildAreaChartSpec({ title, description, width, height, formValues, dat
   
   // 边框配置
   if (formValues.strokeWidth !== undefined && formValues.strokeWidth > 0) {
-    markConfig.stroke = formValues.strokeColor || '#000'
     markConfig.strokeWidth = formValues.strokeWidth
-  }
-
-  // 颜色配置
-  if (spec.encoding.color) {
-    // 如果有颜色方案，使用颜色方案
-    if (formValues.colorScheme) {
-      spec.encoding.color = {
-        ...spec.encoding.color,
-        scale: { scheme: formValues.colorScheme }
-      }
-    }
-    // 如果有主色调且没有颜色方案，使用主色调
-    else if (formValues.markColor) {
-      spec.encoding.color = {
-        ...spec.encoding.color,
-        scale: { range: [formValues.markColor] }
-      }
-    }
-  } else {
-    // 如果没有color字段但有主色调，设置mark的color
-    if (formValues.markColor) {
-      markConfig.color = formValues.markColor
-    }
-  }
-
-  // 如果有fillColor配置，添加到markConfig（优先级高于markColor）
-  if (formValues.fillColor && !getField('color')) {
-    markConfig.fill = formValues.fillColor
   }
 
   spec.mark = markConfig
 
   // 添加轴配置
-  if (formValues.xAxisPosition || formValues.yAxisPosition || formValues.showGrid !== undefined) {
+  if (formValues.showGrid !== undefined) {
     spec.config = spec.config || {}
     spec.config.axis = spec.config.axis || {}
     
-    if (formValues.xAxisPosition) {
-      spec.config.axis.x = { ...spec.config.axis.x, orient: formValues.xAxisPosition }
-    }
-    if (formValues.yAxisPosition) {
-      spec.config.axis.y = { ...spec.config.axis.y, orient: formValues.yAxisPosition }
-    }
     if (formValues.showGrid === false) {
       spec.config.axis.grid = false
     }
@@ -107,7 +65,7 @@ function buildAreaChartSpec({ title, description, width, height, formValues, dat
   }
 
   // 添加字体配置 - 面积图特定的字体配置
-  if (formValues.fontFamily || formValues.fontSize || formValues.fontColor) {
+  if (formValues.fontFamily || formValues.fontSize) {
     spec.config = spec.config || {}
     spec.config.title = spec.config.title || {}
     spec.config.axis = spec.config.axis || {}
@@ -116,51 +74,25 @@ function buildAreaChartSpec({ title, description, width, height, formValues, dat
     // 标题字体配置
     if (formValues.fontFamily) spec.config.title.font = formValues.fontFamily
     if (formValues.fontSize) spec.config.title.fontSize = formValues.fontSize
-    if (formValues.fontColor) spec.config.title.color = formValues.fontColor
     
     // 轴标签字体配置
     if (formValues.fontFamily) spec.config.axis.labelFont = formValues.fontFamily
     if (formValues.fontSize) spec.config.axis.labelFontSize = formValues.fontSize
-    if (formValues.fontColor) spec.config.axis.labelColor = formValues.fontColor
     
     // 轴标题字体配置
     if (formValues.fontFamily) spec.config.axis.titleFont = formValues.fontFamily
     if (formValues.fontSize) spec.config.axis.titleFontSize = formValues.fontSize
-    if (formValues.fontColor) spec.config.axis.titleColor = formValues.fontColor
     
     // 图例标签字体配置
     if (formValues.fontFamily) spec.config.legend.labelFont = formValues.fontFamily
     if (formValues.fontSize) spec.config.legend.labelFontSize = formValues.fontSize
-    if (formValues.fontColor) spec.config.legend.labelColor = formValues.fontColor
     
     // 图例标题字体配置
     if (formValues.fontFamily) spec.config.legend.titleFont = formValues.fontFamily
     if (formValues.fontSize) spec.config.legend.titleFontSize = formValues.fontSize
-    if (formValues.fontColor) spec.config.legend.titleColor = formValues.fontColor
   }
 
-  // 添加交互配置
-  if (formValues.enableTooltip === false || formValues.enableZoom || formValues.enablePan || formValues.enableSelection) {
-    spec.config = spec.config || {}
-    
-    if (formValues.enableTooltip === false) {
-      spec.config.tooltip = { disable: true }
-    }
-    
-    if (formValues.enableZoom || formValues.enablePan || formValues.enableSelection) {
-      spec.selection = spec.selection || {}
-      
-      if (formValues.enableZoom) {
-        spec.selection.zoom = { type: 'interval', bind: 'scales' }
-      }
-      if (formValues.enablePan) {
-        spec.selection.pan = { type: 'interval', bind: 'scales' }
-      }
-      if (formValues.enableSelection) {
-        spec.selection.select = { type: 'multi', bind: 'legend' }
-      }
-    }
-  }
+
 
   return spec
 }

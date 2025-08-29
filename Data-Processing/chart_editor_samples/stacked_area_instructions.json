@@ -1,0 +1,27 @@
+{
+  "title": "堆叠面积图数据表格填写说明",
+  "description": "堆叠面积图用于显示多个系列随时间的变化趋势",
+  "columns": {
+    "Time": {
+      "description": "时间点",
+      "example": "1月、2月、3月",
+      "note": "时间轴的值"
+    },
+    "Series": {
+      "description": "系列名称",
+      "example": "系列A、系列B、系列C",
+      "note": "不同的系列会堆叠显示"
+    },
+    "Value": {
+      "description": "数值",
+      "example": "100、120、110等",
+      "note": "每个时间点和系列组合对应的数值"
+    }
+  },
+  "tips": [
+    "Time、Series和Value列都是必需的",
+    "每个Time和Series的组合都应该有对应的Value",
+    "支持显示为百分比堆叠",
+    "可以添加图例"
+  ]
+}

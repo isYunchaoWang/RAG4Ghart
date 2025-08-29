@@ -1,0 +1,27 @@
+{
+  "title": "堆叠柱状图数据表格填写说明",
+  "description": "堆叠柱状图用于显示每个类别中不同子类别的构成",
+  "columns": {
+    "Category": {
+      "description": "主类别",
+      "example": "产品A、产品B、产品C",
+      "note": "主要的分类变量，每个类别生成一个柱子"
+    },
+    "Subcategory": {
+      "description": "子类别",
+      "example": "Q1、Q2、Q3、Q4",
+      "note": "子分类变量，相同子类别的数据会堆叠在一起"
+    },
+    "Value": {
+      "description": "数值",
+      "example": "80、40、60等",
+      "note": "每个组合对应的数值"
+    }
+  },
+  "tips": [
+    "Category、Subcategory和Value列都是必需的",
+    "每个Category和Subcategory的组合都应该有对应的Value",
+    "支持水平堆叠柱状图",
+    "可以显示为百分比堆叠"
+  ]
+}

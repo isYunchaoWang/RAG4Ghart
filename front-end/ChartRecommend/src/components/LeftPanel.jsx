@@ -4,7 +4,7 @@ import ChartHistory from './ChartHistory'
 const { TextArea } = Input
 const { Title } = Typography
 
-function LeftPanel({ historyItems = [], onSelectHistory, onClearHistory }) {
+function LeftPanel({ historyItems = [], onSelectHistory, onClearHistory, onDeleteHistory }) {
   const { token } = theme.useToken()
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 12, height: '100%' }}>
@@ -22,7 +22,7 @@ function LeftPanel({ historyItems = [], onSelectHistory, onClearHistory }) {
       <div className="app-left-history" style={{ border: `1px solid ${token.colorBorderSecondary}`, borderRadius: 8, padding: 12, display: 'flex', flexDirection: 'column', minHeight: 0 }}>
         <Title level={5} style={{ marginTop: 0 }}>历史记录</Title>
         <div style={{ flex: 1, minHeight: 0 }}>
-          <ChartHistory items={historyItems} onSelect={onSelectHistory} onClear={onClearHistory} />
+          <ChartHistory items={historyItems} onSelect={onSelectHistory} onClear={onClearHistory} onDelete={onDeleteHistory} />
         </div>
       </div>
     </div>

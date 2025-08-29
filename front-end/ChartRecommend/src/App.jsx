@@ -73,10 +73,17 @@ function App() {
     try { localStorage.removeItem(STORAGE_KEY) } catch {}
   }
 
+  const onDeleteHistory = (index) => {
+    setHistory((prev) => {
+      const newHistory = prev.filter((_, i) => i !== index)
+      return newHistory
+    })
+  }
+
   return (
     <div className="app-root" style={{ background: token.colorBgBase, height: '100vh', display: 'flex' }}>
       <div className="app-left" style={{ padding: 16, flex: 7, minWidth: 0 }}>
-        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} />
+        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} />
       </div>
 
       <div className="app-right" style={{ padding: 16, background: token.colorBgContainer, display: 'flex', flexDirection: 'column', gap: 12, flex: 3, minWidth: 0, minHeight: 0 }}>

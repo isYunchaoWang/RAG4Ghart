@@ -28,7 +28,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y', 'color'],
     defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
     defaultFields: { x: 'x', y: 'y', color: '' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '柱状图用于比较不同类别的数值'
   },
@@ -37,7 +37,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y', 'color'],
     defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
     defaultFields: { x: 'x', y: 'y', color: '' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '折线图用于显示数据随时间或有序类别的变化趋势'
   },
@@ -82,7 +82,7 @@ const CHART_CONFIGS = {
     fields: ['category', 'value'],
     defaultTypes: { category: 'nominal', value: 'quantitative' },
     defaultFields: { category: 'category', value: 'value' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '饼图用于显示各部分占整体的比例关系'
   },
@@ -91,7 +91,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y', 'value'],
     defaultTypes: { x: 'ordinal', y: 'ordinal', value: 'quantitative' },
     defaultFields: { x: 'x', y: 'y', value: 'value' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '热力图用颜色深浅表示数值大小的矩阵图'
   },
@@ -118,7 +118,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y', 'color'],
     defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
     defaultFields: { x: 'x', y: 'y', color: 'category' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '堆叠柱状图显示分类数据的组成结构'
   },
@@ -127,7 +127,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y', 'color'],
     defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
     defaultFields: { x: 'x', y: 'y', color: 'category' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '堆叠面积图展示数据随时间的变化和组成'
   },
@@ -136,7 +136,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y', 'color'],
     defaultTypes: { x: 'ordinal', y: 'quantitative', color: 'nominal' },
     defaultFields: { x: 'x', y: 'y', color: 'category' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '流图是围绕中轴线对称的堆叠面积图'
   },
@@ -200,7 +200,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y'],
     defaultTypes: { x: 'ordinal', y: 'quantitative' },
     defaultFields: { x: 'x', y: 'y' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '和弦图（暂未完全支持，显示为柱状图）'
   },
@@ -209,7 +209,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y'],
     defaultTypes: { x: 'ordinal', y: 'quantitative' },
     defaultFields: { x: 'x', y: 'y' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '漏斗图（暂未完全支持，显示为柱状图）'
   },
@@ -218,7 +218,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y'],
     defaultTypes: { x: 'ordinal', y: 'quantitative' },
     defaultFields: { x: 'x', y: 'y' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '节点链接图（暂未完全支持，显示为柱状图）'
   },
@@ -227,7 +227,7 @@ const CHART_CONFIGS = {
     fields: ['x', 'y'],
     defaultTypes: { x: 'ordinal', y: 'quantitative' },
     defaultFields: { x: 'x', y: 'y' },
-    showAggregate: true,
+    showAggregate: false,
     showSize: false,
     description: '平行坐标图（暂未完全支持，显示为柱状图）'
   }
@@ -274,23 +274,19 @@ function ChartConfig({ chartType, form, onFieldChange }) {
 
   return (
     <div>
-      {/* 图表描述 */}
       <div style={{ 
-        padding: '8px 12px', 
-        background: '#f0f9ff', 
-        border: '1px solid #bae6fd', 
-        borderRadius: '6px',
-        marginBottom: '16px',
-        fontSize: '14px',
-        color: '#0369a1'
+        fontSize: '14px', 
+        fontWeight: 500, 
+        marginBottom: 12, 
+        color: '#262626',
+        borderBottom: '1px solid #f0f0f0',
+        paddingBottom: 8
       }}>
-        💡 {config.description}
+        字段配置
       </div>
-
-      <Divider style={{ margin: '12px 0' }} />
-
       {/* 动态字段配置 */}
-      <Space size={12} wrap>
+      <div style={{ marginBottom: '16px' }}>
+        <Space size={12} wrap>
         {config.fields.map(field => (
           <div key={field} style={{ display: 'flex', gap: '8px', alignItems: 'end' }}>
             <Form.Item 
@@ -317,7 +313,8 @@ function ChartConfig({ chartType, form, onFieldChange }) {
             </Form.Item>
           </div>
         ))}
-      </Space>
+        </Space>
+      </div>
 
       {/* 聚合函数 */}
       {config.showAggregate && (

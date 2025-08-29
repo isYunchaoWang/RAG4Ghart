@@ -94,61 +94,27 @@ function StyleConfig({ chartType, form }) {
 
   return (
     <div>
-      <Divider style={{ margin: '16px 0 12px 0' }} />
       <div style={{ 
-        padding: '8px 12px', 
-        background: '#f0f9ff', 
-        border: '1px solid #bae6fd', 
-        borderRadius: '6px',
-        marginBottom: '16px',
-        fontSize: '14px',
-        color: '#0369a1'
+        fontSize: '14px', 
+        fontWeight: 500, 
+        marginBottom: 12, 
+        color: '#262626',
+        borderBottom: '1px solid #f0f0f0',
+        paddingBottom: 8
       }}>
-        🎨 样式配置
+        样式配置
       </div>
-
-      {/* 基础样式配置 */}
-      <div style={{ marginBottom: '20px' }}>
+      {/* 基础样式和边框配置 */}
+      <div style={{ marginBottom: '12px' }}>
         <div style={{ 
-          fontSize: '14px', 
+          fontSize: '13px', 
           fontWeight: 'bold', 
-          marginBottom: '12px',
+          marginBottom: '6px',
           color: '#1890ff'
         }}>
-          基础样式
+          {/* 基础样式 */}
         </div>
-                 <Space size={16} wrap>
-           {/* 颜色配置 */}
-           <Form.Item label="图表颜色" name="markColor" style={{ marginBottom: 0 }}>
-             <ColorPicker 
-               id="markColor"
-               showText 
-               style={{ width: 120 }}
-               placeholder="选择颜色"
-             />
-           </Form.Item>
-
-           {/* 颜色方案（用于分类数据） */}
-           <Form.Item label="颜色方案" name="colorScheme" style={{ marginBottom: 0 }}>
-             <Select 
-               id="colorScheme"
-               options={MARK_COLORS} 
-               style={{ width: 140 }}
-               placeholder="选择颜色方案"
-               allowClear
-             />
-           </Form.Item>
-
-           {/* 填充颜色（用于单色图表） */}
-           <Form.Item label="填充颜色" name="fillColor" style={{ marginBottom: 0 }}>
-             <ColorPicker 
-               id="fillColor"
-               showText 
-               style={{ width: 120 }}
-               placeholder="选择填充颜色"
-             />
-           </Form.Item>
-
+                 <Space size={8} wrap>
            {/* 透明度 */}
            <Form.Item label="透明度" name="opacity" style={{ marginBottom: 0 }}>
              <Select 
@@ -158,30 +124,8 @@ function StyleConfig({ chartType, form }) {
                placeholder="1.0"
              />
            </Form.Item>
-         </Space>
-      </div>
 
-      {/* 边框和线条配置 */}
-      <div style={{ marginBottom: '20px' }}>
-        <div style={{ 
-          fontSize: '14px', 
-          fontWeight: 'bold', 
-          marginBottom: '12px',
-          color: '#1890ff'
-        }}>
-          边框和线条
-        </div>
-        <Space size={16} wrap>
-                     {/* 边框配置 */}
-           <Form.Item label="边框色" name="strokeColor" style={{ marginBottom: 0 }}>
-             <ColorPicker 
-               id="strokeColor"
-               showText 
-               style={{ width: 120 }}
-               placeholder="选择边框色"
-             />
-           </Form.Item>
-
+           {/* 边框配置 */}
            <Form.Item label="边框宽度" name="strokeWidth" style={{ marginBottom: 0 }}>
              <Select 
                id="strokeWidth"
@@ -197,7 +141,7 @@ function StyleConfig({ chartType, form }) {
                <Select 
                  id="strokeDash"
                  options={STROKE_DASH_OPTIONS} 
-                 style={{ width: 120 }}
+                 style={{ width: 100 }}
                  placeholder="实线"
                />
              </Form.Item>
@@ -205,17 +149,17 @@ function StyleConfig({ chartType, form }) {
         </Space>
       </div>
 
-      {/* 特定图表类型的样式 */}
-      <div style={{ marginBottom: '20px' }}>
+      {/* 特定样式和字体配置 */}
+      <div style={{ marginBottom: '12px' }}>
         <div style={{ 
-          fontSize: '14px', 
+          fontSize: '13px', 
           fontWeight: 'bold', 
-          marginBottom: '12px',
+          marginBottom: '6px',
           color: '#1890ff'
         }}>
-          图表特定样式
+          {/* 特定样式和字体 */}
         </div>
-        <Space size={16} wrap>
+        <Space size={8} wrap>
                      {/* 柱状图圆角 */}
            {isBarChart && (
              <Form.Item label="圆角半径" name="cornerRadius" style={{ marginBottom: 0 }}>
@@ -268,25 +212,12 @@ function StyleConfig({ chartType, form }) {
                />
              </Form.Item>
            )}
-        </Space>
-      </div>
 
-      {/* 字体配置 */}
-      <div style={{ marginBottom: '20px' }}>
-        <div style={{ 
-          fontSize: '14px', 
-          fontWeight: 'bold', 
-          marginBottom: '12px',
-          color: '#1890ff'
-        }}>
-          字体配置
-        </div>
-                 <Space size={16} wrap>
            <Form.Item label="字体族" name="fontFamily" style={{ marginBottom: 0 }}>
              <Select 
                id="fontFamily"
                options={FONT_FAMILY_OPTIONS} 
-               style={{ width: 140 }}
+               style={{ width: 120 }}
                placeholder="选择字体"
                allowClear
              />
@@ -301,66 +232,24 @@ function StyleConfig({ chartType, form }) {
                allowClear
              />
            </Form.Item>
-
-           <Form.Item label="字体颜色" name="fontColor" style={{ marginBottom: 0 }}>
-             <ColorPicker 
-               id="fontColor"
-               showText 
-               style={{ width: 120 }}
-               placeholder="选择字体颜色"
-             />
-           </Form.Item>
-         </Space>
+        </Space>
       </div>
 
-      {/* 轴配置 */}
-      <div style={{ marginBottom: '20px' }}>
+      {/* 轴和图例配置 */}
+      <div style={{ marginBottom: '12px' }}>
         <div style={{ 
-          fontSize: '14px', 
+          fontSize: '13px', 
           fontWeight: 'bold', 
-          marginBottom: '12px',
+          marginBottom: '6px',
           color: '#1890ff'
         }}>
-          坐标轴配置
+          {/* 轴和图例配置 */}
         </div>
-                 <Space size={16} wrap>
-           <Form.Item label="X轴位置" name="xAxisPosition" style={{ marginBottom: 0 }}>
-             <Select 
-               id="xAxisPosition"
-               options={AXIS_POSITION_OPTIONS} 
-               style={{ width: 120 }}
-               placeholder="默认"
-               allowClear
-             />
-           </Form.Item>
-
-           <Form.Item label="Y轴位置" name="yAxisPosition" style={{ marginBottom: 0 }}>
-             <Select 
-               id="yAxisPosition"
-               options={AXIS_POSITION_OPTIONS} 
-               style={{ width: 120 }}
-               placeholder="默认"
-               allowClear
-             />
-           </Form.Item>
-
+                 <Space size={8} wrap>
            <Form.Item label="显示网格" name="showGrid" style={{ marginBottom: 0 }}>
              <Switch id="showGrid" />
            </Form.Item>
-         </Space>
-      </div>
 
-      {/* 图例配置 */}
-      <div style={{ marginBottom: '20px' }}>
-        <div style={{ 
-          fontSize: '14px', 
-          fontWeight: 'bold', 
-          marginBottom: '12px',
-          color: '#1890ff'
-        }}>
-          图例配置
-        </div>
-                 <Space size={16} wrap>
            <Form.Item label="显示图例" name="showLegend" style={{ marginBottom: 0 }}>
              <Switch id="showLegend" />
            </Form.Item>
@@ -375,7 +264,7 @@ function StyleConfig({ chartType, form }) {
                  { label: '左侧', value: 'left' },
                  { label: '右侧', value: 'right' },
                ]} 
-               style={{ width: 120 }}
+               style={{ width: 100 }}
                placeholder="默认"
                allowClear
              />
@@ -389,7 +278,7 @@ function StyleConfig({ chartType, form }) {
                  { label: '水平', value: 'horizontal' },
                  { label: '垂直', value: 'vertical' },
                ]} 
-               style={{ width: 120 }}
+               style={{ width: 100 }}
                placeholder="默认"
                allowClear
              />
@@ -397,34 +286,7 @@ function StyleConfig({ chartType, form }) {
          </Space>
       </div>
 
-      {/* 交互配置 */}
-      <div style={{ marginBottom: '20px' }}>
-        <div style={{ 
-          fontSize: '14px', 
-          fontWeight: 'bold', 
-          marginBottom: '12px',
-          color: '#1890ff'
-        }}>
-          交互配置
-        </div>
-                 <Space size={16} wrap>
-           <Form.Item label="启用工具提示" name="enableTooltip" style={{ marginBottom: 0 }}>
-             <Switch id="enableTooltip" />
-           </Form.Item>
 
-           <Form.Item label="启用缩放" name="enableZoom" style={{ marginBottom: 0 }}>
-             <Switch id="enableZoom" />
-           </Form.Item>
-
-           <Form.Item label="启用平移" name="enablePan" style={{ marginBottom: 0 }}>
-             <Switch id="enablePan" />
-           </Form.Item>
-
-           <Form.Item label="启用选择" name="enableSelection" style={{ marginBottom: 0 }}>
-             <Switch id="enableSelection" />
-           </Form.Item>
-         </Space>
-      </div>
     </div>
   )
 }

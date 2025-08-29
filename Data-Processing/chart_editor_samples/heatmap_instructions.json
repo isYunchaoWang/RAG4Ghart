@@ -1,0 +1,27 @@
+{
+  "title": "热力图数据表格填写说明",
+  "description": "热力图用于显示两个分类变量之间的关系强度",
+  "columns": {
+    "Row": {
+      "description": "行分类",
+      "example": "地区A、地区B、地区C",
+      "note": "Y轴的分类变量，每个类别占一行"
+    },
+    "Column": {
+      "description": "列分类",
+      "example": "产品X、产品Y、产品Z",
+      "note": "X轴的分类变量，每个类别占一列"
+    },
+    "Value": {
+      "description": "数值",
+      "example": "85、72、90等",
+      "note": "每个交叉点的数值，决定颜色的深浅"
+    }
+  },
+  "tips": [
+    "Row、Column和Value列都是必需的",
+    "每个Row和Column的组合都应该有对应的Value",
+    "数值越大，颜色越深（或越暖）",
+    "支持自定义颜色方案"
+  ]
+}

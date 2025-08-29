@@ -64,13 +64,7 @@ function ChartComponent({
 
 ### 基础样式
 - **透明度** (`opacity`)
-- **边框色** (`strokeColor`)
 - **边框宽度** (`strokeWidth`)
-
-### 颜色配置
-- **图表颜色** (`markColor`) - 单色图表的主色调
-- **颜色方案** (`colorScheme`) - 分类数据的颜色方案
-- **填充颜色** (`fillColor`) - 填充色（优先级高于图表颜色）
 
 ### 特定样式
 - **圆角半径** (`cornerRadius`) - 柱状图
@@ -80,8 +74,6 @@ function ChartComponent({
 - **内半径** (`innerRadius`) - 饼图
 
 ### 轴配置
-- **X轴位置** (`xAxisPosition`)
-- **Y轴位置** (`yAxisPosition`)
 - **显示网格** (`showGrid`)
 
 ### 图例配置
@@ -92,13 +84,8 @@ function ChartComponent({
 ### 字体配置
 - **字体族** (`fontFamily`)
 - **字体大小** (`fontSize`)
-- **字体颜色** (`fontColor`)
 
-### 交互配置
-- **启用工具提示** (`enableTooltip`)
-- **启用缩放** (`enableZoom`)
-- **启用平移** (`enablePan`)
-- **启用选择** (`enableSelection`)
+
 
 ## 字体配置说明
 

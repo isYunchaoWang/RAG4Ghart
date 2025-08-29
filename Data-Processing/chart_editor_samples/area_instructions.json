@@ -1,0 +1,27 @@
+{
+  "title": "面积图数据表格填写说明",
+  "description": "面积图是折线图的变体，折线下方区域会被填充",
+  "columns": {
+    "Time": {
+      "description": "时间点或X轴标签",
+      "example": "1月、2月、3月",
+      "note": "时间轴或X轴的值"
+    },
+    "Value": {
+      "description": "数值",
+      "example": "100、120、110等",
+      "note": "每个时间点对应的数值"
+    },
+    "Series": {
+      "description": "系列名称（可选）",
+      "example": "系列A、系列B",
+      "note": "用于创建多个面积区域"
+    }
+  },
+  "tips": [
+    "Time和Value列是必需的",
+    "Series列用于创建堆叠面积图",
+    "支持透明度设置",
+    "可以显示为堆叠或重叠模式"
+  ]
+}

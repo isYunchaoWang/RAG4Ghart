@@ -1,0 +1,27 @@
+{
+  "title": "柱状图数据表格填写说明",
+  "description": "柱状图用于比较不同类别的数值大小",
+  "columns": {
+    "Category": {
+      "description": "类别名称",
+      "example": "产品A、产品B、产品C",
+      "note": "要比较的类别，每个类别会生成一个柱子"
+    },
+    "Value": {
+      "description": "数值",
+      "example": "120、180、150等",
+      "note": "每个类别对应的数值，决定柱子的高度"
+    },
+    "Subcategory": {
+      "description": "子类别（可选，用于堆叠柱状图）",
+      "example": "Q1、Q2、Q3、Q4",
+      "note": "用于创建堆叠柱状图，相同子类别的数据会堆叠在一起"
+    }
+  },
+  "tips": [
+    "Category和Value列是必需的",
+    "Subcategory列用于创建堆叠柱状图",
+    "可以按数值大小自动排序",
+    "支持水平柱状图显示"
+  ]
+}
