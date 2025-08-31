@@ -57,6 +57,28 @@ function DataTableEditor({ value, onChange, chartType }) {
           { category: 'A', size: 100 }, { category: 'B', size: 200 }, 
           { category: 'C', size: 150 }, { category: 'D', size: 80 }
         ]
+      case 'chord':
+        return [
+          { source: '北京', target: '上海', value: 25 },
+          { source: '北京', target: '广州', value: 18 },
+          { source: '上海', target: '广州', value: 22 },
+          { source: '上海', target: '深圳', value: 15 },
+          { source: '广州', target: '深圳', value: 20 },
+          { source: '深圳', target: '北京', value: 12 }
+        ]
+      case 'node_link':
+        return [
+          { node: 'A', x: 10, y: 20, group: '组1', size: 30 },
+          { node: 'B', x: 30, y: 40, group: '组1', size: 25 },
+          { node: 'C', x: 50, y: 30, group: '组2', size: 35 },
+          { node: 'D', x: 70, y: 60, group: '组2', size: 20 },
+          { node: 'E', x: 90, y: 10, group: '组3', size: 40 },
+          { source: 'A', target: 'B', value: 1 },
+          { source: 'B', target: 'C', value: 1 },
+          { source: 'C', target: 'D', value: 1 },
+          { source: 'D', target: 'E', value: 1 },
+          { source: 'A', target: 'E', value: 1 }
+        ]
       default:
         return [
           { x: 1, y: 10 },
@@ -83,6 +105,10 @@ function DataTableEditor({ value, onChange, chartType }) {
         return '格式：数组对象，每个对象包含 x（X轴）、y（Y轴）和 value（数值）字段'
       case 'treemap':
         return '格式：数组对象，每个对象包含 category（分类）和 size（大小）字段'
+      case 'chord':
+        return '格式：数组对象，每个对象包含 source（源）、target（目标）和 value（连接强度）字段'
+      case 'node_link':
+        return '格式：数组对象，包含节点数据（node, x, y, group, size）和连接数据（source, target, value）'
       default:
         return '格式：数组对象，每个对象包含 x（X轴）和 y（Y轴）字段'
     }

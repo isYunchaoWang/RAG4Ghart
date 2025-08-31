@@ -4,15 +4,9 @@ import ChartConfig from './ChartConfig'
 import StyleConfig from './StyleConfig'
 import DataTableEditor from './DataTableEditor'
 import ChartFactory from './charts/ChartFactory'
-import { buildBarChartSpec } from './charts/BarChart'
-import { buildLineChartSpec } from './charts/LineChart'
-import { buildPieChartSpec } from './charts/PieChart'
-import { buildScatterChartSpec } from './charts/ScatterChart'
-import { buildBubbleChartSpec } from './charts/BubbleChart'
-import { buildHeatmapChartSpec } from './charts/HeatmapChart'
-import { buildAreaChartSpec } from './charts/AreaChart'
 
-import { buildGenericChartSpec } from './charts/GenericChart'
+
+
 
 const { Title } = Typography
 
@@ -28,7 +22,7 @@ function safeParseJSON(text) {
 const CHART_TYPES = [
   { label: '柱状图 bar', value: 'bar' },
   { label: '气泡图 bubble', value: 'bubble' },
-  { label: '弦乐图 chord', value: 'chord' },
+  { label: '弦图 chord', value: 'chord' },
   { label: '漏斗图 funnel', value: 'funnel' },
   { label: '折线图 line', value: 'line' },
   { label: '节点链接图 node_link', value: 'node_link' },
@@ -81,10 +75,12 @@ function mapChartTypeToVegaMark(chartType) {
       return 'arc'
     case 'treemap':
       return 'rect'
-    // Unsupported types fallback to bar so that preview still works
     case 'chord':
+      return 'chord'
     case 'funnel':
+      return 'funnel'
     case 'node_link':
+      return 'node_link'
     default:
       return 'bar'
   }
@@ -100,17 +96,20 @@ function mapVegaMarkToChartType(mark, encoding) {
     case 'line':
       return 'line'
     case 'point':
-      // 散点图 - 没有size字段映射
       return 'scatter'
     case 'circle':
-      // 气泡图 - 有size字段映射
       return 'bubble'
     case 'rect':
-      // 检查是否是热力图 (有x, y, color编码)
       if (encoding?.x && encoding?.y && encoding?.color) return 'heatmap'
       return 'treemap'
     case 'arc':
       return 'pie'
+    case 'chord':
+      return 'chord'
+    case 'funnel':
+      return 'funnel'
+    case 'node_link':
+      return 'node_link'
     default:
       return 'bar'
   }
@@ -240,8 +239,35 @@ function getDefaultData(chartType) {
         { category: 'C', size: 150 }, { category: 'D', size: 80 }
       ]
     case 'chord':
+      return [
+        { source: '北京', target: '上海', value: 25 },
+        { source: '北京', target: '广州', value: 18 },
+        { source: '上海', target: '广州', value: 22 },
+        { source: '上海', target: '深圳', value: 15 },
+        { source: '广州', target: '深圳', value: 20 },
+        { source: '深圳', target: '北京', value: 12 }
+      ]
     case 'funnel':
+      return [
+        { stage: '访问', value: 1000, rate: 1.0 },
+        { stage: '注册', value: 800, rate: 0.8 },
+        { stage: '下载', value: 600, rate: 0.6 },
+        { stage: '购买', value: 200, rate: 0.2 },
+        { stage: '复购', value: 80, rate: 0.08 }
+      ]
     case 'node_link':
+      return [
+        { node: 'A', x: 10, y: 20, group: '组1', size: 30 },
+        { node: 'B', x: 30, y: 40, group: '组1', size: 25 },
+        { node: 'C', x: 50, y: 30, group: '组2', size: 35 },
+        { node: 'D', x: 70, y: 60, group: '组2', size: 20 },
+        { node: 'E', x: 90, y: 10, group: '组3', size: 40 },
+        { source: 'A', target: 'B', value: 1 },
+        { source: 'B', target: 'C', value: 1 },
+        { source: 'C', target: 'D', value: 1 },
+        { source: 'D', target: 'E', value: 1 },
+        { source: 'A', target: 'E', value: 1 }
+      ]
     default:
       return [
         { x: 1, y: 10 },
@@ -371,58 +397,22 @@ function ChartEditor({ specText, onChange, onSave }) {
         categoryType: 'nominal', sizeType: 'quantitative', colorType: 'nominal'
       },
       chord: { 
-        xField: 'x', yField: 'y',
-        xType: 'ordinal', yType: 'quantitative'
+        sourceField: 'source', targetField: 'target', valueField: 'value',
+        sourceType: 'nominal', targetType: 'nominal', valueType: 'quantitative'
       },
       funnel: { 
-        xField: 'x', yField: 'y',
-        xType: 'ordinal', yType: 'quantitative'
+        stageField: 'stage', valueField: 'value', rateField: 'rate',
+        stageType: 'ordinal', valueType: 'quantitative', rateType: 'quantitative'
       },
       node_link: { 
-        xField: 'x', yField: 'y',
-        xType: 'ordinal', yType: 'quantitative'
+        nodeField: 'node', xField: 'x', yField: 'y', groupField: 'group', sizeField: 'size', sourceField: 'source', targetField: 'target',
+        nodeType: 'nominal', xType: 'quantitative', yType: 'quantitative', groupType: 'nominal', sizeType: 'quantitative', sourceType: 'nominal', targetType: 'nominal'
       }
     }
     return CHART_CONFIGS[chartType] || CHART_CONFIGS.bar
   }
 
-  // 根据表单值生成Vega-Lite规范的函数
-  const buildSpecFromForm = () => {
-    if (!chartType || !formValues) return null
-    
-    // 获取当前表单值
-    const currentFormValues = form.getFieldsValue()
-    // 优先使用表格数据
-    const currentDataValues = tableData && tableData.length > 0 ? tableData : (safeParseJSON(dataText) || [])
-    
-    // 构建spec参数
-    const specParams = {
-      title: currentFormValues.title,
-      description: currentFormValues.description,
-      width: currentFormValues.width,
-      height: currentFormValues.height,
-      formValues: { ...currentFormValues, dataText },
-      dataValues: currentDataValues
-    }
-    
-    // 根据图表类型调用对应的构建函数
-    switch (chartType) {
-      case 'bar':
-        return buildBarChartSpec(specParams)
-      case 'line':
-        return buildLineChartSpec(specParams)
-      case 'pie':
-        return buildPieChartSpec(specParams)
-      case 'scatter':
-        return buildScatterChartSpec(specParams)
-      case 'bubble':
-        return buildBubbleChartSpec(specParams)
-      case 'heatmap':
-        return buildHeatmapChartSpec(specParams)
-      default:
-        return buildGenericChartSpec({ ...specParams, chartType })
-    }
-  }
+
 
 
 
@@ -484,50 +474,33 @@ function ChartEditor({ specText, onChange, onSave }) {
 
   const handleSave = async () => {
     try {
-      // 生成当前的Vega-Lite规范
-      const spec = buildSpecFromForm()
-      const specText = spec ? JSON.stringify(spec, null, 2) : ''
+      // 生成当前的ECharts配置
+      const currentFormValues = form.getFieldsValue()
+      const currentDataValues = tableData && tableData.length > 0 ? tableData : (safeParseJSON(dataText) || [])
       
-      let dataUrl = ''
-      const view = viewRef.current
-      if (view && typeof view.toCanvas === 'function') {
-        try {
-          const canvas = await view.toCanvas()
-          dataUrl = canvas.toDataURL('image/png')
-        } catch {}
+      const config = {
+        chartType,
+        title: currentFormValues.title,
+        description: currentFormValues.description,
+        width: currentFormValues.width,
+        height: currentFormValues.height,
+        formValues: currentFormValues,
+        dataValues: currentDataValues
       }
-      if (!dataUrl) {
-        const container = embedContainerRef.current
-        if (container) {
-          const canvas = container.querySelector('canvas')
-          if (canvas && typeof canvas.toDataURL === 'function') {
-            dataUrl = canvas.toDataURL('image/png')
-          } else {
-            const svg = container.querySelector('svg')
-            if (svg) {
-              const svgData = new XMLSerializer().serializeToString(svg)
-              const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' })
-              const url = URL.createObjectURL(svgBlob)
-              const image = new Image()
-              dataUrl = await new Promise((resolve) => {
-                image.onload = () => {
-                  const c = document.createElement('canvas')
-                  c.width = svg.clientWidth || 300
-                  c.height = svg.clientHeight || 200
-                  const ctx = c.getContext('2d')
-                  ctx.drawImage(image, 0, 0)
-                  URL.revokeObjectURL(url)
-                  resolve(c.toDataURL('image/png'))
-                }
-                image.onerror = () => resolve('')
-                image.src = url
-              })
-            }
-          }
+      
+      const specText = JSON.stringify(config, null, 2)
+      
+      // 尝试获取ECharts实例的截图
+      let dataUrl = ''
+      const container = embedContainerRef.current
+      if (container) {
+        const canvas = container.querySelector('canvas')
+        if (canvas && typeof canvas.toDataURL === 'function') {
+          dataUrl = canvas.toDataURL('image/png')
         }
       }
       
-      // 保存包含完整规范的图表
+      // 保存包含完整配置的图表
       onSave?.({ specText, thumbDataUrl: dataUrl })
     } catch (e) {
       console.error('保存图表时出错:', e)
@@ -538,7 +511,7 @@ function ChartEditor({ specText, onChange, onSave }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', width: '100%', minWidth: 0, gap: 16 }}>
       <Space align="center" style={{ justifyContent: 'space-between', marginBottom: 8 }}>
-        <Title level={5} style={{ marginTop: 0, marginBottom: 0 }}>Vega-Lite 图表编辑器</Title>
+        <Title level={5} style={{ marginTop: 0, marginBottom: 0 }}>ECharts 图表编辑器</Title>
         <Button type="primary" size="small" onClick={handleSave}>保存到历史</Button>
       </Space>
 

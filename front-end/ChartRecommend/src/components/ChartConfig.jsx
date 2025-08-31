@@ -87,33 +87,37 @@ const CHART_CONFIGS = {
     description: '树状图用嵌套矩形表示层次数据'
   },
   
-  // 暂不支持的复杂图表类型，使用默认配置
+  // ECharts图表配置
   chord: {
-    fields: ['x', 'y'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y' },
+    fields: ['source', 'target', 'value'],
+    defaultTypes: { source: 'nominal', target: 'nominal', value: 'quantitative' },
+    defaultFields: { source: 'source', target: 'target', value: 'value' },
     showAggregate: false,
     showSize: false,
-    description: '弦乐图（暂未完全支持，显示为柱状图）'
+    description: '弦图用于显示节点间的连接关系和强度'
   },
   
   funnel: {
-    fields: ['x', 'y'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y' },
+    fields: ['stage', 'value', 'rate'],
+    defaultTypes: { stage: 'ordinal', value: 'quantitative', rate: 'quantitative' },
+    defaultFields: { stage: 'stage', value: 'value', rate: 'rate' },
     showAggregate: false,
     showSize: false,
-    description: '漏斗图（暂未完全支持，显示为柱状图）'
+    description: '漏斗图用于显示流程中各阶段的转化情况'
   },
   
   node_link: {
-    fields: ['x', 'y'],
-    defaultTypes: { x: 'ordinal', y: 'quantitative' },
-    defaultFields: { x: 'x', y: 'y' },
+    fields: ['node', 'x', 'y', 'group', 'size', 'source', 'target'],
+    defaultTypes: { node: 'nominal', x: 'quantitative', y: 'quantitative', group: 'nominal', size: 'quantitative', source: 'nominal', target: 'nominal' },
+    defaultFields: { node: 'node', x: 'x', y: 'y', group: 'group', size: 'size', source: 'source', target: 'target' },
     showAggregate: false,
-    showSize: false,
-    description: '节点链接图（暂未完全支持，显示为柱状图）'
-  }
+    showSize: true,
+    description: '节点链接图用于显示网络中的节点位置和关系'
+  },
+  
+
+  
+
 }
 
 function ChartConfig({ chartType, form, onFieldChange }) {
@@ -132,7 +136,8 @@ function ChartConfig({ chartType, form, onFieldChange }) {
       dimension: '维度字段',
       parent: '父级字段',
       source: '源字段',
-      target: '目标字段'
+      target: '目标字段',
+      node: '节点字段'
     }
     return labels[field] || field
   }
@@ -150,7 +155,8 @@ function ChartConfig({ chartType, form, onFieldChange }) {
       dimension: '例如：dimension',
       parent: '例如：parent',
       source: '例如：source',
-      target: '例如：target'
+      target: '例如：target',
+      node: '例如：node'
     }
     return placeholders[field] || `例如：${field}`
   }
