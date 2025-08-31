@@ -7,6 +7,7 @@ import EChartsPieChart from './EChartsPieChart'
 import EChartsScatterChart from './EChartsScatterChart'
 import EChartsBubbleChart from './EChartsBubbleChart'
 import EChartsHeatmapChart from './EChartsHeatmapChart'
+import EChartsTreemapChart from './EChartsTreemapChart'
 import EChartsChordChart from './EChartsChordChart'
 import EChartsFunnelChart from './EChartsFunnelChart'
 import EChartsNodeLinkChart from './EChartsNodeLinkChart'
@@ -20,7 +21,7 @@ const CHART_COMPONENTS = {
   scatter: EChartsScatterChart,
   bubble: EChartsBubbleChart,
   heatmap: EChartsHeatmapChart,
-  treemap: EChartsHeatmapChart,
+  treemap: EChartsTreemapChart,
   chord: EChartsChordChart,
   funnel: EChartsFunnelChart,
   node_link: EChartsNodeLinkChart,

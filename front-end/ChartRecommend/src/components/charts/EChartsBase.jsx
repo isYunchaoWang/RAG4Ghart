@@ -17,22 +17,46 @@ function EChartsBase({
 
   useEffect(() => {
     if (chartRef.current) {
-      // 初始化图表
-      chartInstance.current = echarts.init(chartRef.current)
-      
-      // 设置图表配置
-      if (option) {
-        chartInstance.current.setOption(option)
-      }
-      
-      // 回调函数
-      if (onEmbed && chartInstance.current) {
-        onEmbed({ view: chartInstance.current })
+      try {
+        console.log('EChartsBase 开始初始化图表，类型:', chartType)
+        
+        // 初始化图表
+        const chart = echarts.init(chartRef.current)
+        chartInstance.current = chart
+        
+        console.log('ECharts 实例创建成功')
+        
+        // 设置图表配置
+        if (option) {
+          console.log('设置 ECharts 配置:', option)
+          chart.setOption(option)
+          console.log('ECharts 配置设置成功')
+        }
+        
+        // 回调函数
+        if (onEmbed && chart) {
+          onEmbed({ view: chart })
+          console.log('ECharts 回调函数执行成功')
+        }
+      } catch (error) {
+        console.error('ECharts初始化错误:', error)
+        console.error('图表类型:', chartType)
+        console.error('配置:', option)
+        
+        // 显示错误信息在页面上
+        if (chartRef.current) {
+          chartRef.current.innerHTML = `
+            <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #ff4d4f; font-size: 14px;">
+              图表渲染失败: ${error.message}
+            </div>
+          `
+        }
       }
     }
 
     return () => {
       if (chartInstance.current) {
+        console.log('EChartsBase 清理图表实例')
         chartInstance.current.dispose()
       }
     }
@@ -41,15 +65,21 @@ function EChartsBase({
   useEffect(() => {
     if (chartInstance.current && option) {
       try {
+        console.log('EChartsBase 更新图表配置:', option)
         chartInstance.current.setOption(option, true)
+        console.log('EChartsBase 图表配置更新成功')
       } catch (error) {
         console.error('ECharts渲染错误:', error)
         console.error('问题配置:', option)
-        // 尝试使用最小配置重新渲染
-        chartInstance.current.setOption({
-          title: { text: '图表渲染失败' },
-          series: [{ type: 'bar', data: [] }]
-        }, true)
+        
+        // 显示错误信息
+        if (chartRef.current) {
+          chartRef.current.innerHTML = `
+            <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #ff4d4f; font-size: 14px;">
+              图表更新失败: ${error.message}
+            </div>
+          `
+        }
       }
     }
   }, [option])

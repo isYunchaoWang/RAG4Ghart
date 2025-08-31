@@ -84,7 +84,7 @@ const CHART_CONFIGS = {
     defaultFields: { category: 'category', size: 'size', color: 'category' },
     showAggregate: false,
     showSize: true,
-    description: '树状图用嵌套矩形表示层次数据'
+    description: '矩形树图用嵌套矩形表示层次数据'
   },
   
   // ECharts图表配置
@@ -94,7 +94,7 @@ const CHART_CONFIGS = {
     defaultFields: { source: 'source', target: 'target', value: 'value' },
     showAggregate: false,
     showSize: false,
-    description: '弦图用于显示节点间的连接关系和强度'
+    description: '环状关系图用于显示节点间的连接关系和强度'
   },
   
   funnel: {
@@ -107,12 +107,12 @@ const CHART_CONFIGS = {
   },
   
   node_link: {
-    fields: ['node', 'x', 'y', 'group', 'size', 'source', 'target'],
-    defaultTypes: { node: 'nominal', x: 'quantitative', y: 'quantitative', group: 'nominal', size: 'quantitative', source: 'nominal', target: 'nominal' },
-    defaultFields: { node: 'node', x: 'x', y: 'y', group: 'group', size: 'size', source: 'source', target: 'target' },
+    fields: ['node', 'position_x', 'position_y', 'group', 'size', 'source', 'target', 'value'],
+    defaultTypes: { node: 'nominal', position_x: 'quantitative', position_y: 'quantitative', group: 'nominal', size: 'quantitative', source: 'nominal', target: 'nominal', value: 'quantitative' },
+    defaultFields: { node: 'node', position_x: 'x', position_y: 'y', group: 'group', size: 'size', source: 'source', target: 'target', value: 'value' },
     showAggregate: false,
     showSize: true,
-    description: '节点链接图用于显示网络中的节点位置和关系'
+    description: '关系图用于显示网络中的节点位置和关系'
   },
   
 
@@ -137,7 +137,9 @@ function ChartConfig({ chartType, form, onFieldChange }) {
       parent: '父级字段',
       source: '源字段',
       target: '目标字段',
-      node: '节点字段'
+      node: '节点字段',
+      position_x: 'X坐标字段',
+      position_y: 'Y坐标字段'
     }
     return labels[field] || field
   }
@@ -156,7 +158,9 @@ function ChartConfig({ chartType, form, onFieldChange }) {
       parent: '例如：parent',
       source: '例如：source',
       target: '例如：target',
-      node: '例如：node'
+      node: '例如：node',
+      position_x: '例如：x',
+      position_y: '例如：y'
     }
     return placeholders[field] || `例如：${field}`
   }

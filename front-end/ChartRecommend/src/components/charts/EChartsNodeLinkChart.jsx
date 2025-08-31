@@ -1,127 +1,77 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import EChartsBase from './EChartsBase'
-import { adaptDataForECharts, adaptStyleConfig } from './EChartsDataAdapter'
 
 function EChartsNodeLinkChart({ chartType, title, description, width, height, formValues, dataValues, onEmbed }) {
-  const option = useMemo(() => {
-    // 检查数据是否为空
-    if (!Array.isArray(dataValues) || dataValues.length === 0) {
-      return {
-        title: {
-          text: title || '',
-          left: 'center'
-        },
-        series: [{
-          type: 'graph',
-          data: [],
-          links: []
-        }]
+  // 简单的数据适配
+  let nodes = []
+  let links = []
+  
+  try {
+    if (Array.isArray(dataValues) && dataValues.length > 0) {
+      console.log('开始处理关系图数据，数据条数:', dataValues.length)
+      
+      // 简单的数据提取
+      dataValues.forEach((item, index) => {
+        // 处理节点数据
+        if (item.node) {
+          nodes.push({
+            name: item.node,
+            x: item[formValues.position_xField || 'x'] || Math.random() * 100,
+            y: item[formValues.position_yField || 'y'] || Math.random() * 100,
+            symbolSize: item[formValues.sizeField || 'size'] || 30,
+            category: item[formValues.groupField || 'group'] || 0
+          })
+        }
+        
+        // 处理连接数据
+        if (item[formValues.sourceField || 'source'] && item[formValues.targetField || 'target']) {
+          links.push({
+            source: item[formValues.sourceField || 'source'],
+            target: item[formValues.targetField || 'target'],
+            value: item[formValues.valueField || 'value'] || 1
+          })
+        }
+      })
+      
+      console.log('处理后的节点数:', nodes.length)
+      console.log('处理后的连接数:', links.length)
+    }
+  } catch (error) {
+    console.error('关系图数据处理错误:', error)
+  }
+
+  // 使用处理后的数据
+  const simpleOption = {
+    title: {
+      text: title || '关系图',
+      left: 'center'
+    },
+    tooltip: {
+      trigger: 'item',
+      formatter: function(params) {
+        if (params.dataType === 'node') {
+          const category = params.data.category || 0
+          const groupName = category === 0 ? '默认组' : `组${category}`
+          return `${params.data.name}<br/>位置: (${params.data.x}, ${params.data.y})<br/>大小: ${params.data.symbolSize}<br/>分组: ${groupName}`
+        }
+        if (params.dataType === 'edge') {
+          return `${params.data.source} → ${params.data.target}<br/>连接强度: ${params.data.value}`
+        }
+        return params.data.name || ''
       }
-    }
-
-    const adaptedData = adaptDataForECharts('node_link', dataValues, formValues)
-    const styleConfig = adaptStyleConfig('node_link', formValues)
-
-    return {
-      title: {
-        text: title || '',
-        left: 'center',
-        textStyle: {
-          fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
-        }
+    },
+    series: [{
+      type: 'graph',
+      layout: 'none',
+      symbolSize: 30,
+      roam: true,
+      label: {
+        show: true
       },
-      tooltip: {
-        trigger: 'item',
-        formatter: function(params) {
-          if (params.dataType === 'node') {
-            const category = params.data.category || 0
-            const groupName = category === 0 ? '默认组' : `组${category}`
-            return `${params.data.name}<br/>位置: (${params.data.x}, ${params.data.y})<br/>大小: ${params.data.symbolSize}<br/>分组: ${groupName}`
-          }
-          if (params.dataType === 'edge') {
-            const sourceName = adaptedData.nodes[params.data.source]?.name || params.data.source
-            const targetName = adaptedData.nodes[params.data.target]?.name || params.data.target
-            return `${sourceName} → ${targetName}<br/>连接强度: ${params.data.value}`
-          }
-          return params.data.name || ''
-        }
-      },
-      legend: {
-        data: (() => {
-          const groups = new Set()
-          adaptedData.nodes.forEach(node => {
-            if (node.category !== undefined) {
-              groups.add(node.category)
-            }
-          })
-          const groupArray = Array.from(groups).sort()
-          return groupArray.length > 0 ? groupArray.map((group, index) => `组${group}`) : ['默认组']
-        })(),
-        orient: formValues.legendOrientation || 'vertical',
-        left: formValues.legendPosition === 'left' ? 'left' : 'right',
-        textStyle: {
-          fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
-        }
-      },
-      series: [{
-        name: '节点链接图',
-        type: 'graph',
-        layout: 'none',
-        coordinateSystem: 'none',
-        symbolSize: function(value, params) {
-          return params.data.symbolSize || styleConfig.symbolSize
-        },
-        roam: true,
-        label: {
-          show: true,
-          position: 'inside',
-          fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
-        },
-        edgeSymbol: ['circle', 'arrow'],
-        edgeSymbolSize: [4, 10],
-        edgeLabel: {
-          show: false,
-          fontSize: (styleConfig.fontSize || 12) - 2,
-          fontFamily: styleConfig.fontFamily || 'Arial'
-        },
-        lineStyle: {
-          opacity: styleConfig.opacity || 0.8,
-          width: styleConfig.strokeWidth || 1
-        },
-        itemStyle: {
-          opacity: styleConfig.opacity || 0.8,
-          color: function(params) {
-            const colors = ['#5470c6', '#91cc75', '#fac858', '#ee6666', '#73c0de', '#3ba272', '#fc8452', '#9a60b4']
-            const category = params.data.category || 0
-            const colorIndex = category % colors.length
-            return colors[colorIndex] || colors[0]
-          }
-        },
-        emphasis: {
-          focus: 'adjacency',
-          lineStyle: {
-            width: (styleConfig.strokeWidth || 1) * 2
-          }
-        },
-        data: adaptedData.nodes,
-        links: adaptedData.links,
-        categories: (() => {
-          const groups = new Set()
-          adaptedData.nodes.forEach(node => {
-            if (node.category !== undefined) {
-              groups.add(node.category)
-            }
-          })
-          const groupArray = Array.from(groups).sort()
-          const colors = ['#5470c6', '#91cc75', '#fac858', '#ee6666', '#73c0de', '#3ba272', '#fc8452', '#9a60b4']
-          return groupArray.length > 0 ? groupArray.map((group, index) => ({ name: `组${group}`, itemStyle: { color: colors[index % colors.length] } })) : [{ name: '默认组', itemStyle: { color: colors[0] } }]
-        })()
-      }]
-    }
-  }, [title, dataValues, formValues])
+      data: nodes,
+      links: links
+    }]
+  }
 
   return (
     <EChartsBase
@@ -133,7 +83,7 @@ function EChartsNodeLinkChart({ chartType, title, description, width, height, fo
       formValues={formValues}
       dataValues={dataValues}
       onEmbed={onEmbed}
-      option={option}
+      option={simpleOption}
     />
   )
 }

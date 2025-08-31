@@ -22,13 +22,13 @@ function safeParseJSON(text) {
 const CHART_TYPES = [
   { label: '柱状图 bar', value: 'bar' },
   { label: '气泡图 bubble', value: 'bubble' },
-  { label: '弦图 chord', value: 'chord' },
+  { label: '环状关系图 chord', value: 'chord' },
   { label: '漏斗图 funnel', value: 'funnel' },
   { label: '折线图 line', value: 'line' },
-  { label: '节点链接图 node_link', value: 'node_link' },
+  { label: '关系图 node_link', value: 'node_link' },
   { label: '饼图 pie', value: 'pie' },
   { label: '散点图 scatter', value: 'scatter' },
-  { label: '树状图 treemap', value: 'treemap' },
+  { label: '矩形树图 treemap', value: 'treemap' },
 ]
 
 // 获取图表类型的中文标签
@@ -235,17 +235,40 @@ function getDefaultData(chartType) {
       ]
     case 'treemap':
       return [
-        { category: 'A', size: 100 }, { category: 'B', size: 200 }, 
-        { category: 'C', size: 150 }, { category: 'D', size: 80 }
+        { category: '电子产品', size: 300, color: '科技' },
+        { category: '服装', size: 250, color: '时尚' },
+        { category: '食品', size: 200, color: '生活' },
+        { category: '图书', size: 150, color: '教育' },
+        { category: '家居', size: 180, color: '生活' },
+        { category: '运动', size: 120, color: '健康' },
+        { category: '美妆', size: 160, color: '时尚' },
+        { category: '汽车', size: 220, color: '交通' },
+        { category: '游戏', size: 140, color: '娱乐' },
+        { category: '音乐', size: 90, color: '娱乐' }
       ]
     case 'chord':
       return [
         { source: '北京', target: '上海', value: 25 },
         { source: '北京', target: '广州', value: 18 },
+        { source: '北京', target: '深圳', value: 15 },
+        { source: '北京', target: '杭州', value: 12 },
         { source: '上海', target: '广州', value: 22 },
-        { source: '上海', target: '深圳', value: 15 },
-        { source: '广州', target: '深圳', value: 20 },
-        { source: '深圳', target: '北京', value: 12 }
+        { source: '上海', target: '深圳', value: 20 },
+        { source: '上海', target: '杭州', value: 28 },
+        { source: '上海', target: '南京', value: 16 },
+        { source: '广州', target: '深圳', value: 30 },
+        { source: '广州', target: '杭州', value: 14 },
+        { source: '广州', target: '成都', value: 18 },
+        { source: '深圳', target: '杭州', value: 10 },
+        { source: '深圳', target: '成都', value: 12 },
+        { source: '杭州', target: '南京', value: 22 },
+        { source: '杭州', target: '成都', value: 16 },
+        { source: '南京', target: '成都', value: 14 },
+        { source: '南京', target: '武汉', value: 20 },
+        { source: '成都', target: '武汉', value: 18 },
+        { source: '武汉', target: '西安', value: 24 },
+        { source: '成都', target: '西安', value: 16 },
+        { source: '西安', target: '北京', value: 20 }
       ]
     case 'funnel':
       return [

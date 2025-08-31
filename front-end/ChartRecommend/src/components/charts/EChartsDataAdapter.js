@@ -41,7 +41,7 @@ function adaptChordData(dataValues, formValues) {
 
   return {
     nodes: Array.from(nodes).map(name => ({ name })),
-    links
+    links: links
   }
 }
 
@@ -60,7 +60,13 @@ function adaptFunnelData(dataValues, formValues) {
 
 // 节点链接图数据适配
 function adaptNodeLinkData(dataValues, formValues) {
+  console.log('adaptNodeLinkData 开始执行，输入:', { 
+    dataValues: dataValues?.length, 
+    formValues: Object.keys(formValues || {}) 
+  })
+  
   if (!Array.isArray(dataValues) || dataValues.length === 0) {
+    console.log('adaptNodeLinkData 数据为空')
     return { nodes: [], links: [] }
   }
 
@@ -68,8 +74,9 @@ function adaptNodeLinkData(dataValues, formValues) {
   const links = []
   const nodeMap = new Map()
 
+  console.log('开始处理节点数据...')
   // 首先处理节点数据
-  dataValues.forEach(item => {
+  dataValues.forEach((item, index) => {
     const nodeName = item[formValues.nodeField || 'node']
     const x = item[formValues.xField || 'x']
     const y = item[formValues.yField || 'y']
@@ -80,44 +87,93 @@ function adaptNodeLinkData(dataValues, formValues) {
       const nodeIndex = nodes.length
       nodeMap.set(nodeName, nodeIndex)
       
-      nodes.push({
+      const node = {
         name: nodeName,
         x: x || 0,
         y: y || 0,
         category: group || 0,
         symbolSize: size || 30
-      })
+      }
+      
+      nodes.push(node)
+      console.log(`添加节点 ${index}:`, node)
     }
   })
 
-  // 然后处理连接数据（如果有的话）
-  // 如果数据中包含source和target字段，则创建连接
-  dataValues.forEach(item => {
+  console.log('开始处理连接数据...')
+  // 然后处理连接数据
+  dataValues.forEach((item, index) => {
     const source = item[formValues.sourceField || 'source']
     const target = item[formValues.targetField || 'target']
     const value = item[formValues.valueField || 'value']
 
-    if (source && target && nodeMap.has(source) && nodeMap.has(target)) {
-      links.push({
+    if (source && target) {
+      // 如果节点不存在，创建默认节点
+      if (!nodeMap.has(source)) {
+        const nodeIndex = nodes.length
+        nodeMap.set(source, nodeIndex)
+        const defaultNode = {
+          name: source,
+          x: Math.random() * 100,
+          y: Math.random() * 100,
+          category: 0,
+          symbolSize: 30
+        }
+        nodes.push(defaultNode)
+        console.log(`创建默认源节点:`, defaultNode)
+      }
+      
+      if (!nodeMap.has(target)) {
+        const nodeIndex = nodes.length
+        nodeMap.set(target, nodeIndex)
+        const defaultNode = {
+          name: target,
+          x: Math.random() * 100,
+          y: Math.random() * 100,
+          category: 0,
+          symbolSize: 30
+        }
+        nodes.push(defaultNode)
+        console.log(`创建默认目标节点:`, defaultNode)
+      }
+
+      const link = {
         source: nodeMap.get(source),
         target: nodeMap.get(target),
         value: value || 1
-      })
+      }
+      links.push(link)
+      console.log(`添加连接 ${index}:`, link)
     }
   })
 
-  // 如果没有明确的连接数据，则根据节点位置创建一些示例连接
+  // 如果没有连接数据，但有点数据，创建一些示例连接
   if (links.length === 0 && nodes.length > 1) {
+    console.log('没有连接数据，创建示例连接...')
     for (let i = 0; i < nodes.length - 1; i++) {
-      links.push({
+      const link = {
         source: i,
         target: i + 1,
         value: 1
-      })
+      }
+      links.push(link)
+      console.log(`创建示例连接 ${i}:`, link)
+    }
+    // 添加一个环形连接
+    if (nodes.length > 2) {
+      const ringLink = {
+        source: nodes.length - 1,
+        target: 0,
+        value: 1
+      }
+      links.push(ringLink)
+      console.log('创建环形连接:', ringLink)
     }
   }
 
-  return { nodes, links }
+  const result = { nodes, links }
+  console.log('adaptNodeLinkData 完成，结果:', result)
+  return result
 }
 
 // 桑基图数据适配

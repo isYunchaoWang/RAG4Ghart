@@ -12,6 +12,7 @@
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
     "antd": "^5.27.1",
+    "d3": "^7.9.0",
     "echarts": "^5.6.0",
     "echarts-for-react": "^3.0.2",
     "plotly.js-dist-min": "^3.1.0",

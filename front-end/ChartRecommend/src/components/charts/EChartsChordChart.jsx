@@ -1,87 +1,115 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import EChartsBase from './EChartsBase'
-import { adaptDataForECharts, adaptStyleConfig } from './EChartsDataAdapter'
 
 function EChartsChordChart({ chartType, title, description, width, height, formValues, dataValues, onEmbed }) {
-  const option = useMemo(() => {
-    // 检查数据是否为空
-    if (!Array.isArray(dataValues) || dataValues.length === 0) {
-      return {
-        title: {
-          text: title || '',
-          left: 'center'
-        },
-        series: [{
-          type: 'chord',
-          data: [],
-          links: []
-        }]
-      }
+  // 数据适配
+  let nodes = []
+  let links = []
+  const nodeMap = new Map()
+  
+  try {
+    if (Array.isArray(dataValues) && dataValues.length > 0) {
+      console.log('开始处理环状关系图数据，数据条数:', dataValues.length)
+      
+      // 提取所有节点
+      dataValues.forEach((item, index) => {
+        const source = item[formValues.sourceField || 'source']
+        const target = item[formValues.targetField || 'target']
+        const value = item[formValues.valueField || 'value']
+
+        if (source && target) {
+          if (!nodeMap.has(source)) {
+            const nodeIndex = nodes.length
+            nodeMap.set(source, nodeIndex)
+            nodes.push({
+              name: source,
+              symbolSize: 30
+            })
+          }
+          
+          if (!nodeMap.has(target)) {
+            const nodeIndex = nodes.length
+            nodeMap.set(target, nodeIndex)
+            nodes.push({
+              name: target,
+              symbolSize: 30
+            })
+          }
+          
+          links.push({
+            source: nodeMap.get(source),
+            target: nodeMap.get(target),
+            value: value || 1
+          })
+        }
+      })
+      
+      console.log('处理后的节点数:', nodes.length)
+      console.log('处理后的连接数:', links.length)
     }
+  } catch (error) {
+    console.error('环状关系图数据处理错误:', error)
+  }
 
-    const adaptedData = adaptDataForECharts('chord', dataValues, formValues)
-    const styleConfig = adaptStyleConfig('chord', formValues)
-
-    return {
-      title: {
-        text: title || '',
-        left: 'center',
-        textStyle: {
-          fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
+  // 使用环形布局的关系图配置
+  const option = {
+    // title: {
+    //   text: title || '环状关系图',
+    //   left: 'center'
+    // },
+    tooltip: {
+      trigger: 'item',
+      formatter: function(params) {
+        if (params.dataType === 'node') {
+          return `${params.data.name}<br/>节点`
         }
-      },
-      tooltip: {
-        trigger: 'item',
-        formatter: function(params) {
-          if (params.dataType === 'edge') {
-            const sourceName = adaptedData.nodes[params.data.source]?.name || params.data.source
-            const targetName = adaptedData.nodes[params.data.target]?.name || params.data.target
-            return `${sourceName} → ${targetName}<br/>连接强度: ${params.data.value}`
-          }
-          if (params.dataType === 'node') {
-            return `${params.data.name}<br/>节点`
-          }
-          return params.data.name || ''
+        if (params.dataType === 'edge') {
+          const sourceName = nodes[params.data.source]?.name || params.data.source
+          const targetName = nodes[params.data.target]?.name || params.data.target
+          return `${sourceName} → ${targetName}<br/>连接强度: ${params.data.value}`
         }
+        return params.data.name || ''
+      }
+    },
+    series: [{
+      name: '环状关系图',
+      type: 'graph',
+      layout: 'circular',
+      center: ['50%', '50%'],
+      radius: '70%',
+      symbolSize: 30,
+      roam: true,
+      label: {
+        show: true,
+        position: 'outside'
       },
-      series: [{
-        type: 'chord',
-        center: ['50%', '50%'],
-        radius: '70%',
-        data: adaptedData.nodes,
-        links: adaptedData.links,
-        categories: adaptedData.nodes.length > 0 ? adaptedData.nodes.map((node, index) => ({ 
-          name: node.name
-        })) : [],
-        label: {
-          show: true,
-          position: 'outside',
-          fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial',
-          color: '#333'
+      edgeSymbol: ['circle', 'arrow'],
+      edgeSymbolSize: [4, 10],
+      edgeLabel: {
+        show: false
+      },
+      lineStyle: {
+        opacity: 0.8,
+        width: 1,
+        curveness: 0.3
+      },
+      itemStyle: {
+        opacity: 0.8,
+        color: '#5470c6'
+      },
+      emphasis: {
+        focus: 'adjacency',
+        lineStyle: {
+          width: 2
         },
         itemStyle: {
-          opacity: styleConfig.opacity || 0.8,
-          borderWidth: styleConfig.strokeWidth || 1,
-          borderColor: '#fff'
-        },
-        lineStyle: {
-          opacity: styleConfig.opacity || 0.8,
-          width: styleConfig.strokeWidth || 1
-        },
-        emphasis: {
-          focus: 'adjacency',
-          lineStyle: {
-            width: (styleConfig.strokeWidth || 1) * 2
-          },
-          itemStyle: {
-            opacity: 1
-          }
+          opacity: 1
         }
-      }]
-    }
-  }, [title, dataValues, formValues])
+      },
+      data: nodes,
+      links: links
+    }]
+  }
 
   return (
     <EChartsBase
