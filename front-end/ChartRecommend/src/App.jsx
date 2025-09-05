@@ -2,13 +2,14 @@ import './App.css'
 import { theme } from 'antd'
 import LeftPanel from './components/LeftPanel'
 import ChartEditor from './components/ChartEditor'
-import { useMemo, useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 function App() {
   const { token } = theme.useToken()
 
   const [specText, setSpecText] = useState('')
   const [history, setHistory] = useState([])
+  const [selectedChartType, setSelectedChartType] = useState('')
 
   const STORAGE_KEY = 'chartHistory'
 
@@ -80,15 +81,21 @@ function App() {
     })
   }
 
+  const onChartSelect = (chartType) => {
+    setSelectedChartType(chartType)
+    // 清空specText，让ChartEditor重新初始化
+    setSpecText('')
+  }
+
   return (
     <div className="app-root" style={{ background: token.colorBgBase, height: '100vh', display: 'flex' }}>
       <div className="app-left" style={{ padding: 16, flex: 7, minWidth: 0 }}>
-        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} />
+        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} onChartSelect={onChartSelect} />
       </div>
 
       <div className="app-right" style={{ padding: 16, background: token.colorBgContainer, display: 'flex', flexDirection: 'column', gap: 12, flex: 3, minWidth: 0, minHeight: 0 }}>
         <div style={{ flex: 6, minHeight: 0 }}>
-          <ChartEditor specText={specText} onChange={setSpecText} onSave={addHistory} />
+          <ChartEditor specText={specText} onChange={setSpecText} onSave={addHistory} selectedChartType={selectedChartType} />
         </div>
       </div>
     </div>

@@ -5,9 +5,6 @@ import StyleConfig from './StyleConfig'
 import DataTableEditor from './DataTableEditor'
 import ChartFactory from './charts/ChartFactory'
 
-
-
-
 const { Title } = Typography
 
 function safeParseJSON(text) {
@@ -25,7 +22,7 @@ const CHART_TYPES = [
   { label: '环状关系图 chord', value: 'chord' },
   { label: '漏斗图 funnel', value: 'funnel' },
   { label: '折线图 line', value: 'line' },
-  { label: '关系图 node_link', value: 'node_link' },
+  { label: '关系图 nodelink', value: 'nodelink' },
   { label: '饼图 pie', value: 'pie' },
   { label: '散点图 scatter', value: 'scatter' },
   { label: '矩形树图 treemap', value: 'treemap' },
@@ -79,8 +76,8 @@ function mapChartTypeToVegaMark(chartType) {
       return 'chord'
     case 'funnel':
       return 'funnel'
-    case 'node_link':
-      return 'node_link'
+    case 'nodelink':
+      return 'nodelink'
     default:
       return 'bar'
   }
@@ -108,8 +105,8 @@ function mapVegaMarkToChartType(mark, encoding) {
       return 'chord'
     case 'funnel':
       return 'funnel'
-    case 'node_link':
-      return 'node_link'
+    case 'nodelink':
+      return 'nodelink'
     default:
       return 'bar'
   }
@@ -278,7 +275,7 @@ function getDefaultData(chartType) {
         { stage: '购买', value: 200, rate: 0.2 },
         { stage: '复购', value: 80, rate: 0.08 }
       ]
-    case 'node_link':
+    case 'nodelink':
       return [
         { node: 'A', x: 10, y: 20, group: '组1', size: 30 },
         { node: 'B', x: 30, y: 40, group: '组1', size: 25 },
@@ -301,7 +298,7 @@ function getDefaultData(chartType) {
   }
 }
 
-function ChartEditor({ specText, onChange, onSave }) {
+function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
   const { token } = theme.useToken()
   const [form] = Form.useForm()
 
@@ -320,6 +317,14 @@ function ChartEditor({ specText, onChange, onSave }) {
   const isUpdatingFromExternal = useRef(false)
   const isInternalUpdate = useRef(false)
   
+  // 处理从检索结果选择的图表类型
+  useEffect(() => {
+    if (selectedChartType && selectedChartType !== chartType) {
+      console.log('从检索结果选择图表类型:', selectedChartType)
+      handleCreateNewChart(selectedChartType)
+    }
+  }, [selectedChartType])
+
   // 只有外部传入有效的specText时才处理（从历史记录选择时）
   useEffect(() => {
     // 如果是内部更新导致的变化，忽略
@@ -427,7 +432,7 @@ function ChartEditor({ specText, onChange, onSave }) {
         stageField: 'stage', valueField: 'value', rateField: 'rate',
         stageType: 'ordinal', valueType: 'quantitative', rateType: 'quantitative'
       },
-      node_link: { 
+      nodelink: { 
         nodeField: 'node', xField: 'x', yField: 'y', groupField: 'group', sizeField: 'size', sourceField: 'source', targetField: 'target',
         nodeType: 'nominal', xType: 'quantitative', yType: 'quantitative', groupType: 'nominal', sizeType: 'quantitative', sourceType: 'nominal', targetType: 'nominal'
       }
