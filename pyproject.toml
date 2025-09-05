@@ -5,16 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "accelerate>=1.9.0",
-#    "colpali-engine==0.3.12",
+    "accelerate>=1.10.1",
+    #    "colpali-engine==0.3.12",
+    "chardet>=5.2.0",
+    "fastapi[standard]>=0.116.1",
     "ipywidgets>=8.1.7",
-    "modelscope>=1.28.2",
+    "modelscope>=1.29.1",
     "notebook>=7.4.5",
-    "pandas-stubs>=2.3.0.250703",
+    "pandas-stubs>=2.3.2.250827",
     "pillow>=11.3.0",
+    "pyarrow>=21.0.0",
     "pydantic>=2.11.7",
     "pymilvus>=2.6.0",
-    "sentencepiece>=0.2.0",
+    "sentencepiece>=0.2.1",
     "transformers==4.46.3",
 ]
 

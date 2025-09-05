@@ -1,23 +1,23 @@
 from tqdm import tqdm
 
 
-def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
+def load_data(base_url: str = "/home/public/dataset-MegaCQA") -> list[dict]:
     import glob, os
     import pandas as pd
 
     data = []
-    chart_types = ("bar", "box", "bubble", "chord", "fill_bubble", "funnel", "heatmap", "line", "node_link", "parallel",
-                   "pie", "radar", "ridgeline", "sankey", "scatter", "stacked_area", "stacked_bar", "stream",
-                   "sunburst",
-                   "treemap", "treemap_D3", "violin")
+    chart_types = ("bar", "box", "bubble", "funnel", "line", "pie", "radar","scatter", "stacked_area",
+                    "stacked_bar", "treemap")
     for chart_type in chart_types:
-        csv_paths = glob.glob(f"{base_url}/Dataset-ZXQ/train80/{chart_type}/csv/*.csv")
+        csv_paths = glob.glob(f"{base_url}/train/{chart_type}/csv/*.csv")
         for csv_path in tqdm(csv_paths, desc=f"Processing {chart_type}", unit="file"):
             datum_id = int(os.path.splitext(os.path.basename(csv_path))[0])
-            with open(f"{base_url}/Dataset-ZXQ/train80/{chart_type}/txt/{datum_id}.txt", "r", encoding="gbk") as f:
+
+            with open(f"{base_url}/train/{chart_type}/txt/{datum_id}.txt", "r", encoding="gbk") as f:
                 text = f.read()
+
             datum = {
-                "image_url": f"{base_url}/Dataset-ZXQ/train80/{chart_type}/png/{datum_id}.png",
+                "image_url": f"{base_url}/train/{chart_type}/png/{datum_id}.png",
                 "type": chart_type,
                 "theme": str(),
                 "title": str(),
@@ -27,33 +27,30 @@ def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
                 "text_dense": list()
             }
             df = pd.DataFrame()
-            if chart_type == "bar" or chart_type == "box":
-                theme, title, unit, distribution, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            if chart_type in {"bar", "box", "stacked_bar"}:
+                theme, title, unit, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
                 datum["metadata"] = {
-                    "distribution": distribution,
                     "display": display,
                     "header": df.columns.values.tolist(),
                     "unit": unit
                 }
             elif chart_type == "bubble":
-                theme, title, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+                theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
                 datum["metadata"] = {
-                    "distribution": distribution,
                     "header": df.columns.values.tolist(),
                 }
-            elif chart_type in {"chord", "funnel", "violin"}:
-                theme, title, unit, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            elif chart_type in {"chord", "pie", "sunburst", "treemap", "violin"}:
+                theme, title, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
                 datum["metadata"] = {
-                    "distribution": distribution,
                     "header": df.columns.values.tolist(),
                     "unit": unit
                 }
@@ -63,6 +60,16 @@ def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
                 datum["theme"] = theme
                 datum["title"] = title
                 datum["metadata"] = {"data_num": data_num}
+            elif chart_type == "funnel":
+                theme, title, unit, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+                datum["theme"] = theme
+                datum["title"] = title
+                datum["metadata"] = {
+                    "distribution": distribution,
+                    "header": df.columns.values.tolist(),
+                    "unit": unit
+                }
             elif chart_type == "heatmap":
                 theme, title, matrix_dim, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, names=["X", "Y", "Value"], encoding="utf-8")
@@ -79,7 +86,7 @@ def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
                 with open(csv_path, 'r', encoding='gbk') as f:
                     lines = f.readlines()
                 # 第二行是trend,stable_rising,volatile_falling,...
-                trend = lines[1].strip().split(',')[1:]  # 按逗号分割
+                trend = lines[1].strip().split(',')[0:] if chart_type == "ridgeline" else lines[1].strip().split(',')[1:] # 按逗号分割
                 df = pd.read_csv(csv_path, skiprows=2, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
@@ -88,36 +95,12 @@ def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
                     "header": df.columns.values.tolist(),
                     "unit": unit
                 }
-            elif chart_type == "node_link":
+            elif chart_type in {"nodelink", "parallel"}:
                 theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
                 datum["metadata"] = {"header": df.columns.values.tolist()}
-            elif chart_type == "parallel":
-                theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                # 读取csv（需要跳过第一行，然后手动读取第二行作为list）
-                with open(csv_path, 'r', encoding="utf-8") as f:
-                    lines = f.readlines()
-                # 第二行是Pattern,Clustering,Weak Correlation,Weak Correlation,Clustering
-                pattern = lines[1].strip().split(',')[1:]  # 按逗号分割
-                df = pd.read_csv(csv_path, skiprows=2, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "pattern": pattern,
-                    "header": df.columns.values.tolist()
-                }
-            elif chart_type in {"pie", "sunburst", "treemap", "treemap_D3"}:
-                if chart_type == "treemap_D3": datum["type"] = "treemap"
-                theme, title, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
             elif chart_type == "radar":
                 theme, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
@@ -127,18 +110,17 @@ def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
                     "unit": unit
                 }
             elif chart_type == "sankey":
-                theme, title, unit, distribution, *labels = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+                theme, title, unit, *labels = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
                 datum["metadata"] = {
-                    "distribution": distribution,
                     "labels": labels,
                     "header": df.columns.values.tolist(),
                     "unit": unit
                 }
             elif chart_type == "scatter":
-                theme, title, *display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+                theme, title, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
                 df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
                 datum["theme"] = theme
                 datum["title"] = title
@@ -146,20 +128,44 @@ def load_data(base_url: str = "/home/dkx/RAG4Ghart") -> list[dict]:
                     "display": display,
                     "header": df.columns.values.tolist()
                 }
-            elif chart_type == "stacked_bar":
-                theme, title, unit, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "display": display,
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
             datum["data"] = df.to_json(orient="records")
             data.append(datum)
     return data
 
+def load_ChartGen(base_url: str = "/home/public/ChartGen-200K/converted") -> list[dict]:
+    import glob, os
+
+    data = []
+    # chart_types = ("bubble", "line", "pie", "radar", "stacked_area", "treemap")
+    chart_types = ("bar", "box", "funnel", "scatter", "stacked_bar")
+    for chart_type in chart_types:
+        csv_paths = glob.glob(f"{base_url}/train/{chart_type}/csv/*.csv")
+        for csv_path in tqdm(csv_paths, desc=f"Processing {chart_type}", unit="file"):
+            datum_id = os.path.splitext(os.path.basename(csv_path))[0]
+
+            with open(f"{base_url}/train/{chart_type}/txt/{datum_id}.txt", "r", encoding="utf-8") as f:
+                text = f.read()
+
+            datum = {
+                "image_url": f"{base_url}/train/{chart_type}/png/{datum_id}.png",
+                "type": chart_type,
+                "theme": str(),
+                "title": str(),
+                "text": text,
+                "metadata": dict(),
+                "data": str(),
+                "text_dense": list()
+            }
+            # try:
+            #     df = pd.read_csv(csv_path, encoding="utf-8")
+            # except pd.errors.ParserError:
+            #     print(csv_path)
+            # datum["metadata"] = {
+            #     "header": df.columns.values.tolist()
+            # }
+            # datum["data"] = df.to_json(orient="records")
+            data.append(datum)
+    return data
 
 from modelscope import AutoModel
 import torch
@@ -180,11 +186,11 @@ def embed_data_BGE_VL_v1_5_zs(data: list[dict]) -> list[dict]:
                 q_or_c="c"
             )
             text_embs = model(**text_inputs, output_hidden_states=True)[:, -1, :]
-            img_inputs = model.data_process(
-                images=[datum["image_url"]],
-                q_or_c="c"
-            )
-            img_embs = model(**img_inputs, output_hidden_states=True)[:, -1, :]
+            # img_inputs = model.data_process(
+            #     images=[datum["image_url"]],
+            #     q_or_c="c"
+            # )
+            # img_embs = model(**img_inputs, output_hidden_states=True)[:, -1, :]
             hybrid_inputs = model.data_process(
                 text=datum["text"],
                 images=datum["image_url"],
@@ -193,11 +199,11 @@ def embed_data_BGE_VL_v1_5_zs(data: list[dict]) -> list[dict]:
             hybrid_embs = model(**hybrid_inputs, output_hidden_states=True)[:, -1, :]
 
             text_embs = torch.nn.functional.normalize(text_embs, dim=-1)
-            img_embs = torch.nn.functional.normalize(img_embs, dim=-1)
+            # img_embs = torch.nn.functional.normalize(img_embs, dim=-1)
             hybrid_embs = torch.nn.functional.normalize(hybrid_embs, dim=-1)
 
         datum["text_dense"] = text_embs.detach().cpu().tolist()[0]
-        datum["image_dense"] = img_embs.detach().cpu().tolist()[0]
+        # datum["image_dense"] = img_embs.detach().cpu().tolist()[0]
         datum["hybrid_dense"] = hybrid_embs.detach().cpu().tolist()[0]
     return data
 
@@ -247,10 +253,6 @@ def embed_data_so400m_long_ctx309(data: list[dict], batch_size: int = 4096) -> l
     return data
 
 
-def embed_data_colpali_v1_3_merged(data: list[dict]) -> list[dict]:
-    pass
-
-
 def embed_data_Qwen3_Embedding_8B(data: list[dict]) -> list[dict]:
     def last_token_pool(last_hidden_states: torch.Tensor,
                         attention_mask: torch.Tensor) -> torch.Tensor:
@@ -295,61 +297,49 @@ from pymilvus import MilvusClient, DataType, CollectionSchema
 client = MilvusClient(uri="http://localhost:19530")
 
 
-def insert_data_BGE_VL_v1_5_zs(schema: CollectionSchema, data: list[dict]):
-    schema.add_field(
-        field_name="text_dense",
-        datatype=DataType.FLOAT_VECTOR,
-        dim=4096
-    )
-
-    schema.add_field(
-        field_name="image_dense",
-        datatype=DataType.FLOAT_VECTOR,
-        dim=4096
-    )
-
-    schema.add_field(
-        field_name="hybrid_dense",
-        datatype=DataType.FLOAT_VECTOR,
-        dim=4096
-    )
-
-    index_params = client.prepare_index_params()
-
-    # 3.4. Add indexes
-    index_params.add_index(
-        field_name="text_dense",
-        index_name="text_dense_index",
-        index_type="AUTOINDEX",
-        metric_type="IP"
-    )
-
-    index_params.add_index(
-        field_name="image_dense",
-        index_name="image_dense_index",
-        index_type="AUTOINDEX",
-        metric_type="IP"
-    )
-
-    index_params.add_index(
-        field_name="hybrid_dense",
-        index_name="hybrid_dense_index",
-        index_type="AUTOINDEX",
-        metric_type="IP"
-    )
-
-    if client.has_collection(collection_name="BGE_VL_v1_5_zs"):
-        client.drop_collection(collection_name="BGE_VL_v1_5_zs")
-    client.create_collection(
-        collection_name="BGE_VL_v1_5_zs",
-        schema=schema,
-        index_params=index_params
-    )
+def insert_data_BGE_VL_v1_5_zs(schema: CollectionSchema, data: list[dict], collection_name: str = "ChartGen"):
+    # schema.add_field(
+    #     field_name="text_dense",
+    #     datatype=DataType.FLOAT_VECTOR,
+    #     dim=4096
+    # )
+    #
+    # schema.add_field(
+    #     field_name="hybrid_dense",
+    #     datatype=DataType.FLOAT_VECTOR,
+    #     dim=4096
+    # )
+    #
+    # index_params = client.prepare_index_params()
+    #
+    # # 3.4. Add indexes
+    # index_params.add_index(
+    #     field_name="text_dense",
+    #     index_name="text_dense_index",
+    #     index_type="AUTOINDEX",
+    #     metric_type="IP"
+    # )
+    #
+    #
+    # index_params.add_index(
+    #     field_name="hybrid_dense",
+    #     index_name="hybrid_dense_index",
+    #     index_type="AUTOINDEX",
+    #     metric_type="IP"
+    # )
+    #
+    # if client.has_collection(collection_name=collection_name):
+    #     client.drop_collection(collection_name=collection_name)
+    # client.create_collection(
+    #     collection_name=collection_name,
+    #     schema=schema,
+    #     index_params=index_params
+    # )
 
     batch_size = 500
     for i in range(0, len(data), batch_size):
         batch = data[i:i + batch_size]
-        client.insert(collection_name="BGE_VL_v1_5_zs", data=batch)
+        client.insert(collection_name=collection_name, data=batch)
 
 
 def insert_data_so400m_long_ctx309(schema: CollectionSchema, data: list[dict]):
@@ -479,7 +469,8 @@ if __name__ == "__main__":
         max_length=32768,
     )
 
-    data = load_data()
+    # data = load_data()
+    data = load_ChartGen()
 
     data = embed_data_BGE_VL_v1_5_zs(data)
     insert_data_BGE_VL_v1_5_zs(schema, data)
