@@ -652,7 +652,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
               options={CHART_TYPES} 
               placeholder="请选择图表类型"
               allowClear
-              onDropdownVisibleChange={(open) => {
+              onOpenChange={(open) => {
                 // 当下拉框打开时，记录当前值
                 if (open) {
                   const currentValue = form.getFieldValue('chartType')
