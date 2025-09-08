@@ -1,4 +1,4 @@
-import {Input, Typography, theme, Button} from 'antd'
+import {Input, Typography, theme, Button, message} from 'antd'
 import ChartHistory from './ChartHistory'
 import Retrieval from "./Retrieval.jsx";
 import {useEffect, useState} from "react";
@@ -7,25 +7,33 @@ import {useEffect, useState} from "react";
 const {TextArea} = Input
 const {Title} = Typography
 
-const processSvg = async (item) => {
+const processChartData = async (item) => {
     try {
-        // 处理大型SVG使其响应式
-        const widthMatch = item.svg.match(/width="(\d+)"/);
-        const heightMatch = item.svg.match(/height="(\d+)"/);
+        // 如果有PNG图片，直接返回
+        if (item.image) {
+            return item;
+        }
+        
+        // 如果有SVG，处理使其响应式
+        if (item.svg) {
+            const widthMatch = item.svg.match(/width="(\d+)"/);
+            const heightMatch = item.svg.match(/height="(\d+)"/);
 
-        if (widthMatch && heightMatch) {
-            const originalWidth = widthMatch[1];
-            const originalHeight = heightMatch[1];
+            if (widthMatch && heightMatch) {
+                const originalWidth = widthMatch[1];
+                const originalHeight = heightMatch[1];
 
-            item.svg = item.svg
-                .replace(/width="[^"]*"/, 'width="100%"')
-                .replace(/height="[^"]*"/, 'height="100%"')
-                .replace(/<svg([^>]*)>/, `<svg$1 viewBox="0 0 ${originalWidth} ${originalHeight}" preserveAspectRatio="xMidYMid meet">`);
+                item.svg = item.svg
+                    .replace(/width="[^"]*"/, 'width="100%"')
+                    .replace(/height="[^"]*"/, 'height="100%"')
+                    .replace(/<svg([^>]*)>/, `<svg$1 viewBox="0 0 ${originalWidth} ${originalHeight}" preserveAspectRatio="xMidYMid meet">`);
+            }
         }
 
         return item
     } catch (error) {
-        console.error(`Failed to fetch SVG for ${item.chartType}:`, error);
+        console.error(`Failed to process chart data for ${item.chartType}:`, error);
+        return item;
     }
 };
 
@@ -49,22 +57,48 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
         {chartType: "pie", score: 0.5, svg: "pie"},
     ])
 
-    const getSparse = () => {
+   
+    const getSparse = async () => {
+        // 验证query不能为空
+        if (!query || query.trim() === '') {
+            message.warning('请输入查询内容')
+            return
+        }
 
+        const response = await fetch('http://10.12.42.176:11011/sparse', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                query: query.trim()
+            }),
+        })
+        let responseList = await response.json()
+        // 等待所有SVG处理完成
+        responseList = await Promise.all(responseList.map(item => processChartData(item)));
+        setSparse(responseList)
+        console.log(responseList)
     }
 
     const getDense = async () => {
+        // 验证query不能为空
+        if (!query || query.trim() === '') {
+            message.warning('请输入查询内容')
+            return
+        }
+
         const response = await fetch('http://localhost:8000', {
             method: 'POST',  // 设置请求方法为 POST
             headers: {
                 'Content-Type': 'application/json',  // 告诉服务器请求体的数据类型是 JSON
             },
             body: JSON.stringify({
-                query: query
+                query: query.trim()
             }),  // 将请求体数据转换为 JSON 字符串
         })
         const responseList = await response.json()
-        responseList.map(item => processSvg(item));
+        responseList.map(item => processChartData(item));
         setDense(responseList)
         console.log(dense)
     }
@@ -78,8 +112,16 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
                     autoSize={{minRows: 3, maxRows: 6}}
                     style={{height: '100%'}}
                     value={query}
+                    onChange={(e) => setQuery(e.target.value)}
                 />
-                <Button type="primary" size="small" onClick={getDense}>推荐</Button>
+                <Button 
+                    type="primary" 
+                    size="small" 
+                    disabled={!query || query.trim() === ''}
+                    onClick={() => { getDense(); getSparse(); }}
+                >
+                    推荐
+                </Button>
             </div>
             <div
                 className="app-left-bottom"

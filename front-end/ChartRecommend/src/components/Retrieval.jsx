@@ -8,8 +8,9 @@ const fusion = (sparse, dense, k = 60) => {
     // 处理稀疏检索结果（基于排名）
     sparse.forEach((item, index) => {
         const rank = index + 1;
-        fusionMap.set(item.svg, {
+        fusionMap.set(item.image || item.svg, {
             chartType: item.chartType,
+            image: item.image,
             svg: item.svg,
             sparseScore: item.score,
             denseScore: 0,
@@ -22,14 +23,15 @@ const fusion = (sparse, dense, k = 60) => {
     // 处理稠密检索结果
     dense.forEach((item, index) => {
         const rank = index + 1;
-        if (fusionMap.has(item.svg)) {
-            const existing = fusionMap.get(item.svg);
+        if (fusionMap.has(item.image || item.svg)) {
+            const existing = fusionMap.get(item.image || item.svg);
             existing.denseScore = item.score;
             existing.denseRank = rank;
             existing.rrfScore += 1 / (k + rank);
         } else {
-            fusionMap.set(item.svg, {
+            fusionMap.set(item.image || item.svg, {
                 chartType: item.chartType,
+                image: item.image,
                 svg: item.svg,
                 sparseScore: 0,
                 denseScore: item.score,
@@ -45,6 +47,7 @@ const fusion = (sparse, dense, k = 60) => {
         .slice(0, 5)
         .map(item => ({
             chartType: item.chartType,
+            image: item.image,
             svg: item.svg,
             score: item.rrfScore.toFixed(3) // 显示RRF分数
         }));
@@ -74,7 +77,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 <div style={{display: "grid", gridTemplateRows: "repeat(5, 1fr)", gap: 6}}>
                     {sparse.map(item => (
                         <div 
-                            key={item.svg} 
+                            key={item.image || item.svg} 
                             style={{
                                 border: `1px solid ${token.colorBorderSecondary}`, 
                                 borderRadius: 4,
@@ -97,14 +100,26 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                             }}
                         >
                             <Title level={5} style={{marginTop: 0}}>{item.chartType}</Title>
-                            {/* 渲染 SVG 字符串 */}
-                            {item.svg && (
+                            {/* 渲染 PNG 图片 */}
+                            {item.image ? (
+                                <img
+                                    src={item.image}
+                                    alt={item.chartType}
+                                    style={{
+                                        width: '100%',
+                                        height: '180px',
+                                        objectFit: 'contain',
+                                        borderRadius: '4px',
+                                        background: '#fafafa'
+                                    }}
+                                />
+                            ) : item.svg ? (
                                 <div
                                     className="svg-container"
                                     dangerouslySetInnerHTML={{__html: item.svg}}
                                     style={{
                                         width: '100%',
-                                        height: '180px', // 稍微调小一点给标题留空间
+                                        height: '180px',
                                         borderRadius: '4px',
                                         overflow: 'hidden',
                                         display: 'flex',
@@ -112,6 +127,19 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                         alignItems: 'center',
                                     }}
                                 />
+                            ) : (
+                                <div style={{
+                                    width: '100%',
+                                    height: '180px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    background: '#fafafa',
+                                    borderRadius: '4px',
+                                    color: '#999'
+                                }}>
+                                    无预览
+                                </div>
                             )}
                         </div>
                     ))}
@@ -131,7 +159,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 <div style={{display: "grid", gridTemplateRows: "repeat(5, 1fr)", gap: 6}}>
                     {dense.map(item => (
                         <div 
-                            key={item.svg} 
+                            key={item.image || item.svg} 
                             style={{
                                 border: `1px solid ${token.colorBorderSecondary}`, 
                                 borderRadius: 4,
@@ -150,14 +178,26 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                             }}
                         >
                             <Title level={5} style={{marginTop: 0}}>{item.chartType}</Title>
-                            {/* 渲染 SVG 字符串 */}
-                            {item.svg && (
+                            {/* 渲染 PNG 图片 */}
+                            {item.image ? (
+                                <img
+                                    src={item.image}
+                                    alt={item.chartType}
+                                    style={{
+                                        width: '100%',
+                                        height: '180px',
+                                        objectFit: 'contain',
+                                        borderRadius: '4px',
+                                        background: '#fafafa'
+                                    }}
+                                />
+                            ) : item.svg ? (
                                 <div
                                     className="svg-container"
                                     dangerouslySetInnerHTML={{__html: item.svg}}
                                     style={{
                                         width: '100%',
-                                        height: '180px', // 稍微调小一点给标题留空间
+                                        height: '180px',
                                         borderRadius: '4px',
                                         overflow: 'hidden',
                                         display: 'flex',
@@ -165,6 +205,19 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                         alignItems: 'center',
                                     }}
                                 />
+                            ) : (
+                                <div style={{
+                                    width: '100%',
+                                    height: '180px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    background: '#fafafa',
+                                    borderRadius: '4px',
+                                    color: '#999'
+                                }}>
+                                    无预览
+                                </div>
                             )}
                         </div>
                     ))}
@@ -184,7 +237,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 <div style={{display: "grid", gridTemplateRows: "repeat(5, 1fr)", gap: 6}}>
                     {fusion(sparse, dense).map(item => (
                         <div 
-                            key={item.svg} 
+                            key={item.image || item.svg} 
                             style={{
                                 border: `1px solid ${token.colorBorderSecondary}`, 
                                 borderRadius: 4,
@@ -203,14 +256,26 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                             }}
                         >
                             <Title level={5} style={{marginTop: 0}}>{item.chartType}</Title>
-                            {/* 渲染 SVG 字符串 */}
-                            {item.svg && (
+                            {/* 渲染 PNG 图片 */}
+                            {item.image ? (
+                                <img
+                                    src={item.image}
+                                    alt={item.chartType}
+                                    style={{
+                                        width: '100%',
+                                        height: '180px',
+                                        objectFit: 'contain',
+                                        borderRadius: '4px',
+                                        background: '#fafafa'
+                                    }}
+                                />
+                            ) : item.svg ? (
                                 <div
                                     className="svg-container"
                                     dangerouslySetInnerHTML={{__html: item.svg}}
                                     style={{
                                         width: '100%',
-                                        height: '180px', // 稍微调小一点给标题留空间
+                                        height: '180px',
                                         borderRadius: '4px',
                                         overflow: 'hidden',
                                         display: 'flex',
@@ -218,6 +283,19 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                         alignItems: 'center',
                                     }}
                                 />
+                            ) : (
+                                <div style={{
+                                    width: '100%',
+                                    height: '180px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    background: '#fafafa',
+                                    borderRadius: '4px',
+                                    color: '#999'
+                                }}>
+                                    无预览
+                                </div>
                             )}
                         </div>
                     ))}
