@@ -35,17 +35,17 @@ function EChartsTreemapChart({ chartType, title, description, width, height, for
   // 矩形树图配置
   const option = {
     title: {
-      text: title || '矩形树图',
+      text: title || 'Treemap',
       left: 'center'
     },
     tooltip: {
       trigger: 'item',
       formatter: function(params) {
-        return `${params.data.name}<br/>大小: ${params.data.value}`
+        return `${params.data.name}<br/>Size: ${params.data.value}`
       }
     },
     series: [{
-      name: '矩形树图',
+      name: 'Treemap',
       type: 'treemap',
       data: treemapData,
       label: {

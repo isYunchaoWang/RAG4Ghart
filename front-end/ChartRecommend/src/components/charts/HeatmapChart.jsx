@@ -12,32 +12,32 @@ function buildHeatmapChartSpec({ title, description, width, height, formValues, 
     encoding: {}
   }
 
-  // 从表单值中提取字段和类型
+  // Extract fields and types from form values
   const getField = (fieldName) => formValues[`${fieldName}Field`]
   const getType = (fieldName) => formValues[`${fieldName}Type`]
 
-  // 热力图编码
+  // Heatmap encoding
   if (getField('x')) spec.encoding.x = { field: getField('x'), type: getType('x') || 'ordinal' }
   if (getField('y')) spec.encoding.y = { field: getField('y'), type: getType('y') || 'ordinal' }
   if (getField('value')) spec.encoding.color = { field: getField('value'), type: getType('value') || 'quantitative' }
 
-  // 构建mark配置
+  // Build mark configuration
   const markConfig = { type: 'rect' }
   
-  // 透明度配置
+  // Opacity configuration
   if (formValues.opacity !== undefined && formValues.opacity !== 1) {
     markConfig.opacity = formValues.opacity
   }
   
-  // 边框配置
+  // Border configuration
   if (formValues.strokeWidth !== undefined && formValues.strokeWidth > 0) {
     markConfig.stroke = formValues.strokeColor || '#000'
     markConfig.strokeWidth = formValues.strokeWidth
   }
 
-  // 颜色配置
+  // Color configuration
   if (spec.encoding.color) {
-    // 如果有颜色方案，使用颜色方案
+    // If there is a color scheme, use the color scheme
     if (formValues.colorScheme) {
       spec.encoding.color = {
         ...spec.encoding.color,

@@ -1,17 +1,17 @@
 from tqdm import tqdm
 
 
-def load_data(base_url: str = "/home/public/dataset-MegaCQA") -> list[dict]:
+def load_RWC(base_url: str = "/home/public/dataset-MegaCQA") -> list[dict]:
     import glob, os
     import pandas as pd
 
     data = []
-    chart_types = ("bar", "box", "bubble", "funnel", "line", "pie", "radar","scatter", "stacked_area",
-                    "stacked_bar", "treemap")
+    # chart_types = ("bar", "box", "bubble", "funnel", "line")
+    chart_types = ("pie", "radar", "scatter", "stacked_bar", "treemap")
     for chart_type in chart_types:
-        csv_paths = glob.glob(f"{base_url}/train/{chart_type}/csv/*.csv")
-        for csv_path in tqdm(csv_paths, desc=f"Processing {chart_type}", unit="file"):
-            datum_id = int(os.path.splitext(os.path.basename(csv_path))[0])
+        png_paths = glob.glob(f"{base_url}/train/{chart_type}/png/*.png")
+        for png_path in tqdm(png_paths, desc=f"Processing {chart_type}", unit="file"):
+            datum_id = os.path.splitext(os.path.basename(png_path))[0]
 
             with open(f"{base_url}/train/{chart_type}/txt/{datum_id}.txt", "r", encoding="gbk") as f:
                 text = f.read()
@@ -26,120 +26,123 @@ def load_data(base_url: str = "/home/public/dataset-MegaCQA") -> list[dict]:
                 "data": str(),
                 "text_dense": list()
             }
-            df = pd.DataFrame()
-            if chart_type in {"bar", "box", "stacked_bar"}:
-                theme, title, unit, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "display": display,
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
-            elif chart_type == "bubble":
-                theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "header": df.columns.values.tolist(),
-                }
-            elif chart_type in {"chord", "pie", "sunburst", "treemap", "violin"}:
-                theme, title, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
-            elif chart_type == "fill_bubble":
-                theme, title, data_num = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {"data_num": data_num}
-            elif chart_type == "funnel":
-                theme, title, unit, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "distribution": distribution,
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
-            elif chart_type == "heatmap":
-                theme, title, matrix_dim, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, names=["X", "Y", "Value"], encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "x_labels": df['X'].drop_duplicates().tolist(),  # 获取 X 轴标签（唯一的第一列值，顺序保留）
-                    "y_labels": df['Y'].drop_duplicates().tolist(),  # 获取 Y 轴标签（唯一的第二列值，顺序保留）
-                    "distribution": distribution
-                }
-            elif chart_type in {"line", "ridgeline", "stacked_area", "stream"}:
-                theme, title, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                # 读取csv（需要跳过第一行，然后手动读取第二行作为list）
-                with open(csv_path, 'r', encoding='gbk') as f:
-                    lines = f.readlines()
-                # 第二行是trend,stable_rising,volatile_falling,...
-                trend = lines[1].strip().split(',')[0:] if chart_type == "ridgeline" else lines[1].strip().split(',')[1:] # 按逗号分割
-                df = pd.read_csv(csv_path, skiprows=2, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "trend": trend,
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
-            elif chart_type in {"nodelink", "parallel"}:
-                theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {"header": df.columns.values.tolist()}
-            elif chart_type == "radar":
-                theme, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["metadata"] = {
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
-            elif chart_type == "sankey":
-                theme, title, unit, *labels = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "labels": labels,
-                    "header": df.columns.values.tolist(),
-                    "unit": unit
-                }
-            elif chart_type == "scatter":
-                theme, title, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
-                df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
-                datum["theme"] = theme
-                datum["title"] = title
-                datum["metadata"] = {
-                    "display": display,
-                    "header": df.columns.values.tolist()
-                }
-            datum["data"] = df.to_json(orient="records")
+            # df = pd.DataFrame()
+            # if chart_type in {"bar", "box", "stacked_bar"}:
+            #     theme, title, unit, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "display": display,
+            #         "header": df.columns.values.tolist(),
+            #         "unit": unit
+            #     }
+            # elif chart_type == "bubble":
+            #     theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "header": df.columns.values.tolist(),
+            #     }
+            # elif chart_type in {"chord", "pie", "sunburst", "treemap", "violin"}:
+            #     theme, title, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "header": df.columns.values.tolist(),
+            #         "unit": unit
+            #     }
+            # elif chart_type == "fill_bubble":
+            #     theme, title, data_num = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {"data_num": data_num}
+            # elif chart_type == "funnel":
+            #     theme, title, unit, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "distribution": distribution,
+            #         "header": df.columns.values.tolist(),
+            #         "unit": unit
+            #     }
+            # elif chart_type == "heatmap":
+            #     theme, title, matrix_dim, distribution = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, names=["X", "Y", "Value"], encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "x_labels": df['X'].drop_duplicates().tolist(),  # 获取 X 轴标签（唯一的第一列值，顺序保留）
+            #         "y_labels": df['Y'].drop_duplicates().tolist(),  # 获取 Y 轴标签（唯一的第二列值，顺序保留）
+            #         "distribution": distribution
+            #     }
+            # elif chart_type in {"line", "ridgeline", "stacked_area", "stream"}:
+            #     theme, title, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     # 读取csv（需要跳过第一行，然后手动读取第二行作为list）
+            #     with open(csv_path, 'r', encoding='gbk') as f:
+            #         lines = f.readlines()
+            #     # 第二行是trend,stable_rising,volatile_falling,...
+            #     trend = lines[1].strip().split(',')[0:] if chart_type == "ridgeline" else lines[1].strip().split(',')[1:] # 按逗号分割
+            #     df = pd.read_csv(csv_path, skiprows=2, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "trend": trend,
+            #         "header": df.columns.values.tolist(),
+            #         "unit": unit
+            #     }
+            # elif chart_type in {"nodelink", "parallel"}:
+            #     theme, title = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {"header": df.columns.values.tolist()}
+            # elif chart_type == "radar":
+            #     theme, unit = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["metadata"] = {
+            #         "header": df.columns.values.tolist(),
+            #         "unit": unit
+            #     }
+            # elif chart_type == "sankey":
+            #     theme, title, unit, *labels = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "labels": labels,
+            #         "header": df.columns.values.tolist(),
+            #         "unit": unit
+            #     }
+            # elif chart_type == "scatter":
+            #     theme, title, display = pd.read_csv(csv_path, nrows=1, encoding="utf-8").columns
+            #     df = pd.read_csv(csv_path, skiprows=1, encoding="utf-8")
+            #     datum["theme"] = theme
+            #     datum["title"] = title
+            #     datum["metadata"] = {
+            #         "display": display,
+            #         "header": df.columns.values.tolist()
+            #     }
+            # datum["data"] = df.to_json(orient="records")
             data.append(datum)
     return data
 
-def load_ChartGen(base_url: str = "/home/public/ChartGen-200K/converted") -> list[dict]:
+# 77000 68h
+def load_Gen(base_url: str = "/home/public/ChartGen-200K/converted") -> list[dict]:
     import glob, os
 
     data = []
-    # chart_types = ("bubble", "line", "pie", "radar", "stacked_area", "treemap")
-    chart_types = ("bar", "box", "funnel", "scatter", "stacked_bar")
+    # chart_types = ("bubble", "pie", "radar", "stacked_area", "treemap")
+    # chart_types = ("bar", "box", "funnel", "scatter", "stacked_bar")
+    # chart_types = ("bar", "box", "scatter", "bubble", "pie")
+    chart_types = ("funnel", "stacked_bar", "radar", "stacked_area", "treemap")
     for chart_type in chart_types:
-        csv_paths = glob.glob(f"{base_url}/train/{chart_type}/csv/*.csv")
+        csv_paths = glob.glob(f"{base_url}/train/{chart_type}/csv/*.csv").sort()
         for csv_path in tqdm(csv_paths, desc=f"Processing {chart_type}", unit="file"):
             datum_id = os.path.splitext(os.path.basename(csv_path))[0]
 
@@ -149,11 +152,7 @@ def load_ChartGen(base_url: str = "/home/public/ChartGen-200K/converted") -> lis
             datum = {
                 "image_url": f"{base_url}/train/{chart_type}/png/{datum_id}.png",
                 "type": chart_type,
-                "theme": str(),
-                "title": str(),
                 "text": text,
-                "metadata": dict(),
-                "data": str(),
                 "text_dense": list()
             }
             # try:
@@ -297,45 +296,7 @@ from pymilvus import MilvusClient, DataType, CollectionSchema
 client = MilvusClient(uri="http://localhost:19530")
 
 
-def insert_data_BGE_VL_v1_5_zs(schema: CollectionSchema, data: list[dict], collection_name: str = "ChartGen"):
-    # schema.add_field(
-    #     field_name="text_dense",
-    #     datatype=DataType.FLOAT_VECTOR,
-    #     dim=4096
-    # )
-    #
-    # schema.add_field(
-    #     field_name="hybrid_dense",
-    #     datatype=DataType.FLOAT_VECTOR,
-    #     dim=4096
-    # )
-    #
-    # index_params = client.prepare_index_params()
-    #
-    # # 3.4. Add indexes
-    # index_params.add_index(
-    #     field_name="text_dense",
-    #     index_name="text_dense_index",
-    #     index_type="AUTOINDEX",
-    #     metric_type="IP"
-    # )
-    #
-    #
-    # index_params.add_index(
-    #     field_name="hybrid_dense",
-    #     index_name="hybrid_dense_index",
-    #     index_type="AUTOINDEX",
-    #     metric_type="IP"
-    # )
-    #
-    # if client.has_collection(collection_name=collection_name):
-    #     client.drop_collection(collection_name=collection_name)
-    # client.create_collection(
-    #     collection_name=collection_name,
-    #     schema=schema,
-    #     index_params=index_params
-    # )
-
+def insert_data_BGE_VL_v1_5_zs(data: list[dict], collection_name: str):
     batch_size = 500
     for i in range(0, len(data), batch_size):
         batch = data[i:i + batch_size]
@@ -419,61 +380,11 @@ def insert_data_Qwen3_Embedding_8B(schema: CollectionSchema, data: list[dict]):
 
 
 if __name__ == "__main__":
-    schema = client.create_schema(auto_id=True)
-    schema.add_field(
-        field_name="id",
-        datatype=DataType.INT64,
-        is_primary=True,
-        auto_id=True,
-    )
-
-    schema.add_field(
-        field_name="image_url",
-        datatype=DataType.VARCHAR,
-        max_length=128
-    )
-
-    schema.add_field(
-        field_name="type",
-        datatype=DataType.VARCHAR,
-        max_length=32
-    )
-
-    schema.add_field(
-        field_name="theme",
-        datatype=DataType.VARCHAR,
-        max_length=128
-    )
-
-    schema.add_field(
-        field_name="title",
-        datatype=DataType.VARCHAR,
-        max_length=128
-    )
-
-    schema.add_field(
-        field_name="text",
-        datatype=DataType.VARCHAR,
-        max_length=4096
-    )
-
-    schema.add_field(
-        field_name="metadata",
-        datatype=DataType.JSON,
-        nullable=False
-    )
-
-    schema.add_field(
-        field_name="data",
-        datatype=DataType.VARCHAR,
-        max_length=32768,
-    )
-
-    # data = load_data()
-    data = load_ChartGen()
+    data = load_RWC()
+    # data = load_Gen()
 
     data = embed_data_BGE_VL_v1_5_zs(data)
-    insert_data_BGE_VL_v1_5_zs(schema, data)
+    insert_data_BGE_VL_v1_5_zs(data, collection_name="RWC_full")
 
     # data = embed_data_so400m_long_ctx309(data)
     # insert_data_so400m_long_ctx309(schema, data)

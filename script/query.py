@@ -1,19 +1,22 @@
-from fastapi import FastAPI, Body
+from fastapi import FastAPI, Body, HTTPException
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
-# from modelscope import AutoModel
-# import torch
-# from pymilvus import MilvusClient
-#
-#
-# # Model path and initialization
-# model_name = "/home/public/dkx/model/BAAI/BGE-VL-v1.5-zs"
-# model = AutoModel.from_pretrained(model_name, trust_remote_code=True)
-# model.eval()
-# model.cuda()
-# model.set_processor(model_name)
-#
-# # Milvus client
-# client = MilvusClient(uri="http://localhost:19530")
+import os
+from modelscope import AutoModel
+import torch
+from pymilvus import MilvusClient
+
+
+# Model path and initialization
+MODEL_PATH = "/home/public/dkx/model/BAAI/BGE-VL-v1.5-zs"
+model = AutoModel.from_pretrained(MODEL_PATH, trust_remote_code=True)
+model.eval()
+model.cuda()
+model.set_processor(MODEL_PATH)
+
+# Milvus client
+milvus_client = MilvusClient(uri="http://localhost:19530")
 
 # FastAPI initialization
 app = FastAPI()
@@ -32,29 +35,33 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all request headers
 )
 
+# 静态文件服务 - 用于提供图片文件
+# 假设图片存储在 /home/public/dataset-MegaCQA/train/ 目录下
+app.mount("/static", StaticFiles(directory="/home/public/dataset-MegaCQA/train"), name="static")
+
 @app.post("/")
-def dense_retrieve(query: str = Body(..., embed=True)):
-    # # Process query with model
-    # q = model.data_process(
-    #     text=query,
-    #     q_or_c="q",
-    #     task_instruction="Recommend the most suitable chart with corresponding description for visualizing the information given by the provided text: "
-    # )
-    #
-    # # Get embeddings from the model
-    # emb = model(**q, output_hidden_states=True)[:, -1, :]
-    # emb = torch.nn.functional.normalize(emb, dim=-1)
-    # emb_list = emb.detach().cpu().tolist()
-    #
-    # # Search in Milvus
-    # results = client.search(
-    #     collection_name="BGE_VL_v1_5_zs",
-    #     anns_field="hybrid_dense",
-    #     data=emb_list,
-    #     limit=5,
-    #     search_params={"metric_type": "IP"},
-    #     output_fields=["type", "image_url"],
-    # )
+async def dense_retrieve(query: str = Body(..., embed=True)):
+    # Process query with model
+    q = model.data_process(
+        text=query,
+        q_or_c="q",
+        task_instruction="Recommend the most suitable chart with corresponding description for visualizing the information given by the provided text: "
+    )
+
+    # Get embeddings from the model
+    emb = model(**q, output_hidden_states=True)[:, -1, :]
+    emb = torch.nn.functional.normalize(emb, dim=-1)
+    emb_list = emb.detach().cpu().tolist()
+
+    # Search in Milvus
+    results = milvus_client.search(
+        collection_name="BGE_VL_v1_5_zs",
+        anns_field="hybrid_dense",
+        data=emb_list,
+        limit=5,
+        search_params={"metric_type": "IP"},
+        output_fields=["type", "image_url"],
+    )
 
     # Process search results
     # hits = results[0]
@@ -92,3 +99,27 @@ def dense_retrieve(query: str = Body(..., embed=True)):
 
     # return list(reversed(response_list))
     return response_list
+
+@app.get("/image/{chart_type}/{filename}")
+async def get_image(chart_type: str, filename: str):
+    """
+    根据图表类型和文件名返回PNG图片
+    例如: /image/bar/1.png
+    """
+    # 构建图片文件路径
+    image_path = f"/home/public/dataset-MegaCQA/train/{chart_type}/png/{filename}"
+    
+    # 检查文件是否存在
+    if not os.path.exists(image_path):
+        raise HTTPException(status_code=404, detail="图片文件不存在")
+    
+    # 检查文件扩展名是否为PNG
+    if not filename.lower().endswith('.png'):
+        raise HTTPException(status_code=400, detail="只支持PNG格式的图片")
+    
+    # 返回图片文件
+    return FileResponse(
+        path=image_path,
+        media_type="image/png",
+        filename=filename
+    )

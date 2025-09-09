@@ -12,11 +12,13 @@ client = MilvusClient(
 def BGE_VL_v1_5_zs_eval_mrr(
         model_name="/home/public/dkx/model/BAAI/BGE-VL-v1.5-zs",
         query_glob="/home/public/dataset-MegaCQA/test/*/txt/*.txt",
-        collection_name="BGE_VL_v1_5_zs",
-        k_values=None,  # 修改：支持多个k值
+        collection_name="ChartGen",
+        k_values=None,
         task_instruction="Recommend the most suitable chart with corresponding description for visualizing the information given by the provided text: ",
         anns_field="hybrid_dense",
-        target_chart_types=None  # 新增：指定要测试的图表类型，None表示测试所有类型
+        target_chart_types=None,
+        samples_per_type=None,  # 新增：每种图表类型的样本数量，None表示使用所有样本
+        random_seed=42  # 新增：随机种子，用于确保结果可复现
 ):
     """
     批量评估 MRR：
@@ -27,13 +29,15 @@ def BGE_VL_v1_5_zs_eval_mrr(
     参数:
         target_chart_types: 指定要测试的图表类型列表，如 ["bar", "bubble", "chord"] 等
                            如果为None，则测试所有找到的图表类型
+        samples_per_type: 每种图表类型的样本数量，如果为None则使用所有样本
+                         可以是整数（所有类型使用相同数量）或字典（为每种类型指定不同数量）
+        random_seed: 随机种子，用于样本采样的可复现性
 
     依赖：
         - 已经有全局变量 `client` 且连接到向量库，能调用 .load_collection 和 .search
         - modelscope 已安装
     """
 
-    # ---- 命中字段安全获取（兼容 dict / 对象 / entity）----
     if k_values is None:
         k_values = [1, 3, 5, 10]
 
@@ -62,10 +66,15 @@ def BGE_VL_v1_5_zs_eval_mrr(
         return None
 
     import re
-    # ---- 图表类型归一化：treemap_D3 -> treemap（大小写无关）----
+    import random
+    from collections import defaultdict
+
+    # 设置随机种子以确保结果可复现
+    if random_seed is not None:
+        random.seed(random_seed)
+
     def normalize_chart_type(raw: str) -> str:
         s = raw.strip().lower().replace("-", "_")
-        # treemap、treemap_d3、treemap__d3 等都统一到 treemap
         if re.fullmatch(r"treemap(?:_d3)?", s):
             return "treemap"
         return s
@@ -79,7 +88,9 @@ def BGE_VL_v1_5_zs_eval_mrr(
 
     # 2) 收集查询与目标类型（并做类型归一）
     txt_paths = glob.glob(query_glob)
-    queries = []
+
+    # 按图表类型分组收集查询
+    queries_by_type = defaultdict(list)
 
     # 如果指定了target_chart_types，将其转换为归一化的集合
     if target_chart_types is not None:
@@ -87,6 +98,7 @@ def BGE_VL_v1_5_zs_eval_mrr(
     else:
         target_set = None
 
+    # 首先按类型收集所有查询
     for txt_path in txt_paths:
         parts = os.path.normpath(txt_path).split(os.sep)
         raw_type = parts[-3]  # .../test/<chart_type>/txt/xxx.txt
@@ -106,15 +118,44 @@ def BGE_VL_v1_5_zs_eval_mrr(
 
         if not text:
             continue
-        queries.append((text, chart_type, txt_path))
+
+        queries_by_type[chart_type].append((text, chart_type, txt_path))
+
+    # 对每种类型进行采样
+    queries = []
+
+    if samples_per_type is not None:
+        for chart_type, type_queries in queries_by_type.items():
+            # 确定该类型要采样的数量
+            if isinstance(samples_per_type, dict):
+                n_samples = samples_per_type.get(chart_type, len(type_queries))
+            else:
+                n_samples = samples_per_type
+
+            # 进行采样
+            if n_samples >= len(type_queries):
+                # 如果要求的样本数不少于现有样本数，使用全部样本
+                sampled_queries = type_queries
+            else:
+                # 随机采样
+                sampled_queries = random.sample(type_queries, n_samples)
+
+            queries.extend(sampled_queries)
+            print(f"图表类型 '{chart_type}': 总共 {len(type_queries)} 个样本，采样 {len(sampled_queries)} 个")
+    else:
+        # 如果没有指定采样数量，使用所有查询
+        for chart_type, type_queries in queries_by_type.items():
+            queries.extend(type_queries)
+            print(f"图表类型 '{chart_type}': 使用全部 {len(type_queries)} 个样本")
 
     if not queries:
         raise RuntimeError("没有在指定路径找到任何查询文本。检查 query_glob 是否正确。")
 
+    print(f"\n总共将评估 {len(queries)} 个查询")
+
     # 3) 向量库
     client.load_collection(collection_name)
 
-    from collections import defaultdict
     # 4) 统计容器 - 修改：为每个k值分别统计
     per_type_rrs = defaultdict(list)
     per_type_total = defaultdict(int)
@@ -141,7 +182,7 @@ def BGE_VL_v1_5_zs_eval_mrr(
                 collection_name=collection_name,
                 anns_field=anns_field,
                 data=emb_list,
-                limit=max_k,  # 修改：使用最大k值
+                limit=max_k,
                 search_params={"metric_type": "IP"},
                 output_fields=["type", "image_url"],
             )
@@ -200,7 +241,7 @@ def BGE_VL_v1_5_zs_eval_mrr(
         overall_metrics[f"Hit@{k}"] = round(hitk_rate, 6)
 
     # 7) 输出 - 修改：显示所有k值的结果
-    print("===== Per-Type Metrics =====")
+    print("\n===== Per-Type Metrics =====")
     # 创建表头
     header = f"{'Type':<15} {'Queries':<8} {'MRR':<8}"
     for k in k_values:
@@ -450,11 +491,13 @@ def Qwen3_Embedding_8B_eval_mrr(
 # ===== 运行 =====
 if __name__ == "__main__":
     # 只测试指定的9种图表类型
-    target_types = ["bar", "box", "bubble", "funnel", "line", "pie", "radar","scatter", "stacked_area",
+    target_types = ["bar", "box", "bubble", "funnel", "line", "pie", "radar","scatter",
                     "stacked_bar", "treemap"]
 
     results = BGE_VL_v1_5_zs_eval_mrr(
-        target_chart_types=target_types
+        k_values=[1, 5],
+        target_chart_types=target_types,
+        samples_per_type=200
     )
 
 """

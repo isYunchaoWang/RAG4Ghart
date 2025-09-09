@@ -1,14 +1,20 @@
 import os
 from collections import defaultdict
 
-base_path = "/home/public/ChartGen-200K/converted/test"
+base_path = "/home/public/dataset-MegaCQA/train"
 
 # 22 个类别
-categories = [
-    "area", "bar", "box", "bubble", "funnel", "heatmap", "line", "multi_axes",
-    "pie", "radar", "ring", "rose", "scatter", "stacked_area", "stacked_bar",
-    "stem_plot", "treemap", "violin"
-]
+# categories = [
+#     "area", "bar", "box", "bubble", "funnel", "heatmap", "line", "multi_axes",
+#     "pie", "radar", "ring", "rose", "scatter", "stacked_area", "stacked_bar",
+#     "stem_plot", "treemap", "violin"
+# ]
+
+categories = ("bar", "box", "bubble", "funnel", "line", "pie", "radar", "scatter", "treemap", "treemap")
+
+# categories = [
+#     "bar", "box", "scatter", "bubble", "pie" # 4000
+# ]
 
 # 5 个子目录
 subdirs = ["csv", "png", "txt"]

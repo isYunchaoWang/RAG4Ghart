@@ -61,18 +61,18 @@ function EChartsChordChart({ chartType, title, description, width, height, formV
       trigger: 'item',
       formatter: function(params) {
         if (params.dataType === 'node') {
-          return `${params.data.name}<br/>节点`
+          return `${params.data.name}<br/>Node`
         }
         if (params.dataType === 'edge') {
           const sourceName = nodes[params.data.source]?.name || params.data.source
           const targetName = nodes[params.data.target]?.name || params.data.target
-          return `${sourceName} → ${targetName}<br/>连接强度: ${params.data.value}`
+          return `${sourceName} → ${targetName}<br/>Connection Strength: ${params.data.value}`
         }
         return params.data.name || ''
       }
     },
     series: [{
-      name: '环状关系图',
+      name: 'Chord Chart',
       type: 'graph',
       layout: 'circular',
       center: ['50%', '50%'],
