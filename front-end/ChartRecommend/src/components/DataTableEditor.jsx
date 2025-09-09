@@ -10,7 +10,7 @@ function DataTableEditor({ value, onChange, chartType }) {
   const [isValid, setIsValid] = useState(true)
   const [errorMessage, setErrorMessage] = useState('')
 
-  // 根据图表类型生成默认数据
+  // Generate default data based on chart type
   const getDefaultData = (type) => {
     switch (type) {
       case 'bar':
@@ -30,18 +30,18 @@ function DataTableEditor({ value, onChange, chartType }) {
       case 'scatter':
       case 'bubble':
         return [
-          { x: 10, y: 15, size: 20, category: 'A类' },
-          { x: 20, y: 25, size: 35, category: 'A类' },
-          { x: 30, y: 35, size: 50, category: 'B类' },
-          { x: 40, y: 45, size: 65, category: 'B类' }
+          { x: 10, y: 15, size: 20, category: 'Category A' },
+          { x: 20, y: 25, size: 35, category: 'Category A' },
+          { x: 30, y: 35, size: 50, category: 'Category B' },
+          { x: 40, y: 45, size: 65, category: 'Category B' }
         ]
       case 'pie':
         return [
-          { category: '分类A', value: 30 },
-          { category: '分类B', value: 25 },
-          { category: '分类C', value: 20 },
-          { category: '分类D', value: 15 },
-          { category: '分类E', value: 10 }
+          { category: 'Category A', value: 30 },
+          { category: 'Category B', value: 25 },
+          { category: 'Category C', value: 20 },
+          { category: 'Category D', value: 15 },
+          { category: 'Category E', value: 10 }
         ]
       case 'heatmap':
         return [
@@ -59,20 +59,20 @@ function DataTableEditor({ value, onChange, chartType }) {
         ]
       case 'chord':
         return [
-          { source: '北京', target: '上海', value: 25 },
-          { source: '北京', target: '广州', value: 18 },
-          { source: '上海', target: '广州', value: 22 },
-          { source: '上海', target: '深圳', value: 15 },
-          { source: '广州', target: '深圳', value: 20 },
-          { source: '深圳', target: '北京', value: 12 }
+          { source: 'Beijing', target: 'Shanghai', value: 25 },
+          { source: 'Beijing', target: 'Guangzhou', value: 18 },
+          { source: 'Shanghai', target: 'Guangzhou', value: 22 },
+          { source: 'Shanghai', target: 'Shenzhen', value: 15 },
+          { source: 'Guangzhou', target: 'Shenzhen', value: 20 },
+          { source: 'Shenzhen', target: 'Beijing', value: 12 }
         ]
       case 'node_link':
         return [
-          { node: 'A', x: 10, y: 20, group: '组1', size: 30 },
-          { node: 'B', x: 30, y: 40, group: '组1', size: 25 },
-          { node: 'C', x: 50, y: 30, group: '组2', size: 35 },
-          { node: 'D', x: 70, y: 60, group: '组2', size: 20 },
-          { node: 'E', x: 90, y: 10, group: '组3', size: 40 },
+          { node: 'A', x: 10, y: 20, group: 'Group 1', size: 30 },
+          { node: 'B', x: 30, y: 40, group: 'Group 1', size: 25 },
+          { node: 'C', x: 50, y: 30, group: 'Group 2', size: 35 },
+          { node: 'D', x: 70, y: 60, group: 'Group 2', size: 20 },
+          { node: 'E', x: 90, y: 10, group: 'Group 3', size: 40 },
           { source: 'A', target: 'B', value: 1 },
           { source: 'B', target: 'C', value: 1 },
           { source: 'C', target: 'D', value: 1 },
@@ -93,24 +93,24 @@ function DataTableEditor({ value, onChange, chartType }) {
   const getDataFormatDescription = (type) => {
     switch (type) {
       case 'bar':
-        return '格式：数组对象，每个对象包含 x（类别）和 y（数值）字段'
+        return 'Format: Array of objects, each containing x (category) and y (value) fields'
       case 'line':
-        return '格式：数组对象，每个对象包含 x（时间/类别）和 y（数值）字段'
+        return 'Format: Array of objects, each containing x (time/category) and y (value) fields'
       case 'scatter':
       case 'bubble':
-        return '格式：数组对象，每个对象包含 x（X轴）、y（Y轴）、size（大小，可选）、category（分类，可选）字段'
+        return 'Format: Array of objects, each containing x (X-axis), y (Y-axis), size (optional), category (optional) fields'
       case 'pie':
-        return '格式：数组对象，每个对象包含 category（分类）和 value（数值）字段'
+        return 'Format: Array of objects, each containing category and value fields'
       case 'heatmap':
-        return '格式：数组对象，每个对象包含 x（X轴）、y（Y轴）和 value（数值）字段'
+        return 'Format: Array of objects, each containing x (X-axis), y (Y-axis) and value fields'
       case 'treemap':
-        return '格式：数组对象，每个对象包含 category（分类）和 size（大小）字段'
+        return 'Format: Array of objects, each containing category and size fields'
       case 'chord':
-        return '格式：数组对象，每个对象包含 source（源）、target（目标）和 value（连接强度）字段'
+        return 'Format: Array of objects, each containing source, target and value (connection strength) fields'
       case 'node_link':
-        return '格式：数组对象，包含节点数据（node, x, y, group, size）和连接数据（source, target, value）'
+        return 'Format: Array of objects, containing node data (node, x, y, group, size) and connection data (source, target, value)'
       default:
-        return '格式：数组对象，每个对象包含 x（X轴）和 y（Y轴）字段'
+        return 'Format: Array of objects, each containing x (X-axis) and y (Y-axis) fields'
     }
   }
 
@@ -125,7 +125,7 @@ function DataTableEditor({ value, onChange, chartType }) {
       const parsed = JSON.parse(text)
       if (!Array.isArray(parsed)) {
         setIsValid(false)
-        setErrorMessage('数据必须是数组格式')
+        setErrorMessage('Data must be in array format')
         return null
       }
       setIsValid(true)
@@ -133,7 +133,7 @@ function DataTableEditor({ value, onChange, chartType }) {
       return parsed
     } catch (error) {
       setIsValid(false)
-      setErrorMessage(`JSON格式错误: ${error.message}`)
+      setErrorMessage(`JSON format error: ${error.message}`)
       return null
     }
   }
@@ -170,15 +170,15 @@ function DataTableEditor({ value, onChange, chartType }) {
     setIsValid(true)
     setErrorMessage('')
     onChange?.(defaultData)
-    message.success('已重置为默认数据')
+    message.success('Reset to default data')
   }
 
   // 复制JSON到剪贴板
   const copyToClipboard = () => {
     navigator.clipboard.writeText(jsonText).then(() => {
-      message.success('JSON已复制到剪贴板')
+      message.success('JSON copied to clipboard')
     }).catch(() => {
-      message.error('复制失败')
+      message.error('Copy failed')
     })
   }
 
@@ -196,16 +196,16 @@ function DataTableEditor({ value, onChange, chartType }) {
             const jsonText = event.target.result
             const parsed = JSON.parse(jsonText)
             if (!Array.isArray(parsed)) {
-              message.error('文件内容必须是数组格式')
+              message.error('File content must be in array format')
               return
             }
             setJsonText(JSON.stringify(parsed, null, 2))
             setIsValid(true)
             setErrorMessage('')
             onChange?.(parsed)
-            message.success('JSON文件导入成功')
+            message.success('JSON file imported successfully')
           } catch (error) {
-            message.error('JSON文件格式错误')
+            message.error('JSON file format error')
           }
         }
         reader.readAsText(file)
@@ -217,7 +217,7 @@ function DataTableEditor({ value, onChange, chartType }) {
   // 导出JSON文件
   const exportJSON = () => {
     if (!jsonText.trim()) {
-      message.warning('没有数据可导出')
+      message.warning('No data to export')
       return
     }
     
@@ -230,7 +230,7 @@ function DataTableEditor({ value, onChange, chartType }) {
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
-    message.success('JSON文件导出成功')
+    message.success('JSON file exported successfully')
   }
 
   return (
@@ -238,7 +238,7 @@ function DataTableEditor({ value, onChange, chartType }) {
       {/* 数据格式说明 */}
       <Card size="small" style={{ marginBottom: 8 }}>
         <div style={{ fontSize: '12px', color: '#666' }}>
-          <Text strong>数据格式说明：</Text>
+          <Text strong>Data Format Description:</Text>
           <br />
           {getDataFormatDescription(chartType)}
         </div>
@@ -246,28 +246,28 @@ function DataTableEditor({ value, onChange, chartType }) {
 
       {/* 操作按钮 */}
       <Space style={{ marginBottom: 8 }}>
-        <Tooltip title="重置为默认数据">
+        <Tooltip title="Reset to default data">
           <Button size="small" icon={<ReloadOutlined />} onClick={resetToDefault}>
-            重置
+            Reset
           </Button>
         </Tooltip>
-        <Tooltip title="复制JSON到剪贴板">
+        <Tooltip title="Copy JSON to clipboard">
           <Button size="small" icon={<CopyOutlined />} onClick={copyToClipboard}>
-            复制
+            Copy
           </Button>
         </Tooltip>
         <Button size="small" icon={<UploadOutlined />} onClick={importJSON}>
-          导入JSON
+          Import JSON
         </Button>
         <Button size="small" icon={<DownloadOutlined />} onClick={exportJSON}>
-          导出JSON
+          Export JSON
         </Button>
       </Space>
 
       {/* 错误提示 */}
       {!isValid && (
         <Alert
-          message="JSON格式错误"
+          message="JSON Format Error"
           description={errorMessage}
           type="error"
           showIcon
@@ -279,7 +279,7 @@ function DataTableEditor({ value, onChange, chartType }) {
       <TextArea
         value={jsonText}
         onChange={handleJsonChange}
-        placeholder="请输入JSON格式的数据..."
+        placeholder="Please enter JSON format data..."
         rows={12}
         style={{
           fontFamily: 'Monaco, Menlo, Consolas, monospace',
@@ -291,7 +291,7 @@ function DataTableEditor({ value, onChange, chartType }) {
       {/* 数据预览 */}
       {isValid && jsonText.trim() && (
         <div style={{ marginTop: 8, fontSize: '12px', color: '#666' }}>
-          <Text>数据预览：共 {JSON.parse(jsonText).length} 条记录</Text>
+          <Text>Data Preview: {JSON.parse(jsonText).length} records</Text>
         </div>
       )}
     </div>

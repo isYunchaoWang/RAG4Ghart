@@ -34,7 +34,7 @@ function EChartsFunnelChart({ chartType, title, description, width, height, form
         trigger: 'item',
         formatter: function(params) {
           const rate = params.data.rate || 0
-          return `${params.data.name}<br/>数值: ${params.data.value}<br/>转化率: ${(rate * 100).toFixed(1)}%`
+          return `${params.data.name}<br/>Value: ${params.data.value}<br/>Conversion Rate: ${(rate * 100).toFixed(1)}%`
         }
       },
       legend: {
@@ -47,7 +47,7 @@ function EChartsFunnelChart({ chartType, title, description, width, height, form
         }
       },
       series: [{
-        name: '漏斗图',
+        name: 'Funnel Chart',
         type: 'funnel',
         left: '10%',
         top: 60,

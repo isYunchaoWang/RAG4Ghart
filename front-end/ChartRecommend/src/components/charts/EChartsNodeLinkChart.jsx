@@ -43,7 +43,7 @@ function EChartsNodeLinkChart({ chartType, title, description, width, height, fo
   // 使用处理后的数据
   const simpleOption = {
     title: {
-      text: title || '关系图',
+      text: title || 'Node-Link Chart',
       left: 'center'
     },
     tooltip: {
@@ -51,11 +51,11 @@ function EChartsNodeLinkChart({ chartType, title, description, width, height, fo
       formatter: function(params) {
         if (params.dataType === 'node') {
           const category = params.data.category || 0
-          const groupName = category === 0 ? '默认组' : `组${category}`
-          return `${params.data.name}<br/>位置: (${params.data.x}, ${params.data.y})<br/>大小: ${params.data.symbolSize}<br/>分组: ${groupName}`
+          const groupName = category === 0 ? 'Default Group' : `Group ${category}`
+          return `${params.data.name}<br/>Position: (${params.data.x}, ${params.data.y})<br/>Size: ${params.data.symbolSize}<br/>Group: ${groupName}`
         }
         if (params.dataType === 'edge') {
-          return `${params.data.source} → ${params.data.target}<br/>连接强度: ${params.data.value}`
+          return `${params.data.source} → ${params.data.target}<br/>Connection Strength: ${params.data.value}`
         }
         return params.data.name || ''
       }

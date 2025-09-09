@@ -50,7 +50,7 @@
   height: 100% !important;
 }
 
-/* 确保 SVG 适应容器 */
+/* Ensure SVG adapts to container */
 .svg-container svg {
     max-width: 100%;
     max-height: 100%;

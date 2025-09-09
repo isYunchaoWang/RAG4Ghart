@@ -36,7 +36,7 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
         }
       },
       legend: {
-        data: ['散点'],
+        data: ['Scatter'],
         orient: formValues.legendOrientation || 'horizontal',
         left: formValues.legendPosition === 'left' ? 'left' : 'right',
         textStyle: {
@@ -66,7 +66,7 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
         }
       },
       series: [{
-        name: '散点',
+        name: 'Scatter',
         type: 'scatter',
         data: dataValues.map(item => [
           item[formValues.xField || 'x'] || 0,

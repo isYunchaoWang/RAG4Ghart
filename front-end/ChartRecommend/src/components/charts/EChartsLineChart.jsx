@@ -33,7 +33,7 @@ function EChartsLineChart({ chartType, title, description, width, height, formVa
         trigger: 'axis'
       },
       legend: {
-        data: ['数值'],
+        data: ['Value'],
         orient: formValues.legendOrientation || 'horizontal',
         left: formValues.legendPosition === 'left' ? 'left' : 'right',
         textStyle: {
@@ -64,7 +64,7 @@ function EChartsLineChart({ chartType, title, description, width, height, formVa
         }
       },
       series: [{
-        name: '数值',
+        name: 'Value',
         type: 'line',
         data: dataValues.map(item => item[formValues.yField || 'y'] || 0),
         lineStyle: {

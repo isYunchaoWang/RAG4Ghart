@@ -42,7 +42,7 @@ function EChartsPieChart({ chartType, title, description, width, height, formVal
         }
       },
       series: [{
-        name: '数据',
+        name: 'Data',
         type: 'pie',
         radius: formValues.innerRadius ? [`${formValues.innerRadius}%`, '70%'] : '50%',
         center: ['50%', '50%'],

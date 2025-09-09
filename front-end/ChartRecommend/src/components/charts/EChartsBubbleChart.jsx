@@ -32,11 +32,11 @@ function EChartsBubbleChart({ chartType, title, description, width, height, form
       tooltip: {
         trigger: 'item',
         formatter: function(params) {
-          return `${params.data[0]}<br/>${params.data[1]}<br/>大小: ${params.data[2]}`
+          return `${params.data[0]}<br/>${params.data[1]}<br/>Size: ${params.data[2]}`
         }
       },
       legend: {
-        data: ['气泡'],
+        data: ['Bubble'],
         orient: formValues.legendOrientation || 'horizontal',
         left: formValues.legendPosition === 'left' ? 'left' : 'right',
         textStyle: {
@@ -66,7 +66,7 @@ function EChartsBubbleChart({ chartType, title, description, width, height, form
         }
       },
       series: [{
-        name: '气泡',
+        name: 'Bubble',
         type: 'scatter',
         data: dataValues.map(item => [
           item[formValues.xField || 'x'] || 0,

@@ -36,7 +36,7 @@ function EChartsBarChart({ chartType, title, description, width, height, formVal
         }
       },
       legend: {
-        data: ['数值'],
+        data: ['Value'],
         orient: formValues.legendOrientation || 'horizontal',
         left: formValues.legendPosition === 'left' ? 'left' : 'right',
         textStyle: {
@@ -67,7 +67,7 @@ function EChartsBarChart({ chartType, title, description, width, height, formVal
         }
       },
       series: [{
-        name: '数值',
+        name: 'Value',
         type: 'bar',
         data: dataValues.map(item => item[formValues.yField || 'y'] || 0),
         itemStyle: {

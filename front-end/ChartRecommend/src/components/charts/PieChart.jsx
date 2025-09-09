@@ -12,43 +12,43 @@ function buildPieChartSpec({ title, description, width, height, formValues, data
     encoding: {}
   }
 
-  // 从表单值中提取字段和类型
+  // Extract fields and types from form values
   const getField = (fieldName) => formValues[`${fieldName}Field`]
   const getType = (fieldName) => formValues[`${fieldName}Type`]
 
-  // 饼图使用 theta 编码
+  // Pie chart uses theta encoding
   if (getField('value')) spec.encoding.theta = { field: getField('value'), type: getType('value') || 'quantitative' }
   if (getField('category')) spec.encoding.color = { field: getField('category'), type: getType('category') || 'nominal' }
 
-  // 构建mark配置
+  // Build mark configuration
   const markConfig = { type: 'arc' }
   
-  // 透明度配置
+  // Opacity configuration
   if (formValues.opacity !== undefined && formValues.opacity !== 1) {
     markConfig.opacity = formValues.opacity
   }
   
-  // 边框配置
+  // Border configuration
   if (formValues.strokeWidth !== undefined && formValues.strokeWidth > 0) {
     markConfig.stroke = formValues.strokeColor || '#000'
     markConfig.strokeWidth = formValues.strokeWidth
   }
   
-  // 饼图内半径配置
+  // Pie chart inner radius configuration
   if (formValues.innerRadius !== undefined && formValues.innerRadius > 0) {
     markConfig.innerRadius = formValues.innerRadius
   }
 
-  // 颜色配置
+  // Color configuration
   if (spec.encoding.color) {
-    // 如果有颜色方案，使用颜色方案
+    // If there is a color scheme, use the color scheme
     if (formValues.colorScheme) {
       spec.encoding.color = {
         ...spec.encoding.color,
         scale: { scheme: formValues.colorScheme }
       }
     }
-    // 如果有主色调且没有颜色方案，使用主色调
+    // If there is a primary color and no color scheme, use the primary color
     else if (formValues.markColor) {
       spec.encoding.color = {
         ...spec.encoding.color,
@@ -59,7 +59,7 @@ function buildPieChartSpec({ title, description, width, height, formValues, data
 
   spec.mark = markConfig
 
-  // 添加图例配置
+  // Add legend configuration
   if (formValues.showLegend === false || formValues.legendPosition || formValues.legendOrientation) {
     spec.config = spec.config || {}
     spec.config.legend = spec.config.legend || {}
@@ -75,29 +75,29 @@ function buildPieChartSpec({ title, description, width, height, formValues, data
     }
   }
 
-  // 添加字体配置 - 饼图特定的字体配置
+  // Add font configuration - pie chart specific font configuration
   if (formValues.fontFamily || formValues.fontSize || formValues.fontColor) {
     spec.config = spec.config || {}
     spec.config.title = spec.config.title || {}
     spec.config.legend = spec.config.legend || {}
     
-    // 标题字体配置
+    // Title font configuration
     if (formValues.fontFamily) spec.config.title.font = formValues.fontFamily
     if (formValues.fontSize) spec.config.title.fontSize = formValues.fontSize
     if (formValues.fontColor) spec.config.title.color = formValues.fontColor
     
-    // 图例标签字体配置
+    // Legend label font configuration
     if (formValues.fontFamily) spec.config.legend.labelFont = formValues.fontFamily
     if (formValues.fontSize) spec.config.legend.labelFontSize = formValues.fontSize
     if (formValues.fontColor) spec.config.legend.labelColor = formValues.fontColor
     
-    // 图例标题字体配置
+    // Legend title font configuration
     if (formValues.fontFamily) spec.config.legend.titleFont = formValues.fontFamily
     if (formValues.fontSize) spec.config.legend.titleFontSize = formValues.fontSize
     if (formValues.fontColor) spec.config.legend.titleColor = formValues.fontColor
   }
 
-  // 添加交互配置
+  // Add interaction configuration
   if (formValues.enableTooltip === false || formValues.enableZoom || formValues.enablePan || formValues.enableSelection) {
     spec.config = spec.config || {}
     

@@ -39,7 +39,7 @@ function App() {
   }, [history])
 
   const addHistory = (payload) => {
-    // 兼容字符串与对象两种入参
+    // Compatible with both string and object parameters
     const isObj = payload && typeof payload === 'object'
     const text = isObj ? payload.specText : (payload || '')
     const thumb = isObj ? (payload.thumbDataUrl || payload.thumb || '') : ''
@@ -59,9 +59,9 @@ function App() {
   const tryGetTitle = (text) => {
     try {
       const obj = JSON.parse(text)
-      return obj?.description || obj?.title || '未命名图表'
+      return obj?.description || obj?.title || 'Untitled Chart'
     } catch {
-      return '未命名图表'
+      return 'Untitled Chart'
     }
   }
 
@@ -83,7 +83,7 @@ function App() {
 
   const onChartSelect = (chartType) => {
     setSelectedChartType(chartType)
-    // 清空specText，让ChartEditor重新初始化
+    // Clear specText to let ChartEditor reinitialize
     setSpecText('')
   }
 

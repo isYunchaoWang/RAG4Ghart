@@ -47,7 +47,7 @@ function EChartsBase({
         if (chartRef.current) {
           chartRef.current.innerHTML = `
             <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #ff4d4f; font-size: 14px;">
-              图表渲染失败: ${error.message}
+              Chart rendering failed: ${error.message}
             </div>
           `
         }
@@ -76,7 +76,7 @@ function EChartsBase({
         if (chartRef.current) {
           chartRef.current.innerHTML = `
             <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #ff4d4f; font-size: 14px;">
-              图表更新失败: ${error.message}
+              Chart update failed: ${error.message}
             </div>
           `
         }

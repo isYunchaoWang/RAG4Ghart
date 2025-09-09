@@ -1,19 +1,19 @@
 import { Form, Input, Select, Space, InputNumber, Divider } from 'antd'
 
 const FIELD_TYPES = [
-  { label: '定量 quantitative', value: 'quantitative' },
-  { label: '类别 nominal', value: 'nominal' },
-  { label: '顺序 ordinal', value: 'ordinal' },
-  { label: '时间 temporal', value: 'temporal' },
+  { label: 'Quantitative', value: 'quantitative' },
+  { label: 'Nominal', value: 'nominal' },
+  { label: 'Ordinal', value: 'ordinal' },
+  { label: 'Temporal', value: 'temporal' },
 ]
 
 const COLOR_TYPES = [
-  { label: '连续 quantitative', value: 'quantitative' },
-  { label: '分类型 nominal', value: 'nominal' },
+  { label: 'Quantitative', value: 'quantitative' },
+  { label: 'Nominal', value: 'nominal' },
 ]
 
 const AGG_FUNCS = [
-  { label: '无', value: '' },
+  { label: 'None', value: '' },
   { label: 'sum', value: 'sum' },
   { label: 'mean', value: 'mean' },
   { label: 'median', value: 'median' },
@@ -22,7 +22,7 @@ const AGG_FUNCS = [
   { label: 'count', value: 'count' },
 ]
 
-// 定义每种图表类型的配置需求
+// Define configuration requirements for each chart type
 const CHART_CONFIGS = {
   bar: {
     fields: ['x', 'y', 'color'],
@@ -30,7 +30,7 @@ const CHART_CONFIGS = {
     defaultFields: { x: 'x', y: 'y', color: '' },
     showAggregate: false,
     showSize: false,
-    description: '柱状图用于比较不同类别的数值'
+    description: 'Bar charts are used to compare values across different categories'
   },
   
   line: {
@@ -39,7 +39,7 @@ const CHART_CONFIGS = {
     defaultFields: { x: 'x', y: 'y', color: '' },
     showAggregate: false,
     showSize: false,
-    description: '折线图用于显示数据随时间或有序类别的变化趋势'
+    description: 'Line charts are used to display data trends over time or ordered categories'
   },
   
   scatter: {
@@ -48,7 +48,7 @@ const CHART_CONFIGS = {
     defaultFields: { x: 'x', y: 'y', color: '' },
     showAggregate: false,
     showSize: false,
-    description: '散点图用于显示两个连续变量之间的相关关系'
+    description: 'Scatter plots are used to display correlations between two continuous variables'
   },
   
   bubble: {
@@ -57,7 +57,7 @@ const CHART_CONFIGS = {
     defaultFields: { x: 'x', y: 'y', color: '', size: 'size' },
     showAggregate: false,
     showSize: true,
-    description: '气泡图通过气泡大小展示第三个维度的数据'
+    description: 'Bubble charts display third-dimensional data through bubble size'
   },
   
   pie: {
@@ -66,7 +66,7 @@ const CHART_CONFIGS = {
     defaultFields: { category: 'category', value: 'value' },
     showAggregate: false,
     showSize: false,
-    description: '饼图用于显示各部分占整体的比例关系'
+    description: 'Pie charts are used to display the proportional relationship of parts to the whole'
   },
   
   heatmap: {
@@ -75,7 +75,7 @@ const CHART_CONFIGS = {
     defaultFields: { x: 'x', y: 'y', value: 'value' },
     showAggregate: false,
     showSize: false,
-    description: '热力图用颜色深浅表示数值大小的矩阵图'
+    description: 'Heatmaps use color intensity to represent numerical values in a matrix'
   },
   
   treemap: {
@@ -84,7 +84,7 @@ const CHART_CONFIGS = {
     defaultFields: { category: 'category', size: 'size', color: 'category' },
     showAggregate: false,
     showSize: true,
-    description: '矩形树图用嵌套矩形表示层次数据'
+    description: 'Treemaps use nested rectangles to represent hierarchical data'
   },
   
   // ECharts图表配置
@@ -94,7 +94,7 @@ const CHART_CONFIGS = {
     defaultFields: { source: 'source', target: 'target', value: 'value' },
     showAggregate: false,
     showSize: false,
-    description: '环状关系图用于显示节点间的连接关系和强度'
+    description: 'Chord charts are used to display connection relationships and strength between nodes'
   },
   
   funnel: {
@@ -103,7 +103,7 @@ const CHART_CONFIGS = {
     defaultFields: { stage: 'stage', value: 'value', rate: 'rate' },
     showAggregate: false,
     showSize: false,
-    description: '漏斗图用于显示流程中各阶段的转化情况'
+    description: 'Funnel charts are used to display conversion rates at each stage of a process'
   },
   
   node_link: {
@@ -112,7 +112,7 @@ const CHART_CONFIGS = {
     defaultFields: { node: 'node', position_x: 'x', position_y: 'y', group: 'group', size: 'size', source: 'source', target: 'target', value: 'value' },
     showAggregate: false,
     showSize: true,
-    description: '关系图用于显示网络中的节点位置和关系'
+    description: 'Node-link charts are used to display node positions and relationships in a network'
   },
   
 
@@ -126,20 +126,20 @@ function ChartConfig({ chartType, form, onFieldChange }) {
   // 获取字段标签
   const getFieldLabel = (field) => {
     const labels = {
-      x: 'X轴字段',
-      y: 'Y轴字段', 
-      color: '颜色字段',
-      size: '大小字段',
-      category: '分类字段',
-      value: '数值字段',
-      group: '分组字段',
-      dimension: '维度字段',
-      parent: '父级字段',
-      source: '源字段',
-      target: '目标字段',
-      node: '节点字段',
-      position_x: 'X坐标字段',
-      position_y: 'Y坐标字段'
+      x: 'X Axis Field',
+      y: 'Y Axis Field', 
+      color: 'Color Field',
+      size: 'Size Field',
+      category: 'Category Field',
+      value: 'Value Field',
+      group: 'Group Field',
+      dimension: 'Dimension Field',
+      parent: 'Parent Field',
+      source: 'Source Field',
+      target: 'Target Field',
+      node: 'Node Field',
+      position_x: 'X Position Field',
+      position_y: 'Y Position Field'
     }
     return labels[field] || field
   }
@@ -147,22 +147,22 @@ function ChartConfig({ chartType, form, onFieldChange }) {
   // 获取字段占位符
   const getFieldPlaceholder = (field) => {
     const placeholders = {
-      x: '例如：category',
-      y: '例如：value', 
-      color: '例如：type',
-      size: '例如：size',
-      category: '例如：category',
-      value: '例如：value',
-      group: '例如：group',
-      dimension: '例如：dimension',
-      parent: '例如：parent',
-      source: '例如：source',
-      target: '例如：target',
-      node: '例如：node',
-      position_x: '例如：x',
-      position_y: '例如：y'
+      x: 'e.g.: category',
+      y: 'e.g.: value', 
+      color: 'e.g.: type',
+      size: 'e.g.: size',
+      category: 'e.g.: category',
+      value: 'e.g.: value',
+      group: 'e.g.: group',
+      dimension: 'e.g.: dimension',
+      parent: 'e.g.: parent',
+      source: 'e.g.: source',
+      target: 'e.g.: target',
+      node: 'e.g.: node',
+      position_x: 'e.g.: x',
+      position_y: 'e.g.: y'
     }
-    return placeholders[field] || `例如：${field}`
+    return placeholders[field] || `e.g.: ${field}`
   }
 
   return (
@@ -175,9 +175,9 @@ function ChartConfig({ chartType, form, onFieldChange }) {
         borderBottom: '1px solid #f0f0f0',
         paddingBottom: 8
       }}>
-        字段配置
+        Field Configuration
       </div>
-      {/* 动态字段配置 */}
+      {/* Dynamic field configuration */}
       <div style={{ marginBottom: '16px' }}>
         <Space size={12} wrap>
         {config.fields.map(field => (
@@ -194,14 +194,14 @@ function ChartConfig({ chartType, form, onFieldChange }) {
             </Form.Item>
             
             <Form.Item 
-              label="类型" 
+              label="Type" 
               name={`${field}Type`}
               style={{ minWidth: 140, marginBottom: 0 }}
             >
               <Select 
                 id={`${field}Type`}
                 options={field === 'color' && chartType === 'heatmap' ? COLOR_TYPES : FIELD_TYPES}
-                placeholder="选择类型"
+                placeholder="Select Type"
               />
             </Form.Item>
           </div>
@@ -209,16 +209,16 @@ function ChartConfig({ chartType, form, onFieldChange }) {
         </Space>
       </div>
 
-      {/* 聚合函数 */}
+      {/* Aggregation function */}
       {config.showAggregate && (
         <>
           <Divider style={{ margin: '16px 0 12px 0' }} />
-          <Form.Item label="聚合函数" name="aggregate" style={{ marginBottom: 0 }}>
+          <Form.Item label="Aggregation Function" name="aggregate" style={{ marginBottom: 0 }}>
             <Select 
               id="aggregate"
               options={AGG_FUNCS} 
               style={{ width: 160 }} 
-              placeholder="选择聚合函数"
+              placeholder="Select Aggregation Function"
             />
           </Form.Item>
         </>

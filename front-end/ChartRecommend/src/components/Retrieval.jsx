@@ -5,7 +5,7 @@ const {Title} = Typography
 const fusion = (sparse, dense, k = 60) => {
     const fusionMap = new Map();
 
-    // 处理稀疏检索结果（基于排名）
+    // Process sparse retrieval results (based on ranking)
     sparse.forEach((item, index) => {
         const rank = index + 1;
         fusionMap.set(item.image || item.svg, {
@@ -20,7 +20,7 @@ const fusion = (sparse, dense, k = 60) => {
         });
     });
 
-    // 处理稠密检索结果
+    // Process dense retrieval results
     dense.forEach((item, index) => {
         const rank = index + 1;
         if (fusionMap.has(item.image || item.svg)) {
@@ -49,7 +49,7 @@ const fusion = (sparse, dense, k = 60) => {
             chartType: item.chartType,
             image: item.image,
             svg: item.svg,
-            score: item.rrfScore.toFixed(3) // 显示RRF分数
+            score: item.rrfScore.toFixed(3) // Display RRF score
         }));
 };
 
@@ -64,7 +64,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
     
     return (
         <div style={{display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12}}>
-            {/* 稀疏检索 */}
+            {/* Sparse Retrieval */}
             <div style={{
                 border: `1px solid ${token.colorBorderSecondary}`,
                 borderRadius: 8,
@@ -73,7 +73,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 gridTemplateRows: "auto 1fr",
                 gap: 8
             }}>
-                <Title level={5} style={{marginTop: 0}}>稀疏检索</Title>
+                <Title level={5} style={{marginTop: 0}}>Sparse Retrieval</Title>
                 <div style={{display: "grid", gridTemplateRows: "repeat(5, 1fr)", gap: 6}}>
                     {sparse.map(item => (
                         <div 
@@ -100,7 +100,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                             }}
                         >
                             <Title level={5} style={{marginTop: 0}}>{item.chartType}</Title>
-                            {/* 渲染 PNG 图片 */}
+                            {/* Render PNG image */}
                             {item.image ? (
                                 <img
                                     src={item.image}
@@ -138,7 +138,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                     borderRadius: '4px',
                                     color: '#999'
                                 }}>
-                                    无预览
+                                    No Preview
                                 </div>
                             )}
                         </div>
@@ -146,7 +146,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 </div>
             </div>
 
-            {/* 稠密检索 */}
+            {/* Dense Retrieval */}
             <div style={{
                 border: `1px solid ${token.colorBorderSecondary}`,
                 borderRadius: 8,
@@ -155,7 +155,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 gridTemplateRows: "auto 1fr",
                 gap: 8
             }}>
-                <Title level={5} style={{marginTop: 0}}>稠密检索</Title>
+                <Title level={5} style={{marginTop: 0}}>Dense Retrieval</Title>
                 <div style={{display: "grid", gridTemplateRows: "repeat(5, 1fr)", gap: 6}}>
                     {dense.map(item => (
                         <div 
@@ -178,7 +178,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                             }}
                         >
                             <Title level={5} style={{marginTop: 0}}>{item.chartType}</Title>
-                            {/* 渲染 PNG 图片 */}
+                            {/* Render PNG image */}
                             {item.image ? (
                                 <img
                                     src={item.image}
@@ -216,7 +216,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                     borderRadius: '4px',
                                     color: '#999'
                                 }}>
-                                    无预览
+                                    No Preview
                                 </div>
                             )}
                         </div>
@@ -224,7 +224,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 </div>
             </div>
 
-            {/* 混合检索 */}
+            {/* Hybrid Retrieval */}
             <div style={{
                 border: `1px solid ${token.colorBorderSecondary}`,
                 borderRadius: 8,
@@ -233,7 +233,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                 gridTemplateRows: "auto 1fr",
                 gap: 8
             }}>
-                <Title level={5} style={{marginTop: 0}}>RRF融合</Title>
+                <Title level={5} style={{marginTop: 0}}>RRF Fusion</Title>
                 <div style={{display: "grid", gridTemplateRows: "repeat(5, 1fr)", gap: 6}}>
                     {fusion(sparse, dense).map(item => (
                         <div 
@@ -256,7 +256,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                             }}
                         >
                             <Title level={5} style={{marginTop: 0}}>{item.chartType}</Title>
-                            {/* 渲染 PNG 图片 */}
+                            {/* Render PNG image */}
                             {item.image ? (
                                 <img
                                     src={item.image}
@@ -294,7 +294,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                     borderRadius: '4px',
                                     color: '#999'
                                 }}>
-                                    无预览
+                                    No Preview
                                 </div>
                             )}
                         </div>

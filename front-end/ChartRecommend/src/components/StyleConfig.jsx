@@ -1,18 +1,18 @@
 import { Form, Select, InputNumber, ColorPicker, Space, Divider, Switch, Input } from 'antd'
 
-// 样式配置常量
+// Style configuration constants
 const MARK_COLORS = [
-  { label: '默认', value: '' },
-  { label: '蓝色系', value: 'blues' },
-  { label: '红色系', value: 'reds' },
-  { label: '绿色系', value: 'greens' },
-  { label: '橙色系', value: 'oranges' },
-  { label: '紫色系', value: 'purples' },
-  { label: '灰色系', value: 'greys' },
-  { label: '彩虹色', value: 'rainbow' },
-  { label: '分类色', value: 'category10' },
-  { label: '分类色20', value: 'category20' },
-  { label: '光谱色', value: 'spectral' },
+  { label: 'Default', value: '' },
+  { label: 'Blue', value: 'blues' },
+  { label: 'Red', value: 'reds' },
+  { label: 'Green', value: 'greens' },
+  { label: 'Orange', value: 'oranges' },
+  { label: 'Purple', value: 'purples' },
+  { label: 'Grey', value: 'greys' },
+  { label: 'Rainbow', value: 'rainbow' },
+  { label: 'Category10', value: 'category10' },
+  { label: 'Category20', value: 'category20' },
+  { label: 'Spectral', value: 'spectral' },
   { label: 'RdYlBu', value: 'rdylbu' },
   { label: 'Set1', value: 'set1' },
   { label: 'Set2', value: 'set2' },
@@ -45,7 +45,7 @@ const STROKE_WIDTH_OPTIONS = [
 ]
 
 const FONT_FAMILY_OPTIONS = [
-  { label: '默认', value: '' },
+  { label: 'Default', value: '' },
   { label: 'Arial', value: 'Arial' },
   { label: 'Helvetica', value: 'Helvetica' },
   { label: 'Times New Roman', value: 'Times New Roman' },
@@ -71,18 +71,18 @@ const FONT_SIZE_OPTIONS = [
 ]
 
 const AXIS_POSITION_OPTIONS = [
-  { label: '默认', value: '' },
-  { label: '顶部', value: 'top' },
-  { label: '底部', value: 'bottom' },
-  { label: '左侧', value: 'left' },
-  { label: '右侧', value: 'right' },
+  { label: 'Default', value: '' },
+  { label: 'Top', value: 'top' },
+  { label: 'Bottom', value: 'bottom' },
+  { label: 'Left', value: 'left' },
+  { label: 'Right', value: 'right' },
 ]
 
 const STROKE_DASH_OPTIONS = [
-  { label: '实线', value: [] },
-  { label: '虚线', value: [5, 5] },
-  { label: '点线', value: [2, 2] },
-  { label: '点划线', value: [5, 5, 1, 5] },
+  { label: 'Solid', value: [] },
+  { label: 'Dashed', value: [5, 5] },
+  { label: 'Dotted', value: [2, 2] },
+  { label: 'Dash-Dot', value: [5, 5, 1, 5] },
 ]
 
 function StyleConfig({ chartType, form }) {
@@ -102,7 +102,7 @@ function StyleConfig({ chartType, form }) {
         borderBottom: '1px solid #f0f0f0',
         paddingBottom: 8
       }}>
-        样式配置
+        Style Configuration
       </div>
       {/* 基础样式和边框配置 */}
       <div style={{ marginBottom: '12px' }}>
@@ -116,7 +116,7 @@ function StyleConfig({ chartType, form }) {
         </div>
                  <Space size={8} wrap>
            {/* 透明度 */}
-           <Form.Item label="透明度" name="opacity" style={{ marginBottom: 0 }}>
+           <Form.Item label="Opacity" name="opacity" style={{ marginBottom: 0 }}>
              <Select 
                id="opacity"
                options={OPACITY_OPTIONS} 
@@ -126,7 +126,7 @@ function StyleConfig({ chartType, form }) {
            </Form.Item>
 
            {/* 边框配置 */}
-           <Form.Item label="边框宽度" name="strokeWidth" style={{ marginBottom: 0 }}>
+           <Form.Item label="Border Width" name="strokeWidth" style={{ marginBottom: 0 }}>
              <Select 
                id="strokeWidth"
                options={STROKE_WIDTH_OPTIONS} 
@@ -137,12 +137,12 @@ function StyleConfig({ chartType, form }) {
 
            {/* 线条样式（仅适用于线图） */}
            {isLineChart && (
-             <Form.Item label="线条样式" name="strokeDash" style={{ marginBottom: 0 }}>
+             <Form.Item label="Line Style" name="strokeDash" style={{ marginBottom: 0 }}>
                <Select 
                  id="strokeDash"
                  options={STROKE_DASH_OPTIONS} 
                  style={{ width: 100 }}
-                 placeholder="实线"
+                 placeholder="Solid"
                />
              </Form.Item>
            )}
@@ -162,7 +162,7 @@ function StyleConfig({ chartType, form }) {
         <Space size={8} wrap>
                      {/* 柱状图圆角 */}
            {isBarChart && (
-             <Form.Item label="圆角半径" name="cornerRadius" style={{ marginBottom: 0 }}>
+             <Form.Item label="Corner Radius" name="cornerRadius" style={{ marginBottom: 0 }}>
                <InputNumber 
                  id="cornerRadius"
                  min={0} 
@@ -175,20 +175,20 @@ function StyleConfig({ chartType, form }) {
 
            {/* 气泡图大小（仅气泡图支持） */}
            {isBubbleChart && (
-             <Form.Item label="点大小" name="pointSize" style={{ marginBottom: 0 }}>
+             <Form.Item label="Point Size" name="pointSize" style={{ marginBottom: 0 }}>
                <InputNumber 
                  id="pointSize"
                  min={1} 
                  max={100} 
                  style={{ width: 100 }}
-                 placeholder="自动"
+                 placeholder="Auto"
                />
              </Form.Item>
            )}
 
            {/* 线图宽度 */}
            {isLineChart && (
-             <Form.Item label="线条宽度" name="lineWidth" style={{ marginBottom: 0 }}>
+             <Form.Item label="Line Width" name="lineWidth" style={{ marginBottom: 0 }}>
                <InputNumber 
                  id="lineWidth"
                  min={0.5} 
@@ -202,7 +202,7 @@ function StyleConfig({ chartType, form }) {
 
            {/* 饼图内半径 */}
            {isPieChart && (
-             <Form.Item label="内半径" name="innerRadius" style={{ marginBottom: 0 }}>
+             <Form.Item label="Inner Radius" name="innerRadius" style={{ marginBottom: 0 }}>
                <InputNumber 
                  id="innerRadius"
                  min={0} 
@@ -213,22 +213,22 @@ function StyleConfig({ chartType, form }) {
              </Form.Item>
            )}
 
-           <Form.Item label="字体族" name="fontFamily" style={{ marginBottom: 0 }}>
+           <Form.Item label="Font Family" name="fontFamily" style={{ marginBottom: 0 }}>
              <Select 
                id="fontFamily"
                options={FONT_FAMILY_OPTIONS} 
                style={{ width: 120 }}
-               placeholder="选择字体"
+               placeholder="Select Font"
                allowClear
              />
            </Form.Item>
 
-           <Form.Item label="字体大小" name="fontSize" style={{ marginBottom: 0 }}>
+           <Form.Item label="Font Size" name="fontSize" style={{ marginBottom: 0 }}>
              <Select 
                id="fontSize"
                options={FONT_SIZE_OPTIONS} 
                style={{ width: 100 }}
-               placeholder="默认"
+               placeholder="Default"
                allowClear
              />
            </Form.Item>
@@ -246,40 +246,40 @@ function StyleConfig({ chartType, form }) {
           {/* 轴和图例配置 */}
         </div>
                  <Space size={8} wrap>
-           <Form.Item label="显示网格" name="showGrid" style={{ marginBottom: 0 }}>
+           <Form.Item label="Show Grid" name="showGrid" style={{ marginBottom: 0 }}>
              <Switch id="showGrid" />
            </Form.Item>
 
-           <Form.Item label="显示图例" name="showLegend" style={{ marginBottom: 0 }}>
+           <Form.Item label="Show Legend" name="showLegend" style={{ marginBottom: 0 }}>
              <Switch id="showLegend" />
            </Form.Item>
 
-           <Form.Item label="图例位置" name="legendPosition" style={{ marginBottom: 0 }}>
+           <Form.Item label="Legend Position" name="legendPosition" style={{ marginBottom: 0 }}>
              <Select 
                id="legendPosition"
                options={[
-                 { label: '默认', value: '' },
-                 { label: '顶部', value: 'top' },
-                 { label: '底部', value: 'bottom' },
-                 { label: '左侧', value: 'left' },
-                 { label: '右侧', value: 'right' },
+                 { label: 'Default', value: '' },
+                 { label: 'Top', value: 'top' },
+                 { label: 'Bottom', value: 'bottom' },
+                 { label: 'Left', value: 'left' },
+                 { label: 'Right', value: 'right' },
                ]} 
                style={{ width: 100 }}
-               placeholder="默认"
+               placeholder="Default"
                allowClear
              />
            </Form.Item>
 
-           <Form.Item label="图例方向" name="legendOrientation" style={{ marginBottom: 0 }}>
+           <Form.Item label="Legend Orientation" name="legendOrientation" style={{ marginBottom: 0 }}>
              <Select 
                id="legendOrientation"
                options={[
-                 { label: '默认', value: '' },
-                 { label: '水平', value: 'horizontal' },
-                 { label: '垂直', value: 'vertical' },
+                 { label: 'Default', value: '' },
+                 { label: 'Horizontal', value: 'horizontal' },
+                 { label: 'Vertical', value: 'vertical' },
                ]} 
                style={{ width: 100 }}
-               placeholder="默认"
+               placeholder="Default"
                allowClear
              />
            </Form.Item>

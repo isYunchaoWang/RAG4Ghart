@@ -47,7 +47,7 @@ function EChartsHeatmapChart({ chartType, title, description, width, height, for
       tooltip: {
         position: 'top',
         formatter: function(params) {
-          return `${xAxisData[params.data[0]]}<br/>${yAxisData[params.data[1]]}<br/>数值: ${params.data[2]}`
+          return `${xAxisData[params.data[0]]}<br/>${yAxisData[params.data[1]]}<br/>Value: ${params.data[2]}`
         }
       },
       grid: {
@@ -95,7 +95,7 @@ function EChartsHeatmapChart({ chartType, title, description, width, height, for
         }
       },
       series: [{
-        name: '热力图',
+        name: 'Heatmap',
         type: 'heatmap',
         data: heatmapData,
         label: {
