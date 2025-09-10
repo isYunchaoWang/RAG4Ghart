@@ -66,6 +66,7 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
         // Wait for all SVG processing to complete
         responseList = await Promise.all(responseList.map(item => processChartData(item)));
         setSparse(responseList)
+        console.log('sparse')
         console.log(responseList)
     }
 
@@ -76,7 +77,7 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
             return
         }
 
-        const response = await fetch('http://localhost:8000', {
+        const response = await fetch('http://10.12.42.176:11011/dense', {
             method: 'POST',  // Set request method to POST
             headers: {
                 'Content-Type': 'application/json',  // Tell server the request body data type is JSON
@@ -88,6 +89,7 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
         const responseList = await response.json()
         responseList.map(item => processChartData(item));
         setDense(responseList)
+        console.log('dense')
         console.log(dense)
     }
 

@@ -110,7 +110,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                         height: '180px',
                                         objectFit: 'contain',
                                         borderRadius: '4px',
-                                        background: '#fafafa'
+                                        background: '#ffffff'
                                     }}
                                 />
                             ) : item.svg ? (
@@ -134,7 +134,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    background: '#fafafa',
+                                    background: '#ffffff',
                                     borderRadius: '4px',
                                     color: '#999'
                                 }}>
@@ -188,7 +188,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                         height: '180px',
                                         objectFit: 'contain',
                                         borderRadius: '4px',
-                                        background: '#fafafa'
+                                        background: '#ffffff'
                                     }}
                                 />
                             ) : item.svg ? (
@@ -212,7 +212,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    background: '#fafafa',
+                                    background: '#ffffff',
                                     borderRadius: '4px',
                                     color: '#999'
                                 }}>
@@ -266,7 +266,7 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                         height: '180px',
                                         objectFit: 'contain',
                                         borderRadius: '4px',
-                                        background: '#fafafa'
+                                        background: '#ffffff'
                                     }}
                                 />
                             ) : item.svg ? (
@@ -290,9 +290,9 @@ function Retrieval({sparse = [], dense = [], onChartSelect}) {
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    background: '#fafafa',
+                                    background: '#ffffff',
                                     borderRadius: '4px',
-                                    color: '#999'
+                                    color: '#ffffff'
                                 }}>
                                     No Preview
                                 </div>

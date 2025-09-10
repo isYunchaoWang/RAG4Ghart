@@ -71,7 +71,7 @@ function ChartHistory({ items, onSelect, onClear, onDelete }) {
                     </div>
                   )}
                   <div style={{ fontWeight: 500, maxWidth: 140, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{item.title || `记录 ${index + 1}`}</div>
-                  <div style={{ color: '#999', maxWidth: 140, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{item.time}</div>
+                  {/*<div style={{ color: '#999', maxWidth: 140, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{item.time}</div>*/}
                 </div>
               </div>
             ))
