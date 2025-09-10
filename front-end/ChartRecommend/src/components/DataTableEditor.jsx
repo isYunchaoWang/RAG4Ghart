@@ -9,6 +9,7 @@ function DataTableEditor({ value, onChange, chartType }) {
   const [jsonText, setJsonText] = useState('')
   const [isValid, setIsValid] = useState(true)
   const [errorMessage, setErrorMessage] = useState('')
+  const [isUserEditing, setIsUserEditing] = useState(false)
 
   // Generate default data based on chart type
   const getDefaultData = (type) => {
@@ -89,7 +90,7 @@ function DataTableEditor({ value, onChange, chartType }) {
     }
   }
 
-  // 获取数据格式说明
+  // Get data format description
   const getDataFormatDescription = (type) => {
     switch (type) {
       case 'bar':
@@ -114,7 +115,7 @@ function DataTableEditor({ value, onChange, chartType }) {
     }
   }
 
-  // 验证JSON格式
+  // Validate JSON format
   const validateJSON = (text) => {
     try {
       if (!text.trim()) {
@@ -138,18 +139,24 @@ function DataTableEditor({ value, onChange, chartType }) {
     }
   }
 
-  // 处理JSON文本变化
+  // Handle JSON text changes
   const handleJsonChange = (e) => {
     const text = e.target.value
     setJsonText(text)
+    setIsUserEditing(true)
     const parsed = validateJSON(text)
     if (parsed !== null) {
       onChange?.(parsed)
     }
   }
 
-  // 初始化数据
+  // Initialize data
   useEffect(() => {
+    // If user is editing, do not override user input
+    if (isUserEditing) {
+      return
+    }
+    
     if (value && Array.isArray(value)) {
       setJsonText(JSON.stringify(value, null, 2))
       setIsValid(true)
@@ -161,19 +168,20 @@ function DataTableEditor({ value, onChange, chartType }) {
       setErrorMessage('')
       onChange?.(defaultData)
     }
-  }, [value, chartType, onChange])
+  }, [value, chartType, onChange, isUserEditing])
 
-  // 重置为默认数据
+  // Reset to default data
   const resetToDefault = () => {
     const defaultData = getDefaultData(chartType)
     setJsonText(JSON.stringify(defaultData, null, 2))
     setIsValid(true)
     setErrorMessage('')
+    setIsUserEditing(false) // Reset editing state
     onChange?.(defaultData)
     message.success('Reset to default data')
   }
 
-  // 复制JSON到剪贴板
+  // Copy JSON to clipboard
   const copyToClipboard = () => {
     navigator.clipboard.writeText(jsonText).then(() => {
       message.success('JSON copied to clipboard')
@@ -182,7 +190,7 @@ function DataTableEditor({ value, onChange, chartType }) {
     })
   }
 
-  // 导入JSON文件
+  // Import JSON file
   const importJSON = () => {
     const input = document.createElement('input')
     input.type = 'file'
@@ -202,6 +210,7 @@ function DataTableEditor({ value, onChange, chartType }) {
             setJsonText(JSON.stringify(parsed, null, 2))
             setIsValid(true)
             setErrorMessage('')
+            setIsUserEditing(false) // Reset editing state
             onChange?.(parsed)
             message.success('JSON file imported successfully')
           } catch (error) {
@@ -214,7 +223,7 @@ function DataTableEditor({ value, onChange, chartType }) {
     input.click()
   }
 
-  // 导出JSON文件
+  // Export JSON file
   const exportJSON = () => {
     if (!jsonText.trim()) {
       message.warning('No data to export')
@@ -235,7 +244,7 @@ function DataTableEditor({ value, onChange, chartType }) {
 
   return (
     <div>
-      {/* 数据格式说明 */}
+      {/* Data format description */}
       <Card size="small" style={{ marginBottom: 8 }}>
         <div style={{ fontSize: '12px', color: '#666' }}>
           <Text strong>Data Format Description:</Text>
@@ -244,7 +253,7 @@ function DataTableEditor({ value, onChange, chartType }) {
         </div>
       </Card>
 
-      {/* 操作按钮 */}
+      {/* Operation buttons */}
       <Space style={{ marginBottom: 8 }}>
         <Tooltip title="Reset to default data">
           <Button size="small" icon={<ReloadOutlined />} onClick={resetToDefault}>
@@ -264,7 +273,7 @@ function DataTableEditor({ value, onChange, chartType }) {
         </Button>
       </Space>
 
-      {/* 错误提示 */}
+      {/* Error message */}
       {!isValid && (
         <Alert
           message="JSON Format Error"
@@ -275,7 +284,7 @@ function DataTableEditor({ value, onChange, chartType }) {
         />
       )}
 
-      {/* JSON输入框 */}
+      {/* JSON input box */}
       <TextArea
         value={jsonText}
         onChange={handleJsonChange}
@@ -288,7 +297,7 @@ function DataTableEditor({ value, onChange, chartType }) {
         }}
       />
 
-      {/* 数据预览 */}
+      {/* Data preview */}
       {isValid && jsonText.trim() && (
         <div style={{ marginTop: 8, fontSize: '12px', color: '#666' }}>
           <Text>Data Preview: {JSON.parse(jsonText).length} records</Text>

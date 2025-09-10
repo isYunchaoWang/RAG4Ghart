@@ -168,7 +168,7 @@ function pickFormFromSpec(spec) {
       if (value && value.field) {
         // Map vega encoding to our field names
         let fieldName = key
-        if (key === 'theta') fieldName = 'value' // Map pie chart's theta to value
+        if (key === 'theta') fieldName = 'value' // Map pie chart theta to value
         
         result[`${fieldName}Field`] = value.field
         result[`${fieldName}Type`] = value.type
@@ -309,55 +309,74 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
   const [tableData, setTableData] = useState([])
   const [isInitialized, setIsInitialized] = useState(false)
 
-  // Save Vega view and container reference for screenshot
+  // Save Vega view and container references for screenshots
   const viewRef = useRef(null)
   const embedContainerRef = useRef(null)
 
-  // Flag to prevent circular updates
+  // Flags to prevent circular updates
   const isUpdatingFromExternal = useRef(false)
   const isInternalUpdate = useRef(false)
   
-  // Handle chart type selection from retrieval results
+  // Handle chart type selection from search results
   useEffect(() => {
     if (selectedChartType && selectedChartType !== chartType) {
-      console.log('Selected chart type from retrieval results:', selectedChartType)
+      console.log('Chart type selected from search results:', selectedChartType)
       handleCreateNewChart(selectedChartType)
     }
   }, [selectedChartType])
 
-  // Only process when valid specText is passed from outside (when selecting from history)
+  // Only process when external specText is valid (when selecting from history)
   useEffect(() => {
-    // If it is a change caused by internal update, ignore it
+    // If changes are caused by internal updates, ignore
     if (isUpdatingFromExternal.current || isInternalUpdate.current) {
       return
     }
     
-    // Only process when non-empty specText is passed from outside
+    // Only process when external non-empty specText is provided
     if (specText && specText.trim() && specText !== '{}') {
-      const spec = safeParseJSON(specText)
-      const mapped = pickFormFromSpec(spec)
-      if (mapped && mapped.chartType) {
-        setChartType(mapped.chartType)
-        setFormValues(mapped)
-        setDataText(mapped.dataText || JSON.stringify(getDefaultData(mapped.chartType), null, 2))
-        
-        // Parse data and set to table
-        try {
-          const parsedData = JSON.parse(mapped.dataText || '[]')
-          setTableData(Array.isArray(parsedData) ? parsedData : [])
-        } catch {
-          setTableData([])
+      const parsed = safeParseJSON(specText)
+      if (parsed) {
+        // Check if it is saved custom format
+        if (parsed.chartType && parsed.formValues && parsed.dataValues) {
+          // This is saved custom format, restore directly
+          console.log('Restore custom format from history:', parsed)
+          setChartType(parsed.chartType)
+          setFormValues(parsed.formValues)
+          setDataText(JSON.stringify(parsed.dataValues, null, 2))
+          setTableData(Array.isArray(parsed.dataValues) ? parsed.dataValues : [])
+          setIsInitialized(true)
+          form.setFieldsValue(parsed.formValues)
+          
+          // Update global variable for duplicate selection detection
+          window.lastSelectedChartType = parsed.chartType
+          console.log('Load custom format from history, update lastSelectedChartType:', parsed.chartType)
+        } else {
+          // This is Vega-Lite format, use original logic
+          const mapped = pickFormFromSpec(parsed)
+          if (mapped && mapped.chartType) {
+            setChartType(mapped.chartType)
+            setFormValues(mapped)
+            setDataText(mapped.dataText || JSON.stringify(getDefaultData(mapped.chartType), null, 2))
+            
+            // Parse data and set to table
+            try {
+              const parsedData = JSON.parse(mapped.dataText || '[]')
+              setTableData(Array.isArray(parsedData) ? parsedData : [])
+            } catch {
+              setTableData([])
+            }
+            
+            setIsInitialized(true)
+            form.setFieldsValue(mapped)
+            
+            // Update global variable for duplicate selection detection
+            window.lastSelectedChartType = mapped.chartType
+            console.log('Load Vega format from history, update lastSelectedChartType:', mapped.chartType)
+          }
         }
-        
-        setIsInitialized(true)
-        form.setFieldsValue(mapped)
-        
-        // Update global variable to detect duplicate selection
-        window.lastSelectedChartType = mapped.chartType
-        console.log('Loaded from history, updating lastSelectedChartType:', mapped.chartType)
       }
     } else if (!specText || specText.trim() === '' || specText === '{}') {
-      // If external cleared specText, reset state
+      // If external specText is cleared, reset state
       setChartType('')
       setFormValues({})
       setDataText('[]')
@@ -367,7 +386,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
       
       // Clear global variable
       window.lastSelectedChartType = ''
-      console.log('Cleared specText, cleared lastSelectedChartType')
+      console.log('Clear specText, clear lastSelectedChartType')
     }
   }, [specText, form])
 
@@ -381,7 +400,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
     return Array.isArray(parsed) ? parsed : []
   }, [tableData, dataText])
 
-  // Sync to external specText - now handled by each chart component
+  // Sync to external specText - now handled by individual chart components
   useEffect(() => {
     // Only sync after user has selected chart type
     if (chartType && !isUpdatingFromExternal.current) {
@@ -445,7 +464,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
 
 
   const handleCreateNewChart = (chartType) => {
-    console.log('Creating new chart:', chartType)
+    console.log('Create new chart:', chartType)
     
     // Reset all states
     setChartType(chartType)
@@ -493,9 +512,9 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
       setFormValues(resetValues)
     }, 0)
     
-    // Update global variable to prevent duplicate triggering
+    // Update global variable to prevent duplicate triggers
     window.lastSelectedChartType = chartType
-    console.log('After creating new chart, updating lastSelectedChartType:', chartType)
+    console.log('After creating new chart, update lastSelectedChartType:', chartType)
     
     message.info(`Created new ${getChartTypeLabel(chartType)}`)
   }
@@ -518,7 +537,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
       
       const specText = JSON.stringify(config, null, 2)
       
-      // Try to get screenshot of ECharts instance
+      // Try to get ECharts instance screenshot
       let dataUrl = ''
       const container = embedContainerRef.current
       if (container) {
@@ -610,7 +629,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
                 // Data
                 dataText: JSON.stringify(defaultData, null, 2),
                 
-                // Field configuration - use chart type default configuration
+                // Field configuration - use default configuration for chart type
                 ...defaultConfig
               }
               
@@ -653,22 +672,22 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
               placeholder="Please select chart type"
               allowClear
               onOpenChange={(open) => {
-                // When dropdown opens, record current value
+                // Record current value when dropdown opens
                 if (open) {
                   const currentValue = form.getFieldValue('chartType')
-                  console.log('Dropdown opened, recording current value:', currentValue)
-                  // Store current value for subsequent duplicate selection detection
+                  console.log('Dropdown opened, record current value:', currentValue)
+                  // Store current value for duplicate selection detection
                   window.lastSelectedChartType = currentValue
                 }
               }}
               onSelect={(value, option) => {
-                // Use onSelect event, which triggers when selecting an option
+                // Use onSelect event, triggered when option is selected
                 const lastValue = window.lastSelectedChartType
                 console.log('Select onSelect:', { value, lastValue, isRepeat: value === lastValue })
                 
                 if (value && lastValue && value === lastValue) {
-                  // Repeated selection of same type, treat as new chart creation
-                  console.log('Repeated selection of same type, treat as new chart creation')
+                  // Duplicate selection of same type, treat as new chart
+                  console.log('Duplicate selection of same type, treat as new chart')
                   handleCreateNewChart(value)
                 }
               }}
