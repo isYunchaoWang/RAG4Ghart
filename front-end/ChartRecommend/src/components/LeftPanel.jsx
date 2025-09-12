@@ -37,7 +37,7 @@ const processChartData = async (item) => {
     }
 };
 
-function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDeleteHistory, onChartSelect}) {
+function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDeleteHistory, onReorderHistory, onChartSelect}) {
     const {token} = theme.useToken()
 
     const [query, setQuery] = useState("")
@@ -86,8 +86,8 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
                 query: query.trim()
             }),  // Convert request body data to JSON string
         })
-        const responseList = await response.json()
-        responseList.map(item => processChartData(item));
+        let responseList = await response.json()
+        responseList = await Promise.all(responseList.map(item => processChartData(item)))
         setDense(responseList)
         console.log('dense')
         console.log(dense)
@@ -99,7 +99,7 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
                 <Title level={5} style={{marginBottom: 8}}>Text Input</Title>
                 <TextArea
                     placeholder="Enter text here..."
-                    autoSize={{minRows: 3, maxRows: 6}}
+                    autoSize={{minRows: 4, maxRows: 4}}
                     style={{height: '100%'}}
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -123,7 +123,7 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
                     gridTemplateRows: "auto 1fr", // First row is title, remaining part for content
                 }}
             >
-                <Title level={5} style={{marginTop: 0}}>Information Display Area</Title>
+                <Title level={5} style={{marginTop: 0}}>Display Area</Title>
 
                 {/* Three retrieval block containers */}
                 <Retrieval sparse={sparse} dense={dense} onChartSelect={onChartSelect}/>
@@ -139,7 +139,7 @@ function LeftPanel({historyItems = [], onSelectHistory, onClearHistory, onDelete
                 <Title level={5} style={{marginTop: 0}}>History</Title>
                 <div style={{flex: 1, minHeight: 0}}>
                     <ChartHistory items={historyItems} onSelect={onSelectHistory} onClear={onClearHistory}
-                                  onDelete={onDeleteHistory}/>
+                                  onDelete={onDeleteHistory} onReorder={onReorderHistory}/>
                 </div>
             </div>
         </div>

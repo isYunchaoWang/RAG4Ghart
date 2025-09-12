@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Input, Button, Space, message, Alert, Typography, Card, Tooltip } from 'antd'
 import { UploadOutlined, DownloadOutlined, CopyOutlined, ReloadOutlined } from '@ant-design/icons'
 
 const { TextArea } = Input
 const { Text } = Typography
 
-function DataTableEditor({ value, onChange, chartType }) {
+function DataTableEditor({ value, onChange, chartType, shouldScrollToEditor }) {
   const [jsonText, setJsonText] = useState('')
   const [isValid, setIsValid] = useState(true)
   const [errorMessage, setErrorMessage] = useState('')
   const [isUserEditing, setIsUserEditing] = useState(false)
+  const editorRef = useRef(null)
 
   // Generate default data based on chart type
   const getDefaultData = (type) => {
@@ -170,6 +171,19 @@ function DataTableEditor({ value, onChange, chartType }) {
     }
   }, [value, chartType, onChange, isUserEditing])
 
+  // Auto scroll to editor when shouldScrollToEditor is true
+  useEffect(() => {
+    if (shouldScrollToEditor && editorRef.current) {
+      setTimeout(() => {
+        editorRef.current.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'start',
+          inline: 'nearest'
+        })
+      }, 100) // Small delay to ensure content is rendered
+    }
+  }, [shouldScrollToEditor])
+
   // Reset to default data
   const resetToDefault = () => {
     const defaultData = getDefaultData(chartType)
@@ -285,17 +299,19 @@ function DataTableEditor({ value, onChange, chartType }) {
       )}
 
       {/* JSON input box */}
-      <TextArea
-        value={jsonText}
-        onChange={handleJsonChange}
-        placeholder="Please enter JSON format data..."
-        rows={12}
-        style={{
-          fontFamily: 'Monaco, Menlo, Consolas, monospace',
-          fontSize: '12px',
-          borderColor: isValid ? undefined : '#ff4d4f'
-        }}
-      />
+      <div ref={editorRef}>
+        <TextArea
+          value={jsonText}
+          onChange={handleJsonChange}
+          placeholder="Please enter JSON format data..."
+          rows={12}
+          style={{
+            fontFamily: 'Monaco, Menlo, Consolas, monospace',
+            fontSize: '12px',
+            borderColor: isValid ? undefined : '#ff4d4f'
+          }}
+        />
+      </div>
 
       {/* Data preview */}
       {isValid && jsonText.trim() && (

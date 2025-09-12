@@ -308,6 +308,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
   const [dataText, setDataText] = useState('[]')
   const [tableData, setTableData] = useState([])
   const [isInitialized, setIsInitialized] = useState(false)
+  const [shouldScrollToEditor, setShouldScrollToEditor] = useState(false)
 
   // Save Vega view and container references for screenshots
   const viewRef = useRef(null)
@@ -347,6 +348,10 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
           setIsInitialized(true)
           form.setFieldsValue(parsed.formValues)
           
+          // Trigger scroll to editor
+          setShouldScrollToEditor(true)
+          setTimeout(() => setShouldScrollToEditor(false), 1000) // Reset after 1 second
+          
           // Update global variable for duplicate selection detection
           window.lastSelectedChartType = parsed.chartType
           console.log('Load custom format from history, update lastSelectedChartType:', parsed.chartType)
@@ -368,6 +373,10 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
             
             setIsInitialized(true)
             form.setFieldsValue(mapped)
+            
+            // Trigger scroll to editor
+            setShouldScrollToEditor(true)
+            setTimeout(() => setShouldScrollToEditor(false), 1000) // Reset after 1 second
             
             // Update global variable for duplicate selection detection
             window.lastSelectedChartType = mapped.chartType
@@ -741,6 +750,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
                   value={tableData}
                   onChange={setTableData}
                   chartType={chartType}
+                  shouldScrollToEditor={shouldScrollToEditor}
                 />
               </div>
             </div>

@@ -3,21 +3,49 @@ import { Form, Select, InputNumber, ColorPicker, Space, Divider, Switch, Input }
 // Style configuration constants
 const MARK_COLORS = [
   { label: 'Default', value: '' },
-  { label: 'Blue', value: 'blues' },
-  { label: 'Red', value: 'reds' },
-  { label: 'Green', value: 'greens' },
-  { label: 'Orange', value: 'oranges' },
-  { label: 'Purple', value: 'purples' },
-  { label: 'Grey', value: 'greys' },
-  { label: 'Rainbow', value: 'rainbow' },
-  { label: 'Category10', value: 'category10' },
-  { label: 'Category20', value: 'category20' },
-  { label: 'Spectral', value: 'spectral' },
-  { label: 'RdYlBu', value: 'rdylbu' },
-  { label: 'Set1', value: 'set1' },
-  { label: 'Set2', value: 'set2' },
-  { label: 'Set3', value: 'set3' },
+  { label: 'Vibrant Blue', value: '#1890ff' },
+  { label: 'Elegant Red', value: '#f5222d' },
+  { label: 'Fresh Green', value: '#52c41a' },
+  { label: 'Warm Orange', value: '#fa8c16' },
+  { label: 'Royal Purple', value: '#722ed1' },
+  { label: 'Modern Grey', value: '#8c8c8c' },
+  { label: 'Ocean Blue', value: '#13c2c2' },
+  { label: 'Sunset Pink', value: '#eb2f96' },
+  { label: 'Forest Green', value: '#389e0d' },
+  { label: 'Golden Yellow', value: '#fadb14' },
+  { label: 'Deep Indigo', value: '#2f54eb' },
+  { label: 'Coral Red', value: '#ff7875' },
+  { label: 'Mint Green', value: '#36cfc9' },
+  { label: 'Lavender', value: '#b37feb' },
+  { label: 'Peach', value: '#ffa940' },
 ]
+
+// 预定义的颜色方案
+const COLOR_SCHEMES = [
+  { label: 'Default', value: '' },
+  { label: 'Modern Blue', value: 'modern-blue' },
+  { label: 'Warm Sunset', value: 'warm-sunset' },
+  { label: 'Ocean Breeze', value: 'ocean-breeze' },
+  { label: 'Forest Green', value: 'forest-green' },
+  { label: 'Royal Purple', value: 'royal-purple' },
+  { label: 'Vibrant Rainbow', value: 'vibrant-rainbow' },
+  { label: 'Pastel Dream', value: 'pastel-dream' },
+  { label: 'Monochrome', value: 'monochrome' },
+  { label: 'Fire & Ice', value: 'fire-ice' },
+]
+
+// 颜色方案定义
+export const COLOR_SCHEME_DEFINITIONS = {
+  'modern-blue': ['#1890ff', '#40a9ff', '#69c0ff', '#91d5ff', '#bae7ff'],
+  'warm-sunset': ['#fa8c16', '#ffa940', '#ffc069', '#ffd591', '#ffe7ba'],
+  'ocean-breeze': ['#13c2c2', '#36cfc9', '#5cdbd3', '#87e8de', '#b5f5ec'],
+  'forest-green': ['#52c41a', '#73d13d', '#95de64', '#b7eb8f', '#d9f7be'],
+  'royal-purple': ['#722ed1', '#9254de', '#b37feb', '#d3adf7', '#efdbff'],
+  'vibrant-rainbow': ['#f5222d', '#fa8c16', '#fadb14', '#52c41a', '#13c2c2', '#1890ff', '#722ed1', '#eb2f96'],
+  'pastel-dream': ['#ffb3ba', '#ffdfba', '#ffffba', '#baffc9', '#bae1ff', '#e6b3ff'],
+  'monochrome': ['#000000', '#333333', '#666666', '#999999', '#cccccc'],
+  'fire-ice': ['#ff4d4f', '#ff7875', '#ffa39e', '#87e8de', '#5cdbd3', '#13c2c2'],
+}
 
 const OPACITY_OPTIONS = [
   { label: '0.1', value: 0.1 },
@@ -173,8 +201,8 @@ function StyleConfig({ chartType, form }) {
              </Form.Item>
            )}
 
-           {/* 气泡图大小（仅气泡图支持） */}
-           {isBubbleChart && (
+           {/* 散点图和气泡图大小 */}
+           {(isScatterChart || isBubbleChart) && (
              <Form.Item label="Point Size" name="pointSize" style={{ marginBottom: 0 }}>
                <InputNumber 
                  id="pointSize"
@@ -234,6 +262,7 @@ function StyleConfig({ chartType, form }) {
            </Form.Item>
         </Space>
       </div>
+
 
       {/* 轴和图例配置 */}
       <div style={{ marginBottom: '12px' }}>

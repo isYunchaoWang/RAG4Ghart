@@ -207,6 +207,26 @@ function adaptSankeyData(dataValues, formValues) {
   }
 }
 
+// 美观的默认颜色方案
+const DEFAULT_COLOR_SCHEMES = {
+  bar: ['#D0908F', '#BE6C6D', '#AA3A49',],
+  line: ['#6A5DC4', '#00C1C2', '#D2AA3A'],
+  pie: ['#5E919B', '#F47C42', '#76C6A5', '#8E0841', '#EA9C9D', '#84CA76', '#0F803F'],
+  scatter: ['#C86193', '#00BA38', '#619CFF', '#f5222d', '#722ed1'],
+  // scatter: ['#C86193'],
+  bubble: ['#6F78B9', '#F37252', '#810006', '#FDBC63', '#722ed1'],
+  heatmap: ['#ffffff', '#e6f7ff', '#bae7ff', '#91d5ff', '#69c0ff', '#40a9ff', '#1890ff', '#096dd9'],
+  treemap: ['#1890ff', '#52c41a', '#fa8c16', '#f5222d', '#722ed1', '#13c2c2', '#eb2f96', '#fadb14'],
+  chord: ['#1890ff', '#52c41a', '#fa8c16', '#f5222d', '#722ed1', '#13c2c2', '#eb2f96', '#fadb14'],
+  funnel: ['#1890ff', '#40a9ff', '#69c0ff', '#91d5ff', '#bae7ff'],
+  nodelink: ['#1890ff', '#52c41a', '#fa8c16', '#f5222d', '#722ed1', '#13c2c2', '#eb2f96', '#fadb14']
+}
+
+// 获取图表类型的默认颜色
+export function getDefaultColors(chartType) {
+  return DEFAULT_COLOR_SCHEMES[chartType] || DEFAULT_COLOR_SCHEMES.bar
+}
+
 // 样式配置适配器
 export function adaptStyleConfig(chartType, formValues) {
   // 确保formValues是对象
@@ -215,7 +235,8 @@ export function adaptStyleConfig(chartType, formValues) {
   const baseConfig = {
     opacity: safeFormValues.opacity !== undefined ? safeFormValues.opacity : 0.8,
     fontSize: safeFormValues.fontSize || 12,
-    fontFamily: safeFormValues.fontFamily || 'Arial'
+    fontFamily: safeFormValues.fontFamily || 'Arial',
+    colors: getDefaultColors(chartType)
   }
 
   switch (chartType) {
@@ -256,7 +277,7 @@ export function adaptStyleConfig(chartType, formValues) {
         gap: safeFormValues.gap || 2,
         sort: safeFormValues.sort || 'descending'
       }
-    case 'node_link':
+    case 'nodelink':
       return {
         ...baseConfig,
         symbolSize: safeFormValues.pointSize || 30,

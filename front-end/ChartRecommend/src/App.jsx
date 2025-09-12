@@ -16,8 +16,18 @@ function App() {
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY)
+      console.log('Loading from localStorage:', {
+        key: STORAGE_KEY,
+        raw: raw,
+        rawLength: raw ? raw.length : 0
+      })
       if (raw) {
         const parsed = JSON.parse(raw)
+        console.log('Parsed from localStorage:', {
+          isArray: Array.isArray(parsed),
+          length: Array.isArray(parsed) ? parsed.length : 0,
+          parsed: parsed
+        })
         if (Array.isArray(parsed)) {
           const withTs = parsed.map((it, idx) => ({
             ...it,
@@ -26,16 +36,26 @@ function App() {
             specText: it.specText || it.text || '',
           }))
           withTs.sort((a, b) => a.ts - b.ts)
+          console.log('Final history loaded:', withTs)
           setHistory(withTs)
         }
       }
-    } catch {}
+    } catch (error) {
+      console.error('Error loading from localStorage:', error)
+    }
   }, [])
 
   useEffect(() => {
     try {
+      console.log('Saving to localStorage:', {
+        key: STORAGE_KEY,
+        historyLength: history.length,
+        history: history
+      })
       localStorage.setItem(STORAGE_KEY, JSON.stringify(history))
-    } catch {}
+    } catch (error) {
+      console.error('Error saving to localStorage:', error)
+    }
   }, [history])
 
   const addHistory = (payload) => {
@@ -44,7 +64,11 @@ function App() {
     const text = isObj ? payload.specText : (payload || '')
     const thumb = isObj ? (payload.thumbDataUrl || payload.thumb || '') : ''
     const trimmed = (text || '').trim()
-    if (!trimmed) return
+    if (!trimmed) {
+      console.log('No text to save, skipping')
+      return
+    }
+    
     const now = new Date()
     const record = {
       title: tryGetTitle(trimmed),
@@ -53,7 +77,18 @@ function App() {
       specText: trimmed,
       thumb,
     }
-    setHistory((prev) => [...prev, record])
+    
+    console.log('Adding to history:', {
+      currentHistoryLength: history.length,
+      newRecord: record,
+      payload
+    })
+    
+    setHistory((prev) => {
+      const newHistory = [...prev, record]
+      console.log('New history length:', newHistory.length)
+      return newHistory
+    })
   }
 
   const tryGetTitle = (text) => {
@@ -81,6 +116,15 @@ function App() {
     })
   }
 
+  const onReorderHistory = (startIndex, endIndex) => {
+    setHistory((prev) => {
+      const newHistory = [...prev]
+      const [removed] = newHistory.splice(startIndex, 1)
+      newHistory.splice(endIndex, 0, removed)
+      return newHistory
+    })
+  }
+
   const onChartSelect = (chartType) => {
     setSelectedChartType(chartType)
     // Clear specText to let ChartEditor reinitialize
@@ -90,7 +134,7 @@ function App() {
   return (
     <div className="app-root" style={{ background: token.colorBgBase, height: '100vh', display: 'flex' }}>
       <div className="app-left" style={{ padding: 16, flex: 7, minWidth: 0 }}>
-        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} onChartSelect={onChartSelect} />
+        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} onReorderHistory={onReorderHistory} onChartSelect={onChartSelect} />
       </div>
 
       <div className="app-right" style={{ padding: 16, background: token.colorBgContainer, display: 'flex', flexDirection: 'column', gap: 12, flex: 3, minWidth: 0, minHeight: 0 }}>

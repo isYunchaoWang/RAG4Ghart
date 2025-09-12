@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import EChartsBase from './EChartsBase'
-import { adaptStyleConfig } from './EChartsDataAdapter'
+import { adaptStyleConfig, getDefaultColors } from './EChartsDataAdapter'
 
 function EChartsPieChart({ chartType, title, description, width, height, formValues, dataValues, onEmbed }) {
   const option = useMemo(() => {
@@ -19,48 +19,59 @@ function EChartsPieChart({ chartType, title, description, width, height, formVal
     }
 
     const styleConfig = adaptStyleConfig('pie', formValues)
+    const colors = getDefaultColors('pie')
 
     return {
+      color: colors,
       title: {
-        text: title || '',
-        left: 'center',
-        textStyle: {
-          fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
-        }
+        show: false
       },
       tooltip: {
         trigger: 'item',
-        formatter: '{a} <br/>{b}: {c} ({d}%)'
+        formatter: '{a} <br/>{b}: {c} ({d}%)',
+        backgroundColor: 'rgba(255, 255, 255, 0.95)',
+        borderColor: '#d9d9d9',
+        textStyle: {
+          color: '#262626'
+        }
       },
       legend: {
         orient: formValues.legendOrientation || 'vertical',
         left: formValues.legendPosition === 'left' ? 'left' : 'right',
         textStyle: {
           fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
+          fontFamily: styleConfig.fontFamily || 'Arial',
+          color: '#262626'
         }
       },
       series: [{
         name: 'Data',
         type: 'pie',
-        radius: formValues.innerRadius ? [`${formValues.innerRadius}%`, '70%'] : '50%',
+        radius: formValues.innerRadius ? [`${formValues.innerRadius}%`, '80%'] : '100%',
         center: ['50%', '50%'],
-        data: dataValues.map(item => ({
+        data: dataValues.map((item, index) => ({
           name: item[formValues.categoryField || 'category'] || '',
-          value: item[formValues.valueField || 'value'] || 0
+          value: item[formValues.valueField || 'value'] || 0,
+          itemStyle: {
+            color: colors[index % colors.length]
+          }
         })),
         itemStyle: {
-          opacity: styleConfig.opacity || 0.8
+          opacity: styleConfig.opacity || 0.8,
+          borderWidth: 2,
+          borderColor: '#fff'
         },
         label: {
           show: true,
           fontSize: styleConfig.fontSize || 12,
-          fontFamily: styleConfig.fontFamily || 'Arial'
+          fontFamily: styleConfig.fontFamily || 'Arial',
+          color: '#262626'
         },
         emphasis: {
           itemStyle: {
-            opacity: Math.min((styleConfig.opacity || 0.8) + 0.2, 1)
+            opacity: Math.min((styleConfig.opacity || 0.8) + 0.2, 1),
+            shadowBlur: 10,
+            shadowColor: 'rgba(0, 0, 0, 0.1)'
           }
         }
       }]
