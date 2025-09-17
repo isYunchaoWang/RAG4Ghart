@@ -2,7 +2,7 @@ import './App.css'
 import { theme } from 'antd'
 import LeftPanel from './components/LeftPanel'
 import ChartEditor from './components/ChartEditor'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 function App() {
   const { token } = theme.useToken()
@@ -10,6 +10,8 @@ function App() {
   const [specText, setSpecText] = useState('')
   const [history, setHistory] = useState([])
   const [selectedChartType, setSelectedChartType] = useState('')
+  const leftPanelRef = useRef(null)
+  const chartEditorRef = useRef(null)
 
   const STORAGE_KEY = 'chartHistory'
 
@@ -38,10 +40,15 @@ function App() {
           withTs.sort((a, b) => a.ts - b.ts)
           console.log('Final history loaded:', withTs)
           setHistory(withTs)
+        } else {
+          console.warn('localStorage数据不是数组格式，无法加载历史记录')
         }
+      } else {
+        console.log('localStorage中没有找到数据')
       }
     } catch (error) {
       console.error('Error loading from localStorage:', error)
+      console.error('请检查localStorage中的数据格式是否正确')
     }
   }, [])
 
@@ -108,6 +115,48 @@ function App() {
     setHistory([])
     try { localStorage.removeItem(STORAGE_KEY) } catch {}
   }
+  // 在App组件的useEffect中添加
+  useEffect(() => {
+    window.leftPanelRef = leftPanelRef
+    window.chartEditorRef = chartEditorRef
+  }, [])
+
+  // 手动刷新localStorage数据
+  const refreshFromLocalStorage = () => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY)
+      console.log('手动刷新localStorage:', {
+        key: STORAGE_KEY,
+        raw: raw,
+        rawLength: raw ? raw.length : 0
+      })
+      if (raw) {
+        const parsed = JSON.parse(raw)
+        console.log('手动刷新解析结果:', {
+          isArray: Array.isArray(parsed),
+          length: Array.isArray(parsed) ? parsed.length : 0,
+          parsed: parsed
+        })
+        if (Array.isArray(parsed)) {
+          const withTs = parsed.map((it, idx) => ({
+            ...it,
+            ts: typeof it.ts === 'number' ? it.ts : (new Date(it.time).getTime() || idx),
+            thumb: it.thumb || it.thumbDataUrl || '',
+            specText: it.specText || it.text || '',
+          }))
+          withTs.sort((a, b) => a.ts - b.ts)
+          console.log('手动刷新最终结果:', withTs)
+          setHistory(withTs)
+        } else {
+          console.warn('localStorage数据不是数组格式，无法加载历史记录')
+        }
+      } else {
+        console.log('localStorage中没有找到数据')
+      }
+    } catch (error) {
+      console.error('手动刷新localStorage时出错:', error)
+    }
+  }
 
   const onDeleteHistory = (index) => {
     setHistory((prev) => {
@@ -134,12 +183,12 @@ function App() {
   return (
     <div className="app-root" style={{ background: token.colorBgBase, height: '100vh', display: 'flex' }}>
       <div className="app-left" style={{ padding: 16, flex: 7, minWidth: 0 }}>
-        <LeftPanel historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} onReorderHistory={onReorderHistory} onChartSelect={onChartSelect} />
+        <LeftPanel ref={leftPanelRef} historyItems={history} onSelectHistory={onSelectHistory} onClearHistory={onClearHistory} onDeleteHistory={onDeleteHistory} onReorderHistory={onReorderHistory} onChartSelect={onChartSelect} onRefreshHistory={refreshFromLocalStorage} />
       </div>
 
       <div className="app-right" style={{ padding: 16, background: token.colorBgContainer, display: 'flex', flexDirection: 'column', gap: 12, flex: 3, minWidth: 0, minHeight: 0 }}>
         <div style={{ flex: 6, minHeight: 0 }}>
-          <ChartEditor specText={specText} onChange={setSpecText} onSave={addHistory} selectedChartType={selectedChartType} />
+          <ChartEditor ref={chartEditorRef} specText={specText} onChange={setSpecText} onSave={addHistory} selectedChartType={selectedChartType} />
         </div>
       </div>
     </div>

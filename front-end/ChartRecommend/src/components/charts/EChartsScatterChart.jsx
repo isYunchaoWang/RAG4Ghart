@@ -82,7 +82,9 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
             (formValues.pointSize || 10),
           itemStyle: {
             opacity: styleConfig.opacity || 0.8,
-            color: color
+            color: color,
+            borderWidth: formValues.strokeWidth || 0,
+            borderColor: color
           },
           emphasis: {
             itemStyle: {
@@ -128,7 +130,9 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
           (formValues.pointSize || 10),
         itemStyle: {
           opacity: styleConfig.opacity || 0.8,
-          color: colors[0]
+          color: colors[0],
+          borderWidth: formValues.strokeWidth || 0,
+          borderColor: colors[0]
         },
         emphasis: {
           itemStyle: {
@@ -168,8 +172,14 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
       },
       legend: {
         data: legendData,
+        show: formValues.showLegend !== false,
         orient: formValues.legendOrientation || 'horizontal',
-        left: formValues.legendPosition === 'left' ? 'left' : 'right',
+        left: formValues.legendPosition === 'left' ? 'left' : 
+              formValues.legendPosition === 'right' ? 'right' :
+              formValues.legendPosition === 'top' ? 'center' :
+              formValues.legendPosition === 'bottom' ? 'center' : 'right',
+        top: formValues.legendPosition === 'top' ? 'top' :
+             formValues.legendPosition === 'bottom' ? 'bottom' : 'middle',
         textStyle: {
           fontSize: styleConfig.fontSize || 12,
           fontFamily: styleConfig.fontFamily || 'Arial',
@@ -198,6 +208,7 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
           }
         },
         splitLine: {
+          show: formValues.showGrid !== false,
           lineStyle: {
             color: '#f0f0f0'
           }
@@ -216,6 +227,7 @@ function EChartsScatterChart({ chartType, title, description, width, height, for
           }
         },
         splitLine: {
+          show: formValues.showGrid !== false,
           lineStyle: {
             color: '#f0f0f0'
           }

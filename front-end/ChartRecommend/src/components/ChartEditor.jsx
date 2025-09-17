@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, useRef } from 'react'
+import { useEffect, useMemo, useState, useRef, forwardRef, useImperativeHandle } from 'react'
 import { Form, Input, Typography, theme, Button, Space, Select, Divider, InputNumber, message, ColorPicker, Table } from 'antd'
 import ChartConfig from './ChartConfig'
 import StyleConfig from './StyleConfig'
@@ -298,7 +298,7 @@ function getDefaultData(chartType) {
   }
 }
 
-function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
+const ChartEditor = forwardRef(({ specText, onChange, onSave, selectedChartType }, ref) => {
   const { token } = theme.useToken()
   const [form] = Form.useForm()
 
@@ -313,10 +313,23 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
   // Save Vega view and container references for screenshots
   const viewRef = useRef(null)
   const embedContainerRef = useRef(null)
+  const dataEditorRef = useRef(null)
 
   // Flags to prevent circular updates
   const isUpdatingFromExternal = useRef(false)
   const isInternalUpdate = useRef(false)
+  
+  // 暴露给父组件的方法
+  useImperativeHandle(ref, () => ({
+    // 获取JSON数据编辑器的引用
+    getDataEditor: () => dataEditorRef.current,
+    // 直接调用JSON数据编辑器的自动输入方法
+    typePresetJSON: (presetValue, speed) => dataEditorRef.current?.typePresetJSON(presetValue, speed),
+    typeCustomJSON: (jsonData, speed) => dataEditorRef.current?.typeCustomJSON(jsonData, speed),
+    startTypingJSON: (text, speed) => dataEditorRef.current?.startTyping(text, speed),
+    stopTypingJSON: () => dataEditorRef.current?.stopTyping(),
+    isTypingJSON: () => dataEditorRef.current?.isTyping || false
+  }))
   
   // Handle chart type selection from search results
   useEffect(() => {
@@ -747,6 +760,7 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
                   JSON Data Editor
                 </div>
                 <DataTableEditor
+                  ref={dataEditorRef}
                   value={tableData}
                   onChange={setTableData}
                   chartType={chartType}
@@ -778,6 +792,6 @@ function ChartEditor({ specText, onChange, onSave, selectedChartType }) {
       </div>
     </div>
   )
-}
+})
 
 export default ChartEditor       

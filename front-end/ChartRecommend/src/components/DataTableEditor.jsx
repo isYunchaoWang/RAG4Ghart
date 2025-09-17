@@ -1,16 +1,21 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, forwardRef, useImperativeHandle } from 'react'
 import { Input, Button, Space, message, Alert, Typography, Card, Tooltip } from 'antd'
 import { UploadOutlined, DownloadOutlined, CopyOutlined, ReloadOutlined } from '@ant-design/icons'
 
 const { TextArea } = Input
 const { Text } = Typography
 
-function DataTableEditor({ value, onChange, chartType, shouldScrollToEditor }) {
+const DataTableEditor = forwardRef(({ value, onChange, chartType, shouldScrollToEditor }, ref) => {
   const [jsonText, setJsonText] = useState('')
   const [isValid, setIsValid] = useState(true)
   const [errorMessage, setErrorMessage] = useState('')
   const [isUserEditing, setIsUserEditing] = useState(false)
+  const [isTyping, setIsTyping] = useState(false)
+  const [typingSpeed, setTypingSpeed] = useState(5) // 默认50ms，JSON输入可以快一些
   const editorRef = useRef(null)
+  const typingIntervalRef = useRef(null)
+  const currentIndexRef = useRef(0)
+  const targetTextRef = useRef('')
 
   // Generate default data based on chart type
   const getDefaultData = (type) => {
@@ -140,6 +145,73 @@ function DataTableEditor({ value, onChange, chartType, shouldScrollToEditor }) {
     }
   }
 
+  // 自动输入功能
+  const startTyping = (text, speed = typingSpeed) => {
+    if (isTyping) return
+    
+    if (!text || !text.trim()) {
+      message.warning('请输入要自动输入的JSON文本')
+      return
+    }
+    
+    setIsTyping(true)
+    setJsonText('') // 清空当前内容
+    targetTextRef.current = text
+    currentIndexRef.current = 0
+    
+    // 使用更简单的方式：直接构建字符串，避免状态更新问题
+    let currentText = ''
+    
+    const typeNextChar = () => {
+      if (currentIndexRef.current < targetTextRef.current.length) {
+        currentText += targetTextRef.current[currentIndexRef.current]
+        currentIndexRef.current++
+        
+        // 直接设置完整的当前文本
+        setJsonText(currentText)
+        
+        // 继续下一个字符
+        typingIntervalRef.current = setTimeout(typeNextChar, speed)
+      } else {
+        // 输入完成，验证JSON
+        const parsed = validateJSON(currentText)
+        if (parsed !== null) {
+          onChange?.(parsed)
+        }
+        stopTyping()
+      }
+    }
+    
+    // 开始输入
+    typeNextChar()
+  }
+  
+  const stopTyping = () => {
+    if (typingIntervalRef.current) {
+      clearTimeout(typingIntervalRef.current)
+      typingIntervalRef.current = null
+    }
+    setIsTyping(false)
+  }
+  
+  // 使用预设JSON数据进行自动输入
+  const typePresetJSON = (presetValue, speed = typingSpeed) => {
+    const presetData = getDefaultData(presetValue)
+    const jsonString = JSON.stringify(presetData, null, 2)
+    startTyping(jsonString, speed)
+  }
+  
+  // 使用自定义JSON数据进行自动输入
+  const typeCustomJSON = (jsonData, speed = typingSpeed) => {
+    let jsonString
+    if (typeof jsonData === 'string') {
+      jsonString = jsonData
+    } else {
+      jsonString = JSON.stringify(jsonData, null, 2)
+    }
+    startTyping(jsonString, speed)
+  }
+
   // Handle JSON text changes
   const handleJsonChange = (e) => {
     const text = e.target.value
@@ -170,6 +242,31 @@ function DataTableEditor({ value, onChange, chartType, shouldScrollToEditor }) {
       onChange?.(defaultData)
     }
   }, [value, chartType, onChange, isUserEditing])
+
+  // 暴露给父组件的方法
+  useImperativeHandle(ref, () => ({
+    // 使用预设JSON数据进行自动输入
+    typePresetJSON: (presetValue, speed) => typePresetJSON(presetValue, speed),
+    // 使用自定义JSON数据进行自动输入
+    typeCustomJSON: (jsonData, speed) => typeCustomJSON(jsonData, speed),
+    // 开始自动输入
+    startTyping: (text, speed) => startTyping(text, speed),
+    // 停止自动输入
+    stopTyping: () => stopTyping(),
+    // 获取当前输入状态
+    isTyping: isTyping,
+    // 设置输入速度
+    setTypingSpeed: (speed) => setTypingSpeed(speed)
+  }))
+  
+  // 清理定时器
+  useEffect(() => {
+    return () => {
+      if (typingIntervalRef.current) {
+        clearTimeout(typingIntervalRef.current)
+      }
+    }
+  }, [])
 
   // Auto scroll to editor when shouldScrollToEditor is true
   useEffect(() => {
@@ -302,7 +399,7 @@ function DataTableEditor({ value, onChange, chartType, shouldScrollToEditor }) {
       <div ref={editorRef}>
         <TextArea
           value={jsonText}
-          onChange={handleJsonChange}
+          onChange={isTyping ? undefined : handleJsonChange}
           placeholder="Please enter JSON format data..."
           rows={12}
           style={{
@@ -314,13 +411,23 @@ function DataTableEditor({ value, onChange, chartType, shouldScrollToEditor }) {
       </div>
 
       {/* Data preview */}
-      {isValid && jsonText.trim() && (
-        <div style={{ marginTop: 8, fontSize: '12px', color: '#666' }}>
-          <Text>Data Preview: {JSON.parse(jsonText).length} records</Text>
-        </div>
-      )}
+      {isValid && jsonText.trim() && (() => {
+        try {
+          const parsed = JSON.parse(jsonText)
+          if (Array.isArray(parsed)) {
+            return (
+              <div style={{ marginTop: 8, fontSize: '12px', color: '#666' }}>
+                <Text>Data Preview: {parsed.length} records</Text>
+              </div>
+            )
+          }
+        } catch (error) {
+          // JSON不完整时忽略错误
+        }
+        return null
+      })()}
     </div>
   )
-}
+})
 
 export default DataTableEditor
