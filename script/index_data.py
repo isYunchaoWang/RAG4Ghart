@@ -3,11 +3,9 @@ from tqdm import tqdm
 
 def load_RWC(base_url: str = "/home/public/dataset-MegaCQA") -> list[dict]:
     import glob, os
-    import pandas as pd
 
     data = []
-    # chart_types = ("bar", "box", "bubble", "funnel", "line")
-    chart_types = ("pie", "radar", "scatter", "stacked_bar", "treemap")
+    chart_types = ("bar", "box", "bubble", "funnel", "line", "pie", "radar", "scatter", "stacked_bar", "treemap")
     for chart_type in chart_types:
         png_paths = glob.glob(f"{base_url}/train/{chart_type}/png/*.png")
         for png_path in tqdm(png_paths, desc=f"Processing {chart_type}", unit="file"):
@@ -137,10 +135,7 @@ def load_Gen(base_url: str = "/home/public/ChartGen-200K/converted") -> list[dic
     import glob, os
 
     data = []
-    # chart_types = ("bubble", "pie", "radar", "stacked_area", "treemap")
-    # chart_types = ("bar", "box", "funnel", "scatter", "stacked_bar")
-    # chart_types = ("bar", "box", "scatter", "bubble", "pie")
-    chart_types = ("funnel", "stacked_bar", "radar", "stacked_area", "treemap")
+    chart_types = ("bar", "box", "bubble", "funnel", "line", "pie", "radar", "scatter", "stacked_bar", "treemap")
     for chart_type in chart_types:
         csv_paths = glob.glob(f"{base_url}/train/{chart_type}/csv/*.csv").sort()
         for csv_path in tqdm(csv_paths, desc=f"Processing {chart_type}", unit="file"):
@@ -168,7 +163,6 @@ def load_Gen(base_url: str = "/home/public/ChartGen-200K/converted") -> list[dic
 
 from modelscope import AutoModel
 import torch
-
 
 def embed_data_BGE_VL_v1_5_zs(data: list[dict]) -> list[dict]:
     """Requires transformers<4.47.0"""
@@ -207,88 +201,88 @@ def embed_data_BGE_VL_v1_5_zs(data: list[dict]) -> list[dict]:
     return data
 
 
-def embed_data_so400m_long_ctx309(data: list[dict], batch_size: int = 4096) -> list[dict]:
-    """批量嵌入，避免一次性塞满显存。Requires transformers>=4.51.0"""
-    from PIL import Image
-    from transformers import SiglipProcessor, SiglipModel
-    from tqdm import tqdm
-
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-
-    model = SiglipModel.from_pretrained(
-        "/home/public/dkx/model/fancyfeast/so400m-long-ctx309",
-        torch_dtype=torch.float16,  # 嵌入时也可以用 fp16 减显存
-        device_map="auto",
-        attn_implementation="sdpa"
-    )
-    model.eval()
-
-    processor = SiglipProcessor.from_pretrained("/home/public/dkx/model/fancyfeast/so400m-long-ctx309")
-
-    # 遍历批次
-    for start in tqdm(range(0, len(data), batch_size), desc="embedding batches"):
-        end = min(start + batch_size, len(data))
-        batch = data[start:end]
-
-        texts = [item["text"] for item in batch]
-        images = [Image.open(item["image_url"]).convert("RGB") for item in batch]
-
-        with torch.no_grad():
-            inputs = processor(
-                text=texts,
-                images=images,
-                padding="max_length",
-                max_length=309,
-                return_tensors="pt"
-            ).to(device)
-
-            outputs = model(**inputs)
-
-            # 写回到原 data 里的对应项
-            for idx, item in enumerate(batch):
-                item["text_dense"] = outputs.text_embeds[idx].detach().cpu().tolist()
-                item["image_dense"] = outputs.image_embeds[idx].detach().cpu().tolist()
-
-    return data
-
-
-def embed_data_Qwen3_Embedding_8B(data: list[dict]) -> list[dict]:
-    def last_token_pool(last_hidden_states: torch.Tensor,
-                        attention_mask: torch.Tensor) -> torch.Tensor:
-        left_padding = (attention_mask[:, -1].sum() == attention_mask.shape[0])
-        if left_padding:
-            return last_hidden_states[:, -1]
-        else:
-            sequence_lengths = attention_mask.sum(dim=1) - 1
-            batch_size = last_hidden_states.shape[0]
-            return last_hidden_states[torch.arange(batch_size, device=last_hidden_states.device), sequence_lengths]
-
-    from modelscope import AutoTokenizer
-    tokenizer = AutoTokenizer.from_pretrained('/home/public/dkx/model/Qwen/Qwen3-Embedding-8B', padding_side='left')
-    from transformers import Qwen3Model
-    model = Qwen3Model.from_pretrained('/home/public/dkx/model/Qwen/Qwen3-Embedding-8B')
-    model.eval()
-    model.cuda()
-
-    import torch.nn.functional as F
-    with torch.no_grad():
-        for datum in tqdm(data, desc="embedding"):
-            batch_dict = tokenizer(
-                [datum.get("text")],
-                padding=True,
-                truncation=True,
-                max_length=8192,
-                return_tensors="pt",
-            )
-            batch_dict.to(model.device)
-            outputs = model(**batch_dict)
-            embeddings = last_token_pool(outputs.last_hidden_state, batch_dict['attention_mask'])
-
-            embeddings = F.normalize(embeddings, p=2, dim=1)
-
-            datum["text_dense"] = embeddings.detach().cpu().tolist()[0]
-
-    return data
+# def embed_data_so400m_long_ctx309(data: list[dict], batch_size: int = 4096) -> list[dict]:
+#     """批量嵌入，避免一次性塞满显存。Requires transformers>=4.51.0"""
+#     from PIL import Image
+#     from transformers import SiglipProcessor, SiglipModel
+#     from tqdm import tqdm
+#
+#     device = "cuda" if torch.cuda.is_available() else "cpu"
+#
+#     model = SiglipModel.from_pretrained(
+#         "/home/public/dkx/model/fancyfeast/so400m-long-ctx309",
+#         torch_dtype=torch.float16,  # 嵌入时也可以用 fp16 减显存
+#         device_map="auto",
+#         attn_implementation="sdpa"
+#     )
+#     model.eval()
+#
+#     processor = SiglipProcessor.from_pretrained("/home/public/dkx/model/fancyfeast/so400m-long-ctx309")
+#
+#     # 遍历批次
+#     for start in tqdm(range(0, len(data), batch_size), desc="embedding batches"):
+#         end = min(start + batch_size, len(data))
+#         batch = data[start:end]
+#
+#         texts = [item["text"] for item in batch]
+#         images = [Image.open(item["image_url"]).convert("RGB") for item in batch]
+#
+#         with torch.no_grad():
+#             inputs = processor(
+#                 text=texts,
+#                 images=images,
+#                 padding="max_length",
+#                 max_length=309,
+#                 return_tensors="pt"
+#             ).to(device)
+#
+#             outputs = model(**inputs)
+#
+#             # 写回到原 data 里的对应项
+#             for idx, item in enumerate(batch):
+#                 item["text_dense"] = outputs.text_embeds[idx].detach().cpu().tolist()
+#                 item["image_dense"] = outputs.image_embeds[idx].detach().cpu().tolist()
+#
+#     return data
+#
+#
+# def embed_data_Qwen3_Embedding_8B(data: list[dict]) -> list[dict]:
+#     def last_token_pool(last_hidden_states: torch.Tensor,
+#                         attention_mask: torch.Tensor) -> torch.Tensor:
+#         left_padding = (attention_mask[:, -1].sum() == attention_mask.shape[0])
+#         if left_padding:
+#             return last_hidden_states[:, -1]
+#         else:
+#             sequence_lengths = attention_mask.sum(dim=1) - 1
+#             batch_size = last_hidden_states.shape[0]
+#             return last_hidden_states[torch.arange(batch_size, device=last_hidden_states.device), sequence_lengths]
+#
+#     from modelscope import AutoTokenizer
+#     tokenizer = AutoTokenizer.from_pretrained('/home/public/dkx/model/Qwen/Qwen3-Embedding-8B', padding_side='left')
+#     from transformers import Qwen3Model
+#     model = Qwen3Model.from_pretrained('/home/public/dkx/model/Qwen/Qwen3-Embedding-8B')
+#     model.eval()
+#     model.cuda()
+#
+#     import torch.nn.functional as F
+#     with torch.no_grad():
+#         for datum in tqdm(data, desc="embedding"):
+#             batch_dict = tokenizer(
+#                 [datum.get("text")],
+#                 padding=True,
+#                 truncation=True,
+#                 max_length=8192,
+#                 return_tensors="pt",
+#             )
+#             batch_dict.to(model.device)
+#             outputs = model(**batch_dict)
+#             embeddings = last_token_pool(outputs.last_hidden_state, batch_dict['attention_mask'])
+#
+#             embeddings = F.normalize(embeddings, p=2, dim=1)
+#
+#             datum["text_dense"] = embeddings.detach().cpu().tolist()[0]
+#
+#     return data
 
 
 from pymilvus import MilvusClient, DataType, CollectionSchema
@@ -302,81 +296,80 @@ def insert_data_BGE_VL_v1_5_zs(data: list[dict], collection_name: str):
         batch = data[i:i + batch_size]
         client.insert(collection_name=collection_name, data=batch)
 
-
-def insert_data_so400m_long_ctx309(schema: CollectionSchema, data: list[dict]):
-    print("inserting...")
-    schema.add_field(
-        field_name="text_dense",
-        datatype=DataType.FLOAT_VECTOR,
-        dim=1152
-    )
-
-    schema.add_field(
-        field_name="image_dense",
-        datatype=DataType.FLOAT_VECTOR,
-        dim=1152
-    )
-
-    index_params = client.prepare_index_params()
-
-    # 3.4. Add indexes
-    index_params.add_index(
-        field_name="text_dense",
-        index_name="text_dense_index",
-        index_type="AUTOINDEX",
-        metric_type="IP"
-    )
-
-    index_params.add_index(
-        field_name="image_dense",
-        index_name="image_dense_index",
-        index_type="AUTOINDEX",
-        metric_type="IP"
-    )
-
-    if client.has_collection(collection_name="so400m_long_ctx309"):
-        client.drop_collection(collection_name="so400m_long_ctx309")
-    client.create_collection(
-        collection_name="so400m_long_ctx309",
-        schema=schema,
-        index_params=index_params
-    )
-
-    batch_size = 500
-    for i in range(0, len(data), batch_size):
-        batch = data[i:i + batch_size]
-        client.insert(collection_name="so400m_long_ctx309", data=batch)
-
-
-def insert_data_Qwen3_Embedding_8B(schema: CollectionSchema, data: list[dict]):
-    schema.add_field(
-        field_name="text_dense",
-        datatype=DataType.FLOAT_VECTOR,
-        dim=4096
-    )
-
-    index_params = client.prepare_index_params()
-
-    # 3.4. Add indexes
-    index_params.add_index(
-        field_name="text_dense",
-        index_name="text_dense_index",
-        index_type="AUTOINDEX",
-        metric_type="IP"
-    )
-
-    if client.has_collection(collection_name="Qwen3_Embedding_8B"):
-        client.drop_collection(collection_name="Qwen3_Embedding_8B")
-    client.create_collection(
-        collection_name="Qwen3_Embedding_8B",
-        schema=schema,
-        index_params=index_params
-    )
-
-    batch_size = 500
-    for i in range(0, len(data), batch_size):
-        batch = data[i:i + batch_size]
-        client.insert(collection_name="Qwen3_Embedding_8B", data=batch)
+# def insert_data_so400m_long_ctx309(schema: CollectionSchema, data: list[dict]):
+#     print("inserting...")
+#     schema.add_field(
+#         field_name="text_dense",
+#         datatype=DataType.FLOAT_VECTOR,
+#         dim=1152
+#     )
+#
+#     schema.add_field(
+#         field_name="image_dense",
+#         datatype=DataType.FLOAT_VECTOR,
+#         dim=1152
+#     )
+#
+#     index_params = client.prepare_index_params()
+#
+#     # 3.4. Add indexes
+#     index_params.add_index(
+#         field_name="text_dense",
+#         index_name="text_dense_index",
+#         index_type="AUTOINDEX",
+#         metric_type="IP"
+#     )
+#
+#     index_params.add_index(
+#         field_name="image_dense",
+#         index_name="image_dense_index",
+#         index_type="AUTOINDEX",
+#         metric_type="IP"
+#     )
+#
+#     if client.has_collection(collection_name="so400m_long_ctx309"):
+#         client.drop_collection(collection_name="so400m_long_ctx309")
+#     client.create_collection(
+#         collection_name="so400m_long_ctx309",
+#         schema=schema,
+#         index_params=index_params
+#     )
+#
+#     batch_size = 500
+#     for i in range(0, len(data), batch_size):
+#         batch = data[i:i + batch_size]
+#         client.insert(collection_name="so400m_long_ctx309", data=batch)
+#
+#
+# def insert_data_Qwen3_Embedding_8B(schema: CollectionSchema, data: list[dict]):
+#     schema.add_field(
+#         field_name="text_dense",
+#         datatype=DataType.FLOAT_VECTOR,
+#         dim=4096
+#     )
+#
+#     index_params = client.prepare_index_params()
+#
+#     # 3.4. Add indexes
+#     index_params.add_index(
+#         field_name="text_dense",
+#         index_name="text_dense_index",
+#         index_type="AUTOINDEX",
+#         metric_type="IP"
+#     )
+#
+#     if client.has_collection(collection_name="Qwen3_Embedding_8B"):
+#         client.drop_collection(collection_name="Qwen3_Embedding_8B")
+#     client.create_collection(
+#         collection_name="Qwen3_Embedding_8B",
+#         schema=schema,
+#         index_params=index_params
+#     )
+#
+#     batch_size = 500
+#     for i in range(0, len(data), batch_size):
+#         batch = data[i:i + batch_size]
+#         client.insert(collection_name="Qwen3_Embedding_8B", data=batch)
 
 
 if __name__ == "__main__":
